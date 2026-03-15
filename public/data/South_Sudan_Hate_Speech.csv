@@ -1,0 +1,501 @@
+platform,post_author_id,post_author_name_pi,post_comment_count,post_date,post_datetime,post_gather_id,post_id,post_like_count,post_link_pi,post_share_count,post_text_pi,comment_author_id,comment_author_name_pi,comment_date,comment_datetime,comment_gather_id,comment_id,comment_like_count,comment_link_pi,comment_parent_post_id,comment_replied_to_id,comment_text_pi,tiktok_post_plays,x_comment_is_quote,x_comment_is_reply,country,gather_topic,content_topic,primary_topic,phoenix_processed_at,phoenix_job_run_id,prob_afxumo,prob_not_afxumo,prob_toxicity,prob_severe_toxicity,prob_insult,prob_identity_attack,prob_threat,prob_sexually_explicit,prob_flirtation,topic_COUNTER_VE_LABELS,topic_HS_ANTI_FOREIGN,topic_HS_CASTE_RACISM,topic_HS_CLAN_HIERARCHY,topic_HS_CLAN_TARGETING,topic_HS_DEHUMANISATION_TARGETING,topic_HS_DEHUMANISE_MEDIA_TRUST,topic_HS_FACTIONAL_ATTACKS_AND_BETRAYAL,topic_HS_GBOV_GENDERED,topic_PEACE_CALLS_FOR_PEACE,topic_PEACE_INDIGENOUS_MECHANISMS,topic_PEACE_MEDIA_LITERACY_COUNTER_RUMOUR,topic_PEACE_RECONCILIATION_FORGIVENESS,topic_PEACE_TRADITIONAL_MEDIATION,topic_PEACE_UNITY_HEALING,topic_PEACE_WOMEN_VICTIM_SURVIVOR_VOICES,topic_RM_ATROCITY_PLANNING_RUMOURS,topic_VE_ATROCITY_AERIAL_AND_ATTACKS,topic_VE_CODED_YOUTH_REFERENCES,topic_VE_MILITIA_MOBILISATION,topic_VE_OPERATIONAL_ESCALATION,topic_VE_RECRUITMENT_COERCION,topic_VE_RELIGIOUS_JUSTIFICATION,topic_VE_SELF_REFERENCE_TERMS,topic_VE_TAKFIR_DEHUMANISE,topic_counter_disinfo_correction,topic_delegitimisation_anti_state,topic_explicit_violence_or_attack,topic_gendered_hate_or_humiliation,topic_grievance_victimhood,topic_interfaith_peace,topic_misdisinfo_rumour_conspiracy,topic_peace_cohesion_counter,topic_reconciliation_forgiveness,topic_religious_justification_takfir,topic_retaliation_mobilisation,topic_sectarian_or_religious_incitement,topic_sexualised_harm_or_humiliation,topic_unity_cohesion,topic_ve_attack_tactics,topic_ve_crossborder_diaspora,topic_ve_group_branding,topic_ve_propaganda_recruitment,topic_ve_recruitment_or_hijrah,topic_HS_MTN_CODED_METAPHOR_REVIEW,topic_RM_FINANCING_REQUESTS,topic_VE_ARABIC_PEACE_OR_WAR_TERMS_REVIEW,topic_VE_FINANCING_COORDINATION,topic_direct_threats_intimidation,topic_doxxing_or_personal_data_cues,topic_ve_bayah_affiliation,topic_HS_MILITARISATION_STEREOTYPE_MATHIANG_ANYOR,topic_VE_SECURITY_DELEGITIMATION_SPY_CLAIMS,topic_PEACE_HASHTAG_CAMPAIGNS,topic_nonviolence_deescalation,topic_expulsion_or_ethnic_cleansing_cues,topic_PEACE_ORG_REFERENCES,topic_PEACE_SYMBOLIC_SLOGANS,topic_HS_ETHNIC_SCAPEGOATING_JIENGE_CLUSTER,topic_HS_NATIONAL_IDENTITY_ANTI_ARAB_FRAMING,topic_HS_REGIONALISM_KOKORA,topic_HS_RETURN_DIASPORA_STIGMA,topic_coded_slurs_ethnic,topic_hate_slurs_or_coded,topic_identity_incitement_dehumanisation,EA_HS_Normal,EA_HS_Abusive,EA_HS_Hate,EA_HS_pred,EA_HS_conf,Polarization_Kenya_not_polarization,Polarization_Kenya_polarization,Afxumo_Somali_not_afxumo,Afxumo_Somali_afxumo,HateSpeech_Sudan_not_hate_speech,HateSpeech_Sudan_hate_speech,HateSpeech_Sudan_pred,HateSpeech_Sudan_conf,post_author_category,post_author_class,post_author_description_pi,post_author_followers_count,post_author_location,post_author_link_pi,post_class,comment_author_class,comment_class,facebook_video_views,x_post_retweeted_id,post_id_parent,post_text_pi_parent,post_author_id_parent,post_author_name_pi_parent,post_date_parent,post_datetime_parent,post_gather_id_parent,post_like_count_parent,post_share_count_parent,post_comment_count_parent,post_link_pi_parent,post_author_category_parent,post_author_class_parent,post_class_parent,platform_post,Polarization_Kenya_pred,Polarization_Kenya_conf,Afxumo_Somali_pred,Afxumo_Somali_conf
+x,b6101a29-b8a0-cc9d-c9af-b4cad318240a,ForksOverKnives,3.0,2017-07-08,2017-07-08 15:02:20 UTC,1307.0,02186edf-90c0-0f93-e0a6-0087ff01e9a6,66.0,https://x.com/ForksOverKnives/status/883702799028154368,15.0,Sweet potatoes &amp; ginger are just two of the ingredients that make this #vegan African Yam Stew so savory. https://t.co/HyPU0nZ2IA https://t.co/ZLBnL94VFw,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996800422668456,0.0002272965357406,9.273680188925935e-05,Normal,0.9996800422668456,,,,,0.9988217949867249,0.0011782090878114,not_hate_speech,0.9988217949867249,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,6f7dada3-e318-132c-e6dc-800c39692ff4,nigel_waleazy,100.0,2019-09-16,2019-09-16 13:38:47 UTC,1307.0,759c7a77-88e3-e4fc-ad27-8a7cc5c6ab8a,548.0,https://x.com/nigel_waleazy/status/1173592067865567232,69.0,"Africans lets have it share with us your favorite home dish... and your native country.  
+
+Me: 
+Sadza beef stew and veggies 
+
+Zimbabwe 🇿🇼 https://t.co/175hZKzLpg",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996170997619628,0.0002551959187258,0.000127603605506,Normal,0.9996170997619628,,,,,0.9983729124069214,0.0016270151827484,not_hate_speech,0.9983729124069214,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,357190cc-2aba-1116-37e0-171882f685e5,Dehkunle,160.0,2019-12-26,2019-12-26 14:04:19 UTC,1307.0,86fcb228-52d8-2779-fbb5-8cbba01f955a,892.0,https://x.com/Dehkunle/status/1210199668132589570,112.0,Am I the only one who thinks pounded yam is overrated ? what’s special in it that makes it favorite of almost all tribes in Nigeria ?,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9970881342887878,0.0023849855642765,0.0005268868990242,Normal,0.9970881342887878,,,,,0.998884618282318,0.0011154286330565,not_hate_speech,0.998884618282318,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,acf8cd6b-93f3-ea80-6211-03a8cbef2d64,DrMehari,49.0,2021-02-22,2021-02-22 19:08:33 UTC,1307.0,6dfd68b7-2191-ad4d-3133-4b3009c71cfe,451.0,https://x.com/DrMehari/status/1363928685250818048,477.0,"Thread
+
+1. Credible reports are emerging that @UnitedNations peacekeepers of Tigrayan origin deployed as part of Ethiopian contingents of @unmissmedia in South Sudan are forcibly returned to Ethiopia, some physically abused @UNHCR @UNPeacekeeping  @flippograndi, @antonioguterres",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9965031147003174,0.0029797616880387,0.00051709508989,Normal,0.9965031147003174,,,,,0.9984180927276612,0.0015818643150851,not_hate_speech,0.9984180927276612,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,6f464052-0969-b005-d71b-a53738d5a372,NatyYifru,38.0,2021-07-30,2021-07-30 00:19:03 UTC,1307.0,4a2932d9-b695-5e61-185d-9a297a9a7a06,217.0,https://x.com/NatyYifru/status/1420901719618293760,131.0,"❗Thread 1
+Today, news came out that large number of #Kimant population, terrorized by #Amhara Regional State have crossed to #Sudan.
+For many, who don't know who Kimant are this thread shades some light.",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9893292784690856,0.0080498466268181,0.002620929153636,Normal,0.9893292784690856,,,,,0.998264491558075,0.0017355342861264,not_hate_speech,0.998264491558075,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,27e5366d-54fa-5ba2-9ad4-a3817ad10dd6,dagiulstein,19.0,2021-08-22,2021-08-22 17:18:52 UTC,1307.0,1b58b6ca-4050-7cd1-04c6-b06cda584439,176.0,https://x.com/dagiulstein/status/1429493286130040833,46.0,"The influx of refugees from Tigray is affecting the east of Sudan, already in a fragile hum. &amp; pol. situation. 
+Impressed by the hospitality of the host community in Um Rakuba, Sudan. https://t.co/e49BknXcAj",,,,,,,,,,,,,,,South Sudan,Hate Speech,Other,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9993995428085328,0.0004381373582873,0.0001623103162273,Normal,0.9993995428085328,,,,,0.9990789890289308,0.0009209412964992,not_hate_speech,0.9990789890289308,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,cf2bfb67-6f95-4555-fee7-7c37ab7b2b4d,SekayiTigere,21.0,2021-10-10,2021-10-10 18:48:24 UTC,1307.0,97a32430-45db-64bf-d668-5e156a7c4cf6,210.0,https://x.com/SekayiTigere/status/1447272823404253193,28.0,If they’ve never had nshima with relish as the main then nshima with sour milk for desert 🚩 🚩🚩🚩🚩,,,,,,,,,,,,,,,South Sudan,Hate Speech,Other,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9993131160736084,0.0003799934056587,0.0003069254162255,Normal,0.9993131160736084,,,,,0.9985966086387634,0.0014034120831638,not_hate_speech,0.9985966086387634,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,1f0fda11-2e1a-f60a-e86c-4da2e9af3ded,Jibako44,3.0,2022-07-15,2022-07-15 17:13:27 UTC,1307.0,4b6cd379-baf9-90c8-13f5-405e0d62a3cb,161.0,https://x.com/Jibako44/status/1547992754818453515,393.0,"#TigrayCantWait #EritreanTroopsOutOfTigray @Refugees I was a refugee in the Sudan in the 1980s,as refugees we had food housing clinics and churches and mosques. The UNHCR did very well. It worked our resettlement programs. The same effort is not happening now. what changed?",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9992042183876038,0.0005238926387391,0.0002719474723562,Normal,0.9992042183876038,,,,,0.9988401532173156,0.00115985609591,not_hate_speech,0.9988401532173156,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,1c7c8e56-17f7-a4e3-0bbb-ad2d13d31d26,Care4Calais,87.0,2022-08-20,2022-08-20 14:14:23 UTC,1307.0,74c7f8f5-e6e2-fd5c-a2a8-b1bab80f4576,2383.0,https://x.com/Care4Calais/status/1560993654252208128,201.0,"Today we had some truly brilliant news. Kamal, a 22-year-old Sudanese refugee whose been in detention for two months under threat of being sent to Rwanda, has finally been freed. https://t.co/el75EhyNyk",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9997019171714784,0.0002010379539569,9.706534183351324e-05,Normal,0.9997019171714784,,,,,0.9991762042045592,0.0008237757137976,not_hate_speech,0.9991762042045592,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,ee547b36-b4db-64c9-8e81-218b895fe40f,KakwenzaRukira,88.0,2022-10-13,2022-10-13 09:23:55 UTC,1307.0,85b7996c-e7cb-2b36-c3b5-d46bbc542e74,850.0,https://x.com/KakwenzaRukira/status/1580489500509163520,63.0,Kakwenza “smuggles” family out of Uganda via Kenya https://t.co/H2VWcCPwQn,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,high,,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9175274968147278,0.0705386027693748,0.0119338659569621,Normal,0.9175274968147278,,,,,0.9990861415863036,0.0009138619061559,not_hate_speech,0.9990861415863036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,2d54a9ee-4dd9-e5a0-00e7-95e2099c703d,eraytee7,90.0,2022-11-05,2022-11-05 06:59:25 UTC,1307.0,c795ba11-c704-2d25-fc5a-928238f15f82,212.0,https://x.com/eraytee7/status/1588788054780968961,147.0,"You are attending an “Owambe” which of these menus are you going for?
+
+A. Pounded yam + egusi soup 
+B. Banga soup + garri
+C. Amala + gbegiri &amp;ewedu soup
+D. Fufu + Oha soup
+
+Let’s have it 👇🏽👇🏽👇🏽 https://t.co/wuvwxnsvVi",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9995263814926147,0.0003296108334325,0.0001440927444491,Normal,0.9995263814926147,,,,,0.937227725982666,0.0627723038196563,not_hate_speech,0.937227725982666,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,431f83de-7511-6cc9-ca65-997a681a2bfe,Mukulaa,49.0,2022-12-22,2022-12-22 07:48:19 UTC,1307.0,11710d74-3703-82c4-f65b-f3ac4d6e953e,547.0,https://x.com/Mukulaa/status/1605832590572851201,63.0,"KENYA 🇰🇪- KISUMU city here we come,we anchored early this morning 14 hours at the port waiting to dock at the ⁦@kenyapipeline⁩ side waiting to be served and loaded up for our return journey and voyage to uganda 🇺🇬 ⁦#Mtkabakamutebi2 https://t.co/C5PfuP6bpv",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9995812773704528,0.0002358705678489,0.0001829274988267,Normal,0.9995812773704528,,,,,0.9987661838531494,0.0012338403612375,not_hate_speech,0.9987661838531494,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,959928f0-5ac2-a6ec-cd18-31545c283e5b,woye1,44.0,2023-04-21,2023-04-21 04:10:47 UTC,1307.0,43c97791-7cfc-b86d-57cc-f1c1d27efa23,531.0,https://x.com/woye1/status/1649264390338760704,263.0,"People of Sudan are coming to Kano,Sokoto, Maiduguri, Kebbi, Katsina viaChad, Niger Republic and Cameroon. I do hope @FMHDSD @nemanigeria are ready for new refugees. Also, wake up @ncfrmi_ng @nidcom_gov @PoliceNG @NigeriaMFA @OfficialDSSNG @CustomsNG to follow up. Nigeria is a",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,high,,low,low,low,medium,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9912312626838684,0.0071345306932926,0.0016341914888471,Normal,0.9912312626838684,,,,,0.9987561702728271,0.0012438554549589,not_hate_speech,0.9987561702728271,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,1de78e1a-6e8c-3d99-39ad-eabb2800cefd,HuduHussein,196.0,2023-04-27,2023-04-27 04:37:58 UTC,1307.0,93ef4d98-6795-01ec-f9c6-1c3f787f4a96,835.0,https://x.com/HuduHussein/status/1651445559318683649,112.0,"Today morning, General @mkainerugaba received 211 Ugandans evacuated from the Republic of Sudan. Welcome back home.
+#longliveMK 🇺🇬 https://t.co/7GmqQP1eLQ",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.99970144033432,0.000201805436518,9.672735905041918e-05,Normal,0.99970144033432,,,,,0.998866081237793,0.0011338994372636,not_hate_speech,0.998866081237793,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,8c94cda8-3521-7816-403c-5c8b309d0308,nma_black,217.0,2023-05-02,2023-05-02 13:59:20 UTC,1307.0,3f2f64aa-ee5e-982e-3f5d-8fa3f35d1b02,526.0,https://x.com/nma_black/status/1653398772678811653,110.0,"Frame 1 - yam and garden egg sauce
+Frame 2 - yam and egg sauce 
+Frame 3 - plantain/yam with egg sauce 
+Frame 4 - sweet potato and fish sauce 
+
+Make your choice 😊 https://t.co/tmfMzpsXhY",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9997215867042542,0.0001901746436487,8.820373477647081e-05,Normal,0.9997215867042542,,,,,0.9988178610801696,0.001182104111649,not_hate_speech,0.9988178610801696,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,b3215738-2ac8-62dc-6ca1-a4b1d82e0413,RachelStrohm,20.0,2023-05-29,2023-05-29 12:13:46 UTC,1307.0,35a02e17-49c3-ed57-3c53-92186b83d7fd,226.0,https://x.com/RachelStrohm/status/1663156678009962497,88.0,"In a huge about-face from the previous administration's refugee policy, the gov't in #Kenya has agreed to give the Dadaab and Kakuma refugee camps the status of cities, and allow refugees to work within them (by Mary Wambui at @The_EastAfrican)  https://t.co/fngejVkDF0",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996009469032288,0.0002730986452661,0.000125939346617,Normal,0.9996009469032288,,,,,0.998890459537506,0.0011096125235781,not_hate_speech,0.998890459537506,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,a0136b53-8bae-1375-c5cb-1d5d76652559,citizentvkenya,186.0,2023-08-29,2023-08-29 10:13:05 UTC,1307.0,e456577c-b444-f1ed-6213-3841174086f3,787.0,https://x.com/citizentvkenya/status/1696465990442213732,274.0,"“Hatuwezisindikizwa na kifaru kama bangi, cocaine ama heroine,” North Eastern teachers camp at TSC HQs in Nairobi, demand transfer over insecurity https://t.co/Ymn2HcJ8gP",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,high,,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.998979389667511,0.000647684035357,0.0003728061856236,Normal,0.998979389667511,,,,,0.9989402890205384,0.0010597546352073,not_hate_speech,0.9989402890205384,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,f6fd2eba-3378-311c-3023-fd4434911588,Refugees,36.0,2023-10-22,2023-10-22 16:01:12 UTC,1307.0,8b6c27ab-e19f-ea4f-340d-e26f271feded,302.0,https://x.com/Refugees/status/1716122543176757342,129.0,"🚨The conflict is Sudan is still going on.🚨
+
+With no sign of an end to the fighting, the crisis threatens to consume the country and destabilize the region. https://t.co/I4lN63VID1 https://t.co/2Ytb5bIRys",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9986107349395752,0.0009513378026895,0.0004377842415124,Normal,0.9986107349395752,,,,,0.9991894364356996,0.0008105341112241,not_hate_speech,0.9991894364356996,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,45ba4c4d-7dd0-b7a7-ca12-fc49ae500255,chef_amakaa,49.0,2023-11-27,2023-11-27 06:52:26 UTC,1307.0,b7f5a888-e5f9-bf07-1e36-bcbcd1d79fbb,345.0,https://x.com/chef_amakaa/status/1729030404353790196,58.0,"Yam and KuliKuli
+
+Such great combo. Spicy, nutty and soft in the mouth. There is less to say about this dish sha😁
+
+Kulikuli Yam balls/ Pineapple Concoction sauce/ Stirfried Onions and Zucchini 
+
+#afrofusion 
+
+Music credit: Eluzai- Stompin Demons https://t.co/DDJABc9Itx",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9997063279151917,0.0001943398237926,9.92297354969196e-05,Normal,0.9997063279151917,,,,,0.9979931116104126,0.0020068627782166,not_hate_speech,0.9979931116104126,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,13e4e7db-55a7-a943-f84e-3681d0eebe4f,SisiSimifoodies,44.0,2023-12-06,2023-12-06 06:49:57 UTC,1307.0,07e5fde3-d402-fc5f-4d90-d64452fb0bb9,545.0,https://x.com/SisiSimifoodies/status/1732291270272311506,87.0,"Yam with Fish Sauce, Always a hit! 
+
+Do you gree🌚 https://t.co/WasZYZ3OfB",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996670484542848,0.0002363445237278,9.67016094364226e-05,Normal,0.9996670484542848,,,,,0.9985948204994202,0.0014051420148462,not_hate_speech,0.9985948204994202,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,6e352029-bf47-a127-d5de-278400fa67ce,Northernghana,24.0,2024-01-06,2024-01-06 20:00:40 UTC,1307.0,ba0e580e-c3c4-092d-8611-615ccdf5b10f,313.0,https://x.com/Northernghana/status/1743724284512452949,72.0,"Northern Ghana
+
+This is not Waakye but Wasawasa. 
+
+Wasawasa is a local delicacy,  made from dried yam peelings called jaling, which have been grounded into flour and steamed. Wasawasa is mostly eaten with spicy sauces and sometimes garnished with vegetables, . https://t.co/Kj7OI5deHd",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9995028972625732,0.0003338906099088,0.000163183096447,Normal,0.9995028972625732,,,,,0.9981295466423036,0.0018704222748056,not_hate_speech,0.9981295466423036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,73f9015c-6fbe-fa54-48ab-1f95f275dfb4,Kizu_Kagoshima,24.0,2024-01-14,2024-01-14 21:00:04 UTC,1307.0,4b4d2b49-e121-d725-a739-67efc6cc1f57,851.0,https://x.com/Kizu_Kagoshima/status/1746638335492469183,105.0,"1/15 月
+おはようございます、
+#世界旅気分のお時間です 🌍
+
+【 ガボン共和国 】
+赤道直下 中部アフリカ西岸
+
+📸 郷土料理 チキンムアンバ
+鶏モモ肉とナッツのトマト煮
+CNN「世界美食ランキング50」の
+  10位となったこともある料理
+
+Local cuisine
+  using chicken thighs 🐔
+🇬🇦 Gabonese Republic https://t.co/jzAtExyKRL",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9997188448905944,0.0001761885068845,0.0001050192149705,Normal,0.9997188448905944,,,,,0.9988116025924684,0.0011884317500516,not_hate_speech,0.9988116025924684,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,3e6f6801-e57c-9c51-e71c-6e15525090d2,AJEnglish,15.0,2024-02-21,2024-02-21 08:15:03 UTC,1307.0,06f1992f-13ab-a88d-7a14-4777fdc342cc,315.0,https://x.com/AJEnglish/status/1760216549041049799,135.0,Sudanese refugees face gruelling wait in overcrowded South Sudan camps — in pictures https://t.co/Cl77MHGANT https://t.co/btkz3xMRW9,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9994889497756958,0.0003914153494406,0.0001195945151266,Normal,0.9994889497756958,,,,,0.9990986585617064,0.0009013453964143,not_hate_speech,0.9990986585617064,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,8e3a8f8f-c14b-f2d4-001e-7597228a2174,masayasan201911,4916.0,2024-05-13,2024-05-13 00:56:31 UTC,1307.0,82224430-7279-7cfe-b74f-18c1304a0d25,109030.0,https://x.com/masayasan201911/status/1789821994088727026,22208.0,(聴こえますか、アラブやパキスタン、イラン等にいるインプレゾンビのみなさん、、、カタコトでもいいので日本語でしゃべりながら地元の料理や音楽をカメラで撮ったもの、自分の日本語学習進捗をXにアップロードしインプレを稼ぐのです、、、そちらのほうがハラールです),,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0009118785965256,0.9983955025672911,0.0006925935740582,Abusive,0.9983955025672911,,,,,0.998668909072876,0.0013310874346643,not_hate_speech,0.998668909072876,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,030c4a5d-911e-0cb1-e76c-ae9c04917f97,DanielRegha,800.0,2024-05-22,2024-05-22 16:49:56 UTC,1307.0,7bdc8587-e7fa-60ad-b9e3-ad08c39c6578,2763.0,https://x.com/DanielRegha/status/1793323420349866089,130.0,"Roasted yam, with palm oil sauce prepared with ugba &amp; utazi; Good food!..😊 https://t.co/j8LQm1obkp",,,,,,,,,,,,,,,South Sudan,Hate Speech,Other,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9994947910308838,0.0003886531922034,0.0001165442663477,Normal,0.9994947910308838,,,,,0.9989020824432372,0.00109785690438,not_hate_speech,0.9989020824432372,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,fcaff983-2d38-12eb-acf7-9733fa28ff7f,BSonblast,35.0,2024-05-28,2024-05-28 20:55:44 UTC,1307.0,f371e54e-b81b-023d-ceaa-21352084b519,415.0,https://x.com/BSonblast/status/1795559606032154978,399.0,"UNHCR Ethiopia just released a statement saying basically “we tried to help them but they didn’t want it. 
+
+Now they should come back to the camp and we will work out a police station to put there.”
+
+Idk what to say. Idk what to say. https://t.co/gxjHA9PeOz
+
+#KeepEyesOnSudan",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9992733597755432,0.0005367822595871,0.0001898625341709,Normal,0.9992733597755432,,,,,0.9990851879119872,0.0009148660465143,not_hate_speech,0.9990851879119872,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,fcaff983-2d38-12eb-acf7-9733fa28ff7f,BSonblast,5.0,2024-05-30,2024-05-30 20:52:45 UTC,1307.0,80da7b74-d374-7b53-efdb-955836702454,566.0,https://x.com/BSonblast/status/1796283630031094065,437.0,"CORRECTION ⚠️
+
+Deleted this tweet due to innacurate info —  the refugees have not yet been able to get supplies to their makeshift camp, but efforts are underway to do so now that they have received some funds. 
+
+Check the next tweet in the 🧵 for full update.
+
+#KeepEyesOnSudan https://t.co/kN0tPByrZf",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.999204695224762,0.0006201259093359,0.0001751899835653,Normal,0.999204695224762,,,,,0.9991881251335144,0.000811880279798,not_hate_speech,0.9991881251335144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,a0136b53-8bae-1375-c5cb-1d5d76652559,citizentvkenya,317.0,2024-06-21,2024-06-21 01:01:59 UTC,1307.0,6989f5fd-4b17-894d-6c67-02c09715e37d,339.0,https://x.com/citizentvkenya/status/1803956498579530051,63.0,"Relief for over 700,000 refugees as Daadab, Kakuma camps to be integrated into local communities https://t.co/Y6RIokGYyK",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,high,,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9994829893112184,0.0003359677793923,0.000181030947715,Normal,0.9994829893112184,,,,,0.9989963173866272,0.0010036960011348,not_hate_speech,0.9989963173866272,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,13e4e7db-55a7-a943-f84e-3681d0eebe4f,SisiSimifoodies,82.0,2024-07-20,2024-07-20 16:34:14 UTC,1307.0,dd9f6fdd-c2e8-3846-6c06-6e633a5e4210,485.0,https://x.com/SisiSimifoodies/status/1814700352127541652,91.0,"What’s your yam combo 
+
+Yam with fish vegetable sauce 
+Yam with Beans 
+Yam with Egg sauce 
+Yam with Garden egg sauce https://t.co/37OnMYrbkn",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996296167373656,0.0002570231154095,0.0001132890611188,Normal,0.9996296167373656,,,,,0.997011661529541,0.0029883773531764,not_hate_speech,0.997011661529541,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,c1e5e473-86ef-3790-1b46-6daf70b7dd09,aproko_doctor,508.0,2024-07-24,2024-07-24 15:41:34 UTC,1307.0,5d70475a-a9d9-137e-07ef-6cfe06299f15,1824.0,https://x.com/aproko_doctor/status/1816136651560870019,222.0,What is macaroni doing inside salad? What sort of rubbish is this abeg?,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,medium,low,medium,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0046317758969962,0.9944602251052856,0.0009079189621843,Abusive,0.9944602251052856,,,,,0.9989510774612428,0.001048908336088,not_hate_speech,0.9989510774612428,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,facc8727-0c06-a73c-0be4-eebda94238ec,Kasuku256,18.0,2024-07-31,2024-07-31 19:34:10 UTC,1307.0,7b163383-45d0-1ccf-3935-5658c0501570,248.0,https://x.com/Kasuku256/status/1818731903706398736,13.0,Looks like USA has come for the kill today naye the South Sudanese a not food,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,medium,low,low,medium,medium,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0194431021809577,0.7056569457054138,0.2748998999595642,Abusive,0.7056569457054138,,,,,0.9983862638473512,0.001613785047084,not_hate_speech,0.9983862638473512,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,f71157ed-3481-579b-02b0-ce1e2828286f,HkZuk,78.0,2024-08-08,2024-08-08 06:41:01 UTC,1307.0,ace47d61-60b5-601e-2200-aacbd0104868,494.0,https://x.com/HkZuk/status/1821436434978386152,480.0,"صباح اليوم الـ ١٠٠ في غابات اولالا بدولة اثيوبيا في هذه الاثناء يتحرك اللاجئين السودانيين ويتركون الغابة بعد ان فقدوا فيها أرواحًا وعانوا ما عانوا، يأسوا من الإنتظار وعدم الاستجابة والآن سيتوجهون عبر اقدامهم نحو المتمة، ربما سيستغرق ثلاثة أيام مشي.
+
+#السودانيين_العالقين_بإثيوبيا https://t.co/51GjTI4DbZ",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.999742329120636,0.0001498262281529,0.0001078215645975,Normal,0.999742329120636,,,,,0.999459445476532,0.0005405293777585,not_hate_speech,0.999459445476532,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,95245cee-ceab-aac5-c8ca-c04c19a4f1e7,aiko_in_africa,10.0,2024-08-30,2024-08-30 18:44:46 UTC,1307.0,a3e36d7b-a35f-f27f-7606-2c198b34f849,461.0,https://x.com/aiko_in_africa/status/1829591105232654461,5.0,"アフリカに12年暮らしていると、塊肉を半解凍して薄切り、丸ごとの牛タンを買って捌き、片栗粉と小麦粉で麺から冷麺を手作りして、コンゴにいてもおうち焼き肉ができるようになるのです（※夫が）👨🏻‍🍳
+
+◉上タン塩
+◉牛タン塩
+◉豚カルビ
+◉牛リブロース
+◉牛フィレ
+◉ミニ冷麺 https://t.co/srMPuBsvWQ",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9997038245201112,0.0001902215008158,0.0001059932183125,Normal,0.9997038245201112,,,,,0.9985842704772948,0.0014157006517052,not_hate_speech,0.9985842704772948,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,4d573d1b-8621-5824-619d-9a87dd92a601,JekapOmod,4.0,2025-11-27,2025-11-27 16:04:03 UTC,1307.0,fa560a91-f8d4-bb14-a165-3421cf40566c,12.0,https://x.com/JekapOmod/status/1994074753422762266,2.0,"These South Sudanese terrorists now see the government of #Ethiopia as weak, and they are planning to take advantage of that and carry on with their mission, including killing the Highlanders in the region this coming dry season. If the government is sleeping, they’ll wake up with a surprise massacre VERY SOON! 
+
+When you react to this planned deadly massacre in a certain way, they’ll use your response as evidence of genocide against them in Ethiopia. The claims of “Two genocides committed by South Sudan and Ethiopia against one tribe” will guarantee them a new Naath Country.
+
+Just watch with plan carried forward!",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,medium,low,medium,medium,medium,low,medium,,0.0,,,,1.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,1.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0013624718412756,0.0202213916927576,0.9784160852432252,Hate,0.9784160852432252,,,,,0.9990671277046204,0.0009329360327683,not_hate_speech,0.9990671277046204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,5bd39fbc-ae39-4dce-ae08-ffa0748b65f0,business,6.0,2025-11-28,2025-11-28 05:02:56 UTC,1307.0,b1b42ef7-61e1-5fe8-114b-ce1ba3597b84,9.0,https://x.com/business/status/1994270764380397897,2.0,"US and Western aid cuts have left hundreds of thousands of refugees in Kenya’s Kakuma camp facing hunger, disease, and rising violence — a stark sign of how Trump’s policies are rippling through the world’s most vulnerable communities. https://t.co/GpLMR0L1q9",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9844928979873656,0.0137350494042038,0.0017720421310514,Normal,0.9844928979873656,,,,,0.999118983745575,0.0008809700375422,not_hate_speech,0.999118983745575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,8b8f4273-7d54-c652-539d-62937a598045,Yaveona Long,1.0,2025-11-30,2025-11-30 00:00:05 UTC,1326.0,927e0169-3970-9e3d-2542-f123d4b51243,0.0,https://www.facebook.com/tutu.martinez.336/posts/pfbid0ZaGeYKCxZixT6BfkQ3VXiBKdfZQD5gPtFgc28Wdc62CXsQ7xZQCyphLJDBbKYYYml,1.0,Wow 🥹🥹🥹🥹,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.999172866344452,0.0006523648044094,0.0001747645728755,Normal,0.999172866344452,,,,,0.9991631507873536,0.0008368794224224,not_hate_speech,0.9991631507873536,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,67584165-2843-6a36-051c-48be9c0af1a2,Maymoonatu Muhammad Bima,0.0,2025-11-30,2025-11-30 00:10:53 UTC,1326.0,a2979660-f344-4414-c7db-d1feff3b69ec,1.0,https://www.facebook.com/maimunat.muhammad.58/posts/pfbid0ArYLBgwD1tiZiANKQqbewN92LhY6oSyrMhaYhKTpTgP7NvhqqSrtfbgCPacxu94al,0.0,"*Jallab with trouser*👖
+ORIGINAL🫡
+EGYPTIAN LUXURY👆🏻
+JALLAB FOR MEN🤴
+NEW DESIGN ✅
+NEW ARRIVALS 💪
+GOOD MATERIAL ✔️
+AVAILABLE ON GROUND ✔️",,,,,,,,,,,,,,,South Sudan,Hate Speech,Other,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,1.0,0.0,0.0,,,,0.999575674533844,0.0002558561973273,0.0001685284514678,Normal,0.999575674533844,,,,,0.9992558360099792,0.0007441459456458,not_hate_speech,0.9992558360099792,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,97a2cfee-be45-001c-da4e-550e2f15a57e,Mr Yatta,0.0,2025-11-30,2025-11-30 07:01:54 UTC,1326.0,db19ebe1-6870-6a59-a326-1754b42f8fe3,6.0,https://www.facebook.com/permalink.php?story_fbid=pfbid02K7kgTmp7Gcn3b7ScyhWr5Dk3LeKsj7Ltko4iTKd9joxd5XG62WuthzfwomyLbR6Dl&id=100070557052525,0.0,"BREAKING NEWS! 
+In just 29 minutes, I will officially release two brand-new songs!
+
+1. Delegation of Irrelevance
+A spicy dedication to the artists touring government offices in search of oyol money.
+
+2. South Sudan Rising
+A powerful track celebrating the rapid development happening in our country.
+
+👉 Subscribe to my YouTube channel now so you don’t miss the premiere!",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.999444305896759,0.0004057898768223,0.0001498684578109,Normal,0.999444305896759,,,,,0.999001443386078,0.0009985836222767,not_hate_speech,0.999001443386078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,97a2cfee-be45-001c-da4e-550e2f15a57e,Mr Yatta,0.0,2025-11-30,2025-11-30 07:31:01 UTC,1326.0,1af9c1c0-d007-686c-9730-275fa724003a,4.0,https://www.facebook.com/permalink.php?story_fbid=pfbid0azqGWJ9Ua8UELdD8Nn6EkPV1kUsK4inZRYmnVqpH8SJy8zizrah2SviXdRSibgr5l&id=100070557052525,0.0,"New Release! 
+
+Delegation of Irrelevance by Mr Yatta is LIVE! 😂🔥
+A hilarious, savage take on the artists touring government offices just for the oyol money.
+Mr. Yatta is exposing the clout-chasers like never before!
+
+🎧 Listen here: https://youtu.be/RiadbcMQkPU?si=7zh-Tq-5GYqEPJRX
+
+Don’t forget to:
+👍 Like
+🔔 Subscribe
+📤 Share and tag your friends.",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0783919617533683,0.8559274077415466,0.0656806156039238,Abusive,0.8559274077415466,,,,,0.9978199005126952,0.0021800892427563,not_hate_speech,0.9978199005126952,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,8ad92e44-52de-c4b9-d8ab-65f26a1745c2,Michael Dak Tap Riang,23.0,2025-11-30,2025-11-30 11:44:09 UTC,1326.0,cb4891ea-727e-dc9f-8b1d-73f4d15dcbb7,21.0,https://www.facebook.com/michael.dak.tap.riang/posts/pfbid0cE9WusdQdqDpXNstAsFmm2YdXx2Ujcj6aJMKMLZ8xb6ghNtYDxAA42SiDpjQLDjml,6.0,"Wish you success in your national examination tomorrow on 1st December 2025.my fellow students as well as my friends/relatives, May Almighty God give you wisdom, confidence and strength during your examination time. 
+1.Daniel mayiek Koang Mathoat 
+2.Diana Nyadet Peter Wew 
+3.Commissioner Peter Bol Banypiny 
+4. Nyachang Mathoat Duop Phan 
+5. James Dak Kong Liah 
+6. Viaviana Nyayang Jagei Chuol 
+7. Gattang Kong Tap Kulang 
+8. Bakhita Duer Yak Tuol 
+9. Delson Puok Manyang Jalwaar 
+10. Madina Tuor ( Town Ladi )
+11. Bawar Hoth 
+12. Nyakhor Gai Gatluak 
+13.Gatmai Gom Diang 
+14. Jalab Hoth Chuol 
+15. Gatmai Gok Jock 
+16. Nyanene Gatkuoth wuor 
+17. Gatmai kerjiok Gatdien 
+18.Nyakuma Gatluak Nyuot 
+19.Wiek wicgoal Chatiem 
+20. Nyakume Gatluit Tut 
+21. Ziel koang Guol Gatkuoth 
+22. Goahkuoth Mut chienglel Mier
+23. Koang Majoah Tuong 
+24. Nyamal Gatkhor Kai Manuer 
+25. Pech Manyang Thak 
+26. Tiwa Nyaguer Yien 
+27. Gabriel Machot Mamuony 
+28. Bapuoh Michael Kier 
+29. Jime Gatliah Chany Tai 
+30. Jime Chuol Chan 
+31. Biachuy Kuet Top
+32. Nyuak Duop Kueth Geer
+33. Joshua Buay Maet 
+34. Gatluak Kai Kulang
+35. Gatphan Bol 
+36. Taban Magany Goah Wuor 
+37. Janas Chiok Koljang Puok
+38. Chuol Majack maet kujock
+Plus the rest which I didn't mention their names  wish you success in your various schools",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9927957653999328,0.0008120507118292,0.0063922004774212,Normal,0.9927957653999328,,,,,0.930530846118927,0.0694691985845565,not_hate_speech,0.930530846118927,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,559e66b7-d6cd-fe24-cd98-1fa32c79e32d,Changkuoth Nyak Changath,123.0,2025-11-30,2025-11-30 12:13:37 UTC,1326.0,732a2cb6-b3ac-faca-3a02-386311564d21,2404.0,https://www.facebook.com/reel/834365865893886/,79.0,Nuer Speaking Practice Looking for Lost Items full video via this link https://youtu.be/LTeDBjFRtrs,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.3850157558917999,0.0893245488405227,0.5256596803665161,Hate,0.5256596803665161,,,,,0.9992449283599854,0.000755087530706,not_hate_speech,0.9992449283599854,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,e33c9d0b-9fcf-939f-cf43-e90433cab9bb,Jacquise Marcia Kerl,1.0,2025-11-30,2025-11-30 12:55:01 UTC,1326.0,62054771-b86a-3fbb-25e1-bf7d53394dbd,0.0,https://www.facebook.com/groups/273215043064453/posts/2609753789410555/,0.0,"Let's welcome our new members! drop your instagrams too. follow @poetically_jmk
+Ridda Here",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.99476420879364,0.0043042842298746,0.0009314661147072,Normal,0.99476420879364,,,,,0.9983896017074584,0.0016103901434689,not_hate_speech,0.9983896017074584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,06043d87-9196-ffa6-a31a-358d2c128aa6,Dau LB,0.0,2025-11-30,2025-11-30 12:55:20 UTC,1326.0,56bc99d0-394c-7072-b322-5812ac7a69e2,2.0,https://www.facebook.com/dau.manot.9/posts/pfbid0FvXxhGgWBp8fg5FFwhYREKyk4h78zgUQzKNw86nzHAMsr2yqFsZFBA4D8V7zmQjkl,0.0,"Which Tribe Is Thief Among Of 64 Tribe In South Sudan 
+Read As In Blow 
+
+By Dau LB 
+
+In South Sudan, several tribes have been involved in cattle raiding and theft, often driven by cultural practices and economic needs. Some of the tribes associated with these activities include:
+- *Murle tribe*: Known for their involvement in cattle rustling and abductions, particularly along the South Sudan-Ethiopia border.
+- *Toposa tribe*: Also involved in cattle raiding, which has led to conflicts with neighboring communities.
+- *Nuer tribe*: Some Nuer groups, like the Lou Nuer, have been involved in cattle raids and revenge attacks against the Murle.
+- *Dinka tribe*: While not typically associated with theft, some Dinka groups have been involved in cattle raiding and inter-communal conflicts.
+
+These conflicts are often driven by factors like poverty, lack of resources, and cultural practices. Efforts are being made to address these issues and promote peace and stability in the region ¹ ² ³.",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9820523858070374,0.0118497209623456,0.0060979169793426,Normal,0.9820523858070374,,,,,0.998849868774414,0.0011501125991344,not_hate_speech,0.998849868774414,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,b9303782-b00d-9ea9-fa1a-cec265326df8,Dayen Allego,0.0,2025-11-30,2025-11-30 13:42:14 UTC,1326.0,90139c8a-369e-0cda-45df-2c137f336da3,0.0,https://www.facebook.com/reel/807098778986927/,0.0,"Nyornyor being a Kuya to his playmates. 😊
+
+ #nyornyor #nyorfam #kidsfun #playtime",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,1.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0822842717170715,0.7043676376342773,0.2133480608463287,Abusive,0.7043676376342773,,,,,0.9987818598747252,0.001218193443492,not_hate_speech,0.9987818598747252,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,fc8c5b0c-96fc-99ef-f62d-03c14afeb086,Amber Lan,6.0,2025-11-30,2025-11-30 15:53:36 UTC,1326.0,79f8dadc-80d6-1276-2f33-f196f45b4fe6,24.0,https://www.facebook.com/ambalan636/posts/pfbid02vDeahuahwKvPAtv5RQVxdyMnYD7QA7wC41nWUm3wEh6TE8R4EdK5ES9gUTkc4E9fl,0.0,"zero five! 
+zero five! 
+zero zero zero zero 
+ZERO FIVE 
+
+💙🤍🏴‍☠️
+
+huge thanks to St. Charles High School for letting us alumni cheerleaders come back and cheer for our 20th reunion. 
+
+BEST NIGHT!",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9940529465675354,0.0042033828794956,0.001743733882904,Normal,0.9940529465675354,,,,,0.998712420463562,0.0012876199325546,not_hate_speech,0.998712420463562,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,b17938d5-c457-6383-5838-248599853aeb,MO Ssa,0.0,2025-11-30,2025-11-30 16:28:11 UTC,1326.0,ba6859df-7e26-fb8f-9ed5-be5ce8f03678,7.0,https://www.facebook.com/groups/1211466663731133/posts/1465668614977602/,0.0,"Curcumin in turmeric slashes gut inflammation 40%; gingerol stimulates peristalsis, expelling trapped gas. Cherimoya’s prebiotic fibers feed Lactobacillus, rebalancing microbiome diversity.
+IBS warriors drop bloating scores by 60% in a week. Feel flat, light, unstoppable.
+
+🍈 Recipe Breakdown:
+
+1 ripe cherimoya, seeded (creamy prebiotic base)
+
+1-inch fresh turmeric root (curcumin king)
+
+1-inch ginger root (digestive fire)
+
+Juice of 1 lemon (pH balancer)
+
+Blend until silky, strain through nut milk bag for velvet texture. Consume on empty stomach upon waking. Follow with warm water.
+
+💡 Pro Twist: Sprinkle black pepper to boost curcumin absorption 2000%.
+
+🧑‍🦱 **Hair Fortress Juice: The Beet-Grape Shield That Stops Shedding Cold**
+
+Iron from beets oxygenates follicles; resveratrol in dark grapes repairs DNA damage. Mint’s menthol dilates scalp vessels, pushing nutrients deep.
+
+Users regrow baby hairs in 4 weeks; breakage halves. Ponytails thicken dramatically.
+
+🍇 Recipe Breakdown:
+
+1 medium beetroot (iron + nitric oxide)
+
+2 cups black or red grapes (polyphenol shield)
+
+Handful fresh mint leaves (circulation catalyst)
+
+1 cup lime water or sparkling mineral water (effervescent delivery)
+
+Cold-press beets and grapes. Muddle mint, combine with lime water. Sip 3–4 times weekly post-shower for scalp saturation.
+
+🔥 Pro Twist: Add 1 tbsp amla powder for 20x vitamin C hair growth surge.
+
+🛡️ **Inflammation Annihilator: The Celery-Carrot Yellow Bomb That Silences Joint Pain**
+
+Celery’s apigenin blocks COX-2 enzymes like natural ibuprofen. Yellow bell pepper’s quercetin mops up free radicals; ginger shuts down NF-kB pathways.
+
+Arthritis sufferers cut stiffness 50% in 10 days. Move freely, sleep deeply.
+
+🥕 Recipe Breakdown:
+
+4 stalks celery (anti-inflammatory ace)
+
+3 carrots (beta-carotene buffer)
+
+1-inch ginger (pain pathway blocker)
+
+1 yellow bell pepper, seeded (quercetin vault)
+
+Juice immediately—enzymes degrade in 15 minutes. Drink pre-workout to lubricate joints.
+
+🌶️ Pro Twist: D
+
+#canada #usa #healthtips #healthyfood #HealthyLifestyle",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9993014335632324,0.0004705984028987,0.0002279990148963,Normal,0.9993014335632324,,,,,0.9976730942726136,0.0023268656805157,not_hate_speech,0.9976730942726136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,a1703699-c0f8-89c5-07cb-27aad0b2799d,Gene Chua Tugade,1.0,2025-11-30,2025-11-30 21:39:25 UTC,1326.0,d3e53cfe-7d90-7706-771d-1e10907bfde4,0.0,https://www.facebook.com/chuagheen/posts/pfbid0qafYKxZxnw3vaN1Q5x7MS8XjQ9iEapyFeUkFGsBy4Uw3Sb5AUTKSaiAAQitCk3szl,0.0,Nelda Zamora Setnam 😂😂😂so nyornyor at Bember,,,,,,,,,,,,,,,South Sudan,Hate Speech,Other,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,1.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9016193747520448,0.0533776506781578,0.0450029522180557,Normal,0.9016193747520448,,,,,0.999164342880249,0.0008357015904039,not_hate_speech,0.999164342880249,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,ea530c1e-7a0a-3bf0-5b55-2e12791a4cac,MTN STAR,325.0,2025-12-01,2025-12-01 12:20:26 UTC,1326.0,5e862b88-7e6c-33d6-20cf-f1f5591437bc,7856.0,https://www.facebook.com/reel/815519281316382/,138.0,"'하이킥 손자' 정일우, 故 이순재 영결식에서 끝내 터진 울음 ｜ Jung Il Woo [MTN 직캠]
+
+#정일우 #이순재 #거침없이하이킥 #머니투데이방송 #MTN #MTNSTAR",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996466636657716,0.0001870496344054,0.0001662952709011,Normal,0.9996466636657716,,,,,0.9988691210746764,0.0011308420216664,not_hate_speech,0.9988691210746764,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,2243658f-ab98-81bf-5844-be22c61f3f2e,Lakes State media,26.0,2025-12-01,2025-12-01 18:10:40 UTC,1326.0,fbc5be8e-6b55-f01d-8306-b92bf8080522,53.0,https://www.facebook.com/permalink.php?story_fbid=pfbid0nNF7KEsmuXgnswxDnFUy5Tb6jAG2fm7QwVTzeWTfEASQVqmMSk3p5JHvAFx6UwGil&id=100077114327969,1.0,"Top 50 handsome Boys In Yirol West 👏
+
+1. Blax Lord 
+2. Sultan junior
+3. Jet Fighter 
+4. Dolaso
+5. Abang silver
+6. Mc Madeng Marial
+7. Denis Dictor
+8. De bullet
+9. Mabol Aboui
+10. Greater Anuol a large 
+11. Maluach Maker
+12. Manyiel Amac
+13. Ka li
+14. Headboy Aluak-Luak 
+15. Majak mad Sr
+16. Mabor chadak
+17. Chaqai Frank
+18. Manyiel IP 
+19. Nhial Senior
+20. Chaqai Gulung
+21. Majok Adok Tueny 
+22. Apak nhial
+23. Greater matar at large
+24. Mob Hunta
+25. Makhat Handi G
+26. Sunday machar
+27. Makur Amin
+28. Dhieu Swea Lee
+29. Makuei Kroos 
+30. Big 9
+31. Madeng Carroll 
+32. Kobbie Mayom
+33. Majok elcaz
+34. Kawaja Abanjok
+35. Makuek Dc
+36. Taban Alfred
+37. Gunter chain
+38. Jurkur Cuir 
+39. Rapper kiddo
+40. Gum balang 
+41. Madeng wizzo
+42. Madeng richlord
+43. Makeny Chawuech 
+44. Jack Stone
+45. Majur Okueng
+46. Matur ozez 
+47. Thuou Adix
+48. Abiet Gantala 
+49. Bigg yut wolf 🐺 
+50. Spender Theyungdoctor 
+
+If you are not happy with this🙄....  Rope is 2500ssp  and South Sudan is blessed with beautiful trees🌲🌳🌴 or create your own page to rank yourself alone 😔 🙁
+Admin 008💥👏",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.2690894901752472,0.6765373349189758,0.0543731488287448,Abusive,0.6765373349189758,,,,,0.9910314083099364,0.0089685916900634,not_hate_speech,0.9910314083099364,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,fa475ff9-e5b1-5ad4-3eaf-01cf0db2035c,TabanAlexS,0.0,2025-12-01,2025-12-01 18:28:35 UTC,1307.0,cff7e1c4-6cbe-1408-fcb9-1a57498ad964,0.0,https://x.com/TabanAlexS/status/1995560677390647493,0.0,"Those who thrives in chaos and disorder want to sabotage the reputation of the current #Juba mayor. Mess is in their DNA. Emmanuel Adil have to keep this mayor in order to clear the mess around custom, konyokonyo and Juba town. A city is not meant for every primitive #SouthSudan https://t.co/xslUK4U2XQ",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,medium,low,medium,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0080771930515766,0.9733394384384156,0.0185834728181362,Abusive,0.9733394384384156,,,,,0.9986849427223206,0.001315094763413,not_hate_speech,0.9986849427223206,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,3bd5dde2-fd3d-40d8-49c7-925f1baa1054,Itz Abdull L Boy,0.0,2025-12-01,2025-12-01 19:14:41 UTC,1326.0,90ab3fbb-468e-a56c-fb1e-04f3ea1b625d,5.0,https://www.facebook.com/groups/100144700472729/posts/2218268401993671/,0.0,"Cairo jallab
+Best quality
+Size 56 to 62
+Available
+Price 20k
+Location Kano kantin kwari market
+08127946437",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,1.0,0.0,0.0,,,,0.9996486902236938,0.0002032743213931,0.0001480387581977,Normal,0.9996486902236938,,,,,0.9990032315254213,0.0009967753430828,not_hate_speech,0.9990032315254213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,148c32bf-261a-4d47-066b-1442c99e8e57,McLuda Prince Thç,2.0,2025-12-01,2025-12-01 19:54:18 UTC,1326.0,42f2d79c-0726-584f-8b91-36ed21a963b0,2.0,https://www.facebook.com/permalink.php?story_fbid=pfbid02jJEKsfkyEMr4NVhMt4Qs9KH5UqA7zW8HXnZJ7UpQfCtLnQUuwJsa1Vfa8YEFg1h2l&id=61556610733749,0.0,"God Why always the hustlers
+Ma kede try nas oyol money
+😭😭😭",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9965678453445436,0.0031557148322463,0.0002764753298833,Normal,0.9965678453445436,,,,,0.9974231719970704,0.0025768431369215,not_hate_speech,0.9974231719970704,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,eccc02f4-8e91-6d02-e518-3a003f49b148,Food Lovers,15.0,2025-12-01,2025-12-01 21:15:46 UTC,1326.0,c8a55b48-aca8-3a6a-8ed5-4477a645fc04,280.0,https://www.facebook.com/reel/1153842203528254/,50.0,"Chicken Mushroom Stroganoff
+Ingredients:
+2 tablespoons olive oil  
+1 pound boneless, skinless chicken breasts, cut into bite-sized pieces  
+1 medium onion, diced  
+2 cloves garlic, minced  
+8 ounces mushrooms, sliced  
+......
+Full Recipe in Coʍmеոτ 💬",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996638298034668,0.000244632246904,9.14786651264876e-05,Normal,0.9996638298034668,,,,,0.9989116191864014,0.0010884321527555,not_hate_speech,0.9989116191864014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,21ff9e37-9c59-822f-27e5-671356642060,Cde Buay Nyarom Jr.,19.0,2025-12-01,2025-12-01 21:21:23 UTC,1326.0,af3ef0c3-9de1-46e4-a12a-a67f37c1eb29,10.0,https://www.facebook.com/cdebuaynyaromjr/posts/pfbid02nrxv65qEo7sA3qaypYx7zNh4ptnfrLVGrMsd1NneYh2z3ZQJfLtAFU8wP4bVGgrol,3.0,Before you get a wife. Just know Khartoumers cooks delicious food & Juba-East Africa girls knows how to do makeups only Gatyiel🫩,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,medium,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,1.0,,,,0.0008298478787764,0.9986283779144288,0.0005417512729763,Abusive,0.9986283779144288,,,,,0.9993082284927368,0.0006918213330209,not_hate_speech,0.9993082284927368,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,6958921e-85c4-0bd6-5ef5-35968d74486f,Jennifer Ferren,0.0,2025-12-02,2025-12-02 02:40:21 UTC,1326.0,5cd34d25-787f-906c-34ff-817adb02bf66,5.0,https://www.facebook.com/jennifernicolerouse/posts/pfbid0rSuGRBkHr2m13tWk8A7ny3KLzwa1S7bsjrowJKN5AcLUetH73pxyg7PWrtNPQGUCl,4.0,"🎄💁🏻‍♀️Snag these last few spots for Christmas nails!🤶🏼🎄
+
+12/9 at 4
+12/10 at 11:30
+12/16 at 1
+12/19 at 12:15
+
+Call/text 270-210-0429 or book online at",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9958978295326232,0.0036237454041838,0.0004784942721016,Normal,0.9958978295326232,,,,,0.9988942742347716,0.001105752075091,not_hate_speech,0.9988942742347716,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,a8a17ff8-0d78-ebfb-d0b8-39b135879db8,Laquida Young,0.0,2025-12-02,2025-12-02 03:06:40 UTC,1326.0,ee063cd2-0aec-65ef-214f-84ab8adca770,5.0,https://www.facebook.com/reel/1554573178910705/,4.0,"Christmas was supposed to be perfect. A cozy week in the mountains, just Scottlyn and Liam the man she thought she’d spend forever with. But when she finds out Liam not only cheated, but he’s also got a baby on the way her fairytale shatters in one brutal blow.
+Refusing to let heartbreak ruin her, she goes to the cabins alone. That’s where she meets him. Blaze, the dangerously fine stranger with the crooked smile and eyes that promise trouble. What starts as playful banter quickly turns into something more. She tells herself it’s just settling the score getting even, just a one-night distraction to numb the pain.
+But one night turns into a spark they both can’t put out. A connection too real to ignore. And as the snow falls heavier outside, she finds herself falling harder than she ever expected.
+There’s just one problem.
+Blaze didn’t come to the cabins for peace, or love, or even the holiday magic. He came for blood. He came to show what happens when you steal from his family.
+And by the time she discovers the truth, it’s already too late… because she’s in too deep and Blaze refuses to let her walk away. #bookrelease #bookmas #urbanfiction #romancebookstagram",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.961868166923523,0.0356615334749221,0.0024702933151274,Normal,0.961868166923523,,,,,0.997925877571106,0.0020741056650877,not_hate_speech,0.997925877571106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,4290eb26-c541-17c9-c0bf-6b78b6474905,Juba Na Bari Media,6.0,2025-12-02,2025-12-02 07:23:33 UTC,1326.0,bfe7746c-f305-a971-548f-2148c7ac9beb,56.0,https://www.facebook.com/permalink.php?story_fbid=pfbid02xKJtauzjykQamzNqr34rpSbiQb2arhgs8bi7FEsUGqJupWAU91msgsGguor7judrl&id=100090757965507,0.0,Custom market (Nyakuron side) left in ashes..,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.1623687893152237,0.0317247174680233,0.8059064745903015,Hate,0.8059064745903015,,,,,0.998621702194214,0.0013783060712739,not_hate_speech,0.998621702194214,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,b4829cd1-fdd7-fcc4-5463-9b32c0a517f2,Horllyzart,18.0,2025-12-02,2025-12-02 08:04:03 UTC,1326.0,b131fdfa-989b-a76b-e97f-c16c9c53bdf5,113.0,https://www.facebook.com/reel/1911764683027508/,12.0,"The Dinka people are one of the largest ethnic groups in South Sudan, widely recognized for their remarkable height often cited as some of the tallest people in the world. With average heights well above global averages, the Dinka’s towering stature has fascinated anthropologists and travelers alike. Their dark skin, proud heritage, and deep connection to the land make them a powerful symbol of Africa’s rich diversity.
+
+One of the most captivating cultural expressions of the Dinka is their traditional jumping dance also known as the “Dinka jump” or ""Bulu”. This dance is not only a display of incredible athleticism but also a rite of passage. It is traditionally performed during ceremonies and festivals, showcasing strength, agility, and stamina. The jumping contest is a way for young Dinka  to demonstrate their readiness for adulthood and to win respect within their community.",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9994840621948242,0.0002979199052788,0.0002180086012231,Normal,0.9994840621948242,,,,,0.9968202114105223,0.0031797469127923,not_hate_speech,0.9968202114105223,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+x,e428fa99-5baf-9e10-1201-4f5f5ee1d965,Didi_Mariano,0.0,2025-12-02,2025-12-02 09:30:53 UTC,1307.0,93a1486a-674a-6ac0-be86-07f3f59c67fa,0.0,https://x.com/Didi_Mariano/status/1995787746300788928,0.0,"What’s with markets in Juba burning in December? Last year it was Konyokonyo, this year it’s custom and it’s really sad the government never compensates the traders #ssox",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.997766613960266,0.0018091967795044,0.0004241342830937,Normal,0.997766613960266,,,,,0.999042809009552,0.0009571607806719,not_hate_speech,0.999042809009552,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,8b76fe01-effc-251d-320d-ff375da020b4,Aluar Jienge,13.0,2025-12-02,2025-12-02 10:00:09 UTC,1326.0,cef4abee-aed1-4950-9bd3-906cf6be51e8,19.0,https://www.facebook.com/aluar.jienge/posts/pfbid02GKo7CTBSLhLFDaUDgkq7WpJbYBnPTCBK9NHbsJfEt5Xh9ozy3vfGQKoi53vrZN6al,0.0,Hi December 👋 come with good things and more blessings 🙌,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9995282888412476,0.000344876316376,0.0001269493513973,Normal,0.9995282888412476,,,,,0.9992509484291076,0.0007490441203117,not_hate_speech,0.9992509484291076,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,92eb4c6c-7467-d7c3-686a-b3aebba4a40a,Tuut John Nyuon,5.0,2025-12-02,2025-12-02 11:02:53 UTC,1326.0,5237c5c9-b1c0-ccf3-b1f7-1fa8c2070f53,2.0,https://www.facebook.com/tutjohn.nyuon/posts/pfbid0NrY8EXW1MbiLqLeJMgboTMfBw9WN1bA8Zd46stqkYmMSucxmAgVoeCfHvno59YbUl,0.0,"Question to Juba Regime.
+
+Was burning of Custom and Konyo-Konyo market  connected with Dr. Machar pus 7 others?
+No charges.",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.0001248944463441,0.0007889323169365,0.9990861415863036,Hate,0.9990861415863036,,,,,0.9990344047546388,0.000965604558587,not_hate_speech,0.9990344047546388,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,4e9fbb64-1282-914e-8022-69185e48effc,Yanko237,0.0,2025-12-02,2025-12-02 11:02:58 UTC,1326.0,1bcdaa05-913c-6f0d-8986-c1d05764b2af,1.0,https://www.facebook.com/groups/792292976681244/posts/858896560020885/,0.0,"BREAKING NEWS 🇨🇲😥😥😥
+
+A Man Caught Trying to Marry a Second Wife in Douala.
+
+A man from Yaoundé was caught trying to secretly marry another woman, despite already being legally married.
+
+According to reports, the man is married under a monogamous regime and has five children with his wife in Yaoundé. However, he allegedly planned a second wedding in Douala without informing her.
+
+His plan failed when his legal wife got word of the ceremony. She travelled to Douala and stormed the event, confronting her husband in front of the guests.
+
+The confrøntation immediately støpped the wedding, leaving the second bride and guests shocked and confused.
+
+#yanko237yankoupdate",,,,,,,,,,,,,,,South Sudan,Hate Speech,Other,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9967633485794068,0.0028129376005381,0.0004236686218064,Normal,0.9967633485794068,,,,,0.9988961219787598,0.001103822258301,not_hate_speech,0.9988961219787598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,f845e8b4-d4dd-2447-f6bb-cc034e78c96e,Suryani Raditya,0.0,2025-12-02,2025-12-02 11:02:59 UTC,1326.0,1c54cc79-fbaa-a0b2-278f-3da8a76b507b,1.0,https://www.facebook.com/permalink.php?story_fbid=pfbid0367z6JyNa57ebTJroiaJKjrcGVUjVUFhskUy5G9yfb1k39hYjeSeSA5xQ6hHmHSQfl&id=61558812746091,0.0,"╭─────────────╮
+☁️  𝙁𝘼𝘾𝙀 𝙈𝙄𝙎𝙏 𝙈𝘼𝙓𝙄𝙀
+╰─────────────╯
+𝙎𝙚𝙠𝙖𝙡𝙞 𝙨𝙚𝙢𝙥𝙧𝙤𝙩, 𝙬𝙖𝙟𝙖𝙝 𝙡𝙚𝙗𝙞𝙝 𝙨𝙚𝙜𝙖𝙧 𝙙𝙖𝙣 𝙝𝙞𝙙𝙪𝙥 🌸
+
+🌤 Cocok buat kamu yang sering beraktivitas luar
+🌿 Ringan & aman dipakai sesering yang dibutuhkan
+🧴 Bisa buat setting spray atau pre-makeup
+💧 Wajah tetap lembap, nggak kaku & nggak kusam
+
+𝙁𝙖𝙘𝙚 𝙈𝙞𝙨𝙩 𝙈𝙖𝙭𝙞𝙚 𝙗𝙞𝙠𝙞𝙣 𝙠𝙪𝙡𝙞𝙩 𝙠𝙖𝙢𝙪 𝙠𝙚𝙢𝙗𝙖𝙡𝙞 “𝙝𝙞𝙙𝙪𝙥” ✨
+Devara Mia Alizashop MIA ALIZA Eni Putri Ningsih",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.999261438846588,0.0004407888045534,0.0002977470867335,Normal,0.999261438846588,,,,,0.9975723624229432,0.0024276378098875,not_hate_speech,0.9975723624229432,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,cc42c0b6-e078-4211-7f46-8c8001c0c90c,Teraza Malwal,4.0,2025-12-02,2025-12-02 12:39:04 UTC,1326.0,60e738c8-3715-53a0-cbc6-9881d8a30a46,0.0,https://www.facebook.com/siwam161458/posts/pfbid0VDn1VkG2B5kxEkxCLZCZ63yF4kH1nSo13gJS8CCTfx8inJgjtLgg9RephRAUUw32l,0.0,"Nhialic- Creator in Thong Monyjang (The language of the Jieng People native to the Nilotic region of Africa 
+“Nhial”means “up” 
+-ic ; a suffix that means pertaining to 
+
+Nhial-ic name for our creator meaning the being pertaining to up above and all around 
+
+in a language that outdates Christianity and spoken amongst a group of people who genetically predate any written scripture…. There was still a KNOWING system that references a higher power. 
+
+It is disingenuous to our ancestors to parade the same religions that partook in their attempted erasure 🧘🏿‍♀️🧘🏿‍♀️🧘🏿‍♀️",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,very_high,,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.8734719753265381,0.1177238970994949,0.008804116398096,Normal,0.8734719753265381,,,,,0.9975245594978333,0.0024754144251346,not_hate_speech,0.9975245594978333,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,74c240fc-84ce-bc9f-116e-e98cec396d12,Kuethpiny Nergy,5.0,2025-12-02,2025-12-02 12:39:21 UTC,1326.0,0b67592b-f7ed-ac7e-a62f-2b7466ae012a,8.0,https://www.facebook.com/permalink.php?story_fbid=pfbid02nNu49EWG3cTrG43nT8GzxhX8zS6nSm6sUaYNLAZBuVvYaFcnyG3E77jmeMViXmiKl&id=100066630153954,0.0,thank,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,low,low,low,low,low,low,low,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.999594748020172,0.0002714978181757,0.000133822672069,Normal,0.999594748020172,,,,,0.9988697171211244,0.0011302808998152,not_hate_speech,0.9988697171211244,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,4d057220-0de6-74d0-f283-c45f4b91e64d,Anyar Kuol Anyieth,11.0,2025-12-02,2025-12-02 13:41:50 UTC,1326.0,cf11cb7e-3520-19f8-9c1f-adf9adf2c898,5.0,https://www.facebook.com/anyaranyarkuol/posts/pfbid02w9P13cuphEZJZ154U51voiWP6JipXisZ51R5rJ1SzzoXqqCBhZGJBxdpYZTZPTB6l,1.0,What if South Sudan decides to sell one cargo of our Oyol money to compensate the traders that are counting losses after the tragic fire incident in Nyakuren market?,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,low,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9986942410469056,0.0011118073016405,0.0001939435896929,Normal,0.9986942410469056,,,,,0.9991849064826964,0.0008151232032105,not_hate_speech,0.9991849064826964,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,2cca9f9a-5bea-1e6f-86e8-1c99d38750d3,CIAC - Community Integration and Advocacy Centre,0.0,2025-12-02,2025-12-02 15:03:14 UTC,1326.0,60e20123-23b3-ff41-5ab5-2f04b2c4c76d,21.0,https://www.facebook.com/ciachumber/posts/pfbid02yct83vdgaDJ1rfFVmDoWTJ2AKqcSjnfnGtA298FQW5MRgH7ERLuQqwzCnJ6F2m8cl,14.0,"Appeal for Unwanted Suitcases, Backpacks & Holdalls
+
+This is an urgent appeal on behalf of Hull Help For Refugees - charity 1176555  
+
+Do you have any unused or unwanted suitcases, backpacks, or holdalls at home? If so, they could make a real difference to someone seeking safety.
+
+Many people supported by the charity have to carry all they own in a single bag, often one that’s damaged, too small, or not fit for purpose. Your spare luggage could offer dignity, practicality, and a sense of stability during an incredibly difficult time.
+What We’re Looking For:
+
+✔️ Suitcases (any size, must be in usable condition)
+✔️ Backpacks
+✔️ Holdalls
+✔️ Wheeled bags
+✔️ Sturdy tote bags
+
+If you can donate, please get in touch with Hull Help For Refugees - charity 1176555  or drop items at their collection points.
+A simple bag can help someone carry their world.
+Thank you for your kindness and solidarity.",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,medium,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9994094371795654,0.000416441616835,0.0001741420419421,Normal,0.9994094371795654,,,,,0.9985490441322328,0.0014509415486827,not_hate_speech,0.9985490441322328,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,dee22235-60eb-2a93-6402-2dff7b6a5ff8,Larrietta Frymyer Elliotte,34.0,2025-12-02,2025-12-02 15:25:34 UTC,1326.0,b9982310-3cb2-af1c-e7a2-3167049a16ef,7.0,https://www.facebook.com/larrietta.elliotte/posts/pfbid09LBzvxzdofb6ayr1vvUPEtP5VwEirNMb2LW9jk7pCzPekwwSVDShvjivMFe3NTfHl,3.0,"Does anyone know of a place or person that buys large quantities of stuff from people to resell? I have tons of women’s, men’s, and boy’s clothes, pieces of furniture, odds and ends, pictures, etc. It’s way too much for me to try to price and sell myself. I would love to find somewhere ￼ to take it all off of our hands. Any ideas would be very appreciated! 😃￼",,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,high,low,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9992411136627196,0.0005827834829688,0.0001762341707944,Normal,0.9992411136627196,,,,,0.9988609552383424,0.0011390292784199,not_hate_speech,0.9988609552383424,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,94c89e4b-ed78-c485-dd3d-fc69ef33fea7,Lusty Kingsley,7.0,2025-12-02,2025-12-02 15:46:09 UTC,1326.0,32948756-8bed-4044-8e1b-549264a5438d,4.0,https://www.facebook.com/lam.rwut/posts/pfbid032ACxtZQknPR7LPv5sTynG6vD8ZNwkYyhVqgY1NZBDZpLJtzRBcansyxgDmAyyCshl,0.0,Before you get a wife. Just know Khartoumers cooks delicious food & Juba-East Africa girls knows how to do makeups only Gatyiel🫩,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,medium,low,low,low,low,low,high,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,1.0,,,,0.0008298478787764,0.9986283779144288,0.0005417512729763,Abusive,0.9986283779144288,,,,,0.9993082284927368,0.0006918213330209,not_hate_speech,0.9993082284927368,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,df0b359b-187f-20ff-6311-d7abf21bdc0f,Yam Yam,58.0,2025-12-02,2025-12-02 17:42:08 UTC,1326.0,398e6acc-d890-1399-5c93-8610a20d9327,53.0,https://www.facebook.com/permalink.php?story_fbid=pfbid02PfpmX4QFue3qjbRnaVC5dwc5K4uL2w5V9KwmBaG3TFsT8tkVwyeraGQaG2mcVRRbl&id=61579644392603,0.0,💸 ብቻ ይኑርሽ ያሚየ❤️‍🔥,,,,,,,,,,,,,,,South Sudan,Hate Speech,Hate Speech,Hate Speech,2026-01-15 15:40:46.723151 UTC,2325,,very_high,,,,,,,,,0.0,,,,0.0,,0.0,,0.0,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,,0.0,,0.0,0.0,0.0,0.0,,,,0.9996503591537476,0.0002597821003291,8.984268788481131e-05,Normal,0.9996503591537476,,,,,0.999098777770996,0.0009012423688545,not_hate_speech,0.999098777770996,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+facebook,4a00e682-d56d-e591-a556-2c66688f08e8,Cherry Bethel Page,1.0,2025-12-02,2025-12-02 17:46:42 UTC,1326.0,91f683aa-3a8a-b793-8011-96f84ec6ab6c,6.0,https://www.facebook.com/permalink.php?story_fbid=pfbid0AobJrDZHxAcH2XyzzsRPcEq47iGrQxjbJFBrERfdgZekhngeXaW4J76a6gjEwABfl&id=61571247455313,1.0,"Fame or Revenge. 
+
+💕""I can't stop myself. You consume me Olivia, all of you!""
+
+Only daughter of powerful business mogul and drug lord, Olivia Murray wants a family of her own. Her world is shaken after she finds her husband-to-be, Asher in bed with one of his employees a week before their wedding. Feeling betrayed, she cancels the entire wedding ceremony against her family's wishes, leaving her father disappointed by the disgrace she's brought to the family. Olivia has a new plan on getting revenge as she meets a mysterious guy who also has a vendetta against Asher. Their worlds become intertwined as they work to bring him down while navigating their attraction to each other. Olivia finds herself falling in love no matter how hard she tries not to. She is torn apart when she finally discovers who this mysterious guy truly is and his mission to take down her entire family. Olivia is left with one choice to make, choosing between her family or the man she's fallen deeply in love with. 
+
+Leonard Devine, a skilled undercover agent gets assigned to work on the O'Neill's family's case to expose their illegal dealings with arms and drugs. His mission leads him to the Murray family and the only heir, Olivia. Striking a deal with her under a false identity to help her get revenge on her ex-fiance, Leonard finds himself falling in love with her as they enter a fake marriage. The lines of his mission begin to blur as he becomes entangled in his love affair with Olivia. They must decide whether to trust each other as they navigate the treacherous world of secrets and lies. Will their love stand the test of betrayals? Especially when he finds out he has been played and Olivia isn't who he thought she is. 
+
+💥 Chapter 1
+Olivia 
+
+I've never loved my fiancé. No matter how much I've tried to bring myself to. I feel nothing. Maybe because I'm just a piece given to him for whatever business my father has gotten into again. Or because I caught him kissing his secretary twice. He said it was only a kiss, nothing more. He loves me instead. Even though nothing in me believed his words, I stayed because I needed to. My father says it's my duty to him for everything he has provided for me. I've always been his little pawn in some bigger picture. A business deal, some contract, whatever is good for business. I'm good for business.
+
+I clutch my black purse tighter as I make my way to my fiance's doorstep. Asher O'Neill was a better option than the rest. Tall, blue eyes with a muscular build any woman would drool over. Other than my father's selfish reasons, Asher's looks made it easier to agree to this marriage. I'm sure he's no different than the others, a scum with a dick that never stays in his pants. 
+
+My heart skips a beat as I stare at the door slightly open. Asher has been gone on a business trip for a month now and we've barely seen each other since his return. The wedding preparations have taken most of my time. Emma's presence is the only thing holding me together. She has me going all out even though she knows how I feel about him. I still have no idea how she managed to convince me to make myself happy by throwing my dream wedding anyway. It would suck so much if I let my father ruin the one thing I can control. Asher had no problem agreeing to everything I wanted for the wedding. He also has no idea I'm at his front door. I can feel my heart racing as I slowly push the door open. 
+
+""Asher,"" I call quietly as I walk into his apartment. A scoff falls off my lips as I stare at the pair of red heels scattered by the couch. Two glasses half-filled with alcohol on the wooden coffee table. Loud moans fill the hallway as I slowly walk to his bedroom. A part of me somehow knew it was always more than just a kiss with him. There's a black bra on the floor next to a dress and a tie and a blue shirt. The one I got him. Fucking asshole.
+
+ I hear his grunts as I reach the door. It's the same one he makes every time he's inside me and about to have a release. I can't believe I ever let him inside me. God. 
+
+Asher's butt is in clear view as I stand in the doorway with my jaw open. He has his secretary bent over and gripping the edge of the bed frame. 
+
+""Fuck you Asher."" 
+His blue eyes pop out as he turns to stare at me. The muscles in his jaw tense. 
+
+""And your fucking whore."" 
+The red hair scribbles to her feet, pushing Asher away. She doesn't have to gut to stare in my direction as she reaches for the covers. 
+
+""Olivia, I had no idea you were coming over,"" Asher says. I stare at him with disgust as he walks closer to me. 
+
+""Don't you dare.""
+I pick up my pace as I walk back to the living room wishing I never came here. The image of them fucking stuck in my head. 
+
+""Olivia! Olivia, hold up!""
+He calls behind me, I can hear the struggle in his voice as he rushes to me. I grip the door handle, opening it wide enough for me to step out. His fingers grab the arm of my coat as I try to leave. 
+
+""Olivia, please hear me out."" 
+
+""Let go of me!"" I yell, yanking my arm from his grip.
+
+""She means nothing to me. It's just sex.""
+I look down at his naked body. He tries to cover his dick with his palms. His face is almost believable as he looks worried. 
+
+I cough out a laugh.
+
+""It's over between us.""
+The worry in his eyes grows even more as they bulge out. 
+
+""You can't. Your father won't let you.""
+
+""Fuck you and my father. The wedding's over. I never want to see your fucking face again."" 
+It's anger in his eyes now. 
+
+""Olivia!"" he yells as I walk away. I slip into my car, my blood raging with anger as I grip the wheels. I hate myself more as a tear falls down my cheek. My father would be pissed if he were here. He always said tears make you weak. But that was a tear for me and everything I've had to put up with for him. Not again. Not this time. I drive away dialling Emma's number. She's my best friend and probably my only friend. We've been together ever since I lost my mother. Emma answers the call on the first ring.
+
+""Emma."" My voice sounds shaky as I suck in breaths to suppress my anger. 
+
+""Olivia, what's happening? Where are you?"" 
+Emma responds worried. I hit the brakes knowing I'm far away from Asher's apartment and park beside the road for a minute to steady my breath. 
+
+""Driving. In the middle of some road.""
+
+""What's wrong Olivia?"" 
