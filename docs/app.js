@@ -120,8 +120,7 @@
 
   function normalizeToxicity(tx) {
     if (!tx || tx === '') return 'low';
-    if (tx === 'very_high') return 'high';
-    return tx; // 'high', 'medium', 'low'
+    return tx; // 'very_high', 'high', 'medium', 'low'
   }
 
   function getHSSubtopic(post) {
@@ -363,12 +362,12 @@
     });
     const toxDiv = document.getElementById('hs-filter-toxicity');
     toxDiv.innerHTML = '';
-    const toxColors = { high: '#B83A2A', medium: '#CA5D0F', low: '#1A3A34' };
-    ['high', 'medium', 'low'].forEach(tox => {
+    const toxColors = { very_high: '#7A1A1A', high: '#B83A2A', medium: '#CA5D0F', low: '#1A3A34' };
+    ['very_high', 'high', 'medium', 'low'].forEach(tox => {
       const item = document.createElement('div');
       item.className = 'filter-item active';
       item.innerHTML = `<span class="filter-dot" style="background:${toxColors[tox]}"></span>
-        <span>${tox.charAt(0).toUpperCase() + tox.slice(1)}</span><span class="filter-count">${(toxCounts[tox] || 0).toLocaleString()}</span>`;
+        <span>${tox === 'very_high' ? 'Very High' : tox.charAt(0).toUpperCase() + tox.slice(1)}</span><span class="filter-count">${(toxCounts[tox] || 0).toLocaleString()}</span>`;
       item.addEventListener('click', () => toggleHSFilter('toxicity', tox));
       item.dataset.value = tox;
       item.dataset.category = 'toxicity';
@@ -641,10 +640,11 @@
     const badgeColor = post.pr === 'Hate' ? 'background:rgba(184,58,42,0.1);color:#B83A2A' : 'background:rgba(128,113,188,0.12);color:#8071BC';
     const confPct = Math.round(post.co * 100);
     const toxLabel = normalizeToxicity(post.tx);
-    const toxColors = { high: 'background:rgba(184,58,42,0.1);color:#B83A2A', medium: 'background:rgba(202,93,15,0.1);color:#CA5D0F', low: 'background:rgba(26,58,52,0.1);color:#1A3A34' };
+    const toxColors = { very_high: 'background:rgba(122,26,26,0.12);color:#7A1A1A', high: 'background:rgba(184,58,42,0.1);color:#B83A2A', medium: 'background:rgba(202,93,15,0.1);color:#CA5D0F', low: 'background:rgba(26,58,52,0.1);color:#1A3A34' };
+    const toxDisplay = toxLabel === 'very_high' ? 'very high' : toxLabel;
     header.innerHTML = `
       <span class="detail-badge" style="${badgeColor}">${post.pr} (${confPct}%)</span>
-      <span class="detail-badge" style="${toxColors[toxLabel] || toxColors.low}">${toxLabel} toxicity</span>
+      <span class="detail-badge" style="${toxColors[toxLabel] || toxColors.low}">${toxDisplay} toxicity</span>
       <span class="detail-badge country">${post.c}</span>
     `;
 
@@ -664,6 +664,28 @@
       `;
     } else {
       engSection.style.display = 'none';
+    }
+
+    // Toxicity dimensions
+    const toxDimSection = document.getElementById('hs-detail-toxdim-section');
+    const toxDimDiv = document.getElementById('hs-detail-toxdim');
+    if (toxDimSection && post.txd) {
+      const dimLabels = { sev: 'Severe Toxicity', ins: 'Insult', idt: 'Identity Attack', thr: 'Threat' };
+      const dimColors = { very_high: '#7A1A1A', high: '#B83A2A', medium: '#CA5D0F', low: '#1A3A34' };
+      const dims = Object.entries(post.txd).filter(([k,v]) => v && dimLabels[k]);
+      if (dims.length > 0) {
+        toxDimSection.style.display = '';
+        toxDimDiv.innerHTML = dims.map(([k, v]) => {
+          const label = dimLabels[k];
+          const color = dimColors[v] || '#9E9E9E';
+          const display = v === 'very_high' ? 'Very High' : v.charAt(0).toUpperCase() + v.slice(1);
+          return `<div class="reach-item"><span class="reach-label">${label}:</span> <span class="reach-value" style="color:${color}">${display}</span></div>`;
+        }).join('');
+      } else {
+        toxDimSection.style.display = 'none';
+      }
+    } else if (toxDimSection) {
+      toxDimSection.style.display = 'none';
     }
 
     // Subtopics
@@ -992,11 +1014,12 @@
       svg.transition().duration(500).call(hsWheelZoom.transform, d3.zoomIdentity);
     });
 
-    // Toxicity rings: high=inner, medium=middle, low=outer
+    // Toxicity rings: very_high=innermost, high, medium, low=outermost
     const toxRings = [
-      { tox: 'high',   rStart: 0.0,  rEnd: 0.33, label: 'HIGH',   color: '#B83A2A' },
-      { tox: 'medium', rStart: 0.33, rEnd: 0.66, label: 'MEDIUM', color: '#CA5D0F' },
-      { tox: 'low',    rStart: 0.66, rEnd: 1.0,  label: 'LOW',    color: '#1A3A34' }
+      { tox: 'very_high', rStart: 0.0,   rEnd: 0.25, label: 'VERY HIGH', color: '#7A1A1A' },
+      { tox: 'high',      rStart: 0.25,  rEnd: 0.50, label: 'HIGH',      color: '#B83A2A' },
+      { tox: 'medium',    rStart: 0.50,  rEnd: 0.75, label: 'MEDIUM',    color: '#CA5D0F' },
+      { tox: 'low',       rStart: 0.75,  rEnd: 1.0,  label: 'LOW',       color: '#1A3A34' }
     ];
 
     const ringR = toxRings.map(tr => ({
@@ -1092,12 +1115,13 @@
         const pseudo = ((hash * 9301 + 49297) % 233280) / 233280;
         const pseudo2 = ((hash * 7919 + 12345) % 233280) / 233280;
 
-        // Radial position based on toxicity
+        // Radial position based on toxicity (4 rings)
         const tox = normalizeToxicity(p.tx);
         let rNorm;
-        if (tox === 'high') rNorm = 0.05 + pseudo * 0.25;
-        else if (tox === 'medium') rNorm = 0.36 + pseudo * 0.25;
-        else rNorm = 0.70 + pseudo * 0.25;
+        if (tox === 'very_high') rNorm = 0.02 + pseudo * 0.20;
+        else if (tox === 'high') rNorm = 0.27 + pseudo * 0.20;
+        else if (tox === 'medium') rNorm = 0.52 + pseudo * 0.20;
+        else rNorm = 0.77 + pseudo * 0.20;
         const r = innerRadius + rNorm * (maxRadius - innerRadius);
 
         // Angular position
