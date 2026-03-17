@@ -167,6 +167,11 @@ body {
 .stat-disinfo .stat-value { color: var(--ember); }
 .stat-context-pill .stat-value { color: var(--color-context); }
 
+.stat-pills-disinfo, .stat-pills-hs { display: flex; align-items: center; gap: 10px; }
+.stat-pills-disinfo.hidden, .stat-pills-hs.hidden { display: none; }
+.stat-hs-hate .stat-value { color: var(--color-critical); }
+.stat-hs-abusive .stat-value { color: var(--iris); }
+
 .view-toggle {
   display: flex; gap: 0;
   background: var(--color-surface-2);
@@ -571,38 +576,27 @@ body {
   transition: fill-opacity 0.3s ease;
 }
 
-/* ═══ NARRATIVE TRENDS ═══ */
-#panel-trends {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  padding: 16px;
-  overflow-y: auto;
-  align-content: start;
+/* ═══ HS WHEEL STYLES ═══ */
+#hs-wheel-svg { cursor: grab; }
+#hs-wheel-svg:active { cursor: grabbing; }
+.hs-cluster-label {
+  font-family: var(--font-mono); font-size: 8px;
+  fill: var(--color-text); pointer-events: none;
+  text-anchor: middle; dominant-baseline: central;
+  font-weight: 600;
 }
-#panel-trends.hidden { display: none; }
-.trend-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border-light);
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  transition: box-shadow var(--transition);
+.hs-dot {
+  cursor: pointer; transition: opacity 0.15s;
+  stroke-width: 1.5; stroke: transparent;
 }
-.trend-card:hover {
-  box-shadow: var(--shadow-sm);
-  border-color: var(--color-border);
+.hs-dot:hover { stroke: var(--ink); stroke-width: 2; }
+.hs-dot.selected { stroke: var(--ink); stroke-width: 2.5; }
+.hs-dot.dimmed { opacity: 0.06; }
+.hs-cluster {
+  cursor: pointer; transition: opacity 0.15s;
+  stroke-width: 1; stroke: rgba(0,0,0,0.15);
 }
-.trend-axis text {
-  font-family: var(--font-mono);
-  fill: var(--color-text-faint);
-}
-.trend-axis .domain { stroke: none; }
-.trends-empty {
-  grid-column: 1 / -1;
-  text-align: center; padding: 40px;
-  font-family: var(--font-drama); font-style: italic;
-  font-size: 16px; color: var(--color-text-faint);
-}
+.hs-cluster:hover { stroke: var(--ink); stroke-width: 2; }
 
 /* ═══ SCRUBBER ═══ */
 .brush .selection {

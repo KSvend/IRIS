@@ -27,22 +27,39 @@
         <span class="header-subtitle">East Africa Disinfo Monitor</span>
       </div>
       <div class="header-right">
-        <div class="stat-pill">
-          <span class="stat-label">Events</span>
-          <span class="stat-value" id="stat-total">229</span>
+        <!-- Disinfo stats (visible when disinfo view active) -->
+        <div class="stat-pills-disinfo" id="stats-disinfo">
+          <div class="stat-pill">
+            <span class="stat-label">Events</span>
+            <span class="stat-value" id="stat-total">229</span>
+          </div>
+          <div class="stat-pill stat-disinfo">
+            <span class="stat-label">Disinfo</span>
+            <span class="stat-value" id="stat-disinfo">36</span>
+          </div>
+          <div class="stat-pill stat-context-pill">
+            <span class="stat-label">Context</span>
+            <span class="stat-value" id="stat-context">193</span>
+          </div>
         </div>
-        <div class="stat-pill stat-disinfo">
-          <span class="stat-label">Disinfo</span>
-          <span class="stat-value" id="stat-disinfo">36</span>
-        </div>
-        <div class="stat-pill stat-context-pill">
-          <span class="stat-label">Context</span>
-          <span class="stat-value" id="stat-context">193</span>
+        <!-- Hate Speech stats (visible when HS view active) -->
+        <div class="stat-pills-hs hidden" id="stats-hs">
+          <div class="stat-pill">
+            <span class="stat-label">HS Posts</span>
+            <span class="stat-value" id="stat-hs-total">15,285</span>
+          </div>
+          <div class="stat-pill stat-hs-hate">
+            <span class="stat-label">Hate</span>
+            <span class="stat-value" id="stat-hs-hate">5,130</span>
+          </div>
+          <div class="stat-pill stat-hs-abusive">
+            <span class="stat-label">Abusive</span>
+            <span class="stat-value" id="stat-hs-abusive">10,155</span>
+          </div>
         </div>
         <div class="view-toggle">
-          <button class="view-btn active" data-view="wheel" id="btn-wheel">Threat Wheel</button>
-          <button class="view-btn" data-view="timeline" id="btn-timeline">Timeline</button>
-          <button class="view-btn" data-view="trends" id="btn-trends">Trends</button>
+          <button class="view-btn active" data-view="wheel" id="btn-wheel">Disinfo Wheel</button>
+          <button class="view-btn" data-view="hatespeech" id="btn-hatespeech">Hate Speech</button>
         </div>
         <button class="submit-btn" id="btn-submit" title="Manually submit a disinfo post">
           <svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="10" y1="4" x2="10" y2="16"/><line x1="4" y1="10" x2="16" y2="10"/></svg>
@@ -55,42 +72,61 @@
     <main class="main">
       <!-- Sidebar filters -->
       <aside class="sidebar" id="sidebar">
-        <div class="filter-section">
-          <h3 class="filter-title">Country</h3>
-          <div class="filter-group" id="filter-country"></div>
+        <!-- Disinfo filters -->
+        <div id="disinfo-filters">
+          <div class="filter-section">
+            <h3 class="filter-title">Country</h3>
+            <div class="filter-group" id="filter-country"></div>
+          </div>
+          <div class="filter-section">
+            <h3 class="filter-title">Event Type</h3>
+            <div class="filter-group" id="filter-type"></div>
+          </div>
+          <div class="filter-section">
+            <h3 class="filter-title">Disinfo Subtype</h3>
+            <div class="filter-group" id="filter-subtype"></div>
+          </div>
+
+          <div class="filter-section">
+            <h3 class="filter-title">Narrative</h3>
+            <div class="filter-group filter-narratives" id="filter-narrative"></div>
+          </div>
         </div>
-        <div class="filter-section">
-          <h3 class="filter-title">Event Type</h3>
-          <div class="filter-group" id="filter-type"></div>
-        </div>
-        <div class="filter-section">
-          <h3 class="filter-title">Disinfo Subtype</h3>
-          <div class="filter-group" id="filter-subtype"></div>
-        </div>
-        <div class="filter-section">
-          <h3 class="filter-title">Threat Level</h3>
-          <div class="filter-group" id="filter-threat"></div>
-        </div>
-        <div class="filter-section">
-          <h3 class="filter-title">Narrative</h3>
-          <div class="filter-group filter-narratives" id="filter-narrative"></div>
+        <!-- Hate Speech filters -->
+        <div id="hs-filters" class="hidden">
+          <div class="filter-section">
+            <h3 class="filter-title">Country</h3>
+            <div class="filter-group" id="hs-filter-country"></div>
+          </div>
+          <div class="filter-section">
+            <h3 class="filter-title">Classification</h3>
+            <div class="filter-group" id="hs-filter-class"></div>
+          </div>
+          <div class="filter-section">
+            <h3 class="filter-title">Platform</h3>
+            <div class="filter-group" id="hs-filter-platform"></div>
+          </div>
+          <div class="filter-section">
+            <h3 class="filter-title">Toxicity</h3>
+            <div class="filter-group" id="hs-filter-toxicity"></div>
+          </div>
+          <div class="filter-section">
+            <h3 class="filter-title">HS Subtype</h3>
+            <div class="filter-group filter-narratives" id="hs-filter-subtype"></div>
+          </div>
         </div>
         <button class="reset-btn" id="btn-reset">Reset All Filters</button>
       </aside>
 
       <!-- Visualization area -->
       <div class="viz-container">
-        <!-- Wheel view -->
+        <!-- Disinfo Wheel view -->
         <div class="viz-panel" id="panel-wheel">
           <svg id="wheel-svg"></svg>
         </div>
-        <!-- Timeline view -->
-        <div class="viz-panel hidden" id="panel-timeline">
-          <svg id="timeline-svg"></svg>
-        </div>
-        <!-- Narrative Trends view -->
-        <div class="viz-panel hidden" id="panel-trends">
-          <!-- Rendered dynamically by app.js -->
+        <!-- Hate Speech Wheel view -->
+        <div class="viz-panel hidden" id="panel-hatespeech">
+          <svg id="hs-wheel-svg"></svg>
         </div>
 
         <!-- Playback controls -->
@@ -132,7 +168,7 @@
             <circle cx="24" cy="24" r="3"/>
           </svg>
           <p>Select an event to view details</p>
-          <p class="detail-hint">Hover over dots on the wheel or timeline. Click to pin.</p>
+          <p class="detail-hint">Hover over dots on the wheel. Click to pin.</p>
         </div>
         <div class="detail-content hidden" id="detail-content">
           <button class="detail-close" id="detail-close">&times;</button>
@@ -175,6 +211,33 @@
           <div class="detail-section" id="detail-sources-section">
             <h4>Sources</h4>
             <div class="detail-sources" id="detail-sources"></div>
+          </div>
+        </div>
+        <!-- HS Detail Content -->
+        <div class="detail-content hidden" id="hs-detail-content">
+          <button class="detail-close" id="hs-detail-close">&times;</button>
+          <div class="detail-header" id="hs-detail-header"></div>
+          <h2 class="detail-headline" id="hs-detail-headline"></h2>
+          <time class="detail-date" id="hs-detail-date"></time>
+          <div class="detail-section">
+            <h4>Post Text</h4>
+            <p id="hs-detail-text"></p>
+          </div>
+          <div class="detail-section" id="hs-detail-engagement-section" style="display:none">
+            <h4>Engagement</h4>
+            <div class="detail-reach" id="hs-detail-engagement"></div>
+          </div>
+          <div class="detail-section" id="hs-detail-subtopics-section" style="display:none">
+            <h4>HS Subtopics</h4>
+            <div class="detail-tags" id="hs-detail-subtopics"></div>
+          </div>
+          <div class="detail-section" id="hs-detail-model-section" style="display:none">
+            <h4>Model Agreement</h4>
+            <p id="hs-detail-model"></p>
+          </div>
+          <div class="detail-section" id="hs-detail-link-section">
+            <h4>Original Post</h4>
+            <div class="detail-sources" id="hs-detail-link"></div>
           </div>
         </div>
       </aside>

@@ -1,7 +1,6 @@
-// MERLx — East Africa Disinfo Monitor v4.2
-// Narrative-Based Disinformation Tracking
-// Narrative Lifecycle Playback with Heat Model
-// D3.js Radial Threat Wheel + Timeline + Narrative Trends
+// MERLx — East Africa Disinfo Monitor v5.0
+// Narrative-Based Disinformation Tracking + Hate Speech Wheel
+// D3.js Radial Threat Wheel + Hate Speech Radial Wheel
 
 (function() {
   'use strict';
@@ -12,7 +11,7 @@
   let filteredEvents = [];
   let selectedEvent = null;
   let pinnedEvent = null;
-  let currentView = 'wheel';
+  let currentView = 'wheel'; // 'wheel' or 'hatespeech'
   let brushExtent = null;
   let wheelPositions = new Map();
   let wheelZoom = null;
@@ -20,7 +19,14 @@
   let playbackTimer = null;
   let playbackIndex = 0;
   let isPlaying = false;
-  let playbackSpeed = 1; // 1=normal, 2=fast, 0.5=slow
+  let playbackSpeed = 1;
+
+  // Hate Speech state
+  let allHSPosts = [];
+  let filteredHSPosts = [];
+  let hsBrushExtent = null;
+  let hsWheelZoom = null;
+  let pinnedHSPost = null;
 
   // Disinfo subtypes (new taxonomy v4)
   const SUBTYPE_LABELS = {
@@ -32,8 +38,8 @@
     'deepfake': 'Deepfake / AI-Generated',
     'incitement': 'Incitement'
   };
+
   // ─── Country-Based Color System ─────────────────────────────────
-  // Dark = Disinformation, Light = Context for each country
   const COUNTRY_COLORS = {
     'Somalia':     { dark: '#1A3A34', light: '#A8C5BC', mid: '#4A7A6E' },
     'South Sudan': { dark: '#CA5D0F', light: '#E8C4A8', mid: '#D9936A' },
@@ -41,7 +47,6 @@
     'Regional':    { dark: '#4A3F6B', light: '#B8B3CC', mid: '#7E76A0' }
   };
 
-  // Helper: get event color based on country + type
   function eventColor(e) {
     const cc = COUNTRY_COLORS[e.country] || COUNTRY_COLORS['Regional'];
     return e.event_type === 'DISINFO' ? cc.dark : cc.light;
@@ -53,7 +58,12 @@
     return (COUNTRY_COLORS[country] || COUNTRY_COLORS['Regional']).light;
   }
 
-  // Subtype colors are no longer used for dots — kept for badge display only
+  // HS Color: dark = Hate, light = Abusive (per country)
+  function hsPostColor(post) {
+    const cc = COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional'];
+    return post.pr === 'Hate' ? cc.dark : cc.light;
+  }
+
   const SUBTYPE_COLORS = {
     'propaganda': '#B83A2A',
     'foreign_propaganda': '#4A3F6B',
@@ -80,22 +90,69 @@
     narrative: new Set()
   };
 
+  // HS Filters
+  const hsFilters = {
+    country: new Set(),
+    classification: new Set(),
+    platform: new Set(),
+    toxicity: new Set(),
+    subtype: new Set()
+  };
+
+  // ─── HS Subtopic Axes (8 NLP-classified categories) ─────────────
+  const HS_AXES = [
+    'Political Incitement', 'Clan Targeting', 'Religious Incitement',
+    'Dehumanisation', 'Anti-Foreign', 'Ethnic Targeting',
+    'General Abuse', 'Gendered Violence'
+  ];
+
+  // Map subtopic names to axes (identity map — all posts now classified)
+  const SUBTOPIC_MAP = {
+    'Political Incitement': 'Political Incitement',
+    'Clan Targeting': 'Clan Targeting',
+    'Religious Incitement': 'Religious Incitement',
+    'Dehumanisation': 'Dehumanisation',
+    'Anti-Foreign': 'Anti-Foreign',
+    'Ethnic Targeting': 'Ethnic Targeting',
+    'General Abuse': 'General Abuse',
+    'Gendered Violence': 'Gendered Violence'
+  };
+
+  function normalizeToxicity(tx) {
+    if (!tx || tx === '') return 'low';
+    if (tx === 'very_high') return 'high';
+    return tx; // 'high', 'medium', 'low'
+  }
+
+  function getHSSubtopic(post) {
+    if (!post.st || post.st.length === 0) return 'Unclassified';
+    const best = post.st.reduce((a, b) => a.s > b.s ? a : b);
+    return SUBTOPIC_MAP[best.n] || 'Unclassified';
+  }
+
+  function hsEngagement(post) {
+    if (!post.en) return 0;
+    return (post.en.l || 0) + (post.en.s || 0) + (post.en.c || 0);
+  }
+
   // ─── Playback Constants ─────────────────────────────────────────
-  const HEAT_PER_EVENT = 1.0;         // Heat added per event
-  const HEAT_DECAY_PER_WEEK = 0.25;   // Heat lost per week with no events
-  const HEAT_VISIBLE_THRESHOLD = 0.05; // Below this → narrative disappears
-  const HEAT_MAX = 5.0;               // Cap for heat
-  const FADE_OUT_WEEKS = 4;           // ~4 weeks to fully fade (1.0 / 0.25 = 4)
+  const HEAT_PER_EVENT = 1.0;
+  const HEAT_DECAY_PER_WEEK = 0.25;
+  const HEAT_VISIBLE_THRESHOLD = 0.05;
+  const HEAT_MAX = 5.0;
 
   // ─── Data Loading ────────────────────────────────────────────────
   async function loadData() {
-    const [eventsRes, narrRes] = await Promise.all([
+    const [eventsRes, narrRes, hsRes] = await Promise.all([
       fetch('data/events.json'),
-      fetch('data/narratives.json')
+      fetch('data/narratives.json'),
+      fetch('data/hate_speech_posts.json')
     ]);
     allEvents = await eventsRes.json();
     narrativeRef = await narrRes.json();
+    allHSPosts = await hsRes.json();
     filteredEvents = [...allEvents];
+    filteredHSPosts = [...allHSPosts];
     return true;
   }
 
@@ -119,26 +176,60 @@
     });
     updateStats();
     if (currentView === 'wheel') renderWheel();
-    else if (currentView === 'timeline') renderTimeline();
-    else if (currentView === 'trends') renderNarrativeTrends();
+  }
+
+  function applyHSFilters() {
+    filteredHSPosts = allHSPosts.filter(p => {
+      if (hsFilters.country.size && !hsFilters.country.has(p.c)) return false;
+      if (hsFilters.classification.size && !hsFilters.classification.has(p.pr)) return false;
+      if (hsFilters.platform.size && !hsFilters.platform.has(p.p)) return false;
+      if (hsFilters.toxicity.size) {
+        const tox = normalizeToxicity(p.tx);
+        if (!hsFilters.toxicity.has(tox)) return false;
+      }
+      if (hsFilters.subtype.size) {
+        const st = getHSSubtopic(p);
+        if (st === 'Unclassified') return false;
+        if (!hsFilters.subtype.has(st)) return false;
+      }
+      if (hsBrushExtent) {
+        const d = new Date(p.d);
+        if (d < hsBrushExtent[0] || d > hsBrushExtent[1]) return false;
+      }
+      return true;
+    });
+    updateHSStats();
+    if (currentView === 'hatespeech') renderHSWheel();
   }
 
   function toggleFilter(category, value) {
-    if (filters[category].has(value)) {
-      filters[category].delete(value);
-    } else {
-      filters[category].add(value);
-    }
+    if (filters[category].has(value)) filters[category].delete(value);
+    else filters[category].add(value);
     applyFilters();
     updateFilterUI();
   }
 
+  function toggleHSFilter(category, value) {
+    if (hsFilters[category].has(value)) hsFilters[category].delete(value);
+    else hsFilters[category].add(value);
+    applyHSFilters();
+    updateHSFilterUI();
+  }
+
   function resetFilters() {
-    Object.keys(filters).forEach(k => filters[k].clear());
-    brushExtent = null;
-    applyFilters();
-    updateFilterUI();
-    renderScrubber();
+    if (currentView === 'wheel') {
+      Object.keys(filters).forEach(k => filters[k].clear());
+      brushExtent = null;
+      applyFilters();
+      updateFilterUI();
+      renderScrubber();
+    } else {
+      Object.keys(hsFilters).forEach(k => hsFilters[k].clear());
+      hsBrushExtent = null;
+      applyHSFilters();
+      updateHSFilterUI();
+      renderHSScrubber();
+    }
   }
 
   // ─── Filter UI ───────────────────────────────────────────────────
@@ -158,7 +249,7 @@
       countryDiv.appendChild(item);
     });
 
-    // Event Type (DISINFO vs CONTEXT)
+    // Event Type
     const types = d3.rollup(allEvents, v => v.length, d => d.event_type);
     const typeDiv = document.getElementById('filter-type');
     typeDiv.innerHTML = '';
@@ -192,7 +283,7 @@
       subtypeDiv.appendChild(item);
     });
 
-    // Disinformation Narratives
+    // Narratives
     const narrCounts = {};
     allEvents.forEach(e => {
       (e.disinfo_narratives || []).forEach(n => {
@@ -214,8 +305,97 @@
     });
   }
 
+  function buildHSFilterUI() {
+    const PLATFORM_LABELS = { 'x': 'X', 'facebook': 'Facebook', 'tiktok': 'TikTok' };
+
+    // Country
+    const countries = d3.rollup(allHSPosts, v => v.length, d => d.c);
+    const countryDiv = document.getElementById('hs-filter-country');
+    countryDiv.innerHTML = '';
+    [...countries.entries()].sort((a, b) => b[1] - a[1]).forEach(([country, count]) => {
+      const item = document.createElement('div');
+      item.className = 'filter-item active';
+      item.innerHTML = `<span class="filter-dot" style="background:${countryDark(country)}"></span>
+        <span>${country}</span><span class="filter-count">${count.toLocaleString()}</span>`;
+      item.addEventListener('click', () => toggleHSFilter('country', country));
+      item.dataset.value = country;
+      item.dataset.category = 'country';
+      countryDiv.appendChild(item);
+    });
+
+    // Classification
+    const classes = d3.rollup(allHSPosts, v => v.length, d => d.pr);
+    const classDiv = document.getElementById('hs-filter-class');
+    classDiv.innerHTML = '';
+    ['Hate', 'Abusive'].forEach(cls => {
+      const count = classes.get(cls) || 0;
+      const color = cls === 'Hate' ? '#B83A2A' : '#8071BC';
+      const item = document.createElement('div');
+      item.className = 'filter-item active';
+      item.innerHTML = `<span class="filter-dot" style="background:${color}"></span>
+        <span>${cls}</span><span class="filter-count">${count.toLocaleString()}</span>`;
+      item.addEventListener('click', () => toggleHSFilter('classification', cls));
+      item.dataset.value = cls;
+      item.dataset.category = 'classification';
+      classDiv.appendChild(item);
+    });
+
+    // Platform
+    const platforms = d3.rollup(allHSPosts, v => v.length, d => d.p);
+    const platDiv = document.getElementById('hs-filter-platform');
+    platDiv.innerHTML = '';
+    [...platforms.entries()].sort((a, b) => b[1] - a[1]).forEach(([plat, count]) => {
+      const item = document.createElement('div');
+      item.className = 'filter-item active';
+      item.innerHTML = `<span class="filter-dot" style="background:#9E9E9E"></span>
+        <span>${PLATFORM_LABELS[plat] || plat}</span><span class="filter-count">${count.toLocaleString()}</span>`;
+      item.addEventListener('click', () => toggleHSFilter('platform', plat));
+      item.dataset.value = plat;
+      item.dataset.category = 'platform';
+      platDiv.appendChild(item);
+    });
+
+    // Toxicity
+    const toxCounts = { high: 0, medium: 0, low: 0 };
+    allHSPosts.forEach(p => {
+      const t = normalizeToxicity(p.tx);
+      toxCounts[t] = (toxCounts[t] || 0) + 1;
+    });
+    const toxDiv = document.getElementById('hs-filter-toxicity');
+    toxDiv.innerHTML = '';
+    const toxColors = { high: '#B83A2A', medium: '#CA5D0F', low: '#1A3A34' };
+    ['high', 'medium', 'low'].forEach(tox => {
+      const item = document.createElement('div');
+      item.className = 'filter-item active';
+      item.innerHTML = `<span class="filter-dot" style="background:${toxColors[tox]}"></span>
+        <span>${tox.charAt(0).toUpperCase() + tox.slice(1)}</span><span class="filter-count">${(toxCounts[tox] || 0).toLocaleString()}</span>`;
+      item.addEventListener('click', () => toggleHSFilter('toxicity', tox));
+      item.dataset.value = tox;
+      item.dataset.category = 'toxicity';
+      toxDiv.appendChild(item);
+    });
+
+    // HS Subtype
+    const stCounts = {};
+    allHSPosts.forEach(p => {
+      const st = getHSSubtopic(p);
+      if (st !== 'Unclassified') stCounts[st] = (stCounts[st] || 0) + 1;
+    });
+    const stDiv = document.getElementById('hs-filter-subtype');
+    stDiv.innerHTML = '';
+    Object.entries(stCounts).sort((a, b) => b[1] - a[1]).forEach(([st, count]) => {
+      const item = document.createElement('div');
+      item.className = 'filter-item active';
+      item.innerHTML = `<span>${st}</span><span class="filter-count">${count}</span>`;
+      item.addEventListener('click', () => toggleHSFilter('subtype', st));
+      item.dataset.value = st;
+      item.dataset.category = 'subtype';
+      stDiv.appendChild(item);
+    });
+  }
+
   function updateFilterUI() {
-    document.querySelectorAll('.filter-item').forEach(item => {
+    document.querySelectorAll('#disinfo-filters .filter-item').forEach(item => {
       const cat = item.dataset.category;
       const val = item.dataset.value;
       if (!cat || !val) return;
@@ -224,10 +404,26 @@
     });
   }
 
+  function updateHSFilterUI() {
+    document.querySelectorAll('#hs-filters .filter-item').forEach(item => {
+      const cat = item.dataset.category;
+      const val = item.dataset.value;
+      if (!cat || !val) return;
+      const isActive = hsFilters[cat].size === 0 || hsFilters[cat].has(val);
+      item.classList.toggle('active', isActive);
+    });
+  }
+
   function updateStats() {
     document.getElementById('stat-total').textContent = filteredEvents.length;
     document.getElementById('stat-disinfo').textContent = filteredEvents.filter(e => e.event_type === 'DISINFO').length;
     document.getElementById('stat-context').textContent = filteredEvents.filter(e => e.event_type === 'CONTEXT').length;
+  }
+
+  function updateHSStats() {
+    document.getElementById('stat-hs-total').textContent = filteredHSPosts.length.toLocaleString();
+    document.getElementById('stat-hs-hate').textContent = filteredHSPosts.filter(p => p.pr === 'Hate').length.toLocaleString();
+    document.getElementById('stat-hs-abusive').textContent = filteredHSPosts.filter(p => p.pr === 'Abusive').length.toLocaleString();
   }
 
   // ─── Tooltip ─────────────────────────────────────────────────────
@@ -244,6 +440,23 @@
     tooltipEl.innerHTML = `<div class="tooltip-headline">${d.headline}</div>
       <div class="tooltip-meta">${d.date} · ${d.country} · ${typeLabel} · ${d.threat_level}</div>`;
     tooltipEl.classList.add('visible');
+    positionTooltip(event);
+  }
+  function showHSTooltip(event, post) {
+    const PLAT = { 'x': 'X', 'facebook': 'Facebook', 'tiktok': 'TikTok' };
+    const textPreview = post.t ? post.t.substring(0, 120) + (post.t.length > 120 ? '...' : '') : '(no text)';
+    tooltipEl.innerHTML = `<div class="tooltip-headline">${textPreview}</div>
+      <div class="tooltip-meta">${post.d} · ${post.c} · ${PLAT[post.p] || post.p} · ${post.pr} · ${post.a}</div>`;
+    tooltipEl.classList.add('visible');
+    positionTooltip(event);
+  }
+  function showHSClusterTooltip(event, cluster) {
+    tooltipEl.innerHTML = `<div class="tooltip-headline">${cluster.country} — ${cluster.toxicity} toxicity</div>
+      <div class="tooltip-meta">${cluster.month} · ${cluster.count} posts · ${cluster.classification}</div>`;
+    tooltipEl.classList.add('visible');
+    positionTooltip(event);
+  }
+  function positionTooltip(event) {
     const rect = tooltipEl.getBoundingClientRect();
     let x = event.clientX + 12;
     let y = event.clientY - 12;
@@ -256,31 +469,30 @@
     tooltipEl.classList.remove('visible');
   }
 
-  // ─── Detail Panel ────────────────────────────────────────────────
+  // ─── Detail Panel (Disinfo) ─────────────────────────────────────
   function showDetail(d) {
+    // Hide HS detail if visible
+    document.getElementById('hs-detail-content').classList.add('hidden');
     const placeholder = document.getElementById('detail-placeholder');
     const content = document.getElementById('detail-content');
     placeholder.style.display = 'none';
     content.classList.remove('hidden');
 
-    // Type badge
     const typeEl = document.getElementById('detail-type');
     typeEl.textContent = d.event_type === 'DISINFO' ? 'Disinfo' : 'Context';
     typeEl.className = 'detail-badge ' + (d.event_type === 'DISINFO' ? 'disinfo' : 'context');
 
-    // Subtype badge
     const subtypeEl = document.getElementById('detail-subtype');
     if (d.disinfo_subtype) {
       subtypeEl.textContent = SUBTYPE_LABELS[d.disinfo_subtype] || d.disinfo_subtype;
       subtypeEl.className = 'detail-badge subtype';
       subtypeEl.style.display = '';
-      subtypeEl.style.background = SUBTYPE_COLORS[d.disinfo_subtype] + '1A';
-      subtypeEl.style.color = SUBTYPE_COLORS[d.disinfo_subtype];
+      subtypeEl.style.background = (SUBTYPE_COLORS[d.disinfo_subtype] || '#9E9E9E') + '1A';
+      subtypeEl.style.color = SUBTYPE_COLORS[d.disinfo_subtype] || '#9E9E9E';
     } else {
       subtypeEl.style.display = 'none';
     }
 
-    // Country badge
     const countryEl = document.getElementById('detail-country');
     countryEl.textContent = d.country;
     countryEl.className = 'detail-badge country';
@@ -289,7 +501,7 @@
     document.getElementById('detail-date').textContent = d.date;
     document.getElementById('detail-summary').textContent = d.summary;
 
-    // Extracted False Claims
+    // Claims
     const claimsSection = document.getElementById('detail-claims-section');
     const claimsDiv = document.getElementById('detail-claims');
     const claims = d.extracted_claims || [];
@@ -302,7 +514,7 @@
       claimsSection.style.display = 'none';
     }
 
-    // Reach & Spread
+    // Reach
     const reachSection = document.getElementById('detail-reach-section');
     const reachDiv = document.getElementById('detail-reach');
     const reach = d.reach_data;
@@ -330,7 +542,7 @@
       reachSection.style.display = 'none';
     }
 
-    // Disinfo Narratives
+    // Narratives
     const narrSection = document.getElementById('detail-narratives-section');
     const narrDiv = document.getElementById('detail-narratives');
     const narrs = d.disinfo_narratives || [];
@@ -374,7 +586,7 @@
     const platformsDiv = document.getElementById('detail-platforms');
     platformsDiv.innerHTML = d.platforms.map(p => `<span class="detail-tag">${p}</span>`).join('');
 
-    // Related events
+    // Related
     const relatedSection = document.getElementById('detail-related-section');
     const relatedDiv = document.getElementById('detail-related');
     if (d.related_events && d.related_events.length > 0) {
@@ -414,10 +626,83 @@
     document.getElementById('detail-panel').classList.add('open');
   }
 
+  // ─── Detail Panel (HS) ──────────────────────────────────────────
+  function showHSDetail(post) {
+    const PLAT = { 'x': 'X', 'facebook': 'Facebook', 'tiktok': 'TikTok' };
+    // Hide disinfo detail
+    document.getElementById('detail-content').classList.add('hidden');
+    const placeholder = document.getElementById('detail-placeholder');
+    const content = document.getElementById('hs-detail-content');
+    placeholder.style.display = 'none';
+    content.classList.remove('hidden');
+
+    // Header badges
+    const header = document.getElementById('hs-detail-header');
+    const badgeColor = post.pr === 'Hate' ? 'background:rgba(184,58,42,0.1);color:#B83A2A' : 'background:rgba(128,113,188,0.12);color:#8071BC';
+    const confPct = Math.round(post.co * 100);
+    const toxLabel = normalizeToxicity(post.tx);
+    const toxColors = { high: 'background:rgba(184,58,42,0.1);color:#B83A2A', medium: 'background:rgba(202,93,15,0.1);color:#CA5D0F', low: 'background:rgba(26,58,52,0.1);color:#1A3A34' };
+    header.innerHTML = `
+      <span class="detail-badge" style="${badgeColor}">${post.pr} (${confPct}%)</span>
+      <span class="detail-badge" style="${toxColors[toxLabel] || toxColors.low}">${toxLabel} toxicity</span>
+      <span class="detail-badge country">${post.c}</span>
+    `;
+
+    document.getElementById('hs-detail-headline').textContent = post.a || 'Unknown';
+    document.getElementById('hs-detail-date').textContent = `${post.d} · ${PLAT[post.p] || post.p}`;
+    document.getElementById('hs-detail-text').textContent = post.t || '(no text)';
+
+    // Engagement
+    const engSection = document.getElementById('hs-detail-engagement-section');
+    const engDiv = document.getElementById('hs-detail-engagement');
+    if (post.en && (post.en.l || post.en.s || post.en.c)) {
+      engSection.style.display = '';
+      engDiv.innerHTML = `
+        <div class="reach-item"><span class="reach-label">Likes:</span> <span class="reach-value">${post.en.l || 0}</span></div>
+        <div class="reach-item"><span class="reach-label">Shares:</span> <span class="reach-value">${post.en.s || 0}</span></div>
+        <div class="reach-item"><span class="reach-label">Comments:</span> <span class="reach-value">${post.en.c || 0}</span></div>
+      `;
+    } else {
+      engSection.style.display = 'none';
+    }
+
+    // Subtopics
+    const stSection = document.getElementById('hs-detail-subtopics-section');
+    const stDiv = document.getElementById('hs-detail-subtopics');
+    if (post.st && post.st.length > 0) {
+      stSection.style.display = '';
+      stDiv.innerHTML = post.st.map(s =>
+        `<span class="detail-tag">${s.n} (${Math.round(s.s * 100)}%)</span>`
+      ).join('');
+    } else {
+      stSection.style.display = 'none';
+    }
+
+    // Model agreement
+    const modelSection = document.getElementById('hs-detail-model-section');
+    const modelP = document.getElementById('hs-detail-model');
+    if (post.ma && post.ma > 0) {
+      modelSection.style.display = '';
+      modelP.textContent = `${post.ma}/3 models agree`;
+    } else {
+      modelSection.style.display = 'none';
+    }
+
+    // Link
+    const linkDiv = document.getElementById('hs-detail-link');
+    linkDiv.innerHTML = post.l
+      ? `<a class="source-link" href="${post.l}" target="_blank" rel="noopener">${post.l.substring(0, 60)}...</a>`
+      : '<span class="source-link">No link available</span>';
+
+    document.getElementById('detail-panel').classList.add('open');
+  }
+
   function hideDetail() {
     pinnedEvent = null;
+    pinnedHSPost = null;
     document.getElementById('detail-placeholder').style.display = '';
     document.getElementById('detail-content').classList.add('hidden');
+    document.getElementById('hs-detail-content').classList.add('hidden');
     document.getElementById('detail-panel').classList.remove('open');
     clearHighlight();
   }
@@ -448,6 +733,7 @@
     d3.selectAll('.event-dot').classed('selected', false).classed('dimmed', false);
     d3.selectAll('.event-link').classed('visible', false)
       .attr('stroke-dasharray', null).attr('stroke-dashoffset', null);
+    d3.selectAll('.hs-dot').classed('selected', false).classed('dimmed', false);
   }
 
   // ─── Get narrative list for wheel segments ──────────────────────
@@ -462,12 +748,11 @@
       .sort((a, b) => b[1] - a[1])
       .filter(([nid]) => narrativeRef[nid]);
   }
-  // Helper: get just the IDs from getUsedNarratives
   function getUsedNarrativeIds() {
     return getUsedNarratives().map(d => d[0]);
   }
 
-  // ─── RADIAL THREAT WHEEL ──────────────────────────────────────
+  // ─── RADIAL THREAT WHEEL (DISINFO) ──────────────────────────────
   function renderWheel() {
     const svg = d3.select('#wheel-svg');
     svg.selectAll('*').remove();
@@ -525,29 +810,25 @@
         .style('fill', ring.color).style('opacity', 0.6).text(ring.label);
     });
 
-    // Narrative segments — proportional to event count
-    const usedNarrativesWithCounts = getUsedNarratives(); // [[nid, count], ...]
+    // Narrative segments
+    const usedNarrativesWithCounts = getUsedNarratives();
     if (usedNarrativesWithCounts.length === 0) return;
     const usedNarratives = usedNarrativesWithCounts.map(d => d[0]);
     const narrWeights = new Map(usedNarrativesWithCounts);
     const totalWeight = usedNarrativesWithCounts.reduce((s, d) => s + d[1], 0);
     const segmentPad = 0.02;
-    // Give each narrative a minimum slice so thin ones are still visible
-    const MIN_ANGLE = 0.12; // ~7 degrees minimum
+    const MIN_ANGLE = 0.12;
     const totalPad = segmentPad * 2 * usedNarratives.length;
     const totalMinAngle = MIN_ANGLE * usedNarratives.length;
     const availAngle = 2 * Math.PI - totalPad;
-    // If min angles exceed available, just use min (equal tiny slices)
     const useMin = totalMinAngle >= availAngle;
-    // Precompute cumulative start angles
-    const narrAngles = []; // [{nid, start, end, count}]
+    const narrAngles = [];
     let cumAngle = -Math.PI / 2;
     usedNarrativesWithCounts.forEach(([nid, count]) => {
       let segAngle;
       if (useMin) {
         segAngle = (2 * Math.PI) / usedNarratives.length;
       } else {
-        // Proportional: distribute available space minus minimums by weight, then add minimum
         const extraAngle = availAngle - totalMinAngle;
         segAngle = MIN_ANGLE + (count / totalWeight) * extraAngle + segmentPad * 2;
       }
@@ -557,7 +838,6 @@
 
     narrAngles.forEach(({ nid, start: startAngle, end: endAngle }) => {
       const narr = narrativeRef[nid];
-
       const x1 = Math.cos(startAngle) * innerRadius;
       const y1 = Math.sin(startAngle) * innerRadius;
       const x2 = Math.cos(startAngle) * maxRadius;
@@ -573,7 +853,6 @@
       const flip = degAngle > 90 || degAngle < -90;
       const textAnchor = flip ? 'end' : 'start';
       const rotation = flip ? degAngle + 180 : degAngle;
-
       const shortName = narr.short_name || narr.name;
       const displayName = shortName.length > 20 ? shortName.substring(0, 18) + '...' : shortName;
       g.append('text').attr('class', 'wheel-segment-label')
@@ -598,7 +877,6 @@
       const events = eventsByNarr.get(nid) || [];
       const startAngle = start + 0.03;
       const endAngle = end - 0.03;
-
       events.forEach((e, j) => {
         const hash = e.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
         const pseudo = ((hash * 9301 + 49297) % 233280) / 233280;
@@ -608,12 +886,10 @@
         else if (e.threat_level === 'P2 HIGH') rNorm = 0.36 + pseudo * 0.28;
         else rNorm = 0.64 + pseudo * 0.28;
         const r = innerRadius + rNorm * (maxRadius - innerRadius);
-
         const angleRange = endAngle - startAngle;
         const baseAngle = startAngle + (angleRange * (j + 0.5)) / Math.max(events.length, 1);
         const jitter = (pseudo2 - 0.5) * angleRange * 0.15;
         const angle = baseAngle + jitter;
-
         positions.set(e.id, { x: Math.cos(angle) * r, y: Math.sin(angle) * r });
       });
     });
@@ -675,15 +951,197 @@
   }
 
   // ═══════════════════════════════════════════════════════════════════
-  // NARRATIVE LIFECYCLE PLAYBACK
-  // Each narrative has a "heat" value that rises with events and decays
-  // over time. The wheel dynamically shows only narratives that are
-  // currently "alive" (heat > threshold). Narratives grow, fade, and
-  // disappear organically.
+  // HATE SPEECH RADIAL WHEEL
+  // ═══════════════════════════════════════════════════════════════════
+  function renderHSWheel() {
+    const svg = d3.select('#hs-wheel-svg');
+    svg.selectAll('*').remove();
+    const container = document.getElementById('panel-hatespeech');
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    svg.attr('viewBox', `0 0 ${width} ${height}`);
+
+    const cx = width / 2;
+    const cy = height / 2;
+    const maxRadius = Math.min(cx, cy) - 50;
+    const innerRadius = maxRadius * 0.10;
+
+    // Defs
+    const defs = svg.append('defs');
+    const glowFilter = defs.append('filter').attr('id', 'hs-glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
+    glowFilter.append('feGaussianBlur').attr('stdDeviation', '2').attr('result', 'blur');
+    const merge = glowFilter.append('feMerge');
+    merge.append('feMergeNode').attr('in', 'blur');
+    merge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+    const zoomGroup = svg.append('g').attr('class', 'hs-wheel-zoom-group');
+    const g = zoomGroup.append('g').attr('transform', `translate(${cx},${cy})`);
+
+    hsWheelZoom = d3.zoom()
+      .scaleExtent([0.5, 8])
+      .on('zoom', function(event) { zoomGroup.attr('transform', event.transform); });
+    svg.call(hsWheelZoom);
+    svg.call(hsWheelZoom.transform, d3.zoomIdentity);
+    svg.append('text')
+      .attr('x', width - 12).attr('y', height - 12)
+      .attr('text-anchor', 'end')
+      .style('font-family', "'IBM Plex Mono', monospace").style('font-size', '9px')
+      .style('fill', '#9E9E9E').style('opacity', 0.6)
+      .text('Scroll to zoom · Drag to pan · Double-click to reset');
+    svg.on('dblclick.zoom', function() {
+      svg.transition().duration(500).call(hsWheelZoom.transform, d3.zoomIdentity);
+    });
+
+    // Toxicity rings: high=inner, medium=middle, low=outer
+    const toxRings = [
+      { tox: 'high',   rStart: 0.0,  rEnd: 0.33, label: 'HIGH',   color: '#B83A2A' },
+      { tox: 'medium', rStart: 0.33, rEnd: 0.66, label: 'MEDIUM', color: '#CA5D0F' },
+      { tox: 'low',    rStart: 0.66, rEnd: 1.0,  label: 'LOW',    color: '#1A3A34' }
+    ];
+
+    const ringR = toxRings.map(tr => ({
+      ...tr,
+      r: innerRadius + (tr.rStart + tr.rEnd) / 2 * (maxRadius - innerRadius),
+      rInner: innerRadius + tr.rStart * (maxRadius - innerRadius),
+      rOuter: innerRadius + tr.rEnd * (maxRadius - innerRadius)
+    }));
+
+    // Draw ring guides
+    ringR.forEach(ring => {
+      g.append('circle').attr('r', ring.r).attr('class', 'wheel-ring')
+        .style('stroke', ring.color).style('opacity', 0.12);
+      g.append('text').attr('x', 5).attr('y', -ring.r - 3).attr('class', 'wheel-ring-label')
+        .style('fill', ring.color).style('opacity', 0.5).text(ring.label);
+    });
+
+    // Classify posts by axis
+    const postsByAxis = new Map();
+    HS_AXES.forEach(axis => postsByAxis.set(axis, []));
+    filteredHSPosts.forEach(p => {
+      const axis = getHSSubtopic(p);
+      if (postsByAxis.has(axis)) postsByAxis.get(axis).push(p);
+      else {
+        // Fallback: assign to General Abuse
+        postsByAxis.get('General Abuse').push(p);
+      }
+    });
+
+    // All 8 axes proportional to post count with minimum
+    const segmentPad = 0.015;
+    const totalPad = segmentPad * 2 * HS_AXES.length;
+    const availAngle = 2 * Math.PI - totalPad;
+    const MIN_ANGLE = 0.15; // min angle per axis
+    const axisCounts = HS_AXES.map(a => ({ axis: a, count: postsByAxis.get(a).length }));
+    const totalPosts = axisCounts.reduce((s, c) => s + c.count, 0) || 1;
+    const minAngleTotal = MIN_ANGLE * HS_AXES.length;
+    const extraAvail = Math.max(0, availAngle - minAngleTotal);
+
+    const axisAngles = [];
+    let cumAngle = -Math.PI / 2;
+
+    axisCounts.forEach(({ axis, count }) => {
+      const propAngle = MIN_ANGLE + (count / totalPosts) * extraAvail;
+      axisAngles.push({
+        axis,
+        start: cumAngle + segmentPad,
+        end: cumAngle + propAngle - segmentPad,
+        count
+      });
+      cumAngle += propAngle;
+    });
+
+    // Draw segment dividers and labels
+    axisAngles.forEach(({ axis, start, end }) => {
+      // Divider line
+      const x1 = Math.cos(start) * innerRadius;
+      const y1 = Math.sin(start) * innerRadius;
+      const x2 = Math.cos(start) * maxRadius;
+      const y2 = Math.sin(start) * maxRadius;
+      g.append('line').attr('x1', x1).attr('y1', y1).attr('x2', x2).attr('y2', y2)
+        .style('stroke', '#D5D0C7').style('opacity', 0.3);
+
+      // Label
+      const midAngle = (start + end) / 2;
+      const labelR = maxRadius + 16;
+      const lx = Math.cos(midAngle) * labelR;
+      const ly = Math.sin(midAngle) * labelR;
+      const degAngle = midAngle * 180 / Math.PI;
+      const flip = degAngle > 90 || degAngle < -90;
+      const textAnchor = flip ? 'end' : 'start';
+      const rotation = flip ? degAngle + 180 : degAngle;
+      const displayName = axis.length > 22 ? axis.substring(0, 20) + '...' : axis;
+      g.append('text').attr('class', 'wheel-segment-label')
+        .attr('transform', `translate(${lx},${ly}) rotate(${rotation})`)
+        .attr('text-anchor', textAnchor).attr('dominant-baseline', 'middle')
+        .text(displayName);
+    });
+
+    // ─── Place dots for ALL posts (individual per axis) ────────────
+    const axisAngleMap = new Map(axisAngles.map(a => [a.axis, a]));
+
+    HS_AXES.forEach(axis => {
+      const posts = postsByAxis.get(axis);
+      const angles = axisAngleMap.get(axis);
+      if (!angles || posts.length === 0) return;
+      const startAngle = angles.start + 0.02;
+      const endAngle = angles.end - 0.02;
+      const angleRange = endAngle - startAngle;
+
+      posts.forEach((p, j) => {
+        const hash = p.i.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
+        const pseudo = ((hash * 9301 + 49297) % 233280) / 233280;
+        const pseudo2 = ((hash * 7919 + 12345) % 233280) / 233280;
+
+        // Radial position based on toxicity
+        const tox = normalizeToxicity(p.tx);
+        let rNorm;
+        if (tox === 'high') rNorm = 0.05 + pseudo * 0.25;
+        else if (tox === 'medium') rNorm = 0.36 + pseudo * 0.25;
+        else rNorm = 0.70 + pseudo * 0.25;
+        const r = innerRadius + rNorm * (maxRadius - innerRadius);
+
+        // Angular position
+        const baseAngle = startAngle + (angleRange * (j + 0.5)) / Math.max(posts.length, 1);
+        const jitter = (pseudo2 - 0.5) * angleRange * 0.15;
+        const angle = baseAngle + jitter;
+
+        const eng = hsEngagement(p);
+        const size = Math.max(3, Math.min(12, 3 + Math.sqrt(eng) * 0.8));
+        const color = hsPostColor(p);
+
+        g.append('circle').attr('class', 'hs-dot')
+          .attr('cx', Math.cos(angle) * r).attr('cy', Math.sin(angle) * r).attr('r', size)
+          .attr('fill', color)
+          .attr('fill-opacity', p.pr === 'Hate' ? 0.85 : 0.45)
+          .attr('filter', p.pr === 'Hate' ? 'url(#hs-glow)' : null)
+          .datum(p)
+          .on('mouseenter', function(event) {
+            if (!pinnedHSPost) { showHSTooltip(event, p); showHSDetail(p); }
+            else showHSTooltip(event, p);
+          })
+          .on('mousemove', function(event) { showHSTooltip(event, p); })
+          .on('mouseleave', function() { hideTooltip(); if (!pinnedHSPost) hideDetail(); })
+          .on('click', function() {
+            if (pinnedHSPost && pinnedHSPost.i === p.i) { pinnedHSPost = null; hideDetail(); }
+            else { pinnedHSPost = p; showHSDetail(p); }
+          });
+      });
+    });
+
+    // Center label
+    g.append('text').attr('text-anchor', 'middle').attr('dy', -6)
+      .style('font-family', "'DM Serif Display', Georgia, serif").style('font-style', 'italic')
+      .style('font-size', '14px').style('fill', '#9E9E9E').text('Highest');
+    g.append('text').attr('text-anchor', 'middle').attr('dy', 12)
+      .style('font-family', "'DM Serif Display', Georgia, serif").style('font-style', 'italic')
+      .style('font-size', '14px').style('fill', '#9E9E9E').text('Toxicity');
+  }
+
+  // ═══════════════════════════════════════════════════════════════════
+  // NARRATIVE LIFECYCLE PLAYBACK (Disinfo wheel only)
   // ═══════════════════════════════════════════════════════════════════
 
   function buildWeekTimeline(events) {
-    // Generate array of Monday-start weeks spanning the data range
     const dates = events.map(e => new Date(e.date));
     const minDate = d3.min(dates);
     const maxDate = d3.max(dates);
@@ -693,10 +1151,6 @@
   }
 
   function computeNarrativeHeatTimeline(events, weeks) {
-    // For each week, compute which narratives are "alive" and their heat
-    // Returns array of { week, narrativeHeat: Map<nid, heat>, newEvents: [...] }
-
-    // Index events by week
     const eventsByWeek = new Map();
     weeks.forEach(w => eventsByWeek.set(w.getTime(), []));
     events.forEach(e => {
@@ -706,31 +1160,22 @@
       if (eventsByWeek.has(key)) {
         eventsByWeek.get(key).push(e);
       } else {
-        // Event falls before first week — attach to first week
         const firstKey = weeks[0].getTime();
         eventsByWeek.get(firstKey).push(e);
       }
     });
 
-    // Walk through weeks, maintaining heat state
-    const heatState = new Map(); // nid → heat
+    const heatState = new Map();
     const timeline = [];
 
     weeks.forEach(week => {
       const weekEvents = eventsByWeek.get(week.getTime()) || [];
-
-      // 1. Decay all existing narratives
       for (const [nid, heat] of heatState) {
         const newHeat = heat - HEAT_DECAY_PER_WEEK;
-        if (newHeat <= HEAT_VISIBLE_THRESHOLD) {
-          heatState.delete(nid);
-        } else {
-          heatState.set(nid, newHeat);
-        }
+        if (newHeat <= HEAT_VISIBLE_THRESHOLD) heatState.delete(nid);
+        else heatState.set(nid, newHeat);
       }
-
-      // 2. Add heat from this week's events
-      const weekNarrEvents = new Map(); // nid → events this week
+      const weekNarrEvents = new Map();
       weekEvents.forEach(e => {
         (e.disinfo_narratives || []).forEach(nid => {
           if (!narrativeRef[nid]) return;
@@ -740,21 +1185,13 @@
           weekNarrEvents.get(nid).push(e);
         });
       });
-
-      // 3. Snapshot this week's state
-      timeline.push({
-        week,
-        narrativeHeat: new Map(heatState),
-        newEvents: weekEvents,
-        weekNarrEvents
-      });
+      timeline.push({ week, narrativeHeat: new Map(heatState), newEvents: weekEvents, weekNarrEvents });
     });
 
     return timeline;
   }
 
   function renderPlaybackWheel(weekState, allWeeksSoFar, allNarrativesSeen) {
-    // Renders the wheel for a specific moment in time during playback
     const svg = d3.select('#wheel-svg');
     svg.selectAll('*').remove();
     const container = document.getElementById('panel-wheel');
@@ -767,14 +1204,12 @@
     const maxRadius = Math.min(cx, cy) - 40;
     const innerRadius = maxRadius * 0.12;
 
-    // Defs
     const defs = svg.append('defs');
     const glowFilter = defs.append('filter').attr('id', 'glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
     glowFilter.append('feGaussianBlur').attr('stdDeviation', '2').attr('result', 'blur');
     const feMerge = glowFilter.append('feMerge');
     feMerge.append('feMergeNode').attr('in', 'blur');
     feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
-    // Pulse animation filter
     const pulseFilter = defs.append('filter').attr('id', 'pulse-glow').attr('x', '-100%').attr('y', '-100%').attr('width', '300%').attr('height', '300%');
     pulseFilter.append('feGaussianBlur').attr('stdDeviation', '4').attr('result', 'blur');
     const pm = pulseFilter.append('feMerge');
@@ -787,10 +1222,8 @@
 
     const zoomGroup = svg.append('g').attr('class', 'wheel-zoom-group');
     const g = zoomGroup.append('g').attr('transform', `translate(${cx},${cy})`);
-
     if (wheelZoom) svg.call(wheelZoom);
 
-    // Ring guides (faded during playback for drama)
     const rings = [
       { r: innerRadius + (maxRadius - innerRadius) * 0.15, label: 'P1 CRITICAL', color: '#B83A2A' },
       { r: innerRadius + (maxRadius - innerRadius) * 0.50, label: 'P2 HIGH', color: '#CA5D0F' },
@@ -801,13 +1234,11 @@
         .style('stroke', ring.color).style('opacity', 0.08);
     });
 
-    // Get active narratives (heat > threshold) — sorted by heat descending
     const activeNarratives = [...weekState.narrativeHeat.entries()]
       .filter(([_, heat]) => heat > HEAT_VISIBLE_THRESHOLD)
       .sort((a, b) => b[1] - a[1]);
 
     if (activeNarratives.length === 0) {
-      // Show empty state
       g.append('text').attr('text-anchor', 'middle').attr('dy', 0)
         .style('font-family', "'DM Serif Display', Georgia, serif").style('font-style', 'italic')
         .style('font-size', '16px').style('fill', '#9E9E9E').style('opacity', 0.5)
@@ -815,22 +1246,18 @@
       return;
     }
 
-    // Proportional angle assignment based on heat (bigger heat = bigger slice)
-    // Only active narratives get slices
     const segmentPad = 0.02;
     const PB_MIN_ANGLE = 0.12;
     const totalHeat = activeNarratives.reduce((s, [_, h]) => s + h, 0);
     const pbAvailAngle = 2 * Math.PI - segmentPad * 2 * activeNarratives.length;
     const pbTotalMinAngle = PB_MIN_ANGLE * activeNarratives.length;
     const pbUseMin = pbTotalMinAngle >= pbAvailAngle;
-    // Build angle map for active narratives
-    const pbNarrAngles = new Map(); // nid -> {start, end}
+    const pbNarrAngles = new Map();
     let pbCumAngle = -Math.PI / 2;
     activeNarratives.forEach(([nid, heat]) => {
       let segAngle;
-      if (pbUseMin) {
-        segAngle = (2 * Math.PI) / activeNarratives.length;
-      } else {
+      if (pbUseMin) segAngle = (2 * Math.PI) / activeNarratives.length;
+      else {
         const extraAngle = pbAvailAngle - pbTotalMinAngle;
         segAngle = PB_MIN_ANGLE + (heat / totalHeat) * extraAngle + segmentPad * 2;
       }
@@ -838,19 +1265,14 @@
       pbCumAngle += segAngle;
     });
 
-    // Collect all visible events (from all weeks so far)
     const visibleEvents = [];
     const visibleEventIds = new Set();
     allWeeksSoFar.forEach(ws => {
       ws.newEvents.forEach(e => {
-        if (!visibleEventIds.has(e.id)) {
-          visibleEventIds.add(e.id);
-          visibleEvents.push(e);
-        }
+        if (!visibleEventIds.has(e.id)) { visibleEventIds.add(e.id); visibleEvents.push(e); }
       });
     });
 
-    // Draw segment lines and labels for active narratives
     activeNarratives.forEach(([nid, heat]) => {
       const narr = narrativeRef[nid];
       if (!narr) return;
@@ -858,34 +1280,28 @@
       if (!angles) return;
       const startAngle = angles.start;
       const endAngle = angles.end;
-      const heatNorm = Math.min(heat / HEAT_MAX, 1); // 0..1
+      const heatNorm = Math.min(heat / HEAT_MAX, 1);
 
-      // Segment divider line — opacity scales with heat
       const x1 = Math.cos(startAngle) * innerRadius;
       const y1 = Math.sin(startAngle) * innerRadius;
       const x2 = Math.cos(startAngle) * maxRadius;
       const y2 = Math.sin(startAngle) * maxRadius;
-      // Derive narrative country color
       const playNarrPrefix = nid.split('-')[1];
       const playNarrCountryMap = { 'SS': 'South Sudan', 'SO': 'Somalia', 'KE': 'Kenya', 'FP': 'Regional' };
       const narrColor = countryDark(playNarrCountryMap[playNarrPrefix] || 'Regional');
 
       g.append('line').attr('x1', x1).attr('y1', y1).attr('x2', x2).attr('y2', y2)
-        .style('stroke', narrColor)
-        .style('opacity', 0.1 + heatNorm * 0.3);
+        .style('stroke', narrColor).style('opacity', 0.1 + heatNorm * 0.3);
 
-      // Segment background arc — glow effect showing heat intensity
       const arc = d3.arc()
         .innerRadius(innerRadius)
         .outerRadius(innerRadius + (maxRadius - innerRadius) * (0.3 + heatNorm * 0.7))
         .startAngle(startAngle + Math.PI / 2)
         .endAngle(endAngle + Math.PI / 2);
       g.append('path').attr('d', arc)
-        .attr('fill', narrColor)
-        .attr('fill-opacity', heatNorm * 0.06)
+        .attr('fill', narrColor).attr('fill-opacity', heatNorm * 0.06)
         .attr('class', 'narrative-heat-arc');
 
-      // Label — opacity and size scale with heat
       const midAngle = (startAngle + endAngle) / 2;
       const labelR = maxRadius + 16;
       const lx = Math.cos(midAngle) * labelR;
@@ -905,7 +1321,6 @@
         .text(displayName);
     });
 
-    // Map events to positions — only active narratives get dots
     const activeNarrIds = new Set(activeNarratives.map(([nid]) => nid));
     const positions = new Map();
     const eventsByNarr = new Map();
@@ -935,17 +1350,14 @@
         else if (e.threat_level === 'P2 HIGH') rNorm = 0.36 + pseudo * 0.28;
         else rNorm = 0.64 + pseudo * 0.28;
         const r = innerRadius + rNorm * (maxRadius - innerRadius);
-
         const angleRange = endAngle - startAngle;
         const baseAngle = startAngle + (angleRange * (j + 0.5)) / Math.max(events.length, 1);
         const jitter = (pseudo2 - 0.5) * angleRange * 0.15;
         const angle = baseAngle + jitter;
-
         positions.set(e.id, { x: Math.cos(angle) * r, y: Math.sin(angle) * r });
       });
     });
 
-    // Links for this week's new events
     const linkGroup = g.append('g').attr('class', 'links-group');
     const drawnLinks = new Set();
     visibleEvents.forEach(e => {
@@ -965,36 +1377,26 @@
       }
     });
 
-    // Dots — all visible events, but newer ones in this week pulse
     const thisWeekIds = new Set(weekState.newEvents.map(e => e.id));
     const dotsGroup = g.append('g').attr('class', 'dots-group');
 
     visibleEvents.forEach(e => {
       const pos = positions.get(e.id);
       if (!pos) return;
-
-      // Events in narratives that are fading get reduced opacity
       const bestNarr = (e.disinfo_narratives || []).find(n => activeNarrIds.has(n));
       const narrHeat = bestNarr ? (weekState.narrativeHeat.get(bestNarr) || 0) : 0;
       const heatNorm = Math.min(narrHeat / HEAT_MAX, 1);
-
       const isNew = thisWeekIds.has(e.id);
       const baseSize = Math.max(3, Math.min(12, 2 + e.spread * 1.5));
       const color = eventColor(e);
-
-      // Opacity based on narrative heat + event type
       let opacity;
-      if (e.event_type === 'CONTEXT') {
-        opacity = 0.08 + heatNorm * 0.25;
-      } else {
-        opacity = 0.4 + heatNorm * 0.55;
-      }
+      if (e.event_type === 'CONTEXT') opacity = 0.08 + heatNorm * 0.25;
+      else opacity = 0.4 + heatNorm * 0.55;
 
       const dot = dotsGroup.append('circle').attr('class', 'event-dot')
         .attr('cx', pos.x).attr('cy', pos.y)
         .attr('r', isNew ? 0 : baseSize)
-        .attr('fill', color)
-        .attr('fill-opacity', opacity)
+        .attr('fill', color).attr('fill-opacity', opacity)
         .attr('filter', (e.event_type === 'DISINFO' && isNew) ? 'url(#pulse-glow)' : (e.event_type === 'DISINFO' ? 'url(#glow)' : null))
         .datum(e)
         .on('mouseenter', function(event) {
@@ -1008,7 +1410,6 @@
           else { pinnedEvent = e; showDetail(e); }
         });
 
-      // New event pulse animation
       if (isNew) {
         dot.transition().duration(400).ease(d3.easeElasticOut.amplitude(1).period(0.4))
           .attr('r', baseSize * 1.8)
@@ -1017,7 +1418,6 @@
       }
     });
 
-    // Show active narrative count in center
     const activeCount = activeNarratives.length;
     g.append('text').attr('text-anchor', 'middle').attr('dy', -12)
       .style('font-family', "'IBM Plex Mono', monospace").style('font-size', '24px')
@@ -1033,9 +1433,8 @@
       .text('active');
   }
 
-  // ─── ANIMATED TIME PLAYBACK (v4.1 — Narrative Lifecycle) ────────
-  // ─── Playback engine (play / pause / scrub / step) ─────────
-  let pbData = null;  // { heatTimeline, allNarrativesSeen } — persists while playback is active
+  // ─── ANIMATED TIME PLAYBACK ────────────────────────────────────
+  let pbData = null;
   let pbPaused = false;
 
   function pbBuildData() {
@@ -1100,18 +1499,14 @@
   function pbStep() {
     if (!isPlaying || !pbData) return;
     const nextIdx = playbackIndex + 1;
-    if (nextIdx >= pbData.heatTimeline.length) {
-      // Reached the end — pause at final frame
-      pausePlayback();
-      return;
-    }
+    if (nextIdx >= pbData.heatTimeline.length) { pausePlayback(); return; }
     pbRenderFrame(nextIdx);
     pbScheduleNext();
   }
 
   function startPlayback() {
+    if (currentView !== 'wheel') return;
     if (isPlaying) return;
-    // If we have cached data and are resuming from pause, just resume
     if (pbPaused && pbData) {
       isPlaying = true;
       pbPaused = false;
@@ -1119,7 +1514,6 @@
       pbScheduleNext();
       return;
     }
-    // Fresh start
     pbData = pbBuildData();
     if (!pbData) return;
     playbackIndex = 0;
@@ -1150,7 +1544,7 @@
     const statsEl = document.getElementById('playback-stats');
     if (statsEl) statsEl.textContent = '';
     pbUpdateUI();
-    renderWheel();
+    if (currentView === 'wheel') renderWheel();
   }
 
   function togglePlayback() {
@@ -1159,8 +1553,8 @@
   }
 
   function pbStepForward() {
+    if (currentView !== 'wheel') return;
     if (!pbData) {
-      // Initialize data but don't auto-play
       pbData = pbBuildData();
       if (!pbData) return;
       isPlaying = false;
@@ -1186,6 +1580,7 @@
   }
 
   function pbScrub(e) {
+    if (currentView !== 'wheel') return;
     if (!pbData) {
       pbData = pbBuildData();
       if (!pbData) return;
@@ -1201,7 +1596,6 @@
     pbUpdateUI();
   }
 
-  // Legacy alias for stopPlayback references
   function stopPlayback() { resetPlayback(); }
 
   function cycleSpeed() {
@@ -1214,175 +1608,6 @@
     if (btn) btn.textContent = labels[nextIdx];
   }
 
-  // ─── TIMELINE VIEW ──────────────────────────────────────────────
-  function renderTimeline() {
-    const svg = d3.select('#timeline-svg');
-    svg.selectAll('*').remove();
-    const container = document.getElementById('panel-timeline');
-    const width = container.clientWidth;
-    const height = container.clientHeight;
-    svg.attr('viewBox', `0 0 ${width} ${height}`);
-    const margin = { top: 30, right: 30, bottom: 40, left: 60 };
-    const innerW = width - margin.left - margin.right;
-    const innerH = height - margin.top - margin.bottom;
-    const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
-
-    const dateExtent = d3.extent(filteredEvents, d => new Date(d.date));
-    if (!dateExtent[0]) return;
-    const x = d3.scaleTime().domain(dateExtent).range([0, innerW]);
-    const countries = ['Somalia', 'South Sudan', 'Kenya', 'Regional'];
-    const y = d3.scaleBand().domain(countries).range([0, innerH]).padding(0.15);
-
-    g.append('g').attr('class', 'timeline-axis').attr('transform', `translate(0,${innerH})`)
-      .call(d3.axisBottom(x).ticks(d3.timeMonth.every(2)).tickFormat(d3.timeFormat('%b %Y')));
-    g.append('g').attr('class', 'timeline-axis').call(d3.axisLeft(y));
-
-    countries.forEach((c, i) => {
-      g.append('rect').attr('x', 0).attr('y', y(c)).attr('width', innerW).attr('height', y.bandwidth())
-        .attr('fill', i % 2 === 0 ? '#EDE9E1' : '#F5F3EE').attr('fill-opacity', 0.6);
-      g.append('rect').attr('x', 0).attr('y', y(c)).attr('width', 3).attr('height', y.bandwidth())
-        .attr('fill', countryDark(c)).attr('fill-opacity', 0.5);
-    });
-
-    filteredEvents.forEach(e => {
-      const ex = x(new Date(e.date));
-      const ey = y(e.country);
-      if (ex === undefined || ey === undefined) return;
-      const hash = e.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
-      const jitter = (((hash * 9301 + 49297) % 233280) / 233280 - 0.5) * y.bandwidth() * 0.6;
-      const color = eventColor(e);
-      const size = Math.max(3, Math.min(10, 2 + e.spread * 1.2));
-
-      g.append('circle').attr('class', 'timeline-event event-dot')
-        .attr('cx', ex).attr('cy', ey + y.bandwidth() / 2 + jitter)
-        .attr('r', size).attr('fill', color)
-        .attr('fill-opacity', e.event_type === 'CONTEXT' ? 0.35 : 0.9)
-        .datum(e)
-        .on('mouseenter', function(event) {
-          if (!pinnedEvent) { showTooltip(event, e); showDetail(e); } else showTooltip(event, e);
-        })
-        .on('mousemove', function(event) { showTooltip(event, e); })
-        .on('mouseleave', function() { hideTooltip(); if (!pinnedEvent) hideDetail(); })
-        .on('click', function() {
-          if (pinnedEvent && pinnedEvent.id === e.id) { pinnedEvent = null; hideDetail(); }
-          else { pinnedEvent = e; showDetail(e); }
-        });
-    });
-  }
-
-  // ─── NARRATIVE TREND CHARTS ─────────────────────────────────────
-  function renderNarrativeTrends() {
-    const container = document.getElementById('panel-trends');
-    container.innerHTML = '';
-
-    const narrCounts = {};
-    filteredEvents.forEach(e => (e.disinfo_narratives || []).forEach(n => {
-      narrCounts[n] = (narrCounts[n] || 0) + 1;
-    }));
-    const topNarratives = Object.entries(narrCounts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 10)
-      .map(d => d[0])
-      .filter(nid => narrativeRef[nid]);
-
-    if (topNarratives.length === 0) {
-      container.innerHTML = '<div class="trends-empty">No narratives for current filters</div>';
-      return;
-    }
-
-    const dateExtent = d3.extent(filteredEvents, d => new Date(d.date));
-    if (!dateExtent[0]) return;
-    const months = d3.timeMonth.range(d3.timeMonth.floor(dateExtent[0]), d3.timeMonth.offset(d3.timeMonth.floor(dateExtent[1]), 1));
-
-    const narrativeData = {};
-    topNarratives.forEach(nid => {
-      narrativeData[nid] = months.map(m => {
-        const mEnd = d3.timeMonth.offset(m, 1);
-        let count = 0;
-        let disinfoCount = 0;
-        filteredEvents.forEach(e => {
-          const d = new Date(e.date);
-          if (d >= m && d < mEnd && (e.disinfo_narratives || []).includes(nid)) {
-            count++;
-            if (e.event_type === 'DISINFO') disinfoCount++;
-          }
-        });
-        return { month: m, count, disinfoCount };
-      });
-    });
-
-    const chartW = 420, chartH = 90;
-    const margin = { top: 22, right: 12, bottom: 18, left: 30 };
-    const innerW = chartW - margin.left - margin.right;
-    const innerH = chartH - margin.top - margin.bottom;
-    const x = d3.scaleTime().domain(dateExtent).range([0, innerW]);
-
-    topNarratives.forEach(nid => {
-      const data = narrativeData[nid];
-      const narr = narrativeRef[nid];
-      const card = document.createElement('div');
-      card.className = 'trend-card';
-      const maxCount = d3.max(data, d => d.count) || 1;
-      const y = d3.scaleLinear().domain([0, maxCount]).range([innerH, 0]);
-      // Derive color from narrative's country prefix
-      const narrPrefix = nid.split('-')[1];
-      const narrCountryMap = { 'SS': 'South Sudan', 'SO': 'Somalia', 'KE': 'Kenya', 'FP': 'Regional' };
-      const color = countryDark(narrCountryMap[narrPrefix] || 'Regional');
-
-      const svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-      svgEl.setAttribute('viewBox', `0 0 ${chartW} ${chartH}`);
-      svgEl.setAttribute('width', '100%');
-      svgEl.setAttribute('height', chartH);
-      svgEl.style.display = 'block';
-      const svgD3 = d3.select(svgEl);
-      const g = svgD3.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
-
-      // Context area (total)
-      g.append('path').datum(data)
-        .attr('d', d3.area().x(d => x(d.month)).y0(innerH).y1(d => y(d.count)).curve(d3.curveMonotoneX))
-        .attr('fill', color).attr('fill-opacity', 0.08);
-      // Disinfo area
-      g.append('path').datum(data)
-        .attr('d', d3.area().x(d => x(d.month)).y0(innerH).y1(d => y(d.disinfoCount)).curve(d3.curveMonotoneX))
-        .attr('fill', color).attr('fill-opacity', 0.25);
-      // Total line
-      g.append('path').datum(data)
-        .attr('d', d3.line().x(d => x(d.month)).y(d => y(d.count)).curve(d3.curveMonotoneX))
-        .attr('fill', 'none').attr('stroke', color).attr('stroke-width', 1).attr('stroke-dasharray', '3,2');
-      // Disinfo line
-      g.append('path').datum(data)
-        .attr('d', d3.line().x(d => x(d.month)).y(d => y(d.disinfoCount)).curve(d3.curveMonotoneX))
-        .attr('fill', 'none').attr('stroke', color).attr('stroke-width', 1.5);
-
-      // Y axis
-      g.append('g').attr('class', 'trend-axis').call(d3.axisLeft(y).ticks(3).tickSize(-innerW))
-        .selectAll('text').style('font-size', '8px');
-      g.selectAll('.trend-axis .domain').remove();
-      g.selectAll('.trend-axis line').style('stroke', '#E5E1DA').style('stroke-dasharray', '2,2');
-
-      // X axis
-      g.append('g').attr('class', 'trend-axis').attr('transform', `translate(0,${innerH})`)
-        .call(d3.axisBottom(x).ticks(4).tickFormat(d3.timeFormat("%b'%y")))
-        .selectAll('text').style('font-size', '8px');
-
-      // Title
-      svgD3.append('text').attr('x', margin.left).attr('y', 13)
-        .style('font-family', "'Inter', sans-serif").style('font-size', '10px')
-        .style('font-weight', '600').style('fill', '#111111').style('letter-spacing', '-0.2px')
-        .text(narr.short_name || narr.name);
-
-      const totalDisinfo = d3.sum(data, d => d.disinfoCount);
-      const totalAll = d3.sum(data, d => d.count);
-      svgD3.append('text').attr('x', chartW - margin.right).attr('y', 13).attr('text-anchor', 'end')
-        .style('font-family', "'IBM Plex Mono', monospace").style('font-size', '9px')
-        .style('fill', color).style('font-weight', '600')
-        .text(`${totalDisinfo} disinfo / ${totalAll} total`);
-
-      card.appendChild(svgEl);
-      container.appendChild(card);
-    });
-  }
-
   // ─── SCRUBBER ───────────────────────────────────────────────────
   function renderScrubber() {
     const svg = d3.select('#scrubber-svg');
@@ -1392,6 +1617,10 @@
     const height = container.clientHeight;
     svg.attr('viewBox', `0 0 ${width} ${height}`);
     const dateExtent = d3.extent(allEvents, d => new Date(d.date));
+    if (!dateExtent[0]) return;
+    const fmt = d3.timeFormat('%b %Y');
+    document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
+    document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
     const x = d3.scaleTime().domain(dateExtent).range([0, width]);
 
     const bins = d3.bin().domain(dateExtent)
@@ -1405,17 +1634,13 @@
       const bw = Math.max(1, x(bin.x1) - x(bin.x0) - 1);
       const bh = barH(bin.length);
       const disinfoCount = bin.filter(e => e.event_type === 'DISINFO').length;
-      const contextCount = bin.length - disinfoCount;
-      const totalBh = bh;
-      const disinfoBh = totalBh * (disinfoCount / bin.length);
-      const contextBh = totalBh - disinfoBh;
-      // Context portion (bottom, lighter)
+      const disinfoBh = bh * (disinfoCount / bin.length);
+      const contextBh = bh - disinfoBh;
       if (contextBh > 0) {
         svg.append('rect').attr('class', 'scrubber-bar')
-          .attr('x', bx).attr('y', height - totalBh - 2).attr('width', bw).attr('height', contextBh)
+          .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', contextBh)
           .attr('fill', '#D5D0C7').attr('opacity', 0.5).attr('rx', 1);
       }
-      // Disinfo portion (top, darker)
       if (disinfoBh > 0) {
         svg.append('rect').attr('class', 'scrubber-bar')
           .attr('x', bx).attr('y', height - disinfoBh - 2).attr('width', bw).attr('height', disinfoBh)
@@ -1437,25 +1662,103 @@
     svg.append('g').attr('class', 'brush').call(brush);
   }
 
+  function renderHSScrubber() {
+    const svg = d3.select('#scrubber-svg');
+    svg.selectAll('*').remove();
+    const container = document.getElementById('scrubber-track');
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    svg.attr('viewBox', `0 0 ${width} ${height}`);
+    const dateExtent = d3.extent(allHSPosts, d => new Date(d.d));
+    if (!dateExtent[0]) return;
+    const x = d3.scaleTime().domain(dateExtent).range([0, width]);
+
+    // Bin by week
+    const weekRange = d3.timeWeek.range(dateExtent[0], dateExtent[1]);
+    if (weekRange.length === 0) return;
+    const bins = d3.bin().domain(dateExtent)
+      .thresholds(weekRange)
+      .value(d => new Date(d.d))(allHSPosts);
+    const yMax = d3.max(bins, b => b.length) || 1;
+    const barH = d3.scaleLinear().domain([0, yMax]).range([0, height - 6]);
+
+    bins.forEach(bin => {
+      const bx = x(bin.x0);
+      const bw = Math.max(1, x(bin.x1) - x(bin.x0) - 1);
+      const bh = barH(bin.length);
+      const hateCount = bin.filter(p => p.pr === 'Hate').length;
+      const hateBh = bh * (hateCount / (bin.length || 1));
+      const abusiveBh = bh - hateBh;
+      if (abusiveBh > 0) {
+        svg.append('rect').attr('class', 'scrubber-bar')
+          .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', abusiveBh)
+          .attr('fill', '#C4BBE0').attr('opacity', 0.5).attr('rx', 1);
+      }
+      if (hateBh > 0) {
+        svg.append('rect').attr('class', 'scrubber-bar')
+          .attr('x', bx).attr('y', height - hateBh - 2).attr('width', bw).attr('height', hateBh)
+          .attr('fill', '#B83A2A').attr('opacity', 0.65).attr('rx', 1);
+      }
+    });
+
+    const brush = d3.brushX().extent([[0, 0], [width, height]])
+      .on('end', function(event) {
+        if (!event.selection) { hsBrushExtent = null; }
+        else {
+          hsBrushExtent = event.selection.map(x.invert);
+          const fmt = d3.timeFormat('%b %Y');
+          document.getElementById('date-range-start').textContent = fmt(hsBrushExtent[0]);
+          document.getElementById('date-range-end').textContent = fmt(hsBrushExtent[1]);
+        }
+        applyHSFilters();
+      });
+    svg.append('g').attr('class', 'brush').call(brush);
+
+    const fmt = d3.timeFormat('%b %Y');
+    document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
+    document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+  }
+
   // ─── View Toggle ────────────────────────────────────────────────
   function switchView(view) {
+    // Stop playback if switching away from disinfo
+    if (view !== 'wheel' && isPlaying) resetPlayback();
+
     currentView = view;
     document.querySelectorAll('.view-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.view === view);
     });
     document.getElementById('panel-wheel').classList.toggle('hidden', view !== 'wheel');
-    document.getElementById('panel-timeline').classList.toggle('hidden', view !== 'timeline');
-    document.getElementById('panel-trends').classList.toggle('hidden', view !== 'trends');
-    if (view === 'wheel') renderWheel();
-    else if (view === 'timeline') renderTimeline();
-    else if (view === 'trends') renderNarrativeTrends();
+    document.getElementById('panel-hatespeech').classList.toggle('hidden', view !== 'hatespeech');
+
+    // Toggle stat pills
+    document.getElementById('stats-disinfo').classList.toggle('hidden', view !== 'wheel');
+    document.getElementById('stats-hs').classList.toggle('hidden', view !== 'hatespeech');
+
+    // Toggle filter sections
+    document.getElementById('disinfo-filters').classList.toggle('hidden', view !== 'wheel');
+    document.getElementById('hs-filters').classList.toggle('hidden', view !== 'hatespeech');
+
+    // Toggle playback visibility (only for disinfo)
+    document.getElementById('playback-bar').style.display = view === 'wheel' ? '' : 'none';
+
+    // Hide detail panel
+    hideDetail();
+
+    if (view === 'wheel') {
+      renderWheel();
+      renderScrubber();
+    } else if (view === 'hatespeech') {
+      renderHSWheel();
+      renderHSScrubber();
+    }
   }
 
   function onResize() {
     if (currentView === 'wheel') renderWheel();
-    else if (currentView === 'timeline') renderTimeline();
-    else if (currentView === 'trends') renderNarrativeTrends();
-    renderScrubber();
+    else if (currentView === 'hatespeech') renderHSWheel();
+    if (currentView === 'wheel') renderScrubber();
+    else renderHSScrubber();
   }
 
   // ─── Init ───────────────────────────────────────────────────────
@@ -1463,22 +1766,23 @@
     createTooltip();
     await loadData();
     buildFilterUI();
+    buildHSFilterUI();
     updateStats();
+    updateHSStats();
     renderWheel();
     renderScrubber();
 
     document.getElementById('btn-wheel').addEventListener('click', () => switchView('wheel'));
-    document.getElementById('btn-timeline').addEventListener('click', () => switchView('timeline'));
-    document.getElementById('btn-trends').addEventListener('click', () => switchView('trends'));
+    document.getElementById('btn-hatespeech').addEventListener('click', () => switchView('hatespeech'));
     document.getElementById('btn-reset').addEventListener('click', resetFilters);
     document.getElementById('detail-close').addEventListener('click', hideDetail);
+    document.getElementById('hs-detail-close').addEventListener('click', hideDetail);
     document.getElementById('btn-play').addEventListener('click', togglePlayback);
     document.getElementById('btn-step-back').addEventListener('click', pbStepBack);
     document.getElementById('btn-step-fwd').addEventListener('click', pbStepForward);
     document.getElementById('btn-pb-reset').addEventListener('click', resetPlayback);
     document.getElementById('playback-track').addEventListener('click', pbScrub);
 
-    // Drag-scrub on playback track
     const pbTrack = document.getElementById('playback-track');
     let pbDragging = false;
     pbTrack.addEventListener('mousedown', (e) => { pbDragging = true; pbScrub(e); });
@@ -1488,7 +1792,6 @@
     const speedBtn = document.getElementById('btn-speed');
     if (speedBtn) speedBtn.addEventListener('click', cycleSpeed);
 
-    // Keyboard shortcuts for playback
     document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
       if (e.code === 'Space' && currentView === 'wheel') { e.preventDefault(); togglePlayback(); }
@@ -1502,13 +1805,15 @@
 
     const dateExtent = d3.extent(allEvents, d => new Date(d.date));
     const fmt = d3.timeFormat('%b %Y');
-    document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
-    document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+    if (dateExtent[0]) {
+      document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
+      document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+    }
   }
 
   init();
 
-  // ═══ MANUAL SUBMISSION MODAL — SIMPLE LINK + SUBMIT ═══
+  // ═══ MANUAL SUBMISSION MODAL ═══
   (function initSubmitModal() {
     const overlay = document.getElementById('submit-modal');
     if (!overlay) return;
@@ -1542,7 +1847,6 @@
     function showStep(step) {
       [stepUrl, stepSuccess].forEach(s => { if (s) s.classList.add('hidden'); });
       if (step) step.classList.remove('hidden');
-      // Hide submit button on success, show on URL step
       if (btnSubmit) btnSubmit.classList.toggle('hidden', step === stepSuccess);
       if (btnCancel) btnCancel.textContent = step === stepSuccess ? 'Close' : 'Cancel';
     }
@@ -1568,7 +1872,6 @@
       if (e.key === 'Escape' && !overlay.classList.contains('hidden')) closeModal();
     });
 
-    // Submit handler — takes the link, creates a pending event, shows success
     if (btnSubmit) {
       btnSubmit.addEventListener('click', () => {
         const url = document.getElementById('submit-url')?.value?.trim();
@@ -1617,7 +1920,6 @@
         showToast('Link submitted for review');
       });
 
-      // Enter key submits
       const urlInput = document.getElementById('submit-url');
       if (urlInput) {
         urlInput.addEventListener('keydown', (e) => {
