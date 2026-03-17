@@ -394,12 +394,34 @@
   }
 
   function updateFilterUI() {
+    // Recount based on filtered events
+    const fCountry = d3.rollup(filteredEvents, v => v.length, d => d.country);
+    const fType = d3.rollup(filteredEvents, v => v.length, d => d.event_type);
+    const fSubtype = {};
+    const fNarr = {};
+    filteredEvents.forEach(e => {
+      if (e.disinfo_subtype) fSubtype[e.disinfo_subtype] = (fSubtype[e.disinfo_subtype] || 0) + 1;
+      (e.disinfo_narratives || []).forEach(n => {
+        fNarr[n] = (fNarr[n] || 0) + 1;
+      });
+    });
+
     document.querySelectorAll('#disinfo-filters .filter-item').forEach(item => {
       const cat = item.dataset.category;
       const val = item.dataset.value;
       if (!cat || !val) return;
       const isActive = filters[cat].size === 0 || filters[cat].has(val);
       item.classList.toggle('active', isActive);
+
+      // Update count to reflect filtered data
+      const countEl = item.querySelector('.filter-count');
+      if (!countEl) return;
+      let count = 0;
+      if (cat === 'country') count = fCountry.get(val) || 0;
+      else if (cat === 'type') count = fType.get(val) || 0;
+      else if (cat === 'subtype') count = fSubtype[val] || 0;
+      else if (cat === 'narrative') count = fNarr[val] || 0;
+      countEl.textContent = count;
     });
   }
 
