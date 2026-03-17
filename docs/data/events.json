@@ -15414,11 +15414,11 @@
     "actors": [
       "@BiancaNaom1",
       "@KKCommetary",
-      "@TabbyKanyungu",
-      "@mzeemzima100",
-      "@miss_tokyo3",
       "@LensEmpress",
-      "@SassyOnchain"
+      "@SassyOnchain",
+      "@TabbyKanyungu",
+      "@miss_tokyo3",
+      "@mzeemzima100"
     ],
     "platforms": [
       "X (Twitter)"
@@ -15465,5 +15465,133 @@
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T06:09:22.957725+00:00",
     "event_id": "APF-2026-03-17-153"
+  },
+  {
+    "id": "APF-2026-03-17-841",
+    "date": "2026-03-17",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "BREAKING: four  soldiers killed in an  ambush attack Near Halgan town in Hiiraan region. Shahada Agency",
+    "summary": "BREAKING: four  soldiers killed in an  ambush attack Near Halgan town in Hiiraan region. Shahada Agency. 9 near-identical posts from 9 accounts suggest coordinated amplification.",
+    "actors": [
+      "@Sooreyare",
+      "@11Abuker",
+      "@hirad63",
+      "@MohamedDekAbdal",
+      "@Halgamaassc99",
+      "@war_doon",
+      "@AfricanReports",
+      "@VowedVeteran",
+      "@Warfidiye"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+        "url": "https://x.com/AfricanReports/status/883728480881475585",
+        "date": "2026-03-17"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'shahada' with VE context (attack, soldiers killed); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-17",
+    "detection_timestamp": "2026-03-17T14:19:21.410366+00:00",
+    "event_id": "APF-2026-03-17-AUTO-breaking-four-soldie"
+  },
+  {
+    "id": "APF-2026-03-17-895",
+    "date": "2026-03-17",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and",
+    "summary": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media Who is Umut \u00c7a\u011fr\u0131 Sar\u0131? A Turkish geopolitical commentator pushing narratives that portray Puntland\u2019s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-03-17"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-17",
+    "detection_timestamp": "2026-03-17T14:19:21.410366+00:00",
+    "event_id": "APF-2026-03-17-AUTO-are-pro-turkish-anal"
   }
 ]
