@@ -991,7 +991,8 @@
     filteredEvents.forEach(e => {
       const pos = positions.get(e.id);
       if (!pos) return;
-      const size = Math.max(3, Math.min(12, 2 + e.spread * 1.5));
+      const dotScale = window.innerWidth <= 900 ? 0.55 : 1;
+      const size = Math.max(2, Math.min(12, 2 + e.spread * 1.5)) * dotScale;
       const color = eventColor(e);
       dotsGroup.append('circle').attr('class', 'event-dot')
         .attr('cx', pos.x).attr('cy', pos.y).attr('r', size)
@@ -1180,7 +1181,8 @@
         const angle = baseAngle + jitter;
 
         const eng = hsEngagement(p);
-        const size = Math.max(3, Math.min(12, 3 + Math.sqrt(eng) * 0.8));
+        const hsDotScale = window.innerWidth <= 900 ? 0.55 : 1;
+        const size = Math.max(2, Math.min(12, 3 + Math.sqrt(eng) * 0.8)) * hsDotScale;
         const color = hsPostColor(p);
 
         g.append('circle').attr('class', 'hs-dot')
@@ -1461,7 +1463,8 @@
       const narrHeat = bestNarr ? (weekState.narrativeHeat.get(bestNarr) || 0) : 0;
       const heatNorm = Math.min(narrHeat / HEAT_MAX, 1);
       const isNew = thisWeekIds.has(e.id);
-      const baseSize = Math.max(3, Math.min(12, 2 + e.spread * 1.5));
+      const animDotScale = window.innerWidth <= 900 ? 0.55 : 1;
+      const baseSize = Math.max(2, Math.min(12, 2 + e.spread * 1.5)) * animDotScale;
       const color = eventColor(e);
       let opacity;
       if (e.event_type === 'CONTEXT') opacity = 0.08 + heatNorm * 0.25;
