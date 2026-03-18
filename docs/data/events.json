@@ -15450,7 +15450,14 @@
       "@mzeemzima100",
       "@miss_tokyo3",
       "@LensEmpress",
-      "@SassyOnchain"
+      "@SassyOnchain",
+      "@nasrah_cutie",
+      "@kanairofinest",
+      "@kasongoKbb",
+      "@Mista_254",
+      "@ZeroG_Lies",
+      "@hosea606666",
+      "@PeterKariukiKE"
     ],
     "platforms": [
       "X (Twitter)"
@@ -15460,6 +15467,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/LensEmpress/status/1938221673205092526",
         "date": "2026-03-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
+        "date": "2026-03-18"
       }
     ],
     "spread": 5,
@@ -15497,7 +15509,42 @@
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T06:09:22.957725+00:00",
     "event_id": "APF-2026-03-17-153",
-    "status": "active"
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-03-17",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-03-18",
+        "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
+        "summary": "#DogsOfWar: Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-03-18",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel, #DogsOfWar: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 3,
+    "last_seen": "2026-03-18",
+    "intensity_trend": [
+      3,
+      3
+    ]
   },
   {
     "id": "APF-2026-03-17-841",
@@ -15517,7 +15564,10 @@
       "@war_doon",
       "@AfricanReports",
       "@VowedVeteran",
-      "@Warfidiye"
+      "@Warfidiye",
+      "@BVD_Culture",
+      "@grok",
+      "@thepushpesh"
     ],
     "platforms": [
       "X (Twitter)"
@@ -15527,6 +15577,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/AfricanReports/status/883728480881475585",
         "date": "2026-03-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Halgamaassc99/status/1934568198529028527",
+        "date": "2026-03-18"
       }
     ],
     "spread": 5,
@@ -15569,7 +15624,32 @@
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T14:19:21.410366+00:00",
     "event_id": "APF-2026-03-17-AUTO-breaking-four-soldie",
-    "status": "active"
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-03-17",
+        "url": "https://x.com/AfricanReports/status/883728480881475585",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-03-18",
+        "url": "https://x.com/Halgamaassc99/status/1934568198529028527",
+        "summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 2,
+    "last_seen": "2026-03-18",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-03-17-895",
@@ -15627,7 +15707,32 @@
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T14:19:21.410366+00:00",
     "event_id": "APF-2026-03-17-AUTO-are-pro-turkish-anal",
-    "status": "active"
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-03-17",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-03-18",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 2,
+    "last_seen": "2026-03-18",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-03-18-049",
@@ -16095,5 +16200,150 @@
     "detected_by": "cron_a19d6655",
     "detection_timestamp": "2026-03-18T13:35:00Z",
     "status": "active"
+  },
+  {
+    "id": "APF-2026-03-18-537",
+    "date": "2024-02-16",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Deepfakes could swing a close UK election or referendum in future, the Mayor of London has suggested. Sadiq Khan, who",
+    "summary": "Deepfakes could swing a close UK election or referendum in future, the Mayor of London has suggested. Sadiq Khan, who fell victim to a fake AI recording of him supposedly making inflammatory remarks in the run up to Armistice Day protests last year, .",
+    "actors": [
+      "@london.live.news"
+    ],
+    "platforms": [
+      "TikTok"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://www.tiktok.com/@london.live.news/video/7336129807517814049",
+        "date": "2026-03-18"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: deepfake.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-18",
+    "detection_timestamp": "2026-03-18T12:11:19.644934+00:00",
+    "last_seen": "2024-02-16",
+    "status": "resolved",
+    "observations": [
+      {
+        "date": "2024-02-16",
+        "url": "https://www.tiktok.com/@london.live.news/video/7336129807517814049",
+        "summary": "Initial detection",
+        "platforms": [
+          "TikTok"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-03-18-690",
+    "date": "2026-03-18",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
+    "summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 19 near-identical posts from 15 accounts suggest coordinated amplification.",
+    "actors": [
+      "@Lyre__Bird",
+      "@_Shekhe",
+      "@kenyamzeesiraj",
+      "@Bish311437",
+      "@MohamedAbuno",
+      "@KBCChannel1",
+      "@TheDailySomalia",
+      "@richardmuthiora",
+      "@boyengo",
+      "@MunaMunahamed"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Lyre__Bird/status/2033881544545169885",
+        "date": "2026-03-18"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-18",
+    "detection_timestamp": "2026-03-18T12:11:19.644934+00:00",
+    "last_seen": "2026-03-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-03-18",
+        "url": "https://x.com/Lyre__Bird/status/2033881544545169885",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
