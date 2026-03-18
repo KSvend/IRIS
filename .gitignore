@@ -19,5 +19,12 @@ Thumbs.db
 # Status files (ephemeral)
 classify_status.json
 
+# Environment
+.env
+
+# Next.js
+.next/
+node_modules/
+
 # Temp
 /tmp/

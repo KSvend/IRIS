@@ -543,8 +543,23 @@
     countryEl.className = 'detail-badge country';
 
     document.getElementById('detail-headline').textContent = d.headline;
-    document.getElementById('detail-date').textContent = d.date;
+    const dateText = d.last_seen && d.last_seen !== d.date
+      ? `${d.date} \u2192 ${d.last_seen}`
+      : d.date;
+    document.getElementById('detail-date').textContent = dateText;
     document.getElementById('detail-summary').textContent = d.summary;
+
+    // Show event status and observation count if available
+    const statusEl = document.getElementById('detail-status');
+    if (statusEl) {
+      if (d.observations && d.observations.length > 1) {
+        const statusColor = d.status === 'active' ? '#CA5D0F' : d.status === 'dormant' ? '#666' : '#1A3A34';
+        statusEl.innerHTML = `<span style="color:${statusColor};font-size:12px">${d.status || 'active'}</span> \u00b7 <span style="font-size:12px">${d.observation_count || d.observations.length} observations</span>`;
+        statusEl.style.display = '';
+      } else {
+        statusEl.style.display = 'none';
+      }
+    }
 
     // Claims
     const claimsSection = document.getElementById('detail-claims-section');
@@ -585,6 +600,41 @@
       reachDiv.innerHTML = reachHTML;
     } else {
       reachSection.style.display = 'none';
+    }
+
+    // Observation timeline
+    const obsSection = document.getElementById('detail-observations-section');
+    const obsDiv = document.getElementById('detail-observations');
+    if (obsSection && d.observations && d.observations.length > 1) {
+      obsSection.style.display = '';
+      const _daysBetween = (d1, d2) => { const a = new Date(d1), b = new Date(d2); return Math.max(1, Math.round(Math.abs(b - a) / 86400000)); };
+      let obsHTML = `<div style="font-size:11px;color:#9E9E9E;margin-bottom:8px">${d.observation_count || d.observations.length} sightings over ${_daysBetween(d.date, d.last_seen || d.date)} days</div>`;
+      // Activity bar chart (last 30 days)
+      obsHTML += '<div style="display:flex;gap:1px;align-items:flex-end;height:30px;margin-bottom:4px">';
+      const _today = new Date();
+      for (let i = 29; i >= 0; i--) {
+        const day = new Date(_today);
+        day.setDate(day.getDate() - i);
+        const ds = day.toISOString().slice(0, 10);
+        const dayObs = d.observations.filter(o => o.date === ds);
+        const h = dayObs.length > 0 ? Math.max(6, dayObs.length * 10) : 2;
+        const color = dayObs.length > 0 ? '#CA5D0F' : 'rgba(255,255,255,0.05)';
+        obsHTML += `<div title="${ds}: ${dayObs.length} sighting(s)" style="flex:1;height:${h}px;background:${color};border-radius:1px"></div>`;
+      }
+      obsHTML += '</div>';
+      // List recent observations
+      const recentObs = d.observations.slice(-5).reverse();
+      obsHTML += '<div style="margin-top:8px">';
+      for (const obs of recentObs) {
+        const urlLink = obs.url ? `<a href="${obs.url}" target="_blank" style="color:#CA5D0F;font-size:10px">\u2197 source</a>` : '';
+        obsHTML += `<div style="padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:11px">
+          <span style="color:#9E9E9E">${obs.date}</span> ${obs.summary || ''} ${urlLink}
+        </div>`;
+      }
+      obsHTML += '</div>';
+      obsDiv.innerHTML = obsHTML;
+    } else if (obsSection) {
+      obsSection.style.display = 'none';
     }
 
     // Narratives
@@ -1028,7 +1078,8 @@
       const pos = positions.get(e.id);
       if (!pos) return;
       const dotScale = window.innerWidth <= 900 ? 0.55 : 1;
-      const size = Math.max(2, Math.min(12, 2 + e.spread * 1.5)) * dotScale;
+      const obsBoost = e.observation_count ? Math.min(3, e.observation_count * 0.3) : 0;
+      const size = Math.max(2, Math.min(14, 2 + e.spread * 1.5 + obsBoost)) * dotScale;
       const color = eventColor(e);
       dotsGroup.append('circle').attr('class', 'event-dot')
         .attr('cx', pos.x).attr('cy', pos.y).attr('r', size)
@@ -1500,7 +1551,8 @@
       const heatNorm = Math.min(narrHeat / HEAT_MAX, 1);
       const isNew = thisWeekIds.has(e.id);
       const animDotScale = window.innerWidth <= 900 ? 0.55 : 1;
-      const baseSize = Math.max(2, Math.min(12, 2 + e.spread * 1.5)) * animDotScale;
+      const animObsBoost = e.observation_count ? Math.min(3, e.observation_count * 0.3) : 0;
+      const baseSize = Math.max(2, Math.min(14, 2 + e.spread * 1.5 + animObsBoost)) * animDotScale;
       const color = eventColor(e);
       let opacity;
       if (e.event_type === 'CONTEXT') opacity = 0.08 + heatNorm * 0.25;

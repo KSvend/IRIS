@@ -1287,95 +1287,57 @@ def run_classification(items_file=None, dry_run=False):
         }
     
     # Write timeline events (HIGH and MEDIUM confidence only)
-    # DEDUPLICATION: check existing events to avoid re-creating events for ongoing campaigns
+    # DEDUPLICATION: use event_dedup module for lifecycle-aware matching
     events_added = 0
     events_merged = 0
     if timeline_events:
         with open(TIMELINE_PATH) as f:
             timeline = json.load(f)
-        
+
         with open(EVENTS_PATH) as f:
             events_json = json.load(f)
-        
-        # Build index of existing events for dedup matching
-        # Match on: same keyword_group + overlapping actors within last 7 days
-        from datetime import timedelta
-        recent_cutoff = (now - timedelta(days=7)).strftime("%Y-%m-%d")
-        
-        existing_by_group = defaultdict(list)
-        for e in events_json:
-            # Index by keyword_group tag or by headline keywords
-            e_date = e.get("date", "")
-            if e_date >= recent_cutoff:
-                # Try to determine keyword group from tags or data_source
-                e_tags = set(e.get("tags", []))
-                e_headline = e.get("headline", "").lower()
-                e_actors = set(e.get("actors", []))
-                existing_by_group["_recent"].append({
-                    "id": e.get("id"),
-                    "headline": e_headline,
-                    "actors": e_actors,
-                    "hashtags": set(re.findall(r'#\w+', e_headline)),
-                    "event": e
-                })
-        
+
+        from event_dedup import check_and_update
+
         for event in timeline_events:
             if event["disinfo_confidence"] not in ("HIGH", "MEDIUM"):
                 continue
-            
-            # Check for duplicate/overlap with recent existing events
-            new_headline = event["headline"].lower()
-            new_actors = set(event.get("actors", []))
-            new_hashtags = set(re.findall(r'#\w+', new_headline))
-            is_duplicate = False
-            
-            for existing in existing_by_group.get("_recent", []):
-                # Match 1: Significant hashtag overlap (campaign hashtags)
-                if new_hashtags and existing["hashtags"]:
-                    common_tags = new_hashtags & existing["hashtags"]
-                    if len(common_tags) >= 1 and any(t.lower() in {
-                        '#bbcforchaos', '#bloodparliament', '#dogsofwar',
-                        '#chaoscartel', '#toxicactivists', '#43against1',
-                        '#527bloggers'
-                    } for t in common_tags):
-                        # Same campaign — merge actors into existing event
-                        existing_event = existing["event"]
-                        merged_actors = set(existing_event.get("actors", [])) | new_actors
-                        existing_event["actors"] = sorted(merged_actors)
-                        is_duplicate = True
-                        events_merged += 1
-                        print(f"   🔄 Merged into existing {existing['id']}: {event['headline'][:60]}")
-                        break
-                
-                # Match 2: Very similar headline (>60% word overlap)
-                new_words = set(new_headline.split())
-                exist_words = set(existing["headline"].split())
-                if new_words and exist_words:
-                    overlap = len(new_words & exist_words) / max(len(new_words), len(exist_words))
-                    if overlap > 0.6:
-                        existing_event = existing["event"]
-                        merged_actors = set(existing_event.get("actors", [])) | new_actors
-                        existing_event["actors"] = sorted(merged_actors)
-                        is_duplicate = True
-                        events_merged += 1
-                        print(f"   🔄 Merged into existing {existing['id']}: {event['headline'][:60]}")
-                        break
-            
-            if not is_duplicate:
+
+            result = check_and_update(event, events_json)
+
+            if result["action"] == "update_existing":
+                # Existing event already updated in-memory by check_and_update
+                events_merged += 1
+                print(f"   \U0001f504 Merged into {result['matched_event_id']} (sim={result['similarity']}): {event['headline'][:60]}")
+            elif result["action"] == "skip_duplicate":
+                events_merged += 1
+                print(f"   \u23ED Duplicate of {result['matched_event_id']}: {event['headline'][:60]}")
+            else:
+                # Initialize lifecycle fields on new events
+                event["last_seen"] = event.get("date", now.strftime("%Y-%m-%d"))
+                event["status"] = "active"
+                event["observations"] = [{
+                    "date": event.get("date", ""),
+                    "url": event.get("sources", [{}])[0].get("url", "") if event.get("sources") else "",
+                    "summary": "Initial detection",
+                    "platforms": event.get("platforms", []),
+                    "reach": {}
+                }]
+                event["observation_count"] = 1
                 timeline.append(event)
                 events_json.append(event)
                 events_added += 1
-                print(f"   ✅ Added: {event['headline'][:80]}")
-        
+                print(f"   \u2705 Added: {event['headline'][:80]}")
+
         with open(TIMELINE_PATH, 'w') as f:
             json.dump(timeline, f, indent=2)
-        
+
         with open(EVENTS_PATH, 'w') as f:
             json.dump(events_json, f, indent=2)
-        
+
         if events_merged:
-            print(f"\n🔄 {events_merged} events merged into existing entries")
-        print(f"✅ {events_added} new events added to timeline + events.json")
+            print(f"\n\U0001f504 {events_merged} events merged into existing entries")
+        print(f"\u2705 {events_added} new events added to timeline + events.json")
     
     # Return results for cron integration
     return {
