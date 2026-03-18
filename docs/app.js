@@ -1272,7 +1272,7 @@
         g.append('circle').attr('class', 'hs-dot')
           .attr('cx', Math.cos(angle) * r).attr('cy', Math.sin(angle) * r).attr('r', size)
           .attr('fill', color)
-          .attr('fill-opacity', p.pr === 'Hate' ? 0.85 : p.pr === 'Abusive' ? 0.7 : 0.4)
+          .attr('fill-opacity', p.pr === 'Hate' ? 0.9 : p.pr === 'Abusive' ? 0.75 : 0.35)
           .attr('filter', p.pr === 'Hate' ? 'url(#hs-glow)' : null)
           .datum(p)
           .on('mouseenter', function(event) {
