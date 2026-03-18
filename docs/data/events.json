@@ -15341,6 +15341,7 @@
       "@IamMzalendo",
       "@Mastermastin_GO",
       "@MteteziPato",
+      "@MurimiJeff_",
       "@NaekuMercy",
       "@ObinnaWaGikomba",
       "@RasBashirWere01",
@@ -15593,5 +15594,203 @@
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T14:19:21.410366+00:00",
     "event_id": "APF-2026-03-17-AUTO-are-pro-turkish-anal"
+  },
+  {
+    "id": "APF-2026-03-18-049",
+    "date": "2026-03-18",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
+    "summary": "Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos!    John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 6 near-identical posts from 2 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+    "actors": [
+      "@Yasirarafat2520",
+      "@GabrielKim254"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+        "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
+        "date": "2026-03-18"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "KE-D-010",
+      "KE-D-009",
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-18",
+    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00"
+  },
+  {
+    "id": "APF-2026-03-18-987",
+    "date": "2026-03-18",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
+    "summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 9 near-identical posts from 9 accounts suggest coordinated amplification.",
+    "actors": [
+      "@grok",
+      "@hirad63",
+      "@Sooreyare",
+      "@war_doon",
+      "@Warfidiye",
+      "@DKNExCDN",
+      "@11Abuker",
+      "@Halgamaassc99",
+      "@MohamedDekAbdal"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+        "url": "https://x.com/Halgamaassc99/status/1934568198529028527",
+        "date": "2026-03-18"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'wakaalada wararka' with VE context (dagaal); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-18",
+    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00"
+  },
+  {
+    "id": "APF-2026-03-18-502",
+    "date": "2026-03-18",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "#BBCForChaos, #BloodParliament: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
+    "summary": "The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using those SELL OUTS to narrate the past tense, yet we are in the present.   William Ruto Liverpool John Kaboi. 28 near-identical posts from 24 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ChaosCartel.",
+    "actors": [
+      "@AminaTisha94086",
+      "@mzeemzima100",
+      "@miss_tokyo3",
+      "@bonsoul_ke",
+      "@WilliamKiptoo25",
+      "@PeterKariukiKE",
+      "@Merc13Nyambura",
+      "@KenyaWeWant_",
+      "@KKCommetary",
+      "@BiancaNaom1"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+        "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "date": "2026-03-18"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "KE-D-010",
+      "KE-D-009",
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-18",
+    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00"
   }
 ]
