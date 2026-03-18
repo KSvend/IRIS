@@ -1,23 +1,31 @@
 #!/usr/bin/env python3
 """
-ML classification via HuggingFace Inference API.
+ML classification using local HuggingFace transformers models.
 
-Classifies hate speech posts using remote HF models (no local inference).
-Pure stdlib — no pip dependencies required.
-
-Models used:
-  1. KSvendsen/EA-HS — primary 3-class hate speech classifier
+Runs 5 BERT models locally (downloaded on first use, ~440MB each):
+  1. KSvendsen/EA-HS — 3-class hate speech (Normal/Abusive/Hate)
   2. textdetox/bert-multilingual-toxicity-classifier — toxicity scoring
-  3. facebook/bart-large-mnli — zero-shot subtopic classification
-  4. Country-specific models (Kenya, Somalia, South Sudan)
+  3. datavaluepeople/Polarization-Kenya — Kenya polarization
+  4. datavaluepeople/Afxumo-toxicity-somaliland-SO — Somali toxicity
+  5. datavaluepeople/Hate-Speech-Sudan-v2 — Sudan/SS hate speech
+
+Plus zero-shot subtopic classification via HF Inference API (bart-large-mnli).
+
+Requires: pip install torch transformers scipy
 """
 
 import json
 import os
+import sys
 import time
 import urllib.error
 import urllib.request
 from pathlib import Path
+
+import numpy as np
+import torch
+from scipy.special import softmax
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -26,18 +34,29 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 HS_DATA_PATH = REPO_ROOT / "docs" / "data" / "hate_speech_posts.json"
 
 # ---------------------------------------------------------------------------
-# HuggingFace Inference API
+# Model definitions
 # ---------------------------------------------------------------------------
-HF_API_BASE = "https://api-inference.huggingface.co/models"
-
 MODELS = {
-    "ea_hs": "KSvendsen/EA-HS",
-    "toxicity": "textdetox/bert-multilingual-toxicity-classifier",
-    "zero_shot": "facebook/bart-large-mnli",
-    # Country-specific
-    "kenya": "datavaluepeople/Polarization-Kenya",
-    "somalia": "datavaluepeople/Afxumo-toxicity-somaliland-SO",
-    "south_sudan": "datavaluepeople/Hate-Speech-Sudan-v2",
+    "ea_hs": {
+        "hf_name": "KSvendsen/EA-HS",
+        "labels": ["Normal", "Abusive", "Hate"],
+    },
+    "toxicity": {
+        "hf_name": "textdetox/bert-multilingual-toxicity-classifier",
+        "labels": ["non-toxic", "toxic"],
+    },
+    "kenya": {
+        "hf_name": "datavaluepeople/Polarization-Kenya",
+        "labels": ["not_polarization", "polarization"],
+    },
+    "somalia": {
+        "hf_name": "datavaluepeople/Afxumo-toxicity-somaliland-SO",
+        "labels": ["not_afxumo", "afxumo"],
+    },
+    "south_sudan": {
+        "hf_name": "datavaluepeople/Hate-Speech-Sudan-v2",
+        "labels": ["not_hate_speech", "hate_speech"],
+    },
 }
 
 COUNTRY_MODEL_MAP = {
@@ -47,7 +66,7 @@ COUNTRY_MODEL_MAP = {
 }
 
 # ---------------------------------------------------------------------------
-# Subtopic labels (zero-shot candidate labels)
+# Zero-shot subtopic labels (via API — bart-large-mnli is too large for local)
 # ---------------------------------------------------------------------------
 SUBTOPIC_CANDIDATES = [
     "ethnic hatred and tribal targeting",
@@ -75,318 +94,260 @@ SUBTOPIC_DISPLAY = {
     "disinformation and conspiracy theories": "Disinfo/Conspiracy",
 }
 
-# Toxicity-dimension profiles per subtopic: (sev, ins, idt, thr)
-# Base scores scaled by confidence at classification time.
 SUBTOPIC_TXD_PROFILES = {
-    "ethnic hatred and tribal targeting":           {"sev": 0.8, "ins": 0.7, "idt": 0.9, "thr": 0.5},
-    "clan-based discrimination and hierarchy":      {"sev": 0.7, "ins": 0.6, "idt": 0.9, "thr": 0.4},
-    "anti-foreign sentiment and xenophobia":        {"sev": 0.7, "ins": 0.8, "idt": 0.8, "thr": 0.5},
-    "religious incitement and sectarian hatred":     {"sev": 0.8, "ins": 0.8, "idt": 0.7, "thr": 0.7},
-    "racial slurs and dehumanization":              {"sev": 0.9, "ins": 0.9, "idt": 0.8, "thr": 0.4},
-    "gendered violence and misogynistic hate":      {"sev": 0.8, "ins": 0.8, "idt": 0.6, "thr": 0.7},
-    "political incitement and threats":             {"sev": 0.7, "ins": 0.6, "idt": 0.5, "thr": 0.9},
-    "diaspora stigma and refugee targeting":        {"sev": 0.6, "ins": 0.7, "idt": 0.8, "thr": 0.4},
-    "militarization and armed group glorification": {"sev": 0.8, "ins": 0.5, "idt": 0.5, "thr": 0.9},
-    "disinformation and conspiracy theories":       {"sev": 0.6, "ins": 0.7, "idt": 0.6, "thr": 0.5},
+    "Ethnic Targeting": {"sev": 0.6, "ins": 0.6, "idt": 0.9, "thr": 0.4},
+    "Clan Targeting": {"sev": 0.5, "ins": 0.7, "idt": 0.8, "thr": 0.3},
+    "Anti-Foreign": {"sev": 0.5, "ins": 0.6, "idt": 0.8, "thr": 0.4},
+    "Religious Incitement": {"sev": 0.7, "ins": 0.5, "idt": 0.7, "thr": 0.6},
+    "Dehumanisation": {"sev": 0.8, "ins": 0.9, "idt": 0.9, "thr": 0.3},
+    "Gendered Violence": {"sev": 0.7, "ins": 0.8, "idt": 0.6, "thr": 0.7},
+    "Political Incitement": {"sev": 0.6, "ins": 0.5, "idt": 0.4, "thr": 0.7},
+    "Diaspora Stigma": {"sev": 0.3, "ins": 0.5, "idt": 0.6, "thr": 0.2},
+    "Militarisation": {"sev": 0.7, "ins": 0.3, "idt": 0.5, "thr": 0.8},
+    "Disinfo/Conspiracy": {"sev": 0.6, "ins": 0.7, "idt": 0.6, "thr": 0.5},
 }
 
+# Zero-shot API
+ZS_API_URL = "https://router.huggingface.co/hf-inference/models/facebook/bart-large-mnli"
+
+BATCH_SIZE = 32
+MAX_LEN = 256
+
 # ---------------------------------------------------------------------------
-# API helpers
+# Local model inference
 # ---------------------------------------------------------------------------
-MAX_RETRIES = 3
-CALL_DELAY = 0.5  # seconds between API calls
+
+_loaded_models = {}
 
 
-def _hf_token():
-    """Return HF_TOKEN from environment or raise."""
-    token = os.environ.get("HF_TOKEN")
+def _load_model(key):
+    """Load a model + tokenizer, caching in memory."""
+    if key in _loaded_models:
+        return _loaded_models[key]
+    cfg = MODELS[key]
+    print(f"  Loading {cfg['hf_name']}...", flush=True)
+    tokenizer = AutoTokenizer.from_pretrained(cfg["hf_name"])
+    model = AutoModelForSequenceClassification.from_pretrained(cfg["hf_name"])
+    model.eval()
+    _loaded_models[key] = (tokenizer, model, cfg["labels"])
+    return tokenizer, model, cfg["labels"]
+
+
+def _classify_batch(key, texts):
+    """Classify a batch of texts with a local model. Returns list of (label, score)."""
+    tokenizer, model, labels = _load_model(key)
+    inputs = tokenizer(
+        texts, padding=True, truncation=True, max_length=MAX_LEN, return_tensors="pt"
+    )
+    with torch.no_grad():
+        logits = model(**inputs).logits.numpy()
+    results = []
+    for row in logits:
+        probs = softmax(row)
+        best_idx = int(np.argmax(probs))
+        results.append((labels[best_idx], round(float(probs[best_idx]), 4)))
+    return results
+
+
+def _classify_single(key, text):
+    """Classify a single text."""
+    results = _classify_batch(key, [text])
+    return results[0]
+
+
+# ---------------------------------------------------------------------------
+# Zero-shot subtopic classification (API-based)
+# ---------------------------------------------------------------------------
+
+def _zero_shot_api(text, token):
+    """Call bart-large-mnli via HF router for zero-shot classification."""
     if not token:
-        raise RuntimeError("HF_TOKEN environment variable is not set")
-    return token
-
-
-def _api_call(model_key, payload, token):
-    """
-    POST to HuggingFace Inference API with retry logic.
-
-    Handles:
-      - 503: model loading — wait 20 s and retry
-      - 429: rate limit — wait 10 s and retry
-    Returns parsed JSON response.
-    """
-    model_name = MODELS[model_key]
-    url = f"{HF_API_BASE}/{model_name}"
-    data = json.dumps(payload).encode("utf-8")
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-    }
-
-    for attempt in range(1, MAX_RETRIES + 1):
-        req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-        try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                body = resp.read().decode("utf-8")
-                return json.loads(body)
-        except urllib.error.HTTPError as exc:
-            if exc.code == 503 and attempt < MAX_RETRIES:
-                print(f"  [503] Model {model_name} loading, waiting 20 s (attempt {attempt}/{MAX_RETRIES})")
-                time.sleep(20)
-                continue
-            if exc.code == 429 and attempt < MAX_RETRIES:
-                print(f"  [429] Rate limited for {model_name}, waiting 10 s (attempt {attempt}/{MAX_RETRIES})")
-                time.sleep(10)
-                continue
-            # Read error body for diagnostics
-            err_body = ""
-            try:
-                err_body = exc.read().decode("utf-8", errors="replace")
-            except Exception:
-                pass
-            raise RuntimeError(
-                f"HF API error {exc.code} for {model_name} (attempt {attempt}): {err_body}"
-            ) from exc
-        except urllib.error.URLError as exc:
-            if attempt < MAX_RETRIES:
-                print(f"  [URLError] {exc.reason} for {model_name}, retrying in 5 s (attempt {attempt}/{MAX_RETRIES})")
-                time.sleep(5)
-                continue
-            raise
-
-    raise RuntimeError(f"Exhausted {MAX_RETRIES} retries for {model_name}")
-
-
-# ---------------------------------------------------------------------------
-# Classification steps
-# ---------------------------------------------------------------------------
-
-def classify_ea_hs(text, token):
-    """
-    EA-HS 3-class classifier: Normal / Abusive / Hate.
-    Returns (prediction_label, confidence_score).
-    """
-    result = _api_call("ea_hs", {"inputs": text}, token)
-    # Response: [[{"label": "Hate", "score": 0.95}, ...]]
-    if isinstance(result, list) and result and isinstance(result[0], list):
-        labels = result[0]
-    elif isinstance(result, list) and result and isinstance(result[0], dict):
-        labels = result
-    else:
-        raise ValueError(f"Unexpected EA-HS response format: {result}")
-
-    top = max(labels, key=lambda x: x["score"])
-    return top["label"], round(top["score"], 4)
-
-
-def classify_toxicity(text, token):
-    """
-    Toxicity classifier.
-    Returns toxicity score (float 0-1) and level string.
-    """
-    result = _api_call("toxicity", {"inputs": text}, token)
-    # Response: [[{"label": "toxic", "score": 0.85}, {"label": "non-toxic", ...}]]
-    if isinstance(result, list) and result and isinstance(result[0], list):
-        labels = result[0]
-    elif isinstance(result, list) and result and isinstance(result[0], dict):
-        labels = result
-    else:
-        raise ValueError(f"Unexpected toxicity response format: {result}")
-
-    toxic_score = 0.0
-    for item in labels:
-        if item["label"].lower() == "toxic":
-            toxic_score = item["score"]
-            break
-
-    # Map score to level
-    if toxic_score >= 0.85:
-        level = "very_high"
-    elif toxic_score >= 0.6:
-        level = "high"
-    elif toxic_score >= 0.35:
-        level = "medium"
-    else:
-        level = "low"
-
-    return round(toxic_score, 4), level
-
-
-def classify_subtopics(text, token):
-    """
-    Zero-shot subtopic classification via bart-large-mnli.
-    Returns top-2 subtopics with score > 0.15 as list of {n, s}.
-    """
-    payload = {
-        "inputs": text,
+        return []
+    payload = json.dumps({
+        "inputs": text[:256],
         "parameters": {"candidate_labels": SUBTOPIC_CANDIDATES},
+    }).encode()
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {token}",
     }
-    result = _api_call("zero_shot", payload, token)
-    # Response: {"labels": [...], "scores": [...]}
-    labels = result.get("labels", [])
-    scores = result.get("scores", [])
-
-    top = []
-    for label, score in zip(labels, scores):
-        if score > 0.15 and len(top) < 2:
-            top.append({
-                "n": SUBTOPIC_DISPLAY.get(label, label),
-                "s": round(score, 4),
-            })
-
-    return top, list(zip(labels, scores))
-
-
-def estimate_txd(subtopic_results):
-    """
-    Estimate toxicity dimensions from subtopic classification results.
-    Uses the profile lookup table, weighting by confidence score.
-
-    subtopic_results: list of (label, score) tuples (full zero-shot output).
-    Returns dict {sev, ins, idt, thr} with values 0-1.
-    """
-    txd = {"sev": 0.0, "ins": 0.0, "idt": 0.0, "thr": 0.0}
-    total_weight = 0.0
-
-    for label, score in subtopic_results:
-        profile = SUBTOPIC_TXD_PROFILES.get(label)
-        if profile is None:
-            continue
-        weight = score
-        total_weight += weight
-        for dim in txd:
-            txd[dim] += profile[dim] * weight
-
-    if total_weight > 0:
-        for dim in txd:
-            txd[dim] = round(txd[dim] / total_weight, 4)
-
-    return txd
+    for attempt in range(3):
+        req = urllib.request.Request(ZS_API_URL, data=payload, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                result = json.loads(resp.read().decode())
+                # Return top-2 subtopics with score > 0.15
+                subtopics = []
+                for label, score in zip(result["labels"], result["scores"]):
+                    if score > 0.15 and len(subtopics) < 2:
+                        display = SUBTOPIC_DISPLAY.get(label, label)
+                        subtopics.append({"n": display, "s": round(score, 3)})
+                return subtopics
+        except urllib.error.HTTPError as e:
+            if e.code == 503:
+                time.sleep(20)
+            elif e.code == 429:
+                time.sleep(10)
+            else:
+                break
+        except Exception:
+            time.sleep(5)
+    return []
 
 
-def classify_country_model(text, country, token):
-    """
-    Run country-specific model if available.
-    Returns result dict or None.
-    """
-    model_key = COUNTRY_MODEL_MAP.get(country)
-    if model_key is None:
-        return None
+# ---------------------------------------------------------------------------
+# Toxicity dimension estimation
+# ---------------------------------------------------------------------------
 
-    result = _api_call(model_key, {"inputs": text}, token)
-    # Normalize: may be [[{...}]] or [{...}]
-    if isinstance(result, list) and result and isinstance(result[0], list):
-        labels = result[0]
-    elif isinstance(result, list) and result and isinstance(result[0], dict):
-        labels = result
+def _estimate_txd(subtopics, tox_score):
+    """Estimate toxicity dimensions from subtopic + toxicity score."""
+    if not subtopics:
+        base = {"sev": 0.5, "ins": 0.5, "idt": 0.5, "thr": 0.5}
     else:
-        return None
+        top_label = subtopics[0]["n"]
+        base = SUBTOPIC_TXD_PROFILES.get(top_label, {"sev": 0.5, "ins": 0.5, "idt": 0.5, "thr": 0.5})
 
-    top = max(labels, key=lambda x: x["score"])
-    return {"label": top["label"], "score": round(top["score"], 4), "model": MODELS[model_key]}
+    def to_level(s):
+        v = s * tox_score
+        if v >= 0.7:
+            return "high"
+        if v >= 0.4:
+            return "medium"
+        return "low"
+
+    return {k: to_level(v) for k, v in base.items()}
+
+
+def _tox_level(score):
+    if score >= 0.85:
+        return "very_high"
+    if score >= 0.6:
+        return "high"
+    if score >= 0.35:
+        return "medium"
+    return "low"
 
 
 # ---------------------------------------------------------------------------
 # Main pipeline
 # ---------------------------------------------------------------------------
 
-def load_posts():
-    """Load posts from JSON file."""
-    if not HS_DATA_PATH.exists():
-        raise FileNotFoundError(f"Data file not found: {HS_DATA_PATH}")
-    with open(HS_DATA_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_posts(posts):
-    """Save posts back to JSON file."""
-    with open(HS_DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(posts, f, ensure_ascii=False, indent=2)
-
-
 def classify_posts():
     """
-    Classify all posts with qc='auto_sweep'.
-    Returns dict {"classified": N, "total": M}.
+    Classify posts with qc='auto_sweep' or qc='ml_classified' with pr='Normal' and co=0.
+    Uses local transformers models + API for zero-shot.
     """
-    token = _hf_token()
-    posts = load_posts()
+    hf_token = os.environ.get("HF_TOKEN", "")
+    torch.set_num_threads(2)
+
+    if not HS_DATA_PATH.exists():
+        print(f"Data file not found: {HS_DATA_PATH}")
+        return {"classified": 0, "total": 0}
+
+    with open(HS_DATA_PATH, "r", encoding="utf-8") as f:
+        posts = json.load(f)
+
     total = len(posts)
 
-    # Find posts needing classification
-    sweep_indices = [
-        i for i, p in enumerate(posts) if p.get("qc") == "auto_sweep"
+    # Find posts needing classification:
+    # - qc=auto_sweep (new from sweep, never ML-classified)
+    # - qc=ml_classified with co=0 (API failed silently last time)
+    indices = [
+        i for i, p in enumerate(posts)
+        if p.get("qc") == "auto_sweep"
+        or (p.get("qc") == "ml_classified" and p.get("co", 0) == 0)
     ]
-    to_classify = len(sweep_indices)
 
-    if to_classify == 0:
-        print("No posts with qc='auto_sweep' found. Nothing to classify.")
+    if not indices:
+        print(f"No posts need ML classification. Total: {total}")
         return {"classified": 0, "total": total}
 
-    print(f"Found {to_classify} posts to classify out of {total} total.")
+    print(f"Found {len(indices)} posts to classify out of {total} total.", flush=True)
 
+    # Batch classify with EA-HS first (most important)
+    texts = [(posts[i].get("t") or "")[:MAX_LEN] for i in indices]
+    non_empty = [(i, t) for i, t in zip(indices, texts) if t.strip()]
+
+    if not non_empty:
+        print("All posts have empty text.")
+        return {"classified": 0, "total": total}
+
+    batch_indices = [i for i, _ in non_empty]
+    batch_texts = [t for _, t in non_empty]
+
+    # 1. EA-HS (primary hate speech classifier)
+    print(f"  Running EA-HS on {len(batch_texts)} texts...", flush=True)
+    ea_results = []
+    for start in range(0, len(batch_texts), BATCH_SIZE):
+        batch = batch_texts[start:start + BATCH_SIZE]
+        ea_results.extend(_classify_batch("ea_hs", batch))
+    for idx, (label, score) in zip(batch_indices, ea_results):
+        posts[idx]["pr"] = label
+        posts[idx]["co"] = score
+
+    # 2. Toxicity
+    print(f"  Running toxicity classifier...", flush=True)
+    tox_results = []
+    for start in range(0, len(batch_texts), BATCH_SIZE):
+        batch = batch_texts[start:start + BATCH_SIZE]
+        tox_results.extend(_classify_batch("toxicity", batch))
+    for idx, (label, score) in zip(batch_indices, tox_results):
+        tox_score = score if label == "toxic" else 1 - score
+        posts[idx]["tx"] = _tox_level(tox_score)
+        posts[idx]["_tox_score"] = round(tox_score, 4)
+
+    # 3. Country-specific models
+    for country, model_key in COUNTRY_MODEL_MAP.items():
+        country_indices = [i for i in batch_indices if posts[i].get("c") == country]
+        if not country_indices:
+            continue
+        country_texts = [(posts[i].get("t") or "")[:MAX_LEN] for i in country_indices]
+        print(f"  Running {MODELS[model_key]['hf_name']} on {len(country_texts)} {country} posts...", flush=True)
+        results = []
+        for start in range(0, len(country_texts), BATCH_SIZE):
+            batch = country_texts[start:start + BATCH_SIZE]
+            results.extend(_classify_batch(model_key, batch))
+        for idx, (label, score) in zip(country_indices, results):
+            posts[idx]["_country_model"] = {"label": label, "score": score}
+
+    # 4. Zero-shot subtopics (API-based, rate limited)
+    if hf_token:
+        print(f"  Running zero-shot subtopics on {len(batch_indices)} posts...", flush=True)
+        for count, idx in enumerate(batch_indices):
+            text = (posts[idx].get("t") or "")[:256]
+            if text.strip():
+                subtopics = _zero_shot_api(text, hf_token)
+                if subtopics:
+                    posts[idx]["st"] = subtopics
+                time.sleep(0.5)  # Rate limit
+            if (count + 1) % 20 == 0:
+                print(f"    Subtopics: {count + 1}/{len(batch_indices)}", flush=True)
+    else:
+        print("  Skipping zero-shot (no HF_TOKEN).")
+
+    # 5. Estimate toxicity dimensions
+    for idx in batch_indices:
+        tox_score = posts[idx].get("_tox_score", 0.5)
+        subtopics = posts[idx].get("st", [])
+        posts[idx]["txd"] = _estimate_txd(subtopics, tox_score)
+        # Clean up internal field
+        posts[idx].pop("_tox_score", None)
+
+    # 6. Mark as classified
     classified = 0
+    for idx in batch_indices:
+        posts[idx]["qc"] = "ml_classified"
+        classified += 1
 
-    for batch_num, idx in enumerate(sweep_indices):
-        post = posts[idx]
-        text = post.get("text", "") or post.get("content", "") or ""
-        country = post.get("country", "")
+    # Save
+    with open(HS_DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(posts, f, ensure_ascii=False, separators=(",", ":"))
 
-        if not text.strip():
-            # Skip empty posts, mark as classified with low confidence
-            post["pr"] = "Normal"
-            post["co"] = 0.0
-            post["tx"] = "low"
-            post["st"] = []
-            post["txd"] = {"sev": 0.0, "ins": 0.0, "idt": 0.0, "thr": 0.0}
-            post["qc"] = "ml_classified"
-            classified += 1
-            continue
+    # Free model memory
+    _loaded_models.clear()
+    torch.cuda.empty_cache() if torch.cuda.is_available() else None
 
-        try:
-            # 1. EA-HS primary classifier
-            prediction, confidence = classify_ea_hs(text, token)
-            post["pr"] = prediction
-            post["co"] = confidence
-            time.sleep(CALL_DELAY)
-
-            # 2. Toxicity scoring
-            tox_score, tox_level = classify_toxicity(text, token)
-            post["tx"] = tox_level
-            time.sleep(CALL_DELAY)
-
-            # 3. Zero-shot subtopic classification
-            subtopics, full_subtopic_results = classify_subtopics(text, token)
-            post["st"] = subtopics
-            time.sleep(CALL_DELAY)
-
-            # 4. Estimate toxicity dimensions from subtopics
-            post["txd"] = estimate_txd(full_subtopic_results)
-
-            # 5. Country-specific model (if applicable)
-            if country in COUNTRY_MODEL_MAP:
-                country_result = classify_country_model(text, country, token)
-                if country_result:
-                    post["country_model"] = country_result
-                time.sleep(CALL_DELAY)
-
-            # Mark as classified
-            post["qc"] = "ml_classified"
-            classified += 1
-
-        except Exception as exc:
-            print(f"  ERROR classifying post index {idx}: {exc}")
-            # Leave qc unchanged so it can be retried
-            continue
-
-        # Progress and save checkpoint every 10 posts
-        if classified % 10 == 0:
-            print(f"  Progress: {classified}/{to_classify} classified")
-            save_posts(posts)
-
-    # Final save
-    save_posts(posts)
-    print(f"Done. Classified {classified}/{to_classify} posts.")
-
+    print(f"Done. Classified {classified}/{len(indices)} posts.", flush=True)
     return {"classified": classified, "total": total}
 
 

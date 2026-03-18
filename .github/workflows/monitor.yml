@@ -26,7 +26,7 @@ permissions:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repo
@@ -39,8 +39,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install minimal dependencies
-        run: pip install requests
+      - name: Install dependencies
+        run: pip install requests torch --index-url https://download.pytorch.org/whl/cpu transformers scipy numpy
 
       - name: Run monitoring pipeline
         env:
