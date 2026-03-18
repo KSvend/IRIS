@@ -7,14 +7,14 @@ interface Props {
 export function Card({ children, className = "", title }: Props) {
   return (
     <div
-      className={`rounded-xl border border-slate-800 bg-slate-900/80 backdrop-blur ${className}`}
+      className={`rounded-lg bg-white shadow-[var(--shadow-soft)] ${className}`}
     >
       {title && (
-        <div className="border-b border-slate-800 px-4 py-3">
-          <h3 className="text-sm font-semibold text-slate-300">{title}</h3>
+        <div className="border-b border-[var(--divider)] px-6 py-4">
+          <h3 className="text-[13px] font-medium uppercase tracking-[0.04em] text-[var(--text-muted)]">{title}</h3>
         </div>
       )}
-      <div className="p-4">{children}</div>
+      <div className="p-6">{children}</div>
     </div>
   );
 }

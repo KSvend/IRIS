@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "brace4peace-dev",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": ["/Users/kmini/Documents/PID_0240_UNDP_Hate_Speech/brace4peace/start-dev.sh"],
       "port": 3000
     }
   ]

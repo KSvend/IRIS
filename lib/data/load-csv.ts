@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
-import type { MonitoringPost, CountryCode, FilterOptions } from "../types";
+import type { MonitoringPost, CountryCode, FilterOptions, ToxicityLevel } from "../types";
 import { NARRATIVE_TOPICS } from "../constants";
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
@@ -22,6 +22,15 @@ function parseNumber(val: string | undefined): number {
   return isNaN(n) ? 0 : n;
 }
 
+function parseToxicityLevel(val: string | undefined): ToxicityLevel {
+  if (!val || val === "") return "none";
+  const v = val.trim().toLowerCase();
+  if (v === "high") return "high";
+  if (v === "medium") return "medium";
+  if (v === "low") return "low";
+  return "none";
+}
+
 function parseBool(val: string | undefined): boolean {
   if (!val || val === "") return false;
   const v = val.trim().toLowerCase();
@@ -32,9 +41,16 @@ function parseBool(val: string | undefined): boolean {
 }
 
 // Parse a single CSV row into a MonitoringPost
+// Filter to 2025+ inline to avoid allocating memory for old rows
 function parseRow(row: Record<string, string>): MonitoringPost | null {
   const country = toCountryCode(row.country || "");
   if (!country) return null;
+
+  // Date filter — skip pre-2025 during parsing to save memory
+  const postDate = row.post_date || "";
+  const commentDate = row.comment_date || "";
+  const d = postDate || commentDate;
+  if (d && d < "2025") return null;
 
   // Extract topic flags
   const topics: Record<string, boolean> = {};
@@ -59,20 +75,20 @@ function parseRow(row: Record<string, string>): MonitoringPost | null {
   return {
     platform: row.platform || "",
     postId: row.post_id || "",
-    postDate: row.post_date || "",
+    postDate,
     postText: row.post_text_pi || "",
     commentId: row.comment_id || undefined,
     commentText: row.comment_text_pi || undefined,
-    commentDate: row.comment_date || undefined,
+    commentDate: commentDate || undefined,
     country,
     gatherTopic: row.gather_topic || "",
     contentTopic: row.content_topic || "",
     primaryTopic: row.primary_topic || "",
-    probToxicity: parseNumber(row.prob_toxicity),
-    probSevereToxicity: parseNumber(row.prob_severe_toxicity),
-    probInsult: parseNumber(row.prob_insult),
-    probIdentityAttack: parseNumber(row.prob_identity_attack),
-    probThreat: parseNumber(row.prob_threat),
+    probToxicity: parseToxicityLevel(row.prob_toxicity),
+    probSevereToxicity: parseToxicityLevel(row.prob_severe_toxicity),
+    probInsult: parseToxicityLevel(row.prob_insult),
+    probIdentityAttack: parseToxicityLevel(row.prob_identity_attack),
+    probThreat: parseToxicityLevel(row.prob_threat),
     eaHsNormal: parseNumber(row.EA_HS_Normal),
     eaHsAbusive: parseNumber(row.EA_HS_Abusive),
     eaHsHate: parseNumber(row.EA_HS_Hate),
@@ -93,6 +109,7 @@ let _cache: MonitoringPost[] | null = null;
 export async function loadAllPosts(): Promise<MonitoringPost[]> {
   if (_cache) return _cache;
 
+  console.time("csv-load");
   const files = fs.readdirSync(DATA_DIR).filter((f) => f.endsWith(".csv"));
   const allPosts: MonitoringPost[] = [];
 
@@ -104,14 +121,24 @@ export async function loadAllPosts(): Promise<MonitoringPost[]> {
       skipEmptyLines: true,
     });
 
+    let fileCount = 0;
     for (const row of result.data) {
       const post = parseRow(row);
-      if (post) allPosts.push(post);
+      if (post) {
+        allPosts.push(post);
+        fileCount++;
+      }
     }
+    console.log(`  ${file}: ${fileCount} posts (2025+)`);
+
+    // Free parsed CSV data to reduce peak memory
+    result.data.length = 0;
   }
 
   _cache = allPosts;
-  return allPosts;
+  console.timeEnd("csv-load");
+  console.log(`Total: ${_cache.length} posts loaded`);
+  return _cache;
 }
 
 export async function loadPostsByCountry(

@@ -73,7 +73,7 @@ export function EastAfricaMap({
         className="overflow-visible"
       >
         {/* Background */}
-        <rect width={width} height={height} fill="#0f172a" rx={8} />
+        <rect width={width} height={height} fill="#F2F2EF" rx={8} />
 
         {/* Country shapes */}
         {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
@@ -89,14 +89,14 @@ export function EastAfricaMap({
               d={pathGenerator(feature) || ""}
               fill={
                 isSelected
-                  ? "#1e3a5f"
+                  ? "#D6E4F0"
                   : isTarget
-                    ? "#1e293b"
-                    : "#0f172a"
+                    ? "#FFFFFF"
+                    : "#E4E4E0"
               }
-              stroke={isTarget ? "#334155" : "#1e293b"}
+              stroke={isTarget ? "#C7C7C0" : "#E4E4E0"}
               strokeWidth={isSelected ? 2 : isTarget ? 1 : 0.5}
-              className={isTarget ? "cursor-pointer transition-colors hover:fill-[#1e3a5f]" : ""}
+              className={isTarget ? "cursor-pointer transition-colors hover:fill-[#D6E4F0]" : ""}
               onClick={() => {
                 if (code && onCountryClick) onCountryClick(code);
               }}
@@ -158,7 +158,7 @@ export function EastAfricaMap({
                   x={x}
                   y={y + markerRadius + 14}
                   textAnchor="middle"
-                  fill="#94a3b8"
+                  fill="#6B6B6B"
                   fontSize={11}
                   fontWeight={500}
                   className="pointer-events-none"

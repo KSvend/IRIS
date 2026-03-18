@@ -47,7 +47,7 @@ function matchEscalationIndicators(post: MonitoringPost): string[] {
 
   if (
     (text.includes("revenge") || text.includes("retaliat")) &&
-    post.probThreat > 0.3
+    (post.probThreat === "medium" || post.probThreat === "high")
   )
     indicators.push(ESCALATION_INDICATORS[0]);
   if (
@@ -57,7 +57,10 @@ function matchEscalationIndicators(post: MonitoringPost): string[] {
     post.eaHsHate > 0.5
   )
     indicators.push(ESCALATION_INDICATORS[1]);
-  if (post.probIdentityAttack > 0.5 && post.probThreat > 0.3)
+  if (
+    (post.probIdentityAttack === "medium" || post.probIdentityAttack === "high") &&
+    (post.probThreat === "medium" || post.probThreat === "high")
+  )
     indicators.push(ESCALATION_INDICATORS[2]);
   if (
     (text.includes("rumour") ||

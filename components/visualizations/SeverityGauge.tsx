@@ -27,23 +27,22 @@ export function SeverityGauge({
     <div className="flex flex-col items-center gap-3">
       {/* Gauge circle */}
       <div
-        className="relative flex h-24 w-24 items-center justify-center rounded-full border-4"
+        className="relative flex h-24 w-24 items-center justify-center rounded-full border-[3px]"
         style={{
           borderColor: SEVERITY_COLORS[level],
-          boxShadow: `0 0 20px ${SEVERITY_COLORS[level]}40`,
         }}
       >
         <div className="text-center">
-          <div className="text-2xl font-bold text-white">{total}</div>
-          <div className="text-[10px] text-slate-400">ALERTS</div>
+          <div className="text-2xl font-medium text-[var(--text-primary)]">{total}</div>
+          <div className="text-[10px] uppercase tracking-[0.04em] text-[var(--text-muted)]">Alerts</div>
         </div>
       </div>
 
       {/* Status label */}
       <div
-        className="rounded-full px-3 py-1 text-xs font-bold tracking-wider"
+        className="rounded-full px-3 py-1 text-[10px] font-medium uppercase tracking-[0.04em]"
         style={{
-          backgroundColor: `${SEVERITY_COLORS[level]}20`,
+          backgroundColor: `${SEVERITY_COLORS[level]}12`,
           color: SEVERITY_COLORS[level],
         }}
       >
@@ -57,21 +56,21 @@ export function SeverityGauge({
             className="inline-block h-2 w-2 rounded-full"
             style={{ backgroundColor: SEVERITY_COLORS.action }}
           />
-          <span className="text-slate-400">{actionCount}</span>
+          <span className="text-[var(--text-secondary)]">{actionCount}</span>
         </div>
         <div className="flex items-center gap-1">
           <span
             className="inline-block h-2 w-2 rounded-full"
             style={{ backgroundColor: SEVERITY_COLORS.alert }}
           />
-          <span className="text-slate-400">{alertCount}</span>
+          <span className="text-[var(--text-secondary)]">{alertCount}</span>
         </div>
         <div className="flex items-center gap-1">
           <span
             className="inline-block h-2 w-2 rounded-full"
             style={{ backgroundColor: SEVERITY_COLORS.watch }}
           />
-          <span className="text-slate-400">{watchCount}</span>
+          <span className="text-[var(--text-secondary)]">{watchCount}</span>
         </div>
       </div>
     </div>

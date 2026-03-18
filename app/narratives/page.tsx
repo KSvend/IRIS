@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import { DashboardShell } from "@/components/dashboard/DashboardShell";
 import { CountrySelector } from "@/components/dashboard/CountrySelector";
 import { NarrativeWheel } from "@/components/visualizations/NarrativeWheel";
+import { PostDrillDown } from "@/components/dashboard/PostDrillDown";
 import { Card } from "@/components/ui/Card";
 import {
   NARRATIVE_TOPICS,
@@ -15,9 +16,7 @@ import type { CountryCode, NarrativeNode } from "@/lib/types";
 export default function NarrativesPage() {
   const [country, setCountry] = useState<CountryCode | undefined>();
   const [data, setData] = useState<NarrativeNode | null>(null);
-  const [selectedTopic, setSelectedTopic] = useState<NarrativeNode | null>(
-    null
-  );
+  const [selectedTopicId, setSelectedTopicId] = useState<string | null>(null);
 
   const fetchData = useCallback(async () => {
     const params = country ? `?country=${country}` : "";
@@ -28,6 +27,20 @@ export default function NarrativesPage() {
   useEffect(() => {
     fetchData();
   }, [fetchData]);
+
+  // Handle wheel click — extract topic ID from NarrativeNode.name
+  const handleTopicClick = useCallback((node: NarrativeNode) => {
+    // Only leaf nodes (actual topics) have names matching topic IDs
+    const topic = NARRATIVE_TOPICS.find((t) => t.id === node.name);
+    if (topic) {
+      setSelectedTopicId(topic.id);
+    }
+  }, []);
+
+  // Handle taxonomy pill click
+  const handleTaxonomyClick = useCallback((topicId: string) => {
+    setSelectedTopicId(topicId);
+  }, []);
 
   // Group topics by category for the taxonomy view
   const grouped = NARRATIVE_TOPICS.reduce(
@@ -43,13 +56,13 @@ export default function NarrativesPage() {
 
   return (
     <DashboardShell>
-      <div className="p-6 space-y-6">
-        <div className="flex items-center justify-between">
+      <div className="mx-auto max-w-[1120px] px-6 py-10 space-y-10">
+        <div className="flex items-end justify-between">
           <div>
-            <h1 className="text-xl font-bold text-white">
-              Narrative Analysis
+            <h1 className="text-[28px] font-medium text-[var(--text-primary)] leading-tight">
+              Narrative analysis
             </h1>
-            <p className="text-sm text-slate-500">
+            <p className="text-[15px] text-[var(--text-secondary)] mt-1">
               Explore hate speech narratives across the taxonomy
             </p>
           </div>
@@ -59,13 +72,13 @@ export default function NarrativesPage() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
           {/* Large wheel */}
           <div className="lg:col-span-7">
-            <Card title="Full Narrative Wheel">
+            <Card title="Full narrative wheel">
               {data && (
                 <NarrativeWheel
                   data={data}
                   width={600}
                   height={600}
-                  onTopicClick={setSelectedTopic}
+                  onTopicClick={handleTopicClick}
                 />
               )}
             </Card>
@@ -73,42 +86,31 @@ export default function NarrativesPage() {
 
           {/* Topic detail + taxonomy */}
           <div className="lg:col-span-5 space-y-6">
-            {/* Selected topic detail */}
-            {selectedTopic && (
-              <Card title="Selected Topic">
-                <div className="space-y-2">
-                  <h4 className="text-lg font-semibold text-white">
-                    {selectedTopic.label}
-                  </h4>
-                  {selectedTopic.category && (
-                    <span
-                      className="inline-block rounded-full px-2 py-0.5 text-xs"
-                      style={{
-                        backgroundColor: `${CATEGORY_COLORS[selectedTopic.category]}20`,
-                        color:
-                          CATEGORY_COLORS[selectedTopic.category],
-                      }}
-                    >
-                      {CATEGORY_LABELS[selectedTopic.category]}
-                    </span>
-                  )}
-                  {selectedTopic.value !== undefined && (
-                    <p className="text-sm text-slate-400">
-                      {selectedTopic.value.toLocaleString()} posts detected
-                    </p>
-                  )}
+            {/* Post drill-down when topic is selected */}
+            {selectedTopicId ? (
+              <Card title="Topic analysis">
+                <PostDrillDown
+                  topicId={selectedTopicId}
+                  country={country}
+                  onClose={() => setSelectedTopicId(null)}
+                />
+              </Card>
+            ) : (
+              <Card title="Select a topic">
+                <div className="flex items-center justify-center py-8 text-[13px] text-[var(--text-muted)]">
+                  Click a topic on the wheel or taxonomy below to see post-level analysis
                 </div>
               </Card>
             )}
 
             {/* Full taxonomy explorer */}
-            <Card title="Narrative Taxonomy">
+            <Card title="Narrative taxonomy">
               <div className="max-h-[600px] overflow-y-auto space-y-4 scrollbar-thin">
                 {Object.entries(grouped).map(([category, subcats]) => (
                   <div key={category}>
                     <div className="flex items-center gap-2 mb-2">
                       <span
-                        className="inline-block h-3 w-3 rounded-full"
+                        className="inline-block h-2.5 w-2.5 rounded-full"
                         style={{
                           backgroundColor:
                             CATEGORY_COLORS[
@@ -116,7 +118,7 @@ export default function NarrativesPage() {
                             ],
                         }}
                       />
-                      <span className="text-sm font-semibold text-slate-300">
+                      <span className="text-sm font-medium text-[var(--text-primary)]">
                         {
                           CATEGORY_LABELS[
                             category as keyof typeof CATEGORY_LABELS
@@ -127,17 +129,22 @@ export default function NarrativesPage() {
 
                     {Object.entries(subcats).map(([subcat, topics]) => (
                       <div key={subcat} className="ml-5 mb-2">
-                        <div className="text-xs font-medium text-slate-500 mb-1">
+                        <div className="text-xs font-medium text-[var(--text-muted)] mb-1">
                           {subcat}
                         </div>
                         <div className="flex flex-wrap gap-1">
                           {topics.map((t) => (
-                            <span
+                            <button
                               key={t.id}
-                              className="rounded bg-slate-800 px-1.5 py-0.5 text-[10px] text-slate-400 cursor-pointer hover:bg-slate-700 transition-colors"
+                              onClick={() => handleTaxonomyClick(t.id)}
+                              className={`rounded px-1.5 py-0.5 text-[10px] cursor-pointer transition-all duration-[150ms] ${
+                                selectedTopicId === t.id
+                                  ? "bg-[var(--accent)] text-white font-medium"
+                                  : "bg-[var(--surface-muted)] text-[var(--text-secondary)] hover:bg-[var(--border-subtle)]"
+                              }`}
                             >
                               {t.label}
-                            </span>
+                            </button>
                           ))}
                         </div>
                       </div>

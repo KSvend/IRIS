@@ -19,9 +19,38 @@ interface TooltipState {
   visible: boolean;
   x: number;
   y: number;
-  label: string;
-  value: number;
-  category: string;
+  node: NarrativeNode | null;
+  totalValue: number;
+  depth: number;
+}
+
+const EA_HS_COLORS = {
+  hate: "#D05454",
+  abusive: "#E07B39",
+  normal: "#3BAA7F",
+};
+
+function MiniBar({ segments, total }: {
+  segments: { value: number; color: string }[];
+  total: number;
+}) {
+  if (total === 0) return null;
+  return (
+    <div className="flex h-1.5 w-full overflow-hidden rounded-full bg-[var(--surface-muted)]">
+      {segments.map((seg, i) =>
+        seg.value > 0 ? (
+          <div
+            key={i}
+            className="h-full"
+            style={{
+              width: `${(seg.value / total) * 100}%`,
+              backgroundColor: seg.color,
+            }}
+          />
+        ) : null
+      )}
+    </div>
+  );
 }
 
 export function NarrativeWheel({
@@ -35,9 +64,9 @@ export function NarrativeWheel({
     visible: false,
     x: 0,
     y: 0,
-    label: "",
-    value: 0,
-    category: "",
+    node: null,
+    totalValue: 0,
+    depth: 0,
   });
 
   const radius = Math.min(width, height) / 2;
@@ -104,8 +133,8 @@ export function NarrativeWheel({
       .join("path")
       .attr("d", arc as unknown as string)
       .style("fill", (d) => getColor(d))
-      .style("stroke", "#1a1a2e")
-      .style("stroke-width", "1px")
+      .style("stroke", "#FFFFFF")
+      .style("stroke-width", "1.5px")
       .style("cursor", "pointer")
       .style("transition", "opacity 0.2s");
 
@@ -117,10 +146,9 @@ export function NarrativeWheel({
           visible: true,
           x: x + width / 2,
           y: y + height / 2,
-          label: d.data.label,
-          value: d.value || 0,
-          category:
-            d.data.category || d.parent?.data.category || "",
+          node: d.data,
+          totalValue: d.value || 0,
+          depth: d.depth,
         });
       })
       .on("mouseleave", function () {
@@ -150,8 +178,8 @@ export function NarrativeWheel({
         return angle > 90 ? "end" : "start";
       })
       .style("font-size", (d) => (d.depth === 1 ? "11px" : "9px"))
-      .style("font-weight", (d) => (d.depth === 1 ? "600" : "400"))
-      .style("fill", "#e2e8f0")
+      .style("font-weight", (d) => (d.depth === 1 ? "500" : "400"))
+      .style("fill", "#111111")
       .style("pointer-events", "none")
       .text((d) => {
         const maxLen = d.depth === 1 ? 18 : 14;
@@ -166,21 +194,29 @@ export function NarrativeWheel({
       .attr("text-anchor", "middle")
       .attr("dy", "-0.3em")
       .style("font-size", "14px")
-      .style("font-weight", "700")
-      .style("fill", "#e2e8f0")
+      .style("font-weight", "500")
+      .style("fill", "#111111")
       .text("Narratives");
 
     g.append("text")
       .attr("text-anchor", "middle")
       .attr("dy", "1.2em")
       .style("font-size", "11px")
-      .style("fill", "#94a3b8")
+      .style("fill", "#6B6B6B")
       .text(`${partitioned.value?.toLocaleString() || 0} posts`);
   }, [data, width, height, innerRadius, radius, onTopicClick]);
 
   useEffect(() => {
     renderWheel();
   }, [renderWheel]);
+
+  const node = tooltip.node;
+  const eaHs = node?.eaHs;
+  const eaHsTotal = eaHs ? eaHs.hate + eaHs.abusive + eaHs.normal : 0;
+
+  // Position tooltip to avoid going off-screen
+  const tooltipLeft = tooltip.x > width * 0.6 ? tooltip.x - 280 : tooltip.x + 16;
+  const tooltipTop = tooltip.y > height * 0.7 ? tooltip.y - 120 : tooltip.y - 10;
 
   return (
     <div className="relative">
@@ -191,21 +227,114 @@ export function NarrativeWheel({
         viewBox={`0 0 ${width} ${height}`}
         className="overflow-visible"
       />
-      {tooltip.visible && (
+      {tooltip.visible && node && (
         <div
-          className="absolute pointer-events-none z-10 rounded-lg border border-slate-700 bg-slate-900/95 px-3 py-2 text-sm shadow-xl backdrop-blur"
+          className="absolute pointer-events-none z-10 rounded-lg border border-[var(--border-subtle)] bg-white px-4 py-3 shadow-[var(--shadow-elevated)]"
           style={{
-            left: tooltip.x + 12,
-            top: tooltip.y - 10,
+            left: tooltipLeft,
+            top: tooltipTop,
+            width: 264,
           }}
         >
-          <div className="font-semibold text-white">{tooltip.label}</div>
-          <div className="text-slate-400">
-            {tooltip.value.toLocaleString()} posts
+          {/* Header */}
+          <div className="flex items-start justify-between gap-2 mb-1.5">
+            <div className="font-medium text-[13px] text-[var(--text-primary)] leading-snug">
+              {node.label}
+            </div>
+            <div className="text-[11px] text-[var(--text-muted)] tabular-nums whitespace-nowrap">
+              {tooltip.totalValue.toLocaleString()} posts
+            </div>
           </div>
-          <div className="text-xs text-slate-500 capitalize">
-            {(tooltip.category || "").replace(/_/g, " ")}
+
+          {/* Category / subcategory breadcrumb */}
+          <div className="text-[10px] text-[var(--text-muted)] capitalize mb-2">
+            {(node.category || "").replace(/_/g, " ")}
+            {node.subcategory && ` \u203A ${node.subcategory}`}
           </div>
+
+          {/* Description (for leaf topics) */}
+          {node.description && (
+            <p className="text-[11px] leading-relaxed text-[var(--text-secondary)] mb-2.5">
+              {node.description}
+            </p>
+          )}
+
+          {/* EA-HS breakdown */}
+          {eaHs && eaHsTotal > 0 && (
+            <div className="space-y-1 mb-2.5">
+              <div className="text-[10px] font-medium text-[var(--text-muted)] uppercase tracking-wide">
+                EA-HS classification
+              </div>
+              <MiniBar
+                total={eaHsTotal}
+                segments={[
+                  { value: eaHs.hate, color: EA_HS_COLORS.hate },
+                  { value: eaHs.abusive, color: EA_HS_COLORS.abusive },
+                  { value: eaHs.normal, color: EA_HS_COLORS.normal },
+                ]}
+              />
+              <div className="flex gap-3 text-[10px] text-[var(--text-secondary)]">
+                {eaHs.hate > 0 && (
+                  <span style={{ color: EA_HS_COLORS.hate }}>
+                    {eaHs.hate} hate
+                  </span>
+                )}
+                {eaHs.abusive > 0 && (
+                  <span style={{ color: EA_HS_COLORS.abusive }}>
+                    {eaHs.abusive} abusive
+                  </span>
+                )}
+                {eaHs.normal > 0 && (
+                  <span style={{ color: EA_HS_COLORS.normal }}>
+                    {eaHs.normal} normal
+                  </span>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Toxicity flag */}
+          {(node.toxHigh || 0) > 0 && (
+            <div className="flex items-center gap-1.5 text-[10px] mb-2.5">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#D05454]" />
+              <span className="text-[var(--text-secondary)]">
+                {node.toxHigh} posts flagged high toxicity
+              </span>
+            </div>
+          )}
+
+          {/* Key themes */}
+          {node.sampleThemes && node.sampleThemes.length > 0 && (
+            <div className="space-y-1">
+              <div className="text-[10px] font-medium text-[var(--text-muted)] uppercase tracking-wide">
+                Key themes
+              </div>
+              <div className="flex flex-wrap gap-1">
+                {node.sampleThemes.map((theme) => (
+                  <span
+                    key={theme}
+                    className="rounded bg-[var(--surface-muted)] px-1.5 py-0.5 text-[10px] text-[var(--text-secondary)]"
+                  >
+                    {theme}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Platform */}
+          {node.topPlatform && (
+            <div className="text-[10px] text-[var(--text-muted)] mt-2 uppercase">
+              Mostly on {node.topPlatform}
+            </div>
+          )}
+
+          {/* Click hint for leaf topics */}
+          {tooltip.depth === 3 && (
+            <div className="text-[10px] text-[var(--accent)] mt-2 pt-1.5 border-t border-[var(--border-subtle)]">
+              Click to see post-level analysis →
+            </div>
+          )}
         </div>
       )}
     </div>

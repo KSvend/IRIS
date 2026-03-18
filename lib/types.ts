@@ -17,6 +17,9 @@ export const COUNTRIES: Record<CountryCode, Country> = {
 // Severity levels for the alert system
 export type SeverityLevel = "watch" | "alert" | "action";
 
+// Phoenix toxicity levels (categorical, not numeric)
+export type ToxicityLevel = "low" | "medium" | "high" | "none";
+
 // A single social media post/comment from the monitoring data
 export interface MonitoringPost {
   platform: string;
@@ -31,14 +34,14 @@ export interface MonitoringPost {
   contentTopic: string;
   primaryTopic: string;
 
-  // Phoenix toxicity scores
-  probToxicity: number;
-  probSevereToxicity: number;
-  probInsult: number;
-  probIdentityAttack: number;
-  probThreat: number;
+  // Phoenix toxicity scores (categorical: low/medium/high)
+  probToxicity: ToxicityLevel;
+  probSevereToxicity: ToxicityLevel;
+  probInsult: ToxicityLevel;
+  probIdentityAttack: ToxicityLevel;
+  probThreat: ToxicityLevel;
 
-  // EA-HS model scores
+  // EA-HS model scores (floats 0-1)
   eaHsNormal: number;
   eaHsAbusive: number;
   eaHsHate: number;
@@ -72,6 +75,7 @@ export interface NarrativeTopic {
   category: NarrativeCategory;
   subcategory: string;
   csvColumn: string;
+  description?: string;
 }
 
 export interface NarrativeNode {
@@ -81,6 +85,13 @@ export interface NarrativeNode {
   children?: NarrativeNode[];
   category?: NarrativeCategory;
   color?: string;
+  // Enriched analysis data for tooltips
+  description?: string;
+  eaHs?: { hate: number; abusive: number; normal: number };
+  toxHigh?: number;
+  sampleThemes?: string[];
+  topPlatform?: string;
+  subcategory?: string;
 }
 
 // Alert types: immediate (real-time) vs digest (weekly summary)

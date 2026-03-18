@@ -28,13 +28,13 @@ export function CategoryFilter({ selected, onChange }: Props) {
   }
 
   return (
-    <div className="flex flex-wrap items-center gap-1 rounded-lg bg-slate-800/50 p-1">
+    <div className="flex flex-wrap items-center gap-1 rounded-lg border border-[var(--border-subtle)] bg-[var(--surface-muted)] p-1">
       <button
         onClick={() => onChange([])}
-        className={`rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors ${
+        className={`rounded-md px-2.5 py-1.5 text-xs font-medium transition-all duration-[150ms] ${
           isAllSelected
-            ? "bg-slate-700 text-white"
-            : "text-slate-400 hover:text-white"
+            ? "bg-white text-[var(--text-primary)] shadow-[var(--shadow-soft)]"
+            : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
         }`}
       >
         All
@@ -45,19 +45,19 @@ export function CategoryFilter({ selected, onChange }: Props) {
           <button
             key={cat}
             onClick={() => toggle(cat)}
-            className={`flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors ${
+            className={`flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-medium transition-all duration-[150ms] ${
               !isAllSelected && isActive
-                ? "bg-slate-700 text-white"
+                ? "bg-white text-[var(--text-primary)] shadow-[var(--shadow-soft)]"
                 : isAllSelected
-                  ? "text-slate-400 hover:text-white"
-                  : "text-slate-600 hover:text-slate-400"
+                  ? "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+                  : "text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
             }`}
           >
             <span
               className="inline-block h-2 w-2 rounded-full"
               style={{
                 backgroundColor: CATEGORY_COLORS[cat],
-                opacity: isActive ? 1 : 0.3,
+                opacity: isActive ? 1 : 0.25,
               }}
             />
             {CATEGORY_LABELS[cat]}

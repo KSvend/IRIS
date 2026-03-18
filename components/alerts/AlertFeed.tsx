@@ -23,20 +23,20 @@ export function AlertFeed({ alerts }: Props) {
   return (
     <div>
       {/* Tabs */}
-      <div className="flex gap-1 border-b border-slate-800 px-4 pb-2">
+      <div className="flex gap-1 border-b border-[var(--divider)] px-4 pb-2">
         {TABS.map((t) => (
           <button
             key={t.value}
             onClick={() => setTab(t.value)}
-            className={`rounded-md px-2 py-1 text-[10px] font-medium transition-colors ${
+            className={`rounded-md px-2 py-1 text-[11px] font-medium transition-all duration-[150ms] ${
               tab === t.value
-                ? "bg-slate-700 text-white"
-                : "text-slate-500 hover:text-slate-300"
+                ? "bg-[var(--surface-muted)] text-[var(--text-primary)]"
+                : "text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
             }`}
           >
             {t.label}
             {t.value !== "all" && (
-              <span className="ml-1 text-slate-600">
+              <span className="ml-1 text-[var(--text-muted)]">
                 {alerts.filter((a) =>
                   t.value === "all" ? true : a.alertType === t.value
                 ).length}
@@ -47,7 +47,7 @@ export function AlertFeed({ alerts }: Props) {
       </div>
 
       {filtered.length === 0 ? (
-        <div className="flex items-center justify-center py-12 text-sm text-slate-500">
+        <div className="flex items-center justify-center py-12 text-sm text-[var(--text-muted)]">
           No {tab === "all" ? "active" : tab} alerts
         </div>
       ) : (
