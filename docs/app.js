@@ -1987,6 +1987,40 @@
     const stepUrl = document.getElementById('step-url');
     const stepSuccess = document.getElementById('step-success');
 
+    const GH_REPO = 'KSvend/brace4peace';
+    const SUBMISSIONS_PATH = 'docs/data/submissions.json';
+
+    async function persistSubmission(submission) {
+      // Read current submissions file from GitHub
+      try {
+        const getResp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${SUBMISSIONS_PATH}`);
+        let submissions = [];
+        let sha = null;
+        if (getResp.ok) {
+          const fileData = await getResp.json();
+          sha = fileData.sha;
+          submissions = JSON.parse(atob(fileData.content));
+        }
+        submissions.push(submission);
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(submissions, null, 2))));
+        const putBody = {
+          message: `Submit: ${submission.type} post — ${submission.url.substring(0, 60)}`,
+          content: content,
+          committer: { name: 'BRACE4PEACE Dashboard', email: 'krdasv@me.com' }
+        };
+        if (sha) putBody.sha = sha;
+        const putResp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${SUBMISSIONS_PATH}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(putBody)
+        });
+        return putResp.ok;
+      } catch (e) {
+        console.warn('Could not persist submission to GitHub:', e);
+        return false;
+      }
+    }
+
     function detectPlatform(url) {
       if (!url) return 'Unknown';
       if (url.includes('x.com') || url.includes('twitter.com')) return 'X (Twitter)';
@@ -2063,8 +2097,23 @@
         const country = detectCountry(url);
         const date = new Date().toISOString().split('T')[0];
 
+        const submission = {
+          type: submitType === 'hatespeech' ? 'hatespeech' : 'disinfo',
+          url: url,
+          note: note,
+          platform: platform,
+          country: country,
+          date: date,
+          submitted_at: new Date().toISOString(),
+          status: 'pending'
+        };
+
+        // Persist to GitHub (async, don't block UI)
+        persistSubmission(submission).then(ok => {
+          if (!ok) console.warn('Submission saved locally but GitHub persist failed — will be picked up on next pipeline run if committed manually.');
+        });
+
         if (submitType === 'hatespeech') {
-          // HS submission
           const postId = `sub-${Date.now().toString(36)}`;
           const newPost = {
             i: postId,
@@ -2086,9 +2135,8 @@
           allHSPosts.push(newPost);
           filteredHSPosts = [...allHSPosts];
           showStep(stepSuccess);
-          showToast('Hate speech post submitted for review');
+          showToast('Hate speech post submitted — will be processed on next pipeline run');
         } else {
-          // Disinfo submission
           const eventId = `SUB-${date}-${String(allEvents.length + 1).padStart(3, '0')}`;
           const newEvent = {
             id: eventId,
@@ -2122,7 +2170,7 @@
           allEvents.push(newEvent);
           applyFilters();
           showStep(stepSuccess);
-          showToast('Disinfo post submitted for review');
+          showToast('Disinfo post submitted — will be processed on next pipeline run');
         }
       });
 

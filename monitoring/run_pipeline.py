@@ -177,6 +177,110 @@ def phase_2e_quality_gate():
 
 
 # ---------------------------------------------------------------------------
+# Phase 0: Process user submissions
+# ---------------------------------------------------------------------------
+
+def phase_0_submissions():
+    """Process user-submitted posts from the dashboard."""
+    submissions_path = REPO_ROOT / "docs" / "data" / "submissions.json"
+    if not submissions_path.exists():
+        return {"processed": 0}
+
+    with open(submissions_path) as f:
+        submissions = json.load(f)
+
+    if not submissions:
+        return {"processed": 0}
+
+    pending = [s for s in submissions if s.get("status") == "pending"]
+    if not pending:
+        return {"processed": 0}
+
+    log(f"  Found {len(pending)} pending submissions")
+
+    hs_path = REPO_ROOT / "docs" / "data" / "hate_speech_posts.json"
+    events_path = REPO_ROOT / "docs" / "data" / "events.json"
+
+    hs_added = 0
+    events_added = 0
+
+    for sub in pending:
+        sub["status"] = "processed"
+        sub["processed_at"] = datetime.now(timezone.utc).isoformat()
+        date = sub.get("date", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+        url = sub.get("url", "")
+        note = sub.get("note", "")
+        country = sub.get("country", "Regional")
+        platform = sub.get("platform", "Unknown")
+
+        if sub.get("type") == "hatespeech":
+            # Add to hate_speech_posts.json as auto_sweep for ML pipeline
+            import hashlib
+            post_id = "sub-" + hashlib.md5(f"{url}|{date}".encode()).hexdigest()[:12]
+            plat_short = {"X (Twitter)": "x", "Facebook": "facebook", "TikTok": "tiktok"}.get(platform, "web")
+            new_post = {
+                "i": post_id, "t": note or "Submitted — pending analysis",
+                "d": date, "c": country, "p": plat_short,
+                "a": "submitted", "l": url,
+                "pr": "Hate", "co": 0, "tx": "medium",
+                "st": [], "txd": {"sev": "medium", "ins": "medium", "idt": "medium", "thr": "medium"},
+                "en": {"l": 0, "s": 0, "c": 0},
+                "qc": "auto_sweep", "_source": "user_submission"
+            }
+            with open(hs_path) as f:
+                posts = json.load(f)
+            # Dedup check
+            if not any(p.get("l") == url for p in posts):
+                posts.append(new_post)
+                with open(hs_path, "w") as f:
+                    json.dump(posts, f, ensure_ascii=False, separators=(",", ":"))
+                hs_added += 1
+                log(f"    HS post added: {url[:60]}")
+            else:
+                log(f"    HS post duplicate, skipped: {url[:60]}")
+
+        elif sub.get("type") == "disinfo":
+            # Add to events.json as pending event
+            with open(events_path) as f:
+                events = json.load(f)
+            event_id = f"SUB-{date}-{abs(hash(url)) % 1000:03d}"
+            if not any(e.get("id") == event_id for e in events):
+                new_event = {
+                    "id": event_id, "date": date, "country": country,
+                    "event_type": "DISINFO", "disinfo_subtype": "pending_classification",
+                    "threat_level": "P3 MODERATE",
+                    "headline": f"Submitted link — pending analysis",
+                    "summary": note or "Link submitted for automated review.",
+                    "actors": [], "platforms": [platform],
+                    "sources": [{"publisher": "User submission", "url": url, "date": date}],
+                    "spread": 1, "disinfo_narratives": [], "related_events": [],
+                    "disinfo_confidence": "PENDING",
+                    "detection_method": "manual_submission",
+                    "content_observed": False, "source_basis": "user_submission",
+                    "verification_status": "pending_review",
+                    "narrative_families": [], "tags": ["user_submission"],
+                    "data_source": "manual", "detected_by": "user",
+                    "detection_timestamp": sub.get("submitted_at", ""),
+                    "last_seen": date, "status": "active",
+                    "observations": [{"date": date, "url": url, "summary": "User submission", "platforms": [platform], "reach": {}}],
+                    "observation_count": 1
+                }
+                events.append(new_event)
+                with open(events_path, "w") as f:
+                    json.dump(events, f, ensure_ascii=False, indent=2)
+                events_added += 1
+                log(f"    Disinfo event added: {url[:60]}")
+            else:
+                log(f"    Disinfo event duplicate, skipped: {url[:60]}")
+
+    # Save updated submissions (mark as processed)
+    with open(submissions_path, "w") as f:
+        json.dump(submissions, f, indent=2)
+
+    return {"processed": len(pending), "hs_added": hs_added, "events_added": events_added}
+
+
+# ---------------------------------------------------------------------------
 # Shared
 # ---------------------------------------------------------------------------
 
@@ -203,6 +307,10 @@ def main():
     log("")
 
     results = {}
+
+    # ===== PHASE 0: PROCESS SUBMISSIONS =====
+    results["0_submissions"] = run_phase(
+        "0 — Process User Submissions", phase_0_submissions)
 
     # ===== PIPELINE 1: DISINFO =====
     log(f"{'#'*60}")
