@@ -242,6 +242,9 @@ def explain_posts(dry_run=False, limit=None):
                 result = mapping[idx]
                 post["exp"] = result.get("exp", post.get("exp", ""))
                 post["qc"] = result.get("qc", post.get("qc", ""))
+                # Update pr classification based on QC assessment
+                if result.get("qc") == "questionable":
+                    post["pr"] = "Questionable"
                 if "rel" in result:
                     post["rel"] = result["rel"]
                 if "tx" in result:

@@ -171,6 +171,7 @@ body {
 .stat-pills-disinfo.hidden, .stat-pills-hs.hidden { display: none; }
 .stat-hs-hate .stat-value { color: var(--color-critical); }
 .stat-hs-abusive .stat-value { color: var(--iris); }
+.stat-hs-questionable .stat-value { color: #9E9E9E; }
 
 .view-toggle {
   display: flex; gap: 0;

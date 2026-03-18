@@ -61,7 +61,9 @@
   // HS Color: dark = Hate, light = Abusive (per country)
   function hsPostColor(post) {
     const cc = COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional'];
-    return post.pr === 'Hate' ? cc.dark : cc.light;
+    if (post.pr === 'Hate') return cc.dark;
+    if (post.pr === 'Questionable') return cc.mid || '#9E9E9E';
+    return cc.light;  // Abusive
   }
 
   const SUBTYPE_COLORS = {
@@ -326,9 +328,9 @@
     const classes = d3.rollup(allHSPosts, v => v.length, d => d.pr);
     const classDiv = document.getElementById('hs-filter-class');
     classDiv.innerHTML = '';
-    ['Hate', 'Abusive'].forEach(cls => {
+    ['Hate', 'Abusive', 'Questionable'].forEach(cls => {
       const count = classes.get(cls) || 0;
-      const color = cls === 'Hate' ? '#B83A2A' : '#8071BC';
+      const color = cls === 'Hate' ? '#B83A2A' : cls === 'Questionable' ? '#9E9E9E' : '#8071BC';
       const item = document.createElement('div');
       item.className = 'filter-item active';
       item.innerHTML = `<span class="filter-dot" style="background:${color}"></span>
@@ -469,6 +471,7 @@
     document.getElementById('stat-hs-total').textContent = filteredHSPosts.length.toLocaleString();
     document.getElementById('stat-hs-hate').textContent = filteredHSPosts.filter(p => p.pr === 'Hate').length.toLocaleString();
     document.getElementById('stat-hs-abusive').textContent = filteredHSPosts.filter(p => p.pr === 'Abusive').length.toLocaleString();
+    document.getElementById('stat-hs-questionable').textContent = filteredHSPosts.filter(p => p.pr === 'Questionable').length.toLocaleString();
   }
 
   // ─── Tooltip ─────────────────────────────────────────────────────
@@ -733,7 +736,9 @@
 
     // Header badges
     const header = document.getElementById('hs-detail-header');
-    const badgeColor = post.pr === 'Hate' ? 'background:rgba(184,58,42,0.1);color:#B83A2A' : 'background:rgba(128,113,188,0.12);color:#8071BC';
+    const badgeColor = post.pr === 'Hate' ? 'background:rgba(184,58,42,0.1);color:#B83A2A'
+      : post.pr === 'Questionable' ? 'background:rgba(158,158,158,0.12);color:#9E9E9E'
+      : 'background:rgba(128,113,188,0.12);color:#8071BC';
     const confPct = Math.round(post.co * 100);
     const toxLabel = normalizeToxicity(post.tx);
     const toxColors = { very_high: 'background:rgba(122,26,26,0.12);color:#7A1A1A', high: 'background:rgba(184,58,42,0.1);color:#B83A2A', medium: 'background:rgba(202,93,15,0.1);color:#CA5D0F', low: 'background:rgba(26,58,52,0.1);color:#1A3A34' };
@@ -808,29 +813,9 @@
       }
     }
 
-    // QC + Relevance badges
+    // QC section removed — classification now driven by LLM QA into pr field
     const qcSection = document.getElementById('hs-detail-qc-section');
-    if (qcSection) {
-      const hasQC = post.qc && post.qc !== 'unknown';
-      const hasRel = post.rel && post.rel !== 'unknown';
-      if (hasQC || hasRel) {
-        qcSection.style.display = '';
-        let badges = '';
-        if (hasQC) {
-          const qcColors = { correct: 'background:rgba(26,58,52,0.12);color:#1A3A34', questionable: 'background:rgba(202,93,15,0.12);color:#CA5D0F', misclassified: 'background:rgba(184,58,42,0.12);color:#B83A2A', auto_sweep: 'background:rgba(107,92,168,0.12);color:#6B5CA8' };
-          const qcLabels = { correct: 'Verified HS', questionable: 'Questionable', misclassified: 'Likely Misclassified', auto_sweep: 'Auto-detected' };
-          badges += `<span class="detail-badge" style="${qcColors[post.qc] || ''}">${qcLabels[post.qc] || post.qc}</span> `;
-        }
-        if (hasRel) {
-          const relColors = { relevant: 'background:rgba(26,58,52,0.12);color:#1A3A34', possibly_relevant: 'background:rgba(202,93,15,0.12);color:#CA5D0F', not_relevant: 'background:rgba(158,158,158,0.15);color:#757575' };
-          const relLabels = { relevant: 'Relevant', possibly_relevant: 'Possibly Relevant', not_relevant: 'Not Relevant' };
-          badges += `<span class="detail-badge" style="${relColors[post.rel] || ''}">${relLabels[post.rel] || post.rel}</span>`;
-        }
-        document.getElementById('hs-detail-qc').innerHTML = badges;
-      } else {
-        qcSection.style.display = 'none';
-      }
-    }
+    if (qcSection) qcSection.style.display = 'none';
 
     // Model agreement
     const modelSection = document.getElementById('hs-detail-model-section');
