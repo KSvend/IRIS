@@ -2078,10 +2078,6 @@
           submitType = btn.dataset.type;
           btnTypeDisinfo.classList.toggle('active', submitType === 'disinfo');
           btnTypeHS.classList.toggle('active', submitType === 'hatespeech');
-          btnTypeDisinfo.style.background = submitType === 'disinfo' ? 'rgba(184,58,42,0.15)' : 'transparent';
-          btnTypeDisinfo.style.color = submitType === 'disinfo' ? '#B83A2A' : '#9E9E9E';
-          btnTypeHS.style.background = submitType === 'hatespeech' ? 'rgba(128,113,188,0.15)' : 'transparent';
-          btnTypeHS.style.color = submitType === 'hatespeech' ? '#8071BC' : '#9E9E9E';
         });
       });
     }
