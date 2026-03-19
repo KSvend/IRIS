@@ -83,6 +83,12 @@ def phase_1c_disinfo_classify():
     return run_classification()
 
 
+def phase_1e_event_review():
+    """LLM QA: validate events, extract claims, propose keywords."""
+    from review_events import main as review_main
+    return review_main()
+
+
 def phase_1d_event_lifecycle():
     """Update event statuses (active -> dormant -> resolved)."""
     from event_lifecycle import update_statuses, load_events, save_events
@@ -328,6 +334,10 @@ def main():
         "1C — Disinfo Classification + Event Dedup", phase_1c_disinfo_classify)
     results["1d_event_lifecycle"] = run_phase(
         "1D — Event Lifecycle Updates", phase_1d_event_lifecycle)
+
+    if run_ml:
+        results["1e_event_review"] = run_phase(
+            "1E — Event QA + Intelligence Extraction", phase_1e_event_review)
 
     # ===== PIPELINE 2: HATE SPEECH =====
     log(f"\n{'#'*60}")
