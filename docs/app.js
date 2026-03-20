@@ -1904,12 +1904,14 @@
 
     svg.call(zoom);
 
-    // Horizontal scroll → pan
+    // Horizontal scroll → pan (clamped to data extent)
     svg.node().addEventListener('wheel', function(event) {
       if (Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
       event.preventDefault();
       const t = d3.zoomTransform(svg.node());
-      const newTx = t.x - event.deltaX;
+      const maxTx = 0;
+      const minTx = width - width * t.k;
+      const newTx = Math.max(minTx, Math.min(maxTx, t.x - event.deltaX));
       const newT = d3.zoomIdentity.translate(newTx, 0).scale(t.k);
       svg.call(zoom.transform, newT);
     }, { passive: false });
@@ -2052,12 +2054,14 @@
 
     svg.call(zoom);
 
-    // Horizontal scroll → pan
+    // Horizontal scroll → pan (clamped to data extent)
     svg.node().addEventListener('wheel', function(event) {
       if (Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
       event.preventDefault();
       const t = d3.zoomTransform(svg.node());
-      const newTx = t.x - event.deltaX;
+      const maxTx = 0;
+      const minTx = width - width * t.k;
+      const newTx = Math.max(minTx, Math.min(maxTx, t.x - event.deltaX));
       const newT = d3.zoomIdentity.translate(newTx, 0).scale(t.k);
       svg.call(zoom.transform, newT);
     }, { passive: false });
