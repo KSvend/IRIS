@@ -149,9 +149,9 @@ def add_observation_to_event(event, new_finding):
         src = new_finding["sources"][0]
         source_url = src.get("url", "") if isinstance(src, dict) else ""
 
-    # Check for duplicate: same date + same URL
+    # Check for duplicate: same URL already observed (regardless of date)
     for obs in event["observations"]:
-        if obs.get("date") == obs_date and obs.get("url") == source_url and source_url:
+        if obs.get("url") == source_url and source_url:
             return False
 
     new_obs = {
