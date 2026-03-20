@@ -233,12 +233,14 @@
     if (currentView === 'wheel') {
       Object.keys(filters).forEach(k => filters[k].clear());
       brushExtent = null;
+      scrubberZoomState = null;
       applyFilters();
       updateFilterUI();
       renderScrubber();
     } else {
       Object.keys(hsFilters).forEach(k => hsFilters[k].clear());
       hsBrushExtent = null;
+      hsScrubberZoomState = null;
       applyHSFilters();
       updateHSFilterUI();
       renderHSScrubber();
@@ -1771,6 +1773,16 @@
   }
 
   // ─── SCRUBBER ───────────────────────────────────────────────────
+  let scrubberZoomState = null;
+
+  function scrubberDateFmt(domain) {
+    const spanMs = domain[1] - domain[0];
+    const spanDays = spanMs / (1000 * 60 * 60 * 24);
+    if (spanDays < 60) return d3.timeFormat('%d %b %Y');
+    if (spanDays < 365) return d3.timeFormat('%b %Y');
+    return d3.timeFormat('%b %Y');
+  }
+
   function renderScrubber() {
     const svg = d3.select('#scrubber-svg');
     svg.selectAll('*').remove();
@@ -1780,49 +1792,85 @@
     svg.attr('viewBox', `0 0 ${width} ${height}`);
     const dateExtent = d3.extent(allEvents, d => new Date(d.date));
     if (!dateExtent[0]) return;
-    const fmt = d3.timeFormat('%b %Y');
-    document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
-    document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
-    const x = d3.scaleTime().domain(dateExtent).range([0, width]);
 
-    const bins = d3.bin().domain(dateExtent)
-      .thresholds(d3.timeWeek.range(dateExtent[0], dateExtent[1]))
-      .value(d => new Date(d.date))(allEvents);
-    const yMax = d3.max(bins, b => b.length);
-    const barH = d3.scaleLinear().domain([0, yMax]).range([0, height - 6]);
+    const xFull = d3.scaleTime().domain(dateExtent).range([0, width]);
+    const barsGroup = svg.append('g').attr('class', 'scrubber-bars');
 
-    bins.forEach(bin => {
-      const bx = x(bin.x0);
-      const bw = Math.max(1, x(bin.x1) - x(bin.x0) - 1);
-      const bh = barH(bin.length);
-      const disinfoCount = bin.filter(e => e.event_type === 'DISINFO').length;
-      const disinfoBh = bh * (disinfoCount / bin.length);
-      const contextBh = bh - disinfoBh;
-      if (contextBh > 0) {
-        svg.append('rect').attr('class', 'scrubber-bar')
-          .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', contextBh)
-          .attr('fill', '#D5D0C7').attr('opacity', 0.5).attr('rx', 1);
+    function drawBars(xScale) {
+      barsGroup.selectAll('*').remove();
+      const visibleDomain = xScale.domain();
+      const visibleEvents = allEvents.filter(e => {
+        const d = new Date(e.date);
+        return d >= visibleDomain[0] && d <= visibleDomain[1];
+      });
+      const bins = d3.bin().domain(visibleDomain)
+        .thresholds(d3.timeWeek.range(visibleDomain[0], visibleDomain[1]))
+        .value(d => new Date(d.date))(visibleEvents);
+      const yMax = d3.max(bins, b => b.length) || 1;
+      const barH = d3.scaleLinear().domain([0, yMax]).range([0, height - 6]);
+
+      bins.forEach(bin => {
+        const bx = xScale(bin.x0);
+        const bw = Math.max(1, xScale(bin.x1) - xScale(bin.x0) - 1);
+        const bh = barH(bin.length);
+        const disinfoCount = bin.filter(e => e.event_type === 'DISINFO').length;
+        const disinfoBh = bh * (disinfoCount / (bin.length || 1));
+        const contextBh = bh - disinfoBh;
+        if (contextBh > 0) {
+          barsGroup.append('rect').attr('class', 'scrubber-bar')
+            .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', contextBh)
+            .attr('fill', '#D5D0C7').attr('opacity', 0.5).attr('rx', 1);
+        }
+        if (disinfoBh > 0) {
+          barsGroup.append('rect').attr('class', 'scrubber-bar')
+            .attr('x', bx).attr('y', height - disinfoBh - 2).attr('width', bw).attr('height', disinfoBh)
+            .attr('fill', '#8071BC').attr('opacity', 0.75).attr('rx', 1);
+        }
+      });
+    }
+
+    function updateFromZoom(transform) {
+      const xNew = transform.rescaleX(xFull);
+      const domain = xNew.domain();
+      drawBars(xNew);
+      const fmt = scrubberDateFmt(domain);
+      document.getElementById('date-range-start').textContent = fmt(domain[0]);
+      document.getElementById('date-range-end').textContent = fmt(domain[1]);
+      if (transform.k === 1 && transform.x === 0) {
+        brushExtent = null;
+      } else {
+        brushExtent = [domain[0], domain[1]];
       }
-      if (disinfoBh > 0) {
-        svg.append('rect').attr('class', 'scrubber-bar')
-          .attr('x', bx).attr('y', height - disinfoBh - 2).attr('width', bw).attr('height', disinfoBh)
-          .attr('fill', '#8071BC').attr('opacity', 0.75).attr('rx', 1);
-      }
+      applyFilters();
+    }
+
+    const zoom = d3.zoom()
+      .scaleExtent([1, 20])
+      .translateExtent([[0, 0], [width, height]])
+      .extent([[0, 0], [width, height]])
+      .on('zoom', function(event) { updateFromZoom(event.transform); });
+
+    svg.call(zoom);
+    svg.on('dblclick.zoom', function() {
+      svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
-    const brush = d3.brushX().extent([[0, 0], [width, height]])
-      .on('end', function(event) {
-        if (!event.selection) { brushExtent = null; }
-        else {
-          brushExtent = event.selection.map(x.invert);
-          const fmt = d3.timeFormat('%b %Y');
-          document.getElementById('date-range-start').textContent = fmt(brushExtent[0]);
-          document.getElementById('date-range-end').textContent = fmt(brushExtent[1]);
-        }
-        applyFilters();
-      });
-    svg.append('g').attr('class', 'brush').call(brush);
+    // Restore previous zoom state or draw full
+    if (scrubberZoomState) {
+      svg.call(zoom.transform, scrubberZoomState);
+    } else {
+      drawBars(xFull);
+      const fmt = scrubberDateFmt(dateExtent);
+      document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
+      document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+    }
+
+    // Save zoom state for resize/re-render
+    svg.on('zoom.save', null);
+    zoom.on('zoom.save', function(event) { scrubberZoomState = event.transform; });
   }
+
+  let hsScrubberZoomState = null;
 
   function renderHSScrubber() {
     const svg = d3.select('#scrubber-svg');
@@ -1833,52 +1881,81 @@
     svg.attr('viewBox', `0 0 ${width} ${height}`);
     const dateExtent = d3.extent(allHSPosts, d => new Date(d.d));
     if (!dateExtent[0]) return;
-    const x = d3.scaleTime().domain(dateExtent).range([0, width]);
 
-    // Bin by week
-    const weekRange = d3.timeWeek.range(dateExtent[0], dateExtent[1]);
-    if (weekRange.length === 0) return;
-    const bins = d3.bin().domain(dateExtent)
-      .thresholds(weekRange)
-      .value(d => new Date(d.d))(allHSPosts);
-    const yMax = d3.max(bins, b => b.length) || 1;
-    const barH = d3.scaleLinear().domain([0, yMax]).range([0, height - 6]);
+    const xFull = d3.scaleTime().domain(dateExtent).range([0, width]);
+    const barsGroup = svg.append('g').attr('class', 'scrubber-bars');
 
-    bins.forEach(bin => {
-      const bx = x(bin.x0);
-      const bw = Math.max(1, x(bin.x1) - x(bin.x0) - 1);
-      const bh = barH(bin.length);
-      const hateCount = bin.filter(p => p.pr === 'Hate').length;
-      const hateBh = bh * (hateCount / (bin.length || 1));
-      const abusiveBh = bh - hateBh;
-      if (abusiveBh > 0) {
-        svg.append('rect').attr('class', 'scrubber-bar')
-          .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', abusiveBh)
-          .attr('fill', '#C4BBE0').attr('opacity', 0.5).attr('rx', 1);
+    function drawBars(xScale) {
+      barsGroup.selectAll('*').remove();
+      const visibleDomain = xScale.domain();
+      const visiblePosts = allHSPosts.filter(p => {
+        const d = new Date(p.d);
+        return d >= visibleDomain[0] && d <= visibleDomain[1];
+      });
+      const weekRange = d3.timeWeek.range(visibleDomain[0], visibleDomain[1]);
+      if (weekRange.length === 0) return;
+      const bins = d3.bin().domain(visibleDomain)
+        .thresholds(weekRange)
+        .value(d => new Date(d.d))(visiblePosts);
+      const yMax = d3.max(bins, b => b.length) || 1;
+      const barH = d3.scaleLinear().domain([0, yMax]).range([0, height - 6]);
+
+      bins.forEach(bin => {
+        const bx = xScale(bin.x0);
+        const bw = Math.max(1, xScale(bin.x1) - xScale(bin.x0) - 1);
+        const bh = barH(bin.length);
+        const hateCount = bin.filter(p => p.pr === 'Hate').length;
+        const hateBh = bh * (hateCount / (bin.length || 1));
+        const abusiveBh = bh - hateBh;
+        if (abusiveBh > 0) {
+          barsGroup.append('rect').attr('class', 'scrubber-bar')
+            .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', abusiveBh)
+            .attr('fill', '#C4BBE0').attr('opacity', 0.5).attr('rx', 1);
+        }
+        if (hateBh > 0) {
+          barsGroup.append('rect').attr('class', 'scrubber-bar')
+            .attr('x', bx).attr('y', height - hateBh - 2).attr('width', bw).attr('height', hateBh)
+            .attr('fill', '#B83A2A').attr('opacity', 0.65).attr('rx', 1);
+        }
+      });
+    }
+
+    function updateFromZoom(transform) {
+      const xNew = transform.rescaleX(xFull);
+      const domain = xNew.domain();
+      drawBars(xNew);
+      const fmt = scrubberDateFmt(domain);
+      document.getElementById('date-range-start').textContent = fmt(domain[0]);
+      document.getElementById('date-range-end').textContent = fmt(domain[1]);
+      if (transform.k === 1 && transform.x === 0) {
+        hsBrushExtent = null;
+      } else {
+        hsBrushExtent = [domain[0], domain[1]];
       }
-      if (hateBh > 0) {
-        svg.append('rect').attr('class', 'scrubber-bar')
-          .attr('x', bx).attr('y', height - hateBh - 2).attr('width', bw).attr('height', hateBh)
-          .attr('fill', '#B83A2A').attr('opacity', 0.65).attr('rx', 1);
-      }
+      applyHSFilters();
+    }
+
+    const zoom = d3.zoom()
+      .scaleExtent([1, 20])
+      .translateExtent([[0, 0], [width, height]])
+      .extent([[0, 0], [width, height]])
+      .on('zoom', function(event) { updateFromZoom(event.transform); });
+
+    svg.call(zoom);
+    svg.on('dblclick.zoom', function() {
+      svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
-    const brush = d3.brushX().extent([[0, 0], [width, height]])
-      .on('end', function(event) {
-        if (!event.selection) { hsBrushExtent = null; }
-        else {
-          hsBrushExtent = event.selection.map(x.invert);
-          const fmt = d3.timeFormat('%b %Y');
-          document.getElementById('date-range-start').textContent = fmt(hsBrushExtent[0]);
-          document.getElementById('date-range-end').textContent = fmt(hsBrushExtent[1]);
-        }
-        applyHSFilters();
-      });
-    svg.append('g').attr('class', 'brush').call(brush);
+    if (hsScrubberZoomState) {
+      svg.call(zoom.transform, hsScrubberZoomState);
+    } else {
+      drawBars(xFull);
+      const fmt = scrubberDateFmt(dateExtent);
+      document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
+      document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+    }
 
-    const fmt = d3.timeFormat('%b %Y');
-    document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
-    document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+    zoom.on('zoom.save', function(event) { hsScrubberZoomState = event.transform; });
   }
 
   // ─── View Toggle ────────────────────────────────────────────────

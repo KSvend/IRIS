@@ -281,7 +281,8 @@ body {
   font-family: var(--font-mono);
   text-transform: uppercase; letter-spacing: 2px; font-size: 9px;
 }
-.scrubber-track { flex: 1; overflow: hidden; cursor: crosshair; }
+.scrubber-track { flex: 1; overflow: hidden; cursor: grab; }
+.scrubber-track:active { cursor: grabbing; }
 .scrubber-track svg { width: 100%; height: 100%; }
 
 /* ═══ DETAIL PANEL ═══ */
