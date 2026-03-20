@@ -281,9 +281,13 @@ body {
   font-family: var(--font-mono);
   text-transform: uppercase; letter-spacing: 2px; font-size: 9px;
 }
-.scrubber-track { flex: 1; overflow: hidden; cursor: grab; }
-.scrubber-track:active { cursor: grabbing; }
+.scrubber-track { flex: 1; overflow: hidden; cursor: default; }
 .scrubber-track svg { width: 100%; height: 100%; }
+.scrubber-brush-rect {
+  fill: var(--iris, #8071BC); opacity: 0.15;
+  stroke: var(--iris, #8071BC); stroke-width: 1; stroke-opacity: 0.4;
+  rx: 2;
+}
 
 /* ═══ DETAIL PANEL ═══ */
 .detail-panel {
@@ -455,8 +459,7 @@ body {
 .footer a:hover { color: var(--iris); }
 
 /* ═══ D3 WHEEL STYLES ═══ */
-#wheel-svg { cursor: grab; }
-#wheel-svg:active { cursor: grabbing; }
+#wheel-svg { cursor: default; }
 .wheel-segment-label {
   font-family: var(--font-mono); font-size: 8.5px;
   fill: var(--color-text-muted); text-transform: uppercase;
@@ -579,8 +582,7 @@ body {
 }
 
 /* ═══ HS WHEEL STYLES ═══ */
-#hs-wheel-svg { cursor: grab; }
-#hs-wheel-svg:active { cursor: grabbing; }
+#hs-wheel-svg { cursor: default; }
 .hs-cluster-label {
   font-family: var(--font-mono); font-size: 8px;
   fill: var(--color-text); pointer-events: none;
