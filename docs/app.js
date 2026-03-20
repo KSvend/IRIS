@@ -1856,7 +1856,7 @@
       svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
-    // ── Shift+drag brush selection ──
+    // ── Shift+drag → select area → zoom to fit ──
     const brushLayer = svg.append('g').attr('class', 'brush-layer');
     let brushRect = null;
     let brushStartX = null;
@@ -1864,51 +1864,35 @@
     svg.on('mousedown.brush', function(event) {
       if (!event.shiftKey) return;
       event.preventDefault();
-      event.stopPropagation();
-      brushStartX = Math.max(0, Math.min(width, event.offsetX));
+      brushStartX = d3.pointer(event, svg.node())[0];
+      brushLayer.selectAll('.scrubber-brush-rect').remove();
       brushRect = brushLayer.append('rect')
         .attr('class', 'scrubber-brush-rect')
         .attr('x', brushStartX).attr('y', 0)
         .attr('width', 0).attr('height', height);
     });
-    svg.on('mousemove.brush', function(event) {
+    d3.select(window).on('mousemove.scrubber-brush', function(event) {
       if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, event.offsetX));
+      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
       const x0 = Math.min(brushStartX, curX);
       const x1 = Math.max(brushStartX, curX);
       brushRect.attr('x', x0).attr('width', x1 - x0);
     });
-    svg.on('mouseup.brush', function(event) {
+    d3.select(window).on('mouseup.scrubber-brush', function(event) {
       if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, event.offsetX));
+      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
       const x0 = Math.min(brushStartX, curX);
       const x1 = Math.max(brushStartX, curX);
       brushRect.remove();
       brushRect = null;
       brushStartX = null;
-      if (x1 - x0 < 4) return; // too small, ignore
+      if (x1 - x0 < 4) return;
 
-      // Get current zoom-adjusted scale
-      const currentTransform = d3.zoomTransform(svg.node());
-      const xCurrent = currentTransform.rescaleX(xFull);
-      const d0 = xCurrent.invert(x0);
-      const d1 = xCurrent.invert(x1);
-      brushExtent = [d0, d1];
-      const fmt = scrubberDateFmt([d0, d1]);
-      document.getElementById('date-range-start').textContent = fmt(d0);
-      document.getElementById('date-range-end').textContent = fmt(d1);
-      applyFilters();
-
-      // Show persistent highlight
-      brushLayer.selectAll('.scrubber-brush-rect').remove();
-      brushLayer.append('rect')
-        .attr('class', 'scrubber-brush-rect')
-        .attr('x', x0).attr('y', 0)
-        .attr('width', x1 - x0).attr('height', height);
-    });
-    // Clear selection on double-click (already resets zoom too)
-    svg.on('dblclick.brush', function() {
-      brushLayer.selectAll('.scrubber-brush-rect').remove();
+      // Compute zoom transform that frames [x0, x1] to fill the full width
+      const k = width / (x1 - x0);
+      const tx = -x0 * k;
+      const t = d3.zoomIdentity.translate(tx, 0).scale(k);
+      svg.transition().duration(350).call(zoom.transform, t);
     });
 
     // Restore previous zoom state or draw full
@@ -2003,7 +1987,7 @@
       svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
-    // ── Shift+drag brush selection ──
+    // ── Shift+drag → select area → zoom to fit ──
     const brushLayer = svg.append('g').attr('class', 'brush-layer');
     let brushRect = null;
     let brushStartX = null;
@@ -2011,23 +1995,23 @@
     svg.on('mousedown.brush', function(event) {
       if (!event.shiftKey) return;
       event.preventDefault();
-      event.stopPropagation();
-      brushStartX = Math.max(0, Math.min(width, event.offsetX));
+      brushStartX = d3.pointer(event, svg.node())[0];
+      brushLayer.selectAll('.scrubber-brush-rect').remove();
       brushRect = brushLayer.append('rect')
         .attr('class', 'scrubber-brush-rect')
         .attr('x', brushStartX).attr('y', 0)
         .attr('width', 0).attr('height', height);
     });
-    svg.on('mousemove.brush', function(event) {
+    d3.select(window).on('mousemove.hs-scrubber-brush', function(event) {
       if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, event.offsetX));
+      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
       const x0 = Math.min(brushStartX, curX);
       const x1 = Math.max(brushStartX, curX);
       brushRect.attr('x', x0).attr('width', x1 - x0);
     });
-    svg.on('mouseup.brush', function(event) {
+    d3.select(window).on('mouseup.hs-scrubber-brush', function(event) {
       if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, event.offsetX));
+      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
       const x0 = Math.min(brushStartX, curX);
       const x1 = Math.max(brushStartX, curX);
       brushRect.remove();
@@ -2035,24 +2019,10 @@
       brushStartX = null;
       if (x1 - x0 < 4) return;
 
-      const currentTransform = d3.zoomTransform(svg.node());
-      const xCurrent = currentTransform.rescaleX(xFull);
-      const d0 = xCurrent.invert(x0);
-      const d1 = xCurrent.invert(x1);
-      hsBrushExtent = [d0, d1];
-      const fmt = scrubberDateFmt([d0, d1]);
-      document.getElementById('date-range-start').textContent = fmt(d0);
-      document.getElementById('date-range-end').textContent = fmt(d1);
-      applyHSFilters();
-
-      brushLayer.selectAll('.scrubber-brush-rect').remove();
-      brushLayer.append('rect')
-        .attr('class', 'scrubber-brush-rect')
-        .attr('x', x0).attr('y', 0)
-        .attr('width', x1 - x0).attr('height', height);
-    });
-    svg.on('dblclick.brush', function() {
-      brushLayer.selectAll('.scrubber-brush-rect').remove();
+      const k = width / (x1 - x0);
+      const tx = -x0 * k;
+      const t = d3.zoomIdentity.translate(tx, 0).scale(k);
+      svg.transition().duration(350).call(zoom.transform, t);
     });
 
     if (hsScrubberZoomState) {

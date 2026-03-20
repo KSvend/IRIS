@@ -1476,6 +1476,10 @@ def main(items_file: str | None = None, dry_run: bool = False) -> dict:
         # Convert to compact format
         compact = to_compact_format(item, result, sweep_date)
 
+        # Skip posts before 2025
+        if compact.get("d", "") < "2025-01-01":
+            continue
+
         # Check for duplicate
         if compact["i"] in existing_ids:
             summary["duplicates_skipped"] += 1
