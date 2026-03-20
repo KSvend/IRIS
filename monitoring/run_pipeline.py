@@ -352,6 +352,28 @@ def main():
     results["2b_hs_classify"] = run_phase(
         "2B — HS Rule-Based Classification", phase_2b_hs_classify)
 
+    # Inject any pending recovery posts before ML/QA phases
+    pending_path = REPO_ROOT / "data" / "pending_hs_recovery.json"
+    if pending_path.exists():
+        log("  Injecting pending recovery posts into HS data...")
+        hs_path = REPO_ROOT / "docs" / "data" / "hate_speech_posts.json"
+        with open(hs_path) as f:
+            posts = json.load(f)
+        existing_ids = {p["i"] for p in posts}
+        with open(pending_path) as f:
+            pending = json.load(f)
+        added = 0
+        for p in pending:
+            if p["i"] not in existing_ids:
+                posts.append(p)
+                existing_ids.add(p["i"])
+                added += 1
+        with open(hs_path, "w") as f:
+            json.dump(posts, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        pending_path.unlink()
+        log(f"  Injected {added} pending posts for QA processing.")
+
     if run_ml:
         results["2c_ml_enrich"] = run_phase(
             "2C — ML Enrichment (HF API)", phase_2c_ml_enrich)
