@@ -16291,11 +16291,31 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
+        "summary": "#DogsOfWar: Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel, #DogsOfWar: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 7,
-    "last_seen": "2026-03-19",
+    "observation_count": 9,
+    "last_seen": "2026-03-20",
     "intensity_trend": [
+      3,
+      3,
       3,
       3,
       3,
@@ -16336,7 +16356,10 @@
       "@Ovox_007",
       "@ZMiST_Ua",
       "@bboblloyd",
-      "@RichardREB4"
+      "@RichardREB4",
+      "@princes59895830",
+      "@EmmanuelInvest",
+      "@Ukrinform_News"
     ],
     "platforms": [
       "X (Twitter)"
@@ -16430,11 +16453,21 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://x.com/AfricanReports/status/883728480881475585",
+        "summary": "BREAKING: four  soldiers killed in an  ambush attack Near Halgan town in Hiiraan region. Shahada Agency",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 4,
-    "last_seen": "2026-03-19",
+    "observation_count": 5,
+    "last_seen": "2026-03-20",
     "intensity_trend": [
+      3,
       3,
       3,
       3
@@ -16531,11 +16564,21 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
-    "last_seen": "2026-03-19",
+    "observation_count": 4,
+    "last_seen": "2026-03-20",
     "intensity_trend": [
+      3,
       3,
       3
     ],
@@ -17165,7 +17208,9 @@
       "@Mastermastin_GO",
       "@OjiamboRashid",
       "@D_KKinuthia",
-      "@grok"
+      "@grok",
+      "@MurimiJeff_",
+      "@RasBashirWere01"
     ],
     "platforms": [
       "X (Twitter)"
@@ -17216,7 +17261,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "brace4peace_classify_2026-03-18",
     "detection_timestamp": "2026-03-18T12:11:19.644934+00:00",
-    "last_seen": "2026-03-19",
+    "last_seen": "2026-03-20",
     "status": "active",
     "observations": [
       {
@@ -17245,10 +17290,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://x.com/noormuktar99/status/1929647018261061920",
+        "summary": "#43against1: Amenya hapa umeuma nje! Kikuyus MUST reject leaders trying to isolate the community from the rest of Kenya led by the",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 4,
     "intensity_trend": [
+      3,
       3,
       3
     ],
@@ -17260,5 +17315,82 @@
     ],
     "_review_notes": "Clear coordinated inauthentic behavior targeting a high-profile political figure with fraud allegations - the near-identical posts from multiple accounts indicate organized disinformation activity.",
     "_reviewed": "2026-03-19T08:10:09.375289+00:00"
+  },
+  {
+    "id": "APF-2026-03-20-951",
+    "date": "2026-03-20",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Social media post criticizing stance on Gaza conflict",
+    "summary": "A Twitter user posted criticism regarding positions on the Gaza conflict and Israel's actions. The post appears to be part of broader online discourse about the Middle East conflict rather than specific disinformation targeting South Sudan.",
+    "actors": [
+      "@Seven_MusicAzel"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Seven_MusicAzel/status/2034888372808753476",
+        "date": "2026-03-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-002",
+      "NAR-SS-005"
+    ],
+    "related_events": [],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "brace4peace_classify_2026-03-20",
+    "detection_timestamp": "2026-03-20T07:10:58.402914+00:00",
+    "last_seen": "2026-03-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-03-20",
+        "url": "https://x.com/Seven_MusicAzel/status/2034888372808753476",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "You just saw Gaza's destruction and defended Israel's genocide. Everything else falls in place. Easiest way out was to",
+    "_original_summary": "You just saw Gaza's destruction and defended Israel's genocide. Everything else falls in place. Easiest way out was to condemn the actions Israel caused to Gazans and you couldn't do it.",
+    "_review_notes": "This appears to be political commentary on the Gaza conflict rather than disinformation about East Africa. May have been misclassified by automated systems.",
+    "_reviewed": "2026-03-20T07:11:03.286017+00:00"
   }
 ]
