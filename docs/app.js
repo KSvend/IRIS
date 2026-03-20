@@ -1848,7 +1848,6 @@
       .scaleExtent([1, 20])
       .translateExtent([[0, 0], [width, height]])
       .extent([[0, 0], [width, height]])
-      .filter(event => !event.shiftKey || event.type === 'wheel')
       .on('zoom', function(event) { updateFromZoom(event.transform); });
 
     svg.call(zoom);
@@ -1856,43 +1855,67 @@
       svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
-    // ── Shift+drag → select area → zoom to fit ──
+    // ── Shift+drag overlay: captures shift events before d3.zoom ──
     const brushLayer = svg.append('g').attr('class', 'brush-layer');
     let brushRect = null;
     let brushStartX = null;
 
-    svg.on('mousedown.brush', function(event) {
-      if (!event.shiftKey) return;
+    const overlay = svg.append('rect')
+      .attr('width', width).attr('height', height)
+      .attr('fill', 'none').attr('pointer-events', 'all')
+      .style('cursor', 'default');
+
+    overlay.on('mousedown', function(event) {
+      if (!event.shiftKey) {
+        // Let zoom handle it — forward by re-dispatching without shift
+        overlay.attr('pointer-events', 'none');
+        svg.node().dispatchEvent(new MouseEvent('mousedown', event));
+        overlay.attr('pointer-events', 'all');
+        return;
+      }
       event.preventDefault();
+      event.stopPropagation();
       brushStartX = d3.pointer(event, svg.node())[0];
       brushLayer.selectAll('.scrubber-brush-rect').remove();
       brushRect = brushLayer.append('rect')
         .attr('class', 'scrubber-brush-rect')
         .attr('x', brushStartX).attr('y', 0)
         .attr('width', 0).attr('height', height);
-    });
-    d3.select(window).on('mousemove.scrubber-brush', function(event) {
-      if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
-      const x0 = Math.min(brushStartX, curX);
-      const x1 = Math.max(brushStartX, curX);
-      brushRect.attr('x', x0).attr('width', x1 - x0);
-    });
-    d3.select(window).on('mouseup.scrubber-brush', function(event) {
-      if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
-      const x0 = Math.min(brushStartX, curX);
-      const x1 = Math.max(brushStartX, curX);
-      brushRect.remove();
-      brushRect = null;
-      brushStartX = null;
-      if (x1 - x0 < 4) return;
 
-      // Compute zoom transform that frames [x0, x1] to fill the full width
-      const k = width / (x1 - x0);
-      const tx = -x0 * k;
-      const t = d3.zoomIdentity.translate(tx, 0).scale(k);
-      svg.transition().duration(350).call(zoom.transform, t);
+      function onMove(e) {
+        const curX = Math.max(0, Math.min(width, d3.pointer(e, svg.node())[0]));
+        brushRect.attr('x', Math.min(brushStartX, curX))
+          .attr('width', Math.abs(curX - brushStartX));
+      }
+      function onUp(e) {
+        window.removeEventListener('mousemove', onMove);
+        window.removeEventListener('mouseup', onUp);
+        const curX = Math.max(0, Math.min(width, d3.pointer(e, svg.node())[0]));
+        const x0 = Math.min(brushStartX, curX);
+        const x1 = Math.max(brushStartX, curX);
+        brushLayer.selectAll('.scrubber-brush-rect').remove();
+        brushRect = null;
+        brushStartX = null;
+        if (x1 - x0 < 4) return;
+        const k = width / (x1 - x0);
+        const tx = -x0 * k;
+        const t = d3.zoomIdentity.translate(tx, 0).scale(k);
+        svg.transition().duration(350).call(zoom.transform, t);
+      }
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseup', onUp);
+    });
+
+    // Pass wheel events through overlay to zoom
+    overlay.on('wheel', function(event) {
+      overlay.attr('pointer-events', 'none');
+      svg.node().dispatchEvent(new WheelEvent('wheel', event));
+      overlay.attr('pointer-events', 'all');
+    });
+
+    // Double-click through overlay resets zoom
+    overlay.on('dblclick', function() {
+      svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
     // Restore previous zoom state or draw full
@@ -1979,7 +2002,6 @@
       .scaleExtent([1, 20])
       .translateExtent([[0, 0], [width, height]])
       .extent([[0, 0], [width, height]])
-      .filter(event => !event.shiftKey || event.type === 'wheel')
       .on('zoom', function(event) { updateFromZoom(event.transform); });
 
     svg.call(zoom);
@@ -1987,42 +2009,64 @@
       svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
-    // ── Shift+drag → select area → zoom to fit ──
+    // ── Shift+drag overlay: captures shift events before d3.zoom ──
     const brushLayer = svg.append('g').attr('class', 'brush-layer');
     let brushRect = null;
     let brushStartX = null;
 
-    svg.on('mousedown.brush', function(event) {
-      if (!event.shiftKey) return;
+    const overlay = svg.append('rect')
+      .attr('width', width).attr('height', height)
+      .attr('fill', 'none').attr('pointer-events', 'all')
+      .style('cursor', 'default');
+
+    overlay.on('mousedown', function(event) {
+      if (!event.shiftKey) {
+        overlay.attr('pointer-events', 'none');
+        svg.node().dispatchEvent(new MouseEvent('mousedown', event));
+        overlay.attr('pointer-events', 'all');
+        return;
+      }
       event.preventDefault();
+      event.stopPropagation();
       brushStartX = d3.pointer(event, svg.node())[0];
       brushLayer.selectAll('.scrubber-brush-rect').remove();
       brushRect = brushLayer.append('rect')
         .attr('class', 'scrubber-brush-rect')
         .attr('x', brushStartX).attr('y', 0)
         .attr('width', 0).attr('height', height);
-    });
-    d3.select(window).on('mousemove.hs-scrubber-brush', function(event) {
-      if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
-      const x0 = Math.min(brushStartX, curX);
-      const x1 = Math.max(brushStartX, curX);
-      brushRect.attr('x', x0).attr('width', x1 - x0);
-    });
-    d3.select(window).on('mouseup.hs-scrubber-brush', function(event) {
-      if (brushStartX == null || !brushRect) return;
-      const curX = Math.max(0, Math.min(width, d3.pointer(event, svg.node())[0]));
-      const x0 = Math.min(brushStartX, curX);
-      const x1 = Math.max(brushStartX, curX);
-      brushRect.remove();
-      brushRect = null;
-      brushStartX = null;
-      if (x1 - x0 < 4) return;
 
-      const k = width / (x1 - x0);
-      const tx = -x0 * k;
-      const t = d3.zoomIdentity.translate(tx, 0).scale(k);
-      svg.transition().duration(350).call(zoom.transform, t);
+      function onMove(e) {
+        const curX = Math.max(0, Math.min(width, d3.pointer(e, svg.node())[0]));
+        brushRect.attr('x', Math.min(brushStartX, curX))
+          .attr('width', Math.abs(curX - brushStartX));
+      }
+      function onUp(e) {
+        window.removeEventListener('mousemove', onMove);
+        window.removeEventListener('mouseup', onUp);
+        const curX = Math.max(0, Math.min(width, d3.pointer(e, svg.node())[0]));
+        const x0 = Math.min(brushStartX, curX);
+        const x1 = Math.max(brushStartX, curX);
+        brushLayer.selectAll('.scrubber-brush-rect').remove();
+        brushRect = null;
+        brushStartX = null;
+        if (x1 - x0 < 4) return;
+        const k = width / (x1 - x0);
+        const tx = -x0 * k;
+        const t = d3.zoomIdentity.translate(tx, 0).scale(k);
+        svg.transition().duration(350).call(zoom.transform, t);
+      }
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseup', onUp);
+    });
+
+    overlay.on('wheel', function(event) {
+      overlay.attr('pointer-events', 'none');
+      svg.node().dispatchEvent(new WheelEvent('wheel', event));
+      overlay.attr('pointer-events', 'all');
+    });
+
+    overlay.on('dblclick', function() {
+      svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
     });
 
     if (hsScrubberZoomState) {
