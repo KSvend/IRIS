@@ -19,6 +19,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
+import urllib.parse
 import argparse
 from pathlib import Path
 
@@ -191,6 +192,37 @@ def parse_response(response_text, batch):
     return mapping
 
 
+def _query_related_sources(country: str, narratives: list) -> list:
+    """Query Supabase for related knowledge base findings.
+    Uses raw urllib to avoid adding pip dependencies.
+    """
+    supabase_url = os.environ.get("SUPABASE_URL", "")
+    supabase_key = os.environ.get("SUPABASE_KEY", "")
+    if not supabase_url or not supabase_key:
+        return []
+
+    params = urllib.parse.urlencode({
+        "select": "title,source_url,summary",
+        "country": f"cs.{{{country}}}",  # Postgres array contains
+        "fetch_status": "eq.FETCHED",
+        "limit": "3",
+        "order": "date_published.desc",
+    })
+    url = f"{supabase_url}/rest/v1/sources?{params}"
+    req = urllib.request.Request(url, headers={
+        "apikey": supabase_key,
+        "Authorization": f"Bearer {supabase_key}",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            import json as _json
+            data = _json.loads(resp.read())
+            return [{"title": r["title"], "url": r["source_url"],
+                      "relevance": (r.get("summary") or "")[:100]} for r in data]
+    except Exception:
+        return []
+
+
 def explain_posts(dry_run=False, limit=None):
     """Main function: find posts needing explanation and process them in batches."""
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
@@ -255,6 +287,10 @@ def explain_posts(dry_run=False, limit=None):
                     post["tx"] = result["tx"]
                 if "txd" in result and isinstance(result["txd"], dict):
                     post["txd"] = result["txd"]
+                # Query knowledge base for related sources
+                post_country = post.get("c") or post.get("country", "")
+                post_narratives = post.get("st") or post.get("subtypes", [])
+                post["kb"] = _query_related_sources(post_country, post_narratives)
                 explained += 1
 
         # Save after each batch to preserve progress
