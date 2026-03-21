@@ -1,4 +1,5 @@
 """Shared test fixtures."""
+import os
 import pytest
 from unittest.mock import MagicMock, patch
 
@@ -6,10 +7,17 @@ from unittest.mock import MagicMock, patch
 @pytest.fixture
 def mock_supabase():
     """Mock Supabase client for unit tests."""
-    with patch("backend.db.get_client") as mock:
-        client = MagicMock()
-        mock.return_value = client
-        yield client
+    env_defaults = {
+        "SUPABASE_URL": "https://test.supabase.co",
+        "SUPABASE_KEY": "test-key",
+        "ANTHROPIC_API_KEY": "test-anthropic-key",
+        "API_KEY": "test-api-key",
+    }
+    with patch.dict(os.environ, env_defaults, clear=False):
+        with patch("backend.db.get_client") as mock:
+            client = MagicMock()
+            mock.return_value = client
+            yield client
 
 
 @pytest.fixture
