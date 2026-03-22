@@ -364,23 +364,38 @@
     }).catch(function () { /* silent */ });
   }
 
-  /* ── Markdown link rendering ── */
+  /* ── Markdown rendering ── */
   function renderMarkdownLinks(text) {
     if (!text) return '';
-    var escaped = esc(text);
-    /* Convert [Text](URL) to links */
-    escaped = escaped.replace(
+    /* Work on raw text — render markdown to HTML */
+    var html = text;
+    /* Headings: ## Title → <strong>Title</strong> */
+    html = html.replace(/^#{1,4}\s+(.+)$/gm, '<strong>$1</strong>');
+    /* Bold: **text** → <strong>text</strong> */
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    /* Italic: *text* → <em>text</em> */
+    html = html.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
+    /* Links: [Text](URL) → clickable */
+    html = html.replace(
       /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
       '<a href="$2" target="_blank" rel="noopener">$1</a>'
     );
-    /* Convert bare URLs */
-    escaped = escaped.replace(
-      /(?<!")(https?:\/\/[^\s<"]+)/g,
+    /* Unordered lists: - item → bullet */
+    html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
+    html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
+    /* Numbered lists: 1. item → numbered */
+    html = html.replace(/^\d+\.\s+(.+)$/gm, '<li>$1</li>');
+    /* Bare URLs */
+    html = html.replace(
+      /(?<!["=])(https?:\/\/[^\s<"]+)/g,
       '<a href="$1" target="_blank" rel="noopener">$1</a>'
     );
-    /* Newlines to <br> */
-    escaped = escaped.replace(/\n/g, '<br>');
-    return escaped;
+    /* Newlines to <br> (but not inside lists) */
+    html = html.replace(/\n\n/g, '<br><br>');
+    html = html.replace(/(?<!>)\n(?!<)/g, '<br>');
+    /* Strip "Confidence: HIGH/MEDIUM/LOW" line — shown as badge instead */
+    html = html.replace(/<br>?Confidence:\s*(HIGH|MEDIUM|LOW)\s*$/i, '');
+    return html;
   }
 
   /* ── Toggle panel ── */
