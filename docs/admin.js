@@ -306,64 +306,177 @@
     wrap.appendChild(table);
     pane.appendChild(wrap);
 
-    /* Bind review action buttons */
+    /* Bind annotation forms */
     setTimeout(function () {
       reviewData.forEach(function (post, idx) {
         var container = document.getElementById('review-actions-' + idx);
         if (!container) return;
 
-        var group = el('div', 'action-group');
+        var form = el('div', 'annotation-form');
+        form.id = 'annot-form-' + idx;
 
-        var btnC = el('button', 'btn-confirm'); btnC.textContent = 'Confirm';
-        btnC.onclick = function () { annotatePost(post, 'confirmed', null, null, idx); };
+        /* EA-HS Label */
+        form.innerHTML =
+          '<div class="annot-row">' +
+            '<label>EA-HS Label</label>' +
+            '<select id="annot-label-' + idx + '">' +
+              '<option value="">— keep current —</option>' +
+              '<option value="Hate">Hate</option>' +
+              '<option value="Abusive">Abusive</option>' +
+              '<option value="Normal">Normal</option>' +
+            '</select>' +
+          '</div>' +
+          /* HS Subtypes (multi-checkbox) */
+          '<div class="annot-row">' +
+            '<label>HS Subtypes</label>' +
+            '<div class="annot-checks" id="annot-subtypes-' + idx + '">' +
+              ['Ethnic Targeting', 'Political Incitement', 'Clan Targeting',
+               'Religious Incitement', 'Anti-Foreign', 'Dehumanisation',
+               'Gendered Violence', 'General Abuse', 'Disinfo/Conspiracy'].map(function (s) {
+                return '<label class="annot-check"><input type="checkbox" value="' + s + '"> ' + s + '</label>';
+              }).join('') +
+            '</div>' +
+          '</div>' +
+          /* Toxicity */
+          '<div class="annot-row">' +
+            '<label>Toxicity</label>' +
+            '<select id="annot-tox-' + idx + '">' +
+              '<option value="">— keep current —</option>' +
+              '<option value="very_high">Very High</option>' +
+              '<option value="high">High</option>' +
+              '<option value="medium">Medium</option>' +
+              '<option value="low">Low</option>' +
+              '<option value="none">None</option>' +
+            '</select>' +
+          '</div>' +
+          /* Countries */
+          '<div class="annot-row">' +
+            '<label>Countries</label>' +
+            '<div class="annot-checks" id="annot-countries-' + idx + '">' +
+              ['Kenya', 'Somalia', 'South Sudan', 'Ethiopia', 'Uganda', 'Sudan', 'Other'].map(function (c) {
+                return '<label class="annot-check"><input type="checkbox" value="' + c + '"> ' + c + '</label>';
+              }).join('') +
+            '</div>' +
+          '</div>' +
+          /* Third-country origin */
+          '<div class="annot-row">' +
+            '<label class="annot-check"><input type="checkbox" id="annot-3rdcountry-' + idx + '"> Third-country origin</label>' +
+            '<input type="text" id="annot-3rdcountry-name-' + idx + '" placeholder="Origin country..." class="annot-input-sm" style="display:none">' +
+          '</div>' +
+          /* Disinformation flag */
+          '<div class="annot-row annot-disinfo-row">' +
+            '<label class="annot-check"><input type="checkbox" id="annot-disinfo-' + idx + '"> Flag as potential disinformation</label>' +
+            '<input type="text" id="annot-disinfo-note-' + idx + '" placeholder="Describe the disinfo narrative..." class="annot-input" style="display:none">' +
+          '</div>' +
+          /* Note */
+          '<div class="annot-row">' +
+            '<label>Analyst Note</label>' +
+            '<textarea id="annot-note-' + idx + '" class="annot-textarea" placeholder="Optional note..."></textarea>' +
+          '</div>' +
+          /* Actions */
+          '<div class="annot-actions">' +
+            '<button class="btn-confirm" id="annot-confirm-' + idx + '">Confirm Labels</button>' +
+            '<button class="btn-correct" id="annot-submit-' + idx + '">Submit Corrections</button>' +
+            '<button class="btn-flag" id="annot-flag-' + idx + '">Flag for Review</button>' +
+          '</div>';
 
-        var btnCorr = el('button', 'btn-correct'); btnCorr.textContent = 'Correct';
+        container.appendChild(form);
 
-        /* Correction dropdowns */
-        var selLabel = el('select', 'correction-select');
-        selLabel.id = 'corr-label-' + idx;
-        selLabel.innerHTML = '<option value="">Label...</option><option value="hate">hate</option><option value="abusive">abusive</option><option value="offensive">offensive</option><option value="normal">normal</option>';
-
-        var selSubtype = el('select', 'correction-select');
-        selSubtype.id = 'corr-subtype-' + idx;
-        selSubtype.innerHTML = '<option value="">Subtype...</option><option value="ethnic">ethnic</option><option value="religious">religious</option><option value="gender">gender</option><option value="political">political</option><option value="other">other</option><option value="none">none</option>';
-
-        btnCorr.onclick = function () {
-          var newLabel = selLabel.value || null;
-          var newSubtype = selSubtype.value || null;
-          if (!newLabel && !newSubtype) { showToast('Select a correction first'); return; }
-          annotatePost(post, 'corrected', newLabel, newSubtype, idx);
+        /* Toggle third-country input */
+        var cb3rd = document.getElementById('annot-3rdcountry-' + idx);
+        if (cb3rd) cb3rd.onchange = function () {
+          document.getElementById('annot-3rdcountry-name-' + idx).style.display = cb3rd.checked ? '' : 'none';
+        };
+        /* Toggle disinfo note input */
+        var cbDis = document.getElementById('annot-disinfo-' + idx);
+        if (cbDis) cbDis.onchange = function () {
+          document.getElementById('annot-disinfo-note-' + idx).style.display = cbDis.checked ? '' : 'none';
         };
 
-        var btnFl = el('button', 'btn-flag'); btnFl.textContent = 'Flag';
-        btnFl.onclick = function () { annotatePost(post, 'flagged', null, null, idx); };
-
-        group.appendChild(btnC);
-        group.appendChild(selLabel);
-        group.appendChild(selSubtype);
-        group.appendChild(btnCorr);
-        group.appendChild(btnFl);
-        container.appendChild(group);
+        /* Action handlers */
+        document.getElementById('annot-confirm-' + idx).onclick = function () {
+          submitAnnotation(post, idx, 'CONFIRM');
+        };
+        document.getElementById('annot-submit-' + idx).onclick = function () {
+          submitAnnotation(post, idx, 'CORRECT');
+        };
+        document.getElementById('annot-flag-' + idx).onclick = function () {
+          submitAnnotation(post, idx, 'FLAG');
+        };
       });
     }, 0);
 
     return pane;
   }
 
-  function annotatePost(post, action, correctedLabel, correctedSubtype, idx) {
+  function submitAnnotation(post, idx, action) {
+    var corrections = {};
+
+    /* Gather label */
+    var labelSel = document.getElementById('annot-label-' + idx);
+    if (labelSel && labelSel.value) corrections.eaHsPred = labelSel.value;
+
+    /* Gather subtypes */
+    var subtypeChecks = document.querySelectorAll('#annot-subtypes-' + idx + ' input:checked');
+    if (subtypeChecks.length) corrections.subtypes = Array.from(subtypeChecks).map(function (cb) { return cb.value; });
+
+    /* Gather toxicity */
+    var toxSel = document.getElementById('annot-tox-' + idx);
+    if (toxSel && toxSel.value) corrections.toxicity = toxSel.value;
+
+    /* Gather countries */
+    var countryChecks = document.querySelectorAll('#annot-countries-' + idx + ' input:checked');
+    if (countryChecks.length) corrections.countries = Array.from(countryChecks).map(function (cb) { return cb.value; });
+
+    /* Third-country origin */
+    var cb3rd = document.getElementById('annot-3rdcountry-' + idx);
+    if (cb3rd && cb3rd.checked) {
+      var name3rd = document.getElementById('annot-3rdcountry-name-' + idx);
+      corrections.third_country_origin = true;
+      corrections.origin_country = name3rd ? name3rd.value.trim() : '';
+    }
+
+    /* Disinformation flag */
+    var cbDis = document.getElementById('annot-disinfo-' + idx);
+    var isDisinfo = cbDis && cbDis.checked;
+    if (isDisinfo) {
+      var disNote = document.getElementById('annot-disinfo-note-' + idx);
+      corrections.flagged_disinfo = true;
+      corrections.disinfo_narrative = disNote ? disNote.value.trim() : '';
+    }
+
+    /* Note */
+    var noteEl = document.getElementById('annot-note-' + idx);
+    var note = noteEl ? noteEl.value.trim() : '';
+
     var body = {
       post_id: post.id || post.i || post.post_id,
       action: action,
-      analyst_name: localStorage.getItem(LS_NAME)
+      reviewer_name: localStorage.getItem(LS_NAME),
+      corrections: corrections,
+      note: note
     };
-    if (correctedLabel) body.corrected_label = correctedLabel;
-    if (correctedSubtype) body.corrected_subtype = correctedSubtype;
 
     apiFetch('/posts/annotate', 'POST', body)
       .then(function () {
+        /* If disinfo flagged, also create a finding for the verify queue */
+        if (isDisinfo) {
+          var postText = post.text || post.t || '';
+          var disNarrative = corrections.disinfo_narrative || '';
+          return apiFetch('/posts/flag-disinfo', 'POST', {
+            post_id: post.id || post.i || post.post_id,
+            title: 'Analyst-flagged: potential disinformation',
+            summary: disNarrative || postText.substring(0, 300),
+            country: corrections.countries || [post.country || post.c || 'Regional'],
+            source_url: post.l || post.link || '',
+            reviewer_name: localStorage.getItem(LS_NAME)
+          });
+        }
+      })
+      .then(function () {
         reviewData.splice(idx, 1);
         render();
-        showToast('Post ' + action);
+        showToast('Post annotated' + (isDisinfo ? ' + disinfo flagged for verification' : ''));
       })
       .catch(function () { showToast('Error — try again'); });
   }

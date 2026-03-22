@@ -362,3 +362,32 @@ async def posts_annotate(req: AnnotationRequest, _=Depends(verify_api_key)):
         }
     ).execute()
     return {"post_id": req.post_id, "action": req.action, "status": "saved"}
+
+
+class DisinfoFlagRequest(BaseModel):
+    post_id: str
+    title: str
+    summary: str
+    country: list[str] | None = None
+    source_url: str | None = None
+    reviewer_name: str
+
+
+@app.post("/posts/flag-disinfo")
+async def flag_disinfo(req: DisinfoFlagRequest, _=Depends(verify_api_key)):
+    """Flag a post as potential disinformation — creates a finding for verification."""
+    client = _get_supabase()
+    client.table("findings").insert(
+        {
+            "title": req.title,
+            "summary": req.summary,
+            "country": req.country or ["Regional"],
+            "theme": ["Analyst-Flagged Disinformation"],
+            "classification": "HS_DISINFO",
+            "confidence": 1.0,
+            "status": "UNVERIFIED",
+            "verification_note": f"Flagged from post {req.post_id} by {req.reviewer_name}",
+            "created_by": req.reviewer_name,
+        }
+    ).execute()
+    return {"status": "flagged", "post_id": req.post_id}
