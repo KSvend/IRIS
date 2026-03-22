@@ -148,10 +148,11 @@
 
   // ─── Data Loading ────────────────────────────────────────────────
   async function loadData() {
+    const cacheBust = `?v=${Date.now()}`;
     const [eventsRes, narrRes, hsRes] = await Promise.all([
-      fetch('data/events.json'),
-      fetch('data/narratives.json'),
-      fetch('data/hate_speech_posts.json')
+      fetch('data/events.json' + cacheBust),
+      fetch('data/narratives.json' + cacheBust),
+      fetch('data/hate_speech_posts.json' + cacheBust)
     ]);
     allEvents = await eventsRes.json();
     narrativeRef = await narrRes.json();
