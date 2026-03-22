@@ -13,6 +13,7 @@
   /* ── State ── */
   let panelOpen = false;
   let activeCountry = null;
+  let sessionId = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).slice(2);
   let messages = [];
   let coldStartRetries = 0;
 
