@@ -228,7 +228,7 @@
       method: 'POST',
       headers: headers,
       body: JSON.stringify(body),
-      signal: AbortSignal.timeout ? AbortSignal.timeout(30000) : undefined
+      signal: AbortSignal.timeout ? AbortSignal.timeout(120000) : undefined
     })
       .then(function (res) {
         if (res.status === 503) throw { coldStart: true };
