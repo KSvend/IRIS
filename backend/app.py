@@ -336,14 +336,28 @@ async def posts_review_queue(
     offset: int = 0,
     _=Depends(verify_api_key),
 ):
-    """Return hate-speech posts for human annotation, sorted by lowest confidence."""
+    """Return hate-speech posts for human annotation, sorted by lowest confidence.
+
+    Posts with None/missing confidence are deprioritised (likely unclassified noise).
+    Uses abbreviated field names from the JSON: c=country, cf=confidence, st=subtypes.
+    """
     posts = _get_hs_posts()
     filtered = posts
     if country:
-        filtered = [p for p in filtered if p.get("country") == country]
+        filtered = [p for p in filtered if (p.get("country") or p.get("c")) == country]
     if subtype:
-        filtered = [p for p in filtered if subtype in (p.get("subtopics") or [])]
-    filtered.sort(key=lambda p: p.get("eaHsConf", 1.0))
+        filtered = [
+            p for p in filtered
+            if subtype in [
+                s.get("n", s) if isinstance(s, dict) else s
+                for s in (p.get("subtopics") or p.get("st") or [])
+            ]
+        ]
+    # Sort by confidence ascending — but treat None as 1.0 (skip unscored posts)
+    def _conf(p):
+        c = p.get("eaHsConf") or p.get("cf")
+        return c if c is not None else 1.0
+    filtered.sort(key=_conf)
     page = filtered[offset : offset + limit]
     return {"posts": page, "total": len(filtered)}
 
