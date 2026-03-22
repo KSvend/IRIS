@@ -14,6 +14,7 @@
   let panelOpen = false;
   let activeCountry = null;
   let sessionId = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).slice(2);
+  let panelWidth = parseInt(localStorage.getItem('b4p_chat_width')) || 420;
   let messages = [];
   let coldStartRetries = 0;
 
@@ -46,6 +47,14 @@
   /* ── Panel ── */
   function buildPanel() {
     const panel = el('div', { className: 'chat-panel' + (panelOpen ? ' open' : '') });
+    if (panelWidth) {
+      panel.style.width = panelWidth + 'px';
+    }
+
+    /* Resize handle */
+    const handle = el('div', { className: 'chat-resize-handle' });
+    handle.addEventListener('mousedown', startResize);
+    panel.appendChild(handle);
 
     /* Header */
     const header = el('div', { className: 'chat-header' });
@@ -398,12 +407,40 @@
     return html;
   }
 
+  /* ── Resize handling ── */
+  function startResize(e) {
+    e.preventDefault();
+    var panel = document.querySelector('.chat-panel');
+    if (!panel) return;
+    panel.classList.add('resizing');
+    document.body.classList.add('chat-resizing');
+
+    function onMove(e) {
+      var newWidth = window.innerWidth - e.clientX;
+      if (newWidth < 320) newWidth = 320;
+      if (newWidth > window.innerWidth * 0.8) newWidth = window.innerWidth * 0.8;
+      panelWidth = newWidth;
+      panel.style.width = newWidth + 'px';
+      document.body.style.setProperty('--chat-width', newWidth + 'px');
+    }
+    function onUp() {
+      panel.classList.remove('resizing');
+      document.body.classList.remove('chat-resizing');
+      document.removeEventListener('mousemove', onMove);
+      document.removeEventListener('mouseup', onUp);
+      localStorage.setItem('b4p_chat_width', panelWidth);
+    }
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup', onUp);
+  }
+
   /* ── Toggle panel ── */
   function togglePanel(open) {
     panelOpen = open;
     // Push dashboard content to the left instead of overlaying
     if (open) {
       document.body.classList.add('chat-open');
+      document.body.style.setProperty('--chat-width', panelWidth + 'px');
     } else {
       document.body.classList.remove('chat-open');
     }
