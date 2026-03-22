@@ -10,8 +10,24 @@ from pathlib import Path
 
 from backend.config import API_KEY
 from backend.agents.chat_agent import create_chat_agent
+import traceback
+import logging
+
+logger = logging.getLogger(__name__)
 
 app = FastAPI(title="BRACE4PEACE Chat API")
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    logger.error(f"Unhandled error on {request.url.path}: {exc}\n{traceback.format_exc()}")
+    return JSONResponse(
+        status_code=500,
+        content={"detail": str(exc), "path": str(request.url.path)},
+    )
+
+
+from fastapi.responses import JSONResponse
 
 app.add_middleware(
     CORSMiddleware,
@@ -63,9 +79,10 @@ def _get_hs_posts():
 
 async def verify_api_key(request: Request):
     """Validate X-API-Key header and enforce daily rate limit."""
-    key = request.headers.get("X-API-Key")
-    if key != API_KEY:
-        raise HTTPException(status_code=401, detail="Invalid API key")
+    key = (request.headers.get("x-b4p-key") or request.headers.get("x-api-key") or "").strip()
+    expected = (API_KEY or "").strip()
+    if not key or (expected and key != expected):
+        raise HTTPException(status_code=401, detail="Missing or invalid API key")
     # Rate limiting
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     if key not in _rate_limits or _rate_limits[key]["date"] != today:
@@ -116,7 +133,19 @@ class AnnotationRequest(BaseModel):
 @app.get("/health")
 async def health():
     """System status check -- no auth required."""
-    return {"status": "healthy"}
+    import os
+    return {
+        "status": "healthy",
+        "api_key_len": len(API_KEY) if API_KEY else 0,
+        "api_key_preview": API_KEY[:5] + "..." if API_KEY else "",
+        "supabase_configured": bool(os.environ.get("SUPABASE_URL")),
+    }
+
+
+@app.get("/debug/headers")
+async def debug_headers(request: Request):
+    """Temporary: dump request headers for debugging."""
+    return {"headers": dict(request.headers)}
 
 
 @app.post("/chat")

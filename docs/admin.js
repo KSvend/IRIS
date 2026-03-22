@@ -404,7 +404,7 @@
   function authHeaders() {
     return {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' + localStorage.getItem(LS_KEY)
+      'X-B4P-Key': localStorage.getItem(LS_KEY)
     };
   }
 
