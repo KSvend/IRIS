@@ -220,11 +220,11 @@
     };
     var body = {
       query: query,
-      analyst_name: localStorage.getItem(LS_NAME)
+      session_id: sessionId
     };
-    if (activeCountry) body.country = activeCountry;
+    if (activeCountry) body.filters = { country: activeCountry };
 
-    fetch(API_BASE + '/chat/query', {
+    fetch(API_BASE + '/chat', {
       method: 'POST',
       headers: headers,
       body: JSON.stringify(body),
