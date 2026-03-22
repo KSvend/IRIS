@@ -49,7 +49,9 @@
 
   function eventColor(e) {
     const cc = COUNTRY_COLORS[e.country] || COUNTRY_COLORS['Regional'];
-    return e.event_type === 'DISINFO' ? cc.dark : cc.light;
+    if (e.event_type === 'CONFIRMED') return cc.dark;
+    if (e.event_type === 'POTENTIAL') return cc.mid || cc.dark;
+    return cc.light;  // CONTEXT
   }
   function countryDark(country) {
     return (COUNTRY_COLORS[country] || COUNTRY_COLORS['Regional']).dark;
@@ -76,7 +78,8 @@
     'incitement': '#A84B0C'
   };
   const TYPE_COLORS = {
-    'DISINFO': '#CA5D0F',
+    'CONFIRMED': '#B83A2A',
+    'POTENTIAL': '#CA5D0F',
     'CONTEXT': '#C8C3BA'
   };
   const THREAT_COLORS = {
@@ -268,12 +271,13 @@
     const types = d3.rollup(allEvents, v => v.length, d => d.event_type);
     const typeDiv = document.getElementById('filter-type');
     typeDiv.innerHTML = '';
-    ['DISINFO', 'CONTEXT'].forEach(type => {
+    const typeLabels = { 'CONFIRMED': 'Confirmed', 'POTENTIAL': 'Potential', 'CONTEXT': 'Context' };
+    ['CONFIRMED', 'POTENTIAL', 'CONTEXT'].forEach(type => {
       const count = types.get(type) || 0;
       const item = document.createElement('div');
       item.className = 'filter-item active';
       item.innerHTML = `<span class="filter-dot" style="background:${TYPE_COLORS[type]}"></span>
-        <span>${type === 'DISINFO' ? 'Disinformation' : 'Context'}</span><span class="filter-count">${count}</span>`;
+        <span>${typeLabels[type]}</span><span class="filter-count">${count}</span>`;
       item.addEventListener('click', () => toggleFilter('type', type));
       item.dataset.value = type;
       item.dataset.category = 'type';
@@ -477,7 +481,8 @@
 
   function updateStats() {
     document.getElementById('stat-total').textContent = filteredEvents.length;
-    document.getElementById('stat-disinfo').textContent = filteredEvents.filter(e => e.event_type === 'DISINFO').length;
+    document.getElementById('stat-disinfo').textContent = filteredEvents.filter(e => e.event_type === 'CONFIRMED').length;
+    document.getElementById('stat-potential').textContent = filteredEvents.filter(e => e.event_type === 'POTENTIAL').length;
     document.getElementById('stat-context').textContent = filteredEvents.filter(e => e.event_type === 'CONTEXT').length;
   }
 
@@ -496,11 +501,11 @@
     document.body.appendChild(tooltipEl);
   }
   function showTooltip(event, d) {
-    const typeLabel = d.event_type === 'DISINFO'
-      ? (SUBTYPE_LABELS[d.disinfo_subtype] || 'Disinfo')
-      : 'Context';
+    const certLabels = { 'CONFIRMED': 'Confirmed', 'POTENTIAL': 'Potential', 'CONTEXT': 'Context' };
+    const typeLabel = certLabels[d.event_type] || d.event_type;
+    const subtypeLabel = d.disinfo_subtype ? ` · ${SUBTYPE_LABELS[d.disinfo_subtype] || d.disinfo_subtype}` : '';
     tooltipEl.innerHTML = `<div class="tooltip-headline">${d.headline}</div>
-      <div class="tooltip-meta">${d.date} · ${d.country} · ${typeLabel} · ${d.threat_level}</div>`;
+      <div class="tooltip-meta">${d.date} · ${d.country} · ${typeLabel}${subtypeLabel} · ${d.threat_level}</div>`;
     tooltipEl.classList.add('visible');
     positionTooltip(event);
   }
@@ -541,8 +546,10 @@
     content.classList.remove('hidden');
 
     const typeEl = document.getElementById('detail-type');
-    typeEl.textContent = d.event_type === 'DISINFO' ? 'Disinfo' : 'Context';
-    typeEl.className = 'detail-badge ' + (d.event_type === 'DISINFO' ? 'disinfo' : 'context');
+    const certLabelsDetail = { 'CONFIRMED': 'Confirmed', 'POTENTIAL': 'Potential', 'CONTEXT': 'Context' };
+    const certClassMap = { 'CONFIRMED': 'confirmed', 'POTENTIAL': 'potential', 'CONTEXT': 'context' };
+    typeEl.textContent = certLabelsDetail[d.event_type] || d.event_type;
+    typeEl.className = 'detail-badge ' + (certClassMap[d.event_type] || 'context');
 
     const subtypeEl = document.getElementById('detail-subtype');
     if (d.disinfo_subtype) {
@@ -565,6 +572,29 @@
       : d.date;
     document.getElementById('detail-date').textContent = dateText;
     document.getElementById('detail-summary').textContent = d.summary;
+
+    // Extra metadata row
+    const metaEl = document.getElementById('detail-meta-extra');
+    if (metaEl) {
+      const parts = [];
+      if (d.info_class) parts.push(`<span class="detail-meta-tag">${d.info_class}</span>`);
+      if (d.info_type) parts.push(`<span class="detail-meta-tag">${d.info_type}</span>`);
+      if (d.data_source) parts.push(`<span class="detail-meta-tag src">${d.data_source}</span>`);
+      if (d.disinfo_confidence) parts.push(`<span class="detail-meta-tag conf">Confidence: ${d.disinfo_confidence}</span>`);
+      metaEl.innerHTML = parts.join('');
+      metaEl.style.display = parts.length ? '' : 'none';
+    }
+
+    // Escalation outcome
+    const escEl = document.getElementById('detail-escalation');
+    if (escEl) {
+      if (d.escalation_outcome) {
+        escEl.textContent = d.escalation_outcome;
+        escEl.parentElement.style.display = '';
+      } else {
+        escEl.parentElement.style.display = 'none';
+      }
+    }
 
     // Show event status and observation count if available
     const statusEl = document.getElementById('detail-status');
@@ -1083,8 +1113,8 @@
       dotsGroup.append('circle').attr('class', 'event-dot')
         .attr('cx', pos.x).attr('cy', pos.y).attr('r', size)
         .attr('fill', color)
-        .attr('fill-opacity', e.event_type === 'CONTEXT' ? 0.35 : 0.9)
-        .attr('filter', e.event_type === 'DISINFO' ? 'url(#glow)' : null)
+        .attr('fill-opacity', e.event_type === 'CONFIRMED' ? 0.9 : e.event_type === 'POTENTIAL' ? 0.65 : 0.3)
+        .attr('filter', e.event_type === 'CONFIRMED' ? 'url(#glow)' : null)
         .datum(e)
         .on('mouseenter', function(event) {
           if (!pinnedEvent) { showTooltip(event, e); showDetail(e); highlightEvent(e); }
@@ -1555,13 +1585,14 @@
       const color = eventColor(e);
       let opacity;
       if (e.event_type === 'CONTEXT') opacity = 0.08 + heatNorm * 0.25;
+      else if (e.event_type === 'POTENTIAL') opacity = 0.25 + heatNorm * 0.4;
       else opacity = 0.4 + heatNorm * 0.55;
 
       const dot = dotsGroup.append('circle').attr('class', 'event-dot')
         .attr('cx', pos.x).attr('cy', pos.y)
         .attr('r', isNew ? 0 : baseSize)
         .attr('fill', color).attr('fill-opacity', opacity)
-        .attr('filter', (e.event_type === 'DISINFO' && isNew) ? 'url(#pulse-glow)' : (e.event_type === 'DISINFO' ? 'url(#glow)' : null))
+        .attr('filter', (e.event_type === 'CONFIRMED' && isNew) ? 'url(#pulse-glow)' : (e.event_type === 'CONFIRMED' ? 'url(#glow)' : null))
         .datum(e)
         .on('mouseenter', function(event) {
           if (!pinnedEvent) { showTooltip(event, e); showDetail(e); }
@@ -1814,18 +1845,29 @@
         const bx = xCurrent(bin.x0);
         const bw = Math.max(1, xCurrent(bin.x1) - xCurrent(bin.x0) - 1);
         const bh = barH(bin.length);
-        const disinfoCount = bin.filter(e => e.event_type === 'DISINFO').length;
-        const disinfoBh = bh * (disinfoCount / (bin.length || 1));
-        const contextBh = bh - disinfoBh;
+        const confirmedCount = bin.filter(e => e.event_type === 'CONFIRMED').length;
+        const potentialCount = bin.filter(e => e.event_type === 'POTENTIAL').length;
+        const contextCount = bin.length - confirmedCount - potentialCount;
+        const confirmedBh = bh * (confirmedCount / (bin.length || 1));
+        const potentialBh = bh * (potentialCount / (bin.length || 1));
+        const contextBh = bh - confirmedBh - potentialBh;
+        let yOffset = height - bh - 2;
         if (contextBh > 0) {
           barsGroup.append('rect').attr('class', 'scrubber-bar')
-            .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', contextBh)
+            .attr('x', bx).attr('y', yOffset).attr('width', bw).attr('height', contextBh)
             .attr('fill', '#D5D0C7').attr('opacity', 0.5).attr('rx', 1);
+          yOffset += contextBh;
         }
-        if (disinfoBh > 0) {
+        if (potentialBh > 0) {
           barsGroup.append('rect').attr('class', 'scrubber-bar')
-            .attr('x', bx).attr('y', height - disinfoBh - 2).attr('width', bw).attr('height', disinfoBh)
-            .attr('fill', '#8071BC').attr('opacity', 0.75).attr('rx', 1);
+            .attr('x', bx).attr('y', yOffset).attr('width', bw).attr('height', potentialBh)
+            .attr('fill', '#CA5D0F').attr('opacity', 0.65).attr('rx', 1);
+          yOffset += potentialBh;
+        }
+        if (confirmedBh > 0) {
+          barsGroup.append('rect').attr('class', 'scrubber-bar')
+            .attr('x', bx).attr('y', yOffset).attr('width', bw).attr('height', confirmedBh)
+            .attr('fill', '#B83A2A').attr('opacity', 0.85).attr('rx', 1);
         }
       });
     }

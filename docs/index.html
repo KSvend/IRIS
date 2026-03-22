@@ -34,13 +34,17 @@
             <span class="stat-label">Events</span>
             <span class="stat-value" id="stat-total">229</span>
           </div>
-          <div class="stat-pill stat-disinfo">
-            <span class="stat-label">Disinfo</span>
-            <span class="stat-value" id="stat-disinfo">36</span>
+          <div class="stat-pill stat-confirmed">
+            <span class="stat-label">Confirmed</span>
+            <span class="stat-value" id="stat-disinfo">0</span>
+          </div>
+          <div class="stat-pill stat-potential">
+            <span class="stat-label">Potential</span>
+            <span class="stat-value" id="stat-potential">0</span>
           </div>
           <div class="stat-pill stat-context-pill">
             <span class="stat-label">Context</span>
-            <span class="stat-value" id="stat-context">193</span>
+            <span class="stat-value" id="stat-context">0</span>
           </div>
         </div>
         <!-- Hate Speech stats (visible when HS view active) -->
@@ -186,9 +190,14 @@
           <h2 class="detail-headline" id="detail-headline"></h2>
           <time class="detail-date" id="detail-date"></time>
           <div id="detail-status" class="detail-meta" style="display:none;margin-top:4px;color:#9E9E9E"></div>
+          <div id="detail-meta-extra" class="detail-meta-extra" style="display:none;margin-top:6px"></div>
           <div class="detail-section">
             <h4>Summary</h4>
             <p id="detail-summary"></p>
+          </div>
+          <div class="detail-section" id="detail-escalation-section">
+            <h4>Escalation Outcome</h4>
+            <p id="detail-escalation"></p>
           </div>
           <div class="detail-section" id="detail-claims-section" style="display:none">
             <h4>Extracted False Claims</h4>

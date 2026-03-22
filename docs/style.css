@@ -165,6 +165,8 @@ body {
 .stat-label { color: var(--color-text-muted); font-weight: 400; }
 .stat-value { color: var(--color-text); font-weight: 600; }
 .stat-disinfo .stat-value { color: var(--ember); }
+.stat-confirmed .stat-value { color: #B83A2A; }
+.stat-potential .stat-value { color: var(--ember); }
 .stat-context-pill .stat-value { color: var(--color-context); }
 
 .stat-pills-disinfo, .stat-pills-hs { display: flex; align-items: center; gap: 10px; }
@@ -325,6 +327,8 @@ body {
   text-transform: uppercase; letter-spacing: 0.5px;
 }
 .detail-badge.disinfo { background: var(--ember-dim); color: var(--ember); }
+.detail-badge.confirmed { background: rgba(184,58,42,0.15); color: #B83A2A; }
+.detail-badge.potential { background: var(--ember-dim); color: var(--ember); }
 .detail-badge.subtype {
   font-weight: 600; letter-spacing: 0.3px;
   border: 1px solid transparent;
@@ -412,6 +416,18 @@ body {
   background: var(--color-surface-2); color: var(--color-text-muted);
   border: 1px solid var(--color-border-light);
 }
+
+/* Meta extra tags */
+.detail-meta-extra { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+.detail-meta-tag {
+  padding: 2px 7px; border-radius: var(--radius-pill);
+  font-family: var(--font-mono); font-size: 9px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.3px;
+  background: var(--color-surface-2); color: var(--color-text-muted);
+  border: 1px solid var(--color-border-light);
+}
+.detail-meta-tag.src { color: var(--iris-dark); border-color: var(--iris); background: var(--iris-dim); }
+.detail-meta-tag.conf { color: var(--ember); border-color: var(--ember); background: var(--ember-dim); }
 
 /* Confidence badges */
 .detail-meta { font-size: 12px; line-height: 1.6; }
