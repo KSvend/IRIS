@@ -233,10 +233,37 @@ body {
   background: #EDE9E1;
 }
 .admin-table .text-col {
-  max-width: 320px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  max-width: 560px;
+  min-width: 300px;
+  white-space: normal;
+  line-height: 1.6;
+  font-size: 13px;
+}
+.post-text {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+.post-explanation {
+  font-size: 12px;
+  color: #6B6B6B;
+  font-style: italic;
+  padding: 8px 12px;
+  background: #F9F8F5;
+  border-left: 3px solid #D5D0C7;
+  border-radius: 0 4px 4px 0;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.post-meta {
+  font-size: 11px;
+  color: #9E9E9E;
+}
+.post-meta a {
+  color: #8071BC;
+  text-decoration: none;
+}
+.post-meta a:hover {
+  text-decoration: underline;
 }
 
 /* Action buttons */

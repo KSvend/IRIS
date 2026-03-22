@@ -276,11 +276,26 @@
       var text = post.text || post.t || '-';
       var label = post.label || post.pr || post.eaHsPred || '-';
       var subtypes = post.subtype || (post.st && post.st.length ? post.st.map(function(s) { return s.n || s; }).join(', ') : '-');
+      var explanation = post.exp || post.explanation || '';
+      var toxicity = post.tx || post.toxicity || '-';
+      var link = post.l || post.link || '';
+      var platform = post.p || post.platform || '';
       var labelClass = (label || 'normal').toLowerCase();
+
+      /* Build rich text cell with post + explanation + metadata */
+      var textCell =
+        '<div class="post-text">' + esc(text) + '</div>' +
+        (explanation ? '<div class="post-explanation">' + esc(explanation) + '</div>' : '') +
+        '<div class="post-meta">' +
+          '<span>Toxicity: <strong>' + esc(toxicity) + '</strong></span>' +
+          (platform ? ' · <span>' + esc(platform) + '</span>' : '') +
+          (link ? ' · <a href="' + esc(link) + '" target="_blank" rel="noopener">View original</a>' : '') +
+        '</div>';
+
       tr.innerHTML =
         '<td>' + esc(date) + '</td>' +
         '<td>' + esc(country) + '</td>' +
-        '<td class="text-col">' + esc(text) + '</td>' +
+        '<td class="text-col">' + textCell + '</td>' +
         '<td><span class="status-badge ' + labelClass + '">' + esc(label) + '</span></td>' +
         '<td>' + esc(subtypes) + '</td>' +
         '<td><div id="review-actions-' + idx + '"></div></td>';
