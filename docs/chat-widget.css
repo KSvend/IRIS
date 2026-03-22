@@ -1,13 +1,15 @@
 /* ── Chat Widget — MERLx Design System ── */
 
-/* Toggle button */
+/* Toggle tab — vertical flag on right edge */
 .chat-toggle-btn {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: auto;
+  padding: 14px 6px;
+  border-radius: 8px 0 0 8px;
   background: #1A3A34;
   color: #FFFFFF;
   border: none;
@@ -16,17 +18,20 @@
   align-items: center;
   justify-content: center;
   z-index: 9999;
-  transition: transform 200ms ease-out, background 200ms ease-out;
+  transition: background 200ms ease-out, width 200ms ease-out;
   font-family: 'Inter', sans-serif;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
 }
 .chat-toggle-btn:hover {
   background: #244a42;
-  transform: scale(1.05);
+  width: 36px;
 }
 .chat-toggle-btn svg {
-  width: 24px;
-  height: 24px;
-  fill: currentColor;
+  display: none;
 }
 
 /* Panel */

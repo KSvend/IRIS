@@ -32,7 +32,7 @@
   /* ── Toggle button ── */
   function buildToggle() {
     const btn = el('button', { className: 'chat-toggle-btn', title: 'Open analyst chat' });
-    btn.innerHTML = '<svg viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg>';
+    btn.textContent = 'Ask Analyst';
     btn.onclick = () => togglePanel(true);
     return btn;
   }
