@@ -60,8 +60,8 @@
       return panel;
     }
     if (!localStorage.getItem(LS_KEY)) {
-      panel.appendChild(buildApiGate());
-      return panel;
+      // Auto-set a default key — backend auth is disabled for pilot
+      localStorage.setItem(LS_KEY, 'pilot-access');
     }
     if (!localStorage.getItem(LS_NAME)) {
       panel.appendChild(buildNameGate());
