@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-HS Apify Sweep Orchestrator for BRACE4PEACE Hate Speech Monitoring
+HS Apify Sweep Orchestrator for MERLx IRIS Hate Speech Monitoring
 ===================================================================
 Separate pipeline from the disinfo sweep. Targets HS-specific keyword groups
 defined in monitoring/config/hs_keyword_strategy.json.
@@ -491,7 +491,7 @@ def update_cost_log(cost_usd, date_str, item_count):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="BRACE4PEACE HS Apify Keyword Sweep"
+        description="MERLx IRIS HS Apify Keyword Sweep"
     )
     parser.add_argument(
         "--dry-run", action="store_true",
@@ -512,7 +512,7 @@ def main():
         sys.exit(1)
 
     print("=" * 60)
-    print("BRACE4PEACE HS Apify Keyword Sweep")
+    print("MERLx IRIS HS Apify Keyword Sweep")
     print("=" * 60)
 
     run_timestamp = datetime.now(timezone.utc)

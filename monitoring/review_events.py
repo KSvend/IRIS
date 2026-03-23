@@ -32,7 +32,7 @@ BATCH_SIZE = 5
 MAX_RETRIES = 3
 
 SYSTEM_PROMPT = """\
-You are a disinformation analyst for UNDP's BRACE4PEACE early warning platform monitoring East Africa (Somalia, South Sudan, Kenya).
+You are a disinformation analyst for UNDP's MERLx IRIS early warning platform monitoring East Africa (Somalia, South Sudan, Kenya).
 
 You review events detected by the automated monitoring pipeline. Each event has a headline, summary, and classification.
 

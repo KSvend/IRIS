@@ -160,11 +160,12 @@
     filteredEvents = [...allEvents];
     filteredHSPosts = [...allHSPosts];
 
-    // Show last updated date from most recent data
+    // Show last updated date from most recent data (cap at today to exclude future-dated events)
+    const today = new Date().toISOString().slice(0, 10);
     const allDates = [
       ...allEvents.map(e => e.last_seen || e.date),
       ...allHSPosts.map(p => p.d)
-    ].filter(Boolean).sort();
+    ].filter(d => d && d <= today).sort();
     const lastDate = allDates[allDates.length - 1];
     if (lastDate) {
       const el = document.getElementById('last-updated');
@@ -2245,7 +2246,7 @@
     const stepUrl = document.getElementById('step-url');
     const stepSuccess = document.getElementById('step-success');
 
-    const GH_REPO = 'KSvend/brace4peace';
+    const GH_REPO = 'KSvend/iris';
     const SUBMISSIONS_PATH = 'docs/data/submissions.json';
 
     async function persistSubmission(submission) {
@@ -2264,7 +2265,7 @@
         const putBody = {
           message: `Submit: ${submission.type} post — ${submission.url.substring(0, 60)}`,
           content: content,
-          committer: { name: 'BRACE4PEACE Dashboard', email: 'krdasv@me.com' }
+          committer: { name: 'MERLx IRIS Dashboard', email: 'krdasv@me.com' }
         };
         if (sha) putBody.sha = sha;
         const putResp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${SUBMISSIONS_PATH}`, {

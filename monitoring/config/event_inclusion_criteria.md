@@ -2,7 +2,7 @@
 
 ## What qualifies as a timeline event
 
-An event enters the BRACE4PEACE timeline (events.json) when it meets ALL of:
+An event enters the MERLx IRIS timeline (events.json) when it meets ALL of:
 
 1. **Content-based**: It describes specific disinformation CONTENT — false claims, propaganda, or coordinated campaigns
 2. **Confidence**: HIGH or MEDIUM confidence classification (LOW never enters timeline)

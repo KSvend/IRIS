@@ -2,7 +2,7 @@
 
 ## Overview
 
-The BRACE4PEACE classification pipeline applies four pre-trained BERT models to social media text data collected from East African platforms via Phoenix gathers. The models detect hate speech, political polarization, toxicity (Somali-language), and Sudan-specific hate speech.
+The MERLx IRIS classification pipeline applies four pre-trained BERT models to social media text data collected from East African platforms via Phoenix gathers. The models detect hate speech, political polarization, toxicity (Somali-language), and Sudan-specific hate speech.
 
 ## Data Pipeline
 

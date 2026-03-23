@@ -1,7 +1,7 @@
 name: Ingest Daily Findings
 on:
   workflow_run:
-    workflows: ["BRACE4PEACE Monitor"]
+    workflows: ["MERLx IRIS Monitor"]
     types: [completed]
   workflow_dispatch:
 

@@ -28,7 +28,7 @@ MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 4096
 
 SYSTEM_PROMPT = """\
-You are a hate speech analyst reviewing social media posts from East Africa (Somalia, South Sudan, Kenya) for UNDP's BRACE4PEACE monitoring platform. Your audience is third-party analysts and policymakers.
+You are a hate speech analyst reviewing social media posts from East Africa (Somalia, South Sudan, Kenya) for UNDP's MERLx IRIS monitoring platform. Your audience is third-party analysts and policymakers.
 
 You have deep knowledge of local-language hate speech terms:
 - Somali: mooryaan (bandit/clan slur against minority clans), faqash (Siad Barre regime supporter slur), jareer/jareereed (Bantu racial slur, literally "hard hair"), xayawaan (animal/dehumanising), gaal/gaalo (infidel/non-Muslim), kaafir/kufaar (infidel), murtad (apostate), idoor (anti-Isaaq slur), laangaab (minority clan slur, "short lineage"), reer (clan prefix), qashin (trash), cayaanka (filth), xoolo (livestock/subhuman), eelay (minority clan), qabiil dagaal (clan warfare), qadaad weyn (big forehead — Darod slur)

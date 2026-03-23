@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 AUTOLEARN_PATH = REPO_ROOT / "monitoring" / "autolearn"
 
-RESEARCH_SYSTEM_PROMPT = """You are the BRACE4PEACE Daily Research Agent.
+RESEARCH_SYSTEM_PROMPT = """You are the MERLx IRIS Daily Research Agent.
 You discover new findings about hate speech and disinformation in Kenya, Somalia, and South Sudan.
 
 For each finding, extract:

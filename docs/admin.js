@@ -1,9 +1,9 @@
-/* ── Admin Page — BRACE4PEACE Verification & Annotation ── */
+/* ── Admin Page — MERLx IRIS Verification & Annotation ── */
 (function () {
   'use strict';
 
   /* ── Config ── */
-  var API_BASE = 'https://ksvendsen-brace4peace-chat.hf.space';
+  var API_BASE = 'https://ksvendsen-iris-chat.hf.space';
   var PIN_CODE = '2025';
   var LS_PIN   = 'b4p_pin_ok';
   var LS_KEY   = 'b4p_api_key';
@@ -101,7 +101,7 @@
   function buildHeader() {
     var hdr = el('div', 'admin-header');
     var left = el('div', 'admin-header-left');
-    left.innerHTML = '<div class="admin-logo">MERL<span class="accent">x</span></div><span class="admin-subtitle">BRACE4PEACE Admin</span>';
+    left.innerHTML = '<div class="admin-logo">MERL<span class="accent">x</span></div><span class="admin-subtitle">IRIS Admin</span>';
 
     var right = el('div', '');
     right.style.display = 'flex';

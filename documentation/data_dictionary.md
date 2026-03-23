@@ -1,8 +1,8 @@
-# BRACE4PEACE Data Dictionary
+# MERLx IRIS Data Dictionary
 
 ## Overview
 
-This repository contains **80,714 social media records** collected via [Phoenix](https://console.phoenix.howtobuildup.org) gathers (Project 133) for the UNDP BRACE4PEACE programme. The data covers online hate speech, disinformation, and violent extremism narratives across three East African countries.
+This repository contains **80,714 social media records** collected via [Phoenix](https://console.phoenix.howtobuildup.org) gathers (Project 133) for the UNDP MERLx IRIS programme (MERLx IRIS). The data covers online hate speech, disinformation, and violent extremism narratives across three East African countries.
 
 Each record is a single social media **post** or **comment**, harvested from Facebook, X (Twitter), and TikTok. All personally identifiable information has been redacted — columns with the `_pi` suffix contain PII-processed content.
 
@@ -354,7 +354,7 @@ This ensures both posts and comments are classified, with post text taking prior
 | Attribute | Detail |
 |-----------|--------|
 | Collection platform | [Phoenix](https://console.phoenix.howtobuildup.org) by How To Build Up |
-| Project | BRACE4PEACE (UNDP Project 133) |
+| Project | MERLx IRIS / MERLx IRIS (UNDP Project 133) |
 | Collection method | Keyword-based social media gathers |
 | Platforms monitored | Facebook, X (Twitter), TikTok |
 | Geographic scope | Kenya, Somalia, South Sudan |
@@ -365,13 +365,13 @@ This ensures both posts and comments are classified, with post text taking prior
 
 ## Monitoring Data (Daily Scans)
 
-In addition to the Phoenix social media datasets, this repository contains structured findings from the **BRACE4PEACE automated monitoring system** — a daily scan that monitors web sources, news outlets, and analysis platforms for new hate speech, disinformation, and violent extremism developments.
+In addition to the Phoenix social media datasets, this repository contains structured findings from the **MERLx IRIS automated monitoring system** — a daily scan that monitors web sources, news outlets, and analysis platforms for new hate speech, disinformation, and violent extremism developments.
 
 ### Location
 
 ```
 monitoring/
-├── brace4peace_protocol.md        # Full 5-step monitoring protocol
+├── iris_protocol.md        # Full 5-step monitoring protocol
 ├── baseline_feb26_2026.md         # Rolling threat baseline for alert decisions
 └── findings/                      # Daily scan outputs
     ├── README.md                  # Schema documentation
@@ -398,7 +398,7 @@ Each daily JSON file contains:
   - `region`, `threat_level` (P1/P2/P3), `headline`
   - `why_new_vs_baseline` — explanation of why this crosses the alert threshold
   - `sources` — array of `{title, url}` references
-  - `narrative_classification` — mapping to BRACE4PEACE narrative families (Ethnic Incitement, Victimhood/Grievance, Revenge/Retribution, Religious Distortion, Delegitimization, Misinformation/Disinformation, Existential Threat, Collective Blame, Peace/Counter-Narratives)
+  - `narrative_classification` — mapping to MERLx IRIS narrative families (Ethnic Incitement, Victimhood/Grievance, Revenge/Retribution, Religious Distortion, Delegitimization, Misinformation/Disinformation, Existential Threat, Collective Blame, Peace/Counter-Narratives)
   - `ve_related`, `al_shabaab_related` — boolean flags
   - `confidence` — high / medium / low
 

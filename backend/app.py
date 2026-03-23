@@ -15,7 +15,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="BRACE4PEACE Chat API")
+app = FastAPI(title="MERLx IRIS Chat API")
 
 
 @app.exception_handler(Exception)

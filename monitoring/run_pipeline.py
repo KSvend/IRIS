@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BRACE4PEACE Two-Pipeline Orchestrator
+MERLx IRIS Two-Pipeline Orchestrator
 ======================================
 Pipeline 1 (Disinfo):
   1A  Watchlist checker — check VE/HS sources via Apify web scraper
@@ -306,7 +306,7 @@ def main():
     run_ml = os.environ.get("RUN_ML", "true").lower() == "true"
     run_reach = os.environ.get("RUN_REACH", "true").lower() == "true"
 
-    log(f"BRACE4PEACE Two-Pipeline Orchestrator — {today}")
+    log(f"MERLx IRIS Two-Pipeline Orchestrator — {today}")
     log(f"  RUN_SWEEPS : {'ON' if run_sweeps else 'OFF'}  (1A/1B/2A — Apify)")
     log(f"  RUN_ML     : {'ON' if run_ml else 'OFF'}  (2C/2D — HF + Anthropic)")
     log(f"  RUN_REACH  : {'ON' if run_reach else 'OFF'}  (3A — engagement)")

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Apify Keyword Sweep Orchestrator for BRACE4PEACE Disinfo Monitoring
+Apify Keyword Sweep Orchestrator for MERLx IRIS Disinfo Monitoring
 ===================================================================
 This script runs targeted keyword searches on X/Twitter, Facebook, and TikTok
 using Apify actors. It follows the rotation schedule defined in apify_keyword_strategy.json.
@@ -276,7 +276,7 @@ def run_keyword_group(group_name, group_config, strategy, dry_run=False):
 
             # Tag items with platform and group metadata
             for item in real_items:
-                item["_brace4peace"] = {
+                item["_iris"] = {
                     "keyword_group": group_name,
                     "platform": platform,
                     "narrative_ids": group_config.get("narrative_ids", []),
@@ -361,7 +361,7 @@ def update_cost_log(cost_usd, date_str, item_count):
 # ─── Main ────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="BRACE4PEACE Apify Keyword Sweep")
+    parser = argparse.ArgumentParser(description="MERLx IRIS Apify Keyword Sweep")
     parser.add_argument("--day", type=int, help="Override rotation day (1-10)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would run without executing")
     parser.add_argument("--budget-cap", type=float, default=DEFAULT_BUDGET_CAP_USD,
@@ -370,7 +370,7 @@ def main():
     args = parser.parse_args()
 
     print("=" * 60)
-    print("🔍 BRACE4PEACE Apify Keyword Sweep")
+    print("🔍 MERLx IRIS Apify Keyword Sweep")
     print("=" * 60)
 
     strategy = load_strategy()

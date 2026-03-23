@@ -21,7 +21,7 @@ HS_STRATEGY_PATH = CONFIG / "hs_keyword_strategy.json"
 DISINFO_STRATEGY_PATH = CONFIG / "apify_keyword_strategy.json"
 WEIGHTS_PATH = CONFIG / "narrative_family_weights.json"
 SIGNAL_METRICS_PATH = CONFIG / "signal_metrics.json"
-TIMELINE_PATH = MONITORING / "brace4peace_timeline.json"
+TIMELINE_PATH = MONITORING / "iris_timeline.json"
 
 # Autolearn
 TOXIC_HANDLES_CSV = AUTOLEARN / "toxic_handles.csv"

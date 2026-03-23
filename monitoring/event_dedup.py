@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Event Deduplication for BRACE4PEACE
+Event Deduplication for MERLx IRIS
 ====================================
 Before creating a new DISINFO event, check if it belongs to an existing
 active event. If so, add it as an observation instead.

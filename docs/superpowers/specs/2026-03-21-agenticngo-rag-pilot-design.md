@@ -8,12 +8,12 @@
 
 ## 1. Overview
 
-Add a RAG-augmented knowledge base and conversational chat interface to the existing BRACE4PEACE dashboard, enabling analysts to query a continuously growing corpus of hate speech and disinformation research through natural language. The knowledge base also feeds back into existing monitoring pipelines, enriching HS post explanations with contextual source links.
+Add a RAG-augmented knowledge base and conversational chat interface to the existing MERLx IRIS dashboard, enabling analysts to query a continuously growing corpus of hate speech and disinformation research through natural language. The knowledge base also feeds back into existing monitoring pipelines, enriching HS post explanations with contextual source links.
 
 ### Scope
 
 - **Pilot**: Embedded in the existing GitHub Pages dashboard (`docs/`)
-- **Users**: A few UNDP/BRACE4PEACE analysts with shared API key
+- **Users**: A few UNDP/MERLx IRIS analysts with shared API key
 - **Future**: Migrate to Next.js app as the production platform
 
 ### Design Principles

@@ -1,10 +1,10 @@
-# BRACE4PEACE Monitoring Findings
+# MERLx IRIS Monitoring Findings
 
-This directory contains structured output from the automated BRACE4PEACE East Africa monitoring system.
+This directory contains structured output from the automated MERLx IRIS East Africa monitoring system.
 
 ## How It Works
 
-An automated daily scan (06:00 UTC) monitors web sources, news outlets, and analysis platforms for new hate speech, disinformation, and violent extremism developments across South Sudan, Kenya, and Somalia, with dedicated Al-Shabaab media tracking. See [`../brace4peace_protocol.md`](../brace4peace_protocol.md) for the full protocol.
+An automated daily scan (06:00 UTC) monitors web sources, news outlets, and analysis platforms for new hate speech, disinformation, and violent extremism developments across South Sudan, Kenya, and Somalia, with dedicated Al-Shabaab media tracking. See [`../iris_protocol.md`](../iris_protocol.md) for the full protocol.
 
 Each scan produces a JSON findings file. Alerts are only issued when genuinely new intelligence is detected beyond the rolling baseline documented in [`../baseline_feb26_2026.md`](../baseline_feb26_2026.md).
 
@@ -61,7 +61,7 @@ Each scan produces a JSON findings file. Alerts are only issued when genuinely n
 |-------|-------------|
 | `notable_new_intel` | Array of findings that constitute genuinely new intelligence beyond baseline |
 | `threat_level` | P1 CRITICAL / P2 HIGH / P3 MODERATE (see protocol for criteria) |
-| `narrative_classification` | Mapping to BRACE4PEACE narrative families with weighted scores |
+| `narrative_classification` | Mapping to MERLx IRIS narrative families with weighted scores |
 | `items_checked.web` | All web sources checked with relevance and analytical assessment |
 | `items_checked.direct_fetch` | Direct URL fetches attempted with success/failure status |
 

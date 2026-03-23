@@ -1,5 +1,5 @@
 # Desk Review Update: Hate Speech and Violent Extremism in East Africa
-## UNDP BRACE4PEACE Programme — October 2025 to March 2026
+## UNDP MERLx IRIS Programme — October 2025 to March 2026
 ### Countries: Kenya, Somalia, South Sudan
 
 ---
@@ -2105,7 +2105,7 @@ The October 2025 – March 2026 period has been marked by escalating conflict, d
 - **Date:** 26 January 2026
 - **Source:** UNDP Somalia
 - **URL:** [UNDP Somalia](https://www.undp.org/somalia/publications/peacebuilding-and-preventing-extremism-east-africa-somalia-country-report)
-- **Key takeaway:** Primary results report for BRACE4PEACE/PVE programming in Somalia.
+- **Key takeaway:** Primary results report for MERLx IRIS/PVE programming in Somalia.
 
 ---
 
@@ -2217,13 +2217,13 @@ The October 2025 – March 2026 period has been marked by escalating conflict, d
 
 ---
 
-## 6. KOICA-UNDP Partnership: BRACE4PEACE
+## 6. KOICA-UNDP Partnership: MERLx IRIS
 
 #### 6.1 KOICA-UNDP: $20M Partnership for PVE Across Africa
 - **Date:** June 2024 (MOU); programme ongoing 2024–2027
 - **Source:** UNDP / KOICA
 - **URL:** [UNDP](https://www.undp.org/news/undp-koica-expand-partnership-strengthen-peacebuilding-and-prevent-violent-extremism-across-africa)
-- **Key takeaway:** KOICA committed USD $20 million over three years to support PVE in Kenya, Somalia, and South Sudan through the BRACE4PEACE programme. Emphasises youth and women as agents of change, community-level resilience, early warning systems, and regional cooperation.
+- **Key takeaway:** KOICA committed USD $20 million over three years to support PVE in Kenya, Somalia, and South Sudan through the MERLx IRIS programme. Emphasises youth and women as agents of change, community-level resilience, early warning systems, and regional cooperation.
 
 #### 6.2 KOICA: Tackling Extremism in Somalia — Programme Update
 - **Date:** 29 September 2025
@@ -2231,11 +2231,11 @@ The October 2025 – March 2026 period has been marked by escalating conflict, d
 - **URL:** [Peace News](https://peacenews.com/south-korean-agency-joins-undp-to-tackle-extremism-in-somalia/)
 - **Key takeaway:** As of September 2025, six local action plans on preventing VE developed in Somalia. Communities, youth, women leaders, and government institutions engaged in peace dialogues. Multimedia peace campaigns underway.
 
-#### 6.3 KOICA Kenya Office: BRACE4PEACE Active (March 2026)
+#### 6.3 KOICA Kenya Office: MERLx IRIS Active (March 2026)
 - **Date:** 3 March 2026 / 16 March 2026
 - **Source:** KOICA Kenya Office (Facebook)
 - **URL:** [KOICA Kenya](https://www.facebook.com/koicakenya/posts/1347608257398272/)
-- **Key takeaway:** KOICA confirmed BRACE4PEACE is "currently underway in Somalia, Kenya, and South Sudan." KOICA Country Director met with UNDP leadership on 3 March 2026.
+- **Key takeaway:** KOICA confirmed MERLx IRIS is "currently underway in Somalia, Kenya, and South Sudan." KOICA Country Director met with UNDP leadership on 3 March 2026.
 
 Multiple NCIC county-level rollout events (Busia, Isiolo, Mandera, Garissa, Lamu, Marsabit) were conducted with UNDP Kenya and KOICA support as part of the Kenya National Action Plan implementation.
 
@@ -2653,4 +2653,4 @@ The following research gaps were documented across all six research streams. The
 
 ---
 
-*Report compiled: 20 March 2026. All URLs verified at time of research. This document is prepared for UNDP internal use as part of the BRACE4PEACE desk review process.*
+*Report compiled: 20 March 2026. All URLs verified at time of research. This document is prepared for UNDP internal use as part of the MERLx IRIS desk review process.*

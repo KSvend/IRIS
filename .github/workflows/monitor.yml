@@ -1,4 +1,4 @@
-name: BRACE4PEACE Monitor
+name: MERLx IRIS Monitor
 
 on:
   workflow_dispatch:
@@ -57,7 +57,7 @@ jobs:
 
       - name: Commit and push data
         run: |
-          git config user.name "BRACE4PEACE Bot"
+          git config user.name "MERLx IRIS Bot"
           git config user.email "krdasv@me.com"
 
           git add docs/data/ monitoring/autolearn/ monitoring/config/ data/ || true

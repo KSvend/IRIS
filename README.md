@@ -1,15 +1,15 @@
-# BRACE4PEACE — East Africa Hate Speech, Disinformation & VE Monitoring
+# MERLx IRIS — Intelligence & Risk Identification from Signals
 
 Multi-source monitoring and classification system for hate speech, disinformation, and violent extremism narratives across **South Sudan**, **Kenya**, and **Somalia**, with dedicated **Al-Shabaab media tracking**.
 
-Part of the UNDP BRACE4PEACE project. Data collected via [Phoenix](https://console.phoenix.howtobuildup.org/projects/show/133) social media gathers.
+Data collected via [Phoenix](https://console.phoenix.howtobuildup.org/projects/show/133) social media gathers for UNDP Project 133.
 
 ---
 
 ## Repository Structure
 
 ```
-brace4peace/
+iris/
 ├── README.md
 ├── data/
 │   └── phoenix_csvs/           # Social media datasets from Phoenix gathers
@@ -21,7 +21,7 @@ brace4peace/
 │   ├── run_all_models.sh        # Sequential model runner with cache management
 │   └── models.json              # Model configurations and column mappings
 ├── monitoring/
-│   ├── brace4peace_protocol.md  # Full monitoring protocol (Steps 1-5)
+│   ├── iris_protocol.md         # Full monitoring protocol (Steps 1-5)
 │   ├── baseline_feb26_2026.md   # Threat baseline for alert decisions
 │   └── findings/                # Daily scan outputs (JSON)
 │       ├── README.md            # Findings schema documentation
@@ -91,15 +91,15 @@ The scripts are **incremental** — they skip already-classified rows and save p
 
 ## Monitoring Protocol
 
-The `monitoring/` directory contains the BRACE4PEACE automated monitoring protocol and its collected output:
+The `monitoring/` directory contains the MERLx IRIS automated monitoring protocol and its collected output:
 
-- **brace4peace_protocol.md** — Full 5-step scan procedure (X/Twitter searches, web monitoring, direct URL fetches, narrative classification, alert decisions)
+- **iris_protocol.md** — Full 5-step scan procedure (X/Twitter searches, web monitoring, direct URL fetches, narrative classification, alert decisions)
 - **baseline_feb26_2026.md** — Rolling threat baseline used to determine what constitutes "new" intelligence
 - **findings/** — Structured daily scan results in JSON format, including narrative classification, source audit trails, and alert history. See `findings/README.md` for the schema.
 
 ### Narrative Classification Framework
 
-Findings are classified against BRACE4PEACE narrative families:
+Findings are classified against MERLx IRIS narrative families:
 
 | Narrative | Weight | Level |
 |-----------|--------|-------|
@@ -115,7 +115,7 @@ Findings are classified against BRACE4PEACE narrative families:
 
 ## Data Source
 
-Social media data is collected via [Phoenix](https://console.phoenix.howtobuildup.org) gathers for UNDP Project 133 (BRACE4PEACE). Data is PII-redacted (`_pi` suffix columns).
+Social media data is collected via [Phoenix](https://console.phoenix.howtobuildup.org) gathers for UNDP Project 133 (MERLx IRIS). Data is PII-redacted (`_pi` suffix columns).
 
 ## Related Repository
 
@@ -123,4 +123,4 @@ Social media data is collected via [Phoenix](https://console.phoenix.howtobuildu
 
 ## License
 
-This repository contains sensitive conflict monitoring data and methodology. For authorized use within the BRACE4PEACE / UNDP project only.
+This repository contains sensitive conflict monitoring data and methodology. For authorized use within the MERLx IRIS / UNDP project only.

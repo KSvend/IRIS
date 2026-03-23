@@ -1,9 +1,9 @@
-/* ── Chat Widget — BRACE4PEACE RAG Analyst Chat ── */
+/* ── Chat Widget — MERLx IRIS RAG Analyst Chat ── */
 (function () {
   'use strict';
 
   /* ── Config ── */
-  const API_BASE = 'https://ksvendsen-brace4peace-chat.hf.space';
+  const API_BASE = 'https://ksvendsen-iris-chat.hf.space';
   const PIN_CODE = '2025';
   const LS_PIN   = 'b4p_pin_ok';
   const LS_KEY   = 'b4p_api_key';
@@ -58,7 +58,7 @@
 
     /* Header */
     const header = el('div', { className: 'chat-header' });
-    header.innerHTML = '<span class="chat-header-title">BRACE4PEACE Analyst</span>';
+    header.innerHTML = '<span class="chat-header-title">IRIS Analyst</span>';
     const closeBtn = el('button', { className: 'chat-header-close', textContent: '\u00d7' });
     closeBtn.onclick = () => togglePanel(false);
     header.appendChild(closeBtn);

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Watchlist Checker for BRACE4PEACE
+Watchlist Checker for MERLx IRIS
 ==================================
 Lightweight daily check of VE/HS watchlist sources and research partner sites
 using Apify Google Search and Web Scraper actors.

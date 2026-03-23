@@ -1,4 +1,4 @@
-# BRACE4PEACE Threat Baseline — February 26, 2026
+# MERLx IRIS Threat Baseline — February 26, 2026
 
 This baseline anchors the monitoring system. Alerts are only issued for genuinely NEW intelligence beyond what is documented here.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-HS Post Explanation Generator for BRACE4PEACE
+HS Post Explanation Generator for MERLx IRIS
 ==============================================
 Reads hate_speech_posts.json, finds posts that need human-readable explanations
 (ML-classified or auto-swept without proper review), and uses the Anthropic API

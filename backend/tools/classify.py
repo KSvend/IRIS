@@ -5,7 +5,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 
 _llm = None
 
-SYSTEM_PROMPT = """You are a classification agent for the BRACE4PEACE programme.
+SYSTEM_PROMPT = """You are a classification agent for the MERLx IRIS platform.
 Classify findings about hate speech and disinformation in East Africa.
 
 Return JSON with exactly these fields:

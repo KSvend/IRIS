@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build a RAG-augmented conversational intelligence layer on BRACE4PEACE — chat interface, knowledge base, research agent, admin panel, and pipeline integration.
+**Goal:** Build a RAG-augmented conversational intelligence layer on MERLx IRIS — chat interface, knowledge base, research agent, admin panel, and pipeline integration.
 
 **Architecture:** FastAPI + LangGraph chat service on HuggingFace Spaces (free), Supabase for pgvector + structured DB (free), GitHub Actions for batch agents (free). Vanilla JS frontend embedded in existing GitHub Pages dashboard.
 
@@ -994,7 +994,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 
 _llm = None
 
-SYSTEM_PROMPT = """You are a classification agent for the BRACE4PEACE programme.
+SYSTEM_PROMPT = """You are a classification agent for the MERLx IRIS programme.
 Classify findings about hate speech and disinformation in East Africa.
 
 Return JSON with exactly these fields:
@@ -1043,7 +1043,7 @@ def classify_finding(title: str, summary: str,
 
 ```bash
 git add backend/tools/classify.py backend/tests/test_classify.py
-git commit -m "feat: classification function — Claude Haiku with few-shot BRACE4PEACE taxonomy"
+git commit -m "feat: classification function — Claude Haiku with few-shot MERLx IRIS taxonomy"
 ```
 
 ---
@@ -1129,7 +1129,7 @@ def test_chat_agent_handles_stats_query(mocker):
 
 ```python
 # backend/agents/chat_agent.py
-"""LangGraph Chat Agent for BRACE4PEACE."""
+"""LangGraph Chat Agent for MERLx IRIS."""
 import re
 from typing import TypedDict, Annotated
 from langgraph.graph import StateGraph, END
@@ -1138,7 +1138,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from backend.tools.vector_search import vector_search
 from backend.tools.stats_query import query_hs_stats
 
-SYSTEM_PROMPT = """You are an analyst assistant for the BRACE4PEACE programme,
+SYSTEM_PROMPT = """You are an analyst assistant for the MERLx IRIS programme,
 specialising in hate speech and disinformation monitoring in East Africa
 (Kenya, Somalia, South Sudan).
 
@@ -1386,14 +1386,14 @@ async def test_verification_decide(client, mocker):
 
 ```python
 # backend/app.py
-"""FastAPI application for BRACE4PEACE RAG chat service."""
+"""FastAPI application for MERLx IRIS RAG chat service."""
 from fastapi import FastAPI, Request, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from backend.config import API_KEY
 from backend.agents.chat_agent import create_chat_agent
 
-app = FastAPI(title="BRACE4PEACE Chat API")
+app = FastAPI(title="MERLx IRIS Chat API")
 
 app.add_middleware(
     CORSMiddleware,
@@ -2043,7 +2043,7 @@ from backend.tools.classify import classify_finding
 
 logger = logging.getLogger(__name__)
 
-RESEARCH_SYSTEM_PROMPT = """You are the BRACE4PEACE Daily Research Agent.
+RESEARCH_SYSTEM_PROMPT = """You are the MERLx IRIS Daily Research Agent.
 You discover new findings about hate speech and disinformation in Kenya, Somalia, and South Sudan.
 
 For each finding, extract:
@@ -2362,7 +2362,7 @@ jobs:
 name: Refresh HS Stats
 on:
   workflow_run:
-    workflows: ["BRACE4PEACE Monitor"]
+    workflows: ["MERLx IRIS Monitor"]
     types: [completed]
   workflow_dispatch:
 
@@ -2386,7 +2386,7 @@ jobs:
 name: Ingest Daily Findings
 on:
   workflow_run:
-    workflows: ["BRACE4PEACE Monitor"]
+    workflows: ["MERLx IRIS Monitor"]
     types: [completed]
   workflow_dispatch:
 
@@ -2454,8 +2454,8 @@ CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
 
 ```bash
 cd backend
-docker build -t brace4peace-chat .
-docker run -p 7860:7860 --env-file .env brace4peace-chat
+docker build -t iris-chat .
+docker run -p 7860:7860 --env-file .env iris-chat
 # Test: curl http://localhost:7860/health
 ```
 
@@ -2554,7 +2554,7 @@ MERLx design system — warm neutrals, Inter font, calm aesthetic. See `~/.claud
 
 ```javascript
 // docs/chat-widget.js
-// BRACE4PEACE Chat Widget — vanilla JS
+// MERLx IRIS Chat Widget — vanilla JS
 (function() {
   'use strict';
 
@@ -2589,10 +2589,10 @@ MERLx design system — warm neutrals, Inter font, calm aesthetic. See `~/.claud
     const container = document.getElementById('chat-widget-container');
     if (!container) return;
     container.innerHTML = `
-      <button class="chat-toggle" title="Ask BRACE4PEACE">💬</button>
+      <button class="chat-toggle" title="Ask MERLx IRIS">💬</button>
       <div class="chat-panel">
         <div class="chat-header">
-          <h3>BRACE4PEACE Knowledge Base</h3>
+          <h3>MERLx IRIS Knowledge Base</h3>
           <button class="chat-close">✕</button>
         </div>
         ${localStorage.getItem(PIN_KEY) ? chatUI() : pinGateUI()}
@@ -2635,7 +2635,7 @@ MERLx design system — warm neutrals, Inter font, calm aesthetic. See `~/.claud
       const panel = document.querySelector('.chat-panel');
       panel.innerHTML = `
         <div class="chat-header">
-          <h3>BRACE4PEACE Knowledge Base</h3>
+          <h3>MERLx IRIS Knowledge Base</h3>
           <button class="chat-close">✕</button>
         </div>
         ${chatUI()}`;
@@ -2799,13 +2799,13 @@ git commit -m "feat: chat widget — PIN gate, filters, citation rendering, cold
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BRACE4PEACE Admin</title>
+  <title>MERLx IRIS Admin</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="admin.css">
 </head>
 <body>
   <header>
-    <h1>BRACE4PEACE Admin</h1>
+    <h1>MERLx IRIS Admin</h1>
     <div id="user-info"></div>
   </header>
   <nav>

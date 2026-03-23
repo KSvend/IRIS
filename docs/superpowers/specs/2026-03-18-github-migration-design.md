@@ -1,4 +1,4 @@
-# BRACE4PEACE: Full Migration to GitHub Actions
+# MERLx IRIS: Full Migration to GitHub Actions
 
 ## Overview
 
@@ -55,7 +55,7 @@ monitoring/config/          ← Move from monitoring/ root
   apify_keyword_strategy.json
   signal_metrics.json
   baseline_feb26_2026.md
-  brace4peace_protocol.md
+  iris_protocol.md
 
 monitoring/autolearn/       ← NEW
   toxic_handles.csv

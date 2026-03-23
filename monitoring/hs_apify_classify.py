@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-HS Apify Auto-Classification Module for BRACE4PEACE
+HS Apify Auto-Classification Module for MERLx IRIS
 ====================================================
 Classifies raw HS sweep results into confirmed hate speech posts or noise.
 
@@ -441,7 +441,7 @@ def extract_date(item: dict) -> str:
 def extract_platform(item: dict) -> str:
     """Determine which platform this item came from (compact label)."""
     # Check sweep metadata first
-    meta = item.get("_brace4peace", {})
+    meta = item.get("_iris", {})
     if isinstance(meta, dict):
         p = meta.get("platform", "")
         if p:
@@ -832,7 +832,7 @@ def to_compact_format(
     if isinstance(item, dict):
         hs_group = item.get("_hs_group", "")
         if not hs_group:
-            meta = item.get("_brace4peace", {})
+            meta = item.get("_iris", {})
             if isinstance(meta, dict):
                 hs_group = meta.get("keyword_group", "")
 

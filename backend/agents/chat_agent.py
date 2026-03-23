@@ -1,4 +1,4 @@
-"""LangGraph Chat Agent for BRACE4PEACE."""
+"""LangGraph Chat Agent for MERLx IRIS."""
 import re
 from typing import TypedDict
 from langgraph.graph import StateGraph, END
@@ -7,7 +7,7 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from backend.tools.vector_search import vector_search
 from backend.tools.stats_query import query_hs_stats
 
-SYSTEM_PROMPT = """You are an analyst assistant embedded in the BRACE4PEACE monitoring dashboard.
+SYSTEM_PROMPT = """You are an analyst assistant embedded in the MERLx IRIS monitoring dashboard.
 You are talking to analysts who are looking at the dashboard right now. They can see:
 
 WHAT'S ON THE DASHBOARD:

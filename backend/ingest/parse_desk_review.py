@@ -1,4 +1,4 @@
-"""Parse the BRACE4PEACE desk review markdown into structured entries."""
+"""Parse the MERLx IRIS desk review markdown into structured entries."""
 from __future__ import annotations
 
 import re

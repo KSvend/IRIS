@@ -464,7 +464,7 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-22",
+          "detected_by": "iris_classify_2026-03-22",
           "detection_timestamp": "2026-03-22T16:57:14.874311+00:00"
         },
         {
@@ -533,7 +533,7 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-22",
+          "detected_by": "iris_classify_2026-03-22",
           "detection_timestamp": "2026-03-22T16:57:14.874311+00:00"
         },
         {
@@ -589,7 +589,7 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-22",
+          "detected_by": "iris_classify_2026-03-22",
           "detection_timestamp": "2026-03-22T16:57:14.874311+00:00"
         },
         {
@@ -655,7 +655,7 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-22",
+          "detected_by": "iris_classify_2026-03-22",
           "detection_timestamp": "2026-03-22T16:57:14.874311+00:00"
         },
         {
@@ -727,11 +727,11 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-22",
+          "detected_by": "iris_classify_2026-03-22",
           "detection_timestamp": "2026-03-22T16:57:14.874311+00:00"
         }
       ],
-      "items_file": "/home/runner/work/brace4peace/brace4peace/monitoring/apify_results/items_2026-03-22_afternoon.json"
+      "items_file": "/home/runner/work/iris/iris/monitoring/apify_results/items_2026-03-22_afternoon.json"
     },
     "1d_event_lifecycle": {
       "to_dormant": 0,
@@ -835,7 +835,7 @@
     "2e_quality_gate": {
       "removed": 123,
       "remaining": 6795,
-      "archived_to": "/home/runner/work/brace4peace/brace4peace/data/run_history/misclassified_2026-03-22.json"
+      "archived_to": "/home/runner/work/iris/iris/data/run_history/misclassified_2026-03-22.json"
     },
     "3a_reach": {
       "updated": 13,

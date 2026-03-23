@@ -20,7 +20,7 @@ from collections import defaultdict
 
 WORKSPACE = Path(__file__).resolve().parent.parent
 EVENTS_PATH = WORKSPACE / "docs/data/events.json"
-TIMELINE_PATH = WORKSPACE / "monitoring/brace4peace_timeline.json"
+TIMELINE_PATH = WORKSPACE / "monitoring/iris_timeline.json"
 
 DORMANT_DAYS = 30
 RESOLVED_DAYS = 90

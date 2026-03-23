@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Apify Auto-Classification Module for BRACE4PEACE
+Apify Auto-Classification Module for MERLx IRIS
 =================================================
 Takes raw Apify sweep results and classifies each item as:
   - DISINFO → goes to timeline as PRIMARY event
@@ -34,7 +34,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # Data paths
 EVENTS_PATH = REPO_ROOT / "docs" / "data" / "events.json"
 HS_DATA_PATH = REPO_ROOT / "docs" / "data" / "hate_speech_posts.json"
-TIMELINE_PATH = REPO_ROOT / "monitoring" / "brace4peace_timeline.json"
+TIMELINE_PATH = REPO_ROOT / "monitoring" / "iris_timeline.json"
 
 # Config paths (moved to config/ subdirectory)
 STRATEGY_PATH = REPO_ROOT / "monitoring" / "config" / "apify_keyword_strategy.json"
@@ -187,7 +187,7 @@ def extract_hashtags(text):
 
 def extract_platform(item):
     """Determine which platform this item came from."""
-    meta = item.get("_brace4peace", {})
+    meta = item.get("_iris", {})
     platform = meta.get("platform", "")
     if platform:
         return {"x": "X (Twitter)", "facebook": "Facebook", "tiktok": "TikTok"}.get(platform, platform)
@@ -219,7 +219,7 @@ def classify_item(item, strategy, narratives, weights):
     text = extract_text(item)
     text_lower = text.lower()
     hashtags = extract_hashtags(text)
-    meta = item.get("_brace4peace", {})
+    meta = item.get("_iris", {})
     keyword_group = meta.get("keyword_group", "")
     group_narrative_ids = meta.get("narrative_ids", [])
     
@@ -1202,7 +1202,7 @@ def _build_event(items, headline_prefix, is_coordinated, confidence, now):
         "al_shabaab_related": any("AS_" in (i.get("keyword_group", "") or "") for i in items),
         "tags": ["auto_classified"],
         "data_source": "social_media_monitoring",
-        "detected_by": f"brace4peace_classify_{now.strftime('%Y-%m-%d')}",
+        "detected_by": f"iris_classify_{now.strftime('%Y-%m-%d')}",
         "detection_timestamp": now.isoformat()
     }
     
@@ -1244,7 +1244,7 @@ def run_classification(items_file=None, dry_run=False):
         result["author"] = extract_author(item)
         result["date"] = extract_date(item)
         result["platform"] = extract_platform(item)
-        result["keyword_group"] = item.get("_brace4peace", {}).get("keyword_group", "")
+        result["keyword_group"] = item.get("_iris", {}).get("keyword_group", "")
         classified.append(result)
     
     # Count classifications
@@ -1464,13 +1464,13 @@ def update_autolearning(new_claims, strategy_path=STRATEGY_PATH):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="BRACE4PEACE Apify Auto-Classification")
+    parser = argparse.ArgumentParser(description="MERLx IRIS Apify Auto-Classification")
     parser.add_argument("--input", type=str, help="Path to items JSON file")
     parser.add_argument("--dry-run", action="store_true", help="Classify without writing")
     args = parser.parse_args()
     
     print("=" * 60)
-    print("🤖 BRACE4PEACE Auto-Classification Pipeline")
+    print("🤖 MERLx IRIS Auto-Classification Pipeline")
     print("=" * 60)
     
     results = run_classification(items_file=args.input, dry_run=args.dry_run)
