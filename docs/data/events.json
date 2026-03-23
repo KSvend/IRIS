@@ -390,7 +390,10 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001",
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_direct_tracking",
     "data_source": "Catalogue",
@@ -802,7 +805,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -926,7 +931,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_direct_tracking",
     "data_source": "Catalogue",
@@ -1058,7 +1065,9 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -1115,7 +1124,10 @@
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -1398,7 +1410,10 @@
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -1639,7 +1654,9 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -2288,7 +2305,10 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -3007,7 +3027,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -5368,7 +5390,9 @@
     ],
     "spread": 4.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -5469,7 +5493,9 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -5518,7 +5544,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -5632,7 +5660,11 @@
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-004",
+      "NAR-SS-005"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -6810,7 +6842,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -6856,7 +6890,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -6905,7 +6941,9 @@
     ],
     "spread": 3.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-009"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -7639,7 +7677,9 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -7801,7 +7841,9 @@
     ],
     "spread": 9.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -7847,7 +7889,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-002"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -7888,7 +7932,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-002"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -8897,7 +8943,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -8949,7 +8997,9 @@
     ],
     "spread": 4.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -8999,7 +9049,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -9049,7 +9101,9 @@
     ],
     "spread": 2.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-005"
+    ],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
     "data_source": "Catalogue",
@@ -10246,7 +10300,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-002"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -10920,7 +10976,9 @@
     ],
     "spread": 9.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -11144,7 +11202,9 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-003"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -11222,7 +11282,9 @@
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -11919,7 +11981,10 @@
     ],
     "spread": 8.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-003",
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -12460,7 +12525,10 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001",
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -12672,7 +12740,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -12710,7 +12780,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -12915,7 +12987,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-006"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -13267,7 +13341,9 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -13337,7 +13413,10 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001",
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -13907,7 +13986,9 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -13977,7 +14058,9 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -14198,7 +14281,9 @@
     ],
     "spread": 8.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -14727,7 +14812,9 @@
     ],
     "spread": 4.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-005"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -14774,7 +14861,9 @@
     ],
     "spread": 3.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-005"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -14828,7 +14917,10 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -14883,7 +14975,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -15716,7 +15810,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -15945,7 +16041,9 @@
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -16013,7 +16111,9 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -16479,7 +16579,10 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003",
+      "NAR-SO-006"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -16677,7 +16780,10 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003",
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -16902,7 +17008,9 @@
         "calibration_note": "Adjusted from 2 to 1 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -17202,7 +17310,10 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001",
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -17515,7 +17626,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -18773,7 +18886,9 @@
     ],
     "spread": 8.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-003"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -19274,7 +19389,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -19320,7 +19437,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -19649,7 +19768,9 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -20056,7 +20177,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -20738,7 +20861,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -20965,7 +21090,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -21012,7 +21139,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -21280,7 +21409,9 @@
     ],
     "spread": 3.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -21330,7 +21461,9 @@
     ],
     "spread": 4.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -21626,7 +21759,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -21838,7 +21973,9 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-004"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -21889,7 +22026,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -22258,7 +22397,9 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_meta_monitoring",
     "data_source": "Catalogue",
@@ -22742,7 +22883,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -22786,7 +22929,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -22830,7 +22975,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-002"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -22875,7 +23022,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -22919,7 +23068,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23152,7 +23303,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-006"
+    ],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
     "data_source": "Catalogue",
@@ -23196,7 +23349,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23236,7 +23391,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23277,7 +23434,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23334,7 +23493,10 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-004",
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -23394,7 +23556,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-003"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -23446,7 +23610,9 @@
     ],
     "spread": 4.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -23492,7 +23658,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-002"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23672,7 +23840,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "INDICATED",
     "detection_method": "report_synthesis",
     "data_source": "Catalogue",
@@ -23713,7 +23883,10 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23759,7 +23932,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23799,7 +23974,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23844,7 +24021,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23884,7 +24063,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23931,7 +24112,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -23971,7 +24154,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-002"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -24011,7 +24196,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-002"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -24051,7 +24238,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -24096,7 +24285,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -24142,7 +24333,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-001"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -24232,7 +24425,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -24359,7 +24554,10 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001",
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -24400,7 +24598,10 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -25596,7 +25797,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
     "data_source": "Catalogue",
@@ -25632,7 +25835,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -25677,7 +25882,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -25853,7 +26060,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-005"
+    ],
     "disinfo_confidence": "INDICATED",
     "detection_method": "report_synthesis",
     "data_source": "Catalogue",
@@ -26045,7 +26254,10 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26091,7 +26303,9 @@
     ],
     "spread": 9.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-001"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26147,7 +26361,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-002"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26196,7 +26412,9 @@
     ],
     "spread": 3.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -26251,7 +26469,9 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26301,7 +26521,9 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -26348,7 +26570,9 @@
     ],
     "spread": 4.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -26397,7 +26621,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-003a"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -26451,7 +26677,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-001"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26503,7 +26731,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-004"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -26553,7 +26783,10 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-003b"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -26602,7 +26835,9 @@
     ],
     "spread": 6.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
     "data_source": "Catalogue",
@@ -26705,7 +26940,9 @@
     ],
     "spread": 8.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-001"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26755,7 +26992,9 @@
     ],
     "spread": 5.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26808,7 +27047,9 @@
     ],
     "spread": 7.0,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-FP-001"
+    ],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
     "data_source": "Catalogue",
@@ -26920,7 +27161,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -26965,7 +27208,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -27005,7 +27250,9 @@
     "sources": [],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -27051,7 +27298,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",
@@ -27097,7 +27346,9 @@
     ],
     "spread": 3,
     "narrative_families": [],
-    "disinfo_narratives": [],
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
     "data_source": "Monitoring Annex",

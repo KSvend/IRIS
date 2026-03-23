@@ -939,12 +939,43 @@
   }
 
   // ─── Get narrative list for wheel segments ──────────────────────
+  // HS family colors (warm tones to distinguish from disinfo narrative segments)
+  const HS_FAMILY_COLORS = {
+    'Ethnic Incitement': '#A84B0C', 'Victimhood/Grievance': '#B85C3A',
+    'Collective Blame': '#8B3A62', 'Existential Threat': '#6B2D2D',
+    'Revenge/Retribution': '#C0392B', 'Religious Distortion': '#7D5BA6',
+    'Delegitimization': '#6B5CA8', 'Misinformation/Disinformation': '#9E9E9E',
+    'Peace/Counter-Narratives': '#2E7D60'
+  };
+
+  /** Map each event to its effective wheel segment ID(s).
+   *  - Disinfo events: use disinfo_narratives (NAR-* IDs)
+   *  - HS/Incitement events without disinfo_narratives: use narrative_families (HS-FAM-* virtual IDs) */
+  function getEventSegments(e) {
+    const narrs = (e.disinfo_narratives || []).filter(n => narrativeRef[n]);
+    if (narrs.length > 0) return narrs;
+    // Fall back to narrative_families for HS events
+    const families = (e.narrative_families || []).map(f => f.family).filter(Boolean);
+    return families.map(f => 'HS-FAM-' + f);
+  }
+
   function getUsedNarratives() {
     const narrCounts = {};
     filteredEvents.forEach(e => {
-      (e.disinfo_narratives || []).forEach(n => {
+      getEventSegments(e).forEach(n => {
         narrCounts[n] = (narrCounts[n] || 0) + 1;
       });
+    });
+    // Ensure HS family virtual entries exist in narrativeRef
+    Object.keys(narrCounts).forEach(nid => {
+      if (nid.startsWith('HS-FAM-') && !narrativeRef[nid]) {
+        const family = nid.replace('HS-FAM-', '');
+        narrativeRef[nid] = {
+          short_name: family,
+          name: family,
+          color: HS_FAMILY_COLORS[family] || '#9E9E9E'
+        };
+      }
     });
     return Object.entries(narrCounts)
       .sort((a, b) => b[1] - a[1])
@@ -1014,10 +1045,10 @@
         .style('fill', ring.color).style('opacity', 0.6).text(ring.label);
     });
 
-    // Narrative segments (include catch-all for events without narratives)
+    // Narrative segments (disinfo NAR-* IDs + HS-FAM-* families + catch-all)
     const usedNarrativesWithCounts = getUsedNarratives();
     if (usedNarrativesWithCounts.length === 0) return;
-    const unnarrated = filteredEvents.filter(e => !(e.disinfo_narratives || []).some(n => narrativeRef[n]));
+    const unnarrated = filteredEvents.filter(e => getEventSegments(e).length === 0);
     if (unnarrated.length > 0) {
       usedNarrativesWithCounts.push(['_UNCLASSIFIED', unnarrated.length]);
       narrativeRef['_UNCLASSIFIED'] = { short_name: 'Unclassified', name: 'Unclassified Events', color: '#9E9E9E' };
@@ -1074,8 +1105,8 @@
     const positions = new Map();
     const eventsByNarr = new Map();
     filteredEvents.forEach(e => {
-      const narrs = (e.disinfo_narratives || []).filter(n => usedNarratives.includes(n));
-      const bestNarr = narrs[0] || (usedNarratives.includes('_UNCLASSIFIED') ? '_UNCLASSIFIED' : null);
+      const segs = getEventSegments(e).filter(n => usedNarratives.includes(n));
+      const bestNarr = segs[0] || (usedNarratives.includes('_UNCLASSIFIED') ? '_UNCLASSIFIED' : null);
       if (bestNarr) {
         if (!eventsByNarr.has(bestNarr)) eventsByNarr.set(bestNarr, []);
         eventsByNarr.get(bestNarr).push(e);
