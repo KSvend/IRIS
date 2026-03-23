@@ -27,7 +27,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -754,7 +759,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
@@ -1971,7 +1985,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": null,
     "detection_method": "iris_meta_monitoring",
@@ -2590,7 +2613,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Delegitimization",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -4395,7 +4423,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 2
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -4973,7 +5006,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Existential Threat",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -5442,7 +5480,16 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -5590,7 +5637,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Existential Threat",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -5895,7 +5951,16 @@
       }
     ],
     "spread": 8.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -6102,7 +6167,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Peace/Counter-Narratives",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -6995,7 +7065,16 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -7041,7 +7120,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -7083,7 +7171,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -7127,7 +7224,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -7172,7 +7278,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Peace/Counter-Narratives",
+        "intensity": 2
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -7215,7 +7326,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -9154,7 +9270,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -10353,7 +10478,16 @@
       }
     ],
     "spread": 5.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -10406,7 +10540,16 @@
       }
     ],
     "spread": 3.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -11579,7 +11722,16 @@
       }
     ],
     "spread": 6.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -14774,7 +14926,16 @@
       }
     ],
     "spread": 7.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
@@ -15039,7 +15200,16 @@
       }
     ],
     "spread": 3.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -15091,7 +15261,12 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -15140,7 +15315,16 @@
       }
     ],
     "spread": 6.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 5
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -15190,7 +15374,16 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -15239,7 +15432,16 @@
       }
     ],
     "spread": 6.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Revenge/Retribution",
+        "intensity": 5
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -15290,7 +15492,16 @@
       }
     ],
     "spread": 6.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -15339,7 +15550,16 @@
       }
     ],
     "spread": 3.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -15388,7 +15608,16 @@
       }
     ],
     "spread": 7.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -15438,7 +15667,16 @@
       }
     ],
     "spread": 2.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -15489,7 +15727,12 @@
       }
     ],
     "spread": 2.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -16643,7 +16886,16 @@
       }
     ],
     "spread": 5.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 5
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -19835,7 +20087,16 @@
       }
     ],
     "spread": 6.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Foreign Influence",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_enrichment_research",
@@ -21202,7 +21463,16 @@
       }
     ],
     "spread": 3.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Existential Threat",
+        "intensity": 4
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -21252,7 +21522,16 @@
       }
     ],
     "spread": 3.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -21301,7 +21580,16 @@
       }
     ],
     "spread": 3.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -21525,7 +21813,16 @@
       }
     ],
     "spread": 3.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "MEDIUM",
     "detection_method": "iris_field_research",
@@ -21576,7 +21873,16 @@
       }
     ],
     "spread": 5.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -21627,7 +21933,16 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Collective Blame",
+        "intensity": 5
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -22097,7 +22412,16 @@
       }
     ],
     "spread": 8.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Revenge/Retribution",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -22701,7 +23025,16 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Existential Threat",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -22754,7 +23087,16 @@
       }
     ],
     "spread": 5.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Foreign Influence",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -22804,7 +23146,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "INDICATED",
     "detection_method": "report_synthesis",
@@ -22850,7 +23197,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -23127,7 +23483,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -23174,7 +23539,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -23221,7 +23595,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Foreign Influence",
+        "intensity": 5
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -23264,7 +23647,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -23717,7 +24105,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -23762,7 +24155,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -23807,7 +24209,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Religious Distortion",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -24392,7 +24803,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Delegitimization",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -24484,7 +24904,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Existential Threat",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -24524,7 +24949,12 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -24663,7 +25093,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Existential Threat",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -24712,7 +25151,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Existential Threat",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -24759,7 +25207,16 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -24810,7 +25267,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -24847,7 +25313,16 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Religious Distortion",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -24905,7 +25380,16 @@
       }
     ],
     "spread": 4.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -24955,7 +25439,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25002,7 +25495,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Foreign Influence",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25051,7 +25553,16 @@
       }
     ],
     "spread": 7.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Revenge/Retribution",
+        "intensity": 5
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -25104,7 +25615,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "INDICATED",
     "detection_method": "report_synthesis",
@@ -25148,7 +25668,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -25192,7 +25721,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25241,7 +25779,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25287,7 +25834,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Delegitimization",
+        "intensity": 5
+      },
+      {
+        "family": "Religious Distortion",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25333,7 +25889,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25373,7 +25938,16 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -25414,7 +25988,16 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -25454,7 +26037,16 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -25495,7 +26087,16 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -25540,7 +26141,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -25577,7 +26187,16 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -25624,7 +26243,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Collective Blame",
+        "intensity": 5
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25670,7 +26298,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25717,7 +26354,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25764,7 +26410,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Delegitimization",
+        "intensity": 3
+      },
+      {
+        "family": "Existential Threat",
+        "intensity": 2
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25941,7 +26596,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -25984,7 +26648,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -26027,7 +26700,16 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "INDICATED",
     "detection_method": "report_synthesis",
@@ -26112,7 +26794,12 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Existential Threat",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -26159,7 +26846,16 @@
       }
     ],
     "spread": 5.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 4
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -26213,7 +26909,16 @@
       }
     ],
     "spread": 5.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 5
+      },
+      {
+        "family": "Existential Threat",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_enrichment_research",
@@ -26896,7 +27601,16 @@
       }
     ],
     "spread": 6.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      },
+      {
+        "family": "Existential Threat",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -27403,7 +28117,16 @@
     "platforms": [],
     "sources": [],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Existential Threat",
+        "intensity": 4
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "LOW",
     "detection_method": "annex_claims",
@@ -27451,7 +28174,16 @@
       }
     ],
     "spread": 8.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 5
+      },
+      {
+        "family": "Collective Blame",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "HIGH",
     "detection_method": "iris_field_research",
@@ -27500,7 +28232,12 @@
       }
     ],
     "spread": 3,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Peace/Counter-Narratives",
+        "intensity": 4
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
@@ -27543,7 +28280,16 @@
       }
     ],
     "spread": 87.0,
-    "narrative_families": [],
+    "narrative_families": [
+      {
+        "family": "Existential Threat",
+        "intensity": 4
+      },
+      {
+        "family": "Victimhood/Grievance",
+        "intensity": 3
+      }
+    ],
     "disinfo_narratives": [],
     "disinfo_confidence": "CONFIRMED",
     "detection_method": "report_synthesis",
