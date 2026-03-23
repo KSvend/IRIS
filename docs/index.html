@@ -365,34 +365,11 @@
 
   <script src="app.js"></script>
 
-  <!-- Guide Modal JS -->
-  <script>
-  (function() {
-    const btn = document.getElementById('btn-guide');
-    const overlay = document.getElementById('guide-overlay');
-    const close = document.getElementById('guide-close');
-    if (!btn || !overlay) return;
-    btn.onclick = () => overlay.classList.add('visible');
-    close.onclick = () => overlay.classList.remove('visible');
-    overlay.onclick = (e) => { if (e.target === overlay) overlay.classList.remove('visible'); };
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') overlay.classList.remove('visible'); });
-    // Tab switching
-    overlay.querySelectorAll('.guide-tab').forEach(tab => {
-      tab.onclick = () => {
-        overlay.querySelectorAll('.guide-tab').forEach(t => t.classList.remove('active'));
-        overlay.querySelectorAll('.guide-content').forEach(c => c.classList.add('hidden'));
-        tab.classList.add('active');
-        document.getElementById('guide-' + tab.dataset.tab).classList.remove('hidden');
-      };
-    });
-  })();
-  </script>
-
   <!-- Chat Widget -->
   <link rel="stylesheet" href="chat-widget.css">
   <div id="chat-widget-container"></div>
-  <button class="guide-toggle-btn" id="btn-guide" title="How to read the dashboard">Guide</button>
   <a href="admin.html" class="admin-toggle-btn" title="Annotate posts">Annotate</a>
+  <button class="guide-toggle-btn" id="btn-guide" title="How to read the dashboard">Guide</button>
 
   <!-- Guide Modal -->
   <div class="guide-overlay" id="guide-overlay">
@@ -489,5 +466,29 @@
     </div>
   </div>
   <script src="chat-widget.js"></script>
+
+  <!-- Guide Modal JS (must be after both #btn-guide and #guide-overlay are in DOM) -->
+  <script>
+  (function() {
+    var btn = document.getElementById('btn-guide');
+    var overlay = document.getElementById('guide-overlay');
+    var close = document.getElementById('guide-close');
+    if (!btn || !overlay) return;
+    btn.onclick = function() { overlay.classList.add('visible'); };
+    close.onclick = function() { overlay.classList.remove('visible'); };
+    overlay.onclick = function(e) { if (e.target === overlay) overlay.classList.remove('visible'); };
+    document.addEventListener('keydown', function(e) { if (e.key === 'Escape') overlay.classList.remove('visible'); });
+    var tabs = overlay.querySelectorAll('.guide-tab');
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].onclick = function() {
+        for (var j = 0; j < tabs.length; j++) tabs[j].classList.remove('active');
+        var contents = overlay.querySelectorAll('.guide-content');
+        for (var j = 0; j < contents.length; j++) contents[j].classList.add('hidden');
+        this.classList.add('active');
+        document.getElementById('guide-' + this.dataset.tab).classList.remove('hidden');
+      };
+    }
+  })();
+  </script>
 </body>
 </html>

@@ -40,8 +40,7 @@
 .admin-toggle-btn {
   position: fixed;
   right: 0;
-  top: calc(70% + 100px);
-  transform: translateY(-50%);
+  top: calc(70% + 120px);
   width: 34px;
   height: auto;
   padding: 16px 7px;
@@ -69,17 +68,16 @@
   width: 38px;
 }
 
-/* Guide tab — above Annotate */
+/* Guide tab — below Annotate */
 .guide-toggle-btn {
   position: fixed;
   right: 0;
-  top: calc(70% + 30px);
-  transform: translateY(-50%);
+  top: calc(70% + 170px);
   width: 34px;
   height: auto;
   padding: 16px 7px;
   border-radius: 8px 0 0 8px;
-  background: #1A3A34;
+  background: #888;
   color: #FFFFFF;
   border: none;
   cursor: pointer;
@@ -88,16 +86,16 @@
   justify-content: center;
   z-index: 9999;
   transition: background 200ms ease-out, width 200ms ease-out;
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-style: italic;
+  font-family: 'Inter', sans-serif;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 .guide-toggle-btn:hover {
-  background: #2E5E54;
+  background: #666;
   width: 38px;
 }
 
