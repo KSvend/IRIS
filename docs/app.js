@@ -80,9 +80,9 @@
     'incitement': '#A84B0C'
   };
   const TYPE_COLORS = {
-    'CONFIRMED': 'rgba(85,85,85,0.9)',
-    'POTENTIAL': 'rgba(85,85,85,0.55)',
-    'CONTEXT': 'rgba(85,85,85,0.25)'
+    'CONFIRMED': 'rgba(85,85,85,0.75)',
+    'POTENTIAL': 'rgba(85,85,85,0.45)',
+    'CONTEXT': 'rgba(85,85,85,0.2)'
   };
   const THREAT_COLORS = {
     'P1 CRITICAL': '#B83A2A',
@@ -1163,7 +1163,7 @@
       dotsGroup.append('circle').attr('class', 'event-dot')
         .attr('cx', pos.x).attr('cy', pos.y).attr('r', size)
         .attr('fill', color)
-        .attr('fill-opacity', e.event_type === 'CONFIRMED' ? 0.9 : e.event_type === 'POTENTIAL' ? 0.65 : 0.3)
+        .attr('fill-opacity', e.event_type === 'CONFIRMED' ? 0.75 : e.event_type === 'POTENTIAL' ? 0.45 : 0.2)
         .attr('filter', e.event_type === 'CONFIRMED' ? 'url(#glow)' : null)
         .datum(e)
         .on('mouseenter', function(event) {
