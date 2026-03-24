@@ -60,9 +60,9 @@
     return (COUNTRY_COLORS[country] || COUNTRY_COLORS['Regional']).light;
   }
 
-  // HS Color: grey with opacity matching classification severity
+  // HS Color: country-based with opacity matching classification severity
   function hsPostColor(post) {
-    return '#555';
+    return (COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional']).dark;
   }
   function hsPostOpacity(post) {
     if (post.pr === 'Hate') return 0.9;
