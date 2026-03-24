@@ -62,12 +62,12 @@
 
   // HS Color: country-based with opacity matching classification severity
   function hsPostColor(post) {
-    return (COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional']).mid;
+    return (COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional']).dark;
   }
   function hsPostOpacity(post) {
-    if (post.pr === 'Hate') return 0.9;
-    if (post.pr === 'Abusive') return 0.5;
-    return 0.2;  // Questionable / Normal
+    if (post.pr === 'Hate') return 0.7;
+    if (post.pr === 'Abusive') return 0.35;
+    return 0.15;  // Questionable / Normal
   }
 
   const SUBTYPE_COLORS = {
