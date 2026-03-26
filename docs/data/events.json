@@ -29598,7 +29598,8 @@
       "@Warfidiye",
       "@_America_Proud_",
       "@hirad63",
-      "@Halgamaassc99"
+      "@Halgamaassc99",
+      "@MehmoodkhanA"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29608,6 +29609,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Halgamaassc99/status/1934568198529028527",
         "date": "2026-03-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MehmoodkhanA/status/2037184713446572529",
+        "date": "2026-03-26"
       }
     ],
     "spread": 5,
@@ -29656,7 +29662,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-23",
+    "last_seen": "2026-03-26",
     "status": "active",
     "observations": [
       {
@@ -29667,16 +29673,28 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-26",
+        "url": "https://x.com/MehmoodkhanA/status/2037184713446572529",
+        "summary": "Breaking 🚨: Taliban are ready to provide 10,000 soldiers to the front line to defend alongside Iranians if the US",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
       "Al-Shabaab claimed responsibility for hotel bombing in Kismayo killing 3 people"
     ],
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
-    "_reviewed": "2026-03-23T07:58:02.306609+00:00"
+    "_reviewed": "2026-03-23T07:58:02.306609+00:00",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-03-23-344",
