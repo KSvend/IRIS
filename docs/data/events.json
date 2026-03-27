@@ -29407,7 +29407,8 @@
       "@theboyfk",
       "@hosea606666",
       "@xholeihub",
-      "@SimpleDon15TX"
+      "@SimpleDon15TX",
+      "@EllyLly34"
     ],
     "platforms": [
       "X (Twitter)",
@@ -29448,6 +29449,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/SimpleDon15TX/status/2036821714240254351",
         "date": "2026-03-25"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EllyLly34/status/2037544042419110128",
+        "date": "2026-03-27"
       }
     ],
     "spread": 5,
@@ -29491,7 +29497,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-25",
+    "last_seen": "2026-03-27",
     "status": "active",
     "observations": [
       {
@@ -29558,15 +29564,25 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-27",
+        "url": "https://x.com/EllyLly34/status/2037544042419110128",
+        "summary": "Dana dari George Soros sudah cair perintah harus di laksanakan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 7,
+    "observation_count": 8,
     "intensity_trend": [
       3,
       3,
       3,
       3,
       3,
+      2,
       2
     ],
     "_original_headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",

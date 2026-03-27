@@ -820,5 +820,653 @@
     "exp": "A neutral analytical observation about the durability of South Sudan's regime. This is political analysis without hate speech targeting any group.",
     "rel": "relevant",
     "kb": []
+  },
+  {
+    "i": "apify-0a3fd311c1b3",
+    "t": "INTERIOR CS Kipchumba Murkomen declares parts of Meru, Laikipia and Isiolo Counties as security-disturbed and dangerous amid the State crackdown on banditry in the regions. https://t.co/xHYwZW7Nu9 https://t.co/CGJoR2Jy1F",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@NationAfrica",
+    "l": "https://x.com/NationAfrica/status/2037193341230555413",
+    "pr": "Normal",
+    "co": 0.9927,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9907
+    },
+    "exp": "This is a news report about Kenya's Interior Cabinet Secretary declaring parts of three counties as security-disturbed zones due to banditry. It is factual government announcement reporting, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-35bd56a82c5d",
+    "t": "The Ministry of Interior has declared parts of Laikipia County, Meru County, and Isiolo County as security-disturbed and dangerous zones. Interior CS Kipchumba Murkomen announced the directive through a gazette notice, saying it will allow security agencies to intensify operations against bandits an",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@NyakundiReport",
+    "l": "https://x.com/NyakundiReport/status/2037197763289506071",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This is a straightforward news report about a government security declaration for three Kenyan counties. It contains no hateful language or targeting of groups, just factual reporting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-45c5efce2209",
+    "t": "CS Murkomen declares parts of Laikipia, Meru, Isiolo as security-disturbed and dangerous https://t.co/oUINWL3GN5",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@citizentvkenya",
+    "l": "https://x.com/citizentvkenya/status/2037194876652027914",
+    "pr": "Normal",
+    "co": 0.996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9988
+    },
+    "exp": "This is a news headline about government security measures in Kenyan counties. It is neutral reporting without any hate speech content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ccb8cfa7cf9a",
+    "t": "CS Murkomen declares parts of Laikipia, Meru, Isiolo as security-disturbed and dangerous\nhttps://t.co/Nb4Kr3mip3 https://t.co/Zd8yZrephb",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@UzalendoNews_KE",
+    "l": "https://x.com/UzalendoNews_KE/status/2037198847156556222",
+    "pr": "Normal",
+    "co": 0.9977,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "This is another news report about the same government security declaration. It contains no hate speech, just factual information about official policy.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5011ce2abc22",
+    "t": "UPDATE: The Kenyan government has declared several areas in Laikipia, Meru and Isiolo counties as security disturbed and dangerous to address rising insecurity, with the directive issued in a March 26, 2026 Gazette by Interior Cabinet Secretary Kipchumba Murkomen in consultation with the National Se",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TheStarKenya",
+    "l": "https://x.com/TheStarKenya/status/2037186044014018976",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This is an update on government security measures in Kenyan counties, providing factual information about official gazette notices. No hate speech present.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5ca70f5c5622",
+    "t": "Interior Cabinet Secretary Kipchumba Murkomen has declared parts of Laikipia, Meru, and Isiolo counties as security-disturbed and dangerous for a period of 30 days, with the order taking immediate effect.\n\nhttps://t.co/tYOtjnpdmX",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@StandardKenya",
+    "l": "https://x.com/StandardKenya/status/2037201723958198743",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This is news reporting about official government security declarations with specific timeframes. It is factual reporting without any hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cc43ba774415",
+    "t": "Murkomen Declares Laikipia, Meru and Isiolo Counties as Security Disturbed &amp; Dangerous Days After KDF Deployment https://t.co/KNwrUDtiCv",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MutembeiTV",
+    "l": "https://x.com/MutembeiTV/status/2037188290202173649",
+    "pr": "Hate",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This is a news headline connecting the security declaration to military deployment. It is factual reporting about government actions, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c3b4b197f77c",
+    "t": "NEWS JUST IN: CS Kipchumba Murkomen declares parts of Laikipia, Meru and Isiolo counties as security-disturbed and dangerous https://t.co/xurr6YDyLi",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ViralTeaKe",
+    "l": "https://x.com/ViralTeaKe/status/2037190208131662325",
+    "pr": "Normal",
+    "co": 0.8003,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9894
+    },
+    "exp": "This is breaking news about government security declarations. It contains no hate speech, just factual reporting on official announcements.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4e5fa8e008e4",
+    "t": "Interior CS Murkomen gazettes parts of Laikipia, Meru and Isiolo as disturbed and dangerous for 30 days; order takes effect immediately. https://t.co/AaDLDL5WLl",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@StandardKenya",
+    "l": "https://x.com/StandardKenya/status/2037195391431549251",
+    "pr": "Abusive",
+    "co": 0.7826,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This is news about official gazette notices regarding security measures. It is straightforward reporting without any hateful language or targeting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-605632a9b515",
+    "t": "MWAGAWULIDE? . @KawalaRachael \"Kampala Metropolitan Police are holding Nyanzi Kenneth Lukyamuzi, also known as Mukalakasa, a 27-year-old male adult and social media influencer, on allegations of engaging in acts against the order of nature. This follows a video reportedly recorded in 2018, which all",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@EverestBushara",
+    "l": "https://x.com/EverestBushara/status/2037427918595358798",
+    "pr": "Normal",
+    "co": 0.9655,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9883
+    },
+    "exp": "This appears to be about a Ugandan case involving someone arrested for alleged homosexual acts, written in mixed Luganda/English. While potentially controversial, it is news reporting rather than hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-99dc6521a83d",
+    "t": "TROOPS OF SECTOR 2 OPERATION FANSAN YAMMA INTENSIFY OPERATIONS AGAINST TERRORISTS ENCLAVES IN THE NORTH WEST\n\nTroops of Sect 2 Operation FANSAN YAMMA commenced all out operations within the week against terrorists enclaves across Sokoto, Zamfara and Kebbi States aimed and protecting communities and ",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@nwaezivictor",
+    "l": "https://x.com/nwaezivictor/status/2037221264465469765",
+    "pr": "Normal",
+    "co": 0.9427,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 25,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post describes military operations against 'terrorists enclaves' in Nigerian states. It appears to be news reporting about military operations rather than hate speech targeting specific ethnic or religious groups.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6e68ab9e1324",
+    "t": "Junta reinforcement convoy to Nat Yay Kan base ambushed; officers among casualties\n\nDMG Newsroom\n\n25 March 2026, Ngaphe, Magway Region\n\nA junta convoy transporting reinforcements and ammunition to the Nat Yay Kan strategic hilltop base on the Ann-Padan Road near the Magway-Arakan border was ambushed",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@DMGEnglish",
+    "l": "https://x.com/DMGEnglish/status/2037011137825562663",
+    "pr": "Normal",
+    "co": 0.9967,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on a military convoy ambush with casualties, appearing to be straightforward news reporting about armed conflict. It contains no hateful language targeting specific groups.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-066c53f528e3",
+    "t": "NEW COMMENTARY | Halting South Sudan\u2019s Slide into War\n\nCivil war has returned to South Sudan after President Salva Kiir abandoned the 2018 peace deal. We explain what the EU can do to halt regional spillover and address humanitarian needs.\n\nhttps://t.co/BtaszU72Gn https://t.co/233jRI7kHY",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@CrisisGroup",
+    "l": "https://x.com/CrisisGroup/status/2037127672329884067",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post discusses civil war returning to South Sudan and mentions President Salva Kiir abandoning a peace deal. It appears to be news commentary about political developments rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fb7d9b8d139f",
+    "t": "\ud83c\udd95SWORN IN:\n- Hon.Peter Chaleman Cawach - Presidential Advisor for Peace\n- Hon. Dr. Joseph Nguen Monytuil - Governor of Unity State\n\nDeputy Governors: \n-Hon. Isaac Luka Manga (Lakes State)\n-Hon. William Gatjang Giing (Unity State)\n-Hon. Karlo Andrew Akwo (Eastern Equatoria State) https://t.co/pRgfM9w",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudanGov",
+    "l": "https://x.com/SouthSudanGov/status/2037136627051508210",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9983
+    },
+    "exp": "This post announces the swearing-in of various South Sudanese government officials including advisors and governors. It is straightforward government news with no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-be462bd14a29",
+    "t": "South Sudan Ministry of Defense and Veterans Affairs, needs to repeal and substitute ICRC &amp; UNCHR around the statehouse J1.\n\nSubsequently our sovereignty would be compromised if UNDP can\u2019t vacate their current premises too.\n\nEnough is enough to censorship.",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@nhial_mach",
+    "l": "https://x.com/nhial_mach/status/2036921914828959924",
+    "pr": "Normal",
+    "co": 0.9988,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post calls for South Sudan's Ministry of Defense to remove international organizations like ICRC and UNDP from their premises, claiming sovereignty concerns. It expresses political frustration but does not target ethnic or religious groups with hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8f1b75aba831",
+    "t": "I call on the people of Southwest State not to be displaced at a time when the country is facing severe drought conditions. Instead of assisting these communities\u2014by building schools and providing medical supplies\u2014deploying weapons and troops into the cities of Southwest is truly unfortunate.\n\nWhat ",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@DrJilley",
+    "l": "https://x.com/DrJilley/status/2036869405817397483",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post calls on people of Southwest State not to be displaced during drought conditions and criticizes deploying weapons instead of providing aid like schools and medical supplies. It appears to be humanitarian-focused political criticism.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-af9903341a04",
+    "t": "The ceremony, held at the State Secretariat in Yambio, brought together newly appointed ministers, advisers, commissioners, and members of independent commissions. \n\nhttps://t.co/kHLPBcZPMK",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SudansPost",
+    "l": "https://x.com/SudansPost/status/2037281182912487595",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post describes a ceremony in Yambio for newly appointed government officials. It is straightforward news reporting with no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0472ea5079b2",
+    "t": "@Kenyans HUU UJANJA WOTE HAUTAVUA DAFU, KOROMA ,NAZI , MATALI WALA NGUTA, \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23WASHATESA WAKENYA TAYARI, WALIKUWA PENGINE WANATAFUTA PESA ZA CAMPAIGNS THROUGH AFFORDABLE HOUSING,WASHAZIPATA BAADA YA KUUMIZA WAKENYA KIMIFUKO SASA WANAJIFANYA WAZURI? WANTAM NDIO ITATATUA HIZI SHIDA ZOTE!",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JoshuaNdeg90704",
+    "l": "https://x.com/JoshuaNdeg90704/status/2037396948718588390",
+    "pr": "Hate",
+    "co": 0.9961,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "medium",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9989
+    },
+    "exp": "This post in Swahili expresses frustration with Kenyan politicians, using terms like 'ujanga' (cunning) and claiming they have already 'tested/hurt' Kenyans. While using strong political criticism, it targets politicians rather than ethnic groups and appears to be political frustration rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
   }
 ]
