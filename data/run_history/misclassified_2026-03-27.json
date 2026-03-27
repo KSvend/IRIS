@@ -1,0 +1,824 @@
+[
+  {
+    "i": "apify-a81b90a90b9d",
+    "t": "This is why I don't take Somalis being victims of the diaspora seriously when they've historically racial discriminated against Somali Bantus.",
+    "d": "2026-03-27",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@KaramaSeal",
+    "l": "https://x.com/KaramaSeal/status/2037280624743002572",
+    "pr": "Abusive",
+    "co": 0.5885,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9587
+    },
+    "exp": "Post critiques historical racial discrimination by Somalis against Somali Bantus, making a legitimate point about community hypocrisy regarding victimhood claims. This is social criticism rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5e367b3fbf7e",
+    "t": "@zubeir16C @abdullahiweyne 1. I\u2019m Somali \ud83d\ude02\ud83d\ude02\n2. I have been called Jareer, I\u2019ve witnessed other Somali people be called Jareer in a derogatory way, I\u2019ve witnessed Somalis make comments to other Somalis based on how dark their skin is, denying any of that is laughable but ok \u270c\ud83c\udffe",
+    "d": "2026-03-27",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@snackdatsmilebk",
+    "l": "https://x.com/snackdatsmilebk/status/2037257276059197875",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9562
+    },
+    "exp": "Post by a Somali person sharing personal experiences of being called 'jareer' in derogatory ways and witnessing colorism within the Somali community. This is testimony about experiencing discrimination, not perpetrating hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-af8346a2f500",
+    "t": "@Orangemoon002 you may not but your people will say ur not somali i even saw this girl calling her own baby brother jareer and thanking allah that shes not like him",
+    "d": "2026-03-27",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@smfthpg",
+    "l": "https://x.com/smfthpg/status/2037162195809665034",
+    "pr": "Abusive",
+    "co": 0.5924,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9581
+    },
+    "exp": "Post describes witnessing colorism within families, mentioning a girl calling her baby brother 'jareer' and being thankful she doesn't look like him. This appears to be reporting/critiquing discriminatory behavior rather than perpetrating it.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0d4fa1c94663",
+    "t": "The term is increasingly being claimed by far larger groups than our own including the Barawani, Garra, Tuni, Dabare, Jareer (often called Somali Bantu), Maymay, Bajuun, and many others. Because so many more people are now adopting and using the 'Somali' label, we no longer have any realistic chance",
+    "d": "2026-03-27",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Makyah342401",
+    "l": "https://x.com/Makyah342401/status/2037151119718089176",
+    "pr": "Abusive",
+    "co": 0.8373,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9481
+    },
+    "exp": "Post discusses various ethnic groups including 'Jareer (often called Somali Bantu)' in what appears to be an academic or informational context about identity and terminology, using the term descriptively rather than as a slur.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7eae4e4ddda5",
+    "t": "@Orangemoon002 ohh so it\u2019s okay to be derogatory/racist toward a minority group within our country? And as somebody who people often assume isn\u2019t Somali you are giving Somali people far too much credit lol they let the term \u201cjareer\u201d flyyyy",
+    "d": "2026-03-27",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@slowmali",
+    "l": "https://x.com/slowmali/status/2037041324403069368",
+    "pr": "Normal",
+    "co": 0.9262,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9793
+    },
+    "exp": "The post criticizes the use of 'jareer' as derogatory/racist toward minority groups within Somalia, specifically calling out this behavior as problematic. This is counter-speech against racist language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-31a8742dad3b",
+    "t": "@beysaespa My whole point was ethnic Somalis don\u2019t have a history of being taught to hate their natural hair even though ppl say things about \u2018jareer\u2019 hair it\u2019s usually only pointed against Bantu Somalis unfortunately because they\u2019re seen as non Somali",
+    "d": "2026-03-27",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Orangemoon002",
+    "l": "https://x.com/Orangemoon002/status/2037031367595495760",
+    "pr": "Normal",
+    "co": 0.9603,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.978
+    },
+    "exp": "The post discusses how 'jareer' is used against Bantu Somalis who are seen as non-Somali, analyzing discriminatory attitudes about hair texture. This appears to be critical analysis of discrimination rather than perpetuating it.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ec2f0327b5ec",
+    "t": "@kttyykattx @Mun618670 @KaramaSeal i'm not interesting in getting head from a somali bud,\n\nno one is asking you to change your language, it is not solely about the word \"Jareer\" in and of itself, but rather how the word is used in a contemporary context to degrade black people, is it really that har",
+    "d": "2026-03-27",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@crackerrapist1c",
+    "l": "https://x.com/crackerrapist1c/status/2037026594070343984",
+    "pr": "Normal",
+    "co": 0.9772,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9395
+    },
+    "exp": "This post discusses the Somali term 'jareer' and its contextual usage, appearing to be part of a conversation about racist language rather than using it hatefully itself.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5c710ce9e127",
+    "t": "#fyp #somalitiktok #foyoupage #caanka #somaliya\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4",
+    "d": "2025-08-17",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@klydhuuq2",
+    "l": "https://www.tiktok.com/@klydhuuq2/video/7539649449899920645",
+    "pr": "Abusive",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9783
+    },
+    "exp": "This appears to be a standard social media post with Somali hashtags and flag emojis, containing no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c81db4e4ac1d",
+    "t": "#livekacaanka #caanka#somalitiktok",
+    "d": "2025-02-05",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@live.ka.caanka3",
+    "l": "https://www.tiktok.com/@live.ka.caanka3/video/7468081327514914054",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9772
+    },
+    "exp": "This is a social media post with Somali hashtags containing no hateful or offensive content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cb0d03a88d2c",
+    "t": "@sylviepaloma @jennykanyiri @CessNdiritu @PatrickRudiger2 @Annmitchel5 @Josephkihiu12 @kunguruu @kibe_tz @MUTEMBEI1D @elijahsumbeiywo @RChemutai @philipmathekaj @Davidwaflower9 @raphn @itsjohnndaiga @AAkiyao @ItsAminaKuria @MichukiGavana @Patrick70518199 @GidaLangat @rozzykanyua @WamahigaN @EngrOchi",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GOVERNORKAHUHO1",
+    "l": "https://x.com/GOVERNORKAHUHO1/status/2037039623625445726",
+    "pr": "Normal",
+    "co": 0.9975,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This appears to be a list of social media usernames/mentions with no discernible hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-93353d2d3913",
+    "t": "The 6th President of the Republic of Kenya. \ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude2e\u200d\ud83d\udca8",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@bozgabi",
+    "l": "https://x.com/bozgabi/status/2037424281160691728",
+    "pr": "Abusive",
+    "co": 0.9937,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9999
+    },
+    "exp": "This post references the 6th President of Kenya with no hateful or offensive content, appears to be neutral political commentary.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-91b6b4fe2db0",
+    "t": "@RChemutai @Ronokibet11 @PatrickRudiger2 @CessNdiritu @philipmathekaj @ItsOnesmus254 @MichukiGavana @jennykanyiri @wambokamaa @Davidwaflower9 @sylviepaloma @Annmitchel5 @Josephkihiu12 @kunguruu @kibe_tz @MUTEMBEI1D @elijahsumbeiywo @raphn @itsjohnndaiga @AAkiyao @ItsAminaKuria @Patrick70518199 @Gida",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ObadiahKipchir3",
+    "l": "https://x.com/ObadiahKipchir3/status/2037057983457235014",
+    "pr": "Normal",
+    "co": 0.9978,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This appears to be another list of social media usernames/mentions with no discernible hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-31c1f74fafe4",
+    "t": "@Ronokibet11 @PatrickRudiger2 @CessNdiritu @philipmathekaj @ItsOnesmus254 @MichukiGavana @RChemutai @jennykanyiri @wambokamaa @Davidwaflower9 @sylviepaloma @Annmitchel5 @Josephkihiu12 @kunguruu @kibe_tz @MUTEMBEI1D @elijahsumbeiywo @raphn @itsjohnndaiga @AAkiyao @ItsAminaKuria @Patrick70518199 @Gida",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ObadiahKipchir3",
+    "l": "https://x.com/ObadiahKipchir3/status/2037060283093455235",
+    "pr": "Normal",
+    "co": 0.9976,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This appears to be another list of social media usernames/mentions with no discernible hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ff1b2b238ed9",
+    "t": "@WamahigaN @Davidwaflower9 @CessNdiritu @MichukiGavana @PatrickRudiger2 @jennykanyiri @sylviepaloma @Annmitchel5 @Josephkihiu12 @kunguruu @kibe_tz @MUTEMBEI1D @elijahsumbeiywo @RChemutai @philipmathekaj @raphn @itsjohnndaiga @AAkiyao @ItsAminaKuria @Patrick70518199 @GidaLangat @rozzykanyua @EngrOchi",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ObadiahKipchir3",
+    "l": "https://x.com/ObadiahKipchir3/status/2037056268125319640",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This appears to be another list of social media usernames/mentions with no discernible hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b3f6ca1cf45b",
+    "t": "@Kenyans Kiburi huyu jamaa hukuwa nayo huwa inanibamba",
+    "d": "2026-03-27",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Owacali",
+    "l": "https://x.com/Owacali/status/2037420442588176813",
+    "pr": "Normal",
+    "co": 0.9985,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "A Kenyan post expressing frustration with someone's arrogance (kiburi), using personal criticism language but not targeting any group identity or using hate speech terms.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-928226784067",
+    "t": "The mismanagement of public funds by Salva Kiir making young south Sudanese youth to risk his life on desperate journey https://t.co/YcaplVg5CJ",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Nuertribe",
+    "l": "https://x.com/Nuertribe/status/2037199891412238787",
+    "pr": "Hate",
+    "co": 0.9921,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "A post criticizing South Sudanese President Salva Kiir's mismanagement of public funds and its impact on youth emigration. This is political criticism, not hate speech targeting ethnic groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-79e5c248a41a",
+    "t": "Sudan RSF: 'The (Founding Forces) - the Rapid Support Force, and the Popular Liberation Army - North, achieved a new victory today, Thursday, March 26, 2026, by liberating the (Majja) area in the new Fung/Blue Nile region, following decisive battles against the terrorist militias of the Muslim Broth",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@CGTNEurope",
+    "l": "https://x.com/CGTNEurope/status/2037133987169124554",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "A news report about military operations in Sudan involving RSF and liberation forces, describing territorial gains. This is factual military reporting without hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-659ad610bb37",
+    "t": "Sudan Civil War: [24/3/2026]: \ud83c\uddf8\ud83c\udde9\nSituation on Blue Nile front: After a month of sporadic fighting and little change on the ground, the joint SPLM/RSF force launched a new offensive. This follows a month of preparations on Ethiopian territory, where reinforcements crossed into Sudanese territory over",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Suriyakmaps",
+    "l": "https://x.com/Suriyakmaps/status/2036938483101560990",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "A military update on the Sudan civil war situation describing offensive operations on the Blue Nile front. This is factual conflict reporting without hate speech content.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-281556152404",
+    "t": "Welcome to South Sudan \u2764\ufe0f\ud83c\uddf8\ud83c\uddf8\nThe heart \u2665 of Africa \ud83c\udf0d https://t.co/vsiTVDmViG",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ejykmykel1",
+    "l": "https://x.com/ejykmykel1/status/2037427667310395846",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "A welcoming post about South Sudan using patriotic language calling it 'the heart of Africa' with flag emojis. This is positive national pride expression, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-396fcb7701e2",
+    "t": "South Sudan is facing a man-made crisis that must be reversed.\n\nDuring his visit to Juba, Norway's Minister of International Development \u00c5smund Aukrust called for:\n\u2022 Dialogue\n\u2022 Protection of civilians\n\u2022 Humanitarian access\n\nFull statement: https://t.co/GHm2EYcKkF",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@NorwayinSSudan",
+    "l": "https://x.com/NorwayinSSudan/status/2037170209199432142",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "A diplomatic statement from Norway's minister about South Sudan's crisis calling for dialogue and civilian protection. This is official diplomatic communication, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e70cd4f66ac1",
+    "t": "Meningkatnya Konflik di Perbatasan Sudan Ancam Warga Sipil dan Operasi Bantuan https://t.co/mNBJiNKAlj",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@netralnews",
+    "l": "https://x.com/netralnews/status/2037139177733841026",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "A post in Indonesian about escalating conflict on Sudan's border threatening civilians and aid operations. This appears to be news reporting, not hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9c71ae03be23",
+    "t": "The durability of South Sudan's regime is impressive.",
+    "d": "2026-03-27",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Faiyla",
+    "l": "https://x.com/Faiyla/status/2037427881257652600",
+    "pr": "Normal",
+    "co": 0.7663,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-27",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "A neutral analytical observation about the durability of South Sudan's regime. This is political analysis without hate speech targeting any group.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
