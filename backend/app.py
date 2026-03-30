@@ -3,6 +3,7 @@
 import os
 from fastapi import FastAPI, Request, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from datetime import datetime, timezone
 import json
@@ -24,11 +25,8 @@ async def global_exception_handler(request: Request, exc: Exception):
     logger.error(f"Unhandled error on {request.url.path}: {exc}\n{traceback.format_exc()}")
     return JSONResponse(
         status_code=500,
-        content={"detail": str(exc), "path": str(request.url.path)},
+        content={"detail": "Internal server error"},
     )
-
-
-from fastapi.responses import JSONResponse
 
 _cors_origins = [
     "https://ksvend.github.io",
@@ -40,6 +38,7 @@ if _vercel_url:
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_cors_origins,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )

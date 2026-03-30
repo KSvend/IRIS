@@ -1,5 +1,6 @@
 """Supabase JWT + API key verification for FastAPI."""
 
+import hmac
 import jwt
 from fastapi import HTTPException, Header
 
@@ -11,8 +12,8 @@ def verify_request(
     authorization: str = Header("", alias="Authorization"),
 ) -> dict:
     """Verify both API key and Supabase JWT. Returns decoded JWT payload."""
-    # Check API key
-    if not api_key or api_key != API_KEY:
+    # Check API key (timing-safe comparison)
+    if not api_key or not hmac.compare_digest(api_key, API_KEY):
         raise HTTPException(status_code=401, detail="Invalid API key")
 
     # Check JWT
