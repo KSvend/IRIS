@@ -499,7 +499,51 @@ Several open questions remain for future work. The most pressing is the establis
 
 **References**
 
-[Placeholder: full bibliography to be populated during final paper writing]
+Adelani, D. I., Abbott, J., Neubig, G., D'souza, J., Kreutzer, J., Lignos, C., Palen-Michel, C., Buzaaba, H., Sibanda, B., Dossou, B., Mabuya, S., Emezue, C., Kahira, A., Muhammad, S. H., Ogundepo, O., Ifeoluwa, P., Gwadabe, T., Abdulmumin, I., Tesi, A., . . . Ruder, S. (2021). MasakhaNER: Named entity recognition for African languages. *Transactions of the Association for Computational Linguistics*, *9*, 1116–1131. https://doi.org/10.1162/tacl_a_00416
+
+Armed Conflict Location & Event Data Project (ACLED). (2023). *ACLED codebook 2023*. https://acleddata.com/knowledge-base/codebook/
+
+Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017). Automated hate speech detection and the problem of offensive language. *Proceedings of the 11th International AAAI Conference on Web and Social Media (ICWSM '17)*, 512–515. https://arxiv.org/abs/1703.04009
+
+Fortuna, P., & Nunes, S. (2018). A survey on automatic detection of hate speech in text. *ACM Computing Surveys*, *51*(4), Article 85. https://doi.org/10.1145/3232676
+
+Gilardi, F., Alizadeh, M., & Kubli, M. (2023). ChatGPT outperforms crowd-workers for text-annotation tasks. *Proceedings of the National Academy of Sciences*, *120*(30), e2305016120. https://doi.org/10.1073/pnas.2305016120
+
+He, X., Lin, Z., Gong, Y., Jin, H., Han, T., Zhao, B., Gu, Q., Shou, L., Duan, N., & Chen, W. (2024). Data augmentation using LLMs: Data perspectives, learning paradigms, and challenges. *Findings of the Association for Computational Linguistics: ACL 2024*, Paper 97. https://doi.org/10.18653/v1/2024.findings-acl.97
+
+Huang, X., Kwak, H., An, J., Sheth, A., & Alinejad-Rokny, H. (2024). *Harnessing artificial intelligence to combat online hate: Exploring the challenges and opportunities of large language models in hate speech detection*. arXiv:2403.08035.
+
+Imran, M., Mitra, P., & Castillo, C. (2016). Twitter as a lifeline: Human-annotated Twitter corpora for NLP of crisis-related messages. *Proceedings of the 10th Language Resources and Evaluation Conference (LREC 2016)*, 1638–1643. https://arxiv.org/abs/1605.05894
+
+Jigsaw & Google Counter Abuse Technology. (2017–present). *Perspective API*. https://www.perspectiveapi.com/
+
+Lees, A., Tran, V. Q., Tay, Y., Sorensen, J., Gupta, J., Metzler, D., & Vasserman, L. (2022). A new generation of Perspective API: Efficient multilingual character-level transformers. *Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '22)*. https://doi.org/10.1145/3534678.3539147
+
+Muhammad, S. H., Abdulmumin, I., Yimam, S. M., Adelani, D. I., Ahmad, I. S., Ousidhoum, N., Ayele, A., Mohammad, S. M., Beloucif, M., & Ruder, S. (2023). SemEval-2023 Task 12: Sentiment analysis for African languages (AfriSenti-SemEval). *Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)*. https://arxiv.org/abs/2304.06845
+
+Muhammad, S. H., et al. (2025). AfriHate: A multilingual collection of hate speech and abusive language datasets for African languages. arXiv:2501.08284.
+
+OpenAI. (2022–present). *Moderation API*. https://platform.openai.com/docs/api-reference/moderations
+
+Orife, I., Kreutzer, J., Sibanda, B., Whitenack, D., Siminyu, K., Martinus, L., Tapo, A., Adeyemi, M., Rajendran, J., Mwase, C., Abbott, J., Degila, J., Mokgesi-Selinga, M., Okolo, U., Sawirtu, L., Sanogomele, S., Tonja, A., & Eddine, M. B. (2020). *Masakhane — machine translation for Africa*. arXiv:2003.11529. AfricaNLP Workshop, ICLR 2020.
+
+PeaceTech Lab. (2016–2020). *Hate speech monitoring reports: South Sudan* (biweekly series). PeaceTech Lab. https://www.peacetechlab.org/
+
+Raleigh, C., Linke, A., Hegre, H., & Karlsen, J. (2010). Introducing ACLED: An armed conflict location and event dataset. *Journal of Peace Research*, *47*(5), 651–660. https://doi.org/10.1177/0022343310378914
+
+Röttger, P., Kirk, H. R., Vidgen, B., Attanasio, G., Nozza, D., & Hovy, D. (2024). *Investigating annotator bias in large language models for hate speech detection*. arXiv:2406.11109.
+
+Röttger, P., Vidgen, B., Hovy, D., & Pierrehumbert, J. (2023). *Toxic bias: Perspective API misreads German as more toxic*. arXiv:2312.12651.
+
+Sap, M., Card, D., Gabriel, S., Choi, Y., & Smith, N. A. (2019). The risk of racial bias in hate speech detection. *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL 2019)*, 1668–1678.
+
+Swahili and code-switched English-Swahili political hate speech detection textual dataset. (2025). *Data Intelligence*. https://doi.org/10.3724/2096-7004.di.2025.0053
+
+The Sentinel Project for Genocide Prevention. (2008–present). *Early warning system: Operational process and stages of genocide model*. https://thesentinelproject.org/what-we-do/early-warning-system/
+
+UNDP Chief Digital Office. (2021–present). *iVerify: Combating misinformation and strengthening information integrity*. United Nations Development Programme. https://www.undp.org/digital/iverify
+
+Waseem, Z., & Hovy, D. (2016). Hateful symbols or hateful people? Predictive features for hate speech detection on Twitter. *Proceedings of the NAACL Student Research Workshop*, 88–93. https://doi.org/10.18653/v1/N16-2013
 
 **Appendices**
 
