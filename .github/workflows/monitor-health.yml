@@ -1,0 +1,43 @@
+name: Pipeline Health Check
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check recent monitor runs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "=== Monitor Run Health Check ==="
+          echo "Checking runs from the past 7 days..."
+
+          RUNS=$(gh run list \
+            --repo ${{ github.repository }} \
+            --workflow "MERLx IRIS Monitor" \
+            --created ">$(date -d '7 days ago' -u +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -v-7d -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --json conclusion,createdAt \
+            --limit 20)
+
+          TOTAL=$(echo "$RUNS" | jq 'length')
+          SUCCESS=$(echo "$RUNS" | jq '[.[] | select(.conclusion == "success")] | length')
+          FAILED=$(echo "$RUNS" | jq '[.[] | select(.conclusion == "failure")] | length')
+
+          echo "Total runs: $TOTAL"
+          echo "Successful: $SUCCESS"
+          echo "Failed: $FAILED"
+
+          if [ "$TOTAL" -lt 10 ]; then
+            echo "::warning::Low run count: only $TOTAL runs in past 7 days (expected ~14)"
+          fi
+
+          if [ "$FAILED" -gt 2 ]; then
+            echo "::error::High failure rate: $FAILED failed runs in past 7 days"
+            exit 1
+          fi
+
+          echo "Pipeline health: OK ($SUCCESS/$TOTAL successful)"
