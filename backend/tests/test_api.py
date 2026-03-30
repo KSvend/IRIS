@@ -1,6 +1,7 @@
 """Tests for the FastAPI application endpoints."""
 
 import os
+import time
 import pytest
 import pytest_asyncio
 from httpx import AsyncClient, ASGITransport
@@ -12,8 +13,33 @@ os.environ.setdefault("SUPABASE_KEY", "test-key")
 os.environ.setdefault("SUPABASE_SERVICE_KEY", "test-key")
 os.environ.setdefault("ANTHROPIC_API_KEY", "test-key")
 os.environ.setdefault("API_KEY", "test-api-key")
+os.environ.setdefault("SUPABASE_JWT_SECRET", "test-secret-key-at-least-32-chars-long!!")
 
-from backend.app import app, _rate_limits, DAILY_LIMIT
+import jwt
+from backend.app import app
+
+TEST_API_KEY = "test-api-key"
+TEST_JWT_SECRET = "test-secret-key-at-least-32-chars-long!!"
+
+
+def _make_token(sub="user-123", exp_offset=3600):
+    """Create a valid Supabase-style JWT for testing."""
+    payload = {
+        "sub": sub,
+        "aud": "authenticated",
+        "exp": int(time.time()) + exp_offset,
+        "iat": int(time.time()),
+        "role": "authenticated",
+    }
+    return jwt.encode(payload, TEST_JWT_SECRET, algorithm="HS256")
+
+
+def _auth_headers():
+    """Return valid auth headers for protected endpoints."""
+    return {
+        "X-API-Key": TEST_API_KEY,
+        "Authorization": f"Bearer {_make_token()}",
+    }
 
 
 @pytest_asyncio.fixture
@@ -21,14 +47,6 @@ async def client():
     transport = ASGITransport(app=app)
     async with AsyncClient(transport=transport, base_url="http://test") as c:
         yield c
-
-
-@pytest.fixture(autouse=True)
-def reset_rate_limits():
-    """Clear rate-limit state between tests."""
-    _rate_limits.clear()
-    yield
-    _rate_limits.clear()
 
 
 # ---------------------------------------------------------------------------
@@ -44,7 +62,7 @@ async def test_health_no_auth(client):
 
 
 # ---------------------------------------------------------------------------
-# Auth & rate limiting
+# Auth
 # ---------------------------------------------------------------------------
 
 
@@ -56,31 +74,26 @@ async def test_chat_requires_auth(client):
 
 @pytest.mark.asyncio
 async def test_invalid_api_key_rejected(client):
+    token = _make_token()
     resp = await client.post(
         "/chat",
         json={"query": "test"},
-        headers={"X-API-Key": "wrong-key"},
+        headers={
+            "X-API-Key": "wrong-key",
+            "Authorization": f"Bearer {token}",
+        },
     )
     assert resp.status_code == 401
 
 
 @pytest.mark.asyncio
-async def test_rate_limit_enforced(client, mocker):
-    mocker.patch("backend.app._get_chat_agent")
-    mocker.patch("backend.app._get_supabase")
-    # Exhaust the daily limit
-    _rate_limits["test-api-key"] = {
-        "count": DAILY_LIMIT,
-        "date": __import__("datetime").datetime.now(
-            __import__("datetime").timezone.utc
-        ).strftime("%Y-%m-%d"),
-    }
+async def test_missing_jwt_rejected(client):
     resp = await client.post(
         "/chat",
-        json={"query": "one more"},
-        headers={"X-API-Key": "test-api-key"},
+        json={"query": "test"},
+        headers={"X-API-Key": TEST_API_KEY},
     )
-    assert resp.status_code == 429
+    assert resp.status_code == 401
 
 
 # ---------------------------------------------------------------------------
@@ -101,7 +114,7 @@ async def test_chat_with_valid_key(client, mocker):
     resp = await client.post(
         "/chat",
         json={"query": "test question"},
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     data = resp.json()
@@ -121,7 +134,7 @@ async def test_feedback_endpoint(client, mocker):
     resp = await client.post(
         "/chat/feedback",
         json={"session_id": "s1", "feedback_type": "helpful"},
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     assert resp.json()["status"] == "recorded"
@@ -143,7 +156,7 @@ async def test_posts_review_queue(client, mocker):
     )
     resp = await client.get(
         "/posts/review-queue",
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     data = resp.json()
@@ -163,7 +176,7 @@ async def test_posts_review_queue_filter_country(client, mocker):
     )
     resp = await client.get(
         "/posts/review-queue?country=Kenya",
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     assert resp.json()["total"] == 1

@@ -1,6 +1,8 @@
 """Tests for blind annotation endpoints."""
 
 import os
+import time
+import jwt
 import pytest
 import pytest_asyncio
 from httpx import AsyncClient, ASGITransport
@@ -11,8 +13,30 @@ os.environ.setdefault("SUPABASE_KEY", "test-key")
 os.environ.setdefault("SUPABASE_SERVICE_KEY", "test-key")
 os.environ.setdefault("ANTHROPIC_API_KEY", "test-key")
 os.environ.setdefault("API_KEY", "test-api-key")
+os.environ.setdefault("SUPABASE_JWT_SECRET", "test-secret-key-at-least-32-chars-long!!")
 
 from backend.app import app
+
+TEST_API_KEY = "test-api-key"
+TEST_JWT_SECRET = "test-secret-key-at-least-32-chars-long!!"
+
+
+def _make_token():
+    payload = {
+        "sub": "user-123",
+        "aud": "authenticated",
+        "exp": int(time.time()) + 3600,
+        "iat": int(time.time()),
+        "role": "authenticated",
+    }
+    return jwt.encode(payload, TEST_JWT_SECRET, algorithm="HS256")
+
+
+def _auth_headers():
+    return {
+        "X-API-Key": TEST_API_KEY,
+        "Authorization": f"Bearer {_make_token()}",
+    }
 
 
 @pytest_asyncio.fixture
@@ -46,7 +70,7 @@ async def test_blind_annotate_success(client, mocker):
             "confidence": "High",
             "note": "Clear hate speech",
         },
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     data = resp.json()
@@ -72,7 +96,7 @@ async def test_blind_annotate_minimal_fields(client, mocker):
             "pass_number": 2,
             "classification": "Normal",
         },
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     assert resp.json()["status"] == "saved"
@@ -96,7 +120,7 @@ async def test_blind_annotate_inserts_correct_payload(client, mocker):
             "classification": "Abusive",
             "confidence": "Medium",
         },
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
 
     mock_client.table.assert_called_with("blind_annotations")
@@ -134,7 +158,7 @@ async def test_blind_review_queue_primary_annotator(client, mocker):
 
     resp = await client.get(
         "/posts/blind-review-queue?reviewer=annotator_kenya",
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     data = resp.json()
@@ -151,7 +175,7 @@ async def test_blind_review_queue_different_reviewer(client, mocker):
 
     resp = await client.get(
         "/posts/blind-review-queue?reviewer=annotator_sudan",
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     data = resp.json()
@@ -167,7 +191,7 @@ async def test_blind_review_queue_unknown_reviewer(client, mocker):
 
     resp = await client.get(
         "/posts/blind-review-queue?reviewer=nobody",
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     assert resp.json()["total"] == 0
@@ -180,7 +204,7 @@ async def test_blind_review_queue_pagination(client, mocker):
 
     resp = await client.get(
         "/posts/blind-review-queue?reviewer=annotator_kenya&limit=2&offset=0",
-        headers={"X-API-Key": "test-api-key"},
+        headers=_auth_headers(),
     )
     assert resp.status_code == 200
     data = resp.json()

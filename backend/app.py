@@ -1,5 +1,6 @@
 """FastAPI application with all endpoints, auth middleware, CORS, and rate limiting."""
 
+import os
 from fastapi import FastAPI, Request, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -8,7 +9,7 @@ import json
 import uuid
 from pathlib import Path
 
-from backend.config import API_KEY
+from backend.auth import verify_request
 from backend.agents.chat_agent import create_chat_agent
 import traceback
 import logging
@@ -29,16 +30,19 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 from fastapi.responses import JSONResponse
 
+_cors_origins = [
+    "https://ksvend.github.io",
+]
+_vercel_url = os.environ.get("VERCEL_FRONTEND_URL", "")
+if _vercel_url:
+    _cors_origins.append(_vercel_url)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ksvend.github.io"],
+    allow_origins=_cors_origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Rate limiting (in-memory, resets on restart)
-_rate_limits: dict[str, dict] = {}  # key -> {"count": int, "date": str}
-DAILY_LIMIT = 50
 
 _chat_agent = None
 _supabase = None
@@ -75,21 +79,6 @@ def _get_hs_posts():
         else:
             _hs_posts = []
     return _hs_posts
-
-
-async def verify_api_key(request: Request):
-    """Validate X-API-Key header and enforce daily rate limit."""
-    # HF Spaces proxy intercepts Authorization/X-API-Key headers against secrets.
-    # For pilot: accept any request. Frontend PIN gate provides basic access control.
-    return "pilot"
-    # Rate limiting
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    if key not in _rate_limits or _rate_limits[key]["date"] != today:
-        _rate_limits[key] = {"count": 0, "date": today}
-    _rate_limits[key]["count"] += 1
-    if _rate_limits[key]["count"] > DAILY_LIMIT:
-        raise HTTPException(status_code=429, detail="Daily query limit exceeded")
-    return key
 
 
 # ---------------------------------------------------------------------------
@@ -189,8 +178,7 @@ def _get_blind_manifest():
 @app.get("/health")
 async def health():
     """System status check -- no auth required."""
-    import os
-    from backend.config import SUPABASE_URL, SUPABASE_KEY
+    from backend.config import API_KEY, SUPABASE_URL, SUPABASE_KEY
     return {
         "status": "healthy",
         "api_key_len": len(API_KEY) if API_KEY else 0,
@@ -207,7 +195,7 @@ async def debug_headers(request: Request):
 
 
 @app.post("/chat")
-async def chat(req: ChatRequest, _=Depends(verify_api_key)):
+async def chat(req: ChatRequest, user=Depends(verify_request)):
     """Main chat endpoint. Invokes the LangGraph chat agent."""
     agent = _get_chat_agent()
     session_id = req.session_id or str(uuid.uuid4())
@@ -243,7 +231,7 @@ async def chat(req: ChatRequest, _=Depends(verify_api_key)):
 
 
 @app.get("/chat/history/{session_id}")
-async def chat_history(session_id: str, _=Depends(verify_api_key)):
+async def chat_history(session_id: str, user=Depends(verify_request)):
     """Return conversation history for the given session."""
     client = _get_supabase()
     result = (
@@ -257,7 +245,7 @@ async def chat_history(session_id: str, _=Depends(verify_api_key)):
 
 
 @app.post("/chat/feedback")
-async def chat_feedback(req: FeedbackRequest, _=Depends(verify_api_key)):
+async def chat_feedback(req: FeedbackRequest, user=Depends(verify_request)):
     """Record lightweight feedback on a chat session."""
     try:
         client = _get_supabase()
@@ -279,7 +267,7 @@ async def chat_feedback(req: FeedbackRequest, _=Depends(verify_api_key)):
 
 
 @app.get("/knowledge/stats")
-async def knowledge_stats(_=Depends(verify_api_key)):
+async def knowledge_stats(user=Depends(verify_request)):
     """Return high-level knowledge base statistics."""
     client = _get_supabase()
     chunks = client.table("document_chunks").select("id", count="exact").execute()
@@ -312,7 +300,7 @@ async def knowledge_search(
     status: str | None = None,
     limit: int = 20,
     offset: int = 0,
-    _=Depends(verify_api_key),
+    user=Depends(verify_request),
 ):
     """Filtered search over findings."""
     client = _get_supabase()
@@ -334,7 +322,7 @@ async def knowledge_search(
 
 
 @app.get("/verification/pending")
-async def verification_pending(limit: int = 50, _=Depends(verify_api_key)):
+async def verification_pending(limit: int = 50, user=Depends(verify_request)):
     """Return unverified findings for human review."""
     client = _get_supabase()
     result = (
@@ -349,7 +337,7 @@ async def verification_pending(limit: int = 50, _=Depends(verify_api_key)):
 
 
 @app.post("/verification/decide")
-async def verification_decide(req: VerificationRequest, _=Depends(verify_api_key)):
+async def verification_decide(req: VerificationRequest, user=Depends(verify_request)):
     """Record a verification decision (VERIFY / FLAG / REJECT) on a finding."""
     client = _get_supabase()
     current = client.table("findings").select("*").eq("id", req.finding_id).execute()
@@ -391,7 +379,7 @@ async def posts_review_queue(
     subtype: str | None = None,
     limit: int = 20,
     offset: int = 0,
-    _=Depends(verify_api_key),
+    user=Depends(verify_request),
 ):
     """Return hate-speech posts for human annotation, sorted by lowest confidence.
 
@@ -420,7 +408,7 @@ async def posts_review_queue(
 
 
 @app.post("/posts/annotate")
-async def posts_annotate(req: AnnotationRequest, _=Depends(verify_api_key)):
+async def posts_annotate(req: AnnotationRequest, user=Depends(verify_request)):
     """Save a human annotation for a hate-speech post."""
     client = _get_supabase()
     client.table("post_annotations").insert(
@@ -436,7 +424,7 @@ async def posts_annotate(req: AnnotationRequest, _=Depends(verify_api_key)):
 
 
 @app.post("/posts/blind-annotate")
-async def posts_blind_annotate(req: BlindAnnotationRequest, _=Depends(verify_api_key)):
+async def posts_blind_annotate(req: BlindAnnotationRequest, user=Depends(verify_request)):
     """Save a blind annotation (pass 1 or 2) for gold-standard evaluation."""
     client = _get_supabase()
     client.table("blind_annotations").insert(
@@ -458,7 +446,7 @@ async def posts_blind_review_queue(
     reviewer: str,
     limit: int = 20,
     offset: int = 0,
-    _=Depends(verify_api_key),
+    user=Depends(verify_request),
 ):
     """Return blind-review posts assigned to the given reviewer via the manifest."""
     manifest = _get_blind_manifest()
@@ -486,7 +474,7 @@ class DisinfoFlagRequest(BaseModel):
 
 
 @app.post("/posts/flag-disinfo")
-async def flag_disinfo(req: DisinfoFlagRequest, _=Depends(verify_api_key)):
+async def flag_disinfo(req: DisinfoFlagRequest, user=Depends(verify_request)):
     """Flag a post as potential disinformation — creates a finding for verification."""
     client = _get_supabase()
     client.table("findings").insert(
