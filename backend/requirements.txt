@@ -15,6 +15,9 @@ sentence-transformers==3.4.1
 # Supabase
 supabase==2.13.0
 
+# Auth
+PyJWT==2.9.0
+
 # Web scraping / document extraction
 trafilatura==2.0.0
 pymupdf==1.25.3
