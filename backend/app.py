@@ -178,20 +178,7 @@ def _get_blind_manifest():
 @app.get("/health")
 async def health():
     """System status check -- no auth required."""
-    from backend.config import API_KEY, SUPABASE_URL, SUPABASE_KEY
-    return {
-        "status": "healthy",
-        "api_key_len": len(API_KEY) if API_KEY else 0,
-        "supabase_url": SUPABASE_URL[:30] + "..." if SUPABASE_URL else "",
-        "supabase_key_len": len(SUPABASE_KEY) if SUPABASE_KEY else 0,
-        "supabase_key_prefix": SUPABASE_KEY[:15] + "..." if SUPABASE_KEY else "",
-    }
-
-
-@app.get("/debug/headers")
-async def debug_headers(request: Request):
-    """Temporary: dump request headers for debugging."""
-    return {"headers": dict(request.headers)}
+    return {"status": "healthy"}
 
 
 @app.post("/chat")
