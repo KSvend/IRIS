@@ -5,7 +5,22 @@
 --
 -- Run this in the Supabase SQL Editor (Dashboard → SQL Editor → New Query).
 
--- 1. Enable RLS on every table
+-- 1. Create blind_annotations if it doesn't exist yet
+CREATE TABLE IF NOT EXISTS blind_annotations (
+    id              UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    post_id         TEXT NOT NULL,
+    reviewer        TEXT NOT NULL,
+    pass            INT NOT NULL CHECK (pass IN (1, 2)),
+    classification  TEXT NOT NULL CHECK (classification IN ('Normal', 'Abusive', 'Hate')),
+    subtype         TEXT,
+    confidence      TEXT CHECK (confidence IN ('Low', 'Medium', 'High')),
+    note            TEXT,
+    created_at      TIMESTAMP DEFAULT NOW()
+);
+CREATE INDEX IF NOT EXISTS idx_blind_post ON blind_annotations(post_id);
+CREATE INDEX IF NOT EXISTS idx_blind_reviewer ON blind_annotations(reviewer);
+
+-- 2. Enable RLS on every table
 ALTER TABLE sources ENABLE ROW LEVEL SECURITY;
 ALTER TABLE document_chunks ENABLE ROW LEVEL SECURITY;
 ALTER TABLE findings ENABLE ROW LEVEL SECURITY;
