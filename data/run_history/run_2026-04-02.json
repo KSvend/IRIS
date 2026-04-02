@@ -1,6 +1,6 @@
 {
   "date": "2026-04-02",
-  "timestamp": "2026-04-02T07:22:11.544543+00:00",
+  "timestamp": "2026-04-02T14:55:11.299732+00:00",
   "config": {
     "run_sweeps": true,
     "run_ml": true,
@@ -24,7 +24,7 @@
     },
     "1d_event_lifecycle": {
       "to_dormant": 0,
-      "to_resolved": 1,
+      "to_resolved": 0,
       "still_active": 4
     },
     "1f_event_enrich": {
