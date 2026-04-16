@@ -29894,7 +29894,10 @@
       "@ChrisKipyegon_",
       "@TheDailySomalia",
       "@Kenya_Digest",
-      "@Ronnie40529876"
+      "@Ronnie40529876",
+      "@KCBInKenya",
+      "@flyjiyad",
+      "@faisalroble19"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29919,6 +29922,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/grok/status/2017766911413526937",
         "date": "2026-03-27"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RasBashirWere01/status/1903811807598244318",
+        "date": "2026-04-16"
       }
     ],
     "spread": 5,
@@ -29962,7 +29970,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-27",
+    "last_seen": "2026-04-16",
     "status": "active",
     "observations": [
       {
@@ -30000,9 +30008,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-16",
+        "url": "https://x.com/RasBashirWere01/status/1903811807598244318",
+        "summary": "#43against1: Kikuyu elders need to convene and cancel this Gachagua, he is drawing hate towards their tribe! Kenya is not dynasty",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 4,
+    "observation_count": 5,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30011,6 +30028,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3
