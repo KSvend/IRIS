@@ -29656,7 +29656,9 @@
       "@georgeo29564433",
       "@20gimsack",
       "@AfricanReports",
-      "@RG5417"
+      "@RG5417",
+      "@MaLiKaM642645",
+      "@apexguardhq"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29686,6 +29688,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/RG5417/status/2038152845015330995",
         "date": "2026-03-29"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/apexguardhq/status/2037711644550164883",
+        "date": "2026-04-17"
       }
     ],
     "spread": 5,
@@ -29734,7 +29741,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-29",
+    "last_seen": "2026-04-17",
     "status": "active",
     "observations": [
       {
@@ -29781,9 +29788,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-17",
+        "url": "https://x.com/apexguardhq/status/2037711644550164883",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 5,
+    "observation_count": 6,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29792,6 +29808,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -29808,7 +29825,8 @@
     "headline": "Turkish analyst accused of echoing ISIS propaganda against Puntland counterterrorism efforts",
     "summary": "Disinformation campaign targeting Turkish geopolitical commentator Umut Çağrı Sarı, falsely alleging he echoes ISIS propaganda through similarities to Manjaniq Media. The narrative appears designed to undermine Puntland's counterterrorism operations by discrediting supportive analysts.",
     "actors": [
-      "@CirkaNews"
+      "@CirkaNews",
+      "@RuqiaBotan"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29818,6 +29836,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
         "date": "2026-03-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "date": "2026-04-17"
       }
     ],
     "spread": 1,
@@ -29860,7 +29883,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-23",
+    "last_seen": "2026-04-17",
     "status": "active",
     "observations": [
       {
@@ -29871,16 +29894,28 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-17",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
     "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
     "extracted_claims": [
       "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda similar to Manjaniq Media"
     ],
     "_review_notes": "This appears to be part of broader efforts to discredit international support for Puntland's counterterrorism activities by targeting foreign analysts.",
-    "_reviewed": "2026-03-23T07:58:02.306623+00:00"
+    "_reviewed": "2026-03-23T07:58:02.306623+00:00",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-03-23-308",
