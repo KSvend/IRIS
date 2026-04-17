@@ -29658,7 +29658,10 @@
       "@AfricanReports",
       "@RG5417",
       "@MaLiKaM642645",
-      "@apexguardhq"
+      "@apexguardhq",
+      "@zionistprince",
+      "@INeedPS47899090",
+      "@engosoble"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29692,6 +29695,11 @@
       {
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/apexguardhq/status/2037711644550164883",
+        "date": "2026-04-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Hoozbad/status/2045155019775725598",
         "date": "2026-04-17"
       }
     ],
@@ -29797,9 +29805,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-17",
+        "url": "https://x.com/Hoozbad/status/2045155019775725598",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 6,
+    "observation_count": 7,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29808,6 +29825,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -29950,7 +29968,9 @@
       "@Ronnie40529876",
       "@KCBInKenya",
       "@flyjiyad",
-      "@faisalroble19"
+      "@faisalroble19",
+      "@InsideKeOnline",
+      "@Njehu022"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29980,6 +30000,16 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/RasBashirWere01/status/1903811807598244318",
         "date": "2026-04-16"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2044879768193999180",
+        "date": "2026-04-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2044735733521650011",
+        "date": "2026-04-17"
       }
     ],
     "spread": 5,
@@ -30023,7 +30053,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-16",
+    "last_seen": "2026-04-17",
     "status": "active",
     "observations": [
       {
@@ -30070,9 +30100,27 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-17",
+        "url": "https://x.com/InsideKeOnline/status/2044879768193999180",
+        "summary": "Sunview’s KSh 6,000 Per CT Scan Cut: How BBS Mall owner Abdiweli Hassan’s Healthcare Empire Is Built on Questions Kenya",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-04-17",
+        "url": "https://x.com/InsideKeOnline/status/2044735733521650011",
+        "summary": "PICS: Kamukunji MP Yusuf Hassan and Somalia's ambassador to Kenya Jabril Ibrahim joined Muslim worshippers at BBS Mall",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 5,
+    "observation_count": 7,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30081,6 +30129,8 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
+      3,
       3,
       3,
       3,
