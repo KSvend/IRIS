@@ -29412,7 +29412,8 @@
       "@moacirpogo",
       "@Isaiasgiggs1",
       "@DreamBoy254",
-      "@kanairofinest"
+      "@kanairofinest",
+      "@AdvocateDevta"
     ],
     "platforms": [
       "X (Twitter)",
@@ -29468,6 +29469,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/ngetichkhillar1/status/1925643745350853021",
         "date": "2026-04-16"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AdvocateDevta/status/2045514065691468194",
+        "date": "2026-04-18"
       }
     ],
     "spread": 5,
@@ -29511,7 +29517,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-16",
+    "last_seen": "2026-04-18",
     "status": "active",
     "observations": [
       {
@@ -29605,9 +29611,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-18",
+        "url": "https://x.com/AdvocateDevta/status/2045514065691468194",
+        "summary": "Bar bala is a spy implanted in india and papu is son of soros ... Its time to uproot and destroy this spy agency that",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 10,
+    "observation_count": 11,
     "intensity_trend": [
       3,
       3,
@@ -29617,7 +29632,8 @@
       2,
       2,
       2,
-      3
+      3,
+      2
     ],
     "_original_headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
     "_original_summary": "Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos!    John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 6 near-identical posts from 2 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
@@ -29970,7 +29986,8 @@
       "@flyjiyad",
       "@faisalroble19",
       "@InsideKeOnline",
-      "@Njehu022"
+      "@Njehu022",
+      "@ketchmain"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30010,6 +30027,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/InsideKeOnline/status/2044735733521650011",
         "date": "2026-04-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/flyjiyad/status/2043632130014499007",
+        "date": "2026-04-18"
       }
     ],
     "spread": 5,
@@ -30053,7 +30075,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-17",
+    "last_seen": "2026-04-18",
     "status": "active",
     "observations": [
       {
@@ -30118,9 +30140,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-18",
+        "url": "https://x.com/flyjiyad/status/2043632130014499007",
+        "summary": "BBS Mall in Nairobi is telling a Somali story: a story of a culture of entrepreneurship that emanates from the Islamic",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 7,
+    "observation_count": 8,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30129,6 +30160,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
