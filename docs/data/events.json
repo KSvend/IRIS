@@ -29413,7 +29413,8 @@
       "@Isaiasgiggs1",
       "@DreamBoy254",
       "@kanairofinest",
-      "@AdvocateDevta"
+      "@AdvocateDevta",
+      "@22Eduard0"
     ],
     "platforms": [
       "X (Twitter)",
@@ -29474,6 +29475,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/AdvocateDevta/status/2045514065691468194",
         "date": "2026-04-18"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/22Eduard0/status/2046501156994580732",
+        "date": "2026-04-21"
       }
     ],
     "spread": 5,
@@ -29517,7 +29523,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-18",
+    "last_seen": "2026-04-21",
     "status": "active",
     "observations": [
       {
@@ -29620,9 +29626,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-21",
+        "url": "https://x.com/22Eduard0/status/2046501156994580732",
+        "summary": "Censurar a la prensa no es democrático. Deja al descubierto las aspiraciones perversas de las organizaciones de Soros.",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 11,
+    "observation_count": 12,
     "intensity_trend": [
       3,
       3,
@@ -29633,6 +29648,7 @@
       2,
       2,
       3,
+      2,
       2
     ],
     "_original_headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
