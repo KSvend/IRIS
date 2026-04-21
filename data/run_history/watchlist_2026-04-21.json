@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "timestamp": "2026-04-21T08:07:36.197636+00:00",
+  "timestamp": "2026-04-21T15:16:45.111719+00:00",
   "api_calls": 20,
   "summary": {
     "sources_checked": 13,
@@ -107,8 +107,8 @@
     },
     {
       "name": "Africa Check",
-      "new_content_found": false,
-      "finding_count": 0
+      "new_content_found": true,
+      "finding_count": 1
     },
     {
       "name": "PesaCheck",
@@ -122,16 +122,16 @@
     },
     {
       "name": "CTC West Point",
-      "new_content_found": true,
-      "finding_count": 1
+      "new_content_found": false,
+      "finding_count": 0
     }
   ],
   "findings": [
     {
-      "source": "CTC West Point",
-      "title": "Combating Terrorism Center \u2013 CTC at West Point",
-      "snippet": "Skip to content\n\nMAIN MENU\n\nRESEARCH\nDATA & PRIMARY SOURCES\nHARMONY PROGRAM\nMILITANT IMAGERY PROJECT\nAL-MAWLA INTERROGATION REPORTS\nPUBLICATIONS\nREPORTS\nCTC SENTINEL\nCTC PERSPECTIVES\nREGIONS\nEUROPE\nAMERICAS\nAFRICA\nMIDDLE EAST\nSOUTH & CENTRAL ASIA\nEAST & SOUTHEAST ASIA\nTOPICS\nCOOPERATION, COMPETITION",
-      "url": "https://ctc.westpoint.edu",
+      "source": "Africa Check",
+      "title": "Africa Check | Fact Checker | Sorting fact from fiction",
+      "snippet": "Skip to main content\nEnglishFran\u00e7ais\nDONATE\nKnow more, do better\n\nAfrica Check fosters informed public debate and empowers society to make evidence-based decisions\n\nFacebook\nTwitter\nInstagram\nTikTok\njohn mbadi infrastructure debt\nKenya's finance minister defends infrastructure fund but includes misl",
+      "url": "https://africacheck.org",
       "relevant": true
     }
   ]

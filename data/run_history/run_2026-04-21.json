@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "timestamp": "2026-04-21T08:23:11.084718+00:00",
+  "timestamp": "2026-04-21T15:33:06.863621+00:00",
   "config": {
     "run_sweeps": true,
     "run_ml": true,
@@ -20,14 +20,14 @@
     "1b_disinfo_sweep": null,
     "1c_disinfo_classify": {
       "events_added": 0,
-      "classified_count": 560,
-      "disinfo_count": 51,
-      "hs_only_count": 0,
-      "noise_count": 509,
-      "high_confidence_count": 28,
-      "medium_confidence_count": 3,
+      "classified_count": 559,
+      "disinfo_count": 72,
+      "hs_only_count": 1,
+      "noise_count": 486,
+      "high_confidence_count": 48,
+      "medium_confidence_count": 4,
       "low_confidence_count": 20,
-      "coordination_groups": 26,
+      "coordination_groups": 10,
       "new_claims": [
         {
           "source_text": "BREAKING: four #SNA soldiers killed in an #AlShabaab ambush attack Near Halgan town in Hiiraan region. Shahada Agency\n#Somalia https://t.co/IN35BdFXun",
@@ -55,21 +55,6 @@
           ],
           "url": "https://x.com/apexguardhq/status/2037711644550164883",
           "author": "@apexguardhq"
-        },
-        {
-          "source_text": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media\n\nWho is Umut \u00c7a\u011fr\u0131 Sar\u0131?\nA Turkish geopolitical commentator pushi",
-          "potential_claims": [
-            "the region of colluding with Israel and link local leaders to Sudans RSF and gold smuggling",
-            "the state of being a WesternZionist puppet",
-            "Bosaso hosts Israeli radar and mercenaries under Denis protection"
-          ],
-          "novel_hashtags": [],
-          "keyword_group": "ISS_PROPAGANDA",
-          "narrative_ids": [
-            "NAR-SO-004"
-          ],
-          "url": "https://x.com/CirkaNews/status/1934975949189382447",
-          "author": "@CirkaNews"
         },
         {
           "source_text": "Breaking News\nWhat you see on the streets is not a revolution\u2014it\u2019s a transaction. Paid goons, staged slogans, and foreign-backed media selling a lie.\nKenya is the target.\n#ChaosCartel https://t.co/R4f",
@@ -142,9 +127,39 @@
           "author": "@bonsoul_ke"
         },
         {
-          "source_text": "\"The #43against1 hashtag sparked heated debates on tribal divisions in Kenya. Are social media campaigns like these fueling division or exposing political schemes? Share your thoughts!\n\" https://t.co/",
+          "source_text": "BREAKING News\nCS Kipchumba Murkomen:\n\u201cWe have a Nation to keep and build. We shall protect every Kenyan and their hustle.\u201d\n\nSecurity agencies are on high alert as Kenya prepares for 25th June.\nPeace i",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#june25th"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/PeterKariukiKE/status/1937729141530673599",
+          "author": "@PeterKariukiKE"
+        },
+        {
+          "source_text": "Kenya must not confuse manipulation for momentum. The difference is blood. #ChaosCartel Breaking News",
           "potential_claims": [
-            "political schemes Share your thoughts"
+            "manipulation for momentum"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/KCoffeewithacop/status/1937588009106387253",
+          "author": "@KCoffeewithacop"
+        },
+        {
+          "source_text": "A quiet but dramatic ownership shake-up preceded the awarding of a key medical equipment contract under Kenya\u2019s National Equipment Support Programme (NESP) to Caring International in October 2024. The",
+          "potential_claims": [
+            "Technologies owned by Hong Kong and UAE firms respectively are supplying Xray and cardiothoracic units",
+            "VAT liabilities tied to staffing services provided to the retailer",
+            "backed by UAE investors and linked to Eastleighs BBS Mall is supplying CT scanners"
           ],
           "novel_hashtags": [],
           "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
@@ -152,106 +167,102 @@
             "NAR-KE-002",
             "NAR-KE-004"
           ],
-          "url": "https://x.com/RasBashirWere01/status/1903811807598244318",
-          "author": "@RasBashirWere01"
+          "url": "https://x.com/FINTAK_Official/status/1955842609999384914",
+          "author": "@FINTAK_Official"
         },
         {
-          "source_text": "I'm not in support of Rigathi Gachagua neither I'm I in support of President William Ruto or Raila Odinga. We should reject all tribal leaders. Anyone pushing the #43Against1 narrative should be asham",
-          "potential_claims": [],
-          "novel_hashtags": [
-            "#jklive"
+          "source_text": "vickymarshy808 Based on recent reports:\n\n- Sunview Medipro: Owned by Abdiweli Mohamed Hassan (BBS Mall billionaire), backed by UAE investors.\n- Carling International: Linked to Dr. Erick Rutto (KNCCI ",
+          "potential_claims": [
+            "backed by UAE investors"
           ],
+          "novel_hashtags": [],
           "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
           "narrative_ids": [
             "NAR-KE-002",
             "NAR-KE-004"
           ],
-          "url": "https://x.com/KimaniNgere/status/1882291457446326723",
-          "author": "@KimaniNgere"
-        },
-        {
-          "source_text": "My people mistrust and hatred will only leave us standing alone. Leaders who preach division are no friends of Kenya or us\n#43against1 \n#PeaceIsPower\n#EmpoweringWesternKenya\n#BoldReformer\n#BomaYANGUin",
-          "potential_claims": [],
-          "novel_hashtags": [
-            "#peaceispower",
-            "#boldreformer",
-            "#bomayanguinanijenga"
-          ],
-          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
-          "narrative_ids": [
-            "NAR-KE-002",
-            "NAR-KE-004"
-          ],
-          "url": "https://x.com/IamMzalendo/status/1882041247126401159",
-          "author": "@IamMzalendo"
+          "url": "https://x.com/grok/status/1955247000884220334",
+          "author": "@grok"
         }
       ],
-      "new_handles": [],
-      "timeline_events": [
+      "new_handles": [
         {
-          "id": "APF-2026-04-21-308",
-          "date": "2026-04-21",
+          "handle": "@flyjiyad",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/flyjiyad/status/2046241939536621683",
+          "type": "HS_DISINFO",
           "country": "Kenya",
-          "event_type": "DISINFO",
-          "disinfo_subtype": "coordinated_campaign",
-          "threat_level": "P3 MODERATE",
-          "headline": "Censurar a la prensa no es democr\u00e1tico. Deja al descubierto las aspiraciones perversas de las organizaciones de Soros.",
-          "summary": "Censurar a la prensa no es democr\u00e1tico. Deja al descubierto las aspiraciones perversas de las organizaciones de Soros. Observed across 2 posts from 1 accounts on X (Twitter).",
-          "actors": [
-            "@22Eduard0"
-          ],
-          "platforms": [
-            "X (Twitter)"
-          ],
-          "sources": [
-            {
-              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/22Eduard0/status/2046501156994580732",
-              "date": "2026-04-21"
-            }
-          ],
-          "spread": 2,
-          "disinfo_narratives": [
-            "NAR-KE-003b",
-            "NAR-KE-003a"
-          ],
-          "related_events": [],
-          "disinfo_confidence": "MEDIUM",
-          "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
-          "detection_method": "direct_tracking",
-          "content_observed": true,
-          "source_basis": "pattern_observed",
-          "verification_status": "pattern_match",
-          "narrative_families": [],
-          "ve_related": false,
-          "al_shabaab_related": false,
-          "tags": [
-            "auto_classified"
-          ],
-          "data_source": "social_media_monitoring",
-          "detected_by": "iris_classify_2026-04-21",
-          "detection_timestamp": "2026-04-21T08:11:16.713903+00:00"
+          "reason": "Posted 4 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
         },
         {
-          "id": "APF-2026-04-21-370",
+          "handle": "@PeterKariukiKE",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/PeterKariukiKE/status/1937729141530673599",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 3 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@xholeihub",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/xholeihub/status/1937590020044685337",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@yokuty12",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/yokuty12/status/1937585758287642643",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@grok",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/grok/status/1955272346845303134",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        }
+      ],
+      "timeline_events": [
+        {
+          "id": "APF-2026-04-21-937",
           "date": "2026-04-21",
           "country": "Somalia",
           "event_type": "DISINFO",
           "disinfo_subtype": "propaganda",
           "threat_level": "P2 HIGH",
           "headline": "Friday March 27th 2026 [Evening News Brief] \ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
-          "summary": "Friday March 27th 2026 [Evening News Brief] \ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today. 2 very seriously wounded and 8 seriously wounded. -  \ud83d\udfe5 TSA Executive Order: President Trump has signed . 13 near-identical posts from 13 accounts suggest coordinated amplification.",
+          "summary": "Friday March 27th 2026 [Evening News Brief] \ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today. 2 very seriously wounded and 8 seriously wounded. -  \ud83d\udfe5 TSA Executive Order: President Trump has signed . 12 near-identical posts from 12 accounts suggest coordinated amplification.",
           "actors": [
-            "@apexguardhq",
-            "@war_doon",
-            "@DinoLeadingNews",
-            "@Mahamed81443729",
-            "@Halgamaassc99",
             "@engosoble",
-            "@Warfidiye",
-            "@vermoutharc",
+            "@MagaEchoPulse",
+            "@hirad63",
+            "@Halgamaassc99",
             "@11Abuker",
-            "@MohamedDekAbdal"
+            "@war_doon",
+            "@ymedad",
+            "@AfricanReports",
+            "@MohamedDekAbdal",
+            "@Mahamed81443729"
           ],
           "platforms": [
             "X (Twitter)"
@@ -301,83 +312,28 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-04-21",
-          "detection_timestamp": "2026-04-21T08:11:16.713903+00:00"
+          "detection_timestamp": "2026-04-21T15:20:25.611643+00:00"
         },
         {
-          "id": "APF-2026-04-21-750",
-          "date": "2026-04-21",
-          "country": "South Sudan",
-          "event_type": "DISINFO",
-          "disinfo_subtype": "propaganda",
-          "threat_level": "P2 HIGH",
-          "headline": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and",
-          "summary": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media Who is Umut \u00c7a\u011fr\u0131 Sar\u0131? A Turkish geopolitical commentator pushing narratives that portray Puntland\u2019s counterterror.",
-          "actors": [
-            "@CirkaNews"
-          ],
-          "platforms": [
-            "X (Twitter)"
-          ],
-          "sources": [
-            {
-              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/CirkaNews/status/1934975949189382447",
-              "date": "2026-04-21"
-            }
-          ],
-          "spread": 1,
-          "disinfo_narratives": [
-            "NAR-SO-004"
-          ],
-          "related_events": [],
-          "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
-          "detection_method": "direct_tracking",
-          "content_observed": true,
-          "source_basis": "pattern_observed",
-          "verification_status": "confirmed",
-          "narrative_families": [
-            {
-              "family": "Attack Claim",
-              "intensity": 3,
-              "calibrated": false,
-              "calibration_note": "Auto-classified by apify_classify.py"
-            },
-            {
-              "family": "Recruitment",
-              "intensity": 2,
-              "calibrated": false,
-              "calibration_note": "Auto-classified by apify_classify.py"
-            }
-          ],
-          "ve_related": true,
-          "al_shabaab_related": false,
-          "tags": [
-            "auto_classified"
-          ],
-          "data_source": "social_media_monitoring",
-          "detected_by": "iris_classify_2026-04-21",
-          "detection_timestamp": "2026-04-21T08:11:16.713903+00:00"
-        },
-        {
-          "id": "APF-2026-04-21-545",
+          "id": "APF-2026-04-21-238",
           "date": "2026-04-21",
           "country": "Kenya",
           "event_type": "DISINFO",
           "disinfo_subtype": "coordinated_campaign",
           "threat_level": "P2 HIGH",
           "headline": "#ChaosCartel: In public, he called them brave. In private, he planned chaos. Gachagua\u2019s project isn\u2019t reform; it\u2019s ruin. What started",
-          "summary": "In public, he called them brave. In private, he planned chaos. Gachagua\u2019s project isn\u2019t reform; it\u2019s ruin. What started as solidarity now reeks of sabotage. Faith Demonstrations Karatina  Spiritual Citam Rongai Kikuyu ThikaCitizen TV Central Kenya. 9 near-identical posts from 9 accounts suggest coordinated amplification. Campaign hashtags: #ChaosCartel.",
+          "summary": "In public, he called them brave. In private, he planned chaos. Gachagua\u2019s project isn\u2019t reform; it\u2019s ruin. What started as solidarity now reeks of sabotage. Faith Demonstrations Karatina  Spiritual Citam Rongai Kikuyu ThikaCitizen TV Central Kenya. 20 near-identical posts from 16 accounts suggest coordinated amplification. Campaign hashtags: #ChaosCartel.",
           "actors": [
-            "@BiancaNaom1",
             "@bonsoul_ke",
-            "@miss_tokyo3",
-            "@SassyOnchain",
-            "@mzeemzima100",
+            "@TabbyKanyungu",
             "@Isaiasgiggs1",
             "@LensEmpress",
+            "@SassyOnchain",
+            "@BiancaNaom1",
+            "@First_Lady009",
+            "@Ass_tridah",
             "@KKCommetary",
-            "@TabbyKanyungu"
+            "@KCoffeewithacop"
           ],
           "platforms": [
             "X (Twitter)"
@@ -391,8 +347,8 @@
           ],
           "spread": 5,
           "disinfo_narratives": [
-            "NAR-KE-003b",
-            "NAR-KE-003a"
+            "NAR-KE-003a",
+            "NAR-KE-003b"
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
@@ -422,26 +378,28 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-04-21",
-          "detection_timestamp": "2026-04-21T08:11:16.713903+00:00"
+          "detection_timestamp": "2026-04-21T15:20:25.611643+00:00"
         },
         {
-          "id": "APF-2026-04-21-083",
+          "id": "APF-2026-04-21-856",
           "date": "2026-04-21",
           "country": "Kenya",
           "event_type": "DISINFO",
-          "disinfo_subtype": "coordinated_campaign",
+          "disinfo_subtype": "misinformation",
           "threat_level": "P2 HIGH",
-          "headline": "#43against1: I'm not in support of Rigathi Gachagua neither I'm I in support of President William Ruto or Raila Odinga. We should",
-          "summary": "I'm not in support of Rigathi Gachagua neither I'm I in support of President William Ruto or Raila Odinga. We should reject all tribal leaders. Anyone pushing the  narrative should be ashamed of themselves. We cannot have a repeat of 2007, for what r. 8 near-identical posts from 8 accounts suggest coordinated amplification. Campaign hashtags: #43Against1, #43against1.",
+          "headline": "BBS Mall in Nairobi is telling a Somali story: a story of a culture of entrepreneurship that emanates from the Islamic",
+          "summary": "BBS Mall in Nairobi is telling a Somali story: a story of a culture of entrepreneurship that emanates from the Islamic mercantile culture. As such, Somalis have transformed Eastleigh in Nairobi and turned it from a derelict neighborhood to a bustling. 20 near-identical posts from 16 accounts suggest coordinated amplification.",
           "actors": [
-            "@RasBashirWere01",
-            "@KimaniNgere",
-            "@IamMzalendo",
-            "@MteteziPato",
-            "@noormuktar99",
-            "@ObinnaWaGikomba",
-            "@NaekuMercy",
-            "@AminaTisha94086"
+            "@KCBInKenya",
+            "@allenochi",
+            "@grok",
+            "@MVP_Eugene",
+            "@Lyre__Bird",
+            "@Njehu022",
+            "@flyjiyad",
+            "@ketchmain",
+            "@Z3IT3IGIST",
+            "@Mukstastic"
           ],
           "platforms": [
             "X (Twitter)"
@@ -449,31 +407,31 @@
           "sources": [
             {
               "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/noormuktar99/status/1929647018261061920",
+              "url": "https://x.com/flyjiyad/status/2046241939536621683",
               "date": "2026-04-21"
             }
           ],
           "spread": 5,
           "disinfo_narratives": [
-            "NAR-KE-002",
-            "NAR-KE-004"
+            "NAR-KE-004",
+            "NAR-KE-002"
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Coordinated campaign indicators: #43against1. Matches documented troll network pattern.",
+          "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
           "detection_method": "direct_tracking",
           "content_observed": true,
           "source_basis": "pattern_observed",
           "verification_status": "confirmed",
           "narrative_families": [
             {
-              "family": "Misinformation/Disinformation",
+              "family": "Ethnic Incitement",
               "intensity": 3,
               "calibrated": false,
               "calibration_note": "Auto-classified by apify_classify.py"
             },
             {
-              "family": "Delegitimization",
+              "family": "Misinformation/Disinformation",
               "intensity": 3,
               "calibrated": false,
               "calibration_note": "Auto-classified by apify_classify.py"
@@ -486,10 +444,10 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-04-21",
-          "detection_timestamp": "2026-04-21T08:11:16.713903+00:00"
+          "detection_timestamp": "2026-04-21T15:20:25.611643+00:00"
         }
       ],
-      "items_file": "/home/runner/work/IRIS/IRIS/monitoring/apify_results/items_2026-04-21_morning.json"
+      "items_file": "/home/runner/work/IRIS/IRIS/monitoring/apify_results/items_2026-04-21_afternoon.json"
     },
     "1d_event_lifecycle": {
       "to_dormant": 0,
@@ -506,58 +464,80 @@
     },
     "2a_hs_sweep": {
       "groups_searched": 11,
-      "total_results": 524,
-      "total_cost_usd": 0.134,
-      "budget_remaining_usd": 0.366,
+      "total_results": 483,
+      "total_cost_usd": 0.0958,
+      "budget_remaining_usd": 0.4042,
       "sweep_date": "2026-04-21"
     },
     "2b_hs_classify": {
-      "total_items": 524,
-      "noise_filtered": 4,
-      "ea_rejected": 341,
-      "no_indicators": 14,
-      "hs_confirmed": 165,
-      "hs_high": 127,
-      "hs_medium": 24,
-      "hs_low": 14,
-      "duplicates_skipped": 26,
-      "posts_appended": 136,
+      "total_items": 483,
+      "noise_filtered": 3,
+      "ea_rejected": 268,
+      "no_indicators": 22,
+      "hs_confirmed": 190,
+      "hs_high": 148,
+      "hs_medium": 22,
+      "hs_low": 20,
+      "duplicates_skipped": 57,
+      "posts_appended": 131,
       "autolearning": {
-        "new_toxic_handles": 12,
+        "new_toxic_handles": 7,
         "new_learned_keywords": 10,
         "new_narrative_discoveries": 5
       },
-      "subtype_proposals": [],
+      "subtype_proposals": [
+        {
+          "proposed_subtype": "HS-NEW-HS_DEHUMANISE_SOM",
+          "hs_group": "HS_DEHUMANISE_SOM",
+          "unclassified_count": 6,
+          "examples": [
+            "@AliSamattar Wixi ba xamar bay noqotay inta kel 17 gobal waa daango magaci somalia waa xamar odayada",
+            "@pilothusen @OIC_OCI Shaw waxan ayaa 30 ka sano inala-dagalamayay, somalia bilaash ayaynu ku haysana",
+            "@SMSSomaliTV1 HADII LAWEEYDIIYO DADKA KU TAQASUSEY IN EEY AQRIYAAN WAJIYADA WAXEEY DHIHI LAHAAYEEN N"
+          ],
+          "status": "needs_review"
+        },
+        {
+          "proposed_subtype": "HS-NEW-HS_ETHNIC_KE",
+          "hs_group": "HS_ETHNIC_KE",
+          "unclassified_count": 5,
+          "examples": [
+            "@EugeneOngeri 17 yrs stealing...kisii are thieves, corrupt,and witches ogopa them",
+            "Mtu anatoka Kenya anaiva namna hii cheiii \u2764",
+            "@EduTalkTz Kenya ina kilometer 164,000 na wai wameeka \u201cLami \u201c kilometer 25,000 na wao wametulia tu ,"
+          ],
+          "status": "needs_review"
+        }
+      ],
       "subtype_distribution": {
-        "Unknown HS Type": 139,
-        "Dehumanisation": 12,
-        "Clan Targeting": 8,
-        "Religious Incitement": 4,
-        "Gendered Violence": 1,
-        "Political Incitement": 1
+        "Unknown HS Type": 154,
+        "Political Incitement": 11,
+        "Religious Incitement": 9,
+        "Clan Targeting": 9,
+        "Dehumanisation": 7
       },
       "country_distribution": {
-        "Kenya": 61,
-        "South Sudan": 59,
-        "Somalia": 45
+        "Kenya": 81,
+        "South Sudan": 56,
+        "Somalia": 53
       }
     },
     "2c_ml_enrich": {
-      "classified": 142,
-      "total": 7439
+      "classified": 134,
+      "total": 7472
     },
     "2d_llm_qa": {
-      "explained": 136,
-      "total": 136
+      "explained": 131,
+      "total": 131
     },
     "2e_quality_gate": {
-      "removed": 98,
-      "remaining": 7341,
+      "removed": 104,
+      "remaining": 7368,
       "archived_to": "/home/runner/work/IRIS/IRIS/data/run_history/misclassified_2026-04-21.json"
     },
     "3a_reach": {
-      "updated": 24,
-      "checked": 38
+      "updated": 23,
+      "checked": 39
     }
   }
 }
