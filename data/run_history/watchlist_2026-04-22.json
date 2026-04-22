@@ -1,13 +1,13 @@
 {
   "date": "2026-04-22",
-  "timestamp": "2026-04-22T08:03:40.467264+00:00",
+  "timestamp": "2026-04-22T15:15:52.592318+00:00",
   "api_calls": 20,
   "summary": {
     "sources_checked": 13,
     "partners_checked": 7,
-    "total_findings": 0,
+    "total_findings": 1,
     "sources_with_new_content": 0,
-    "partners_with_new_content": 0
+    "partners_with_new_content": 1
   },
   "source_results": [
     {
@@ -107,8 +107,8 @@
     },
     {
       "name": "Africa Check",
-      "new_content_found": false,
-      "finding_count": 0
+      "new_content_found": true,
+      "finding_count": 1
     },
     {
       "name": "PesaCheck",
@@ -126,5 +126,13 @@
       "finding_count": 0
     }
   ],
-  "findings": []
+  "findings": [
+    {
+      "source": "Africa Check",
+      "title": "Africa Check | Fact Checker | Sorting fact from fiction",
+      "snippet": "Skip to main content\nEnglishFran\u00e7ais\nDONATE\nKnow more, do better\n\nAfrica Check fosters informed public debate and empowers society to make evidence-based decisions\n\nFacebook\nTwitter\nInstagram\nTikTok\njohn mbadi infrastructure debt\nKenya's finance minister defends infrastructure fund but includes misl",
+      "url": "https://africacheck.org",
+      "relevant": true
+    }
+  ]
 }
