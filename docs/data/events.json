@@ -6461,6 +6461,7 @@
     "data_source": "Catalogue",
     "related_events": [
       "APF-2026-03-18-537",
+      "APF-2026-04-23-320",
       "EXT-2025-024",
       "field_somalia-038"
     ],
@@ -30379,5 +30380,159 @@
     "_original_summary": "These nazi idiots think that positively covering “Israel’s” genocide would save them from being treated like subhumans by the greater nazis they defended.",
     "_review_notes": "This appears to be hate speech/inflammatory rhetoric rather than structured disinformation. The content is concerning for its use of Nazi comparisons and inflammatory language.",
     "_reviewed": "2026-03-30T07:59:31.214763+00:00"
+  },
+  {
+    "id": "APF-2026-04-23-676",
+    "date": "2026-04-23",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Soro's manipulated judge! Not surprised! Soros sneaks them in during off year elections. Vote every off year and in all",
+    "summary": "Soro's manipulated judge! Not surprised! Soros sneaks them in during off year elections. Vote every off year and in all special elections!. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@Suzutte7611",
+      "@cougrocks234"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Suzutte7611/status/2047225999750803935",
+        "date": "2026-04-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/cougrocks234/status/2047227065418862800",
+        "date": "2026-04-23"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-KE-003b",
+      "NAR-KE-003a",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-03-18-537",
+      "APF-2026-03-23-310",
+      "APF-2026-04-23-320"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-23",
+    "detection_timestamp": "2026-04-23T08:14:47.633792+00:00",
+    "last_seen": "2026-04-23",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-23",
+        "url": "https://x.com/Suzutte7611/status/2047225999750803935",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-04-23",
+        "url": "https://x.com/cougrocks234/status/2047227065418862800",
+        "summary": "Yes. He will save our world from evil doers. He is the only world leader who stands up to woke demonic globalists like",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 2,
+    "intensity_trend": [
+      2
+    ]
+  },
+  {
+    "id": "APF-2026-04-23-320",
+    "date": "2026-04-23",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "This screenshot shows a fabricated post falsely attributed to realDonaldTrump. The text doesn't exist on his X account",
+    "summary": "This screenshot shows a fabricated post falsely attributed to realDonaldTrump. The text doesn't exist on his X account (or Truth Social crossposts), and searches turn up no match. It opens with Michael Savage's signature \"Welcome to the Savage Nation.",
+    "actors": [
+      "@ElizabethF19445"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ElizabethF19445/status/2047226633036186114",
+        "date": "2026-04-23"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-03-18-537",
+      "APF-2026-04-23-676",
+      "EXT-2025-022",
+      "GAP-2026-004",
+      "field_somalia-037",
+      "report_synthesis-001"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: ai-generated.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-23",
+    "detection_timestamp": "2026-04-23T08:14:47.633792+00:00",
+    "last_seen": "2026-04-23",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-23",
+        "url": "https://x.com/ElizabethF19445/status/2047226633036186114",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
