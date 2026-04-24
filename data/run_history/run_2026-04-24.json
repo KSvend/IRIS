@@ -1,0 +1,662 @@
+{
+  "date": "2026-04-24",
+  "timestamp": "2026-04-24T08:31:12.964241+00:00",
+  "config": {
+    "run_sweeps": true,
+    "run_ml": true,
+    "run_reach": true
+  },
+  "results": {
+    "0_submissions": {
+      "processed": 0
+    },
+    "1a_watchlist": {
+      "sources_checked": 13,
+      "partners_checked": 7,
+      "total_findings": 1,
+      "sources_with_new_content": 0,
+      "partners_with_new_content": 1
+    },
+    "1b_disinfo_sweep": null,
+    "1c_disinfo_classify": {
+      "events_added": 1,
+      "classified_count": 561,
+      "disinfo_count": 63,
+      "hs_only_count": 3,
+      "noise_count": 495,
+      "high_confidence_count": 42,
+      "medium_confidence_count": 1,
+      "low_confidence_count": 20,
+      "coordination_groups": 18,
+      "new_claims": [
+        {
+          "source_text": "BREAKING: four #SNA soldiers killed in an #AlShabaab ambush attack Near Halgan town in Hiiraan region. Shahada Agency\n#Somalia https://t.co/IN35BdFXun",
+          "potential_claims": [
+            "attack Near Halgan town in Hiiraan region"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "AS_CASUALTY_FABRICATION",
+          "narrative_ids": [
+            "NAR-SO-001"
+          ],
+          "url": "https://x.com/AfricanReports/status/883728480881475585",
+          "author": "@AfricanReports"
+        },
+        {
+          "source_text": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media\n\nWho is Umut \u00c7a\u011fr\u0131 Sar\u0131?\nA Turkish geopolitical commentator pushi",
+          "potential_claims": [
+            "the region of colluding with Israel and link local leaders to Sudans RSF and gold smuggling",
+            "the state of being a WesternZionist puppet",
+            "Bosaso hosts Israeli radar and mercenaries under Denis protection"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "ISS_PROPAGANDA",
+          "narrative_ids": [
+            "NAR-SO-004"
+          ],
+          "url": "https://x.com/CirkaNews/status/1934975949189382447",
+          "author": "@CirkaNews"
+        },
+        {
+          "source_text": "KENYA : #BonifaceMwangi\nActivist Boniface Mwangi free after arrest in Tanzania.\nKenyan activist Boniface Mwangi has been released from detention after being held incommunicado for three days by Tanzan",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#kenyavstz",
+            "#bonifacemwangi"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/wishfmkenya/status/1925586026912723288",
+          "author": "@wishfmkenya"
+        },
+        {
+          "source_text": "Kenya must confront a hard truth: who really gains from outsourced protests? It\u2019s not the youth. Recent arrests suggest foreign actors are hijacking activism. Modern coups don\u2019t need tanks\u2014just hashta",
+          "potential_claims": [
+            "manipulated young minds"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/kanairofinest/status/1925511879247487089",
+          "author": "@kanairofinest"
+        },
+        {
+          "source_text": "Kenyans never disappoint with the Parody accounts of the Presidents \ud83d\ude05\ud83d\ude05We have serious issues in Kenya \ud83e\udd23 \n\n#DogsOfWar #FreeBonifaceMwangi  |East Africa coup|Cherargei|Mukuru Owner Speak|Idi Amin Mama|S",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#freebonifacemwangi",
+            "#europaleaguefinal"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/hosea606666/status/1925488697853505620",
+          "author": "@hosea606666"
+        },
+        {
+          "source_text": "In 2024, Kenya witnessed one of the continent's most digitally sophisticated protests funded by the Open Society.\n\nTanzania was almost going the same route. Luckily, the authorities acted swiftly by d",
+          "potential_claims": [
+            "s most digitally sophisticated protests funded by the Open Society"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/kasongoKbb/status/1925471848843632963",
+          "author": "@kasongoKbb"
+        },
+        {
+          "source_text": "The so-called \u201cactivism\u201d funded by NGOs is now endangering the East African Community. From Kenya to TZ, sovereignty is under assault by foreign strategy.\nEastAfrican Coup\n#DogsOfWar\nKenyavsTZ",
+          "potential_claims": [
+            "funded by NGOs is now endangering the East African Community"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/TheKenyaPundit/status/1925463097478680926",
+          "author": "@TheKenyaPundit"
+        },
+        {
+          "source_text": "From Kayole to Kajiado, goons are being paid, youth are being used, and the country is under attack from within.\n#ChaosCartel #wednesday #fyp #June25 #maandamano #kenyantiktok\ud83c\uddf0\ud83c\uddea #kenyapolitics",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#kenyantiktok",
+            "#wednesday",
+            "#june25"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://www.tiktok.com/@mtkenyanewstv/video/7519737177140514053",
+          "author": "@mtkenyanewstv"
+        }
+      ],
+      "new_handles": [
+        {
+          "handle": "@flyjiyad",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/flyjiyad/status/2046868554151018638",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 5 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@nasrah_cutie",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@HonLimoKe",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/HonLimoKe/status/1925517984090460666",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@DreamBoy254",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/DreamBoy254/status/1925514778757210187",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@hezwachira",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/hezwachira/status/1925486621555589623",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        }
+      ],
+      "timeline_events": [
+        {
+          "id": "APF-2026-04-24-036",
+          "date": "2026-04-24",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P2 HIGH",
+          "headline": "#DogsOfWar: Miguna has seen this before. These aren\u2019t revolutionaries, they\u2019re operatives, rehearsing their next circus. First",
+          "summary": "Miguna has seen this before. These aren\u2019t revolutionaries, they\u2019re operatives, rehearsing their next circus. First Kenya, now Tanzania.  KenyavsTZ Gachagua Arrested. Observed across 2 posts from 1 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+          "actors": [
+            "@nasrah_cutie"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
+              "date": "2026-04-24"
+            }
+          ],
+          "spread": 2,
+          "disinfo_narratives": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Coordinated campaign indicators: #dogsofwar. Matches documented troll network pattern.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Delegitimization",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-04-24",
+          "detection_timestamp": "2026-04-24T08:22:19.948207+00:00"
+        },
+        {
+          "id": "APF-2026-04-24-006",
+          "date": "2026-04-24",
+          "country": "Somalia",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "BREAKING: four  soldiers killed in an  ambush attack Near Halgan town in Hiiraan region. Shahada Agency",
+          "summary": "BREAKING: four  soldiers killed in an  ambush attack Near Halgan town in Hiiraan region. Shahada Agency. 11 near-identical posts from 11 accounts suggest coordinated amplification.",
+          "actors": [
+            "@Mahamed81443729",
+            "@AfricanReports",
+            "@Sooreyare",
+            "@Warfidiye",
+            "@war_doon",
+            "@MohamedDekAbdal",
+            "@Halgamaassc99",
+            "@engosoble",
+            "@hirad63",
+            "@11Abuker"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/AfricanReports/status/883728480881475585",
+              "date": "2026-04-24"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-SO-001"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references 'shahada' with VE context (attack, soldiers killed); classified as VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": true,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-04-24",
+          "detection_timestamp": "2026-04-24T08:22:19.948207+00:00"
+        },
+        {
+          "id": "APF-2026-04-24-851",
+          "date": "2026-04-24",
+          "country": "Somalia",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "The word 'jihad' is interesting because its meaning has changed over time. When the Koran was written and probably",
+          "summary": "The word 'jihad' is interesting because its meaning has changed over time. When the Koran was written and probably during the time of Muhammad, the word meant \"internal struggle/strive\" eg: read the Koran and strive to find meaning in it (Surah Al-Fu.",
+          "actors": [
+            "@no_name_yet123"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/no_name_yet123/status/2047435155338629570",
+              "date": "2026-04-24"
+            }
+          ],
+          "spread": 1,
+          "disinfo_narratives": [
+            "NAR-SO-007"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": true,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-04-24",
+          "detection_timestamp": "2026-04-24T08:22:19.948207+00:00",
+          "last_seen": "2026-04-24",
+          "status": "active",
+          "observations": [
+            {
+              "date": "2026-04-24",
+              "url": "https://x.com/no_name_yet123/status/2047435155338629570",
+              "summary": "Initial detection",
+              "platforms": [
+                "X (Twitter)"
+              ],
+              "reach": {}
+            }
+          ],
+          "observation_count": 1
+        },
+        {
+          "id": "APF-2026-04-24-814",
+          "date": "2026-04-24",
+          "country": "South Sudan",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and",
+          "summary": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media Who is Umut \u00c7a\u011fr\u0131 Sar\u0131? A Turkish geopolitical commentator pushing narratives that portray Puntland\u2019s counterterror. Observed across 2 posts from 2 accounts on X (Twitter).",
+          "actors": [
+            "@CirkaNews",
+            "@AmiroucheSunni"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/CirkaNews/status/1934975949189382447",
+              "date": "2026-04-24"
+            }
+          ],
+          "spread": 2,
+          "disinfo_narratives": [
+            "NAR-SO-004"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-04-24",
+          "detection_timestamp": "2026-04-24T08:22:19.948207+00:00"
+        },
+        {
+          "id": "APF-2026-04-24-676",
+          "date": "2026-04-24",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P2 HIGH",
+          "headline": "#ChaosCartel, #DogsOfWar: When \"activists\" travel first-class and stay at 5-star hotels on foreign NGO money, their mission isn\u2019t justice it\u2019s",
+          "summary": "When \"activists\" travel first-class and stay at 5-star hotels on foreign NGO money, their mission isn\u2019t justice it\u2019s disruption. Tanzania saw it. Kenya must ask: Who\u2019s really pulling the strings behind these \"protests\"? EastAfrican Coup. 19 near-identical posts from 16 accounts suggest coordinated amplification. Campaign hashtags: #ChaosCartel, #DogsOfWar.",
+          "actors": [
+            "@wishfmkenya",
+            "@kanairofinest",
+            "@theboyfk",
+            "@hezwachira",
+            "@Amazingmasai_",
+            "@mtkenyanewstv",
+            "@hosea606666",
+            "@DreamBoy254",
+            "@TheKenyaPundit",
+            "@ngetichkhillar1"
+          ],
+          "platforms": [
+            "X (Twitter)",
+            "TikTok"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/ngetichkhillar1/status/1925643745350853021",
+              "date": "2026-04-24"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Coordinated campaign indicators: #dogsofwar. Matches documented troll network pattern.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Delegitimization",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-04-24",
+          "detection_timestamp": "2026-04-24T08:22:19.948207+00:00"
+        },
+        {
+          "id": "APF-2026-04-24-739",
+          "date": "2026-04-24",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "misinformation",
+          "threat_level": "P2 HIGH",
+          "headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+          "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from. 8 near-identical posts from 4 accounts suggest coordinated amplification.",
+          "actors": [
+            "@SaddiqueShaban",
+            "@flyjiyad",
+            "@Eastleighvoice",
+            "@Njehu022"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+              "date": "2026-04-24"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-004",
+            "NAR-KE-002"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Ethnic Incitement",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-04-24",
+          "detection_timestamp": "2026-04-24T08:22:19.948207+00:00"
+        }
+      ],
+      "items_file": "/home/runner/work/IRIS/IRIS/monitoring/apify_results/items_2026-04-24_morning.json"
+    },
+    "1d_event_lifecycle": {
+      "to_dormant": 0,
+      "to_resolved": 0,
+      "still_active": 7
+    },
+    "1f_event_enrich": {
+      "links_added": 6,
+      "threat_upgrades": 0
+    },
+    "1e_event_review": {
+      "reviewed": 0,
+      "reclassified": 0,
+      "claims_extracted": 0,
+      "keywords_proposed": 0,
+      "total_events": 433
+    },
+    "2a_hs_sweep": {
+      "groups_searched": 11,
+      "total_results": 516,
+      "total_cost_usd": 0.023,
+      "budget_remaining_usd": 0.477,
+      "sweep_date": "2026-04-24"
+    },
+    "2b_hs_classify": {
+      "total_items": 516,
+      "noise_filtered": 7,
+      "ea_rejected": 321,
+      "no_indicators": 12,
+      "hs_confirmed": 176,
+      "hs_high": 125,
+      "hs_medium": 29,
+      "hs_low": 22,
+      "duplicates_skipped": 33,
+      "posts_appended": 139,
+      "autolearning": {
+        "new_toxic_handles": 16,
+        "new_learned_keywords": 10,
+        "new_narrative_discoveries": 4
+      },
+      "subtype_proposals": [],
+      "subtype_distribution": {
+        "Unknown HS Type": 154,
+        "Dehumanisation": 10,
+        "Clan Targeting": 6,
+        "Religious Incitement": 5,
+        "Ethnic Targeting": 1
+      },
+      "country_distribution": {
+        "Kenya": 103,
+        "South Sudan": 42,
+        "Somalia": 31
+      }
+    },
+    "2c_ml_enrich": {
+      "classified": 143,
+      "total": 7895
+    },
+    "2d_llm_qa": {
+      "explained": 0,
+      "total": 527
+    },
+    "2e_quality_gate": {
+      "removed": 0,
+      "remaining": 7895
+    },
+    "3a_reach": {
+      "updated": 25,
+      "checked": 46
+    }
+  }
+}
