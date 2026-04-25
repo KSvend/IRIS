@@ -118,7 +118,7 @@ def find_matching_event(proposed, existing_events):
             best_score = sim
             best_match = candidate
 
-    if best_score >= 0.4:
+    if best_score >= 0.55:
         return best_match, best_score
 
     return None, 0
@@ -231,7 +231,7 @@ def check_and_update(proposed_event, events_list=None):
 
     matched, score = find_matching_event(proposed_event, events_list)
 
-    if matched and score >= 0.4:
+    if matched and score >= 0.55:
         added = add_observation_to_event(matched, proposed_event)
         if added:
             return {
