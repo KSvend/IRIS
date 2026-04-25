@@ -1,13 +1,13 @@
 {
   "date": "2026-04-25",
-  "timestamp": "2026-04-25T14:45:32.451536+00:00",
+  "timestamp": "2026-04-25T18:34:03.438039+00:00",
   "api_calls": 20,
   "summary": {
     "sources_checked": 13,
     "partners_checked": 7,
-    "total_findings": 0,
+    "total_findings": 2,
     "sources_with_new_content": 0,
-    "partners_with_new_content": 0
+    "partners_with_new_content": 2
   },
   "source_results": [
     {
@@ -107,8 +107,8 @@
     },
     {
       "name": "Africa Check",
-      "new_content_found": false,
-      "finding_count": 0
+      "new_content_found": true,
+      "finding_count": 1
     },
     {
       "name": "PesaCheck",
@@ -122,9 +122,24 @@
     },
     {
       "name": "CTC West Point",
-      "new_content_found": false,
-      "finding_count": 0
+      "new_content_found": true,
+      "finding_count": 1
     }
   ],
-  "findings": []
+  "findings": [
+    {
+      "source": "Africa Check",
+      "title": "Africa Check | Fact Checker | Sorting fact from fiction",
+      "snippet": "Skip to main content\nEnglishFran\u00e7ais\nDONATE\nKnow more, do better\n\nAfrica Check fosters informed public debate and empowers society to make evidence-based decisions\n\nFacebook\nTwitter\nInstagram\nTikTok\nkenya william ruto economy\nThe price of a \u2018middle-income\u2019 economy? Fact-checking Kenyan president on ",
+      "url": "https://africacheck.org",
+      "relevant": true
+    },
+    {
+      "source": "CTC West Point",
+      "title": "Combating Terrorism Center \u2013 CTC at West Point",
+      "snippet": "Skip to content\n\nMAIN MENU\n\nRESEARCH\nDATA & PRIMARY SOURCES\nHARMONY PROGRAM\nMILITANT IMAGERY PROJECT\nAL-MAWLA INTERROGATION REPORTS\nPUBLICATIONS\nREPORTS\nCTC SENTINEL\nCTC PERSPECTIVES\nREGIONS\nEUROPE\nAMERICAS\nAFRICA\nMIDDLE EAST\nSOUTH & CENTRAL ASIA\nEAST & SOUTHEAST ASIA\nTOPICS\nCOOPERATION, COMPETITION",
+      "url": "https://ctc.westpoint.edu",
+      "relevant": true
+    }
+  ]
 }

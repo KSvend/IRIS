@@ -6462,6 +6462,7 @@
     "related_events": [
       "APF-2026-03-18-537",
       "APF-2026-04-23-320",
+      "APF-2026-04-25-495",
       "EXT-2025-024",
       "field_somalia-038"
     ],
@@ -30452,7 +30453,8 @@
     "related_events": [
       "APF-2026-03-18-537",
       "APF-2026-03-23-310",
-      "APF-2026-04-23-320"
+      "APF-2026-04-23-320",
+      "APF-2026-04-25-495"
     ],
     "disinfo_confidence": "MEDIUM",
     "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
@@ -30636,6 +30638,155 @@
       {
         "date": "2026-04-24",
         "url": "https://x.com/no_name_yet123/status/2047435155338629570",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-25-643",
+    "date": "2026-04-25",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-04-25"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "ANNEX-005",
+      "ANNEX-010",
+      "ANNEX-018",
+      "APF-2026-03-17-895",
+      "APF-2026-03-23-344",
+      "MON-2026-03-16-008"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-25",
+    "detection_timestamp": "2026-04-25T18:37:48.311642+00:00",
+    "last_seen": "2026-04-25",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-25",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-25-495",
+    "date": "2026-04-25",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Modern AI-generated images and videos can be virtually indistinguishable from real ones, making definitive calls tough",
+    "summary": "Modern AI-generated images and videos can be virtually indistinguishable from real ones, making definitive calls tough from visuals alone. This image is not authentic. It’s a manipulated or AI-edited version based on real April 23, 2026 Oval Office f.",
+    "actors": [
+      "@grok"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/grok/status/2048107574025666641",
+        "date": "2026-04-25"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-03-18-537",
+      "APF-2026-03-23-308",
+      "APF-2026-04-23-320",
+      "APF-2026-04-23-676",
+      "EXT-2025-022",
+      "GAP-2026-004"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: ai-generated.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-25",
+    "detection_timestamp": "2026-04-25T18:37:48.311642+00:00",
+    "last_seen": "2026-04-25",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-25",
+        "url": "https://x.com/grok/status/2048107574025666641",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
