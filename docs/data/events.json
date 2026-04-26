@@ -30023,7 +30023,8 @@
       "@InsideKeOnline",
       "@Njehu022",
       "@ketchmain",
-      "@SaddiqueShaban"
+      "@SaddiqueShaban",
+      "@AbdihakimKeinan"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30083,6 +30084,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
         "date": "2026-04-24"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AbdihakimKeinan/status/2047706695074299984",
+        "date": "2026-04-26"
       }
     ],
     "spread": 5,
@@ -30126,7 +30132,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-24",
+    "last_seen": "2026-04-26",
     "status": "active",
     "observations": [
       {
@@ -30227,9 +30233,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-26",
+        "url": "https://x.com/AbdihakimKeinan/status/2047706695074299984",
+        "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 11,
+    "observation_count": 12,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30238,6 +30253,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -30454,7 +30470,8 @@
       "APF-2026-03-18-537",
       "APF-2026-03-23-310",
       "APF-2026-04-23-320",
-      "APF-2026-04-25-495"
+      "APF-2026-04-25-495",
+      "APF-2026-04-26-495"
     ],
     "disinfo_confidence": "MEDIUM",
     "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
@@ -30858,6 +30875,148 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-04-26",
     "detection_timestamp": "2026-04-26T07:56:50.197051+00:00",
+    "last_seen": "2026-04-26",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-26",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-26-495",
+    "date": "2026-04-26",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Los demoniocrátas suciolistos y Soros.",
+    "summary": "Los demoniocrátas suciolistos y Soros. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@GlobalistasNO"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/GlobalistasNO/status/2048413661287362641",
+        "date": "2026-04-26"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "ANNEX-042",
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-04-23-676",
+      "KEN-2025-010",
+      "field_kenya-053"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-26",
+    "detection_timestamp": "2026-04-26T14:49:42.830767+00:00",
+    "last_seen": "2026-04-26",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-26",
+        "url": "https://x.com/GlobalistasNO/status/2048413661287362641",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-26-429",
+    "date": "2026-04-26",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-04-26"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "ANNEX-007",
+      "APF-2026-03-17-895",
+      "APF-2026-03-23-344",
+      "APF-2026-04-25-643",
+      "APF-2026-04-26-275",
+      "MON-2026-03-16-008"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-26",
+    "detection_timestamp": "2026-04-26T14:49:42.830767+00:00",
     "last_seen": "2026-04-26",
     "status": "active",
     "observations": [
