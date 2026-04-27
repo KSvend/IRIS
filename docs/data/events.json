@@ -29697,7 +29697,9 @@
       "@INeedPS47899090",
       "@engosoble",
       "@dyano732",
-      "@Mahamed81443729"
+      "@Mahamed81443729",
+      "@PawelJankaOpole",
+      "@ColonZacha13053"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29742,6 +29744,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/lifeofdoyin/status/2047343589361922484",
         "date": "2026-04-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ColonZacha13053/status/2048683183131283610",
+        "date": "2026-04-27"
       }
     ],
     "spread": 5,
@@ -29790,7 +29797,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-23",
+    "last_seen": "2026-04-27",
     "status": "active",
     "observations": [
       {
@@ -29864,9 +29871,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-04-27",
+        "url": "https://x.com/ColonZacha13053/status/2048683183131283610",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 8,
+    "observation_count": 9,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29875,6 +29891,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -31022,6 +31039,160 @@
     "observations": [
       {
         "date": "2026-04-26",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-27-805",
+    "date": "2026-04-27",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "While Hertz was showing videos and explaining the training process for Israeli soldiers, a student disruptor, who",
+    "summary": "While Hertz was showing videos and explaining the training process for Israeli soldiers, a student disruptor, who happened to be Jewish, stood up and began listing off statistics of Palestinian deaths, attributing Israeli forces to more than 70,000 c. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@Peace_today_789"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Peace_today_789/status/2048683404833730756",
+        "date": "2026-04-27"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "ANNEX-031",
+      "ANNEX-046",
+      "ANNEX-064",
+      "APF-2026-03-23-204",
+      "SOM-2025-025-DI",
+      "SOM-ENRICH-002"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (000 casualties) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-27",
+    "detection_timestamp": "2026-04-27T08:43:18.969911+00:00",
+    "last_seen": "2026-04-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-27",
+        "url": "https://x.com/Peace_today_789/status/2048683404833730756",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-27-393",
+    "date": "2026-04-27",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-04-27"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-03-17-895",
+      "APF-2026-03-23-344",
+      "APF-2026-04-25-643",
+      "APF-2026-04-26-275",
+      "APF-2026-04-26-429",
+      "MON-2026-03-16-008"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-27",
+    "detection_timestamp": "2026-04-27T08:43:18.969911+00:00",
+    "last_seen": "2026-04-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-27",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
         "summary": "Initial detection",
         "platforms": [

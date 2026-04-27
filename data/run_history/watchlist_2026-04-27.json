@@ -1,0 +1,138 @@
+{
+  "date": "2026-04-27",
+  "timestamp": "2026-04-27T08:39:33.238147+00:00",
+  "api_calls": 20,
+  "summary": {
+    "sources_checked": 13,
+    "partners_checked": 7,
+    "total_findings": 1,
+    "sources_with_new_content": 0,
+    "partners_with_new_content": 1
+  },
+  "source_results": [
+    {
+      "name": "Shahada News",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Al-Kataib Media",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Manjaniq Media",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Somalimemo",
+      "method": "fetch_url",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Calamada",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Radio Andalus",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Voice of Munasir",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Al Hijratain Media",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Voice of Khorasan",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Lich Broadcast",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "SSEM TV",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Dahir Alasow / Waagacusub",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "UmmaSoldiers",
+      "method": "search_web",
+      "new_content_found": false,
+      "finding_count": 0
+    }
+  ],
+  "partner_results": [
+    {
+      "name": "Digital Rights Frontlines",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "NCIC Kenya",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Tech Against Terrorism",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "Africa Check",
+      "new_content_found": true,
+      "finding_count": 1
+    },
+    {
+      "name": "PesaCheck",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "GNET (Global Network on Extremism & Technology)",
+      "new_content_found": false,
+      "finding_count": 0
+    },
+    {
+      "name": "CTC West Point",
+      "new_content_found": false,
+      "finding_count": 0
+    }
+  ],
+  "findings": [
+    {
+      "source": "Africa Check",
+      "title": "Africa Check | Fact Checker | Sorting fact from fiction",
+      "snippet": "Skip to main content\nEnglishFran\u00e7ais\nDONATE\nKnow more, do better\n\nAfrica Check fosters informed public debate and empowers society to make evidence-based decisions\n\nFacebook\nTwitter\nInstagram\nTikTok\nkenya william ruto economy\nThe price of a \u2018middle-income\u2019 economy? Fact-checking Kenyan president on ",
+      "url": "https://africacheck.org",
+      "relevant": true
+    }
+  ]
+}
