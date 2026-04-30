@@ -31673,5 +31673,226 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-30-526",
+    "date": "2026-04-30",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-04-30"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-04-25-643",
+      "APF-2026-04-26-275",
+      "APF-2026-04-26-429",
+      "APF-2026-04-27-393",
+      "APF-2026-04-27-448",
+      "APF-2026-04-28-735"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-30",
+    "detection_timestamp": "2026-04-30T15:51:59.947285+00:00",
+    "last_seen": "2026-04-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-30",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-30-393",
+    "date": "2026-04-30",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Dems have it easy up here. Oligarchy type family funds, out of state Soros backed funding, and small in state",
+    "summary": "Dems have it easy up here. Oligarchy type family funds, out of state Soros backed funding, and small in state population easily manipulated by district demographics with naive college aged voters. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@clifford_big1"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/clifford_big1/status/2049878543295778993",
+        "date": "2026-04-30"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-KE-003a",
+      "NAR-KE-003b",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-03-18-537",
+      "APF-2026-04-23-320",
+      "APF-2026-04-23-676",
+      "APF-2026-04-25-495",
+      "APF-2026-04-27-242",
+      "APF-2026-04-28-701"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-30",
+    "detection_timestamp": "2026-04-30T15:51:59.947285+00:00",
+    "last_seen": "2026-04-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-30",
+        "url": "https://x.com/clifford_big1/status/2049878543295778993",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-04-30-374",
+    "date": "2026-04-30",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
+    "summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers left the PSF is also false, as they are using the old uniforms of former soldiers. Villa Garowe is clearly facing desperate times.",
+    "actors": [
+      "@RuqiaBotan"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "date": "2026-04-30"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-344",
+      "APF-2026-04-26-429",
+      "APF-2026-04-27-393",
+      "APF-2026-04-27-448",
+      "APF-2026-04-28-735",
+      "APF-2026-04-30-526"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (170 soldiers) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-04-30",
+    "detection_timestamp": "2026-04-30T15:51:59.947285+00:00",
+    "last_seen": "2026-04-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-04-30",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
