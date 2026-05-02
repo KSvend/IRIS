@@ -30467,11 +30467,11 @@
     "id": "APF-2026-04-23-676",
     "date": "2026-04-23",
     "country": "Somalia",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "coordinated_campaign",
-    "threat_level": "P3 MODERATE",
-    "headline": "Soro's manipulated judge! Not surprised! Soros sneaks them in during off year elections. Vote every off year and in all",
-    "summary": "Soro's manipulated judge! Not surprised! Soros sneaks them in during off year elections. Vote every off year and in all special elections!. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "threat_level": "P2 HIGH",
+    "headline": "George Soros conspiracy claims about judicial manipulation in elections",
+    "summary": "Social media users are promoting conspiracy theories claiming George Soros manipulates judges through strategic placement during off-year elections. This narrative feeds into broader antisemitic conspiracy theories about Soros controlling democratic institutions.",
     "actors": [
       "@Suzutte7611",
       "@cougrocks234"
@@ -30546,13 +30546,21 @@
     "observation_count": 2,
     "intensity_trend": [
       2
-    ]
+    ],
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Soro's manipulated judge! Not surprised! Soros sneaks them in during off year elections. Vote every off year and in all",
+    "_original_summary": "Soro's manipulated judge! Not surprised! Soros sneaks them in during off year elections. Vote every off year and in all special elections!. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "George Soros manipulates judges by placing them during off-year elections"
+    ],
+    "_review_notes": "Generic Soros conspiracy content not specific to East Africa - questionable relevance for Somalia-focused monitoring.",
+    "_reviewed": "2026-05-02T14:43:44.735912+00:00"
   },
   {
     "id": "APF-2026-04-23-320",
     "date": "2026-04-23",
     "country": "Somalia",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "deepfake",
     "threat_level": "P3 MODERATE",
     "headline": "This screenshot shows a fabricated post falsely attributed to realDonaldTrump. The text doesn't exist on his X account",
@@ -30618,7 +30626,13 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "extracted_claims": [
+      "Fabricated social media post falsely attributed to Donald Trump"
+    ],
+    "_review_notes": "This is detection and analysis of fabricated content, not the spread of disinformation itself.",
+    "_reviewed": "2026-05-02T14:43:44.735933+00:00"
   },
   {
     "id": "APF-2026-04-24-851",
@@ -30627,8 +30641,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "The word 'jihad' is interesting because its meaning has changed over time. When the Koran was written and probably",
-    "summary": "The word 'jihad' is interesting because its meaning has changed over time. When the Koran was written and probably during the time of Muhammad, the word meant \"internal struggle/strive\" eg: read the Koran and strive to find meaning in it (Surah Al-Fu.",
+    "headline": "Claims about changed meaning of 'jihad' and Islamic interpretation",
+    "summary": "Social media account is spreading interpretations about the meaning of 'jihad' and Islamic concepts. This appears to be promoting specific religious narratives that could contribute to sectarian tensions.",
     "actors": [
       "@no_name_yet123"
     ],
@@ -30695,7 +30709,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "The word 'jihad' is interesting because its meaning has changed over time. When the Koran was written and probably",
+    "_original_summary": "The word 'jihad' is interesting because its meaning has changed over time. When the Koran was written and probably during the time of Muhammad, the word meant \"internal struggle/strive\" eg: read the Koran and strive to find meaning in it (Surah Al-Fu.",
+    "extracted_claims": [
+      "The meaning of 'jihad' has fundamentally changed from its original Quranic meaning"
+    ],
+    "_review_notes": "Religious interpretation claims that could inflame sectarian tensions in Somalia's complex religious landscape.",
+    "_reviewed": "2026-05-02T14:43:44.735941+00:00"
   },
   {
     "id": "APF-2026-04-25-643",
@@ -30704,8 +30725,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Claims that Turkish analysts echo ISIS propaganda against Puntland",
+    "summary": "Social media account @CirkaNews is alleging connections between Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda, specifically targeting narratives about Puntland's counterterrorism efforts. This promotes conspiracy theories linking Turkish analysis to terrorist messaging.",
     "actors": [
       "@CirkaNews"
     ],
@@ -30772,13 +30793,20 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda"
+    ],
+    "_review_notes": "This targets Turkey-Somalia relations and Puntland security operations, potentially undermining regional counterterrorism cooperation.",
+    "_reviewed": "2026-05-02T14:43:44.735948+00:00"
   },
   {
     "id": "APF-2026-04-25-495",
     "date": "2026-04-25",
     "country": "Somalia",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "deepfake",
     "threat_level": "P3 MODERATE",
     "headline": "Modern AI-generated images and videos can be virtually indistinguishable from real ones, making definitive calls tough",
@@ -30844,7 +30872,13 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "extracted_claims": [
+      "AI-generated or manipulated image falsely presented as authentic Oval Office photo"
+    ],
+    "_review_notes": "This is AI detection and analysis of manipulated content, not the spread of disinformation itself.",
+    "_reviewed": "2026-05-02T14:43:44.735955+00:00"
   },
   {
     "id": "APF-2026-04-26-275",
@@ -30853,8 +30887,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Turkish analyst accused of echoing ISIS propaganda against Puntland counterterror operations",
+    "summary": "Content spreading claims that Turkish geopolitical commentator Umut Çağrı Sarı is pushing narratives similar to ISIS propaganda, specifically targeting Puntland's counterterrorism efforts. The disinformation attempts to discredit Turkish analysis and undermine regional security cooperation.",
     "actors": [
       "@CirkaNews"
     ],
@@ -30921,7 +30955,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda"
+    ],
+    "_review_notes": "This appears to be a coordinated attack on Turkish geopolitical commentary regarding Somali security issues, potentially aimed at undermining Turkish-Somali cooperation.",
+    "_reviewed": "2026-05-02T14:44:10.762752+00:00"
   },
   {
     "id": "APF-2026-04-26-495",
@@ -30930,8 +30971,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P3 MODERATE",
-    "headline": "Los demoniocrátas suciolistos y Soros.",
-    "summary": "Los demoniocrátas suciolistos y Soros. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Claims targeting Democrats and George Soros using derogatory Spanish terms",
+    "summary": "Spanish-language disinformation using derogatory terms to attack Democrats and George Soros. The content appears to be part of broader anti-establishment narratives targeting Western political figures and may be testing Spanish-language disinformation channels in East Africa.",
     "actors": [
       "@GlobalistasNO"
     ],
@@ -30986,7 +31027,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Los demoniocrátas suciolistos y Soros.",
+    "_original_summary": "Los demoniocrátas suciolistos y Soros. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Democrats and Soros are 'demoniocrátas suciolistos' (demon-democrats dirty-lists)"
+    ],
+    "_review_notes": "Spanish-language disinformation in Kenya suggests potential expansion of foreign influence operations targeting different linguistic communities in East Africa.",
+    "_reviewed": "2026-05-02T14:44:10.762779+00:00"
   },
   {
     "id": "APF-2026-04-26-429",
@@ -30995,8 +31043,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Turkish analyst accused of echoing ISIS propaganda against Puntland counterterror operations",
+    "summary": "Duplicate of event 0 - Content spreading claims that Turkish geopolitical commentator Umut Çağrı Sarı is pushing narratives similar to ISIS propaganda, specifically targeting Puntland's counterterrorism efforts.",
     "actors": [
       "@CirkaNews"
     ],
@@ -31063,7 +31111,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda"
+    ],
+    "_review_notes": "This is a duplicate of event 0, suggesting coordinated or repeated dissemination of the same anti-Turkish narrative.",
+    "_reviewed": "2026-05-02T14:44:10.762786+00:00"
   },
   {
     "id": "APF-2026-04-27-805",
@@ -31072,8 +31127,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "While Hertz was showing videos and explaining the training process for Israeli soldiers, a student disruptor, who",
-    "summary": "While Hertz was showing videos and explaining the training process for Israeli soldiers, a student disruptor, who happened to be Jewish, stood up and began listing off statistics of Palestinian deaths, attributing Israeli forces to more than 70,000 c. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Claims Israeli forces caused over 70,000 Palestinian casualties during military training presentation",
+    "summary": "Disinformation spreading inflated casualty figures attributed to Israeli forces during what appears to be a disrupted military training presentation. The content attempts to amplify anti-Israeli sentiment through exaggerated death toll claims.",
     "actors": [
       "@Peace_today_789"
     ],
@@ -31140,7 +31195,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "While Hertz was showing videos and explaining the training process for Israeli soldiers, a student disruptor, who",
+    "_original_summary": "While Hertz was showing videos and explaining the training process for Israeli soldiers, a student disruptor, who happened to be Jewish, stood up and began listing off statistics of Palestinian deaths, attributing Israeli forces to more than 70,000 c. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Israeli forces responsible for over 70,000 Palestinian deaths"
+    ],
+    "_review_notes": "This appears to be part of broader anti-Israeli disinformation campaigns using inflated casualty figures to fuel regional tensions.",
+    "_reviewed": "2026-05-02T14:44:10.762791+00:00"
   },
   {
     "id": "APF-2026-04-27-393",
@@ -31149,8 +31211,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Turkish analyst accused of echoing ISIS propaganda against Puntland counterterror operations",
+    "summary": "Duplicate of events 0 and 2 - Content spreading claims that Turkish geopolitical commentator Umut Çağrı Sarı is pushing narratives similar to ISIS propaganda, specifically targeting Puntland's counterterrorism efforts.",
     "actors": [
       "@CirkaNews"
     ],
@@ -31217,7 +31279,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda"
+    ],
+    "_review_notes": "Third instance of the same anti-Turkish narrative, indicating sustained coordinated disinformation campaign against Turkish involvement in Somali security affairs.",
+    "_reviewed": "2026-05-02T14:44:10.762795+00:00"
   },
   {
     "id": "APF-2026-04-27-242",
@@ -31225,9 +31294,9 @@
     "country": "Somalia",
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
-    "threat_level": "P3 MODERATE",
-    "headline": "I prefer a leader with ballroom. No WEF No Soros No woke no nonsense. Democracy!",
-    "summary": "I prefer a leader with ballroom. No WEF No Soros No woke no nonsense. Democracy!. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims democratic leaders should reject World Economic Forum and George Soros influence",
+    "summary": "Account promotes anti-globalist conspiracy narratives targeting the World Economic Forum and George Soros, framing them as threats to democratic governance. The messaging aligns with broader disinformation campaigns questioning international institutions' legitimacy in East African politics.",
     "actors": [
       "@RonnyRonaldus"
     ],
@@ -31284,7 +31353,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "I prefer a leader with ballroom. No WEF No Soros No woke no nonsense. Democracy!",
+    "_original_summary": "I prefer a leader with ballroom. No WEF No Soros No woke no nonsense. Democracy!. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "World Economic Forum represents anti-democratic influence that leaders should reject",
+      "George Soros represents harmful foreign influence on governance"
+    ],
+    "_review_notes": "Part of broader anti-globalist conspiracy narrative targeting international institutions, potentially undermining legitimate governance partnerships.",
+    "_reviewed": "2026-05-02T14:44:41.029524+00:00"
   },
   {
     "id": "APF-2026-04-27-864",
@@ -31293,8 +31370,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "misinformation",
     "threat_level": "P2 HIGH",
-    "headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
-    "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "headline": "Claims Business Bay Square Mall has illegally designated public road as private property",
+    "summary": "Account alleges that Business Bay Square Mall in Eastleigh, Nairobi has improperly claimed ownership of public road infrastructure and deployed private police for traffic enforcement. These claims could inflame tensions around land ownership and governance in the ethnically diverse Eastleigh area.",
     "actors": [
       "@SaddiqueShaban"
     ],
@@ -31362,7 +31439,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "_original_summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "extracted_claims": [
+      "Business Bay Square Mall has illegally claimed public road as private property",
+      "Mall operates private police force conducting traffic stops on public roads"
+    ],
+    "_review_notes": "Allegations target prominent Somali-Kenyan business area, potentially designed to inflame ethnic and land ownership tensions.",
+    "_reviewed": "2026-05-02T14:44:41.029543+00:00"
   },
   {
     "id": "APF-2026-04-27-448",
@@ -31371,8 +31456,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Claims Turkish analyst Umut Çağrı Sarı spreads ISIS-aligned propaganda about Somalia",
+    "summary": "Account alleges Turkish geopolitical commentator Umut Çağrı Sarı promotes narratives similar to ISIS propaganda, particularly regarding Puntland's counterterrorism efforts. This appears designed to discredit Turkish analysis of Somali security issues and potentially undermine Turkey-Somalia relations.",
     "actors": [
       "@CirkaNews"
     ],
@@ -31439,7 +31524,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda narratives",
+      "Pro-Turkish analysts undermine Puntland's counterterrorism efforts"
+    ],
+    "_review_notes": "Sophisticated attempt to discredit Turkish geopolitical commentary on Somalia by linking it to terrorist propaganda, potentially targeting Turkey-Somalia diplomatic relations.",
+    "_reviewed": "2026-05-02T14:44:41.029549+00:00"
   },
   {
     "id": "APF-2026-04-28-701",
@@ -31448,8 +31541,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P2 HIGH",
-    "headline": "#DogsOfWar: Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First",
-    "summary": "Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First Kenya, now Tanzania.  KenyavsTZ Gachagua Arrested. Observed across 2 posts from 1 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "headline": "Claims anti-government protesters are foreign operatives orchestrating regional destabilization",
+    "summary": "Account promotes conspiracy theory that anti-government protesters in Kenya and Tanzania are coordinated foreign operatives rather than genuine activists. The narrative references Miguna Miguna and uses #DogsOfWar hashtag to frame regional protests as orchestrated destabilization campaigns.",
     "actors": [
       "@nasrah_cutie"
     ],
@@ -31517,7 +31610,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "#DogsOfWar: Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First",
+    "_original_summary": "Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First Kenya, now Tanzania.  KenyavsTZ Gachagua Arrested. Observed across 2 posts from 1 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "extracted_claims": [
+      "Anti-government protesters in Kenya and Tanzania are foreign operatives, not genuine revolutionaries",
+      "Regional protests are coordinated 'circus' performances designed to destabilize governments"
+    ],
+    "_review_notes": "Dangerous narrative delegitimizing legitimate protest movements by framing them as foreign manipulation, potentially justifying government crackdowns.",
+    "_reviewed": "2026-05-02T14:44:41.029554+00:00"
   },
   {
     "id": "APF-2026-04-28-301",
@@ -31526,8 +31627,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "misinformation",
     "threat_level": "P2 HIGH",
-    "headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
-    "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "headline": "Claims Business Bay Square Mall has illegally designated public road as private property",
+    "summary": "Account alleges that Business Bay Square Mall in Eastleigh, Nairobi has improperly claimed ownership of public road infrastructure and deployed private police for traffic enforcement. These claims could inflame tensions around land ownership and governance in the ethnically diverse Eastleigh area.",
     "actors": [
       "@SaddiqueShaban"
     ],
@@ -31595,7 +31696,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "_original_summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "extracted_claims": [
+      "Business Bay Square Mall has illegally claimed public road as private property",
+      "Mall operates private police force conducting traffic stops on public roads"
+    ],
+    "_review_notes": "Duplicate of event #1 - same account repeating allegations about mall's control over public infrastructure in Eastleigh.",
+    "_reviewed": "2026-05-02T14:44:41.029559+00:00"
   },
   {
     "id": "APF-2026-04-28-735",
@@ -31604,8 +31713,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Claims Turkish analysts echo ISIS propaganda against Puntland counterterror operations",
+    "summary": "A Turkish geopolitical commentator is accused of pushing narratives that allegedly mirror ISIS propaganda by portraying Puntland's counterterrorism efforts negatively. This appears to be part of broader information warfare targeting regional security operations.",
     "actors": [
       "@CirkaNews"
     ],
@@ -31672,7 +31781,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda against Puntland"
+    ],
+    "_review_notes": "Serious allegation connecting Turkish geopolitical commentary to terrorist propaganda narratives against Somali regional security forces.",
+    "_reviewed": "2026-05-02T14:45:04.539858+00:00"
   },
   {
     "id": "APF-2026-04-30-526",
@@ -31681,8 +31797,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Claims Turkish analysts echo ISIS propaganda against Puntland counterterror operations",
+    "summary": "A Turkish geopolitical commentator is accused of pushing narratives that allegedly mirror ISIS propaganda by portraying Puntland's counterterrorism efforts negatively. This appears to be part of broader information warfare targeting regional security operations.",
     "actors": [
       "@CirkaNews"
     ],
@@ -31749,17 +31865,24 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Turkish analyst Umut Çağrı Sarı echoes ISIS propaganda against Puntland"
+    ],
+    "_review_notes": "Duplicate event of the same Turkish analyst propaganda claims against Puntland security operations.",
+    "_reviewed": "2026-05-02T14:45:04.539874+00:00"
   },
   {
     "id": "APF-2026-04-30-393",
     "date": "2026-04-30",
     "country": "Somalia",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P3 MODERATE",
-    "headline": "Dems have it easy up here. Oligarchy type family funds, out of state Soros backed funding, and small in state",
-    "summary": "Dems have it easy up here. Oligarchy type family funds, out of state Soros backed funding, and small in state population easily manipulated by district demographics with naive college aged voters. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Claims about Soros funding and oligarchy manipulation in local politics",
+    "summary": "Social media post promotes conspiracy theories about George Soros funding and oligarchy manipulation of local Democratic politics, targeting college voters. This represents broader anti-Soros disinformation narratives but appears unrelated to East African contexts.",
     "actors": [
       "@clifford_big1"
     ],
@@ -31816,7 +31939,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Dems have it easy up here. Oligarchy type family funds, out of state Soros backed funding, and small in state",
+    "_original_summary": "Dems have it easy up here. Oligarchy type family funds, out of state Soros backed funding, and small in state population easily manipulated by district demographics with naive college aged voters. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "George Soros provides out-of-state funding to manipulate local Democratic politics"
+    ],
+    "_review_notes": "Generic anti-Soros conspiracy content that appears misclassified for East African monitoring - lacks regional relevance.",
+    "_reviewed": "2026-05-02T14:45:04.539887+00:00"
   },
   {
     "id": "APF-2026-04-30-374",
@@ -31825,8 +31956,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
-    "summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers left the PSF is also false, as they are using the old uniforms of former soldiers. Villa Garowe is clearly facing desperate times.",
+    "headline": "Claims letter about 170 PSF soldiers defecting is fabricated by Team Deni",
+    "summary": "Social media user claims that a letter reporting 170 Puntland Security Forces soldiers leaving the force is fake, allegedly fabricated by 'Team Deni' and Somali Digest outlet. The post suggests old uniforms are being used to create false defection narrative.",
     "actors": [
       "@RuqiaBotan"
     ],
@@ -31893,6 +32024,13 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
+    "_original_summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers left the PSF is also false, as they are using the old uniforms of former soldiers. Villa Garowe is clearly facing desperate times.",
+    "extracted_claims": [
+      "Letter about 170 PSF soldiers defecting is fabricated by Team Deni and Somali Digest"
+    ],
+    "_review_notes": "Internal Somali political dispute involving allegations of fabricated military defection stories targeting Puntland leadership.",
+    "_reviewed": "2026-05-02T14:45:04.539892+00:00"
   }
 ]

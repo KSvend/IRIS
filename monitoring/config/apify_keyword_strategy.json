@@ -603,6 +603,46 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "jihad interpretation",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Religious narrative manipulation relevant to Somali context",
+          "date_added": "2026-05-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland counterterror",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Regional security narrative in Horn of Africa",
+          "date_added": "2026-05-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "manjaniq media",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific media entity mentioned in disinformation claim",
+          "date_added": "2026-05-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "umut \u00e7a\u011fr\u0131 sar\u0131",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific individual being targeted in disinformation campaign",
+          "date_added": "2026-05-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

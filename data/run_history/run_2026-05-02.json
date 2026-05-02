@@ -1,6 +1,6 @@
 {
   "date": "2026-05-02",
-  "timestamp": "2026-05-02T07:53:32.528543+00:00",
+  "timestamp": "2026-05-02T15:37:11.837152+00:00",
   "config": {
     "run_sweeps": true,
     "run_ml": true,
@@ -32,10 +32,10 @@
       "threat_upgrades": 0
     },
     "1e_event_review": {
-      "reviewed": 0,
-      "reclassified": 0,
-      "claims_extracted": 0,
-      "keywords_proposed": 0,
+      "reviewed": 19,
+      "reclassified": 4,
+      "claims_extracted": 24,
+      "keywords_proposed": 20,
       "total_events": 449
     },
     "2a_hs_sweep": {
@@ -66,16 +66,17 @@
       "total": 8856
     },
     "2d_llm_qa": {
-      "explained": 0,
+      "explained": 1488,
       "total": 1488
     },
     "2e_quality_gate": {
-      "removed": 0,
-      "remaining": 8856
+      "removed": 1118,
+      "remaining": 7738,
+      "archived_to": "/home/runner/work/IRIS/IRIS/data/run_history/misclassified_2026-05-02.json"
     },
     "3a_reach": {
       "updated": 0,
-      "checked": 34
+      "checked": 32
     }
   }
 }
