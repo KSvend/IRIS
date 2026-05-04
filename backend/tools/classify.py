@@ -1,9 +1,15 @@
-"""Classification pipeline function using Claude Haiku."""
+"""Classification helper for findings (free-tier LLM chain)."""
 import json
-from langchain_anthropic import ChatAnthropic
-from langchain_core.messages import SystemMessage, HumanMessage
+import sys
+from pathlib import Path
 
-_llm = None
+# Make monitoring/llm_client.py importable from backend/
+_MONITORING = Path(__file__).resolve().parent.parent.parent / "monitoring"
+if str(_MONITORING) not in sys.path:
+    sys.path.insert(0, str(_MONITORING))
+
+from llm_client import LLMError, call_llm  # noqa: E402
+
 
 SYSTEM_PROMPT = """You are a classification agent for the MERLx IRIS platform.
 Classify findings about hate speech and disinformation in East Africa.
@@ -23,22 +29,11 @@ Definitions:
 Return ONLY valid JSON, no other text."""
 
 
-def _get_llm():
-    global _llm
-    if _llm is None:
-        _llm = ChatAnthropic(model="claude-haiku-4-5-20251001", max_tokens=200)
-    return _llm
-
-
 def classify_finding(title: str, summary: str,
                      country: list[str] | None = None) -> dict:
-    llm = _get_llm()
     user_msg = f"Title: {title}\nCountry: {', '.join(country or [])}\nSummary: {summary}"
-    response = llm.invoke([
-        SystemMessage(content=SYSTEM_PROMPT),
-        HumanMessage(content=user_msg),
-    ])
     try:
-        return json.loads(response.content)
-    except json.JSONDecodeError:
+        text = call_llm(SYSTEM_PROMPT, user_msg, max_tokens=200)
+        return json.loads(text)
+    except (LLMError, json.JSONDecodeError):
         return {"classification": "CONTEXT", "hs_subtype": None, "confidence": 0.0}

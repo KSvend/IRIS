@@ -1,7 +1,10 @@
 name: Daily Research Agent
 on:
+  # Run at 09:00 UTC — comfortably after Google AI Studio's midnight-Pacific
+  # quota reset under both PST (08:00 UTC) and PDT (07:00 UTC), and after
+  # the main Monitor cron at 08:30 UTC has finished.
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
@@ -19,6 +22,8 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python -m backend.agents.research_agent

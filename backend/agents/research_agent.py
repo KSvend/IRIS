@@ -9,16 +9,21 @@ import csv
 import json
 import logging
 import os
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import TypedDict
 
 from langgraph.graph import StateGraph, END
-from langchain_anthropic import ChatAnthropic
-from langchain_core.messages import SystemMessage, HumanMessage
 
 from backend.tools.embed import generate_embedding
 from backend.tools.classify import classify_finding
+
+# Free-tier LLM chain (Gemini → Groq → Anthropic)
+_MONITORING = Path(__file__).resolve().parent.parent.parent / "monitoring"
+if str(_MONITORING) not in sys.path:
+    sys.path.insert(0, str(_MONITORING))
+from llm_client import LLMError, call_llm  # noqa: E402
 
 logger = logging.getLogger(__name__)
 
@@ -145,7 +150,6 @@ def execute_searches(state: ResearchState) -> ResearchState:
         return {**state, "raw_results": [], "new_findings": []}
 
     tavily = TavilyClient(api_key=tavily_key)
-    llm = ChatAnthropic(model="claude-sonnet-4-20250514", max_tokens=4000)
 
     all_results = []
     for query in state["search_queries"][:30]:  # Cap at 30 per Tavily free tier
@@ -172,17 +176,17 @@ def execute_searches(state: ResearchState) -> ResearchState:
         for r in all_results[:50]
     )
 
-    response = llm.invoke([
-        SystemMessage(content=RESEARCH_SYSTEM_PROMPT),
-        HumanMessage(content=f"Extract relevant findings from these search results:\n\n{batch_text}"),
-    ])
-
     try:
-        findings = json.loads(response.content)
+        text = call_llm(
+            RESEARCH_SYSTEM_PROMPT,
+            f"Extract relevant findings from these search results:\n\n{batch_text}",
+            max_tokens=4000,
+        )
+        findings = json.loads(text)
         if not isinstance(findings, list):
             findings = []
-    except json.JSONDecodeError:
-        logger.error("Failed to parse LLM response as JSON")
+    except (LLMError, json.JSONDecodeError) as e:
+        logger.error(f"LLM extraction failed: {e}")
         findings = []
 
     logger.info(f"Extracted {len(findings)} candidate findings")
