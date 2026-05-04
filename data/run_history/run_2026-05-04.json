@@ -1,23 +1,15 @@
 {
   "date": "2026-05-04",
-  "timestamp": "2026-05-04T08:37:13.138406+00:00",
+  "timestamp": "2026-05-04T20:57:39.945904+00:00",
   "config": {
-    "run_sweeps": true,
+    "run_sweeps": false,
     "run_ml": true,
-    "run_reach": true
+    "run_reach": false
   },
   "results": {
     "0_submissions": {
       "processed": 0
     },
-    "1a_watchlist": {
-      "sources_checked": 13,
-      "partners_checked": 7,
-      "total_findings": 0,
-      "sources_with_new_content": 0,
-      "partners_with_new_content": 0
-    },
-    "1b_disinfo_sweep": null,
     "1c_disinfo_classify": {
       "error": "No items files found",
       "events_added": 0
@@ -34,13 +26,6 @@
     "1e_event_review": {
       "reviewed": 0,
       "total": 449
-    },
-    "2a_hs_sweep": {
-      "groups_searched": 11,
-      "total_results": 0,
-      "total_cost_usd": 0.0,
-      "budget_remaining_usd": 0.5,
-      "sweep_date": "2026-05-04"
     },
     "2b_hs_classify": {
       "total_items": 0,
@@ -69,10 +54,6 @@
     "2e_quality_gate": {
       "removed": 0,
       "remaining": 7738
-    },
-    "3a_reach": {
-      "updated": 0,
-      "checked": 31
     }
   }
 }
