@@ -16,9 +16,11 @@ on:
         type: boolean
         default: true
 
+  # Run once daily at 08:30 UTC — safely after Google AI Studio's
+  # midnight-Pacific quota reset under both PST (08:00 UTC) and PDT (07:00 UTC),
+  # so explain_posts/review_events get a fresh free-tier window.
   schedule:
-    - cron: '0 6 * * *'
-    - cron: '0 14 * * *'
+    - cron: '30 8 * * *'
 
 permissions:
   contents: write
@@ -42,12 +44,18 @@ jobs:
       - name: Install dependencies
         run: |
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-          pip install requests transformers scipy numpy
+          pip install requests transformers scipy numpy python-dotenv
 
       - name: Run monitoring pipeline
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          # LLM providers — tried in order until one succeeds.
+          # Primary: Gemini 2.5 Flash (free tier, midnight-PT daily reset).
+          # Fallback: Groq Llama-3.3-70B (free tier, separate quota).
+          # Last resort: Anthropic (paid; leave secret unset to disable).
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FB_COOKIES: ${{ secrets.FB_COOKIES }}
           RUN_SWEEPS: ${{ github.event.inputs.run_sweeps || 'true' }}

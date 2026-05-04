@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Disinfo Event QA + Intelligence Extraction via Anthropic API
-=============================================================
+Disinfo Event QA + Intelligence Extraction
+==========================================
 Reviews new/pending disinfo events and:
 1. Validates classification (DISINFO vs CONTEXT)
 2. Checks headline quality (must describe the false claim)
@@ -9,27 +9,24 @@ Reviews new/pending disinfo events and:
 4. Extracts specific disinfo claims from CONTEXT events (reports ABOUT disinfo)
 5. Proposes new search keywords from extracted claims
 
-Pure stdlib — no pip dependencies.
+Provider chain (free-tier first): Gemini 2.5 Flash → Groq Llama-3.3-70B →
+Anthropic. See monitoring/llm_client.py.
 """
 
 import json
 import os
 import time
-import urllib.request
-import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
+
+from llm_client import LLMError, active_provider_name, call_llm
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EVENTS_PATH = REPO_ROOT / "docs" / "data" / "events.json"
 STRATEGY_PATH = REPO_ROOT / "monitoring" / "config" / "apify_keyword_strategy.json"
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-API_URL = "https://api.anthropic.com/v1/messages"
-MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 4096
 BATCH_SIZE = 5
-MAX_RETRIES = 3
 
 SYSTEM_PROMPT = """\
 You are a disinformation analyst for UNDP's MERLx IRIS early warning platform monitoring East Africa (Somalia, South Sudan, Kenya).
@@ -68,48 +65,18 @@ Respond ONLY with a JSON array. No markdown fences.
 Format: [{"id": 0, "classification_correct": true, "suggested_type": "DISINFO", "headline_ok": true, "suggested_headline": null, "threat_ok": true, "suggested_threat": null, "summary_ok": true, "suggested_summary": null, "extracted_claims": [...], "proposed_keywords": [...], "notes": "..."}, ...]"""
 
 
-def call_anthropic(batch_text):
-    """Call Anthropic API."""
-    if not ANTHROPIC_API_KEY:
+def call_llm_batch(batch_text):
+    """Call active LLM provider; return parsed JSON array or None."""
+    try:
+        text = call_llm(SYSTEM_PROMPT, batch_text, max_tokens=MAX_TOKENS)
+    except LLMError as e:
+        print(f"  LLM error: {e}")
         return None
-    payload = json.dumps({
-        "model": MODEL,
-        "max_tokens": MAX_TOKENS,
-        "system": SYSTEM_PROMPT,
-        "messages": [{"role": "user", "content": batch_text}]
-    }).encode()
-    headers = {
-        "Content-Type": "application/json",
-        "x-api-key": ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01"
-    }
-    for attempt in range(MAX_RETRIES):
-        req = urllib.request.Request(API_URL, data=payload, headers=headers)
-        try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                result = json.loads(resp.read().decode())
-                text = result["content"][0]["text"].strip()
-                if text.startswith("```"):
-                    text = text.split("\n", 1)[1]
-                    if text.endswith("```"):
-                        text = text[:text.rfind("```")]
-                return json.loads(text)
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(30)
-            else:
-                body = e.read().decode()[:200]
-                print(f"  Anthropic error {e.code}: {body}")
-                if attempt == MAX_RETRIES - 1:
-                    return None
-                time.sleep(5)
-        except json.JSONDecodeError:
-            print(f"  JSON parse error from response")
-            return None
-        except Exception as e:
-            print(f"  Error: {e}")
-            time.sleep(5)
-    return None
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        print(f"  JSON parse error: {e}. First 200 chars: {text[:200]}")
+        return None
 
 
 def format_event_batch(events_batch):
@@ -141,9 +108,11 @@ def format_event_batch(events_batch):
 
 def main(dry_run=False, review_all=False):
     """Review events and extract intelligence."""
-    if not ANTHROPIC_API_KEY:
-        print("No ANTHROPIC_API_KEY set, skipping event review")
+    provider = active_provider_name()
+    if not provider:
+        print("No LLM provider key set (GEMINI_API_KEY / GROQ_API_KEY / ANTHROPIC_API_KEY); skipping event review")
         return {"reviewed": 0, "error": "no API key"}
+    print(f"Using LLM provider: {provider}")
 
     with open(EVENTS_PATH) as f:
         events = json.load(f)
@@ -183,7 +152,7 @@ def main(dry_run=False, review_all=False):
             print(f"  [DRY RUN] Would review batch of {len(batch)} events")
             continue
 
-        results = call_anthropic(prompt)
+        results = call_llm_batch(prompt)
         if not results:
             print(f"  Batch at {batch_start} failed, skipping.")
             continue

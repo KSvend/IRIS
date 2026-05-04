@@ -3,39 +3,37 @@
 HS Post Explanation Generator for MERLx IRIS
 ==============================================
 Reads hate_speech_posts.json, finds posts that need human-readable explanations
-(ML-classified or auto-swept without proper review), and uses the Anthropic API
-to generate structured explanations with QC labels.
+(ML-classified or auto-swept without proper review), and uses an LLM to
+generate structured explanations with QC labels.
+
+Provider chain (free-tier first): Gemini 2.5 Flash → Groq Llama-3.3-70B →
+Anthropic. See monitoring/llm_client.py.
 
 Usage:
     python3 explain_posts.py [--dry-run] [--limit N]
-
-Requires ANTHROPIC_API_KEY environment variable.
-Pure stdlib — no pip dependencies.
 """
 
 import json
 import os
 import sys
 import time
-import urllib.request
-import urllib.error
 import urllib.parse
+import urllib.request
 import argparse
 from pathlib import Path
+
+from llm_client import LLMError, active_provider_name, call_llm
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 HS_DATA_PATH = REPO_ROOT / "docs" / "data" / "hate_speech_posts.json"
 
-# ─── Anthropic API Config ─────────────────────────────────────────────────────
+# ─── Config ───────────────────────────────────────────────────────────────────
 
-API_URL = "https://api.anthropic.com/v1/messages"
-MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 4096
 BATCH_SIZE = 10
 SLEEP_BETWEEN_BATCHES = 2
-MAX_RETRIES = 3
 TEXT_TRUNCATE_LEN = 250
 
 # ─── System Prompt ────────────────────────────────────────────────────────────
@@ -112,51 +110,13 @@ def build_batch_prompt(batch):
     return "\n".join(lines).strip()
 
 
-def call_anthropic(api_key, batch_text):
-    """Make a raw urllib POST to the Anthropic Messages API with retry on 429."""
-    payload = json.dumps({
-        "model": MODEL,
-        "max_tokens": MAX_TOKENS,
-        "system": SYSTEM_PROMPT,
-        "messages": [{"role": "user", "content": batch_text}],
-    }).encode("utf-8")
-
-    headers = {
-        "Content-Type": "application/json",
-        "x-api-key": api_key,
-        "anthropic-version": "2023-06-01",
-    }
-
-    for attempt in range(1, MAX_RETRIES + 1):
-        req = urllib.request.Request(API_URL, data=payload, headers=headers, method="POST")
-        try:
-            with urllib.request.urlopen(req, timeout=120) as resp:
-                body = json.loads(resp.read().decode("utf-8"))
-                # Extract text from the response content blocks
-                text_parts = [
-                    block["text"]
-                    for block in body.get("content", [])
-                    if block.get("type") == "text"
-                ]
-                return "".join(text_parts)
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < MAX_RETRIES:
-                backoff = 2 ** attempt
-                print(f"  [429] Rate limited. Retrying in {backoff}s (attempt {attempt}/{MAX_RETRIES})...")
-                time.sleep(backoff)
-                continue
-            error_body = ""
-            try:
-                error_body = e.read().decode("utf-8")
-            except Exception:
-                pass
-            print(f"  [ERROR] HTTP {e.code}: {error_body[:300]}")
-            return None
-        except Exception as e:
-            print(f"  [ERROR] Request failed: {e}")
-            return None
-
-    return None
+def call_llm_batch(batch_text):
+    """Send a batch to the active provider; return the raw text or None on failure."""
+    try:
+        return call_llm(SYSTEM_PROMPT, batch_text, max_tokens=MAX_TOKENS)
+    except LLMError as e:
+        print(f"  [ERROR] {e}")
+        return None
 
 
 def parse_response(response_text, batch):
@@ -225,10 +185,11 @@ def _query_related_sources(country: str, narratives: list) -> list:
 
 def explain_posts(dry_run=False, limit=None):
     """Main function: find posts needing explanation and process them in batches."""
-    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
-    if not api_key:
-        print("[SKIP] ANTHROPIC_API_KEY not set in environment. Exiting.")
+    provider = active_provider_name()
+    if not provider:
+        print("[SKIP] No LLM provider key set (GEMINI_API_KEY / GROQ_API_KEY / ANTHROPIC_API_KEY).")
         return {"explained": 0, "total": 0}
+    print(f"[INFO] Using LLM provider: {provider}")
 
     posts = load_posts()
     if posts is None:
@@ -265,7 +226,7 @@ def explain_posts(dry_run=False, limit=None):
         print(f"\n[BATCH {batch_num}/{total_batches}] Processing {len(batch)} posts...")
 
         batch_text = build_batch_prompt(batch)
-        response_text = call_anthropic(api_key, batch_text)
+        response_text = call_llm_batch(batch_text)
         mapping = parse_response(response_text, batch)
 
         if not mapping:
