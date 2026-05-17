@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-17",
+  "extracted_claims": [
+    {
+      "claim": "Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers who conduct traffic stops on motorcycles on public roads.",
+      "country": "Kenya",
+      "actors": [
+        "@SaddiqueShaban"
+      ],
+      "keywords": [
+        "Business Bay Square Mall",
+        "BBS Mall",
+        "Eastleigh",
+        "Administration Police",
+        "traffic stops",
+        "private police"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Business Bay Square Mall",
+      "country": "Kenya",
+      "reason": "Specific location of the false claim."
+    },
+    {
+      "keyword": "BBS Mall",
+      "country": "Kenya",
+      "reason": "Acronym for the specific location."
+    },
+    {
+      "keyword": "Eastleigh",
+      "country": "Kenya",
+      "reason": "Specific neighborhood mentioned in the claim."
+    },
+    {
+      "keyword": "private police",
+      "country": "Kenya",
+      "reason": "Core concept of the false claim regarding private entities usurping police powers."
+    },
+    {
+      "keyword": "Administration Police Kenya",
+      "country": "Kenya",
+      "reason": "Specific police unit mentioned in the false claim."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

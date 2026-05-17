@@ -643,6 +643,56 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "business bay square mall",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific location of the false claim.",
+          "date_added": "2026-05-17",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "bbs mall",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Acronym for the specific location.",
+          "date_added": "2026-05-17",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "eastleigh",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific neighborhood mentioned in the claim.",
+          "date_added": "2026-05-17",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "private police",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Core concept of the false claim regarding private entities usurping police powers.",
+          "date_added": "2026-05-17",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "administration police kenya",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific police unit mentioned in the false claim.",
+          "date_added": "2026-05-17",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

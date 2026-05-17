@@ -29985,7 +29985,7 @@
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
     "last_seen": "2026-04-17",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-03-23",
@@ -30056,7 +30056,13 @@
       "@Njehu022",
       "@ketchmain",
       "@SaddiqueShaban",
-      "@AbdihakimKeinan"
+      "@AbdihakimKeinan",
+      "@Osman_estate",
+      "@bbsmallnairobi",
+      "@StargazerJayne",
+      "@LoleyYare",
+      "@feisalabdalla1",
+      "@Matovumic"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30121,6 +30127,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/AbdihakimKeinan/status/2047706695074299984",
         "date": "2026-04-26"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2055524563891491091",
+        "date": "2026-05-17"
       }
     ],
     "spread": 5,
@@ -30164,7 +30175,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-26",
+    "last_seen": "2026-05-17",
     "status": "active",
     "observations": [
       {
@@ -30274,9 +30285,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-17",
+        "url": "https://x.com/InsideKeOnline/status/2055524563891491091",
+        "summary": ",. The Minnesota fraud proceeds ends up in Eastleigh Nairobi and Garrisa town, the two main hot spots where the",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 12,
+    "observation_count": 13,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30285,6 +30305,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -32269,5 +32290,234 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-17-149",
+    "date": "2026-05-17",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Yes Soros is part of the Deep State that controls and manipulate; Democrats Media 95% Universities Schools Judges Obama",
+    "summary": "Yes Soros is part of the Deep State that controls and manipulate; Democrats Media 95% Universities Schools Judges Obama Crossfire Hurricane. Fraud mail-in ballots votes Fraud voting machines. Hollywood Celebrities Fund protesters against Trump. Burn . Observed across 2 posts from 2 accounts on X (Twitter).",
+    "actors": [
+      "@Harryozzz",
+      "@HarryCostas2"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/HarryCostas2/status/2055954726144155829",
+        "date": "2026-05-17"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-04-26-495",
+      "APF-2026-04-28-701",
+      "KEN-2025-010",
+      "field_kenya-048"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-17",
+    "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
+    "last_seen": "2026-05-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-17",
+        "url": "https://x.com/HarryCostas2/status/2055954726144155829",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-17-956",
+    "date": "2026-05-17",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+    "summary": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in Eastleigh Malls. The arrival of FBI Co-Deputy Director Andrew Bailey in Nairobi this week has handed former Deputy President Rigathi. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "date": "2026-05-17"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-04-27-864",
+      "APF-2026-04-28-301",
+      "APF-2026-05-16-132",
+      "APF-2026-05-16-669",
+      "APF-2026-05-17-814"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-17",
+    "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
+    "last_seen": "2026-05-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-17",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-17-814",
+    "date": "2026-05-17",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims Business Bay Square (BBS) Mall in Eastleigh has its own Administration Police conducting traffic stops on public roads",
+    "summary": "Social media user @SaddiqueShaban is spreading claims that the Business Bay Square (BBS) Mall in Eastleigh, Nairobi, operates its own Administration Police unit that conducts traffic stops on motorcycles on public roads. This narrative suggests the mall has illegally designated a public road as its private property, raising concerns about the usurpation of public authority by a private entity and potential for public confusion or conflict.",
+    "actors": [
+      "@SaddiqueShaban"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "date": "2026-05-17"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-04-27-864",
+      "APF-2026-04-28-301",
+      "APF-2026-05-16-132",
+      "APF-2026-05-16-669",
+      "APF-2026-05-17-956"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-17",
+    "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
+    "last_seen": "2026-05-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-17",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "_original_summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "extracted_claims": [
+      "Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers who conduct traffic stops on motorcycles on public roads."
+    ],
+    "_review_notes": "This claim, if widely believed, could erode public trust in official law enforcement and governance, creating confusion about jurisdiction and authority on public roads and potentially leading to public disorder.",
+    "_reviewed": "2026-05-17T10:18:45.868402+00:00"
   }
 ]

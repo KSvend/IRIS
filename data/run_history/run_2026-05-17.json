@@ -1,0 +1,589 @@
+{
+  "date": "2026-05-17",
+  "timestamp": "2026-05-17T10:26:13.560614+00:00",
+  "config": {
+    "run_sweeps": true,
+    "run_ml": true,
+    "run_reach": true
+  },
+  "results": {
+    "0_submissions": {
+      "processed": 0
+    },
+    "1a_watchlist": {
+      "sources_checked": 13,
+      "partners_checked": 7,
+      "total_findings": 0,
+      "sources_with_new_content": 0,
+      "partners_with_new_content": 0
+    },
+    "1b_disinfo_sweep": null,
+    "1c_disinfo_classify": {
+      "events_added": 3,
+      "classified_count": 561,
+      "disinfo_count": 52,
+      "hs_only_count": 2,
+      "noise_count": 507,
+      "high_confidence_count": 29,
+      "medium_confidence_count": 3,
+      "low_confidence_count": 20,
+      "coordination_groups": 21,
+      "new_claims": [
+        {
+          "source_text": "BREAKING: four #SNA soldiers killed in an #AlShabaab ambush attack Near Halgan town in Hiiraan region. Shahada Agency\n#Somalia https://t.co/IN35BdFXun",
+          "potential_claims": [
+            "attack Near Halgan town in Hiiraan region"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "AS_CASUALTY_FABRICATION",
+          "narrative_ids": [
+            "NAR-SO-001"
+          ],
+          "url": "https://x.com/AfricanReports/status/883728480881475585",
+          "author": "@AfricanReports"
+        },
+        {
+          "source_text": "Friday March 27th 2026 [Evening News Brief]\n\n\ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today.  2 very seriously wounded and 8 seriously wounded. -",
+          "potential_claims": [
+            "to be living in Florida without an ID is accused of shooting a coworker with a nail gun",
+            "Russia considers the potential reestablishment of U"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "AS_CASUALTY_FABRICATION",
+          "narrative_ids": [
+            "NAR-SO-001"
+          ],
+          "url": "https://x.com/apexguardhq/status/2037711644550164883",
+          "author": "@apexguardhq"
+        },
+        {
+          "source_text": "Good morning, it's February 19th. Here's your report covering every major event that happened yesterday.\n\nSummary. A senior Trump adviser assessed a 90 percent probability of US military strikes on Ir",
+          "potential_claims": [
+            "covering every major event that happened yesterday",
+            "Trump was briefed strikes could launch as early as February 21",
+            "the US is withdrawing all 1000 troops from Syria"
+          ],
+          "novel_hashtags": [
+            "#cybersecurity",
+            "#breakingnews",
+            "#conflictnews"
+          ],
+          "keyword_group": "AS_CASUALTY_FABRICATION",
+          "narrative_ids": [
+            "NAR-SO-001"
+          ],
+          "url": "https://x.com/TheFrontlineRpt/status/2024457272143856044",
+          "author": "@TheFrontlineRpt"
+        },
+        {
+          "source_text": "BBS Mall was deeply honored to host Her Excellency Siv Cathrine Moe, the Norwegian Ambassador to Kenya, alongside Kamukunji MP Hon. Yusuf Hassan, for a meaningful engagement centered on community, par",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#bbsmall"
+          ],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/bbsmallnairobi/status/2055200077392609612",
+          "author": "@bbsmallnairobi"
+        },
+        {
+          "source_text": "Rigathi Gachagua Cheers FBI\u2019s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in Eastleigh Malls allegedly targeting @bbsmallnairobi . - https://t.co/AfUSF",
+          "potential_claims": [
+            "targeting bbsmallnairobi"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/InsideKeOnline/status/2054788585912402243",
+          "author": "@InsideKeOnline"
+        },
+        {
+          "source_text": "Gachagua Cheers FBI\u2019s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in Eastleigh Malls. \n\nThe arrival of FBI Co-Deputy Director Andrew Bailey in Nairobi ",
+          "potential_claims": [
+            "was also used to finance political campaigns including a contribution to President William Rutos election bid"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+          "author": "@InsideKeOnline"
+        },
+        {
+          "source_text": "In front of you is Somalia\u2019s Ambassador to Kenya, Jabril Abdulle. He's a full-time slay king & part-time ambassador of soft life. The man spends more time on Instagram and Snapchat than Aziad. If he\u2019s",
+          "potential_claims": [
+            "searching for yellowyellow damsels to discuss bilateral relations",
+            "Jabril has been supplying high voltage electricity to their women",
+            "her as an Alshabab financier  that he was supplying high voltage electricity to a 17 year old girl I wasnt surprised"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/georgediano/status/2050625727100535180",
+          "author": "@georgediano"
+        },
+        {
+          "source_text": "My biggest takeaway from today's food festival and Expo at BBS mall was Vitamins Sparkling drink by V7 drinks. First of it's kind in Kenya. I tried it and can confirm that it's worth every penny and i",
+          "potential_claims": [
+            "its worth every penny and is now available at most of the retail amp wholesale shops"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/AbdihakimKeinan/status/2047706695074299984",
+          "author": "@AbdihakimKeinan"
+        }
+      ],
+      "new_handles": [
+        {
+          "handle": "@InsideKeOnline",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/InsideKeOnline/status/2055524563891491091",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 4 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        }
+      ],
+      "timeline_events": [
+        {
+          "id": "APF-2026-05-17-149",
+          "date": "2026-05-17",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P3 MODERATE",
+          "headline": "Yes Soros is part of the Deep State that controls and manipulate; Democrats Media 95% Universities Schools Judges Obama",
+          "summary": "Yes Soros is part of the Deep State that controls and manipulate; Democrats Media 95% Universities Schools Judges Obama Crossfire Hurricane. Fraud mail-in ballots votes Fraud voting machines. Hollywood Celebrities Fund protesters against Trump. Burn . Observed across 2 posts from 2 accounts on X (Twitter).",
+          "actors": [
+            "@Harryozzz",
+            "@HarryCostas2"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/HarryCostas2/status/2055954726144155829",
+              "date": "2026-05-17"
+            }
+          ],
+          "spread": 2,
+          "disinfo_narratives": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "MEDIUM",
+          "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "pattern_match",
+          "narrative_families": [],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-05-17",
+          "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
+          "last_seen": "2026-05-17",
+          "status": "active",
+          "observations": [
+            {
+              "date": "2026-05-17",
+              "url": "https://x.com/HarryCostas2/status/2055954726144155829",
+              "summary": "Initial detection",
+              "platforms": [
+                "X (Twitter)"
+              ],
+              "reach": {}
+            }
+          ],
+          "observation_count": 1
+        },
+        {
+          "id": "APF-2026-05-17-956",
+          "date": "2026-05-17",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "misinformation",
+          "threat_level": "P2 HIGH",
+          "headline": "Gachagua Cheers FBI\u2019s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+          "summary": "Gachagua Cheers FBI\u2019s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in Eastleigh Malls. The arrival of FBI Co-Deputy Director Andrew Bailey in Nairobi this week has handed former Deputy President Rigathi. Observed across 2 posts from 1 accounts on X (Twitter).",
+          "actors": [
+            "@InsideKeOnline"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+              "date": "2026-05-17"
+            }
+          ],
+          "spread": 2,
+          "disinfo_narratives": [
+            "NAR-KE-004",
+            "NAR-KE-002"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Ethnic Incitement",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-05-17",
+          "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
+          "last_seen": "2026-05-17",
+          "status": "active",
+          "observations": [
+            {
+              "date": "2026-05-17",
+              "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+              "summary": "Initial detection",
+              "platforms": [
+                "X (Twitter)"
+              ],
+              "reach": {}
+            }
+          ],
+          "observation_count": 1
+        },
+        {
+          "id": "APF-2026-05-17-814",
+          "date": "2026-05-17",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "misinformation",
+          "threat_level": "P2 HIGH",
+          "headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+          "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+          "actors": [
+            "@SaddiqueShaban"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+              "date": "2026-05-17"
+            }
+          ],
+          "spread": 1,
+          "disinfo_narratives": [
+            "NAR-KE-004",
+            "NAR-KE-002"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Ethnic Incitement",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-05-17",
+          "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
+          "last_seen": "2026-05-17",
+          "status": "active",
+          "observations": [
+            {
+              "date": "2026-05-17",
+              "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+              "summary": "Initial detection",
+              "platforms": [
+                "X (Twitter)"
+              ],
+              "reach": {}
+            }
+          ],
+          "observation_count": 1
+        },
+        {
+          "id": "APF-2026-05-17-489",
+          "date": "2026-05-17",
+          "country": "Somalia",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "Friday March 27th 2026 [Evening News Brief] \ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+          "summary": "Friday March 27th 2026 [Evening News Brief] \ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today. 2 very seriously wounded and 8 seriously wounded. -  \ud83d\udfe5 TSA Executive Order: President Trump has signed . 14 near-identical posts from 14 accounts suggest coordinated amplification.",
+          "actors": [
+            "@Sooreyare",
+            "@hirad63",
+            "@Halgamaassc99",
+            "@ORC35",
+            "@war_doon",
+            "@11Abuker",
+            "@Wararka24",
+            "@TheFrontlineRpt",
+            "@Xaanx_",
+            "@MohamedDekAbdal"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/AfricanReports/status/883728480881475585",
+              "date": "2026-05-17"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-SO-001"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references 'shahada' with VE context (attack, soldiers killed); classified as VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": true,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-05-17",
+          "detection_timestamp": "2026-05-17T10:18:18.572771+00:00"
+        },
+        {
+          "id": "APF-2026-05-17-862",
+          "date": "2026-05-17",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "misinformation",
+          "threat_level": "P2 HIGH",
+          "headline": ",. The Minnesota fraud proceeds ends up in Eastleigh Nairobi and Garrisa town, the two main hot spots where the",
+          "summary": ",. The Minnesota fraud proceeds ends up in Eastleigh Nairobi and Garrisa town, the two main hot spots where the Somali-Americans and Kenyan-Somali communities have staged a collaborative scheme to defraud the United States with full protection from t. 15 near-identical posts from 14 accounts suggest coordinated amplification.",
+          "actors": [
+            "@Osman_estate",
+            "@bbsmallnairobi",
+            "@Njehu022",
+            "@StargazerJayne",
+            "@Lyre__Bird",
+            "@InsideKeOnline",
+            "@LoleyYare",
+            "@Eastleighvoice",
+            "@feisalabdalla1",
+            "@Matovumic"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/InsideKeOnline/status/2055524563891491091",
+              "date": "2026-05-17"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-004",
+            "NAR-KE-002"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Ethnic Incitement",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-05-17",
+          "detection_timestamp": "2026-05-17T10:18:18.572771+00:00"
+        }
+      ],
+      "items_file": "/home/runner/work/IRIS/IRIS/monitoring/apify_results/items_2026-05-17_morning.json"
+    },
+    "1d_event_lifecycle": {
+      "to_dormant": 1,
+      "to_resolved": 0,
+      "still_active": 24
+    },
+    "1f_event_enrich": {
+      "links_added": 17,
+      "threat_upgrades": 0
+    },
+    "1e_event_review": {
+      "reviewed": 1,
+      "reclassified": 0,
+      "claims_extracted": 1,
+      "keywords_proposed": 5,
+      "total_events": 455
+    },
+    "2a_hs_sweep": {
+      "groups_searched": 11,
+      "total_results": 495,
+      "total_cost_usd": 0.063,
+      "budget_remaining_usd": 0.437,
+      "sweep_date": "2026-05-17"
+    },
+    "2b_hs_classify": {
+      "total_items": 495,
+      "noise_filtered": 3,
+      "ea_rejected": 431,
+      "no_indicators": 11,
+      "hs_confirmed": 50,
+      "hs_high": 32,
+      "hs_medium": 10,
+      "hs_low": 8,
+      "duplicates_skipped": 5,
+      "posts_appended": 42,
+      "autolearning": {
+        "new_toxic_handles": 2,
+        "new_learned_keywords": 4,
+        "new_narrative_discoveries": 1
+      },
+      "subtype_proposals": [
+        {
+          "proposed_subtype": "HS-NEW-HS_POLITICAL_KE",
+          "hs_group": "HS_POLITICAL_KE",
+          "unclassified_count": 5,
+          "examples": [
+            "Enti e Rojullo Vetiki Kuda Exitement Avutunara Chusi chusi Bore kottesindi",
+            "Bro @The_Nyerian come and see this worrying statistics \ud83e\udd14",
+            "Na si yule jamaa aende akaibe hii atuachie Kenya."
+          ],
+          "status": "needs_review"
+        }
+      ],
+      "subtype_distribution": {
+        "Unknown HS Type": 22,
+        "Religious Incitement": 8,
+        "Clan Targeting": 7,
+        "Political Incitement": 7,
+        "Dehumanisation": 6
+      },
+      "country_distribution": {
+        "Somalia": 28,
+        "Kenya": 14,
+        "South Sudan": 8
+      }
+    },
+    "2c_ml_enrich": {
+      "classified": 45,
+      "total": 7798
+    },
+    "2d_llm_qa": {
+      "explained": 32,
+      "total": 52
+    },
+    "2e_quality_gate": {
+      "removed": 23,
+      "remaining": 7775,
+      "archived_to": "/home/runner/work/IRIS/IRIS/data/run_history/misclassified_2026-05-17.json"
+    },
+    "3a_reach": {
+      "updated": 21,
+      "checked": 31
+    }
+  }
+}
