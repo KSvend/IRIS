@@ -1,0 +1,191 @@
+{
+  "date": "2026-05-18",
+  "extracted_claims": [
+    {
+      "claim": "There is no such thing as Islamophobia.",
+      "country": "Regional",
+      "actors": [
+        "@BELGIA83185791"
+      ],
+      "keywords": [
+        "Islamophobia",
+        "Jihadists"
+      ]
+    },
+    {
+      "claim": "Alexander Soros is linked to 'Jihadists' who are responsible for racism, violence, rapes, and killings.",
+      "country": "Regional",
+      "actors": [
+        "@BELGIA83185791"
+      ],
+      "keywords": [
+        "Alexander Soros",
+        "Jihadists"
+      ]
+    },
+    {
+      "claim": "IRGC, Hayi, Hezbola, Houthis, Afghani Kurds, and SIS killers are 'hate-driven Jihadists' trying to spread violence.",
+      "country": "Regional",
+      "actors": [
+        "@BELGIA83185791"
+      ],
+      "keywords": [
+        "IRGC",
+        "Hayi",
+        "Hezbola",
+        "Houthis",
+        "Afghani Kurds",
+        "SIS killers",
+        "Jihadists"
+      ]
+    },
+    {
+      "claim": "The FBI's partnership with Kenya, following the arrival of Co-Deputy Director Andrew Bailey, is intended to catch 'Minnesota fraud cartels' hiding in Eastleigh malls.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "FBI",
+        "Kenya",
+        "Minnesota fraud cartels",
+        "Eastleigh malls",
+        "Andrew Bailey"
+      ]
+    },
+    {
+      "claim": "The Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers.",
+      "country": "Kenya",
+      "actors": [
+        "@SaddiqueShaban"
+      ],
+      "keywords": [
+        "Business Bay Square Mall",
+        "BBS Mall",
+        "Eastleigh",
+        "Administration Police"
+      ]
+    },
+    {
+      "claim": "Administration Police officers from BBS Mall conduct traffic stops on motorcycles.",
+      "country": "Kenya",
+      "actors": [
+        "@SaddiqueShaban"
+      ],
+      "keywords": [
+        "Business Bay Square Mall",
+        "BBS Mall",
+        "Eastleigh",
+        "Administration Police",
+        "traffic stops"
+      ]
+    },
+    {
+      "claim": "The BBS Mall has designated a public road as its own.",
+      "country": "Kenya",
+      "actors": [
+        "@SaddiqueShaban"
+      ],
+      "keywords": [
+        "Business Bay Square Mall",
+        "BBS Mall",
+        "Eastleigh",
+        "public road"
+      ]
+    },
+    {
+      "claim": "Pro-Turkish analysts are echoing ISIS propaganda.",
+      "country": "South Sudan",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "pro-Turkish analysts",
+        "ISIS propaganda"
+      ]
+    },
+    {
+      "claim": "There are striking similarities between the narratives of Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media (an ISIS propaganda outlet).",
+      "country": "South Sudan",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media",
+        "ISIS propaganda"
+      ]
+    },
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131 is pushing narratives that portray Puntland\u2019s counter-terrorism efforts negatively.",
+      "country": "South Sudan",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Puntland",
+        "counter-terrorism"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Alexander Soros",
+      "country": "Regional",
+      "reason": "Target of false claims and conspiracy theories."
+    },
+    {
+      "keyword": "Islamophobia",
+      "country": "Regional",
+      "reason": "Term being denied and used in false narratives."
+    },
+    {
+      "keyword": "Minnesota fraud cartels",
+      "country": "Kenya",
+      "reason": "Specific term used in the false claim."
+    },
+    {
+      "keyword": "Eastleigh malls",
+      "country": "Kenya",
+      "reason": "Specific location targeted by the false claim."
+    },
+    {
+      "keyword": "Andrew Bailey",
+      "country": "Kenya",
+      "reason": "Key figure mentioned in the false claim."
+    },
+    {
+      "keyword": "Business Bay Square Mall",
+      "country": "Kenya",
+      "reason": "Specific location targeted by the false claim."
+    },
+    {
+      "keyword": "BBS Mall",
+      "country": "Kenya",
+      "reason": "Acronym for the specific location."
+    },
+    {
+      "keyword": "Administration Police",
+      "country": "Kenya",
+      "reason": "Specific entity falsely associated with the mall."
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual targeted by the claim."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific ISIS propaganda outlet mentioned."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific regional counter-terrorism efforts being targeted."
+    }
+  ],
+  "events_reviewed": 4,
+  "events_reclassified": 0
+}

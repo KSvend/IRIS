@@ -32519,5 +32519,337 @@
     ],
     "_review_notes": "This claim, if widely believed, could erode public trust in official law enforcement and governance, creating confusion about jurisdiction and authority on public roads and potentially leading to public disorder.",
     "_reviewed": "2026-05-17T10:18:45.868402+00:00"
+  },
+  {
+    "id": "APF-2026-05-18-124",
+    "date": "2026-05-18",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims linking Alexander Soros to 'Jihadists' and promoting Islamophobic narratives",
+    "summary": "An X (Twitter) account is spreading Islamophobic narratives, falsely claiming that 'Islamophobia' does not exist and linking Alexander Soros to 'Jihadists' responsible for violence and killings. The posts also mention specific groups like IRGC, Hayi, Hezbola, Houthis, Afghani Kurds, and SIS killers as 'hate-driven Jihadists'. This content promotes hate speech and could incite violence.",
+    "actors": [
+      "@BELGIA83185791"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/BELGIA83185791/status/2056346451140018510",
+        "date": "2026-05-18"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-04-26-495",
+      "APF-2026-04-28-701",
+      "APF-2026-05-17-149",
+      "KEN-2025-010"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-18",
+    "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
+    "last_seen": "2026-05-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-18",
+        "url": "https://x.com/BELGIA83185791/status/2056346451140018510",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Arrest Now, Alexander Soros. To all of you Jihadits out there: There's no such thing as Islamaphobic. The racism,",
+    "_original_summary": "Arrest Now, Alexander Soros. To all of you Jihadits out there: There's no such thing as Islamaphobic. The racism, violence, rapes, and killings from hate driven Jihadists. IRGC, Hayi, Hezbola, Houthis, Afghani Kurds, SIS killers trying to spread that. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "There is no such thing as Islamophobia.",
+      "Alexander Soros is linked to 'Jihadists' who are responsible for racism, violence, rapes, and killings.",
+      "IRGC, Hayi, Hezbola, Houthis, Afghani Kurds, and SIS killers are 'hate-driven Jihadists' trying to spread violence."
+    ],
+    "_review_notes": "This event represents a clear instance of hate speech and the promotion of Islamophobic conspiracy theories, falsely linking a prominent figure to extremist groups. The content has a high potential for incitement.",
+    "_reviewed": "2026-05-18T12:13:34.262076+00:00"
+  },
+  {
+    "id": "APF-2026-05-18-940",
+    "date": "2026-05-18",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims that FBI partnership with Kenya will target 'Minnesota fraud cartels' hiding in Eastleigh malls",
+    "summary": "An X (Twitter) account is spreading false claims that the recent partnership between the FBI and Kenya, marked by the arrival of FBI Co-Deputy Director Andrew Bailey, is specifically aimed at catching 'Minnesota fraud cartels' allegedly hiding in Eastleigh malls. This narrative falsely frames the purpose of international law enforcement cooperation and targets a specific community/area.",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "date": "2026-05-18"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-16-132",
+      "APF-2026-05-16-669",
+      "APF-2026-05-17-814",
+      "APF-2026-05-17-956",
+      "APF-2026-05-18-858"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-18",
+    "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
+    "last_seen": "2026-05-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-18",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+    "_original_summary": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in Eastleigh Malls. The arrival of FBI Co-Deputy Director Andrew Bailey in Nairobi this week has handed former Deputy President Rigathi. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "The FBI's partnership with Kenya, following the arrival of Co-Deputy Director Andrew Bailey, is intended to catch 'Minnesota fraud cartels' hiding in Eastleigh malls."
+    ],
+    "_review_notes": "This disinformation attempts to misrepresent the purpose of international law enforcement cooperation and could fuel xenophobia or negative perceptions towards specific communities in Kenya, particularly those associated with Eastleigh.",
+    "_reviewed": "2026-05-18T12:13:34.262093+00:00"
+  },
+  {
+    "id": "APF-2026-05-18-858",
+    "date": "2026-05-18",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims that Business Bay Square (BBS) Mall in Eastleigh has its own Administration Police and controls public roads",
+    "summary": "An X (Twitter) account is spreading false claims that the Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers who conduct traffic stops on motorcycles. The posts also falsely assert that the mall has designated a public road as its own. This narrative could undermine public trust in law enforcement and create confusion regarding public access and authority.",
+    "actors": [
+      "@SaddiqueShaban"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "date": "2026-05-18"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-04-27-864",
+      "APF-2026-04-28-301",
+      "APF-2026-05-16-669",
+      "APF-2026-05-17-814",
+      "APF-2026-05-18-940"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-18",
+    "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
+    "last_seen": "2026-05-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-18",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "_original_summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "extracted_claims": [
+      "The Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers.",
+      "Administration Police officers from BBS Mall conduct traffic stops on motorcycles.",
+      "The BBS Mall has designated a public road as its own."
+    ],
+    "_review_notes": "This disinformation could create confusion about the authority of private entities versus public law enforcement and potentially lead to public distrust or confrontations regarding traffic enforcement and public access in the Eastleigh area.",
+    "_reviewed": "2026-05-18T12:13:34.262100+00:00"
+  },
+  {
+    "id": "APF-2026-05-18-293",
+    "date": "2026-05-18",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims that pro-Turkish analysts are echoing ISIS propaganda, specifically linking Umut Çağrı Sarı to Manjaniq Media",
+    "summary": "An X (Twitter) account is spreading claims that pro-Turkish analysts are echoing ISIS propaganda. Specifically, the posts allege striking similarities between the narratives pushed by Turkish geopolitical commentator Umut Çağrı Sarı and Manjaniq Media, a known ISIS propaganda outlet. The claims suggest Sarı is promoting narratives that portray Puntland’s counter-terrorism efforts negatively. This narrative aims to discredit specific analysts and potentially undermine counter-terrorism efforts.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-05-18"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-04-25-643",
+      "APF-2026-04-26-429",
+      "APF-2026-04-27-393",
+      "APF-2026-04-28-735",
+      "APF-2026-04-30-526",
+      "APF-2026-05-16-264"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-18",
+    "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
+    "last_seen": "2026-05-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-18",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Pro-Turkish analysts are echoing ISIS propaganda.",
+      "There are striking similarities between the narratives of Umut Çağrı Sarı and Manjaniq Media (an ISIS propaganda outlet).",
+      "Umut Çağrı Sarı is pushing narratives that portray Puntland’s counter-terrorism efforts negatively."
+    ],
+    "_review_notes": "This event attempts to discredit a geopolitical commentator by falsely linking them to ISIS propaganda, potentially undermining public perception of their analysis and broader counter-terrorism narratives, particularly concerning Puntland. The country classification for this event should be Somalia, not South Sudan, as Puntland is in Somalia.",
+    "_reviewed": "2026-05-18T12:13:34.262104+00:00"
   }
 ]

@@ -1,0 +1,1205 @@
+[
+  {
+    "i": "apify-ded1020601c5",
+    "t": "@jimNjue_ 8000 Kikuyu Mungiki were killed under Kibaki by Michuki. You will not rule Kenya next year.",
+    "d": "2026-05-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mwarsama",
+    "l": "https://x.com/mwarsama/status/2055710772727095696",
+    "pr": "Hate",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9344
+    },
+    "exp": "The post references the killing of \"Mungiki,\" a Kikuyu militia, under a previous administration, and makes a political statement about future rule. This is a historical reference and a political prediction, not incitement or hate speech against a group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-36b4cca6af49",
+    "t": "The methods I would use to deal with alcohol would make the Mungiki wave look pale in Mt. Kenya.",
+    "d": "2026-05-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kinjeketile",
+    "l": "https://x.com/kinjeketile/status/2055594596017594675",
+    "pr": "Hate",
+    "co": 0.8657,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 31,
+      "s": 14,
+      "c": 5
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "The post expresses a personal opinion about dealing with alcohol, stating that the methods would be so severe they would overshadow the \"Mungiki wave,\" a period of violence associated with a Kikuyu militia. This is a hyperbolic statement about policy, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c4e2ff63ab3c",
+    "t": "@OJ_Smoke_ you would know that anonymous internet takfir from an armchair in the West is worthless. Address your original takfir on the Somali Muslim soldiers or walk away sxb",
+    "d": "2026-05-17",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@soomal252",
+    "l": "https://x.com/soomal252/status/2055575836032438479",
+    "pr": "Abusive",
+    "co": 0.9739,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 3,
+      "s": 0,
+      "c": 1
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-17",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9637
+    },
+    "exp": "The post criticizes the act of \"takfir,\" which is declaring another Muslim an apostate or infidel, specifically mentioning \"takfir on the Somali Muslim soldiers.\" This post is criticizing religious incitement, not engaging in it.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9ec06e7e6e95",
+    "t": "@KhilafatImran @RealWaqarMaliks @Aleema_KhanPK @ShazadAkbar @khurramzeeshan @FarzanaSaeedPTI @40laraib @Masood2148Ahmed @YasminAzraAsif1 @Erum8official @tayyabarajah @AmirSalar_Wazir @MahrukhAli5555 @Shazzyy1447 @agentjay2009 @PTIofficial @Amin_Wazir_Ik @Ahmed_khanNiazi @Sony_810 @LubnaOfficial_1 @2",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@KhilafatImrania",
+    "l": "https://x.com/KhilafatImrania/status/2056341737715478957",
+    "pr": "Normal",
+    "co": 0.9536,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9892
+    },
+    "exp": "This post consists solely of a long list of Twitter handles, without any accompanying text or context. It is not possible to determine its meaning or intent.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-24805969a1b6",
+    "t": "\ud83d\udccdCeerigaabo -Sanaag .\n\nHappy 18may all somalilanders \u270c\ud83c\udffe https://t.co/42L4kK8RHz",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@pilothusen",
+    "l": "https://x.com/pilothusen/status/2056341387633897841",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9493
+    },
+    "exp": "This post celebrates May 18th, which is Somaliland's independence day, wishing \"Happy 18may all Somalilanders.\" This is an expression of national pride for Somaliland, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b97906c8cef6",
+    "t": "Hooyo cimridheer iyo cafimaad guulayso marwalba \ud83e\udee1\ud83d\udc9a\ud83e\udd0d\u2764\ufe0f\n\n#Somaliland https://t.co/kYZJzm6LAV",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Saeed_JSL",
+    "l": "https://x.com/Saeed_JSL/status/2056339345695518884",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9832
+    },
+    "exp": "The post translates to \"Mother, long life and health, always be victorious,\" accompanied by the Somaliland flag colors and hashtag. This is a positive message of well-wishing and national pride, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0232a4b62bb8",
+    "t": "Ciyaalka Boorma caawa wee cibaadeesteen #Somalia #somaliland https://t.co/XjPOBBavSq",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@xoogagga",
+    "l": "https://x.com/xoogagga/status/2056078727264489589",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9853
+    },
+    "exp": "The post states, \"The children of Borama worshipped tonight.\" Borama is a city in Somaliland. This is a neutral observation, likely referring to religious activities, and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-065510a20273",
+    "t": "Ciyaalka xaafada ee boorama caawa wee cibaadeesteen #Somalia #somaliland https://t.co/qBNeO9GgCr",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@xoogagga",
+    "l": "https://x.com/xoogagga/status/2056070815599280415",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9846
+    },
+    "exp": "The post states, \"The children of the neighborhood in Borama worshipped tonight.\" This is a neutral observation about religious activity in Borama, a city in Somaliland, and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-13007f6f3503",
+    "t": "#yaxyaan #somali #somalitiktok",
+    "d": "2025-10-02",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@yaxyaan8",
+    "l": "https://www.tiktok.com/@yaxyaan8/video/7556586438863670535",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9767
+    },
+    "exp": "The post consists of hashtags, including \"#yaxyaan.\" This term is not a recognized hate speech term in Somali, and without further context, the post does not convey any hateful meaning.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e88af576ea4c",
+    "t": "#somalitiktok #fyp #xbcyza",
+    "d": "2026-05-17",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@iiqxxraa",
+    "l": "https://www.tiktok.com/@iiqxxraa/video/7640943531040754958",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.978
+    },
+    "exp": "This post consists solely of generic hashtags like #somalitiktok and #fyp, without any discernible content or hateful language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d497a90fcd08",
+    "t": "June 6, 2026\u2028\ud83c\uddf0\ud83c\uddea Kenya (128) \ud83c\udd9a Zimbabwe \ud83c\uddff\ud83c\uddfc (127)\u2028\ud83c\uddff\ud83c\uddf2 Zambia (64) \ud83c\udd9a Burkina Faso \ud83c\udde7\ud83c\uddeb (118)\n\nJune 9, 2026\u2028\ud83c\uddff\ud83c\uddf2 Zambia (64) \ud83c\udd9a Kenya \ud83c\uddf0\ud83c\uddea (128)\u2028\ud83c\uddff\ud83c\uddfc Zimbabwe (127) \ud83c\udd9a Burkina Faso \ud83c\udde7\ud83c\uddeb (118)\n#dadasportsafrica https://t.co/XiKpxLR7zd",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@dadasportafrica",
+    "l": "https://x.com/dadasportafrica/status/2056241491643633733",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post lists sports match fixtures between various African countries, including Kenya, Zimbabwe, Zambia, and Burkina Faso, along with their rankings. This is factual sports information and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-48c918c6c3ba",
+    "t": "@NyamwamuCyprian @CEECKENYA @Saitabao @Dedan_Kimathi @KagutaMuseveni @fredomachoka @Mercymasai3 @sholard_mancity @abbey263 @OfficialMwave @MwangiMaina_ @njerikan @makaumutua For the leadership, hope and inspiration you have provided, the date is marked, mtumishi",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KidiMwaga2",
+    "l": "https://x.com/KidiMwaga2/status/2055736182399467655",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a general expression of gratitude and appreciation for leadership, hope, and inspiration, without any hateful or abusive content. It mentions various individuals and organizations in a positive light.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-721b9b8bc140",
+    "t": "Kenya needs unity, not conflict between hustlers and protesters. Respect My Hustle today. https://t.co/OZOllsaIQr",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mutuse76797",
+    "l": "https://x.com/mutuse76797/status/2056340365167251857",
+    "pr": "Normal",
+    "co": 0.9917,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9972
+    },
+    "exp": "This post advocates for unity in Kenya and expresses a desire to avoid conflict between different groups ('hustlers' and 'protesters'). It promotes a positive message of respect and peace.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-046a36b5fbcd",
+    "t": "Kenya needs productive citizens even during disagreement. Respect My Hustle today. https://t.co/EsvarOSAP9",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@muenivictoria56",
+    "l": "https://x.com/muenivictoria56/status/2056340486185435511",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9981
+    },
+    "exp": "This post calls for productive citizenship and respect, even amidst disagreements, promoting a positive message for Kenya. It does not contain any hateful or abusive language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c6a6f308af41",
+    "t": "18 May 2026 in Somaliland: Statehood, Recognition, and National Consolidation https://t.co/tcJ3NjX87r",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@guiled2_gulaid",
+    "l": "https://x.com/guiled2_gulaid/status/2056058256586387500",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9621
+    },
+    "exp": "This post is a factual statement or news item about Somaliland's statehood and recognition, likely related to its independence day. It does not contain any hateful language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2a06a82e127b",
+    "t": "Sareedo iyo #Somaliland La Wadaago \nHappy 18th May 2026\nGuul iyo gobannimo waarta #Somaliland. https://t.co/0kMFCocLe4",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@AFaatih67134",
+    "l": "https://x.com/AFaatih67134/status/2056291462430740746",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9845
+    },
+    "exp": "This post expresses celebratory wishes for Somaliland's independence day, using 'Guul iyo gobannimo waarta' which means 'Lasting success and freedom.' It is a positive message about Somaliland.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1a59528fb746",
+    "t": "18 May 2026 in Somaliland: Statehood, Recognition, and National Consolidation https://t.co/1vL7dOE7AX https://t.co/XuwKTjScCj",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@guiled2_gulaid",
+    "l": "https://x.com/guiled2_gulaid/status/2055767654011404718",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9579
+    },
+    "exp": "This post is a factual statement or news item about Somaliland's statehood and recognition, likely related to its independence day. It does not contain any hateful language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8b18d7067a9a",
+    "t": "\u0643\u0644 \u0639\u0627\u0645 \u0648 #\u0635\u0648\u0645\u0627\u0644\u064a\u0644\u0627\u0646\u062f \u0648\u0634\u0639\u0628\u0647\u0627 \u0628\u0623\u0644\u0641 \u062e\u064a\u0631\n\nSanad wanaagsan, #Somaliland iyo shacabkeeda qiimaha badan\n\nHappy anniversary to #Somaliland and its people. Wishing them all the best https://t.co/PZB8Hxd7DA",
+    "d": "2026-05-18",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@MohdTaqi11",
+    "l": "https://x.com/MohdTaqi11/status/2056342091408785822",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9846
+    },
+    "exp": "This post contains celebratory messages in Arabic, Somali, and English, wishing Somaliland and its people a happy anniversary and all the best. 'Sanad wanaagsan, Somaliland iyo shacabkeeda qiimaha badan' means 'Happy year, Somaliland and its valuable people.'",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b983a0396a32",
+    "t": "When a revert questions their old beliefs, we celebrate it, calling it a search for truth. But when a Somali asks the same questions, they\u2019re called a kafir, a fitna, or even \u201cnot Somali.\u201d\nAs Somalis in the diaspora, we have access to more knowledge than any generation before us yet questioning is s",
+    "d": "2025-08-13",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@zehn.ali",
+    "l": "https://www.tiktok.com/@zehn.ali/video/7538129111881977118",
+    "pr": "Normal",
+    "co": 0.7259,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9155
+    },
+    "exp": "The post highlights a double standard where questioning beliefs is celebrated for reverts but condemned for Somalis, who are then labeled 'kafir' (infidel) or 'fitna' (discord/strife). The post itself is criticizing the use of such terms and advocating for open inquiry, rather than using them to attack a group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-69dc18c46098",
+    "t": "Leaders must stop turning Mt Kenya into a battlefield of anger and hatred. We cannot continue normalizing toxic politics while young lives are being destroyed.",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Benson_Mwiti_25",
+    "l": "https://x.com/Benson_Mwiti_25/status/2056339885636632595",
+    "pr": "Normal",
+    "co": 0.7859,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9884
+    },
+    "exp": "This post expresses concern about political rhetoric in the Mt Kenya region, warning against the normalization of toxic politics. It does not target any specific group with hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-42e13f71cf6c",
+    "t": "@JohnMbadiN Kenyans need to stop giving this ijiot airtime....Citizens need to stop listening to these guys or they will continue disrespecting them....take away their power",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@jim_munene",
+    "l": "https://x.com/jim_munene/status/2056336821210997035",
+    "pr": "Hate",
+    "co": 0.5746,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "medium",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "polarization",
+      "score": 0.9177
+    },
+    "exp": "This post targets a specific individual, John MbadiN, calling him an 'ijiot' (idiot) and urging people to stop listening to him. It's a personal insult and political criticism, not hate speech against a group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d9e85ea7dabb",
+    "t": "Innocent citizens are paying the ultimate price through lost lives and ruined businesses. Weaponizing public frustration over commodity prices to justify destruction is deeply reckless. Every Kenyan deserves a peaceful environment to rebuild their life safely. #MrimaIncitement. https://t.co/pxemXiJs",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@_ItsMkisii",
+    "l": "https://x.com/_ItsMkisii/status/2056339323947991444",
+    "pr": "Normal",
+    "co": 0.9971,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.753
+    },
+    "exp": "This post expresses concern about the negative consequences of weaponizing public frustration, leading to destruction and loss of life, and advocates for peace. It does not target any specific group with hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ddbf4185e272",
+    "t": "In a statement on May 17, 2026, the National Police Service said the woman in the Mwiki attack remains in critical condition at Kenyatta National Hospital after being set ablaze. NPS also condemned separate assaults on traffic police officers in Embakasi and Lang\u2019ata\n#HomeOfHardTruths",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RadioGenKe",
+    "l": "https://x.com/RadioGenKe/status/2055906633155248600",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This post reports on a violent incident and police condemnation of assaults, functioning as a news update. It does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-33c6bbd5a676",
+    "t": "@WarriWeirdo @Urhobo_Mudiaga @Naherodisabi @HONIboriSuenu @JamesIbori6 @Akinjoshua2017 @Akpomieemiee @AkposJim @EjiroAtenaga @doubara_ie @h_okolobe @HarmlessHQ @famous_vic60115 @KingOgba96 @Efeom @DafinoneEde @DSGovernment @RtHonSheriff The government dey only respond quickly, once the people don ta",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Jesurukky1",
+    "l": "https://x.com/Jesurukky1/status/2056341993861640565",
+    "pr": "Abusive",
+    "co": 0.9977,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This post is incomplete and appears to be a reply to many users, likely discussing government issues. The visible text 'The governmen...' does not contain any hate speech, and the user handles suggest a Nigerian context.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4dca6abc055d",
+    "t": "Political leaders should calm tensions and encourage peaceful dialogue instead of fueling anger that leads to destruction and loss of life. Kenya\u2019s stability is more important than political advantage. #MrimaIncitement https://t.co/SKINjA7OXs",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@realkahiro",
+    "l": "https://x.com/realkahiro/status/2056339830431187318",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post advocates for peace and dialogue, urging political leaders to de-escalate tensions. It is a call for responsible leadership and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9c58f19af8c8",
+    "t": "Turning fuel price frustrations into political chaos is reckless and dangerous. Businesses are being destroyed, innocent lives are at risk, and fear is spreading across communities. Kenya deserves peace, not violence sponsored through propaganda. #MrimaIncitement https://t.co/SWp8BULIn0",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Muoki_1",
+    "l": "https://x.com/Muoki_1/status/2056337455314341981",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9983
+    },
+    "exp": "This post criticizes the transformation of economic frustrations into political chaos, highlighting the negative impact on businesses and lives, and calls for peace. It does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7c912f89bcc4",
+    "t": "It starts today.\n\nWednesday-Nakuru and its environs wakue wanafika.\n\nFriday- Kisumu, Mombasa and its environs wafike pia\n\n#Rutomustgo",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MissKARElinaa",
+    "l": "https://x.com/MissKARElinaa/status/2056281073022062650",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a call for political protests against President Ruto, instructing people to gather in Nakuru, Kisumu, and Mombasa on specific days. It does not contain any local-language hate speech terms.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d266efc7eb80",
+    "t": "Territorial control map \u2013 Sudan Conflict (as of May 10, 2026) - Sudans Post https://t.co/uWAua1Enmf",
+    "d": "2026-05-18",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@waluwande",
+    "l": "https://x.com/waluwande/status/2055904355010728073",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post shares a news link about a territorial control map related to the Sudan conflict.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b18525e50775",
+    "t": "South Sudan Legislative Assembly adjourned it Monday sitting due to a fuel shortage, According TNLA spokesperson.",
+    "d": "2026-05-18",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Cholatak",
+    "l": "https://x.com/Cholatak/status/2056341646854193168",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports that the South Sudan Legislative Assembly adjourned a sitting due to a fuel shortage, citing the TNLA spokesperson.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8945fce57008",
+    "t": "\ud83c\udf21On Saturday May 16th 2026 the renegade Brigadier Gen. Savanna  threatened to fight his former organization , the #RSF on Kordofan state. https://t.co/HAXfHzLQxF",
+    "d": "2026-05-18",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Ivadleber",
+    "l": "https://x.com/Ivadleber/status/2055716475533463645",
+    "pr": "Normal",
+    "co": 0.9978,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports that a renegade Brigadier General threatened to fight his former organization, the RSF, in Kordofan state. This is a factual report of a threat made by a specific individual in a conflict context, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6e997fe86831",
+    "t": "\u2693\ufe0f Sudan Founding Alliance #Tasis  on Saturday May 17th '26 released a statement accusing SAF and the General Intelligence of withholding humanitarian trucks belonging to #WFP in Al Dabba city of Northern state that was destined to Darfur region. #Sudan",
+    "d": "2026-05-18",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Ivadleber",
+    "l": "https://x.com/Ivadleber/status/2055894907827405200",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports that the Sudan Founding Alliance accused the SAF and General Intelligence of withholding WFP humanitarian trucks destined for Darfur.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ea1be0547c4d",
+    "t": "@MichukiGavana @philipmathekaj @Sabulkips @JohnMusang7262 @AAkiyao @CessNdiritu @helenMaIgnatius @raphn @RChemutai @Lucypau43921191 @CAkabeti @elijahsumbeiywo @PatrickRudiger2 @njoro78 @Josephkihiu12 @Janetmw25 @Patrick70518199 @Maggiecikun @Classic105Kenya @sylviepaloma @Davidwaflower9 @JamesVungo ",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2056265682015138249",
+    "pr": "Normal",
+    "co": 0.9108,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post consists solely of a long list of Twitter user mentions, without any accompanying text or content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c69ecd491d2f",
+    "t": "\ud83d\udea8 MISSING CHILD! \nHAVE YOU SEEN HIM?\n\nJOSHUA OMUKA - Male, now 3 years old.\nLast seen: 16th April 2025, 4:00PM\n\ud83d\udccd Nairobi CBD, in company of his grandmother\n\ud83c\udfe0 Home: Limuru, Riara Ridge - Kiambu County\n\nNote: His sister Baby Fanice was later reunited with family. Joshua is still missing.\n\nIf you have ",
+    "d": "2026-05-18",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ChildServicesKE",
+    "l": "https://x.com/ChildServicesKE/status/2056337245053862215",
+    "pr": "Abusive",
+    "co": 0.994,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-18",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is an alert for a missing 3-year-old child named Joshua Omuka, providing details about his last known location and a note about his sister.",
+    "rel": "relevant",
+    "kb": []
+  }
+]

@@ -693,6 +693,56 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "alexander soros",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Target of false claims and conspiracy theories.",
+          "date_added": "2026-05-18",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "islamophobia",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Term being denied and used in false narratives.",
+          "date_added": "2026-05-18",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "minnesota fraud cartels",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific term used in the false claim.",
+          "date_added": "2026-05-18",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "eastleigh malls",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific location targeted by the false claim.",
+          "date_added": "2026-05-18",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "andrew bailey",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Key figure mentioned in the false claim.",
+          "date_added": "2026-05-18",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
