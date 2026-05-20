@@ -29699,7 +29699,9 @@
       "@dyano732",
       "@Mahamed81443729",
       "@PawelJankaOpole",
-      "@ColonZacha13053"
+      "@ColonZacha13053",
+      "@Wararka24",
+      "@TheFrontlineRpt"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29754,6 +29756,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Julian94LZ/status/2048791675770634377",
         "date": "2026-04-27"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Wararka24/status/1992508475709047010",
+        "date": "2026-05-20"
       }
     ],
     "spread": 5,
@@ -29802,7 +29809,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-04-27",
+    "last_seen": "2026-05-20",
     "status": "active",
     "observations": [
       {
@@ -29894,9 +29901,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-20",
+        "url": "https://x.com/Wararka24/status/1992508475709047010",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 10,
+    "observation_count": 11,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29905,6 +29921,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -30062,7 +30079,10 @@
       "@StargazerJayne",
       "@LoleyYare",
       "@feisalabdalla1",
-      "@Matovumic"
+      "@Matovumic",
+      "@chegendegwa",
+      "@georgediano",
+      "@ObinnaWaGikomba"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30132,6 +30152,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/InsideKeOnline/status/2055524563891491091",
         "date": "2026-05-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/chegendegwa/status/2056861627182440600",
+        "date": "2026-05-20"
       }
     ],
     "spread": 5,
@@ -30175,7 +30200,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-17",
+    "last_seen": "2026-05-20",
     "status": "active",
     "observations": [
       {
@@ -30294,9 +30319,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-20",
+        "url": "https://x.com/chegendegwa/status/2056861627182440600",
+        "summary": "#43against1: ,. The Minnesota fraud proceeds ends up in Eastleigh Nairobi and Garrisa town, the two main hot spots where the",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 13,
+    "observation_count": 14,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30305,6 +30339,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -30433,6 +30468,7 @@
       "NAR-SS-005"
     ],
     "related_events": [
+      "APF-2026-05-20-778",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -32998,6 +33034,392 @@
       {
         "date": "2026-05-19",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-20-116",
+    "date": "2026-05-20",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Are you still High on the Dope you were banned from football for? Christians In Nigeria are being K1lled and Hunted",
+    "summary": "Are you still High on the Dope you were banned from football for? Christians In Nigeria are being K1lled and Hunted like animals by Musl1ms but you had no voice. Churches burnt and lives lost you were silent. Just one mosque attacked with 3 casualtie. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@Kolosmental"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Kolosmental/status/2057061780178796625",
+        "date": "2026-05-20"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "ANNEX-031",
+      "ANNEX-046",
+      "APF-2026-03-23-204",
+      "APF-2026-04-27-805",
+      "SOM-2025-025-DI",
+      "research_som-2029"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (3 casualties) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-20",
+    "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
+    "last_seen": "2026-05-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-20",
+        "url": "https://x.com/Kolosmental/status/2057061780178796625",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-20-776",
+    "date": "2026-05-20",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+    "summary": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in Eastleigh Malls. The arrival of FBI Co-Deputy Director Andrew Bailey in Nairobi this week has handed former Deputy President Rigathi. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "date": "2026-05-20"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-16-132",
+      "APF-2026-05-16-669",
+      "APF-2026-05-17-956",
+      "APF-2026-05-18-940",
+      "APF-2026-05-19-634"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-20",
+    "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
+    "last_seen": "2026-05-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-20",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-20-912",
+    "date": "2026-05-20",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "actors": [
+      "@SaddiqueShaban"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "date": "2026-05-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-04-27-864",
+      "APF-2026-05-16-669",
+      "APF-2026-05-17-814",
+      "APF-2026-05-17-956",
+      "APF-2026-05-18-858"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-20",
+    "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
+    "last_seen": "2026-05-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-20",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-20-675",
+    "date": "2026-05-20",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-05-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-04-25-643",
+      "APF-2026-04-26-429",
+      "APF-2026-04-27-448",
+      "APF-2026-05-16-264",
+      "APF-2026-05-18-293",
+      "APF-2026-05-19-615"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-20",
+    "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
+    "last_seen": "2026-05-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-20",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-20-778",
+    "date": "2026-05-20",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "🔴 BREAKING NEWS South Sudan army chief gives troops 7 days to crush rebellion in Jonglei South Sudan’s Chief of Defence",
+    "summary": "🔴 BREAKING NEWS South Sudan army chief gives troops 7 days to crush rebellion in Jonglei South Sudan’s Chief of Defence Forces, Gen. Paul Nang Majok, has ordered government troops to crush the rebellion within seven days, following intensified fighti.",
+    "actors": [
+      "@SouthSudan24_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SouthSudan24_/status/2014740763641266629",
+        "date": "2026-05-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-001",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "APF-2026-03-30-195",
+      "SSD-2026-002",
+      "SSD-2026-020"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: crush rebellion, 7 days. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-20",
+    "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
+    "last_seen": "2026-05-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-20",
+        "url": "https://x.com/SouthSudan24_/status/2014740763641266629",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
