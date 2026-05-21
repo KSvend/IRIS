@@ -1,0 +1,696 @@
+[
+  {
+    "i": "apify-5cfed23d9af2",
+    "t": "@LadyMpopi @sonofsomali @grok what does jareer mean in Somali?",
+    "d": "2026-05-21",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Mercantio",
+    "l": "https://x.com/Mercantio/status/2057098622295011773",
+    "pr": "Normal",
+    "co": 0.9955,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.6076
+    },
+    "exp": "The user asks for the meaning of 'jareer' in Somali. This is a neutral question seeking information, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d394a1897a6d",
+    "t": "#somalitiktok #somali #somalitiktok12 #somalilandtiktok\ud83d\udc9a\ud83e\udd0d\u2764 #somaliland",
+    "d": "2025-07-31",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@hassanyool",
+    "l": "https://www.tiktok.com/@hassanyool/video/7533081069604703501",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9766
+    },
+    "exp": "This post consists only of hashtags related to Somalia and Somaliland. It does not contain any hateful or abusive language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3ff640bb638d",
+    "t": "Tilingi has been pushing agenda of mungiki in Mt Kenya for a yr now,when the same mungiki was being fought by the people,UDA politicians were busy activating them to chaos chaos so that they protect their power.",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@klaus__3",
+    "l": "https://x.com/klaus__3/status/2056943482741137751",
+    "pr": "Hate",
+    "co": 0.9923,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.651
+    },
+    "exp": "This post criticizes a politician for allegedly promoting the Mungiki, a Kikuyu militia group, and accuses other politicians of using them for political gain. While it mentions a hate group, the post itself is political criticism and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-08d01f0ba807",
+    "t": "Kiir Launches South Sudan\u2019s First Official Presidential Website Since Independence https://t.co/nIkdYt5GoR https://t.co/Xz3gY25gUs",
+    "d": "2026-05-21",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thetowerpost",
+    "l": "https://x.com/thetowerpost/status/2057119365393170607",
+    "pr": "Normal",
+    "co": 0.9983,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news update about the launch of South Sudan's presidential website. It is purely informational and contains no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-267d5275859b",
+    "t": "South Sudan gained independence from Sudan in 2011 with huge optimism. Since then, it's faced a brutal civil war (2013-2018) that killed ~400k and displaced millions, followed by a fragile 2018 peace deal and unity government.\n\nAs of 2026: National-level calm holds but is shaky. Elections delayed ag",
+    "d": "2026-05-21",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2057170677493289176",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 30,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post provides a factual historical overview of South Sudan's independence and subsequent civil war. It is an informative summary and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a4edbf296f6e",
+    "t": "Yaani hakuna fundi genuine hii kenya like mwenye anaeza tu kufanyia kazi bila kuibia jameni \ud83d\udeae\ud83e\udd79\ud83d\udc94",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@YaGal_Eunndrio",
+    "l": "https://x.com/YaGal_Eunndrio/status/2057390813378699543",
+    "pr": "Normal",
+    "co": 0.9892,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post expresses frustration in Swahili, saying 'Yaani hakuna fundi genuine hii kenya like mwenye anaeza tu kufanyia kazi bila kuibia jameni \ud83d\udeae\ud83e\udd79\ud83d\udc94', which translates to 'There are no genuine fundi (craftsmen/technicians) in Kenya who can just do work without stealing, honestly.' This is a general complaint about service providers and not hate speech against a specific group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ced1520fe031",
+    "t": "@MichukiGavana @CessNdiritu @PindiweLily12 @RChemutai @PatrickRudiger2 @DavyieRhyno @wambokamaa @sylviepaloma @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78 @JohnMusang7262 @festusongaga @philipmathekaj @MUTEMBEI1D @ItsOnesmus254 @rozzykanyua @AAkiyao @helenMaIgnatius @vimatosh @itsjohnndaiga @Tonny",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2056954935556616257",
+    "pr": "Normal",
+    "co": 0.9894,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of mentions, likely part of a conversation or a mass tagging. It contains no discernible content and therefore no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7514aa557dd1",
+    "t": "@DavyieRhyno @wambokamaa @sylviepaloma @BonnieMejja @CAkabeti @RChemutai @CessNdiritu @Josephkihiu12 @njoro78 @JohnMusang7262 @festusongaga @philipmathekaj @MUTEMBEI1D @PatrickRudiger2 @ItsOnesmus254 @rozzykanyua @AAkiyao @MichukiGavana @helenMaIgnatius @vimatosh @itsjohnndaiga @Tonnywachipo @Annmit",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2056944834540150872",
+    "pr": "Abusive",
+    "co": 0.8406,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a series of mentions, likely part of a conversation or a mass tagging. It contains no discernible content and therefore no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-301574dc5e6e",
+    "t": "@helenMaIgnatius @sylviepaloma @CAkabeti @RChemutai @CessNdiritu @Josephkihiu12 @njoro78 @JohnMusang7262 @festusongaga @philipmathekaj @MUTEMBEI1D @PatrickRudiger2 @ItsOnesmus254 @rozzykanyua @AAkiyao @MichukiGavana @vimatosh @itsjohnndaiga @Tonnywachipo @Annmitchel5 @raphn @jennykanyiri @Brian_Mada",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2056944183311495532",
+    "pr": "Normal",
+    "co": 0.6458,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a series of mentions, likely part of a conversation or a mass tagging. It contains no discernible content and therefore no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-46683a4c2811",
+    "t": "@mat_aine @wekesa_amos @okellowilberfo1 @Jannie_jennah @nimipamela0 @roxie_ug @Nabimara_Paul @Ishmaelthehost @sk_bongomin93 @WasswaEmma_ @BushenyiBouy I thought I was and am Ugandan maybe if you say am Kenyan",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Uganda_Expozed",
+    "l": "https://x.com/Uganda_Expozed/status/2056798528442139066",
+    "pr": "Abusive",
+    "co": 0.9862,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9961
+    },
+    "exp": "The post is a personal statement about national identity, where the user clarifies their Ugandan identity in response to being called Kenyan. It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-87a4d9215386",
+    "t": "@sylviepaloma @philipmathekaj @RChemutai @CessNdiritu @Josephkihiu12 @njoro78 @JohnMusang7262 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @WamahigaN @ItsOnesmus254 @rozzykanyua @AAkiyao @MichukiGavana @helenMaIgnatius @vimatosh @itsjohnndaiga @Tonnywachipo @Annmitchel5 @raphn @jennykanyiri @Brian_Mad",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@elijahsumbeiywo",
+    "l": "https://x.com/elijahsumbeiywo/status/2056943126766387600",
+    "pr": "Normal",
+    "co": 0.9791,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of mentions, likely part of a conversation or a mass tagging. It contains no discernible content and therefore no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b81540a914a4",
+    "t": "@ItsDrMutwiri @CessNdiritu @raphn @philipmathekaj @sylviepaloma @wambokamaa @BonnieMejja @CAkabeti @RChemutai @Josephkihiu12 @njoro78 @JohnMusang7262 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @ItsOnesmus254 @rozzykanyua @AAkiyao @MichukiGavana @helenMaIgnatius @vimatosh @itsjohnndaiga @Tonnywachipo",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2056954503799197856",
+    "pr": "Normal",
+    "co": 0.5918,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of mentions, likely part of a conversation or a mass tagging. It contains no discernible content and therefore no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-306804f5966c",
+    "t": "@sylviepaloma @kimathi_ri86058 @EmejeMoses @mwixzip @helenMaIgnatius @Annmitchel5 @JamesVungo @kunguruu @philipmathekaj @iamsubarru @CessNdiritu @elijahsumbeiywo @PindiweLily12 @RChemutai @BarrackFerguson @jennykanyiri @WMatamano @gmukavana @Brian_Madaga1 @ObadiahKipchir3 @BonnieMejja @ItsDrMutwiri ",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2056941430937989479",
+    "pr": "Normal",
+    "co": 0.9956,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post consists solely of a list of Twitter mentions/tags and contains no discernible text content or message. Therefore, it cannot be classified as hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-892f7bf6c918",
+    "t": "@DavyieRhyno @CessNdiritu @MichukiGavana @RChemutai @sylviepaloma @philipmathekaj @kibe_tz @AAkiyao @eminen_official @JohnMusang7262 @raphn @ambiekoech @wambokamaa @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @ItsOnesmus254 @rozzykanyua @helenMaIgnatius @",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2057331355202076979",
+    "pr": "Abusive",
+    "co": 0.5486,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of a list of Twitter mentions/tags and contains no discernible text content or message. Therefore, it cannot be classified as hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7fad7dcb8595",
+    "t": "@swahilitimes Kama Watanzania @MsigwaGerson mgeni ni wenu kama alivyotambulishwa sisi hatuna umuhimu nae na kama mmetumia pesa za walipa kodi mmetumia kwa manufaa yenu wewe na makonda",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MagoigaS",
+    "l": "https://x.com/MagoigaS/status/2057067440505258486",
+    "pr": "Normal",
+    "co": 0.9975,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post, directed at Swahili Times and Msigwa Gerson, states that a guest is theirs as introduced, and 'we' (the speaker) have no importance with him. It also suggests that if taxpayer money was used, it was for their (Msigwa and Makonda's) benefit. This is political criticism regarding the use of public funds and a guest, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2c91353528cd",
+    "t": "@philipmathekaj @vimatosh @Lucypau43921191 @sylviepaloma @AAkiyao @eminen_official @RChemutai @JohnMusang7262 @CessNdiritu @MichukiGavana @raphn @ambiekoech @wambokamaa @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @WamahigaN @ItsOnesmus254 @r",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@elijahsumbeiywo",
+    "l": "https://x.com/elijahsumbeiywo/status/2057306636323115290",
+    "pr": "Abusive",
+    "co": 0.5478,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post consists solely of a list of Twitter mentions/tags and contains no discernible text content or message. Therefore, it cannot be classified as hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-35b0dfa9b8e8",
+    "t": "@kibe_tz @Brian_Madaga1 @helenMaIgnatius @sylviepaloma @RChemutai @philipmathekaj @Annmitchel5 @ItsGichuruRaini @raphn @AAkiyao @WamahigaN @CessNdiritu @elijahkanyi1 @echo_aegis @JohnMusang7262 @MichukiGavana @Lucypau43921191 @CAkabeti @elijahsumbeiywo @PatrickRudiger2 @njoro78 @Josephkihiu12 @Patri",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Janetmw25",
+    "l": "https://x.com/Janetmw25/status/2057349031660294494",
+    "pr": "Normal",
+    "co": 0.8918,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post consists solely of a list of Twitter mentions/tags and contains no discernible text content or message. Therefore, it cannot be classified as hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d0ce3bb0e432",
+    "t": "@PindiweLily12 @philipmathekaj @PatrickRudiger2 @RChemutai @DavyieRhyno @wambokamaa @sylviepaloma @BonnieMejja @CAkabeti @CessNdiritu @Josephkihiu12 @njoro78 @JohnMusang7262 @festusongaga @MUTEMBEI1D @WamahigaN @ItsOnesmus254 @rozzykanyua @AAkiyao @MichukiGavana @helenMaIgnatius @vimatosh @itsjohnnd",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@raphn",
+    "l": "https://x.com/raphn/status/2056951657959768532",
+    "pr": "Abusive",
+    "co": 0.522,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post consists solely of a list of Twitter mentions/tags and contains no discernible text content or message. Therefore, it cannot be classified as hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ec9344e814a1",
+    "t": "@sylviepaloma @JohnMusang7262 @philipmathekaj @CessNdiritu @RChemutai @MichukiGavana @raphn @ambiekoech @wambokamaa @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @WamahigaN @ItsOnesmus254 @rozzykanyua @AAkiyao @helenMaIgnatius @vimatosh @itsjohnndaiga ",
+    "d": "2026-05-21",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@njoro78",
+    "l": "https://x.com/njoro78/status/2056987415491875220",
+    "pr": "Normal",
+    "co": 0.9618,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post consists solely of a list of Twitter mentions/tags and contains no discernible text content or message. Therefore, it cannot be classified as hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  }
+]
