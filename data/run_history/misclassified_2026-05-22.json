@@ -1,0 +1,1589 @@
+[
+  {
+    "i": "apify-65c4469f9c7d",
+    "t": "#somalitiktok #fyp #fyppppppppppppppppppppppp @Dayax Dalnuurshe",
+    "d": "2026-05-17",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@samiirqarasta10",
+    "l": "https://www.tiktok.com/@samiirqarasta10/video/7640771023196933394",
+    "pr": "Abusive",
+    "co": 0.9833,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-17",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.979
+    },
+    "exp": "This post consists only of hashtags and a user mention, without any discernible hateful or abusive content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2e97aa9f4476",
+    "t": "Wiilow hade Xaaskada ku diido, Ilaahey Ba 4 Ku Baneeye Mid 2 kadaba Keen Simple #somalia #somalitiktok #foryou #foryoupage",
+    "d": "2025-10-13",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@alvaano",
+    "l": "https://www.tiktok.com/@alvaano/video/7560761160866221324",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-17",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9849
+    },
+    "exp": "The post, in Somali, advises a man that if his wife rejects him, God has permitted him up to four wives, suggesting he can marry more. This is a commentary on polygyny within an Islamic context and is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-125026a2aca0",
+    "t": "@MuhammedBishaar @tusbaxx It is the case. No ifs and butts about it\n\nCan\u2019t have the world thinking all somali countries are failed states\n\nEven after recognition, the jobs not done\n\nWe coming for that UN seat, then soon you\u2019ll be seeing Somaliland at the World Cup, Olympics, Etc\n\nClose your eyes ya ",
+    "d": "2026-05-17",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@husavia61225",
+    "l": "https://x.com/husavia61225/status/2055677083821457690",
+    "pr": "Normal",
+    "co": 0.8028,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 1,
+      "s": 0,
+      "c": 1
+    },
+    "ma": 7,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-17",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9328
+    },
+    "exp": "This post discusses the political aspirations of Somaliland, specifically its pursuit of international recognition and a UN seat. It is a political statement and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-74a7049ff752",
+    "t": "If you're anti Somaliland, fine no problem. \n\nBut what makes me laugh is that when you get so mad and call us zionists idoor gaal raac and disgrace to the ummah and all that, do you realise that none of it actually lands. \ud83d\ude06",
+    "d": "2026-05-20",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Pre_IslamSomali",
+    "l": "https://x.com/Pre_IslamSomali/status/2056633051841442100",
+    "pr": "Abusive",
+    "co": 0.9216,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      },
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9871
+    },
+    "exp": "The post describes being called \"idoor\" (a derogatory slur for the Isaaq clan), \"gaal raac\" (infidel follower, implying betrayal), and \"zionists\" by anti-Somaliland individuals. However, the user is quoting these slurs to dismiss and mock their effectiveness, not to propagate them.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-80fa8dd8eed0",
+    "t": "@OmbetaC But your generation had Mungiki, Taliban, Baghdad Boys in Mombasa, Jeshi la Mzee, Chinkororo in Kisii, Sungusungu in Western Kenya , Kaya Bombo militia, Kamjesh gangs to mention but a few. Apples and oranges sir.",
+    "d": "2026-05-20",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KeleleSaysKE",
+    "l": "https://x.com/KeleleSaysKE/status/2056704174939656241",
+    "pr": "Abusive",
+    "co": 0.8236,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "polarization",
+      "score": 0.9641
+    },
+    "exp": "The post lists various historical and regional militias and gangs in Kenya, including \"Mungiki\" (a Kikuyu militia), in a comparative context to argue a point. It is a factual (though potentially incomplete) listing of groups, not an incitement to violence.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-42094e1ab161",
+    "t": "Gachagua impeachment was justified,\nHis Goon organising tactics  would have been lethal by now.\nHe is still inciting his Goons against, people who are exercising their Democrat right.\nIntolerance is not an option in a democracy,\nCentral kenya can't reverse back to mungiki era.",
+    "d": "2026-05-20",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@YoungPriest0091",
+    "l": "https://x.com/YoungPriest0091/status/2056618154294448382",
+    "pr": "Abusive",
+    "co": 0.7618,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9685
+    },
+    "exp": "The post criticizes a political figure, Gachagua, accusing him of inciting \"goons\" and being intolerant. This is political criticism and an expression of opinion, not hate speech or incitement by the poster.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9a9f940df346",
+    "t": "Degmooyinka iyo Tuulooyinka hoos yimaadda Gobolka Salal ayaa munaasabadda 18-ka May 2026 looga xusay si aan hore loo arag.\n#Salal #Saylac #Xariirad #Somaliland https://t.co/tYvP4UitSv",
+    "d": "2026-05-20",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@AFaatih67134",
+    "l": "https://x.com/AFaatih67134/status/2056572865118646606",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9839
+    },
+    "exp": "The post is a news-like update stating that the districts and villages under the Salal region celebrated May 18, 2026, in an unprecedented way. May 18 is Somaliland's independence day. This is a factual report about a celebration, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-513479d49607",
+    "t": "Somali Minister Criticizes Puntland Delegation Over Attendance at Somaliland May 18 Event\n\n#Somalia #Puntland #Somaliland #May18 #politicsnews\n\nhttps://t.co/sG3Ycd7v5q https://t.co/x9srMmkI4E",
+    "d": "2026-05-20",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Sommagazine1",
+    "l": "https://x.com/Sommagazine1/status/2057061812902785177",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9793
+    },
+    "exp": "The post reports on a Somali Minister criticizing a Puntland delegation for attending a Somaliland May 18 event. This is a news report about a political disagreement, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7dda9db64a13",
+    "t": "Ictiraafkii soo dhicinay \nSOMALILAND \ud83d\udc9a\ud83e\udd0d\u2764\ufe0f\nDhan kasta ba wa kaa dunida \nSOMALILAND \ud83d\udc9a\ud83e\udd0d\u2764\ufe0f\nDhul gariir ka soo yeedhay \nSOMALILAND \ud83d\udc9a\ud83e\udd0d\u2764\ufe0f https://t.co/jhsLGr0thY",
+    "d": "2026-05-21",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Oligarchow",
+    "l": "https://x.com/Oligarchow/status/2057149832964272144",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.628
+    },
+    "exp": "This post is a celebratory message for Somaliland, mentioning 'Ictiraafkii soo dhicinay' (We achieved recognition) and 'Dhan kasta ba wa kaa dunida' (You are in every corner of the world). It expresses strong nationalist sentiment for Somaliland but does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c3c0c507f6af",
+    "t": "Way idinka dhantahay gacal iyo xigaaloow xuskii 18 May 2026 koobka qaranka somaloland idinkaa horyaal u ah Aaado. https://t.co/IyIFinDaBF",
+    "d": "2026-05-21",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@MusaKahin49384",
+    "l": "https://x.com/MusaKahin49384/status/2056931399270293886",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.8
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9069
+    },
+    "exp": "This post is a celebratory message for Somaliland, mentioning 'Way idinka dhantahay gacal iyo xigaaloow xuskii 18 May 2026 koobka qaranka somaloland idinkaa horyaal u ah Aaado' (You have it all, friends and relatives, the commemoration of May 18, 2026, you are the champions of the Somaliland national cup). It expresses strong nationalist sentiment for Somaliland but does not contain hate speech or religious incitement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6bbe7cbaff77",
+    "t": "Wallaahi, sannadka Saylac baa qaaday koobkii #18May2026.  \n\nBal wakaase ciyaaro noocaas ah meel laga ciyaaray soo hel. #Somaliland",
+    "d": "2026-05-21",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Somaalilanders",
+    "l": "https://x.com/Somaalilanders/status/2057154920130752671",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-21",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.986
+    },
+    "exp": "This post is a celebratory message for Somaliland, stating 'Wallaahi, sannadka Saylac baa qaaday koobkii #18May2026. Bal wakaase ciyaaro noocaas ah meel laga ciyaaray soo hel. #Somaliland' (By God, this year Zeila won the #18May2026 cup. Find me where such games were played. #Somaliland). It expresses strong nationalist sentiment and pride for Somaliland, specifically mentioning a town within it, but does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4b16e5647fa6",
+    "t": "HSM oo aqoonsaday madaxwaynhii hore ee somaliya https://t.co/nnE7vtsTDs",
+    "d": "2026-05-22",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@safiirk",
+    "l": "https://x.com/safiirk/status/2057362638951072162",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9882
+    },
+    "exp": "This post is a news update stating that HSM (Hizbul Islam or another group) has recognized the former president of Somalia. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ecc14e74dc6c",
+    "t": "Casharka: Cayayaanka Thrips-ka ee Basasha \ud83c\udf31\n\n1. Magaca Cayaaraha\n\t\u2022\tThrips (Caaro yar-yar)\n\ud83d\udc1b Waa cayayaan yar oo nuuga caleenta basasha.\n\n2. Calaamadaha Thrips-ka\n\t\u2022\tCaleemaha basasha waxay yeeshaan xariijimo cad/qar-qaryo ah.\n\t\u2022\tMidabka caleemaha ayaa libdhaa oo u janjeeraa huruud.\n\t\u2022\tCaleemaha wax",
+    "d": "2025-12-19",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@ruushkaislaamed1",
+    "l": "https://www.tiktok.com/@ruushkaislaamed1/video/7585447930899827979",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9779
+    },
+    "exp": "This post is an educational lesson about Thrips, a type of insect pest that affects onion plants. It describes the insect and its symptoms on the plant, containing no hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3ac205c5637c",
+    "t": "@RChemutai @HeleniqueYuniq @rodlaxlimo @Annmitchel5 @MichukiGavana @philipmathekaj @PatrickRudiger2 @sylviepaloma @rozzykanyua @ItsDrMutwiri @kibe_tz @ItsVetKoech @KabuaJulius @wambokamaa @emily_akoko @JonathanKaribu @eminen_official @JohnMusang7262 @CessNdiritu @raphn @ambiekoech @DavyieRhyno @Bonn",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@IAmKevintoh",
+    "l": "https://x.com/IAmKevintoh/status/2057709766974022038",
+    "pr": "Normal",
+    "co": 0.9681,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a list of Twitter mentions, likely part of a larger conversation or a reply. It contains no discernible content or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-34e2e3957075",
+    "t": "@htar_khin69400 @SanMome59392 @ZarPpe80707 @ei_zar20150 @KhatTar50560152 @YinYin112298 @Perthsanta21700 @EiPhyu1054 @KhinWin259033 @yoonps23 @thin_phyo42119 @ya_lin36479 @sakura43926 @AprilP80265 @Myint34599 @KhaiKhai515428 @wahwah2102 @daw_moe33024 @nyein_wai93078 @MayZK_PP3 @YPerthta @Sandar552135",
+    "d": "2026-05-22",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SuChit42701020",
+    "l": "https://x.com/SuChit42701020/status/2057700539316711892",
+    "pr": "Abusive",
+    "co": 0.8523,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9274
+    },
+    "exp": "This post is a list of Twitter mentions, likely part of a larger conversation or a reply. It contains no discernible content or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8c7a90854b8f",
+    "t": "@RChemutai @njoro78 @philipmathekaj @Davidwaflower9 @WamahigaN @CessNdiritu @Patrick70518199 @MichukiGavana @sylviepaloma @kibe_tz @AAkiyao @eminen_official @JohnMusang7262 @raphn @ambiekoech @wambokamaa @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @I",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kGmudimba",
+    "l": "https://x.com/kGmudimba/status/2057339344382255135",
+    "pr": "Abusive",
+    "co": 0.9214,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a list of Twitter mentions, likely part of a larger conversation or a reply. It contains no discernible content or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6a9cdd845f7b",
+    "t": "@Kenyans \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@SalutRn",
+    "l": "https://x.com/SalutRn/status/2057408912140206419",
+    "pr": "Abusive",
+    "co": 0.9885,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9999
+    },
+    "exp": "This post consists solely of emojis, indicating amusement or laughter. It does not contain any discernible text or hateful content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8678f073c6ab",
+    "t": "@sauixc @RizzyHJ @ragipsoylu The end\u2011times Ta\u2019ifah al\u2011Man\u1e63\u016brah is praised and lives in Jerusalem/Damascus \u2013 but the hadith never says \"Palestinians only.\"\n\nThey can be half\u2011Palestinian, half\u2011Somali, or any mix.\n\nYour takfir is Muslim Brotherhood ideology.\n\nYou either follow them or were influenced b",
+    "d": "2026-05-22",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@MahatAzizElmi",
+    "l": "https://x.com/MahatAzizElmi/status/2057472054619001074",
+    "pr": "Normal",
+    "co": 0.9742,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9659
+    },
+    "exp": "This post discusses religious interpretations, specifically the concept of 'Ta\u2019ifah al\u2011Man\u1e63\u016brah' (the victorious group) in Islamic eschatology and criticizes another user's 'takfir' (excommunication of a Muslim). While it involves religious disagreement, it does not incite hatred against a specific group but rather debates theological points.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-441002386bd2",
+    "t": "WAR-MURTIYEED : DOWLADDA #PUNTLAND EE #SOOMAALIYEED.\n21 May 2026. https://t.co/82mPrFjTJz",
+    "d": "2026-05-22",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@MUFASAllcv",
+    "l": "https://x.com/MUFASAllcv/status/2057474208070762791",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9854
+    },
+    "exp": "This post is a news or official announcement, stating 'WAR-MURTIYEED' (Press Release/Statement) from the 'DOWLADDA #PUNTLAND EE #SOOMAALIYEED' (Government of Puntland of Somalia) with a date and a link. It is purely informational.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7fef19261e43",
+    "t": "#viral #somalitiktok #CapCut #",
+    "d": "2025-12-27",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@cabdiabuukar11",
+    "l": "https://www.tiktok.com/@cabdiabuukar11/video/7588500174171901195",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9754
+    },
+    "exp": "This post consists solely of hashtags related to social media trends and platforms. It does not contain any discernible text or hateful content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0a88c7278577",
+    "t": "Takfiiri Xassan Xuseen and how he makes Takfir on Muslims who earn through sinning: Such as Musicians and those who work in riba based jobs\n\nShaykh Sacid al-Naxwi \u062d\u0641\u0638\u0647 \u0627\u0644\u0644\u0647#salafi #dawah#deen",
+    "d": "2025-08-07",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@somalischolarseng_",
+    "l": "https://www.tiktok.com/@somalischolarseng_/video/7535985339429571862",
+    "pr": "Normal",
+    "co": 0.9975,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9459
+    },
+    "exp": "This post discusses 'Takfir' (excommunication of a Muslim) by an individual named Xassan Xuseen against Muslims involved in activities considered sinful, such as music or 'riba' (interest-based transactions). It appears to be a religious commentary or criticism of another's theological stance, rather than an incitement to hatred or violence.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6af861ac2881",
+    "t": "@kamau_kamah Habari ya mchana, Kamau. Samahani kwa jambo hili. Tumesajili stima kupotea kwako chini ya nambari 15205690. Tafadhali subiri kidogo, wanateknolojia wetu watarejesha stima hivi karibuni. ^PK",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KenyaPower_Care",
+    "l": "https://x.com/KenyaPower_Care/status/2057779716812124613",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a customer service response in Swahili, translating to 'Good afternoon, Kamau. Sorry about this. We have registered your power outage under number 15205690. Please wait a moment, our technicians will restore power soon.' It is a neutral, helpful message.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b1cbb1c6f2b1",
+    "t": "@sophie_wa_Thika @edwinsifuna Kama huyu ndio tegemeo,basi okuyu wote wa decide wampee kura. Sio ati alete kura Mt kenya. Time yenu ya kutumia watu imeisha na Raila.",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Kelvins_sergio",
+    "l": "https://x.com/Kelvins_sergio/status/2057779576311279735",
+    "pr": "Hate",
+    "co": 0.9973,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9975
+    },
+    "exp": "This post discusses political strategy in Kenya, suggesting that if a particular individual is a reliable candidate, then 'okuyu wote' (all Kikuyu people) should decide to vote for them, rather than expecting votes from Mount Kenya region. It criticizes the past political strategy of 'using people' with Raila. While it mentions an ethnic group ('Kikuyu'), it's in the context of political analysis and voting patterns, not incitement to hatred or violence.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cf13dca575f8",
+    "t": "The government allocated Ksh 28.19 billion cushion across April-May and May-June 2026 fuel pricing cycles protecting Kenyans from extreme fuel shocks pressures. Global Challenge #GOKFuelCrisisResponse Asante Ruto https://t.co/FE5A465YsH",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kevo_atandi",
+    "l": "https://x.com/kevo_atandi/status/2057783418545443210",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post reports on a government allocation of funds to cushion Kenyans from fuel price shocks, praising the current president, Ruto. It is a factual statement about government policy and a positive political comment.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e7a332840511",
+    "t": "@Engkabora #MatokeoYaTume\n#TumeYaUchunguziReport \nUjasusi Wahakika",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MguuKwaMguu2025",
+    "l": "https://x.com/MguuKwaMguu2025/status/2057779404231553376",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a general comment about intelligence ('Ujasusi Wahakika' means 'Authentic Intelligence') in the context of a commission's report ('Matokeo Ya Tume' - Commission Results, 'Tume Ya Uchunguzi Report' - Investigation Commission Report). It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2467a1e492cf",
+    "t": "Kiir Launches South Sudan\u2019s First Official Presidential Website Since Independence https://t.co/nIkdYt5GoR https://t.co/Xz3gY25gUs",
+    "d": "2026-05-22",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thetowerpost",
+    "l": "https://x.com/thetowerpost/status/2057119365393170607",
+    "pr": "Normal",
+    "co": 0.9983,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a factual news update reporting on the launch of South Sudan's presidential website. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-60732b28eb16",
+    "t": "This country has a dictator who's been in power for 40 years and is currently handing power to his drunkard son. It also has the poorest roads, health facilities and schools in East Africa",
+    "d": "2026-05-22",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SuunaKing_James",
+    "l": "https://x.com/SuunaKing_James/status/2057444270466871544",
+    "pr": "Abusive",
+    "co": 0.9845,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post criticizes a country's leadership, describing the leader as a 'dictator' and his son as a 'drunkard,' and laments the poor infrastructure. This is political criticism and does not target any specific ethnic or religious group with hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4b9b1c0862ba",
+    "t": "Thread about the crisis in #SouthSudan Mar 6,2025- Apr 29,2026: https://t.co/YZj8qGjX5A\n\n-\nNew thread:\n1)Feb 2026: A simple guide to the crisis in South Sudan https://t.co/rI38u3bcQy\n\n1b) May 2026: Global Conflict Tracker by CFR https://t.co/bjwy80VgpM",
+    "d": "2026-05-22",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Milatrud11",
+    "l": "https://x.com/Milatrud11/status/2057553329316639214",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post shares links to threads and guides about the crisis in South Sudan. It is informational and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-54d322e5fe36",
+    "t": "Corruption, Party Capture, And State Failure In South Sudan: Reassessing The Role Of The #SPLM...https://t.co/r0aJndSFc3 \n\n#PachodoNews #SSOX #SSOT #SouthSudan #South_Sudan #SouthSudanese #SouthSudanNews #Sudan #\u062c\u0646\u0648\u0628_\u0627\u0644\u0633\u0648\u062f\u0627\u0646\n#\u0627\u0644\u0633\u0648\u062f\u0627\u0646 https://t.co/gKTiLYuYpy",
+    "d": "2026-05-22",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PachodoOrg",
+    "l": "https://x.com/PachodoOrg/status/2057488937958904049",
+    "pr": "Hate",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post shares an article discussing 'Corruption, Party Capture, And State Failure In South Sudan' and the role of the SPLM (Sudan People's Liberation Movement). This is political analysis and criticism, not hate speech against an identity group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-22fea41437a1",
+    "t": "South Sudan gained independence from Sudan in 2011 with huge optimism. Since then, it's faced a brutal civil war (2013-2018) that killed ~400k and displaced millions, followed by a fragile 2018 peace deal and unity government.\n\nAs of 2026: National-level calm holds but is shaky. Elections delayed ag",
+    "d": "2026-05-22",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2057170677493289176",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 30,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post provides a factual summary of South Sudan's history since independence, including the civil war and its consequences. It is an informative post and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-46f9e1b4da8c",
+    "t": "UPDATE ON THE WAR IMPOSED BY THE KINSHASA REGIME\n\nThursday, May 21, 2026\n\nFrom Wednesday, May 20, 2026, at 8:00 p.m. to Thursday, May 21, 2026, at 5:45 a.m., coalition forces allied with the Kinshasa regime launched a series of deadly and barbaric attacks against civilians living in the densely popu",
+    "d": "2026-05-22",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@placide_art",
+    "l": "https://x.com/placide_art/status/2057660875901694214",
+    "pr": "Hate",
+    "co": 0.5451,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on military actions, describing attacks by 'coalition forces allied with the Kinshasa regime' as 'deadly and barbaric.' While the language is strong, it describes actions of a military force/regime, not an identity group, and is therefore political/conflict reporting, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7b2baedbf285",
+    "t": "Yaani hakuna fundi genuine hii kenya like mwenye anaeza tu kufanyia kazi bila kuibia jameni \ud83d\udeae\ud83e\udd79\ud83d\udc94",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@YaGal_Eunndrio",
+    "l": "https://x.com/YaGal_Eunndrio/status/2057390813378699543",
+    "pr": "Normal",
+    "co": 0.9892,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post expresses frustration about the lack of genuine artisans in Kenya, implying that many are dishonest and steal from customers. It's a general complaint about service quality, not targeting any specific group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7d2d77c8bbd8",
+    "t": "@RChemutai @MichukiGavana @philipmathekaj @PatrickRudiger2 @sylviepaloma @rozzykanyua @ItsDrMutwiri @kibe_tz @ItsVetKoech @KabuaJulius @wambokamaa @emily_akoko @JonathanKaribu @eminen_official @JohnMusang7262 @CessNdiritu @raphn @ambiekoech @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2057683203020746966",
+    "pr": "Normal",
+    "co": 0.4961,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-dee804e21dd2",
+    "t": "@simonlolgos3 @raphn @RChemutai @MichukiGavana @philipmathekaj @PatrickRudiger2 @sylviepaloma @rozzykanyua @ItsDrMutwiri @kibe_tz @ItsVetKoech @KabuaJulius @wambokamaa @emily_akoko @JonathanKaribu @eminen_official @JohnMusang7262 @CessNdiritu @ambiekoech @DavyieRhyno @BonnieMejja @CAkabeti @Josephki",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2057686550532493323",
+    "pr": "Normal",
+    "co": 0.928,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3932a69083fd",
+    "t": "@philipmathekaj @CessNdiritu @sylviepaloma @kibe_tz @AAkiyao @eminen_official @RChemutai @JohnMusang7262 @MichukiGavana @raphn @ambiekoech @wambokamaa @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @WamahigaN @ItsOnesmus254 @rozzykanyua @helenM",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@elijahsumbeiywo",
+    "l": "https://x.com/elijahsumbeiywo/status/2057304248455483808",
+    "pr": "Abusive",
+    "co": 0.9936,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3c4c4f162272",
+    "t": "@philipmathekaj @vimatosh @Lucypau43921191 @sylviepaloma @AAkiyao @eminen_official @RChemutai @JohnMusang7262 @CessNdiritu @MichukiGavana @raphn @ambiekoech @wambokamaa @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78 @festusongaga @MUTEMBEI1D @PatrickRudiger2 @WamahigaN @ItsOnesmus254 @r",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@elijahsumbeiywo",
+    "l": "https://x.com/elijahsumbeiywo/status/2057306636323115290",
+    "pr": "Abusive",
+    "co": 0.5478,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c80689d5586c",
+    "t": "@CessNdiritu @rozzykanyua @sylviepaloma @philipmathekaj @ItsDrMutwiri @kibe_tz @ItsVetKoech @KabuaJulius @wambokamaa @emily_akoko @JonathanKaribu @eminen_official @RChemutai @JohnMusang7262 @MichukiGavana @ambiekoech @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78 @festusongaga @MUTEMBEI",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@raphn",
+    "l": "https://x.com/raphn/status/2057669440712442081",
+    "pr": "Abusive",
+    "co": 0.8169,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fcff9651d8fa",
+    "t": "@MUTEMBEI1D @philipmathekaj @RChemutai @njoro78 @Davidwaflower9 @CessNdiritu @Patrick70518199 @MichukiGavana @sylviepaloma @kibe_tz @AAkiyao @eminen_official @JohnMusang7262 @raphn @ambiekoech @wambokamaa @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @festusongaga @PatrickRudiger2 @ItsOnesmus25",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2057341016386986428",
+    "pr": "Abusive",
+    "co": 0.9872,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8400aa1e0259",
+    "t": "@kibe_tz @Brian_Madaga1 @helenMaIgnatius @sylviepaloma @RChemutai @philipmathekaj @Annmitchel5 @ItsGichuruRaini @raphn @AAkiyao @WamahigaN @CessNdiritu @elijahkanyi1 @echo_aegis @JohnMusang7262 @MichukiGavana @Lucypau43921191 @CAkabeti @elijahsumbeiywo @PatrickRudiger2 @njoro78 @Josephkihiu12 @Patri",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Janetmw25",
+    "l": "https://x.com/Janetmw25/status/2057349619202634215",
+    "pr": "Normal",
+    "co": 0.8918,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-328f8a3fa072",
+    "t": "@Annmitchel5 @MichukiGavana @philipmathekaj @PatrickRudiger2 @sylviepaloma @rozzykanyua @ItsDrMutwiri @kibe_tz @ItsVetKoech @KabuaJulius @wambokamaa @emily_akoko @JonathanKaribu @eminen_official @RChemutai @JohnMusang7262 @CessNdiritu @ambiekoech @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @n",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@raphn",
+    "l": "https://x.com/raphn/status/2057681607289455086",
+    "pr": "Normal",
+    "co": 0.9775,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a56244192602",
+    "t": "@WamahigaN @Patrick70518199 @BonnieMejja @philipmathekaj @sylviepaloma @ItsDrMutwiri @kibe_tz @ItsVetKoech @KabuaJulius @wambokamaa @emily_akoko @JonathanKaribu @eminen_official @RChemutai @JohnMusang7262 @CessNdiritu @MichukiGavana @raphn @ambiekoech @DavyieRhyno @CAkabeti @Josephkihiu12 @njoro78 @",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2057689651410833519",
+    "pr": "Normal",
+    "co": 0.9237,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a series of Twitter mentions, likely part of a conversation or a mass tagging. It contains no discernible text or content beyond the mentions themselves.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5a2036459c32",
+    "t": "@MichukiGavana @philipmathekaj @PatrickRudiger2 @sylviepaloma @rozzykanyua @ItsDrMutwiri @kibe_tz @ItsVetKoech @KabuaJulius @wambokamaa @emily_akoko @JonathanKaribu @eminen_official @RChemutai @JohnMusang7262 @CessNdiritu @raphn @ambiekoech @DavyieRhyno @BonnieMejja @CAkabeti @Josephkihiu12 @njoro78",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2057681794741211390",
+    "pr": "Normal",
+    "co": 0.6534,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post consists solely of a long list of Twitter mentions without any accompanying text or message, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-890878f7fe0a",
+    "t": "As @gabrieloguda  would call it, this is the year of the lord. 2026. Wajir county is hosting the first ever MADARAKA DAY!. Since Kenya \ud83c\uddf0\ud83c\uddea Got independence!. Under president @WilliamsRuto !. Northern Kenya is Ready to Receive the Head of State and other dignitaries from all over Kenya \ud83c\uddf0\ud83c\uddea!. Final touc",
+    "d": "2026-05-22",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@hanadhow76",
+    "l": "https://x.com/hanadhow76/status/2057784505738387663",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-22",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This post celebrates Wajir county hosting Madaraka Day, Kenya's Independence Day, for the first time under President William Ruto, expressing readiness to receive the Head of State. It is a positive and informative post about a national event.",
+    "rel": "relevant",
+    "kb": []
+  }
+]

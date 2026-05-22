@@ -743,6 +743,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "puntland counter-terrorism",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific topic of disinformation",
+          "date_added": "2026-05-22",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "isis propaganda",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Type of propaganda being echoed",
+          "date_added": "2026-05-22",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

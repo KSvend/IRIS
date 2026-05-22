@@ -4183,7 +4183,7 @@
       "George Olande was killed by mob during Linda Mwananchi meeting in Mbale",
       "Violence erupted at Linda Mwananchi rallies in Siaya and Vihiga with casualties"
     ],
-    "status": "dormant",
+    "status": "resolved",
     "content_observed": false,
     "_reclassified_from": "CONTEXT",
     "_original_headline": "Violence erupts at Linda Mwananchi rallies in Siaya and Vihiga; second man George Olande killed by mob in Mbale",
@@ -33583,5 +33583,195 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-22-618",
+    "date": "2026-05-22",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
+    "summary": "Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos!. 5 near-identical posts from 1 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+    "actors": [
+      "@Yasirarafat2520",
+      "@modi_juma",
+      "@WilliamKiptoo25",
+      "@iamthevillager",
+      "@Hustleratwork",
+      "@TabbyKanyungu",
+      "@IamMzalendo",
+      "@bonsoul_ke",
+      "@SassyOnchain",
+      "@KenyaWeWant_",
+      "@Isaiasgiggs1"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
+        "date": "2026-05-22"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "date": "2026-05-22"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-18-502",
+      "APF-2026-03-23-310",
+      "APF-2026-04-28-701",
+      "APF-2026-05-17-149",
+      "APF-2026-05-18-124"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #bloodparliament, #bbcforchaos, #toxicactivists. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-22",
+    "detection_timestamp": "2026-05-22T11:35:54.647680+00:00",
+    "last_seen": "2026-05-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-22",
+        "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-05-22",
+        "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "summary": "#BBCForChaos, #BloodParliament: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 2,
+    "intensity_trend": [
+      3
+    ]
+  },
+  {
+    "id": "APF-2026-05-22-663",
+    "date": "2026-05-22",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis Identifies Pro-Turkish Commentator Umut Çağrı Sarı Echoing ISIS Propaganda Against Puntland's Counter-Terrorism Efforts",
+    "summary": "An analysis by @CirkaNews identifies striking similarities between the narratives pushed by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda, specifically concerning negative portrayals of Puntland’s counter-terrorism efforts. The report suggests Sarı's commentary echoes themes found in Manjaniq Media, raising concerns about the spread of extremist narratives under the guise of geopolitical analysis.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-05-22"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-04-26-275",
+      "APF-2026-05-16-264",
+      "APF-2026-05-18-293",
+      "APF-2026-05-19-615",
+      "APF-2026-05-20-675",
+      "APF-2026-05-21-385"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-22",
+    "detection_timestamp": "2026-05-22T11:35:54.647680+00:00",
+    "last_seen": "2026-05-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-22",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Negative portrayals of Puntland's counter-terrorism efforts."
+    ],
+    "_review_notes": "This event highlights the identification of a specific actor (Umut Çağrı Sarı) and their alleged method of spreading disinformation by echoing ISIS propaganda, particularly targeting counter-terrorism efforts in Puntland, Somalia. The country tag for the event (South Sudan) appears incorrect given the focus on Puntland (Somalia).",
+    "_reviewed": "2026-05-22T11:37:08.815626+00:00"
   }
 ]
