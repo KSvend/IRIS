@@ -763,6 +763,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "turkish geopolitical commentator",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Describes a category of actors involved in spreading narratives.",
+          "date_added": "2026-05-23",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

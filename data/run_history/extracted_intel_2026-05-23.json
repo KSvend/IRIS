@@ -1,0 +1,61 @@
+{
+  "date": "2026-05-23",
+  "extracted_claims": [
+    {
+      "claim": "Pro-Turkish analysts, such as Umut \u00c7a\u011fr\u0131 Sar\u0131, are echoing ISIS propaganda in their narratives.",
+      "country": "Regional",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Pro-Turkish analysts",
+        "ISIS"
+      ],
+      "keywords": [
+        "ISIS propaganda",
+        "Turkish analysts",
+        "narrative convergence"
+      ]
+    },
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131 is pushing narratives that portray Puntland\u2019s counter-terrorism efforts in a manner similar to ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS"
+      ],
+      "keywords": [
+        "Puntland counterterror",
+        "ISIS propaganda",
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual identified as a key actor in the analysis."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific media outlet mentioned in the analysis as a point of comparison."
+    },
+    {
+      "keyword": "Puntland counterterror",
+      "country": "Somalia",
+      "reason": "Specific regional security operation that is the subject of the narratives."
+    },
+    {
+      "keyword": "Turkish geopolitical commentator",
+      "country": "Regional",
+      "reason": "Describes a category of actors involved in spreading narratives."
+    },
+    {
+      "keyword": "ISIS propaganda",
+      "country": "Regional",
+      "reason": "Core element of the disinformation narrative being analyzed."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}
