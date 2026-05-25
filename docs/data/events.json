@@ -30098,7 +30098,8 @@
       "@Matovumic",
       "@chegendegwa",
       "@georgediano",
-      "@ObinnaWaGikomba"
+      "@ObinnaWaGikomba",
+      "@Furnkranz"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30173,6 +30174,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/chegendegwa/status/2056861627182440600",
         "date": "2026-05-20"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Furnkranz/status/2058879599484829905",
+        "date": "2026-05-25"
       }
     ],
     "spread": 5,
@@ -30216,7 +30222,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-20",
+    "last_seen": "2026-05-25",
     "status": "active",
     "observations": [
       {
@@ -30344,9 +30350,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-25",
+        "url": "https://x.com/Furnkranz/status/2058879599484829905",
+        "summary": "Rigathi Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 14,
+    "observation_count": 15,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30355,6 +30370,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -30485,6 +30501,7 @@
     ],
     "related_events": [
       "APF-2026-05-20-778",
+      "APF-2026-05-25-725",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -30854,7 +30871,7 @@
     "detected_by": "iris_classify_2026-04-25",
     "detection_timestamp": "2026-04-25T18:37:48.311642+00:00",
     "last_seen": "2026-04-25",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-04-25",
@@ -33399,6 +33416,7 @@
     ],
     "related_events": [
       "APF-2026-03-30-195",
+      "APF-2026-05-25-725",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -34021,6 +34039,238 @@
       {
         "date": "2026-05-24",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-25-078",
+    "date": "2026-05-25",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+    "summary": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in Eastleigh Malls. The arrival of FBI Co-Deputy Director Andrew Bailey in Nairobi this week has handed former Deputy President Rigathi. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "date": "2026-05-25"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-18-940",
+      "APF-2026-05-19-634",
+      "APF-2026-05-20-776",
+      "APF-2026-05-21-525",
+      "APF-2026-05-24-355"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-25",
+    "detection_timestamp": "2026-05-25T12:16:33.042588+00:00",
+    "last_seen": "2026-05-25",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-25",
+        "url": "https://x.com/InsideKeOnline/status/2053948401302298905",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-25-110",
+    "date": "2026-05-25",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-05-25"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-19-615",
+      "APF-2026-05-20-675",
+      "APF-2026-05-21-385",
+      "APF-2026-05-22-663",
+      "APF-2026-05-23-443",
+      "APF-2026-05-24-778"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-25",
+    "detection_timestamp": "2026-05-25T12:16:33.042588+00:00",
+    "last_seen": "2026-05-25",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-25",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-25-725",
+    "date": "2026-05-25",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "11. 👉❗️Europe has financed 🇷🇺's genocide more than it has defended 🇺🇦. Oreshnik + drone equivalents: €230.8 billion",
+    "summary": "11. 👉❗️Europe has financed 🇷🇺's genocide more than it has defended 🇺🇦. Oreshnik + drone equivalents: €230.8 billion fossil fuels 👉 ~4,600 to 7,700+ Oreshnik missiles + hundreds of thousands of Shahed drones (&amp; other missiles) 2025 alone 👉 ~360 to.",
+    "actors": [
+      "@SiljaLynx"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SiljaLynx/status/2058883200513106327",
+        "date": "2026-05-25"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-005",
+      "NAR-SS-001"
+    ],
+    "related_events": [
+      "APF-2026-03-30-195",
+      "APF-2026-05-20-778",
+      "SSD-2026-002",
+      "SSD-2026-020"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-25",
+    "detection_timestamp": "2026-05-25T12:16:33.042588+00:00",
+    "last_seen": "2026-05-25",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-25",
+        "url": "https://x.com/SiljaLynx/status/2058883200513106327",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
