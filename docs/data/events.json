@@ -29703,7 +29703,8 @@
       "@ColonZacha13053",
       "@Wararka24",
       "@TheFrontlineRpt",
-      "@ORC35"
+      "@ORC35",
+      "@sgtnewsnetwork"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29768,6 +29769,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/DanSparx/status/2058494596368474500",
         "date": "2026-05-24"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/sgtnewsnetwork/status/2054241961293259063",
+        "date": "2026-05-28"
       }
     ],
     "spread": 5,
@@ -29816,7 +29822,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-24",
+    "last_seen": "2026-05-28",
     "status": "active",
     "observations": [
       {
@@ -29926,9 +29932,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-28",
+        "url": "https://x.com/sgtnewsnetwork/status/2054241961293259063",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 12,
+    "observation_count": 13,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29937,6 +29952,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -31689,7 +31705,7 @@
     "detected_by": "iris_classify_2026-04-28",
     "detection_timestamp": "2026-04-28T08:42:04.191333+00:00",
     "last_seen": "2026-04-28",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-04-28",
@@ -31775,7 +31791,7 @@
     "detected_by": "iris_classify_2026-04-28",
     "detection_timestamp": "2026-04-28T08:42:04.191333+00:00",
     "last_seen": "2026-04-28",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-04-28",
@@ -31860,7 +31876,7 @@
     "detected_by": "iris_classify_2026-04-28",
     "detection_timestamp": "2026-04-28T08:42:04.191333+00:00",
     "last_seen": "2026-04-28",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-04-28",
@@ -34288,8 +34304,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "misinformation",
     "threat_level": "P2 HIGH",
-    "headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
-    "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "headline": "Claims Business Bay Square (BBS) Mall in Eastleigh, Nairobi, operates its own police force and conducts traffic stops on public roads",
+    "summary": "Social media posts claim that the Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers who conduct traffic stops on motorcycles on public roads. This suggests the mall has illegally appropriated a public road and is operating an unauthorized private police force, potentially undermining public trust in law enforcement and private sector accountability.",
     "actors": [
       "@SaddiqueShaban"
     ],
@@ -34357,7 +34373,16 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "_original_summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "extracted_claims": [
+      "The Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers.",
+      "BBS Mall's Administration Police officers conduct traffic stops on motorcycles on public roads.",
+      "The BBS Mall has designated a public road as its own."
+    ],
+    "_review_notes": "This event highlights a potentially dangerous claim about private entities usurping public authority, which could erode trust in governance and law enforcement in Kenya.",
+    "_reviewed": "2026-05-28T12:12:35.958100+00:00"
   },
   {
     "id": "APF-2026-05-27-294",
@@ -34366,8 +34391,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Claims pro-Turkish analysts echo ISIS propaganda regarding Puntland's counter-terrorism efforts",
+    "summary": "Social media posts from @CirkaNews allege that pro-Turkish geopolitical commentators, specifically Umut Çağrı Sarı, are echoing ISIS propaganda. The claim suggests that Sarı's narratives, which portray Puntland's counter-terrorism efforts negatively, align with messaging from groups like Manjaniq Media, a known ISIS-affiliated outlet. This narrative attempts to discredit specific analysts and potentially undermine counter-terrorism operations by associating them with extremist groups.",
     "actors": [
       "@CirkaNews"
     ],
@@ -34434,7 +34459,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Pro-Turkish analysts, such as Umut Çağrı Sarı, are echoing ISIS propaganda.",
+      "Umut Çağrı Sarı's narratives portraying Puntland’s counter-terrorism efforts negatively are similar to those from Manjaniq Media (ISIS-affiliated)."
+    ],
+    "_review_notes": "This event highlights a complex disinformation tactic attempting to discredit individuals and undermine counter-terrorism efforts by falsely linking them to extremist propaganda, potentially escalating regional tensions.",
+    "_reviewed": "2026-05-28T12:12:35.958120+00:00"
   },
   {
     "id": "APF-2026-05-27-959",
@@ -34443,8 +34476,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "deepfake",
     "threat_level": "P3 MODERATE",
-    "headline": "You know the vn was doctored, and it didn't occur to you that the VDM part was also manipulated into it.",
-    "summary": "You know the vn was doctored, and it didn't occur to you that the VDM part was also manipulated into it.",
+    "headline": "Claims a voice note (VN) and a video message (VDM) were doctored and manipulated",
+    "summary": "A social media post from @bioland2 claims that a voice note (VN) was doctored and that a video message (VDM) was also manipulated. The post implies that the manipulation of the VDM was overlooked despite the VN's known alteration. This narrative aims to cast doubt on the authenticity of specific media content, potentially to discredit information or individuals involved.",
     "actors": [
       "@bioland2"
     ],
@@ -34506,6 +34539,270 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "You know the vn was doctored, and it didn't occur to you that the VDM part was also manipulated into it.",
+    "_original_summary": "You know the vn was doctored, and it didn't occur to you that the VDM part was also manipulated into it.",
+    "extracted_claims": [
+      "A specific voice note (VN) was doctored.",
+      "A specific video message (VDM) was manipulated."
+    ],
+    "_review_notes": "This event represents a common disinformation tactic of questioning the authenticity of media, which can be used to sow confusion and distrust around critical information.",
+    "_reviewed": "2026-05-28T12:12:35.958127+00:00"
+  },
+  {
+    "id": "APF-2026-05-28-185",
+    "date": "2026-05-28",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims Business Bay Square (BBS) Mall in Eastleigh, Nairobi, operates its own police force and conducts traffic stops on public roads",
+    "summary": "Social media posts claim that the Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers who conduct traffic stops on motorcycles on public roads. This suggests the mall has illegally appropriated a public road and is operating an unauthorized private police force, potentially undermining public trust in law enforcement and private sector accountability.",
+    "actors": [
+      "@SaddiqueShaban"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "date": "2026-05-28"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-04-28-301",
+      "APF-2026-05-17-814",
+      "APF-2026-05-18-858",
+      "APF-2026-05-20-912",
+      "APF-2026-05-27-760"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-28",
+    "detection_timestamp": "2026-05-28T12:11:03.349200+00:00",
+    "last_seen": "2026-05-28",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-28",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "_original_summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "extracted_claims": [
+      "The Business Bay Square (BBS) Mall in Eastleigh, Nairobi, has its own Administration Police officers.",
+      "BBS Mall's Administration Police officers conduct traffic stops on motorcycles on public roads.",
+      "The BBS Mall has designated a public road as its own."
+    ],
+    "_review_notes": "This event is a duplicate of event 0, reinforcing the spread of a potentially destabilizing claim about private entities usurping public authority in Kenya.",
+    "_reviewed": "2026-05-28T12:12:35.958140+00:00"
+  },
+  {
+    "id": "APF-2026-05-28-931",
+    "date": "2026-05-28",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Radio Al-Furqan (Al-Kataib subsidiary) refers to Amin Abdullah as a 'hero,' contrasting with other extreme groups calling him a 'mercenary'",
+    "summary": "A social media post from @arsenalenjoying highlights a discrepancy in how Amin Abdullah, described as a father of eight, is portrayed by different groups. Radio Al-Furqan, a subsidiary of Al-Kataib (Al-Shabaab's media arm), refers to him as a 'hero,' while 'extreme peoples on xitter' (Twitter) insult him and call him a 'mercenary.' This event points to conflicting narratives surrounding an individual, likely related to ongoing conflicts or political events in Somalia, and highlights the use of propaganda by extremist groups to shape public perception.",
+    "actors": [
+      "@arsenalenjoying"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/arsenalenjoying/status/2059605811572146647",
+        "date": "2026-05-28"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "ANNEX-023",
+      "ANNEX-033",
+      "APF-2026-03-29-445",
+      "APF-2026-04-24-851",
+      "field_somalia-027",
+      "field_somalia-040"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'al-kataib'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-28",
+    "detection_timestamp": "2026-05-28T12:11:03.349200+00:00",
+    "last_seen": "2026-05-28",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-28",
+        "url": "https://x.com/arsenalenjoying/status/2059605811572146647",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Radio Al-Furqan (a radio subsidiary of Al-Kataib) referring to Amin Abdullah, father of eight children, as a \"hero\".",
+    "_original_summary": "Radio Al-Furqan (a radio subsidiary of Al-Kataib) referring to Amin Abdullah, father of eight children, as a \"hero\". Compare this to certain extreme peoples on xitter insulting him and calling him a mercenary.",
+    "extracted_claims": [
+      "Radio Al-Furqan (Al-Kataib subsidiary) refers to Amin Abdullah as a 'hero'.",
+      "Certain extreme groups on X (Twitter) insult Amin Abdullah and call him a 'mercenary'."
+    ],
+    "_review_notes": "This event illustrates how extremist groups like Al-Shabaab (via Al-Kataib/Radio Al-Furqan) use propaganda to frame individuals as 'heroes' to advance their narratives, contrasting with other online groups, which can contribute to a polarized information environment.",
+    "_reviewed": "2026-05-28T12:12:35.958145+00:00"
+  },
+  {
+    "id": "APF-2026-05-28-195",
+    "date": "2026-05-28",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "An analysis by @CirkaNews on X (Twitter) highlights striking similarities between narratives pushed by Turkish geopolitical commentator Umut Çağrı Sarı and Manjaniq Media, suggesting they echo ISIS propaganda. These narratives reportedly aim to negatively portray Puntland’s counter-terrorism efforts in Somalia, raising concerns about the spread of extremist-aligned disinformation.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-05-28"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-21-385",
+      "APF-2026-05-22-663",
+      "APF-2026-05-23-443",
+      "APF-2026-05-24-778",
+      "APF-2026-05-25-110",
+      "APF-2026-05-27-294"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-28",
+    "detection_timestamp": "2026-05-28T12:11:03.349200+00:00",
+    "last_seen": "2026-05-28",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-28",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Puntland's counter-terrorism efforts are being negatively portrayed through narratives that echo ISIS propaganda."
+    ],
+    "_review_notes": "This event is a report/analysis *about* disinformation, not the disinformation itself, hence reclassified as CONTEXT. The original country classification (South Sudan) was incorrect; Puntland is in Somalia. This report points to a potentially sophisticated disinformation campaign linking pro-Turkish analysts with extremist narratives to undermine regional security efforts.",
+    "_reviewed": "2026-05-28T12:12:50.759990+00:00"
   }
 ]

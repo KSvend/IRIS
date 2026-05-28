@@ -1,0 +1,331 @@
+[
+  {
+    "i": "apify-87eabe02d201",
+    "t": "#Magazetiyaleo \n\nMwanahabari \n\nJumatano Mei 27, 2026 https://t.co/ALONJNQSJQ",
+    "d": "2026-05-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2059443930714832974",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news update, sharing a headline about footballer Mo Salah and a date. It contains no hateful content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-873893912324",
+    "t": "@hihi_haha66422 I blocked him too he was following me and wtf even if you don\u2019t agree with someone you never say vile things I\u2019ve fought with multiple Somali men I\u2019ve never once celebrated the pain and death of Somali men such a weirdo I had a feeling he was idoor too",
+    "d": "2026-05-28",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@arawelo_chaos",
+    "l": "https://x.com/arawelo_chaos/status/2059697668297724042",
+    "pr": "Normal",
+    "co": 0.9552,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9623
+    },
+    "exp": "The user is expressing frustration and disgust over someone else's \"vile things\" and celebrating the pain and death of Somali men. While it describes hateful behavior, the post itself is condemning it, not perpetrating it.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-af993a86340b",
+    "t": "Mo Salah Oo Shaaciyay Waqtiga Uu Go\u2019aan Kama Dambays Ah Ka Gaari Doono Mustaqbalkiisa https://t.co/GNLf0NEPDi #laacib #somali #ciyaaro",
+    "d": "2026-05-28",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@LaacibTV",
+    "l": "https://x.com/LaacibTV/status/2059495120836395208",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9757
+    },
+    "exp": "This post is a news headline about the footballer Mo Salah and his future. It contains no hateful content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3e4da57af931",
+    "t": "#somaliland #muslimtiktok #Arab #somalia",
+    "d": "2025-12-30",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@qoorjibiye",
+    "l": "https://www.tiktok.com/@qoorjibiye/video/7589472626976787734",
+    "pr": "Normal",
+    "co": 0.773,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.979
+    },
+    "exp": "This post consists only of hashtags and does not contain any explicit hate speech or derogatory terms. It appears to be a general post related to Somaliland, Muslim culture, and Arab identity.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8bd965ce47c0",
+    "t": "KITUI, LEO NI ILE SIKU!! \n\nTuta kuwa Kitui Town,  Kwa Vonza, Wamunyu, Makutano na Masii. Hamna sababu ya kukaa nyumbani!\n\nPata usaidizi wa tax returns zako na majibu kwa maswali yako yote kuhusu ushuru, direct kutoka kwa magwiji!\n\nAmbia rafiki yako na jirani hata yule mjomba ambaye huishi kusema ata",
+    "d": "2026-05-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KRACare",
+    "l": "https://x.com/KRACare/status/2059849052175347728",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a promotional message in Swahili, announcing a tax assistance event in various locations in Kitui. It encourages people to attend for help with tax returns and questions and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bad681551191",
+    "t": "Pwani mmetisha!\n\nAsanteni sana watu wa Mombasa, Malindi na Taita kwa kujitokeza kwa wingi kwenye Roadshow. Ilikuwa nafasi nzuri ya kusaidiana kufile returns, kujibu maswali kuhusu ushuru na kushirikiana kupitia burudani kutoka kwa @DuflaDiligon na @Susumila.\n\nKwa wale ambao hawakuweza kufika, filing",
+    "d": "2026-05-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KRACare",
+    "l": "https://x.com/KRACare/status/2059523368701907236",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post is a positive message in Swahili, thanking the people of Mombasa, Malindi, and Taita for attending a roadshow. It mentions helping with tax returns and enjoying entertainment, containing no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-708529cc25ce",
+    "t": "Elgeyo Marakwet \nUasingishu\nNakuru\nHomabay \nKisumu\nBusia\nKisii\nKajiado \nNarok\nWestpokot \nEmbu\nNyeri\nMombasa \nKwale \nKitui \nMachakos \nGarissa\nKiambu\nNairobi \nKericho \nBomet\nBaringo\nTransnzoia\nKakamega",
+    "d": "2026-05-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Ruthjelagat13",
+    "l": "https://x.com/Ruthjelagat13/status/2059588125131686367",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is simply a list of various counties in Kenya. It does not contain any hate speech, derogatory terms, or harmful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fe279b10db67",
+    "t": "@sylviepaloma @RChemutai @itscleokangethe @kibe_tz @CessNdiritu @KabuaJulius @AAkiyao @helenMaIgnatius @Tonnywachipo @JonathanKaribu @JohnMusang7262 @wambokamaa @PatrickRudiger2 @philipmathekaj @rozzykanyua @ItsDrMutwiri @ItsVetKoech @emily_akoko @eminen_official @MichukiGavana @ambiekoech @DavyieRh",
+    "d": "2026-05-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@raphn",
+    "l": "https://x.com/raphn/status/2059526424017457286",
+    "pr": "Abusive",
+    "co": 0.5999,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post consists solely of a long list of Twitter mentions (user handles). It does not contain any textual content that could be classified as hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-85ea107464a7",
+    "t": "#jobs #jobvacancy #jobsearch #jobseekers #jobopportunity\n\nMonitoring &amp; Reporting Intern\n\nDuty Station: NAIROBI\nDepartment/Office: UNEP\nDeadline: June 8, 2026\nExpected duration: 6 months\n\n\ud83d\udcccDon't forget to like and Share!\n\nTo apply:https://t.co/xdA8Rz2Y2H https://t.co/StH1yUrVPM",
+    "d": "2026-05-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JobBasekenya",
+    "l": "https://x.com/JobBasekenya/status/2059970641269248235",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a job advertisement for a Monitoring & Reporting Intern position in Nairobi, Kenya, providing details about the role, duty station, and application process. It contains no hateful language or content.",
+    "rel": "relevant",
+    "kb": []
+  }
+]

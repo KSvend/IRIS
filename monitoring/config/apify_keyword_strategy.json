@@ -773,6 +773,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "administration police",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific law enforcement body mentioned in the false claim.",
+          "date_added": "2026-05-28",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
