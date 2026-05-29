@@ -29704,7 +29704,10 @@
       "@Wararka24",
       "@TheFrontlineRpt",
       "@ORC35",
-      "@sgtnewsnetwork"
+      "@sgtnewsnetwork",
+      "@Anfa448354",
+      "@AhsanJunaidAJ",
+      "@dogdoc1996"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29774,6 +29777,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/sgtnewsnetwork/status/2054241961293259063",
         "date": "2026-05-28"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/dogdoc1996/status/2060328717969236118",
+        "date": "2026-05-29"
       }
     ],
     "spread": 5,
@@ -29822,7 +29830,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-05-29",
     "status": "active",
     "observations": [
       {
@@ -29941,9 +29949,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-29",
+        "url": "https://x.com/dogdoc1996/status/2060328717969236118",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 13,
+    "observation_count": 14,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29952,6 +29969,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -33655,7 +33673,12 @@
       "@bonsoul_ke",
       "@SassyOnchain",
       "@KenyaWeWant_",
-      "@Isaiasgiggs1"
+      "@Isaiasgiggs1",
+      "@BiancaNaom1",
+      "@mzeemzima100",
+      "@LensEmpress",
+      "@miss_tokyo3",
+      "@KKCommetary"
     ],
     "platforms": [
       "X (Twitter)"
@@ -33670,6 +33693,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
         "date": "2026-05-22"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-05-29"
       }
     ],
     "spread": 5,
@@ -33713,7 +33741,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-05-22",
     "detection_timestamp": "2026-05-22T11:35:54.647680+00:00",
-    "last_seen": "2026-05-22",
+    "last_seen": "2026-05-29",
     "status": "active",
     "observations": [
       {
@@ -33733,10 +33761,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-29",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "intensity_trend": [
+      3,
       3
     ]
   },
@@ -34804,5 +34842,232 @@
     ],
     "_review_notes": "This event is a report/analysis *about* disinformation, not the disinformation itself, hence reclassified as CONTEXT. The original country classification (South Sudan) was incorrect; Puntland is in Somalia. This report points to a potentially sophisticated disinformation campaign linking pro-Turkish analysts with extremist narratives to undermine regional security efforts.",
     "_reviewed": "2026-05-28T12:12:50.759990+00:00"
+  },
+  {
+    "id": "APF-2026-05-29-338",
+    "date": "2026-05-29",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "actors": [
+      "@SaddiqueShaban"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "date": "2026-05-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-17-814",
+      "APF-2026-05-18-858",
+      "APF-2026-05-20-912",
+      "APF-2026-05-27-760",
+      "APF-2026-05-28-185"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-29",
+    "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
+    "last_seen": "2026-05-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-29",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-29-012",
+    "date": "2026-05-29",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Radio Al-Furqan (a radio subsidiary of Al-Kataib) referring to Amin Abdullah, father of eight children, as a \"hero\".",
+    "summary": "Radio Al-Furqan (a radio subsidiary of Al-Kataib) referring to Amin Abdullah, father of eight children, as a \"hero\". Compare this to certain extreme peoples on xitter insulting him and calling him a mercenary.",
+    "actors": [
+      "@arsenalenjoying"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/arsenalenjoying/status/2059605811572146647",
+        "date": "2026-05-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "ANNEX-023",
+      "ANNEX-033",
+      "APF-2026-03-29-445",
+      "APF-2026-04-24-851",
+      "APF-2026-05-28-931",
+      "field_somalia-027"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'al-kataib'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-29",
+    "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
+    "last_seen": "2026-05-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-29",
+        "url": "https://x.com/arsenalenjoying/status/2059605811572146647",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-29-335",
+    "date": "2026-05-29",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-05-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "EXT-2025-002",
+      "EXT-2025-011",
+      "EXT-2025-020",
+      "EXT-2025-029",
+      "EXT-2025-032",
+      "EXT-ENRICH-CROSS-001"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-29",
+    "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
+    "last_seen": "2026-05-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-29",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
