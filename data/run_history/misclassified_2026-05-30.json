@@ -1,0 +1,1071 @@
+[
+  {
+    "i": "apify-7e6da68159d3",
+    "t": "woooooow somaliland waa waa duxaa \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\ud83d\udc9a\u2764\ufe0f\ud83d\udc9a\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\u2764\ufe0f https://t.co/2NY43Kux24",
+    "d": "2026-05-20",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@HASSAN_A_ELMI",
+    "l": "https://x.com/HASSAN_A_ELMI/status/2056447217729192350",
+    "pr": "Abusive",
+    "co": 0.9847,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 10,
+      "s": 1,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.6916
+    },
+    "exp": "This post expresses strong positive sentiment towards Somaliland, stating 'somaliland waa waa duxaa' (Somaliland is very prosperous/blessed/good). It is a statement of praise and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6849f6e08a75",
+    "t": "\u201cGeel cunaya caleen \ud83c\udf3f\ud83d\udc2a | Somali nature vibes\u201d#Somali\n#Somalia\n#Geel\n#Xoolo\n#Dabeecad",
+    "d": "2026-02-09",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@kaldarnomadic",
+    "l": "https://www.tiktok.com/@kaldarnomadic/video/7604748540010646791",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9817
+    },
+    "exp": "This post describes 'Camels eating leaves' and includes hashtags related to Somali nature and livestock. It is a descriptive post about local culture and environment, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5bc2b938da87",
+    "t": "#xoolo dhaqato\ud83d\udc11\ud83d\udc10\ud83c\udf34#jawi billa\ud83c\udf34#hiiraan\ud83c\uddee\ud83c\udde8_somalia\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4#somalitiktok\ud83c\uddf8\ud83c\uddf4\ud83d\ude0d\ud83d\udcaf#following_page\ud83d\udcaf\ud83d\udcaf\ud83d\udcaf",
+    "d": "2026-05-16",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@mohaanoww10",
+    "l": "https://www.tiktok.com/@mohaanoww10/video/7640623290331090197",
+    "pr": "Normal",
+    "co": 0.999,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-20",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9823
+    },
+    "exp": "This post uses hashtags related to 'livestock herders' and 'good weather/atmosphere' in Hiiraan, Somalia. It is a positive cultural post and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8be5a3579cd3",
+    "t": "This is why you should never allow any Somali to gaslight you about the term 'jareer', it is indeed a derogatory term for people with kinkier hair textures, do not allow them to lie to you.",
+    "d": "2026-05-24",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@akua_obeng42840",
+    "l": "https://x.com/akua_obeng42840/status/2058326228407390385",
+    "pr": "Abusive",
+    "co": 0.5265,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-24",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9318
+    },
+    "exp": "The post explains that 'jareer' is a derogatory Somali racial slur for people with kinkier hair textures, often targeting Bantu people, and advises against downplaying its offensive nature. This is a counter-speech post, educating about hate speech rather than perpetrating it.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f8be2e99a2cf",
+    "t": "@fartmassss @shadyheaven @Sccniigs @TheBoysOOCC jareer? don\u2019t tell me you\u2019re a somali \ud83e\udd23",
+    "d": "2026-05-24",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@fastfastdisco",
+    "l": "https://x.com/fastfastdisco/status/2058299237113159888",
+    "pr": "Abusive",
+    "co": 0.9006,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-24",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9668
+    },
+    "exp": "The user reacts with surprise and apparent disapproval to someone using the term 'jareer', a derogatory Somali racial slur for Bantu people, implying that a Somali person should not use such a term. This is a form of counter-speech or disapproval of the slur's use.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5ea12b0991d8",
+    "t": "\ud83c\uddf0\ud83c\uddea Happy Madaraka Day from Ndatani Enterprises Co. Ltd. \ud83c\uddf0\ud83c\uddea\nToday, we celebrate the courage, freedom, and determination that shaped our nation. As we honor Kenya's journey of self-governanance!\n\ud83d\udcde 0720555111 | 0716652896\n\ud83c\udf10 https://t.co/rPXZysdMNc\u2060\ufffd https://t.co/AxSuaR4m3V",
+    "d": "2026-05-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ndataniplots_Ke",
+    "l": "https://x.com/ndataniplots_Ke/status/2060328122755502083",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a celebratory message from a company wishing Kenyans a Happy Madaraka Day, a national holiday commemorating self-governance. It contains no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0a055b1a587b",
+    "t": "@Josephkihiu12 @CessNdiritu @raphn @MichukiGavana @ItsOnesmus254 @RChemutai @sylviepaloma @AAkiyao @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @PatrickRudiger2 @philipmathekaj @rozzykany",
+    "d": "2026-05-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@wambokamaa",
+    "l": "https://x.com/wambokamaa/status/2060232370318422019",
+    "pr": "Normal",
+    "co": 0.7071,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post consists solely of a long list of Twitter mentions without any accompanying text, making its content and intent indiscernible.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-21bba9e4a494",
+    "t": "@Annmitchel5 @Josephkihiu12 @sylviepaloma @philipmathekaj @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @raphn @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @Pat",
+    "d": "2026-05-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@wambokamaa",
+    "l": "https://x.com/wambokamaa/status/2060233073380278386",
+    "pr": "Normal",
+    "co": 0.8101,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of a long list of Twitter mentions without any accompanying text, making its content and intent indiscernible.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6c485c8da94c",
+    "t": "SOUTH SUDAN \ud83c\uddf8\ud83c\uddf8 GRAND FINALE\n\nPROPHETIC ONE-ON-ONE\n\nFor Business Leaders &amp; Government Officials\n\n\ud83d\udd25 Prayers for Favor, Open Doors, Business &amp; Financial Breakthrough\n\n\ud83d\udcc5 Thursday, 28th May\n\u23f0 From 12 NOON\n\ud83d\udccd Juba, South Sudan \ud83c\uddf8\ud83c\uddf8\n\n\u26a0\ufe0f Limited Slots Available https://t.co/h5cBNWyGiO",
+    "d": "2026-05-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RevLucyNatasha",
+    "l": "https://x.com/RevLucyNatasha/status/2059703656115482825",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is an advertisement for a religious event in Juba, South Sudan, offering prayers for business and financial success. It contains no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fa4cab428f38",
+    "t": "War dadka nolal u raadsha \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d#taliskaciidankaqeybta21aad #xananbuure_galgaduudsomalia #caabudwaaq\ud83c\uddf1\ud83c\uddfa\ud83e\udd81",
+    "d": "2026-05-25",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@cuudka_galmudug",
+    "l": "https://www.tiktok.com/@cuudka_galmudug/video/7643730815385406741",
+    "pr": "Normal",
+    "co": 0.9964,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-29",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9857
+    },
+    "exp": "The post translates to \"Oh people, seek life for them\" or \"find a livelihood for them,\" expressing frustration or despair about the situation in the mentioned Somali regions and is a plea for help, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4c5fdd77756c",
+    "t": "#duet with @Tru Amed\ud83d\ude0e\ud83c\uddf8\ud83c\uddf4 #dumarland\u2764\ufe0f\u2764\ufe0f  Very sorry in dagaal qabiil heerkaan nolasha Somaliyeed gaarsiiyo",
+    "d": "2026-05-21",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@salmaan.fahad",
+    "l": "https://www.tiktok.com/@salmaan.fahad/video/7642221057918684437",
+    "pr": "Normal",
+    "co": 0.993,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-29",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.95
+    },
+    "exp": "The post expresses regret that clan conflict has brought Somali life to such a low level, indicating concern about the negative impact of internal strife rather than promoting hate.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bc25615fe9f1",
+    "t": "Good Morning fellow Kenyans, this furahiday the 29th Day of May the year of Our Lord Two Thousand Twenty Six \n\ud83d\udc4b\u263a\ufe0f",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JoeMuhahami",
+    "l": "https://x.com/JoeMuhahami/status/2060180942199669206",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This is a simple good morning greeting to fellow Kenyans, using \"furahiday\" which is a common colloquial term for Friday, meaning \"happy Friday\". It contains no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7a343b810c62",
+    "t": "@themainbishxoxo @m3aadh @IRANinMumbai The Omanis never even controlled the Somali coast.",
+    "d": "2026-05-30",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@murtad_slayer1",
+    "l": "https://x.com/murtad_slayer1/status/2060252775531843936",
+    "pr": "Hate",
+    "co": 0.7236,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9392
+    },
+    "exp": "This post is a historical statement disputing Omani control over the Somali coast. It is a factual claim or opinion and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8ade2b985522",
+    "t": "Kafaidaysi wacan \ud83e\udef6\ud83c\udffe\ud83e\udd70\n#cafimad #glowup #recipes #cafimad #kafaideyso\ud83d\ude18 #somaligermany\ud83c\uddf8\ud83c\uddf4\ud83c\udde9\ud83c\uddea #f\u00fcrdich #hoyolab",
+    "d": "2025-04-18",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@allaboutfdm",
+    "l": "https://www.tiktok.com/@allaboutfdm/video/7494743607098854678",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.98
+    },
+    "exp": "The post uses \"Kafaidaysi wacan\" which means \"have a good benefit/gain\" or \"enjoy the benefits.\" The hashtags are related to health, beauty, recipes, and Somali-German identity. The term \"kafaideyso\" is a common Somali word meaning \"benefit from\" or \"take advantage of\" (in a positive sense), and is not related to \"kaafir\" (infidel). This post is about health and wellness, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d55861ca09f9",
+    "t": "Kefirknolle waa bakteeriyo iyo khamiir fiican oo isbiirsaday waxaana lagu daraa caano ama biyo si ay u khamiriyan. Waxay faido u leeyihiin caloosha iyo caafimaadka guud\n#cafimad #kafaideyso\ud83d\ude18 #qurux #kefir #somalitiktok #somaligermany\ud83c\uddf8\ud83c\uddf4\ud83c\udde9\ud83c\uddea #fyp #foryoupage\u2764\ufe0f\u2764\ufe0f",
+    "d": "2025-04-15",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@allaboutfdm",
+    "l": "https://www.tiktok.com/@allaboutfdm/video/7493524418501545238",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9799
+    },
+    "exp": "This post describes what a \"Kefirknolle\" (kefir grain) is in Somali, explaining it's a good bacteria and yeast mixture used to ferment milk or water, and that it's beneficial for the stomach and general health. The term \"kefir\" here refers to the fermented dairy product, not \"kaafir\" (infidel). It is an informative post about health.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d0ee6a3ed084",
+    "t": "#kefir#somalilandtiktok\ud83d\udc9a\ud83e\udd0d\u2764",
+    "d": "2025-09-14",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@munie_ahmed",
+    "l": "https://www.tiktok.com/@munie_ahmed/video/7549836248223943943",
+    "pr": "Normal",
+    "co": 0.9977,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.977
+    },
+    "exp": "This post simply uses hashtags for \"kefir\" (the fermented drink) and \"Somaliland TikTok.\" It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-218e00e81837",
+    "t": "Hey @KenyaPower tunakaa kwa ngiza hadi lini surely?hizi ni very dangerous  ,please do something  .location  tigoni ward in limuru subcounty https://t.co/Zwqyaf19KC",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MueniKitonga",
+    "l": "https://x.com/MueniKitonga/status/2060376234928767480",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "The user is complaining to Kenya Power about a power outage, asking \"tunakaa kwa ngiza hadi lini surely?\" which translates to \"how long will we stay in darkness?\" They state the situation is \"very dangerous\" and ask for action. This is a customer complaint and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-191baaad42fc",
+    "t": "@June_Osborne19 They aren't much of a threat to humans sadly.",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@munkehsoup",
+    "l": "https://x.com/munkehsoup/status/2060095952078467489",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9912
+    },
+    "exp": "This is a short, out-of-context comment that appears to be part of a larger conversation, possibly about animals or insects. It contains no hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6db8330095d3",
+    "t": "@MudasiaEvans @Josephkihiu12 @wambokamaa @sylviepaloma @philipmathekaj @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @raphn @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @Jonath",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2060236505579213210",
+    "pr": "Normal",
+    "co": 0.593,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5ea681484011",
+    "t": "@itsjohnndaiga @Annmitchel5 @wambokamaa @Josephkihiu12 @sylviepaloma @philipmathekaj @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo ",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@raphn",
+    "l": "https://x.com/raphn/status/2060240347544875193",
+    "pr": "Abusive",
+    "co": 0.7281,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-22ede447ee96",
+    "t": "@Josephkihiu12 @wambokamaa @sylviepaloma @philipmathekaj @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @raphn @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @Patr",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2060232278534459686",
+    "pr": "Abusive",
+    "co": 0.8306,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d0578274349e",
+    "t": "@Annmitchel5 @wambokamaa @Josephkihiu12 @sylviepaloma @philipmathekaj @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@raphn",
+    "l": "https://x.com/raphn/status/2060234202738487530",
+    "pr": "Abusive",
+    "co": 0.8532,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3f8cd282fbec",
+    "t": "@helenMaIgnatius @sylviepaloma @AAkiyao @CessNdiritu @JohnMusang7262 @vimatosh @RChemutai @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @wambokamaa @PatrickRudiger2 @philipmathekaj @rozzykanyua @ItsDrMutwiri @ItsVetKoech @emily_ako",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@raphn",
+    "l": "https://x.com/raphn/status/2060219455855112544",
+    "pr": "Normal",
+    "co": 0.4798,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f2eb1f5b603c",
+    "t": "@itsjohnndaiga @raphn @wambokamaa @Josephkihiu12 @sylviepaloma @philipmathekaj @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @Jonat",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2060237967524872535",
+    "pr": "Abusive",
+    "co": 0.7199,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-033079d6522e",
+    "t": "@helenMaIgnatius @kibe_tz @CessNdiritu @vimatosh @njoro78 @AAkiyao @raphn @JohnMusang7262 @RChemutai @Lucypau43921191 @MUTEMBEI1D @sylviepaloma @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @wambokamaa @PatrickRudiger2 @philipmathekaj @rozzykanyua @ItsDrMutwiri @ItsVet",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2060204027103633798",
+    "pr": "Abusive",
+    "co": 0.7816,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-59efd5541240",
+    "t": "@wambokamaa @Josephkihiu12 @sylviepaloma @philipmathekaj @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @raphn @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @Patr",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2060231489111896324",
+    "pr": "Abusive",
+    "co": 0.911,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ca041ecda041",
+    "t": "@kibe_tz @CessNdiritu @vimatosh @njoro78 @AAkiyao @raphn @helenMaIgnatius @JohnMusang7262 @RChemutai @Lucypau43921191 @sylviepaloma @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @wambokamaa @PatrickRudiger2 @philipmathekaj @rozzykanyua @ItsDrMutwiri @ItsVetKoech @emily",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MUTEMBEI1D",
+    "l": "https://x.com/MUTEMBEI1D/status/2060198307251511515",
+    "pr": "Abusive",
+    "co": 0.7398,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of Twitter mentions without any discernible text content, making it impossible to assess for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d1af742f79dd",
+    "t": "@philipmathekaj @wambokamaa @Josephkihiu12 @sylviepaloma @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @raphn @JohnMusang7262 @helenMaIgnatius @vimatosh @Lucypau43921191 @MUTEMBEI1D @kibe_tz @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @JonathanKaribu @Patr",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2060233788358004885",
+    "pr": "Abusive",
+    "co": 0.9675,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of a long list of Twitter mentions, without any accompanying text or context that would indicate hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-abe194c52802",
+    "t": "@vimatosh @philipmathekaj @kibe_tz @JohnMusang7262 @ItsGichuruRaini @Josephkihiu12 @wambokamaa @sylviepaloma @EngrOchi @AAkiyao @MichukiGavana @ItsOnesmus254 @RChemutai @CessNdiritu @raphn @helenMaIgnatius @Lucypau43921191 @MUTEMBEI1D @elijahsumbeiywo @itscleokangethe @KabuaJulius @Tonnywachipo @Jon",
+    "d": "2026-05-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Annmitchel5",
+    "l": "https://x.com/Annmitchel5/status/2060247782061916203",
+    "pr": "Hate",
+    "co": 0.4489,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "Similar to the previous post, this entry is merely a compilation of Twitter mentions and lacks any textual content that could be interpreted as hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  }
+]

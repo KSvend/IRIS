@@ -31978,7 +31978,7 @@
     "detected_by": "iris_classify_2026-04-30",
     "detection_timestamp": "2026-04-30T15:51:59.947285+00:00",
     "last_seen": "2026-04-30",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-04-30",
@@ -32137,7 +32137,7 @@
     "detected_by": "iris_classify_2026-04-30",
     "detection_timestamp": "2026-04-30T15:51:59.947285+00:00",
     "last_seen": "2026-04-30",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-04-30",
@@ -35061,6 +35061,188 @@
       {
         "date": "2026-05-29",
         "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-30-681",
+    "date": "2026-05-30",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "#DogsOfWar: Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First",
+    "summary": "Miguna has seen this before. These aren’t revolutionaries, they’re operatives, rehearsing their next circus. First Kenya, now Tanzania.  KenyavsTZ Gachagua Arrested. Observed across 2 posts from 1 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "actors": [
+      "@nasrah_cutie",
+      "@wishfmkenya",
+      "@ngetichkhillar1",
+      "@ZeroG_Lies",
+      "@EveryAcreKenya",
+      "@kasongoKbb",
+      "@theboyfk",
+      "@hezwachira",
+      "@cfranko7",
+      "@Amazingmasai_",
+      "@kanairofinest"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
+        "date": "2026-05-30"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ngetichkhillar1/status/1925643745350853021",
+        "date": "2026-05-30"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-04-28-701",
+      "APF-2026-05-17-149",
+      "APF-2026-05-18-124",
+      "APF-2026-05-22-618"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #dogsofwar. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-30",
+    "detection_timestamp": "2026-05-30T10:33:29.826489+00:00",
+    "last_seen": "2026-05-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-30",
+        "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-05-30",
+        "url": "https://x.com/ngetichkhillar1/status/1925643745350853021",
+        "summary": "#DogsOfWar: When \"activists\" travel first-class and stay at 5-star hotels on foreign NGO money, their mission isn’t justice it’s",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 2,
+    "intensity_trend": [
+      3
+    ]
+  },
+  {
+    "id": "APF-2026-05-30-172",
+    "date": "2026-05-30",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-05-30"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-21-385",
+      "APF-2026-05-23-443",
+      "APF-2026-05-24-778",
+      "APF-2026-05-25-110",
+      "APF-2026-05-27-294",
+      "APF-2026-05-28-195"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-30",
+    "detection_timestamp": "2026-05-30T10:33:29.826489+00:00",
+    "last_seen": "2026-05-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-30",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
