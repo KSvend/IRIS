@@ -1,0 +1,367 @@
+[
+  {
+    "i": "apify-efb13d076923",
+    "t": "@kakitubata14 @kayoubi0093 @newmakkiki @Bo_San_2D @uruwasinoneko @nagatamugen @kizinekozoz5 @onino_huguri @masaharukun2 @mkmtmk1 @akatuki_sunrise @komakimaco @XLYDchwddUH3aQB @Xtk3tAPgzc75647 @tsunacan450 @T76BohVuhrUo9Sp @PGTJMdgj8562 @goldbug15 @peach20211 @d2ZBj8kV4Q9tRD8 @beruhaneko5 @asakurarei",
+    "d": "2026-05-31",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mitugoro2",
+    "l": "https://x.com/mitugoro2/status/2061029028946198882",
+    "pr": "Normal",
+    "co": 0.9647,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post consists entirely of user mentions and does not contain any discernible text or content that could be analyzed for hate speech. It is likely a reply or part of a larger conversation.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2deba813a0be",
+    "t": "Ni kama kuna minerals wamerealize Kenya ziko\ud83d\ude02\ud83d\ude02",
+    "d": "2026-05-31",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RealKaruga",
+    "l": "https://x.com/RealKaruga/status/2061034698634121683",
+    "pr": "Normal",
+    "co": 0.997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post, written in Swahili, translates to 'It's like they've realized there are minerals in Kenya.' This is a neutral statement discussing the discovery of minerals and does not contain any hateful or abusive language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-33cdb8454a1f",
+    "t": "Munaasibad qurux &amp; qaaya badan munaasibad qiima badan xildhibaan warejintii  mayar mooge #somaliland https://t.co/E8Kdz8JYvK",
+    "d": "2026-05-31",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@mp_indho_Indho",
+    "l": "https://x.com/mp_indho_Indho/status/2060667130039660620",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.987
+    },
+    "exp": "This post is a celebratory message in Somali, translating to 'A beautiful and dignified event, a valuable event, the handover of the MP to Mayor Mooge #somaliland.' It describes a political event positively and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e384cd2d8fe2",
+    "t": "@Libaax_naag_ah\ud83e\udd81 #somalitiktok\ud83c\udf0dsimalitiktok #somaligirls\u2764\ufe0f\ud83d\udc99\ud83c\uddf8\ud83c\uddf4 #fpppppppppppppppppppppppppppppppppp #niiko",
+    "d": "2026-04-20",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@djsomali1",
+    "l": "https://www.tiktok.com/@djsomali1/video/7630877798969789713",
+    "pr": "Abusive",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9776
+    },
+    "exp": "This post contains hashtags related to Somali TikTok, girls, and a common internet trend ('fpppppppppppppppppppppppppppppppppp'), along with 'niiko' which refers to a traditional Somali dance. There is no hateful or abusive content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-55a8f9c84a2c",
+    "t": "Sudan Founding Alliance (TASIS) condemns the forced displacement of around 150 families from the Kaw forest area in Al-Butana locality by SAF. https://t.co/Vqy2Vb433B",
+    "d": "2026-05-31",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2060786852211098090",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on a condemnation of forced displacement by the SAF (Sudanese Armed Forces). It is a news report about a conflict situation, not expressing hate speech itself.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f26d821c8c7e",
+    "t": "Opposition Unveils New Shadow Cabinet, Retains Ssenyonyi as Leader https://t.co/QeYX3P4PW9 https://t.co/3g3CkfuGs2",
+    "d": "2026-05-31",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thetowerpost",
+    "l": "https://x.com/thetowerpost/status/2060298345747296714",
+    "pr": "Hate",
+    "co": 0.9132,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is a news headline reporting on the unveiling of an opposition shadow cabinet. It contains no hateful language or slurs.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-972deb0b9dbd",
+    "t": "\ud83c\udf21Rapid Support Forces #RSF on Saturday May 30th 2026 carried out two separate drone strikes on Al Abbasiya town of South Kordofan state and Al Tina town of North Darfur state. #Sudan",
+    "d": "2026-05-31",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Ivadleber",
+    "l": "https://x.com/Ivadleber/status/2060755628621017305",
+    "pr": "Normal",
+    "co": 0.9821,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post reports on military actions by the Rapid Support Forces (RSF) in Sudan. It is a factual report of events and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d7ac106095aa",
+    "t": "Met representatives of the Kenyan diaspora from 40 countries, State House Nairobi. Commended them for being excellent ambassadors of our country, pointing out that many organisations  give sterling accounts of their hardwork, consistency, reliability and dependability.\n\nWe have made it easier for th",
+    "d": "2026-05-31",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WilliamsRuto",
+    "l": "https://x.com/WilliamsRuto/status/2060318856061522115",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 23,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a positive statement from a public figure commending the Kenyan diaspora. It contains no hate speech or dehumanizing language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a8c27d44938f",
+    "t": "Forging Onwards by supporting overseas employment, the government highlighted that over 540,000 Kenyans have secured jobs abroad in the last three years, creating opportunities for income generation and economic empowerment. #GOKThisWeek https://t.co/Jv0Ch7w7ZM",
+    "d": "2026-05-31",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Linet_Onyi",
+    "l": "https://x.com/Linet_Onyi/status/2061007689434505464",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a positive report from the government about Kenyans securing jobs abroad. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6f62c28312f0",
+    "t": "@WilliamsMkenya More than 540,000 Kenyans have secured jobs abroad over the past three years, reflecting ongoing efforts to expand employment opportunities and improve livelihoods through international labour partnerships. Forging Onwards. #GOKThisWeek",
+    "d": "2026-05-31",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Jolenee7_",
+    "l": "https://x.com/Jolenee7_/status/2061007341265256893",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 19,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-05-31",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a positive report about Kenyans securing jobs abroad, similar to the previous one. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  }
+]

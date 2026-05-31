@@ -29707,7 +29707,9 @@
       "@sgtnewsnetwork",
       "@Anfa448354",
       "@AhsanJunaidAJ",
-      "@dogdoc1996"
+      "@dogdoc1996",
+      "@jakeki749",
+      "@slayerofbigotry"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29782,6 +29784,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/dogdoc1996/status/2060328717969236118",
         "date": "2026-05-29"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/slayerofbigotry/status/2061034120164122796",
+        "date": "2026-05-31"
       }
     ],
     "spread": 5,
@@ -29830,7 +29837,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-05-31",
     "status": "active",
     "observations": [
       {
@@ -29958,9 +29965,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://x.com/slayerofbigotry/status/2061034120164122796",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 14,
+    "observation_count": 15,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29969,6 +29985,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -30134,7 +30151,8 @@
       "@chegendegwa",
       "@georgediano",
       "@ObinnaWaGikomba",
-      "@Furnkranz"
+      "@Furnkranz",
+      "@PkkipK"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30214,6 +30232,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Furnkranz/status/2058879599484829905",
         "date": "2026-05-25"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2060735952650113338",
+        "date": "2026-05-31"
       }
     ],
     "spread": 5,
@@ -30257,7 +30280,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-25",
+    "last_seen": "2026-05-31",
     "status": "active",
     "observations": [
       {
@@ -30394,9 +30417,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://x.com/InsideKeOnline/status/2060735952650113338",
+        "summary": "#43against1: Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 15,
+    "observation_count": 16,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30405,6 +30437,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -35251,5 +35284,245 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-05-31-053",
+    "date": "2026-05-31",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P5 LOW",
+    "headline": "Irrelevant Content: Advertisement for Polymarket trading features",
+    "summary": "This event consists of an advertisement for Polymarket trading features, observed on X (Twitter). This content is irrelevant to the monitoring scope of East African disinformation and should be filtered out.",
+    "actors": [
+      "@thearbitradepro"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/thearbitradepro/status/2061035084967215469",
+        "date": "2026-05-31"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-04-26-495",
+      "APF-2026-05-17-149",
+      "APF-2026-05-18-124",
+      "APF-2026-05-22-618",
+      "APF-2026-05-30-681"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-31",
+    "detection_timestamp": "2026-05-31T10:41:55.130530+00:00",
+    "last_seen": "2026-05-31",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-31",
+        "url": "https://x.com/thearbitradepro/status/2061035084967215469",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Want better control over your Polymarket trades with features like trailing stop, break-even, martingale, Soros, and",
+    "_original_summary": "Want better control over your Polymarket trades with features like trailing stop, break-even, martingale, Soros, and much more? We can help. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "_review_notes": "This event is an advertisement for financial trading tools and is not related to disinformation or East African affairs. It should be filtered out as irrelevant content.",
+    "_reviewed": "2026-05-31T10:43:44.874881+00:00"
+  },
+  {
+    "id": "APF-2026-05-31-170",
+    "date": "2026-05-31",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims BBS Mall in Eastleigh uses private police for public road traffic stops and privatized a public road",
+    "summary": "Social media posts from @SaddiqueShaban claim that the Business Bay Square (BBS) Mall in Eastleigh, Nairobi, employs its own Administration Police officers who conduct traffic stops on motorcycles, and has privatized a public road. These claims, if false, could erode public trust in law enforcement and local governance, and potentially incite public discontent regarding private entities overstepping their authority.",
+    "actors": [
+      "@SaddiqueShaban"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "date": "2026-05-31"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-18-858",
+      "APF-2026-05-20-912",
+      "APF-2026-05-27-760",
+      "APF-2026-05-28-185",
+      "APF-2026-05-29-338"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-31",
+    "detection_timestamp": "2026-05-31T10:41:55.130530+00:00",
+    "last_seen": "2026-05-31",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-31",
+        "url": "https://x.com/SaddiqueShaban/status/2047563185746567421",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own",
+    "_original_summary": "The Business Bay Square (BBS) Mall Eastleigh Nairobi Kenya, General Waruinge Street, Nairobi, has its own Administration Police officers who also conduct traffic stops on motorcycles. The mall appears to have designated a public road as its own, from.",
+    "extracted_claims": [
+      "Business Bay Square (BBS) Mall in Eastleigh, Nairobi, employs its own Administration Police officers who conduct traffic stops on motorcycles.",
+      "Business Bay Square (BBS) Mall has designated a public road as its own."
+    ],
+    "_review_notes": "This event highlights potentially misleading claims about a private entity (BBS Mall) usurping public authority and privatizing public infrastructure, which could have significant implications for public order and trust in governance in Nairobi.",
+    "_reviewed": "2026-05-31T10:43:44.874902+00:00"
+  },
+  {
+    "id": "APF-2026-05-31-938",
+    "date": "2026-05-31",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims Pro-Turkish analysts, specifically Umut Çağrı Sarı, echo ISIS propaganda regarding Puntland's counter-terrorism efforts",
+    "summary": "Social media posts from @CirkaNews accuse 'Pro-Turkish Analysts,' specifically naming Umut Çağrı Sarı, of echoing ISIS propaganda. The claims suggest Sarı is pushing narratives that misrepresent Puntland’s counter-terrorism efforts. This narrative, if false, could fuel geopolitical tensions, undermine counter-terrorism efforts in Somalia, and spread mistrust regarding foreign influence.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-05-31"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-21-385",
+      "APF-2026-05-24-778",
+      "APF-2026-05-25-110",
+      "APF-2026-05-27-294",
+      "APF-2026-05-28-195",
+      "APF-2026-05-30-172"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-05-31",
+    "detection_timestamp": "2026-05-31T10:41:55.130530+00:00",
+    "last_seen": "2026-05-31",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-05-31",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda.",
+      "Umut Çağrı Sarı is pushing narratives that misrepresent Puntland’s counter-terrorism efforts."
+    ],
+    "_review_notes": "This event highlights a serious accusation of foreign analysts spreading propaganda aligned with ISIS concerning counter-terrorism in Puntland, Somalia. The country tag for the event should be corrected from South Sudan to Somalia, as Puntland is a state in Somalia.",
+    "_reviewed": "2026-05-31T10:43:44.874917+00:00"
   }
 ]

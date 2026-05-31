@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-31",
+  "extracted_claims": [
+    {
+      "claim": "Business Bay Square (BBS) Mall in Eastleigh, Nairobi, employs its own Administration Police officers who conduct traffic stops on motorcycles.",
+      "country": "Kenya",
+      "actors": [
+        "@SaddiqueShaban"
+      ],
+      "keywords": [
+        "BBS Mall",
+        "Eastleigh",
+        "Administration Police",
+        "traffic stops"
+      ]
+    },
+    {
+      "claim": "Business Bay Square (BBS) Mall has designated a public road as its own.",
+      "country": "Kenya",
+      "actors": [
+        "@SaddiqueShaban"
+      ],
+      "keywords": [
+        "BBS Mall",
+        "Eastleigh",
+        "public road",
+        "privatization"
+      ]
+    },
+    {
+      "claim": "Pro-Turkish analysts, specifically Umut \u00c7a\u011fr\u0131 Sar\u0131, are echoing ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Pro-Turkish analysts",
+        "ISIS propaganda",
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131"
+      ]
+    },
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131 is pushing narratives that misrepresent Puntland\u2019s counter-terrorism efforts.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Puntland",
+        "counter-terrorism"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "BBS Mall",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the claim."
+    },
+    {
+      "keyword": "Eastleigh",
+      "country": "Kenya",
+      "reason": "Specific neighborhood in Nairobi mentioned in the claim."
+    },
+    {
+      "keyword": "Administration Police",
+      "country": "Kenya",
+      "reason": "Specific law enforcement body mentioned in the claim."
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific analyst named in the claim."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific media outlet mentioned in the claim."
+    },
+    {
+      "keyword": "Puntland",
+      "country": "Somalia",
+      "reason": "Specific region in Somalia mentioned in the claim."
+    },
+    {
+      "keyword": "Pro-Turkish analysts",
+      "country": "Regional",
+      "reason": "Group accused in the claim."
+    }
+  ],
+  "events_reviewed": 3,
+  "events_reclassified": 0
+}
