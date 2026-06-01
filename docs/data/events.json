@@ -30152,7 +30152,9 @@
       "@georgediano",
       "@ObinnaWaGikomba",
       "@Furnkranz",
-      "@PkkipK"
+      "@PkkipK",
+      "@NytoP2PMwangi",
+      "@BeautyKipusa"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30237,6 +30239,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/InsideKeOnline/status/2060735952650113338",
         "date": "2026-05-31"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/BeautyKipusa/status/2061375168270766565",
+        "date": "2026-06-01"
       }
     ],
     "spread": 5,
@@ -30280,7 +30287,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-06-01",
     "status": "active",
     "observations": [
       {
@@ -30426,9 +30433,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-01",
+        "url": "https://x.com/BeautyKipusa/status/2061375168270766565",
+        "summary": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 16,
+    "observation_count": 17,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30437,6 +30453,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -35291,7 +35308,7 @@
     "country": "Kenya",
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
-    "threat_level": "P5 LOW",
+    "threat_level": "P3 MODERATE",
     "headline": "Irrelevant Content: Advertisement for Polymarket trading features",
     "summary": "This event consists of an advertisement for Polymarket trading features, observed on X (Twitter). This content is irrelevant to the monitoring scope of East African disinformation and should be filtered out.",
     "actors": [
@@ -35524,5 +35541,174 @@
     ],
     "_review_notes": "This event highlights a serious accusation of foreign analysts spreading propaganda aligned with ISIS concerning counter-terrorism in Puntland, Somalia. The country tag for the event should be corrected from South Sudan to Somalia, as Puntland is a state in Somalia.",
     "_reviewed": "2026-05-31T10:43:44.874917+00:00"
+  },
+  {
+    "id": "APF-2026-06-01-827",
+    "date": "2026-06-01",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property",
+    "summary": "An account on X (Twitter) is spreading claims that the FBI has opened a hunt in Nairobi for millions of dollars from Minnesota fraud, allegedly hidden in specific locations like Kileleshwa, Eastleigh, and Gatundu Road. The posts suggest that stolen Medicaid funds were wired to a Gatundu Road apartment and that a suspect has already been arrested. This narrative could fuel distrust and speculation regarding financial crimes and international law enforcement operations in Kenya.",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2061154380984852817",
+        "date": "2026-06-01"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-18-940",
+      "APF-2026-05-20-776",
+      "APF-2026-05-21-525",
+      "APF-2026-05-24-355",
+      "APF-2026-05-25-078"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-01",
+    "detection_timestamp": "2026-06-01T14:54:04.162659+00:00",
+    "last_seen": "2026-06-01",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-01",
+        "url": "https://x.com/InsideKeOnline/status/2061154380984852817",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "The FBI is hunting for Minnesota fraud millions hidden in Kileleshwa highrises, Eastleigh malls, and ghost property empires in Nairobi.",
+      "Stolen Medicaid funds were wired to a Gatundu Road apartment in Nairobi, leading to at least one arrest by federal agents."
+    ],
+    "_review_notes": "This event details a specific and sensational claim about international law enforcement operations and financial fraud in Nairobi, potentially impacting public perception of corruption and foreign intervention in Kenya.",
+    "_reviewed": "2026-06-01T14:55:57.889012+00:00"
+  },
+  {
+    "id": "APF-2026-06-01-040",
+    "date": "2026-06-01",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "An account on X (Twitter) is spreading claims questioning whether 'pro-Turkish analysts' are echoing ISIS propaganda, specifically naming Umut Çağrı Sarı and Manjaniq Media. The narrative suggests that Umut Çağrı Sarı, a Turkish geopolitical commentator, is pushing narratives that negatively portray Puntland’s counter-terrorism efforts, thereby implying a link to ISIS propaganda. This disinformation could damage reputations and sow discord regarding counter-terrorism operations in Somalia.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-06-01"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-18-293",
+      "APF-2026-05-25-110",
+      "APF-2026-05-27-294",
+      "APF-2026-05-28-195",
+      "APF-2026-05-30-172",
+      "APF-2026-05-31-938"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-01",
+    "detection_timestamp": "2026-06-01T14:54:04.162659+00:00",
+    "last_seen": "2026-06-01",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-01",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda.",
+      "Umut Çağrı Sarı, a Turkish geopolitical commentator, is pushing narratives that negatively portray Puntland’s counter-terrorism efforts."
+    ],
+    "_review_notes": "This event involves serious accusations of individuals echoing ISIS propaganda, specifically targeting a Turkish analyst and linking it to counter-terrorism efforts in Puntland, Somalia. The event's country tag (South Sudan) is incorrect and should be Somalia based on the content.",
+    "_reviewed": "2026-06-01T14:55:57.889040+00:00"
   }
 ]

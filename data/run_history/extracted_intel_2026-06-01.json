@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-01",
+  "extracted_claims": [
+    {
+      "claim": "The FBI is hunting for Minnesota fraud millions hidden in Kileleshwa highrises, Eastleigh malls, and ghost property empires in Nairobi.",
+      "country": "Kenya",
+      "actors": [
+        "FBI"
+      ],
+      "keywords": [
+        "FBI",
+        "Minnesota fraud",
+        "Kileleshwa",
+        "Eastleigh",
+        "ghost property"
+      ]
+    },
+    {
+      "claim": "Stolen Medicaid funds were wired to a Gatundu Road apartment in Nairobi, leading to at least one arrest by federal agents.",
+      "country": "Kenya",
+      "actors": [
+        "FBI"
+      ],
+      "keywords": [
+        "Medicaid funds",
+        "Gatundu Road",
+        "arrest"
+      ]
+    },
+    {
+      "claim": "Pro-Turkish analysts, specifically Umut \u00c7a\u011fr\u0131 Sar\u0131, are echoing ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media",
+        "ISIS"
+      ],
+      "keywords": [
+        "Pro-Turkish analysts",
+        "ISIS propaganda",
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media"
+      ]
+    },
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131, a Turkish geopolitical commentator, is pushing narratives that negatively portray Puntland\u2019s counter-terrorism efforts.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131"
+      ],
+      "keywords": [
+        "Puntland",
+        "counter-terrorism",
+        "Turkish geopolitical commentator"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Kileleshwa",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the false claim."
+    },
+    {
+      "keyword": "Eastleigh",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the false claim."
+    },
+    {
+      "keyword": "Gatundu Road",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the false claim."
+    },
+    {
+      "keyword": "Minnesota fraud",
+      "country": "Regional",
+      "reason": "Specific type of fraud mentioned, relevant for cross-border financial crime narratives."
+    },
+    {
+      "keyword": "Medicaid funds",
+      "country": "Regional",
+      "reason": "Specific type of funds mentioned, relevant for financial crime narratives."
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual named in the disinformation."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific entity named in the disinformation."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific regional context and activity targeted by the disinformation."
+    },
+    {
+      "keyword": "Pro-Turkish analysts",
+      "country": "Regional",
+      "reason": "Specific group targeted by the disinformation."
+    },
+    {
+      "keyword": "ISIS propaganda",
+      "country": "Regional",
+      "reason": "Specific type of propaganda and actor mentioned."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 0
+}

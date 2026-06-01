@@ -783,6 +783,46 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "kileleshwa",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific location mentioned in the false claim.",
+          "date_added": "2026-06-01",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "gatundu road",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific location mentioned in the false claim.",
+          "date_added": "2026-06-01",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "minnesota fraud",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific type of fraud mentioned, relevant for cross-border financial crime narratives.",
+          "date_added": "2026-06-01",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "medicaid funds",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific type of funds mentioned, relevant for financial crime narratives.",
+          "date_added": "2026-06-01",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
