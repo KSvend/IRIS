@@ -35710,5 +35710,239 @@
     ],
     "_review_notes": "This event involves serious accusations of individuals echoing ISIS propaganda, specifically targeting a Turkish analyst and linking it to counter-terrorism efforts in Puntland, Somalia. The event's country tag (South Sudan) is incorrect and should be Somalia based on the content.",
     "_reviewed": "2026-06-01T14:55:57.889040+00:00"
+  },
+  {
+    "id": "APF-2026-06-02-617",
+    "date": "2026-06-02",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property",
+    "summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "date": "2026-06-02"
+      }
+    ],
+    "spread": 3,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-19-634",
+      "APF-2026-05-20-776",
+      "APF-2026-05-21-525",
+      "APF-2026-05-24-355",
+      "APF-2026-06-01-827"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-02",
+    "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
+    "last_seen": "2026-06-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-02",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-02-722",
+    "date": "2026-06-02",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Abu Muhammad al Furqan of IS Central ordered IS Sinai to halt their tactical cooperation w Hamas and declare war. Hamas",
+    "summary": "Abu Muhammad al Furqan of IS Central ordered IS Sinai to halt their tactical cooperation w Hamas and declare war. Hamas began fighting only when Dawla opened the front.",
+    "actors": [
+      "@RashmanTheHorse"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RashmanTheHorse/status/2061623087968235638",
+        "date": "2026-06-02"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "ANNEX-023",
+      "ANNEX-033",
+      "APF-2026-03-29-445",
+      "APF-2026-04-24-851",
+      "APF-2026-05-28-931",
+      "APF-2026-05-29-012"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al furqan' with VE context (dawla); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-02",
+    "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
+    "last_seen": "2026-06-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-02",
+        "url": "https://x.com/RashmanTheHorse/status/2061623087968235638",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-02-503",
+    "date": "2026-06-02",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
+    "actors": [
+      "@AbouzgidenAli",
+      "@CirkaNews",
+      "@R47910409"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-06-02"
+      }
+    ],
+    "spread": 3,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-24-778",
+      "APF-2026-05-27-294",
+      "APF-2026-05-28-195",
+      "APF-2026-05-30-172",
+      "APF-2026-05-31-938",
+      "APF-2026-06-01-040"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-02",
+    "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
+    "last_seen": "2026-06-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-02",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
