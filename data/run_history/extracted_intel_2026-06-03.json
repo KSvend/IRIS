@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-03",
+  "extracted_claims": [
+    {
+      "claim": "Pro-Turkish analysts, specifically Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media, are echoing ISIS propaganda in their portrayal of Puntland's counter-terrorism efforts.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews",
+        "@GDA360"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media",
+        "Puntland",
+        "ISIS propaganda",
+        "Turkish analysts"
+      ]
+    },
+    {
+      "claim": "South Sudan\u2019s Chief of Defence Forces, Gen. Paul Nang Majok, has ordered government troops to crush the rebellion in Jonglei within seven days.",
+      "country": "South Sudan",
+      "actors": [
+        "@SouthSudan24_"
+      ],
+      "keywords": [
+        "Jonglei rebellion",
+        "Gen. Paul Nang Majok",
+        "South Sudan army chief"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific individual named in the disinformation."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "Specific media outlet named in the disinformation."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific regional context and topic of the disinformation."
+    },
+    {
+      "keyword": "Turkish influence Somalia",
+      "country": "Somalia",
+      "reason": "Broader geopolitical context relevant to the disinformation."
+    },
+    {
+      "keyword": "Gen. Paul Nang Majok",
+      "country": "South Sudan",
+      "reason": "Specific individual falsely attributed with an order."
+    },
+    {
+      "keyword": "Jonglei rebellion",
+      "country": "South Sudan",
+      "reason": "Specific conflict context central to the false claim."
+    },
+    {
+      "keyword": "SSPDF orders",
+      "country": "South Sudan",
+      "reason": "Refers to military directives, a common subject of disinformation."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 0
+}

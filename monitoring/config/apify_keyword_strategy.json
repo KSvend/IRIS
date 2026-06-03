@@ -823,6 +823,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "turkish influence somalia",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Broader geopolitical context relevant to the disinformation.",
+          "date_added": "2026-06-03",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "gen. paul nang majok",
+          "country": "South Sudan",
+          "source": "event_review_extraction",
+          "reason": "Specific individual falsely attributed with an order.",
+          "date_added": "2026-06-03",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

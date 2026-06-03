@@ -30154,7 +30154,9 @@
       "@Furnkranz",
       "@PkkipK",
       "@NytoP2PMwangi",
-      "@BeautyKipusa"
+      "@BeautyKipusa",
+      "@IanWangah",
+      "@mkufuuu"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30244,6 +30246,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/BeautyKipusa/status/2061375168270766565",
         "date": "2026-06-01"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/wayneMbanda/status/2062145197614444888",
+        "date": "2026-06-03"
       }
     ],
     "spread": 5,
@@ -30287,7 +30294,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-01",
+    "last_seen": "2026-06-03",
     "status": "active",
     "observations": [
       {
@@ -30442,9 +30449,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://x.com/wayneMbanda/status/2062145197614444888",
+        "summary": "Gachagua Cheers FBI’s Kenya Partnership, Sees It as the Net That Will Finally Catch Minnesota Fraud Cartels Hiding in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 17,
+    "observation_count": 18,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30453,6 +30469,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -30587,6 +30604,7 @@
     "related_events": [
       "APF-2026-05-20-778",
       "APF-2026-05-25-725",
+      "APF-2026-06-03-738",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -33502,6 +33520,7 @@
     "related_events": [
       "APF-2026-03-30-195",
       "APF-2026-05-25-725",
+      "APF-2026-06-03-738",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -34339,6 +34358,7 @@
     "related_events": [
       "APF-2026-03-30-195",
       "APF-2026-05-20-778",
+      "APF-2026-06-03-738",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -35944,5 +35964,335 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-03-947",
+    "date": "2026-06-03",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "USrael's Global Imperial Aggression recap 26-06-03 The Gulf erupts as US-Iran missile exchanges close the Strait of",
+    "summary": "USrael's Global Imperial Aggression recap 26-06-03 The Gulf erupts as US-Iran missile exchanges close the Strait of Hormuz, Khamenei's funeral draws tens of millions, and the empire's arithmetic of 13 dead soldiers and depleted Patriot stockpiles is .",
+    "actors": [
+      "@agtprpnabsrdty"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/agtprpnabsrdty/status/2062157839548731451",
+        "date": "2026-06-03"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "ANNEX-012",
+      "ANNEX-046",
+      "ANNEX-064",
+      "APF-2026-03-23-204",
+      "APF-2026-04-27-805",
+      "APF-2026-05-20-116"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (13 dead) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-03",
+    "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
+    "last_seen": "2026-06-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-03",
+        "url": "https://x.com/agtprpnabsrdty/status/2062157839548731451",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-03-846",
+    "date": "2026-06-03",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property",
+    "summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "date": "2026-06-03"
+      }
+    ],
+    "spread": 3,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-20-776",
+      "APF-2026-05-21-525",
+      "APF-2026-05-24-355",
+      "APF-2026-06-01-827",
+      "APF-2026-06-02-617"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-03",
+    "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
+    "last_seen": "2026-06-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-03",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-03-842",
+    "date": "2026-06-03",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims pro-Turkish analysts, including Umut Çağrı Sarı, echo ISIS propaganda regarding Puntland's counter-terrorism.",
+    "summary": "Disinformation is being spread on X (Twitter) by accounts @CirkaNews and @GDA360, claiming that pro-Turkish geopolitical commentator Umut Çağrı Sarı and Manjaniq Media are echoing ISIS propaganda in their analysis of Puntland's counter-terrorism operations. This narrative, observed across two posts, falsely links Turkish analysts to ISIS propaganda, potentially undermining counter-terrorism efforts and creating diplomatic tensions in Somalia.",
+    "actors": [
+      "@CirkaNews",
+      "@GDA360"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/GDA360/status/2062158554631712985",
+        "date": "2026-06-03"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-27-294",
+      "APF-2026-05-28-195",
+      "APF-2026-05-30-172",
+      "APF-2026-05-31-938",
+      "APF-2026-06-01-040",
+      "APF-2026-06-02-503"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Specific casualty claim (14 soldiers) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-03",
+    "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
+    "last_seen": "2026-06-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-03",
+        "url": "https://x.com/GDA360/status/2062158554631712985",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Pro-Turkish analysts, specifically Umut Çağrı Sarı and Manjaniq Media, are echoing ISIS propaganda in their portrayal of Puntland's counter-terrorism efforts."
+    ],
+    "_review_notes": "This event highlights a complex disinformation tactic involving accusations of foreign influence and links to terrorist groups, specifically targeting narratives around counter-terrorism in Somalia. The event's listed country (South Sudan) is incorrect and should be Somalia based on the content (Puntland).",
+    "_reviewed": "2026-06-03T13:11:04.063471+00:00"
+  },
+  {
+    "id": "APF-2026-06-03-738",
+    "date": "2026-06-03",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "🔴 BREAKING NEWS South Sudan army chief gives troops 7 days to crush rebellion in Jonglei South Sudan’s Chief of Defence",
+    "summary": "An X (Twitter) account, @SouthSudan24_, is spreading a false 'breaking news' report claiming that South Sudan’s Chief of Defence Forces, Gen. Paul Nang Majok, has issued a seven-day ultimatum to government troops to crush the rebellion in Jonglei. This fabricated order, if believed, could incite panic, misinform the public about military operations, and potentially exacerbate tensions in the conflict-affected Jonglei region.",
+    "actors": [
+      "@SouthSudan24_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SouthSudan24_/status/2014740763641266629",
+        "date": "2026-06-03"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-005",
+      "NAR-SS-001",
+      "NAR-SS-002"
+    ],
+    "related_events": [
+      "APF-2026-03-30-195",
+      "APF-2026-05-20-778",
+      "APF-2026-05-25-725",
+      "SSD-2026-002",
+      "SSD-2026-020"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: crush rebellion, 7 days. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-03",
+    "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
+    "last_seen": "2026-06-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-03",
+        "url": "https://x.com/SouthSudan24_/status/2014740763641266629",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "🔴 BREAKING NEWS South Sudan army chief gives troops 7 days to crush rebellion in Jonglei South Sudan’s Chief of Defence Forces, Gen. Paul Nang Majok, has ordered government troops to crush the rebellion within seven days, following intensified fighti.",
+    "extracted_claims": [
+      "South Sudan’s Chief of Defence Forces, Gen. Paul Nang Majok, has ordered government troops to crush the rebellion in Jonglei within seven days."
+    ],
+    "_review_notes": "This is a classic example of fabricated breaking news designed to create alarm or misinform about ongoing conflict. Given the fragility of the context in South Sudan and the potential for real-world impact, the threat level should be elevated.",
+    "_reviewed": "2026-06-03T13:11:04.063497+00:00"
   }
 ]
