@@ -1,0 +1,210 @@
+{
+  "date": "2026-06-04",
+  "extracted_claims": [
+    {
+      "claim": "The FBI is hunting for millions of Minnesota fraud funds hidden in Nairobi's Kileleshwa highrises, Eastleigh malls, and ghost property empires.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "FBI",
+        "Minnesota fraud",
+        "Kileleshwa",
+        "Eastleigh",
+        "Nairobi"
+      ]
+    },
+    {
+      "claim": "A suspect has been arrested for wiring stolen Medicaid funds to a Gatundu Road apartment in Nairobi.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "Medicaid fraud",
+        "Gatundu Road",
+        "Nairobi"
+      ]
+    },
+    {
+      "claim": "Abu Muhammad al Furqan of IS Central ordered IS Sinai to halt tactical cooperation with Hamas and declare war.",
+      "country": "Somalia",
+      "actors": [
+        "@RashmanTheHorse"
+      ],
+      "keywords": [
+        "Abu Muhammad al Furqan",
+        "IS Central",
+        "IS Sinai",
+        "Hamas"
+      ]
+    },
+    {
+      "claim": "Hamas began fighting only when Dawla (ISIS) opened the front.",
+      "country": "Somalia",
+      "actors": [
+        "@RashmanTheHorse"
+      ],
+      "keywords": [
+        "Hamas",
+        "Dawla",
+        "ISIS"
+      ]
+    },
+    {
+      "claim": "Pro-Turkish analysts, specifically Umut \u00c7a\u011fr\u0131 Sar\u0131, are echoing ISIS propaganda by pushing narratives that portray Puntland's counter-terrorism efforts negatively.",
+      "country": "South Sudan",
+      "actors": [
+        "@AbouzgidenAli",
+        "@CirkaNews",
+        "@R47910409"
+      ],
+      "keywords": [
+        "Pro-Turkish analysts",
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS propaganda",
+        "Puntland counter-terrorism"
+      ]
+    },
+    {
+      "claim": "The Gulf is erupting with US-Iran missile exchanges, leading to the closure of the Strait of Hormuz.",
+      "country": "Somalia",
+      "actors": [
+        "@agtprpnabsrdty"
+      ],
+      "keywords": [
+        "US-Iran missile exchanges",
+        "Strait of Hormuz",
+        "Gulf conflict"
+      ]
+    },
+    {
+      "claim": "Khamenei's funeral drew tens of millions.",
+      "country": "Somalia",
+      "actors": [
+        "@agtprpnabsrdty"
+      ],
+      "keywords": [
+        "Khamenei funeral"
+      ]
+    },
+    {
+      "claim": "The 'empire' (US/Israel) has suffered 13 dead soldiers and depleted Patriot stockpiles.",
+      "country": "Somalia",
+      "actors": [
+        "@agtprpnabsrdty"
+      ],
+      "keywords": [
+        "USrael",
+        "Patriot stockpiles",
+        "military losses"
+      ]
+    },
+    {
+      "claim": "The FBI is hunting for millions of Minnesota fraud funds hidden in Nairobi's Kileleshwa highrises, Eastleigh malls, and ghost property empires.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "FBI",
+        "Minnesota fraud",
+        "Kileleshwa",
+        "Eastleigh",
+        "Nairobi"
+      ]
+    },
+    {
+      "claim": "A suspect has been arrested for wiring stolen Medicaid funds to a Gatundu Road apartment in Nairobi.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "Medicaid fraud",
+        "Gatundu Road",
+        "Nairobi"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Kileleshwa",
+      "country": "Kenya",
+      "reason": "Specific Nairobi location mentioned in fraud claims."
+    },
+    {
+      "keyword": "Eastleigh",
+      "country": "Kenya",
+      "reason": "Specific Nairobi location mentioned in fraud claims."
+    },
+    {
+      "keyword": "Gatundu Road",
+      "country": "Kenya",
+      "reason": "Specific Nairobi location mentioned in fraud claims."
+    },
+    {
+      "keyword": "Abu Muhammad al Furqan",
+      "country": "Regional",
+      "reason": "Specific individual mentioned in extremist narratives."
+    },
+    {
+      "keyword": "IS Sinai",
+      "country": "Regional",
+      "reason": "Specific extremist group mentioned in narratives."
+    },
+    {
+      "keyword": "Dawla",
+      "country": "Regional",
+      "reason": "Alternative term for ISIS used in narratives."
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual accused of spreading propaganda."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific media outlet mentioned in propaganda claims."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific regional counter-terrorism efforts being targeted by disinformation."
+    },
+    {
+      "keyword": "Strait of Hormuz",
+      "country": "Regional",
+      "reason": "Specific geopolitical flashpoint mentioned in conflict narratives."
+    },
+    {
+      "keyword": "Khamenei funeral",
+      "country": "Regional",
+      "reason": "Specific event mentioned in geopolitical narratives."
+    },
+    {
+      "keyword": "USrael",
+      "country": "Regional",
+      "reason": "Portmanteau used in anti-US/Israel narratives."
+    },
+    {
+      "keyword": "Kileleshwa",
+      "country": "Kenya",
+      "reason": "Specific Nairobi location mentioned in fraud claims."
+    },
+    {
+      "keyword": "Eastleigh",
+      "country": "Kenya",
+      "reason": "Specific Nairobi location mentioned in fraud claims."
+    },
+    {
+      "keyword": "Gatundu Road",
+      "country": "Kenya",
+      "reason": "Specific Nairobi location mentioned in fraud claims."
+    }
+  ],
+  "events_reviewed": 5,
+  "events_reclassified": 0
+}

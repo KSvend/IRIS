@@ -30605,6 +30605,7 @@
       "APF-2026-05-20-778",
       "APF-2026-05-25-725",
       "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -33521,6 +33522,7 @@
       "APF-2026-03-30-195",
       "APF-2026-05-25-725",
       "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -34359,6 +34361,7 @@
       "APF-2026-03-30-195",
       "APF-2026-05-20-778",
       "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -35739,7 +35742,7 @@
     "disinfo_subtype": "misinformation",
     "threat_level": "P2 HIGH",
     "headline": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property",
-    "summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "summary": "Posts from @InsideKeOnline claim the FBI is actively searching Nairobi for millions of dollars from Minnesota fraud schemes, allegedly hidden in Kileleshwa, Eastleigh, and other properties. The posts also assert that a suspect has been arrested for wiring stolen Medicaid funds to a Gatundu Road apartment. These claims, amplified across multiple near-identical posts, could fuel public distrust regarding financial integrity and international law enforcement operations in Kenya.",
     "actors": [
       "@InsideKeOnline"
     ],
@@ -35807,7 +35810,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "extracted_claims": [
+      "The FBI is hunting for millions of Minnesota fraud funds hidden in Nairobi's Kileleshwa highrises, Eastleigh malls, and ghost property empires.",
+      "A suspect has been arrested for wiring stolen Medicaid funds to a Gatundu Road apartment in Nairobi."
+    ],
+    "_review_notes": "This event highlights a specific financial fraud narrative targeting Kenya, potentially impacting public perception of corruption and international investigations.",
+    "_reviewed": "2026-06-04T11:47:11.840833+00:00"
   },
   {
     "id": "APF-2026-06-02-722",
@@ -35817,7 +35827,7 @@
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
     "headline": "Abu Muhammad al Furqan of IS Central ordered IS Sinai to halt their tactical cooperation w Hamas and declare war. Hamas",
-    "summary": "Abu Muhammad al Furqan of IS Central ordered IS Sinai to halt their tactical cooperation w Hamas and declare war. Hamas began fighting only when Dawla opened the front.",
+    "summary": "A post from @RashmanTheHorse claims that Abu Muhammad al Furqan of IS Central commanded IS Sinai to cease cooperation with Hamas and initiate conflict, further asserting that Hamas only engaged in fighting after ISIS (Dawla) opened a front. This narrative attempts to reframe the relationship between extremist groups, potentially influencing perceptions of their alliances and origins of conflict.",
     "actors": [
       "@RashmanTheHorse"
     ],
@@ -35884,7 +35894,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_summary": "Abu Muhammad al Furqan of IS Central ordered IS Sinai to halt their tactical cooperation w Hamas and declare war. Hamas began fighting only when Dawla opened the front.",
+    "extracted_claims": [
+      "Abu Muhammad al Furqan of IS Central ordered IS Sinai to halt tactical cooperation with Hamas and declare war.",
+      "Hamas began fighting only when Dawla (ISIS) opened the front."
+    ],
+    "_review_notes": "This event propagates a narrative attempting to redefine the operational dynamics and historical conflicts between various extremist groups, which could be used to sow confusion or justify certain actions.",
+    "_reviewed": "2026-06-04T11:47:11.840851+00:00"
   },
   {
     "id": "APF-2026-06-02-503",
@@ -35894,7 +35911,7 @@
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
     "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
+    "summary": "Multiple accounts, including @AbouzgidenAli, @CirkaNews, and @R47910409, are promoting claims that pro-Turkish analysts, particularly Umut Çağrı Sarı, are disseminating ISIS propaganda. This propaganda allegedly involves narratives that undermine Puntland's counter-terrorism operations. The coordinated amplification of these posts suggests an effort to discredit specific analysts and influence perceptions of regional security efforts.",
     "actors": [
       "@AbouzgidenAli",
       "@CirkaNews",
@@ -35963,7 +35980,13 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
+    "extracted_claims": [
+      "Pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda by pushing narratives that portray Puntland's counter-terrorism efforts negatively."
+    ],
+    "_review_notes": "This event involves a coordinated effort to discredit individuals and potentially undermine counter-terrorism efforts by associating them with ISIS propaganda, highlighting geopolitical tensions and information warfare.",
+    "_reviewed": "2026-06-04T11:47:11.840865+00:00"
   },
   {
     "id": "APF-2026-06-03-947",
@@ -35973,7 +35996,7 @@
     "disinfo_subtype": "propaganda",
     "threat_level": "P3 MODERATE",
     "headline": "USrael's Global Imperial Aggression recap 26-06-03 The Gulf erupts as US-Iran missile exchanges close the Strait of",
-    "summary": "USrael's Global Imperial Aggression recap 26-06-03 The Gulf erupts as US-Iran missile exchanges close the Strait of Hormuz, Khamenei's funeral draws tens of millions, and the empire's arithmetic of 13 dead soldiers and depleted Patriot stockpiles is .",
+    "summary": "A post from @agtprpnabsrdty propagates claims of escalating global conflict, asserting that the Gulf is experiencing US-Iran missile exchanges leading to the closure of the Strait of Hormuz. It also falsely claims that Khamenei's funeral attracted tens of millions and that the 'USrael' empire has suffered significant military losses, including 13 dead soldiers and depleted Patriot stockpiles. This narrative aims to exaggerate geopolitical tensions and portray Western powers as weakened.",
     "actors": [
       "@agtprpnabsrdty"
     ],
@@ -36040,7 +36063,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_summary": "USrael's Global Imperial Aggression recap 26-06-03 The Gulf erupts as US-Iran missile exchanges close the Strait of Hormuz, Khamenei's funeral draws tens of millions, and the empire's arithmetic of 13 dead soldiers and depleted Patriot stockpiles is .",
+    "extracted_claims": [
+      "The Gulf is erupting with US-Iran missile exchanges, leading to the closure of the Strait of Hormuz.",
+      "Khamenei's funeral drew tens of millions.",
+      "The 'empire' (US/Israel) has suffered 13 dead soldiers and depleted Patriot stockpiles."
+    ],
+    "_review_notes": "This event spreads highly inflammatory and false claims about international conflicts and military capabilities, potentially fueling anti-Western sentiment and misinforming the public about global stability.",
+    "_reviewed": "2026-06-04T11:47:11.840870+00:00"
   },
   {
     "id": "APF-2026-06-03-846",
@@ -36050,7 +36081,7 @@
     "disinfo_subtype": "misinformation",
     "threat_level": "P2 HIGH",
     "headline": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property",
-    "summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "summary": "Posts from @InsideKeOnline claim the FBI is actively searching Nairobi for millions of dollars from Minnesota fraud schemes, allegedly hidden in Kileleshwa, Eastleigh, and other properties. The posts also assert that a suspect has been arrested for wiring stolen Medicaid funds to a Gatundu Road apartment. These claims, amplified across multiple near-identical posts, could fuel public distrust regarding financial integrity and international law enforcement operations in Kenya.",
     "actors": [
       "@InsideKeOnline"
     ],
@@ -36118,7 +36149,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "extracted_claims": [
+      "The FBI is hunting for millions of Minnesota fraud funds hidden in Nairobi's Kileleshwa highrises, Eastleigh malls, and ghost property empires.",
+      "A suspect has been arrested for wiring stolen Medicaid funds to a Gatundu Road apartment in Nairobi."
+    ],
+    "_review_notes": "This event is a duplicate of event [0], propagating the same financial fraud narrative targeting Kenya. The repetition suggests a sustained effort to spread these claims.",
+    "_reviewed": "2026-06-04T11:47:11.840874+00:00"
   },
   {
     "id": "APF-2026-06-03-842",
@@ -36243,6 +36281,7 @@
       "APF-2026-03-30-195",
       "APF-2026-05-20-778",
       "APF-2026-05-25-725",
+      "APF-2026-06-04-121",
       "SSD-2026-002",
       "SSD-2026-020"
     ],
@@ -36294,5 +36333,233 @@
     ],
     "_review_notes": "This is a classic example of fabricated breaking news designed to create alarm or misinform about ongoing conflict. Given the fragility of the context in South Sudan and the potential for real-world impact, the threat level should be elevated.",
     "_reviewed": "2026-06-03T13:11:04.063497+00:00"
+  },
+  {
+    "id": "APF-2026-06-04-030",
+    "date": "2026-06-04",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-06-04"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-21-385",
+      "APF-2026-05-28-195",
+      "APF-2026-05-30-172",
+      "APF-2026-05-31-938",
+      "APF-2026-06-01-040",
+      "APF-2026-06-02-503"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-04",
+    "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
+    "last_seen": "2026-06-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-04",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-04-121",
+    "date": "2026-06-04",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "low IQ? 50 years ago ? Your the retard ,cazzo. Aren't you a little old to play Brigada Rossa ? 50 years ago Noam",
+    "summary": "low IQ? 50 years ago ? Your the retard ,cazzo. Aren't you a little old to play Brigada Rossa ? 50 years ago Noam Chomsky defended the Khmer Rouge while they were killing 25% of Cambodia's population. When the Khmer Rouge took Cambodia, Chomsky didn't.",
+    "actors": [
+      "@Amadeo3799600"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Amadeo3799600/status/2062500073565471218",
+        "date": "2026-06-04"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-005",
+      "NAR-SS-001"
+    ],
+    "related_events": [
+      "APF-2026-03-30-195",
+      "APF-2026-05-20-778",
+      "APF-2026-05-25-725",
+      "APF-2026-06-03-738",
+      "SSD-2026-002",
+      "SSD-2026-020"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-04",
+    "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
+    "last_seen": "2026-06-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-04",
+        "url": "https://x.com/Amadeo3799600/status/2062500073565471218",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-04-007",
+    "date": "2026-06-04",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-04"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-05-29-335",
+      "EXT-2025-013",
+      "EXT-2025-026",
+      "EXT-2026-005",
+      "EXT-2026-008",
+      "EXT-ENRICH-CROSS-001"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-04",
+    "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
+    "last_seen": "2026-06-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-04",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]

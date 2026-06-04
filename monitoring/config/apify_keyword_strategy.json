@@ -843,6 +843,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "abu muhammad al furqan",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific individual mentioned in extremist narratives.",
+          "date_added": "2026-06-04",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "is sinai",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific extremist group mentioned in narratives.",
+          "date_added": "2026-06-04",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
