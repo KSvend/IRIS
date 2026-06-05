@@ -863,6 +863,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "fahad yasin",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Key political figure often subject to or source of narratives.",
+          "date_added": "2026-06-05",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "liban",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Potential actor/analyst mentioned in the headline.",
+          "date_added": "2026-06-05",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "victimhood narrative",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Common disinformation tactic or framing.",
+          "date_added": "2026-06-05",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

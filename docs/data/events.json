@@ -29709,7 +29709,8 @@
       "@AhsanJunaidAJ",
       "@dogdoc1996",
       "@jakeki749",
-      "@slayerofbigotry"
+      "@slayerofbigotry",
+      "@Gabfc987"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29789,6 +29790,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/slayerofbigotry/status/2061034120164122796",
         "date": "2026-05-31"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Gabfc987/status/2062864298490122512",
+        "date": "2026-06-05"
       }
     ],
     "spread": 5,
@@ -29837,7 +29843,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-06-05",
     "status": "active",
     "observations": [
       {
@@ -29974,9 +29980,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-05",
+        "url": "https://x.com/Gabfc987/status/2062864298490122512",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 15,
+    "observation_count": 16,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29985,6 +30000,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -30156,7 +30172,8 @@
       "@NytoP2PMwangi",
       "@BeautyKipusa",
       "@IanWangah",
-      "@mkufuuu"
+      "@mkufuuu",
+      "@le_ngatia"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30251,6 +30268,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/wayneMbanda/status/2062145197614444888",
         "date": "2026-06-03"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/le_ngatia/status/2062812833658683437",
+        "date": "2026-06-05"
       }
     ],
     "spread": 5,
@@ -30294,7 +30316,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-03",
+    "last_seen": "2026-06-05",
     "status": "active",
     "observations": [
       {
@@ -30458,9 +30480,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-05",
+        "url": "https://x.com/le_ngatia/status/2062812833658683437",
+        "summary": "This lady has a point! BBS Mall in Eastleigh, Nairobi Kenya, might be the biggest in East and Central Africa, but it is",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 18,
+    "observation_count": 19,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30469,6 +30500,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -36561,5 +36593,228 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-05-837",
+    "date": "2026-06-05",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "You are 100% correct. All Americans came within the 2016 elections of being all called deplorables and ruled over by an",
+    "summary": "You are 100% correct. All Americans came within the 2016 elections of being all called deplorables and ruled over by an Authoritarian Dictatorship. Ran by Hillary Clinton, George and Alex Soros. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@roadtrips17"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/roadtrips17/status/2062866713398665599",
+        "date": "2026-06-05"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-05-17-149",
+      "APF-2026-05-18-124",
+      "APF-2026-05-22-618",
+      "APF-2026-05-30-681",
+      "APF-2026-05-31-053"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-05",
+    "detection_timestamp": "2026-06-05T12:02:05.701711+00:00",
+    "last_seen": "2026-06-05",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-05",
+        "url": "https://x.com/roadtrips17/status/2062866713398665599",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-05-794",
+    "date": "2026-06-05",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property",
+    "summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. With at least one suspect already arrested after wiring stolen Medicaid funds to a Gatundu Road apartment, federal agents . 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "date": "2026-06-05"
+      }
+    ],
+    "spread": 3,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-24-355",
+      "APF-2026-05-25-078",
+      "APF-2026-06-01-827",
+      "APF-2026-06-02-617",
+      "APF-2026-06-03-846"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-05",
+    "detection_timestamp": "2026-06-05T12:02:05.701711+00:00",
+    "last_seen": "2026-06-05",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-05",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-05-549",
+    "date": "2026-06-05",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Social media analysis critiques Fahad Yasin's interview as a 'crafted narrative of victimhood'",
+    "summary": "An analysis posted on X (Twitter) by user @foritssake critiques a recent interview by prominent Somali political figure Fahad Yasin. The analysis argues that Yasin's 'tell-all' account, his first public statement in years, appears to be a carefully constructed narrative of victimhood rather than a credible disclosure. This event highlights ongoing scrutiny of political figures' public statements and the use of social media to challenge their narratives.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-05"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-05-29-335",
+      "APF-2026-06-04-007",
+      "EXT-2025-020",
+      "EXT-ENRICH-CROSS-001",
+      "EXT-ENRICH-RU-001",
+      "EXT-ENRICH-RU-005"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-05",
+    "detection_timestamp": "2026-06-05T12:02:05.701711+00:00",
+    "last_seen": "2026-06-05",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-05",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview provides a credible 'tell-all' account of his past actions/experiences."
+    ],
+    "_review_notes": "This event demonstrates how social media is used to critically analyze and challenge narratives put forth by political figures, particularly when those narratives are perceived as self-serving or misleading. It's an analysis *about* a potentially misleading narrative, not the spread of disinformation itself.",
+    "_reviewed": "2026-06-05T12:04:22.166457+00:00"
   }
 ]

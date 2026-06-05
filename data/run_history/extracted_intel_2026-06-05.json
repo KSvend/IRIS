@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-05",
+  "extracted_claims": [
+    {
+      "claim": "Fahad Yasin's recent interview provides a credible 'tell-all' account of his past actions/experiences.",
+      "country": "Somalia",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "interview",
+        "tell-all"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Fahad Yasin",
+      "country": "Somalia",
+      "reason": "Key political figure often subject to or source of narratives."
+    },
+    {
+      "keyword": "Liban",
+      "country": "Somalia",
+      "reason": "Potential actor/analyst mentioned in the headline."
+    },
+    {
+      "keyword": "victimhood narrative",
+      "country": "Regional",
+      "reason": "Common disinformation tactic or framing."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}
