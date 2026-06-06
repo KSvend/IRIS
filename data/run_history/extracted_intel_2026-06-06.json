@@ -1,0 +1,122 @@
+{
+  "date": "2026-06-06",
+  "extracted_claims": [
+    {
+      "claim": "The FBI is actively hunting for millions of dollars from Minnesota fraud schemes hidden in Kileleshwa highrises, Eastleigh malls, and 'ghost property' empires in Nairobi.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "FBI",
+        "Minnesota fraud",
+        "Kileleshwa",
+        "Eastleigh",
+        "Nairobi"
+      ]
+    },
+    {
+      "claim": "A suspect has been arrested for wiring stolen Medicaid funds to a Gatundu Road apartment in Nairobi.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "Medicaid fraud",
+        "Gatundu Road",
+        "arrest"
+      ]
+    },
+    {
+      "claim": "Bots have fabricated audio of a Somali Minister.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "minister",
+        "Somalia"
+      ]
+    },
+    {
+      "claim": "Bots have doctored a statement from Puntland's President.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Bots have lied about troops setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "roadblocks",
+        "troops",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Bots are spreading lies about an unspecified port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "port",
+        "Puntland"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Kileleshwa",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the false claim, relevant for geographic targeting."
+    },
+    {
+      "keyword": "Eastleigh",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the false claim, relevant for geographic targeting."
+    },
+    {
+      "keyword": "Medicaid fraud Kenya",
+      "country": "Kenya",
+      "reason": "Specific type of fraud falsely linked to Kenya, useful for tracking similar narratives."
+    },
+    {
+      "keyword": "Gatundu Road",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the false claim, relevant for geographic targeting."
+    },
+    {
+      "keyword": "Puntland disinformation",
+      "country": "Somalia",
+      "reason": "General term to capture disinformation targeting the Puntland region."
+    },
+    {
+      "keyword": "fabricated audio Somalia",
+      "country": "Somalia",
+      "reason": "Specific method of disinformation, useful for tracking similar tactics."
+    },
+    {
+      "keyword": "doctored statement Puntland",
+      "country": "Somalia",
+      "reason": "Specific method of disinformation, useful for tracking similar tactics."
+    },
+    {
+      "keyword": "Puntland roadblocks",
+      "country": "Somalia",
+      "reason": "Specific false claim, useful for tracking related narratives."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 0
+}

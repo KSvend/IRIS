@@ -893,6 +893,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "medicaid fraud kenya",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific type of fraud falsely linked to Kenya, useful for tracking similar narratives.",
+          "date_added": "2026-06-06",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland disinformation",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "General term to capture disinformation targeting the Puntland region.",
+          "date_added": "2026-06-06",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
