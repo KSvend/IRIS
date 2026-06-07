@@ -36983,5 +36983,168 @@
     ],
     "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting Puntland, Somalia, using various tactics like audio fabrication and document doctoring, which could significantly impact political stability and public trust in the region.",
     "_reviewed": "2026-06-06T10:43:22.138984+00:00"
+  },
+  {
+    "id": "APF-2026-06-07-223",
+    "date": "2026-06-07",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property",
+    "summary": "An account on X (Twitter), @InsideKeOnline, is spreading claims that the FBI is actively searching Nairobi for millions of dollars from Minnesota fraud schemes, allegedly hidden in high-value properties in Kileleshwa and Eastleigh. The posts also include unrelated trending keywords like 'Arsenal' and 'Gor Mahia,' likely used as engagement bait to amplify reach.",
+    "actors": [
+      "@InsideKeOnline"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "date": "2026-06-07"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-06-01-827",
+      "APF-2026-06-02-617",
+      "APF-2026-06-03-846",
+      "APF-2026-06-05-794",
+      "APF-2026-06-06-750"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: minnesota fraud. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-07",
+    "detection_timestamp": "2026-06-07T10:50:55.510306+00:00",
+    "last_seen": "2026-06-07",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-07",
+        "url": "https://x.com/InsideKeOnline/status/2061759942957158652",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "FBI Opens Nairobi Hunt for Minnesota Fraud Millions Hidden in Kileleshwa Highrises, Eastleigh Malls and Ghost Property Empires. Arsenal || CCTV || Gor Mahia || Sportpesa. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "The FBI is conducting a hunt in Nairobi for millions of dollars from Minnesota fraud schemes, allegedly hidden in Kileleshwa highrises, Eastleigh malls, and ghost properties."
+    ],
+    "_review_notes": "This event involves a significant claim of international law enforcement action against financial fraud in Kenya, targeting specific high-value areas. The use of unrelated trending keywords as engagement bait is a common tactic to increase visibility for disinformation.",
+    "_reviewed": "2026-06-07T10:53:08.764577+00:00"
+  },
+  {
+    "id": "APF-2026-06-07-704",
+    "date": "2026-06-07",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Analysis critiques Fahad Yasin's interview as a 'carefully crafted narrative of victimhood'",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-07"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-05-29-335",
+      "APF-2026-06-04-007",
+      "APF-2026-06-05-549",
+      "EXT-2025-011",
+      "EXT-ENRICH-CROSS-001",
+      "EXT-ENRICH-RU-004"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-07",
+    "detection_timestamp": "2026-06-07T10:50:55.510306+00:00",
+    "last_seen": "2026-06-07",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-07",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview presents a 'carefully crafted narrative of victimhood' rather than credible information."
+    ],
+    "_review_notes": "This event is an analysis of a prominent Somali political figure's public statements, characterizing them as a strategic narrative rather than genuine disclosure. This highlights critical engagement with political messaging and potential strategic communication tactics.",
+    "_reviewed": "2026-06-07T10:53:08.764610+00:00"
   }
 ]

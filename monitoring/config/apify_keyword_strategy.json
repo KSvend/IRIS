@@ -913,6 +913,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "ghost property",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific term used to describe alleged hiding places.",
+          "date_added": "2026-06-07",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "insidekeonline",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Actor handle spreading the disinformation.",
+          "date_added": "2026-06-07",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

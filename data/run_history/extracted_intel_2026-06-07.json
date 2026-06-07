@@ -1,0 +1,77 @@
+{
+  "date": "2026-06-07",
+  "extracted_claims": [
+    {
+      "claim": "The FBI is conducting a hunt in Nairobi for millions of dollars from Minnesota fraud schemes, allegedly hidden in Kileleshwa highrises, Eastleigh malls, and ghost properties.",
+      "country": "Kenya",
+      "actors": [
+        "@InsideKeOnline"
+      ],
+      "keywords": [
+        "FBI",
+        "Minnesota fraud",
+        "Kileleshwa",
+        "Eastleigh",
+        "ghost property",
+        "Nairobi"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's recent interview presents a 'carefully crafted narrative of victimhood' rather than credible information.",
+      "country": "Somalia",
+      "actors": [
+        "Fahad Yasin",
+        "@foritssake"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "victimhood narrative",
+        "interview"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Minnesota fraud",
+      "country": "Kenya",
+      "reason": "Specific fraud scheme mentioned in the claim."
+    },
+    {
+      "keyword": "Kileleshwa",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the claim."
+    },
+    {
+      "keyword": "Eastleigh malls",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the claim."
+    },
+    {
+      "keyword": "Ghost property",
+      "country": "Kenya",
+      "reason": "Specific term used to describe alleged hiding places."
+    },
+    {
+      "keyword": "InsideKeOnline",
+      "country": "Kenya",
+      "reason": "Actor handle spreading the disinformation."
+    },
+    {
+      "keyword": "Fahad Yasin",
+      "country": "Somalia",
+      "reason": "Key political figure whose claims are being analyzed."
+    },
+    {
+      "keyword": "Liban",
+      "country": "Regional",
+      "reason": "Mentioned as the perspective of the analysis."
+    },
+    {
+      "keyword": "victimhood narrative",
+      "country": "Somalia",
+      "reason": "Specific framing used to describe Fahad Yasin's claims."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 1
+}
