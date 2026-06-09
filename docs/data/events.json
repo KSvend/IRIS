@@ -29802,6 +29802,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/EastAfricaGov/status/2063967562577141816",
         "date": "2026-06-08"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Mahamed81443729/status/1867443108524200399",
+        "date": "2026-06-09"
       }
     ],
     "spread": 5,
@@ -29850,7 +29855,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-08",
+    "last_seen": "2026-06-09",
     "status": "active",
     "observations": [
       {
@@ -30005,9 +30010,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-09",
+        "url": "https://x.com/Mahamed81443729/status/1867443108524200399",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 17,
+    "observation_count": 18,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30016,6 +30030,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -35229,7 +35244,14 @@
       "@hezwachira",
       "@cfranko7",
       "@Amazingmasai_",
-      "@kanairofinest"
+      "@kanairofinest",
+      "@TechTonicAi_",
+      "@favour_ke1",
+      "@recreatedd16",
+      "@_ItsMkisii",
+      "@DreamBoy254",
+      "@hosea606666",
+      "@TonyMkenya7"
     ],
     "platforms": [
       "X (Twitter)"
@@ -35244,6 +35266,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/ngetichkhillar1/status/1925643745350853021",
         "date": "2026-05-30"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-06-09"
       }
     ],
     "spread": 2,
@@ -35287,7 +35314,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-05-30",
     "detection_timestamp": "2026-05-30T10:33:29.826489+00:00",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-06-09",
     "status": "active",
     "observations": [
       {
@@ -35307,10 +35334,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-09",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#DogsOfWar: Why would a foreign foundation fund Kenyan activists to travel to Tanzania immediately after Gen Z protests rocked",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "intensity_trend": [
+      3,
       3
     ]
   },
@@ -37188,8 +37225,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Pro-Turkish analysts accused of echoing ISIS propaganda regarding Puntland's counter-terrorism efforts",
+    "summary": "A Turkish geopolitical commentator, Umut Çağrı Sarı, is accused of pushing narratives that align with ISIS propaganda regarding Puntland's counter-terrorism operations. The claims suggest similarities between Sarı's commentary and content from Manjaniq Media, a known ISIS-affiliated outlet. This narrative was observed across two posts on X (Twitter).",
     "actors": [
       "@CirkaNews"
     ],
@@ -37256,7 +37293,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Umut Çağrı Sarı, a Turkish geopolitical commentator, is echoing ISIS propaganda in his narratives about Puntland's counter-terrorism efforts."
+    ],
+    "_review_notes": "This event highlights the spread of narratives that potentially legitimize or align with extremist group propaganda, specifically concerning counter-terrorism operations in Puntland. The accusation against a geopolitical commentator suggests a sophisticated form of influence operation.",
+    "_reviewed": "2026-06-09T11:56:13.903191+00:00"
   },
   {
     "id": "APF-2026-06-08-250",
@@ -37265,8 +37309,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
-    "summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers left the PSF is also false, as they are using the old uniforms of former soldiers. Villa Garowe is clearly facing desperate times. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "headline": "Claims of a fabricated letter and false reports of 170 soldiers leaving Puntland Security Force (PSF)",
+    "summary": "Claims are circulating that a letter regarding the Puntland Security Force (PSF) is fake, fabricated by 'Team Deni' and 'Somali Digest'. Additionally, the claim that 170 soldiers have left the PSF is asserted to be false, with old uniforms being used to create a misleading impression. These claims suggest desperation from 'Villa Garowe'. Observed across two posts from two accounts on X (Twitter).",
     "actors": [
       "@RuqiaBotan",
       "@R47910409"
@@ -37340,7 +37384,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
+    "_original_summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers left the PSF is also false, as they are using the old uniforms of former soldiers. Villa Garowe is clearly facing desperate times. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "extracted_claims": [
+      "A letter concerning the Puntland Security Force (PSF) is fake and fabricated by 'Team Deni' and 'Somali Digest'.",
+      "The claim that 170 soldiers have left the PSF is false, and old uniforms are being used to create this impression."
+    ],
+    "_review_notes": "This event highlights political disinformation tactics in Somalia, specifically targeting the Puntland Security Force and political figures. The use of 'fabricated letters' and 'bogus news outlets' indicates a deliberate attempt to undermine trust and spread false narratives.",
+    "_reviewed": "2026-06-09T11:56:13.903217+00:00"
   },
   {
     "id": "APF-2026-06-08-774",
@@ -37349,8 +37401,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "deepfake",
     "threat_level": "P3 MODERATE",
-    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
-    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "headline": "Bots fabricating audio of a Minister, doctoring President's statements, and spreading lies about troops and Bosaso Port in Puntland",
+    "summary": "Over the past two weeks, bots have been actively spreading multiple false claims in Puntland. These include fabricating audio of a Minister, doctoring a statement from Puntland's President, falsely reporting about troops setting up roadblocks, and spreading lies about Bosaso Port. These coordinated disinformation efforts were observed on X (Twitter) via the account @PuntJubNews.",
     "actors": [
       "@PuntJubNews"
     ],
@@ -37412,6 +37464,176 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Bots have fabricated audio of a Minister in Puntland.",
+      "Bots have doctored a statement from Puntland's President.",
+      "Bots have spread lies about troops setting up roadblocks in Puntland.",
+      "Bots are spreading lies about Bosaso Port in Puntland."
+    ],
+    "_review_notes": "This event indicates a multi-pronged and potentially coordinated disinformation campaign using bots to target various aspects of governance and security in Puntland, including high-ranking officials and critical infrastructure. The variety of tactics (audio, statements, troop movements, port) suggests a broad effort to sow confusion and distrust.",
+    "_reviewed": "2026-06-09T11:56:13.903223+00:00"
+  },
+  {
+    "id": "APF-2026-06-09-042",
+    "date": "2026-06-09",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims that journalists have perpetuated lies against a man and his family for 10 years",
+    "summary": "A user on X (Twitter) is claiming that journalists have consistently perpetuated lies against an unnamed man and his family for a decade, both on and off screen. This narrative suggests a long-standing campaign of misinformation by the media against a specific individual. Observed across two posts from one account (@nickisnest).",
+    "actors": [
+      "@nickisnest"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/nickisnest/status/2064314195651211276",
+        "date": "2026-06-09"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-05-17-149",
+      "APF-2026-05-18-124",
+      "APF-2026-05-30-681",
+      "APF-2026-05-31-053",
+      "APF-2026-06-05-837"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-09",
+    "detection_timestamp": "2026-06-09T11:54:04.886443+00:00",
+    "last_seen": "2026-06-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-09",
+        "url": "https://x.com/nickisnest/status/2064314195651211276",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "You know what I’ve been thinking about MARIA, what people like you have put this man and his family through for 10",
+    "_original_summary": "You know what I’ve been thinking about MARIA, what people like you have put this man and his family through for 10 YEARS! Those people you call JOURNALISTS have perpetuated LIES against this man and his family ON AND OFF SCREENS for the country and t. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Journalists have perpetuated lies against an unnamed man and his family for 10 years, both on and off screen."
+    ],
+    "_review_notes": "This event highlights a narrative that undermines trust in journalism and media institutions in Kenya, by accusing them of a decade-long campaign of lies against an individual and their family. Such claims can contribute to a polarized information environment and erode public confidence in legitimate news sources.",
+    "_reviewed": "2026-06-09T11:56:13.903227+00:00"
+  },
+  {
+    "id": "APF-2026-06-09-533",
+    "date": "2026-06-09",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims denying Rothschild family's involvement in Israel's formation, central banks, and Epstein's financing",
+    "summary": "A user on X (Twitter) is denying several conspiracy theories related to the Rothschild family. Specifically, the claims refute that the Rothschilds had anything to do with the formation of the state of Israel, own most of the world's central banks, or bankrolled Jeffrey Epstein. This post appears to be a sarcastic or ironic denial of these common antisemitic conspiracy theories. Observed across two posts from one account (@PODUS69).",
+    "actors": [
+      "@PODUS69"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PODUS69/status/2064312811971326169",
+        "date": "2026-06-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-005",
+      "NAR-SS-002"
+    ],
+    "related_events": [
+      "APF-2026-03-30-195",
+      "APF-2026-05-20-778",
+      "APF-2026-05-25-725",
+      "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
+      "SSD-2026-002"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-09",
+    "detection_timestamp": "2026-06-09T11:54:04.886443+00:00",
+    "last_seen": "2026-06-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-09",
+        "url": "https://x.com/PODUS69/status/2064312811971326169",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Yeah, because I've defended genocide in the past that was committed by other nations. Also, the Rothschilds had nothing",
+    "_original_summary": "Yeah, because I've defended genocide in the past that was committed by other nations. Also, the Rothschilds had nothing to do with the formation of the state of Israel, do not own most of the world's central banks, and did not bankroll Epstein. There.",
+    "extracted_claims": [
+      "The Rothschilds had nothing to do with the formation of the state of Israel.",
+      "The Rothschilds do not own most of the world's central banks.",
+      "The Rothschilds did not bankroll Jeffrey Epstein."
+    ],
+    "_review_notes": "This event, while framed as a denial, highlights the presence and discussion of prominent antisemitic conspiracy theories involving the Rothschild family. Even in denial, the repetition of these claims can inadvertently amplify them. The 'defended genocide' comment also suggests a problematic context for the user's overall discourse.",
+    "_reviewed": "2026-06-09T11:56:13.903231+00:00"
   }
 ]

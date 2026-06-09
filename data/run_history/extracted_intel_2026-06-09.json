@@ -1,0 +1,216 @@
+{
+  "date": "2026-06-09",
+  "extracted_claims": [
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131, a Turkish geopolitical commentator, is echoing ISIS propaganda in his narratives about Puntland's counter-terrorism efforts.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media"
+      ],
+      "keywords": [
+        "Puntland",
+        "counter-terrorism",
+        "ISIS propaganda",
+        "Turkish analysts"
+      ]
+    },
+    {
+      "claim": "A letter concerning the Puntland Security Force (PSF) is fake and fabricated by 'Team Deni' and 'Somali Digest'.",
+      "country": "Somalia",
+      "actors": [
+        "Team Deni",
+        "Somali Digest"
+      ],
+      "keywords": [
+        "Puntland Security Force",
+        "PSF",
+        "fabricated letter",
+        "Team Deni",
+        "Somali Digest"
+      ]
+    },
+    {
+      "claim": "The claim that 170 soldiers have left the PSF is false, and old uniforms are being used to create this impression.",
+      "country": "Somalia",
+      "actors": [
+        "Team Deni",
+        "Somali Digest"
+      ],
+      "keywords": [
+        "Puntland Security Force",
+        "PSF",
+        "soldiers leaving",
+        "false claims"
+      ]
+    },
+    {
+      "claim": "Bots have fabricated audio of a Minister in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "Puntland Minister",
+        "bots"
+      ]
+    },
+    {
+      "claim": "Bots have doctored a statement from Puntland's President.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President",
+        "bots"
+      ]
+    },
+    {
+      "claim": "Bots have spread lies about troops setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "troops roadblocks",
+        "Puntland",
+        "false reports",
+        "bots"
+      ]
+    },
+    {
+      "claim": "Bots are spreading lies about Bosaso Port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Bosaso Port",
+        "Puntland",
+        "false claims",
+        "bots"
+      ]
+    },
+    {
+      "claim": "Journalists have perpetuated lies against an unnamed man and his family for 10 years, both on and off screen.",
+      "country": "Kenya",
+      "actors": [
+        "journalists",
+        "@nickisnest"
+      ],
+      "keywords": [
+        "journalists",
+        "lies",
+        "media misinformation",
+        "family"
+      ]
+    },
+    {
+      "claim": "The Rothschilds had nothing to do with the formation of the state of Israel.",
+      "country": "Regional",
+      "actors": [
+        "@PODUS69"
+      ],
+      "keywords": [
+        "Rothschild",
+        "Israel",
+        "conspiracy theory"
+      ]
+    },
+    {
+      "claim": "The Rothschilds do not own most of the world's central banks.",
+      "country": "Regional",
+      "actors": [
+        "@PODUS69"
+      ],
+      "keywords": [
+        "Rothschild",
+        "central banks",
+        "conspiracy theory"
+      ]
+    },
+    {
+      "claim": "The Rothschilds did not bankroll Jeffrey Epstein.",
+      "country": "Regional",
+      "actors": [
+        "@PODUS69"
+      ],
+      "keywords": [
+        "Rothschild",
+        "Jeffrey Epstein",
+        "conspiracy theory"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific actor/commentator involved in disinformation."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific media outlet identified as ISIS-affiliated."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific topic of disinformation."
+    },
+    {
+      "keyword": "Team Deni",
+      "country": "Somalia",
+      "reason": "Specific actor/group accused of fabrication."
+    },
+    {
+      "keyword": "Somali Digest",
+      "country": "Somalia",
+      "reason": "Specific 'news' outlet accused of spreading false information."
+    },
+    {
+      "keyword": "Puntland Security Force",
+      "country": "Somalia",
+      "reason": "Key institution targeted by disinformation."
+    },
+    {
+      "keyword": "Bosaso Port",
+      "country": "Somalia",
+      "reason": "Specific critical infrastructure targeted by disinformation."
+    },
+    {
+      "keyword": "Puntland Minister",
+      "country": "Somalia",
+      "reason": "Specific official targeted by disinformation."
+    },
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific official targeted by disinformation."
+    },
+    {
+      "keyword": "media misinformation Kenya",
+      "country": "Kenya",
+      "reason": "Broader term for disinformation targeting media credibility."
+    },
+    {
+      "keyword": "Rothschild conspiracy",
+      "country": "Regional",
+      "reason": "Specific conspiracy theory often linked to antisemitism."
+    },
+    {
+      "keyword": "Jeffrey Epstein conspiracy",
+      "country": "Regional",
+      "reason": "Specific conspiracy theory often linked to antisemitism."
+    }
+  ],
+  "events_reviewed": 5,
+  "events_reclassified": 0
+}

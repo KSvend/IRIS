@@ -933,6 +933,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "team deni",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific actor/group accused of fabrication.",
+          "date_added": "2026-06-09",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "somali digest",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific 'news' outlet accused of spreading false information.",
+          "date_added": "2026-06-09",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
