@@ -37635,5 +37635,90 @@
     ],
     "_review_notes": "This event, while framed as a denial, highlights the presence and discussion of prominent antisemitic conspiracy theories involving the Rothschild family. Even in denial, the repetition of these claims can inadvertently amplify them. The 'defended genocide' comment also suggests a problematic context for the user's overall discourse.",
     "_reviewed": "2026-06-09T11:56:13.903231+00:00"
+  },
+  {
+    "id": "APF-2026-06-10-300",
+    "date": "2026-06-10",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Report by @CirkaNews highlights alleged similarities between pro-Turkish analyst's narratives and ISIS propaganda concerning Puntland's counterterrorism",
+    "summary": "A report from @CirkaNews on X (Twitter) highlights alleged striking similarities between the narratives promoted by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda, specifically concerning Puntland's counterterrorism efforts. The analysis suggests Sarı is pushing narratives that align with extremist messaging, observed across two posts.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-06-10"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-28-195",
+      "APF-2026-05-30-172",
+      "APF-2026-06-02-503",
+      "APF-2026-06-03-842",
+      "APF-2026-06-04-030",
+      "APF-2026-06-08-515"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-10",
+    "detection_timestamp": "2026-06-10T12:06:23.332963+00:00",
+    "last_seen": "2026-06-10",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-10",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Umut Çağrı Sarı's narratives regarding Puntland's counterterrorism efforts echo or are similar to ISIS propaganda."
+    ],
+    "_review_notes": "This event reports on an analysis linking a specific geopolitical commentator's narratives to ISIS propaganda concerning Puntland, Somalia. This highlights potential foreign influence operations or the spread of extremist narratives, warranting close monitoring.",
+    "_reviewed": "2026-06-10T12:08:44.195322+00:00"
   }
 ]

@@ -953,6 +953,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "puntland counterterrorism",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific subject of the narratives.",
+          "date_added": "2026-06-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "turkish analyst",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Describes the actor's origin and profession.",
+          "date_added": "2026-06-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "isis propaganda somalia",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific type of propaganda and its regional relevance.",
+          "date_added": "2026-06-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
