@@ -1,0 +1,96 @@
+{
+  "date": "2026-06-11",
+  "extracted_claims": [
+    {
+      "claim": "Fabricated audio of a Somali Minister is circulating.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "Somali Minister"
+      ]
+    },
+    {
+      "claim": "A doctored statement from Puntland's President has been spread.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "False information is being spread about a port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "port",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's narrative of victimhood presented in his recent interview.",
+      "country": "Regional",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "victimhood",
+        "interview"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation."
+    },
+    {
+      "keyword": "Puntland port",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation."
+    },
+    {
+      "keyword": "PuntJubNews",
+      "country": "Somalia",
+      "reason": "Identified actor spreading disinformation."
+    },
+    {
+      "keyword": "Fahad Yasin",
+      "country": "Regional",
+      "reason": "Prominent figure whose claims are being analyzed."
+    },
+    {
+      "keyword": "Liban's Perspective",
+      "country": "Regional",
+      "reason": "Specific source/actor of the analysis."
+    },
+    {
+      "keyword": "victimhood narrative",
+      "country": "Regional",
+      "reason": "Key theme of the claims being critiqued."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 1
+}

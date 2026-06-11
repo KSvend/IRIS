@@ -37720,5 +37720,167 @@
     ],
     "_review_notes": "This event reports on an analysis linking a specific geopolitical commentator's narratives to ISIS propaganda concerning Puntland, Somalia. This highlights potential foreign influence operations or the spread of extremist narratives, warranting close monitoring.",
     "_reviewed": "2026-06-10T12:08:44.195322+00:00"
+  },
+  {
+    "id": "APF-2026-06-11-584",
+    "date": "2026-06-11",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims of fabricated audio of a Somali Minister, doctored Puntland President statement, and troop roadblocks spread on X",
+    "summary": "Over the past two weeks, accounts on X (formerly Twitter), including @PuntJubNews, have disseminated multiple false claims targeting Puntland. These include fabricated audio of a Somali Minister, a doctored statement attributed to the Puntland President, and false reports of troops setting up roadblocks. More recently, disinformation has emerged regarding a port in Puntland, potentially aiming to destabilize regional perceptions and erode public trust.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-06-11"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-03-18-537",
+      "APF-2026-04-23-320",
+      "APF-2026-04-25-495",
+      "APF-2026-05-27-959",
+      "APF-2026-06-06-095",
+      "APF-2026-06-08-774"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-11",
+    "detection_timestamp": "2026-06-11T12:39:26.559653+00:00",
+    "last_seen": "2026-06-11",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-11",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Fabricated audio of a Somali Minister is circulating.",
+      "A doctored statement from Puntland's President has been spread.",
+      "Troops are setting up roadblocks in Puntland.",
+      "False information is being spread about a port in Puntland."
+    ],
+    "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting political figures, security, and infrastructure in Puntland, indicating a coordinated effort to sow discord and undermine stability.",
+    "_reviewed": "2026-06-11T12:41:39.163431+00:00"
+  },
+  {
+    "id": "APF-2026-06-11-013",
+    "date": "2026-06-11",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Analysis critiques Fahad Yasin's recent interview claims on X",
+    "summary": "An analysis posted on X by @foritssake, from 'Liban’s Perspective,' critically examines Fahad Yasin’s recent interview. The analysis suggests that Yasin's 'tell-all' interview, breaking years of silence, presents a narrative of victimhood rather than credible information, implying his statements may be misleading or self-serving.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-11"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-05-29-335",
+      "APF-2026-06-04-007",
+      "APF-2026-06-05-549",
+      "APF-2026-06-07-704",
+      "EXT-2026-008",
+      "EXT-ENRICH-CROSS-001"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-11",
+    "detection_timestamp": "2026-06-11T12:39:26.559653+00:00",
+    "last_seen": "2026-06-11",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-11",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's narrative of victimhood presented in his recent interview."
+    ],
+    "_review_notes": "This event is an example of counter-disinformation or critical analysis of potentially misleading statements by a prominent political figure, rather than the direct spread of disinformation itself. It provides valuable context on how narratives are challenged.",
+    "_reviewed": "2026-06-11T12:41:39.163462+00:00"
   }
 ]

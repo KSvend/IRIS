@@ -983,6 +983,46 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "puntland president",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific target of disinformation.",
+          "date_added": "2026-06-11",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland port",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific target of disinformation.",
+          "date_added": "2026-06-11",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntjubnews",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Identified actor spreading disinformation.",
+          "date_added": "2026-06-11",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "liban's perspective",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific source/actor of the analysis.",
+          "date_added": "2026-06-11",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
