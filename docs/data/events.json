@@ -37887,11 +37887,11 @@
     "id": "APF-2026-06-12-173",
     "date": "2026-06-12",
     "country": "South Sudan",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Analysis of Pro-Turkish Analysts Echoing ISIS Propaganda Regarding Puntland's Counter-Terrorism Efforts",
+    "summary": "An analysis highlights striking similarities between the narratives pushed by Turkish geopolitical commentator Umut Çağrı Sarı and Manjaniq Media, particularly concerning Puntland's counter-terrorism operations. Sarı's narratives are observed to portray Puntland's counter-terrorism efforts in a manner that aligns with ISIS propaganda.",
     "actors": [
       "@CirkaNews"
     ],
@@ -37958,7 +37958,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Puntland's counter-terrorism operations are aligned with or are part of ISIS propaganda."
+    ],
+    "_review_notes": "This event is an analysis of disinformation, not the disinformation itself. The headline and summary should reflect this analytical nature. The country should be Somalia, as Puntland is in Somalia.",
+    "_reviewed": "2026-06-14T11:26:14.466724+00:00"
   },
   {
     "id": "APF-2026-06-12-387",
@@ -37967,8 +37975,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "misinformation",
     "threat_level": "P3 MODERATE",
-    "headline": "🎥  Who Put  Turn  Hasan Piker — Who Condemns  — Into a ? 👇👇👇 👈 Interview of Jennifer Welch with Hasan Piker  ✅ 1-",
-    "summary": "🎥  Who Put  Turn  Hasan Piker — Who Condemns  — Into a ? 👇👇👇 👈 Interview of Jennifer Welch with Hasan Piker  ✅ 1- Claims 1.1 Donald Trump, who campaigned promising transparency and to drain the swamp in Washington, is now actively blocking the full r.",
+    "headline": "Claims Donald Trump is blocking the full release of documents related to the January 6th Capitol attack.",
+    "summary": "Social media account @GanjiAkbar is spreading claims that Donald Trump, despite campaigning on transparency, is actively blocking the full release of documents related to the January 6th Capitol attack. This narrative suggests hypocrisy and a cover-up by the former US President.",
     "actors": [
       "@GanjiAkbar"
     ],
@@ -38037,17 +38045,24 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🎥  Who Put  Turn  Hasan Piker — Who Condemns  — Into a ? 👇👇👇 👈 Interview of Jennifer Welch with Hasan Piker  ✅ 1-",
+    "_original_summary": "🎥  Who Put  Turn  Hasan Piker — Who Condemns  — Into a ? 👇👇👇 👈 Interview of Jennifer Welch with Hasan Piker  ✅ 1- Claims 1.1 Donald Trump, who campaigned promising transparency and to drain the swamp in Washington, is now actively blocking the full r.",
+    "extracted_claims": [
+      "Donald Trump is actively blocking the full release of documents related to the January 6th Capitol attack."
+    ],
+    "_review_notes": "The headline is incomplete and the summary is fragmented. The claim is about US politics and is not specific to East Africa, so the country should be 'Regional' rather than 'South Sudan'.",
+    "_reviewed": "2026-06-14T11:26:14.466755+00:00"
   },
   {
     "id": "APF-2026-06-12-624",
     "date": "2026-06-12",
     "country": "Regional",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "foreign_propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
-    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "headline": "Analysis of Fahad Yasin's Interview: Claims of Victimhood and Carefully Crafted Narratives",
+    "summary": "An analysis by 'Liban's Perspective' critically examines Fahad Yasin's recent interview, suggesting that his 'tell-all' account is a carefully crafted narrative of victimhood rather than a credible disclosure. The analysis implies that Yasin's statements may contain misleading or self-serving claims.",
     "actors": [
       "@foritssake"
     ],
@@ -38109,6 +38124,181 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview is a credible and transparent account of events."
+    ],
+    "_review_notes": "This event is an analysis of an interview, not the disinformation itself. The headline and summary should reflect this. The country should be Somalia, as Fahad Yasin is a prominent Somali figure.",
+    "_reviewed": "2026-06-14T11:26:14.466763+00:00"
+  },
+  {
+    "id": "APF-2026-06-14-456",
+    "date": "2026-06-14",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Report: Al-Shabaab Exploits Somali World Cup Referee's US Entry Denial for Propaganda Campaign",
+    "summary": "A report from 'Somali Report' indicates that Al-Shabaab is exploiting the controversy surrounding Somali referee Omar Abdulkadir Artan’s exclusion from the 2026 FIFA World Cup. Al-Shabaab is using this incident to fuel a propaganda campaign, likely aimed at portraying Western discrimination or injustice against Somalis.",
+    "actors": [
+      "@SomaliReport_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "date": "2026-06-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-03-29-445",
+      "APF-2026-04-24-851",
+      "APF-2026-05-28-931",
+      "APF-2026-05-29-012",
+      "APF-2026-06-02-722",
+      "field_somalia-027"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'shahada news'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-14",
+    "detection_timestamp": "2026-06-14T11:24:11.928888+00:00",
+    "last_seen": "2026-06-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-14",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report —",
+    "_original_summary": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report — Al-Shabaab has sought to capitalize on the controversy surrounding Somali referee Omar Abdulkadir Artan’s exclusion from the 2026 FIFA World.",
+    "extracted_claims": [
+      "The US entry denial for Somali referee Omar Abdulkadir Artan is evidence of Western discrimination or injustice against Somalis."
+    ],
+    "_review_notes": "This event describes Al-Shabaab's actions in exploiting a situation for propaganda, making it 'CONTEXT' rather than 'DISINFO' itself. The headline and summary should clearly state that this is a report about Al-Shabaab's exploitation.",
+    "_reviewed": "2026-06-14T11:26:14.466770+00:00"
+  },
+  {
+    "id": "APF-2026-06-14-290",
+    "date": "2026-06-14",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Bots Fabricate Audio of a Minister, Doctor Statements from Puntland's President, and Spread Lies about Berbera Port",
+    "summary": "Over the past two weeks, bots have been actively engaged in a disinformation campaign, fabricating audio of a minister, doctoring statements from Puntland's President, and spreading false claims about troops setting up roadblocks in Puntland. Most recently, these bots are disseminating lies concerning the Berbera Port, indicating a coordinated effort to destabilize or misinform about key regional figures and infrastructure.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-06-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-03-18-537",
+      "APF-2026-04-23-320",
+      "APF-2026-05-27-959",
+      "APF-2026-06-06-095",
+      "APF-2026-06-08-774",
+      "APF-2026-06-11-584"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-14",
+    "detection_timestamp": "2026-06-14T11:24:11.928888+00:00",
+    "last_seen": "2026-06-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-14",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio of a minister has been fabricated.",
+      "Statements from Puntland's President have been doctored.",
+      "Troops are setting up roadblocks in Puntland.",
+      "Lies are being spread about Berbera Port."
+    ],
+    "_review_notes": "The headline is fragmented and the summary is a direct copy of the headline. It needs to be rewritten to clearly state the multiple false claims being spread. The country should be Somalia, as Puntland and Berbera Port are in Somalia/Somaliland.",
+    "_reviewed": "2026-06-14T11:26:14.466775+00:00"
   }
 ]

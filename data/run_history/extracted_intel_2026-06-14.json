@@ -1,0 +1,157 @@
+{
+  "date": "2026-06-14",
+  "extracted_claims": [
+    {
+      "claim": "Puntland's counter-terrorism operations are aligned with or are part of ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media"
+      ],
+      "keywords": [
+        "Puntland",
+        "counter-terrorism",
+        "ISIS",
+        "propaganda"
+      ]
+    },
+    {
+      "claim": "Donald Trump is actively blocking the full release of documents related to the January 6th Capitol attack.",
+      "country": "Regional",
+      "actors": [
+        "@GanjiAkbar"
+      ],
+      "keywords": [
+        "Donald Trump",
+        "January 6th",
+        "Capitol attack",
+        "document release"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's recent interview is a credible and transparent account of events.",
+      "country": "Somalia",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "interview",
+        "victimhood",
+        "narrative"
+      ]
+    },
+    {
+      "claim": "The US entry denial for Somali referee Omar Abdulkadir Artan is evidence of Western discrimination or injustice against Somalis.",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "Omar Abdulkadir Artan",
+        "US entry denial",
+        "FIFA World Cup",
+        "Al-Shabaab propaganda",
+        "discrimination"
+      ]
+    },
+    {
+      "claim": "Audio of a minister has been fabricated.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "minister"
+      ]
+    },
+    {
+      "claim": "Statements from Puntland's President have been doctored.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statements",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Lies are being spread about Berbera Port.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Berbera Port",
+        "lies"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Key actor identified in spreading narratives related to Puntland."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Key actor identified in spreading narratives related to Puntland."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific topic of disinformation identified."
+    },
+    {
+      "keyword": "Fahad Yasin interview",
+      "country": "Somalia",
+      "reason": "Specific event and individual central to the analysis."
+    },
+    {
+      "keyword": "Liban's Perspective",
+      "country": "Regional",
+      "reason": "Identified actor/source of the analysis."
+    },
+    {
+      "keyword": "Omar Abdulkadir Artan",
+      "country": "Somalia",
+      "reason": "Specific individual central to the propaganda campaign."
+    },
+    {
+      "keyword": "FIFA World Cup 2026",
+      "country": "Regional",
+      "reason": "Context of the event being exploited."
+    },
+    {
+      "keyword": "Berbera Port",
+      "country": "Somalia",
+      "reason": "Specific infrastructure targeted by disinformation."
+    },
+    {
+      "keyword": "Puntland President doctored statements",
+      "country": "Somalia",
+      "reason": "Specific type of disinformation targeting a key figure."
+    }
+  ],
+  "events_reviewed": 5,
+  "events_reclassified": 3
+}
