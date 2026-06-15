@@ -30207,7 +30207,8 @@
       "@mkufuuu",
       "@le_ngatia",
       "@zarayusra_",
-      "@D_KKinuthia"
+      "@D_KKinuthia",
+      "@RalphSungu"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30312,6 +30313,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/AminaTisha94086/status/1882041478673039610",
         "date": "2026-06-08"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RalphSungu/status/2064916622041620817",
+        "date": "2026-06-15"
       }
     ],
     "spread": 5,
@@ -30355,7 +30361,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-08",
+    "last_seen": "2026-06-15",
     "status": "active",
     "observations": [
       {
@@ -30537,9 +30543,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-15",
+        "url": "https://x.com/RalphSungu/status/2064916622041620817",
+        "summary": "Our brothers often claim hard work is what is building Eastleigh/Somali businesses all over Kenya, this thing is",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 20,
+    "observation_count": 21,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30548,6 +30563,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -32372,7 +32388,7 @@
     "detected_by": "iris_classify_2026-05-16",
     "detection_timestamp": "2026-05-16T10:09:32.240098+00:00",
     "last_seen": "2026-05-16",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-16",
@@ -32449,7 +32465,7 @@
     "detected_by": "iris_classify_2026-05-16",
     "detection_timestamp": "2026-05-16T10:09:32.240098+00:00",
     "last_seen": "2026-05-16",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-16",
@@ -32531,7 +32547,7 @@
     "detected_by": "iris_classify_2026-05-16",
     "detection_timestamp": "2026-05-16T10:09:32.240098+00:00",
     "last_seen": "2026-05-16",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-16",
@@ -38300,5 +38316,308 @@
     ],
     "_review_notes": "The headline is fragmented and the summary is a direct copy of the headline. It needs to be rewritten to clearly state the multiple false claims being spread. The country should be Somalia, as Puntland and Berbera Port are in Somalia/Somaliland.",
     "_reviewed": "2026-06-14T11:26:14.466775+00:00"
+  },
+  {
+    "id": "APF-2026-06-15-730",
+    "date": "2026-06-15",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-06-15"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-01-040",
+      "APF-2026-06-02-503",
+      "APF-2026-06-04-030",
+      "APF-2026-06-08-515",
+      "APF-2026-06-10-300",
+      "APF-2026-06-12-173"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-15",
+    "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
+    "last_seen": "2026-06-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-15",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-15-522",
+    "date": "2026-06-15",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report —",
+    "summary": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report — Al-Shabaab has sought to capitalize on the controversy surrounding Somali referee Omar Abdulkadir Artan’s exclusion from the 2026 FIFA World.",
+    "actors": [
+      "@SomaliReport_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "date": "2026-06-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-03-29-445",
+      "APF-2026-04-24-851",
+      "APF-2026-05-28-931",
+      "APF-2026-05-29-012",
+      "APF-2026-06-02-722",
+      "APF-2026-06-14-456"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'shahada news'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-15",
+    "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
+    "last_seen": "2026-06-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-15",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-15-939",
+    "date": "2026-06-15",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
+    "summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers left the PSF is also false, as they are using the old uniforms of former soldiers. Villa Garowe is clearly facing desperate times.",
+    "actors": [
+      "@RuqiaBotan"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "date": "2026-06-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-04-30-374",
+      "APF-2026-06-03-842",
+      "APF-2026-06-08-250",
+      "APF-2026-06-08-515",
+      "APF-2026-06-10-300",
+      "APF-2026-06-12-173"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (170 soldiers) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-15",
+    "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
+    "last_seen": "2026-06-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-15",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-15-286",
+    "date": "2026-06-15",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-05-29-335",
+      "APF-2026-06-04-007",
+      "APF-2026-06-05-549",
+      "APF-2026-06-07-704",
+      "APF-2026-06-11-013",
+      "APF-2026-06-12-624"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-15",
+    "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
+    "last_seen": "2026-06-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-15",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
