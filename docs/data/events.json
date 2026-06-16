@@ -32613,7 +32613,7 @@
     "detected_by": "iris_classify_2026-05-17",
     "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
     "last_seen": "2026-05-17",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-17",
@@ -32691,7 +32691,7 @@
     "detected_by": "iris_classify_2026-05-17",
     "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
     "last_seen": "2026-05-17",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-17",
@@ -32769,7 +32769,7 @@
     "detected_by": "iris_classify_2026-05-17",
     "detection_timestamp": "2026-05-17T10:18:18.572771+00:00",
     "last_seen": "2026-05-17",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-17",
@@ -33846,10 +33846,20 @@
       "@mzeemzima100",
       "@LensEmpress",
       "@miss_tokyo3",
-      "@KKCommetary"
+      "@KKCommetary",
+      "@DreamBoy254",
+      "@Amazingmasai_",
+      "@kanairofinest",
+      "@mtkenyanewstv",
+      "@Merc13Nyambura",
+      "@_ItsMkisii",
+      "@OmarJuma001",
+      "@Mastermastin_GO",
+      "@favour_ke1"
     ],
     "platforms": [
-      "X (Twitter)"
+      "X (Twitter)",
+      "TikTok"
     ],
     "sources": [
       {
@@ -33866,6 +33876,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/LensEmpress/status/1938221673205092526",
         "date": "2026-05-29"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-06-16"
       }
     ],
     "spread": 5,
@@ -33909,7 +33924,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-05-22",
     "detection_timestamp": "2026-05-22T11:35:54.647680+00:00",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-06-16",
     "status": "active",
     "observations": [
       {
@@ -33938,10 +33953,21 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-16",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#BBCForChaos, #BloodParliament: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+        "platforms": [
+          "X (Twitter)",
+          "TikTok"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 4,
     "intensity_trend": [
+      3,
       3,
       3
     ]
@@ -35267,7 +35293,8 @@
       "@_ItsMkisii",
       "@DreamBoy254",
       "@hosea606666",
-      "@TonyMkenya7"
+      "@TonyMkenya7",
+      "@its_meek__"
     ],
     "platforms": [
       "X (Twitter)"
@@ -35287,6 +35314,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
         "date": "2026-06-09"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "date": "2026-06-16"
       }
     ],
     "spread": 2,
@@ -35330,7 +35362,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-05-30",
     "detection_timestamp": "2026-05-30T10:33:29.826489+00:00",
-    "last_seen": "2026-06-09",
+    "last_seen": "2026-06-16",
     "status": "active",
     "observations": [
       {
@@ -35359,10 +35391,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-16",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "summary": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 4,
     "intensity_trend": [
+      3,
       3,
       3
     ]
@@ -38619,5 +38661,165 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-16-242",
+    "date": "2026-06-16",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report —",
+    "summary": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report — Al-Shabaab has sought to capitalize on the controversy surrounding Somali referee Omar Abdulkadir Artan’s exclusion from the 2026 FIFA World. 3 near-identical posts from 2 accounts suggest coordinated amplification.",
+    "actors": [
+      "@SomaliReport_",
+      "@uncleboss143581"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/uncleboss143581/status/2066779094356811830",
+        "date": "2026-06-16"
+      }
+    ],
+    "spread": 3,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-04-24-851",
+      "APF-2026-05-28-931",
+      "APF-2026-05-29-012",
+      "APF-2026-06-02-722",
+      "APF-2026-06-14-456",
+      "APF-2026-06-15-522"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-16",
+    "detection_timestamp": "2026-06-16T13:25:50.907136+00:00",
+    "last_seen": "2026-06-16",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-16",
+        "url": "https://x.com/uncleboss143581/status/2066779094356811830",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-16-342",
+    "date": "2026-06-16",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "Bots fabricate audio of Somali Minister, doctor Puntland President's statement, and spread false claims about troops and a port",
+    "summary": "Over the past two weeks, accounts identified as bots, including @PuntJubNews, have engaged in a coordinated disinformation campaign targeting Somalia. This campaign includes fabricating audio of a minister, doctoring a statement from Puntland's President, spreading false claims about troops setting up roadblocks in Puntland, and disseminating lies about a specific port. This multi-pronged effort aims to sow confusion and undermine trust in government institutions and regional stability.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-06-16"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-03-18-537",
+      "APF-2026-05-27-959",
+      "APF-2026-06-06-095",
+      "APF-2026-06-08-774",
+      "APF-2026-06-11-584",
+      "APF-2026-06-14-290"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-16",
+    "detection_timestamp": "2026-06-16T13:25:50.907136+00:00",
+    "last_seen": "2026-06-16",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-16",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio of a Somali Minister has been fabricated and spread.",
+      "A statement from Puntland's President has been doctored and spread.",
+      "False claims are being spread about troops setting up roadblocks in Puntland.",
+      "False claims are being spread about a specific port in Somalia."
+    ],
+    "_review_notes": "This event highlights a sophisticated and coordinated bot-driven disinformation campaign targeting high-level officials and sensitive security/infrastructure issues in Somalia's Puntland region, indicating a deliberate effort to destabilize or sow distrust.",
+    "_reviewed": "2026-06-16T13:28:19.069150+00:00"
   }
 ]

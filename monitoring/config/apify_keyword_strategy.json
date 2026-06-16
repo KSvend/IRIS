@@ -1033,6 +1033,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "puntland roadblocks",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific event/location mentioned in false claims.",
+          "date_added": "2026-06-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "somali minister audio",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific type of fabricated content.",
+          "date_added": "2026-06-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "doctored statement",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific disinformation tactic.",
+          "date_added": "2026-06-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
