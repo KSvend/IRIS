@@ -32841,7 +32841,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-18",
@@ -32928,7 +32928,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-18",
@@ -33013,7 +33013,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-18",
@@ -33099,7 +33099,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-18",
@@ -36076,7 +36076,8 @@
     "actors": [
       "@AbouzgidenAli",
       "@CirkaNews",
-      "@R47910409"
+      "@R47910409",
+      "@RuqiaBotan"
     ],
     "platforms": [
       "X (Twitter)"
@@ -36086,6 +36087,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
         "date": "2026-06-02"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "date": "2026-06-17"
       }
     ],
     "spread": 3,
@@ -36128,7 +36134,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
-    "last_seen": "2026-06-02",
+    "last_seen": "2026-06-17",
     "status": "active",
     "observations": [
       {
@@ -36139,15 +36145,27 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-17",
+        "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
+        "summary": "This letter is FAKE, fabricated by Team Deni and their bogus \"news\" outlet, Somali Digest. The claim that 170 soldiers",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
     "extracted_claims": [
       "Pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda by pushing narratives that portray Puntland's counter-terrorism efforts negatively."
     ],
     "_review_notes": "This event involves a coordinated effort to discredit individuals and potentially undermine counter-terrorism efforts by associating them with ISIS propaganda, highlighting geopolitical tensions and information warfare.",
-    "_reviewed": "2026-06-04T11:47:11.840865+00:00"
+    "_reviewed": "2026-06-04T11:47:11.840865+00:00",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-06-03-947",
@@ -38821,5 +38839,226 @@
     ],
     "_review_notes": "This event highlights a sophisticated and coordinated bot-driven disinformation campaign targeting high-level officials and sensitive security/infrastructure issues in Somalia's Puntland region, indicating a deliberate effort to destabilize or sow distrust.",
     "_reviewed": "2026-06-16T13:28:19.069150+00:00"
+  },
+  {
+    "id": "APF-2026-06-17-508",
+    "date": "2026-06-17",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-06-17"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-02-503",
+      "APF-2026-06-04-030",
+      "APF-2026-06-08-515",
+      "APF-2026-06-10-300",
+      "APF-2026-06-12-173",
+      "APF-2026-06-15-730"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-17",
+    "detection_timestamp": "2026-06-17T12:47:59.411627+00:00",
+    "last_seen": "2026-06-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-17",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-17-338",
+    "date": "2026-06-17",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-06-17"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-05-27-959",
+      "APF-2026-06-06-095",
+      "APF-2026-06-08-774",
+      "APF-2026-06-11-584",
+      "APF-2026-06-14-290",
+      "APF-2026-06-16-342"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-17",
+    "detection_timestamp": "2026-06-17T12:47:59.411627+00:00",
+    "last_seen": "2026-06-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-17",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-17-937",
+    "date": "2026-06-17",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-17"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-04-007",
+      "APF-2026-06-05-549",
+      "APF-2026-06-07-704",
+      "APF-2026-06-11-013",
+      "APF-2026-06-12-624",
+      "APF-2026-06-15-286"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-17",
+    "detection_timestamp": "2026-06-17T12:47:59.411627+00:00",
+    "last_seen": "2026-06-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-17",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
