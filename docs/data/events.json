@@ -33186,7 +33186,7 @@
     "detected_by": "iris_classify_2026-05-19",
     "detection_timestamp": "2026-05-19T11:52:36.108101+00:00",
     "last_seen": "2026-05-19",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-19",
@@ -33263,7 +33263,7 @@
     "detected_by": "iris_classify_2026-05-19",
     "detection_timestamp": "2026-05-19T11:52:36.108101+00:00",
     "last_seen": "2026-05-19",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-19",
@@ -38844,11 +38844,11 @@
     "id": "APF-2026-06-17-508",
     "date": "2026-06-17",
     "country": "South Sudan",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Analysis of Pro-Turkish Analysts Echoing ISIS Propaganda Regarding Puntland's Counterterrorism Efforts",
+    "summary": "An analysis by @CirkaNews on X (Twitter) highlights striking similarities between narratives pushed by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda outlet Manjaniq Media. The analysis focuses on Sarı's portrayal of Puntland’s counterterrorism efforts, suggesting a potential echo of extremist narratives. This event is an analysis of disinformation, not disinformation itself.",
     "actors": [
       "@CirkaNews"
     ],
@@ -38915,7 +38915,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Puntland's counterterrorism efforts are portrayed in a way that aligns with ISIS propaganda."
+    ],
+    "_review_notes": "This event is an analysis of potential disinformation, not the disinformation itself. The headline and summary were too conversational and needed to be reframed to reflect an analytical report.",
+    "_reviewed": "2026-06-18T12:19:39.351428+00:00"
   },
   {
     "id": "APF-2026-06-17-338",
@@ -38924,8 +38932,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "deepfake",
     "threat_level": "P3 MODERATE",
-    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
-    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "headline": "Bots Fabricate Audio of a Minister, Doctor President's Statement, and Spread Lies About Puntland Port",
+    "summary": "Over the past two weeks, bots, notably @PuntJubNews, have been actively spreading multiple false claims targeting Puntland. These include fabricating audio of a minister, doctoring a statement from Puntland's President, falsely claiming troops set up roadblocks in Puntland, and spreading lies about a port in Puntland. This coordinated effort aims to sow confusion and distrust within the region.",
     "actors": [
       "@PuntJubNews"
     ],
@@ -38987,17 +38995,27 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio of a Minister has been fabricated.",
+      "A statement from Puntland's President has been doctored.",
+      "Troops have set up roadblocks in Puntland.",
+      "False information is being spread about a port in Puntland."
+    ],
+    "_review_notes": "This event details multiple distinct false claims being spread by bots, warranting a clearer headline and a summary that enumerates the specific disinfo tactics.",
+    "_reviewed": "2026-06-18T12:19:39.351447+00:00"
   },
   {
     "id": "APF-2026-06-17-937",
     "date": "2026-06-17",
     "country": "Regional",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "foreign_propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
-    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "headline": "Analysis of Fahad Yasin's Interview: A Critical Take on His Claims",
+    "summary": "An analysis by @foritssake on X (Twitter) critically examines Fahad Yasin's recent interview, suggesting it presents a 'carefully crafted narrative of victimhood' rather than a credible account. The analysis scrutinizes Yasin's claims, which he made after years of silence, indicating that the interview itself may be a form of strategic communication or disinformation. This event is an analysis of a public figure's statements, not the direct spread of false claims by the monitoring platform.",
     "actors": [
       "@foritssake"
     ],
@@ -39059,6 +39077,179 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's interview presents a 'carefully crafted narrative of victimhood' rather than a credible account."
+    ],
+    "_review_notes": "This event is an analysis of an interview, not the direct spread of false claims by the monitoring platform. The headline and summary needed to reflect this analytical nature.",
+    "_reviewed": "2026-06-18T12:19:39.351454+00:00"
+  },
+  {
+    "id": "APF-2026-06-18-437",
+    "date": "2026-06-18",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Al-Shabaab Exploits Somali World Cup Referee’s US Entry Denial for Propaganda Campaign",
+    "summary": "A report by Somali Report highlights how Al-Shabaab is exploiting the controversy surrounding Somali referee Omar Abdulkadir Artan’s exclusion from the 2026 FIFA World Cup. Al-Shabaab is leveraging this incident to fuel a propaganda campaign, likely aimed at discrediting Western nations or inciting anti-government sentiment. This event describes Al-Shabaab's propaganda efforts, not the direct spread of their false claims by the monitoring platform.",
+    "actors": [
+      "@SomaliReport_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "date": "2026-06-18"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-05-28-931",
+      "APF-2026-05-29-012",
+      "APF-2026-06-02-722",
+      "APF-2026-06-14-456",
+      "APF-2026-06-15-522",
+      "APF-2026-06-16-242"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'shahada news'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-18",
+    "detection_timestamp": "2026-06-18T12:17:09.547570+00:00",
+    "last_seen": "2026-06-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-18",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report —",
+    "_original_summary": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report — Al-Shabaab has sought to capitalize on the controversy surrounding Somali referee Omar Abdulkadir Artan’s exclusion from the 2026 FIFA World.",
+    "extracted_claims": [
+      "The US entry denial for Somali referee Omar Abdulkadir Artan is evidence of Western bias or injustice."
+    ],
+    "_review_notes": "This event describes a report about Al-Shabaab's propaganda campaign, making it CONTEXT. The headline and summary were adjusted to reflect this and clearly state the nature of the event.",
+    "_reviewed": "2026-06-18T12:19:39.351459+00:00"
+  },
+  {
+    "id": "APF-2026-06-18-878",
+    "date": "2026-06-18",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Analysis of Fahad Yasin's Interview: A Critical Take on His Claims",
+    "summary": "An analysis by @foritssake on X (Twitter) critically examines Fahad Yasin's recent interview, suggesting it presents a 'carefully crafted narrative of victimhood' rather than a credible account. The analysis scrutinizes Yasin's claims, which he made after years of silence, indicating that the interview itself may be a form of strategic communication or disinformation. This event is an analysis of a public figure's statements, not the direct spread of false claims by the monitoring platform.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-18"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-06-04-007",
+      "APF-2026-06-07-704",
+      "APF-2026-06-11-013",
+      "APF-2026-06-12-624",
+      "APF-2026-06-15-286",
+      "APF-2026-06-17-937"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-18",
+    "detection_timestamp": "2026-06-18T12:17:09.547570+00:00",
+    "last_seen": "2026-06-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-18",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's interview presents a 'carefully crafted narrative of victimhood' rather than a credible account."
+    ],
+    "_review_notes": "This is a duplicate of event ID 2. It is an analysis of an interview, not the direct spread of false claims by the monitoring platform. The headline and summary needed to reflect this analytical nature.",
+    "_reviewed": "2026-06-18T12:19:39.351464+00:00"
   }
 ]
