@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-19",
+  "extracted_claims": [
+    {
+      "claim": "The US entry denial for Somali referee Omar Abdulkadir Artan is evidence of Western hostility or discrimination against Somalis.",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "US entry denial",
+        "discrimination",
+        "anti-Somali"
+      ]
+    },
+    {
+      "claim": "The US entry denial for Somali referee Omar Abdulkadir Artan is part of a broader anti-Somali agenda.",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "US entry denial",
+        "anti-Somali agenda",
+        "Western hostility"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin is a victim of political persecution or unfair treatment.",
+      "country": "Regional",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "victimhood",
+        "persecution",
+        "unfair treatment"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's statements in his recent interview are credible and truthful.",
+      "country": "Regional",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "credibility",
+        "truthfulness",
+        "interview claims"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Omar Abdulkadir Artan",
+      "country": "Somalia",
+      "reason": "Specific individual at the center of a propaganda campaign."
+    },
+    {
+      "keyword": "FIFA World Cup 2026",
+      "country": "Somalia",
+      "reason": "Context of the incident being exploited."
+    },
+    {
+      "keyword": "US entry denial",
+      "country": "Somalia",
+      "reason": "Key event being misrepresented."
+    },
+    {
+      "keyword": "Al-Shabaab propaganda",
+      "country": "Somalia",
+      "reason": "Specific type of disinformation activity."
+    },
+    {
+      "keyword": "Fahad Yasin interview",
+      "country": "Regional",
+      "reason": "Specific event being analyzed for potential disinformation."
+    },
+    {
+      "keyword": "Liban analysis",
+      "country": "Regional",
+      "reason": "Specific actor/perspective providing the analysis."
+    },
+    {
+      "keyword": "victimhood narrative",
+      "country": "Regional",
+      "reason": "Key theme identified in the analysis of misleading claims."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 2
+}

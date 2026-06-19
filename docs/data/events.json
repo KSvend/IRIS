@@ -33340,7 +33340,7 @@
     "detected_by": "iris_classify_2026-05-20",
     "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
     "last_seen": "2026-05-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-20",
@@ -33418,7 +33418,7 @@
     "detected_by": "iris_classify_2026-05-20",
     "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
     "last_seen": "2026-05-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-20",
@@ -33496,7 +33496,7 @@
     "detected_by": "iris_classify_2026-05-20",
     "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
     "last_seen": "2026-05-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-20",
@@ -33573,7 +33573,7 @@
     "detected_by": "iris_classify_2026-05-20",
     "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
     "last_seen": "2026-05-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-20",
@@ -33652,7 +33652,7 @@
     "detected_by": "iris_classify_2026-05-20",
     "detection_timestamp": "2026-05-20T11:40:42.202488+00:00",
     "last_seen": "2026-05-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-20",
@@ -39251,5 +39251,172 @@
     ],
     "_review_notes": "This is a duplicate of event ID 2. It is an analysis of an interview, not the direct spread of false claims by the monitoring platform. The headline and summary needed to reflect this analytical nature.",
     "_reviewed": "2026-06-18T12:19:39.351464+00:00"
+  },
+  {
+    "id": "APF-2026-06-19-621",
+    "date": "2026-06-19",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Report: Al-Shabaab Exploits Somali Referee's US Entry Denial for Anti-Western Propaganda",
+    "summary": "A report by Somali Report details how Al-Shabaab is leveraging the controversy surrounding Somali referee Omar Abdulkadir Artan's denial of US entry for the 2026 FIFA World Cup. The group is exploiting the incident to fuel anti-Western sentiment and promote narratives of discrimination against Somalis, aiming to recruit and garner support.",
+    "actors": [
+      "@SomaliReport_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "date": "2026-06-19"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-05-28-931",
+      "APF-2026-05-29-012",
+      "APF-2026-06-14-456",
+      "APF-2026-06-15-522",
+      "APF-2026-06-16-242",
+      "APF-2026-06-18-437"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'shahada news'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-19",
+    "detection_timestamp": "2026-06-19T12:43:51.497728+00:00",
+    "last_seen": "2026-06-19",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-19",
+        "url": "https://x.com/SomaliReport_/status/2065572083136868745",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report —",
+    "_original_summary": "How Al-Shabaab Exploited a Somali World Cup Referee’s US Entry Denial for Propaganda Campaign Somali Report — Al-Shabaab has sought to capitalize on the controversy surrounding Somali referee Omar Abdulkadir Artan’s exclusion from the 2026 FIFA World.",
+    "extracted_claims": [
+      "The US entry denial for Somali referee Omar Abdulkadir Artan is evidence of Western hostility or discrimination against Somalis.",
+      "The US entry denial for Somali referee Omar Abdulkadir Artan is part of a broader anti-Somali agenda."
+    ],
+    "_review_notes": "This event highlights Al-Shabaab's opportunistic use of real-world events to advance its propaganda, demonstrating a common tactic of extremist groups to sow discord and recruit.",
+    "_reviewed": "2026-06-19T12:46:19.895554+00:00"
+  },
+  {
+    "id": "APF-2026-06-19-054",
+    "date": "2026-06-19",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Report Analyzes Fahad Yasin's Interview, Citing 'Crafted Narrative of Victimhood' and Questionable Claims",
+    "summary": "An analysis by @foritssake, from Liban's perspective, critically examines Fahad Yasin's recent interview. The analysis suggests Yasin's statements constitute a 'carefully crafted narrative of victimhood' rather than a credible account, implying his claims are misleading or false.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-19"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-06-05-549",
+      "APF-2026-06-07-704",
+      "APF-2026-06-12-624",
+      "APF-2026-06-15-286",
+      "APF-2026-06-17-937",
+      "APF-2026-06-18-878"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-19",
+    "detection_timestamp": "2026-06-19T12:43:51.497728+00:00",
+    "last_seen": "2026-06-19",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-19",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin is a victim of political persecution or unfair treatment.",
+      "Fahad Yasin's statements in his recent interview are credible and truthful."
+    ],
+    "_review_notes": "This event highlights the critical analysis of a prominent political figure's public statements, indicating scrutiny of potential disinformation or misleading narratives from political actors in the region.",
+    "_reviewed": "2026-06-19T12:46:19.895578+00:00"
   }
 ]
