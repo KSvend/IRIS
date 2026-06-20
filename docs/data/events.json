@@ -33730,7 +33730,7 @@
     "detected_by": "iris_classify_2026-05-21",
     "detection_timestamp": "2026-05-21T12:00:40.341320+00:00",
     "last_seen": "2026-05-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-21",
@@ -33807,7 +33807,7 @@
     "detected_by": "iris_classify_2026-05-21",
     "detection_timestamp": "2026-05-21T12:00:40.341320+00:00",
     "last_seen": "2026-05-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-21",
@@ -36092,6 +36092,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/RuqiaBotan/status/1835193171690553387",
         "date": "2026-06-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "date": "2026-06-20"
       }
     ],
     "spread": 3,
@@ -36134,7 +36139,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
-    "last_seen": "2026-06-17",
+    "last_seen": "2026-06-20",
     "status": "active",
     "observations": [
       {
@@ -36154,9 +36159,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-20",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
     "extracted_claims": [
       "Pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda by pushing narratives that portray Puntland's counter-terrorism efforts negatively."
@@ -36164,6 +36178,7 @@
     "_review_notes": "This event involves a coordinated effort to discredit individuals and potentially undermine counter-terrorism efforts by associating them with ISIS propaganda, highlighting geopolitical tensions and information warfare.",
     "_reviewed": "2026-06-04T11:47:11.840865+00:00",
     "intensity_trend": [
+      3,
       3
     ]
   },
@@ -39418,5 +39433,156 @@
     ],
     "_review_notes": "This event highlights the critical analysis of a prominent political figure's public statements, indicating scrutiny of potential disinformation or misleading narratives from political actors in the region.",
     "_reviewed": "2026-06-19T12:46:19.895578+00:00"
+  },
+  {
+    "id": "APF-2026-06-20-544",
+    "date": "2026-06-20",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-06-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-06-06-095",
+      "APF-2026-06-08-774",
+      "APF-2026-06-11-584",
+      "APF-2026-06-14-290",
+      "APF-2026-06-16-342",
+      "APF-2026-06-17-338"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-20",
+    "detection_timestamp": "2026-06-20T11:10:20.397561+00:00",
+    "last_seen": "2026-06-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-20",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-20-144",
+    "date": "2026-06-20",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "🇦🇲 The incredible photo of a 106-year-old Armenian woman guarding her home with an AKM rifle, 1990. Born around 1884,",
+    "summary": "🇦🇲 The incredible photo of a 106-year-old Armenian woman guarding her home with an AKM rifle, 1990. Born around 1884, she survived the Armenian massacres of the 1890s and 1915 Genocide. In her final years, she defended her village during the war with.",
+    "actors": [
+      "@ShungaEmpire"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ShungaEmpire/status/2068289859307933721",
+        "date": "2026-06-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-002",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "APF-2026-05-20-778",
+      "APF-2026-05-25-725",
+      "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
+      "APF-2026-06-09-533",
+      "APF-2026-06-12-387"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-20",
+    "detection_timestamp": "2026-06-20T11:10:20.397561+00:00",
+    "last_seen": "2026-06-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-20",
+        "url": "https://x.com/ShungaEmpire/status/2068289859307933721",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
