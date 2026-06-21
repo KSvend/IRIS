@@ -35294,7 +35294,10 @@
       "@DreamBoy254",
       "@hosea606666",
       "@TonyMkenya7",
-      "@its_meek__"
+      "@its_meek__",
+      "@yokuty12",
+      "@mzeemzima100",
+      "@TixWithTanli"
     ],
     "platforms": [
       "X (Twitter)"
@@ -35319,6 +35322,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/hezwachira/status/1925485465441882497",
         "date": "2026-06-16"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-06-21"
       }
     ],
     "spread": 2,
@@ -35362,7 +35370,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-05-30",
     "detection_timestamp": "2026-05-30T10:33:29.826489+00:00",
-    "last_seen": "2026-06-16",
+    "last_seen": "2026-06-21",
     "status": "active",
     "observations": [
       {
@@ -35400,10 +35408,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-21",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel, #DogsOfWar: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 4,
+    "observation_count": 5,
     "intensity_trend": [
+      3,
       3,
       3,
       3
@@ -39576,6 +39594,78 @@
       {
         "date": "2026-06-20",
         "url": "https://x.com/ShungaEmpire/status/2068289859307933721",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-21-160",
+    "date": "2026-06-21",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-21"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-07-704",
+      "APF-2026-06-12-624",
+      "APF-2026-06-15-286",
+      "APF-2026-06-17-937",
+      "APF-2026-06-18-878",
+      "APF-2026-06-19-054"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-21",
+    "detection_timestamp": "2026-06-21T11:41:44.495733+00:00",
+    "last_seen": "2026-06-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-21",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
