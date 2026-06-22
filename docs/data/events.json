@@ -30208,7 +30208,10 @@
       "@le_ngatia",
       "@zarayusra_",
       "@D_KKinuthia",
-      "@RalphSungu"
+      "@RalphSungu",
+      "@bakhita_esther",
+      "@KWSKenya",
+      "@Shannon45277368"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30318,6 +30321,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/RalphSungu/status/2064916622041620817",
         "date": "2026-06-15"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/bakhita_esther/status/2069054708870684869",
+        "date": "2026-06-22"
       }
     ],
     "spread": 5,
@@ -30361,7 +30369,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-15",
+    "last_seen": "2026-06-22",
     "status": "active",
     "observations": [
       {
@@ -30552,9 +30560,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-22",
+        "url": "https://x.com/bakhita_esther/status/2069054708870684869",
+        "summary": "Agriculture and Food Authority Participates in Somalia–Kenya &amp; Diaspora Trade Week The Agriculture and Food",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 21,
+    "observation_count": 22,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30563,6 +30580,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -39665,6 +39683,143 @@
     "observations": [
       {
         "date": "2026-06-21",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-22-411",
+    "date": "2026-06-22",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "His Masters will do everything to prevent that. Otherwise their names be on t/list Obama was Starmer formal tutor when",
+    "summary": "His Masters will do everything to prevent that. Otherwise their names be on t/list Obama was Starmer formal tutor when he was working at Cameron’s office Soros funded his candidates,get them elected who then laundered t/taxpayers$ through t/Soros NGO. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@Deveney_Dr"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Deveney_Dr/status/2069062582162579646",
+        "date": "2026-06-22"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-05-18-124",
+      "APF-2026-05-22-618",
+      "APF-2026-05-30-681",
+      "APF-2026-05-31-053",
+      "APF-2026-06-05-837",
+      "APF-2026-06-09-042"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-22",
+    "detection_timestamp": "2026-06-22T14:25:44.903538+00:00",
+    "last_seen": "2026-06-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-22",
+        "url": "https://x.com/Deveney_Dr/status/2069062582162579646",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-22-950",
+    "date": "2026-06-22",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-22"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-11-013",
+      "APF-2026-06-15-286",
+      "APF-2026-06-17-937",
+      "APF-2026-06-18-878",
+      "APF-2026-06-19-054",
+      "APF-2026-06-21-160"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-22",
+    "detection_timestamp": "2026-06-22T14:25:44.903538+00:00",
+    "last_seen": "2026-06-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-22",
         "url": "https://x.com/foritssake/status/2055850219040911862",
         "summary": "Initial detection",
         "platforms": [
