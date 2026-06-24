@@ -1,0 +1,99 @@
+{
+  "date": "2026-06-24",
+  "extracted_claims": [
+    {
+      "claim": "Fabricated audio of a Minister is circulating.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "bots"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "Minister"
+      ]
+    },
+    {
+      "claim": "A statement from Puntland's President has been doctored.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "bots"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "bots"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "False information is being spread about a port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "bots"
+      ],
+      "keywords": [
+        "Puntland port",
+        "lies"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's recent interview contains a carefully crafted narrative of victimhood.",
+      "country": "Regional",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "victimhood narrative"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland Minister fabricated audio",
+      "country": "Somalia",
+      "reason": "Specific disinformation claim related to a regional official."
+    },
+    {
+      "keyword": "Puntland President doctored statement",
+      "country": "Somalia",
+      "reason": "Specific disinformation claim related to a regional leader."
+    },
+    {
+      "keyword": "Puntland troops roadblocks",
+      "country": "Somalia",
+      "reason": "Specific disinformation claim about security situation in Puntland."
+    },
+    {
+      "keyword": "Puntland port lies",
+      "country": "Somalia",
+      "reason": "Specific disinformation claim about critical infrastructure in Puntland."
+    },
+    {
+      "keyword": "Fahad Yasin interview",
+      "country": "Regional",
+      "reason": "Key figure and event being discussed."
+    },
+    {
+      "keyword": "Fahad Yasin victimhood narrative",
+      "country": "Regional",
+      "reason": "Specific narrative identified in the analysis."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 1
+}

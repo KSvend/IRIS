@@ -1103,6 +1103,46 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "puntland minister fabricated audio",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific disinformation claim related to a regional official.",
+          "date_added": "2026-06-24",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland president doctored statement",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific disinformation claim related to a regional leader.",
+          "date_added": "2026-06-24",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland troops roadblocks",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific disinformation claim about security situation in Puntland.",
+          "date_added": "2026-06-24",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland port lies",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific disinformation claim about critical infrastructure in Puntland.",
+          "date_added": "2026-06-24",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
