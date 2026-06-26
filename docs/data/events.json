@@ -34613,7 +34613,7 @@
     "detected_by": "iris_classify_2026-05-27",
     "detection_timestamp": "2026-05-27T12:04:56.584979+00:00",
     "last_seen": "2026-05-27",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-27",
@@ -34699,7 +34699,7 @@
     "detected_by": "iris_classify_2026-05-27",
     "detection_timestamp": "2026-05-27T12:04:56.584979+00:00",
     "last_seen": "2026-05-27",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-27",
@@ -34779,7 +34779,7 @@
     "detected_by": "iris_classify_2026-05-27",
     "detection_timestamp": "2026-05-27T12:04:56.584979+00:00",
     "last_seen": "2026-05-27",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-27",
@@ -40132,6 +40132,150 @@
       {
         "date": "2026-06-25",
         "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-26-951",
+    "date": "2026-06-26",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-06-26"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-06-14-290",
+      "APF-2026-06-16-342",
+      "APF-2026-06-17-338",
+      "APF-2026-06-20-544",
+      "APF-2026-06-24-922",
+      "APF-2026-06-25-457"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-26",
+    "detection_timestamp": "2026-06-26T11:36:44.281077+00:00",
+    "last_seen": "2026-06-26",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-26",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-26-147",
+    "date": "2026-06-26",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-26"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-12-624",
+      "APF-2026-06-17-937",
+      "APF-2026-06-19-054",
+      "APF-2026-06-21-160",
+      "APF-2026-06-22-950",
+      "APF-2026-06-24-351"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-26",
+    "detection_timestamp": "2026-06-26T11:36:44.281077+00:00",
+    "last_seen": "2026-06-26",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-26",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
