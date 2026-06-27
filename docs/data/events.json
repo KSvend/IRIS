@@ -30211,7 +30211,11 @@
       "@RalphSungu",
       "@bakhita_esther",
       "@KWSKenya",
-      "@Shannon45277368"
+      "@Shannon45277368",
+      "@BoardLotSultan",
+      "@kenya_afa",
+      "@CSBeatriceMoe",
+      "@MPyusufhassan"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30326,6 +30330,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/bakhita_esther/status/2069054708870684869",
         "date": "2026-06-22"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/BoardLotSultan/status/2070608173765890512",
+        "date": "2026-06-27"
       }
     ],
     "spread": 5,
@@ -30369,7 +30378,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-22",
+    "last_seen": "2026-06-27",
     "status": "active",
     "observations": [
       {
@@ -30569,9 +30578,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-27",
+        "url": "https://x.com/BoardLotSultan/status/2070608173765890512",
+        "summary": "Agriculture and Food Authority Participates in Somalia–Kenya &amp; Diaspora Trade Week The Agriculture and Food",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 22,
+    "observation_count": 23,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30580,6 +30598,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -34865,7 +34884,7 @@
     "detected_by": "iris_classify_2026-05-28",
     "detection_timestamp": "2026-05-28T12:11:03.349200+00:00",
     "last_seen": "2026-05-28",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-28",
@@ -34951,7 +34970,7 @@
     "detected_by": "iris_classify_2026-05-28",
     "detection_timestamp": "2026-05-28T12:11:03.349200+00:00",
     "last_seen": "2026-05-28",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-28",
@@ -40275,6 +40294,155 @@
     "observations": [
       {
         "date": "2026-06-26",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-27-091",
+    "date": "2026-06-27",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-06-27"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-05-28-195",
+      "APF-2026-05-30-172",
+      "APF-2026-06-02-503",
+      "APF-2026-06-15-730",
+      "APF-2026-06-17-508",
+      "APF-2026-06-25-622"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-27",
+    "detection_timestamp": "2026-06-27T10:43:24.582283+00:00",
+    "last_seen": "2026-06-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-27",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-27-408",
+    "date": "2026-06-27",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-27"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-17-937",
+      "APF-2026-06-19-054",
+      "APF-2026-06-21-160",
+      "APF-2026-06-22-950",
+      "APF-2026-06-24-351",
+      "APF-2026-06-26-147"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-27",
+    "detection_timestamp": "2026-06-27T10:43:24.582283+00:00",
+    "last_seen": "2026-06-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-27",
         "url": "https://x.com/foritssake/status/2055850219040911862",
         "summary": "Initial detection",
         "platforms": [
