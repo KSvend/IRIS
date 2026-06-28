@@ -35140,7 +35140,7 @@
     "detected_by": "iris_classify_2026-05-29",
     "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
     "last_seen": "2026-05-29",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-29",
@@ -35217,7 +35217,7 @@
     "detected_by": "iris_classify_2026-05-29",
     "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
     "last_seen": "2026-05-29",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-29",
@@ -35289,7 +35289,7 @@
     "detected_by": "iris_classify_2026-05-29",
     "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
     "last_seen": "2026-05-29",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-29",
@@ -40444,6 +40444,157 @@
       {
         "date": "2026-06-27",
         "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-28-955",
+    "date": "2026-06-28",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-06-28"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-06-14-290",
+      "APF-2026-06-16-342",
+      "APF-2026-06-17-338",
+      "APF-2026-06-24-922",
+      "APF-2026-06-25-457",
+      "APF-2026-06-26-951"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-28",
+    "detection_timestamp": "2026-06-28T10:50:39.115923+00:00",
+    "last_seen": "2026-06-28",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-28",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-28-282",
+    "date": "2026-06-28",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Bitch shut the fuck up with the genocide lie lol you dumb dumbs can’t even articulate a genocide 🤣🤣🤣🤣🤣🤣🤣 Israel didn’t",
+    "summary": "Bitch shut the fuck up with the genocide lie lol you dumb dumbs can’t even articulate a genocide 🤣🤣🤣🤣🤣🤣🤣 Israel didn’t attack Hamas on October 7th. But bc they defended themselves, they are committing genocide 🤣🤣🤣🤣🤣 LAUGHABLE!.",
+    "actors": [
+      "@DimmieG1983"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/DimmieG1983/status/2071183116064997659",
+        "date": "2026-06-28"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-001",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "APF-2026-05-20-778",
+      "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
+      "APF-2026-06-09-533",
+      "APF-2026-06-12-387",
+      "APF-2026-06-20-144"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-28",
+    "detection_timestamp": "2026-06-28T10:50:39.115923+00:00",
+    "last_seen": "2026-06-28",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-28",
+        "url": "https://x.com/DimmieG1983/status/2071183116064997659",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
