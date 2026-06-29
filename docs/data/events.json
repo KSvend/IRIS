@@ -35527,7 +35527,7 @@
     "detected_by": "iris_classify_2026-05-30",
     "detection_timestamp": "2026-05-30T10:33:29.826489+00:00",
     "last_seen": "2026-05-30",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-30",
@@ -40603,5 +40603,247 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-29-327",
+    "date": "2026-06-29",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "What Is Zina? Zina, in Arabic, means immorality, and is used with two meanings in Shari`ah: a general meaning and a",
+    "summary": "What Is Zina? Zina, in Arabic, means immorality, and is used with two meanings in Shari`ah: a general meaning and a specific meaning. The general meaning includes that which carries the punishment (hadd) and that which does not carry it. Islam does n.",
+    "actors": [
+      "@halal_pair"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/halal_pair/status/2071328322663907808",
+        "date": "2026-06-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-06-02-722",
+      "APF-2026-06-14-456",
+      "APF-2026-06-15-522",
+      "APF-2026-06-16-242",
+      "APF-2026-06-18-437",
+      "APF-2026-06-19-621"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (mujahideen); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-29",
+    "detection_timestamp": "2026-06-29T13:07:44.892292+00:00",
+    "last_seen": "2026-06-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-29",
+        "url": "https://x.com/halal_pair/status/2071328322663907808",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-29-844",
+    "date": "2026-06-29",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "President Ruto’s Government is not just promising, it is transforming urban mobility across Kenya at an unprecedented",
+    "summary": "President Ruto’s Government is not just promising, it is transforming urban mobility across Kenya at an unprecedented pace.  Ngong Rd Flyover Spintex Ezekiel Mr speaker sir YUSUF OMAR Kenyatta National Hospital SOUTH AFRICA BBS MALL MACHAKOS Nyaga MP. 8 near-identical posts from 8 accounts suggest coordinated amplification.",
+    "actors": [
+      "@britflowz",
+      "@AtticRealtors",
+      "@Itsheatherke",
+      "@stewiiih",
+      "@AmiirKadar",
+      "@AthmanFaisal",
+      "@KizaKibabu",
+      "@theeokello"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/stewiiih/status/2071578498360078840",
+        "date": "2026-06-29"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-KE-004",
+      "NAR-KE-002"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-06-01-827",
+      "APF-2026-06-02-617",
+      "APF-2026-06-03-846",
+      "APF-2026-06-06-750",
+      "APF-2026-06-07-223"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-29",
+    "detection_timestamp": "2026-06-29T13:07:44.892292+00:00",
+    "last_seen": "2026-06-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-29",
+        "url": "https://x.com/stewiiih/status/2071578498360078840",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-29-613",
+    "date": "2026-06-29",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Analysis critiques Fahad Yasin's interview as a 'crafted narrative of victimhood'",
+    "summary": "An analysis by @foritssake (Liban) on X (Twitter) critiques Fahad Yasin's recent interview, asserting that his 'tell-all' account is a carefully crafted narrative of victimhood rather than a credible disclosure. This commentary scrutinizes the former NISA chief's public statements, highlighting concerns about their authenticity and intent.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-15-286",
+      "APF-2026-06-19-054",
+      "APF-2026-06-22-950",
+      "APF-2026-06-24-351",
+      "APF-2026-06-26-147",
+      "APF-2026-06-27-408"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-29",
+    "detection_timestamp": "2026-06-29T13:07:44.892292+00:00",
+    "last_seen": "2026-06-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-29",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview presents a carefully crafted narrative of victimhood rather than a credible disclosure."
+    ],
+    "_review_notes": "This event highlights critical scrutiny of public figures' narratives on social media, indicating a growing trend of analysis of political discourse in Somalia.",
+    "_reviewed": "2026-06-29T13:11:22.052326+00:00"
   }
 ]

@@ -1143,6 +1143,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "nisa",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Relevant organization to Fahad Yasin's past role.",
+          "date_added": "2026-06-29",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
