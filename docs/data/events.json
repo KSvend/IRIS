@@ -30215,7 +30215,12 @@
       "@BoardLotSultan",
       "@kenya_afa",
       "@CSBeatriceMoe",
-      "@MPyusufhassan"
+      "@MPyusufhassan",
+      "@Jenni_fer_0",
+      "@stewiiih",
+      "@hohehae_2",
+      "@Itsheatherke",
+      "@britflowz"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30335,6 +30340,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/BoardLotSultan/status/2070608173765890512",
         "date": "2026-06-27"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/GitobuKiogora/status/2071644734007705960",
+        "date": "2026-06-30"
       }
     ],
     "spread": 5,
@@ -30378,7 +30388,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-27",
+    "last_seen": "2026-06-30",
     "status": "active",
     "observations": [
       {
@@ -30587,9 +30597,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-06-30",
+        "url": "https://x.com/GitobuKiogora/status/2071644734007705960",
+        "summary": "#43against1: Amenya hapa umeuma nje! Kikuyus MUST reject leaders trying to isolate the community from the rest of Kenya led by the",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 23,
+    "observation_count": 24,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30598,6 +30617,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -35592,7 +35612,7 @@
     "detected_by": "iris_classify_2026-05-31",
     "detection_timestamp": "2026-05-31T10:41:55.130530+00:00",
     "last_seen": "2026-05-31",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-31",
@@ -35674,7 +35694,7 @@
     "detected_by": "iris_classify_2026-05-31",
     "detection_timestamp": "2026-05-31T10:41:55.130530+00:00",
     "last_seen": "2026-05-31",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-31",
@@ -35759,7 +35779,7 @@
     "detected_by": "iris_classify_2026-05-31",
     "detection_timestamp": "2026-05-31T10:41:55.130530+00:00",
     "last_seen": "2026-05-31",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-31",
@@ -40845,5 +40865,235 @@
     ],
     "_review_notes": "This event highlights critical scrutiny of public figures' narratives on social media, indicating a growing trend of analysis of political discourse in Somalia.",
     "_reviewed": "2026-06-29T13:11:22.052326+00:00"
+  },
+  {
+    "id": "APF-2026-06-30-002",
+    "date": "2026-06-30",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Counties across Kenya are competing for investment. How can Machakos stand out? Masaku Capital City, Eric Muli, and BBS",
+    "summary": "Counties across Kenya are competing for investment. How can Machakos stand out? Masaku Capital City, Eric Muli, and BBS Mall remain talking points. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "actors": [
+      "@stewiiih",
+      "@kamilar_h"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/kamilar_h/status/2071604972752408644",
+        "date": "2026-06-30"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-31-170",
+      "APF-2026-06-02-617",
+      "APF-2026-06-03-846",
+      "APF-2026-06-29-844",
+      "APF-2026-06-30-590"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-30",
+    "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
+    "last_seen": "2026-06-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-30",
+        "url": "https://x.com/kamilar_h/status/2071604972752408644",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-30-590",
+    "date": "2026-06-30",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "Imagine an NBA basketball arena and a 3D cinema right inside a Sh5.6B mall in Machakos! Billionaire Eric Muli is making",
+    "summary": "Imagine an NBA basketball arena and a 3D cinema right inside a Sh5.6B mall in Machakos! Billionaire Eric Muli is making it happen, building a space larger than the famous BBS mall. Masaku Capital City is setting a brand new standard for infrastructur. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "actors": [
+      "@MissAyla01",
+      "@IamBart_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MissAyla01/status/2071599864513749337",
+        "date": "2026-06-30"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-31-170",
+      "APF-2026-06-02-617",
+      "APF-2026-06-03-846",
+      "APF-2026-06-29-844",
+      "APF-2026-06-30-002"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-30",
+    "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
+    "last_seen": "2026-06-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-30",
+        "url": "https://x.com/MissAyla01/status/2071599864513749337",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-06-30-541",
+    "date": "2026-06-30",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-06-30"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-06-18-878",
+      "APF-2026-06-21-160",
+      "APF-2026-06-24-351",
+      "APF-2026-06-26-147",
+      "APF-2026-06-27-408",
+      "APF-2026-06-29-613"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-06-30",
+    "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
+    "last_seen": "2026-06-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-06-30",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
