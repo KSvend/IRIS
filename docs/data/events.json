@@ -36055,7 +36055,7 @@
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
     "last_seen": "2026-06-02",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-02",
@@ -36139,7 +36139,7 @@
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
     "last_seen": "2026-06-02",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-02",
@@ -41256,6 +41256,155 @@
     "observations": [
       {
         "date": "2026-07-01",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-02-902",
+    "date": "2026-07-02",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "DAY 6 OF THE 40-DAY CAMPAIGN: RUSSIA'S OFFENSIVE HAS COLLAPSED – ISW DATA EXPOSES A BLOODY STALEMATE 📉💥🇷🇺 While the",
+    "summary": "DAY 6 OF THE 40-DAY CAMPAIGN: RUSSIA'S OFFENSIVE HAS COLLAPSED – ISW DATA EXPOSES A BLOODY STALEMATE 📉💥🇷🇺 While the Kremlin continues to burn through its remaining strategic fuel reserves, the illusion of an unstoppable Russian steamroller has been c. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@jalle51"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/jalle51/status/2072639738641526850",
+        "date": "2026-07-02"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "ANNEX-012",
+      "ANNEX-030",
+      "APF-2026-03-23-204",
+      "APF-2026-04-27-805",
+      "APF-2026-05-20-116",
+      "APF-2026-06-03-947"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (000 casualties) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-02",
+    "detection_timestamp": "2026-07-02T11:26:30.196777+00:00",
+    "last_seen": "2026-07-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-02",
+        "url": "https://x.com/jalle51/status/2072639738641526850",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-02-853",
+    "date": "2026-07-02",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-07-02"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-06-20-544",
+      "APF-2026-06-24-922",
+      "APF-2026-06-25-457",
+      "APF-2026-06-26-951",
+      "APF-2026-06-28-955",
+      "APF-2026-07-01-420"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-02",
+    "detection_timestamp": "2026-07-02T11:26:30.196777+00:00",
+    "last_seen": "2026-07-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-02",
         "url": "https://x.com/PuntJubNews/status/1376951327331393536",
         "summary": "Initial detection",
         "platforms": [
