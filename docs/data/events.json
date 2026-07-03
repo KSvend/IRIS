@@ -36341,7 +36341,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-03",
@@ -36427,7 +36427,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-03",
@@ -36518,7 +36518,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-03",
@@ -36604,7 +36604,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-03",
@@ -41406,6 +41406,157 @@
       {
         "date": "2026-07-02",
         "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-03-700",
+    "date": "2026-07-03",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Remember when you covered up that murder and defended a genocide?",
+    "summary": "Remember when you covered up that murder and defended a genocide?.",
+    "actors": [
+      "@coincidendill"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/coincidendill/status/2073003620006522984",
+        "date": "2026-07-03"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-001",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
+      "APF-2026-06-09-533",
+      "APF-2026-06-12-387",
+      "APF-2026-06-20-144",
+      "APF-2026-06-28-282"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-03",
+    "detection_timestamp": "2026-07-03T11:27:15.852332+00:00",
+    "last_seen": "2026-07-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-03",
+        "url": "https://x.com/coincidendill/status/2073003620006522984",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-03-231",
+    "date": "2026-07-03",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-07-03"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-06-19-054",
+      "APF-2026-06-24-351",
+      "APF-2026-06-26-147",
+      "APF-2026-06-27-408",
+      "APF-2026-06-29-613",
+      "APF-2026-06-30-541"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-03",
+    "detection_timestamp": "2026-07-03T11:27:15.852332+00:00",
+    "last_seen": "2026-07-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-03",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
