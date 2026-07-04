@@ -36687,7 +36687,7 @@
     "detected_by": "iris_classify_2026-06-04",
     "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
     "last_seen": "2026-06-04",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-04",
@@ -36766,7 +36766,7 @@
     "detected_by": "iris_classify_2026-06-04",
     "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
     "last_seen": "2026-06-04",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-04",
@@ -36838,7 +36838,7 @@
     "detected_by": "iris_classify_2026-06-04",
     "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
     "last_seen": "2026-06-04",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-04",
@@ -41270,11 +41270,11 @@
     "id": "APF-2026-07-02-902",
     "date": "2026-07-02",
     "country": "Somalia",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "DAY 6 OF THE 40-DAY CAMPAIGN: RUSSIA'S OFFENSIVE HAS COLLAPSED – ISW DATA EXPOSES A BLOODY STALEMATE 📉💥🇷🇺 While the",
-    "summary": "DAY 6 OF THE 40-DAY CAMPAIGN: RUSSIA'S OFFENSIVE HAS COLLAPSED – ISW DATA EXPOSES A BLOODY STALEMATE 📉💥🇷🇺 While the Kremlin continues to burn through its remaining strategic fuel reserves, the illusion of an unstoppable Russian steamroller has been c. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Posts about Russia-Ukraine war, not Somalia-specific disinformation",
+    "summary": "An account on X (Twitter) posted content related to the Russia-Ukraine war, specifically discussing the perceived collapse of Russia's offensive based on ISW data. This content is not directly relevant to disinformation narratives within Somalia or East Africa.",
     "actors": [
       "@jalle51"
     ],
@@ -41341,7 +41341,12 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "DAY 6 OF THE 40-DAY CAMPAIGN: RUSSIA'S OFFENSIVE HAS COLLAPSED – ISW DATA EXPOSES A BLOODY STALEMATE 📉💥🇷🇺 While the",
+    "_original_summary": "DAY 6 OF THE 40-DAY CAMPAIGN: RUSSIA'S OFFENSIVE HAS COLLAPSED – ISW DATA EXPOSES A BLOODY STALEMATE 📉💥🇷🇺 While the Kremlin continues to burn through its remaining strategic fuel reserves, the illusion of an unstoppable Russian steamroller has been c. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "_review_notes": "This event appears to be a false positive. The content is about the Russia-Ukraine war and does not relate to disinformation in Somalia. It should be reclassified as CONTEXT and flagged for review of monitoring filters.",
+    "_reviewed": "2026-07-04T10:52:38.308330+00:00"
   },
   {
     "id": "APF-2026-07-02-853",
@@ -41349,9 +41354,9 @@
     "country": "Somalia",
     "event_type": "DISINFO",
     "disinfo_subtype": "deepfake",
-    "threat_level": "P3 MODERATE",
-    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
-    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "threat_level": "P2 HIGH",
+    "headline": "Bots fabricating audio of a Minister, doctoring statements from Puntland's President, and spreading lies about Bosaso Port",
+    "summary": "An account on X (Twitter) reported on a coordinated disinformation campaign involving bots. This campaign includes fabricating audio of a minister, doctoring statements from Puntland's President, spreading false claims about troops setting up roadblocks in Puntland, and disseminating lies about Bosaso Port. This indicates a multi-faceted and potentially impactful disinformation effort targeting key political figures and infrastructure in Puntland.",
     "actors": [
       "@PuntJubNews"
     ],
@@ -41413,7 +41418,17 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Bots are fabricating audio of a minister.",
+      "Bots are doctoring statements from Puntland's President.",
+      "Bots are spreading lies about troops setting up roadblocks in Puntland.",
+      "Bots are spreading lies about Bosaso Port."
+    ],
+    "_review_notes": "This event describes multiple, distinct disinformation tactics (fabricated audio, doctored statements, false claims about troops and infrastructure) targeting Puntland. The coordinated nature and impact on key figures/locations warrant a higher threat level.",
+    "_reviewed": "2026-07-04T10:52:38.308351+00:00"
   },
   {
     "id": "APF-2026-07-03-700",
@@ -41422,8 +41437,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "misinformation",
     "threat_level": "P3 MODERATE",
-    "headline": "Remember when you covered up that murder and defended a genocide?",
-    "summary": "Remember when you covered up that murder and defended a genocide?.",
+    "headline": "Claims of covering up murder and defending genocide",
+    "summary": "An account on X (Twitter) posted a highly inflammatory and accusatory statement, claiming that someone 'covered up that murder and defended a genocide.' While the specific target is not clear from the summary, this type of content is a direct false claim designed to incite strong negative reactions.",
     "actors": [
       "@coincidendill"
     ],
@@ -41492,7 +41507,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Remember when you covered up that murder and defended a genocide?",
+    "_original_summary": "Remember when you covered up that murder and defended a genocide?.",
+    "extracted_claims": [
+      "Someone covered up a murder and defended a genocide."
+    ],
+    "_review_notes": "This is a direct, severe accusation, likely a false claim, but the target is unclear. The headline and summary need to be more descriptive of the actual claim rather than just quoting it.",
+    "_reviewed": "2026-07-04T10:52:38.308357+00:00"
   },
   {
     "id": "APF-2026-07-03-231",
@@ -41501,8 +41523,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "foreign_propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
-    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "headline": "Fahad Yasin's interview analyzed as a 'carefully crafted narrative of victimhood'",
+    "summary": "An account on X (Twitter) published an analysis of Fahad Yasin's recent interview, characterizing his statements as a 'carefully crafted narrative of victimhood' rather than a credible account. This suggests a narrative attempting to discredit Yasin's public statements and portray them as manipulative.",
     "actors": [
       "@foritssake"
     ],
@@ -41564,6 +41586,251 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's interview is a carefully crafted narrative of victimhood, not a credible account."
+    ],
+    "_review_notes": "This event describes an attempt to discredit a public figure's statements by framing them as a manipulative 'victimhood narrative.' This is a form of disinformation aimed at influencing public perception of a political figure.",
+    "_reviewed": "2026-07-04T10:52:38.308361+00:00"
+  },
+  {
+    "id": "APF-2026-07-04-342",
+    "date": "2026-07-04",
+    "country": "Kenya",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Posts in Italian about George Soros, Islam, and fascism, not Kenya-specific disinformation",
+    "summary": "An account on X (Twitter) posted content in Italian discussing George Soros, Islam, and fascism, with references to Italy. This content appears to be a false positive, as it is not directly related to disinformation narratives within Kenya or East Africa.",
+    "actors": [
+      "@Significato9868"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Significato9868/status/2073356624064868657",
+        "date": "2026-07-04"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-05-18-124",
+      "APF-2026-05-31-053",
+      "APF-2026-06-05-837",
+      "APF-2026-06-09-042",
+      "APF-2026-06-22-411"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-04",
+    "detection_timestamp": "2026-07-04T10:49:07.629830+00:00",
+    "last_seen": "2026-07-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-04",
+        "url": "https://x.com/Significato9868/status/2073356624064868657",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "La dipendente di Soros, farà finire di stuprare l'Italia, agli Islam Akbar , per avere una manciata di voti , Per avere",
+    "_original_summary": "La dipendente di Soros, farà finire di stuprare l'Italia, agli Islam Akbar , per avere una manciata di voti , Per avere il potere. Per dire , Vi abbiamo salvato dal Fascismo, Poco prima di essere impiccata, Tra le risate degli Islam Akbar. Breve stor. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "_review_notes": "This event appears to be a false positive. The content is in Italian and discusses topics unrelated to Kenya or East African disinformation. It should be reclassified as CONTEXT and flagged for review of monitoring filters.",
+    "_reviewed": "2026-07-04T10:52:38.308366+00:00"
+  },
+  {
+    "id": "APF-2026-07-04-127",
+    "date": "2026-07-04",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims circulate about Somali referee Omar Artan receiving a warm welcome at BBS Mall with senior Kenyan officials.",
+    "summary": "Disinformation is circulating on X (Twitter) claiming that Somali referee Omar Artan received a warm welcome at BBS Mall in Kenya, attended by senior officials including FKF President Hussein and Kenya’s Health Cabinet Secretary Duale. This false narrative, observed across two posts, aims to create a misleading impression of official endorsement or a fabricated event involving high-profile figures.",
+    "actors": [
+      "@shiinetown"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/shiinetown/status/2073120042380673164",
+        "date": "2026-07-04"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-06-05-794",
+      "APF-2026-06-07-223",
+      "APF-2026-06-29-844",
+      "APF-2026-06-30-002",
+      "APF-2026-06-30-590"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-04",
+    "detection_timestamp": "2026-07-04T10:49:07.629830+00:00",
+    "last_seen": "2026-07-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-04",
+        "url": "https://x.com/shiinetown/status/2073120042380673164",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Somali referee Omar Artan received a warm welcome at BBS Mall in . The event was attended by senior officials,",
+    "_original_summary": "Somali referee Omar Artan received a warm welcome at BBS Mall in . The event was attended by senior officials, including FKF President Hussein&amp;Kenya’s Health Cabinet Secretary Duale,who honored him for his achievements &amp; contributions to Afri. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Somali referee Omar Artan received a warm welcome at BBS Mall in Kenya, attended by FKF President Hussein and Kenya’s Health Cabinet Secretary Duale, who honored him for his achievements."
+    ],
+    "_review_notes": "This event highlights the use of fabricated events involving public figures to spread disinformation, potentially impacting reputations or public perception and creating false narratives around official engagements.",
+    "_reviewed": "2026-07-04T10:52:57.579576+00:00"
+  },
+  {
+    "id": "APF-2026-07-04-300",
+    "date": "2026-07-04",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "Report details multiple disinformation campaigns targeting Puntland, including fabricated audio, doctored statements, and false claims about troops and ports.",
+    "summary": "An account on X (Twitter) reported on a series of disinformation campaigns targeting Puntland over the past two weeks. These campaigns, attributed to 'bots,' include fabricating audio of a Minister, doctoring a statement from Puntland's President, spreading false claims about troops setting up roadblocks, and disseminating lies about a port in Puntland. This indicates a coordinated effort to destabilize or misinform the public regarding governance and security in the region.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-07-04"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-06-24-922",
+      "APF-2026-06-25-457",
+      "APF-2026-06-26-951",
+      "APF-2026-06-28-955",
+      "APF-2026-07-01-420",
+      "APF-2026-07-02-853"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-04",
+    "detection_timestamp": "2026-07-04T10:49:07.629830+00:00",
+    "last_seen": "2026-07-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-04",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Fabricated audio of a Minister in Puntland.",
+      "Doctored statement from Puntland's President.",
+      "False claims about troops setting up roadblocks in Puntland.",
+      "False claims about a Port in Puntland."
+    ],
+    "_review_notes": "This event highlights a multi-faceted and potentially coordinated disinformation campaign targeting critical government figures and infrastructure in Puntland, utilizing advanced techniques like fabricated audio and doctored statements. This suggests a sophisticated actor and a high potential for impact.",
+    "_reviewed": "2026-07-04T10:52:57.579600+00:00"
   }
 ]

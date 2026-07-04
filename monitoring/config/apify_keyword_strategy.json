@@ -1153,6 +1153,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "bosaso port",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific infrastructure targeted by disinformation.",
+          "date_added": "2026-07-04",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "fabricated audio",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Method of disinformation.",
+          "date_added": "2026-07-04",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "genocide defense",
+          "country": "South Sudan",
+          "source": "event_review_extraction",
+          "reason": "Specific, severe accusation.",
+          "date_added": "2026-07-04",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

@@ -1,0 +1,222 @@
+{
+  "date": "2026-07-04",
+  "extracted_claims": [
+    {
+      "claim": "Bots are fabricating audio of a minister.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "minister"
+      ]
+    },
+    {
+      "claim": "Bots are doctoring statements from Puntland's President.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Bots are spreading lies about troops setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "roadblocks",
+        "Puntland",
+        "troops"
+      ]
+    },
+    {
+      "claim": "Bots are spreading lies about Bosaso Port.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "Bosaso Port",
+        "lies"
+      ]
+    },
+    {
+      "claim": "Someone covered up a murder and defended a genocide.",
+      "country": "South Sudan",
+      "actors": [
+        "@coincidendill"
+      ],
+      "keywords": [
+        "murder cover-up",
+        "genocide defense"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's interview is a carefully crafted narrative of victimhood, not a credible account.",
+      "country": "Regional",
+      "actors": [
+        "@foritssake"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "victimhood narrative",
+        "discredit"
+      ]
+    },
+    {
+      "claim": "Somali referee Omar Artan received a warm welcome at BBS Mall in Kenya, attended by FKF President Hussein and Kenya\u2019s Health Cabinet Secretary Duale, who honored him for his achievements.",
+      "country": "Kenya",
+      "actors": [
+        "@shiinetown"
+      ],
+      "keywords": [
+        "Omar Artan",
+        "BBS Mall",
+        "FKF President Hussein",
+        "Duale",
+        "Health Cabinet Secretary"
+      ]
+    },
+    {
+      "claim": "Fabricated audio of a Minister in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "Minister",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Doctored statement from Puntland's President.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "False claims about troops setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "False claims about a Port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots"
+      ],
+      "keywords": [
+        "Port",
+        "Puntland"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Bosaso Port",
+      "country": "Somalia",
+      "reason": "Specific infrastructure targeted by disinformation."
+    },
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific political figure targeted by disinformation."
+    },
+    {
+      "keyword": "fabricated audio",
+      "country": "Somalia",
+      "reason": "Method of disinformation."
+    },
+    {
+      "keyword": "doctored statement",
+      "country": "Somalia",
+      "reason": "Method of disinformation."
+    },
+    {
+      "keyword": "genocide defense",
+      "country": "South Sudan",
+      "reason": "Specific, severe accusation."
+    },
+    {
+      "keyword": "murder cover-up",
+      "country": "South Sudan",
+      "reason": "Specific, severe accusation."
+    },
+    {
+      "keyword": "Fahad Yasin",
+      "country": "Regional",
+      "reason": "Key political figure often subject to disinformation."
+    },
+    {
+      "keyword": "victimhood narrative",
+      "country": "Regional",
+      "reason": "Specific type of narrative being spread."
+    },
+    {
+      "keyword": "Omar Artan",
+      "country": "Kenya",
+      "reason": "Specific individual central to the false claim."
+    },
+    {
+      "keyword": "BBS Mall",
+      "country": "Kenya",
+      "reason": "Specific location mentioned in the false claim."
+    },
+    {
+      "keyword": "FKF President Hussein",
+      "country": "Kenya",
+      "reason": "Specific official falsely implicated."
+    },
+    {
+      "keyword": "Duale",
+      "country": "Kenya",
+      "reason": "Specific official falsely implicated."
+    },
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific official targeted by disinformation."
+    },
+    {
+      "keyword": "Puntland Minister",
+      "country": "Somalia",
+      "reason": "Specific official targeted by disinformation."
+    },
+    {
+      "keyword": "Puntland Port",
+      "country": "Somalia",
+      "reason": "Specific infrastructure targeted by disinformation."
+    },
+    {
+      "keyword": "fabricated audio",
+      "country": "Somalia",
+      "reason": "Specific disinformation technique identified."
+    },
+    {
+      "keyword": "doctored statement",
+      "country": "Somalia",
+      "reason": "Specific disinformation technique identified."
+    }
+  ],
+  "events_reviewed": 7,
+  "events_reclassified": 3
+}
