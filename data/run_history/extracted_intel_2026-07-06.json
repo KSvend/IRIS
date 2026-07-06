@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-06",
+  "extracted_claims": [
+    {
+      "claim": "Fahad Yasin's recent interview presents a 'carefully crafted narrative of victimhood' rather than credible information.",
+      "country": "Somalia",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "interview",
+        "victimhood"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Fahad Yasin",
+      "country": "Somalia",
+      "reason": "Key political figure whose statements are subject to analysis and potential disinformation."
+    },
+    {
+      "keyword": "Liban",
+      "country": "Somalia",
+      "reason": "Actor/entity providing critical analysis, potentially a source of context or counter-disinformation."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}

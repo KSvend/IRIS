@@ -37139,7 +37139,7 @@
     "detected_by": "iris_classify_2026-06-06",
     "detection_timestamp": "2026-06-06T10:41:13.026779+00:00",
     "last_seen": "2026-06-06",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-06",
@@ -37218,7 +37218,7 @@
     "detected_by": "iris_classify_2026-06-06",
     "detection_timestamp": "2026-06-06T10:41:13.026779+00:00",
     "last_seen": "2026-06-06",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-06",
@@ -41832,5 +41832,85 @@
     ],
     "_review_notes": "This event highlights a multi-faceted and potentially coordinated disinformation campaign targeting critical government figures and infrastructure in Puntland, utilizing advanced techniques like fabricated audio and doctored statements. This suggests a sophisticated actor and a high potential for impact.",
     "_reviewed": "2026-07-04T10:52:57.579600+00:00"
+  },
+  {
+    "id": "APF-2026-07-06-432",
+    "date": "2026-07-06",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Social media analysis critiques Fahad Yasin's interview as a 'narrative of victimhood'",
+    "summary": "An analysis posted on X (Twitter) by @foritssake critically examines Fahad Yasin's recent interview, asserting that his statements constitute a 'carefully crafted narrative of victimhood' rather than a credible account. The analysis questions the authenticity of Yasin's 'tell-all' interview, suggesting it aims to portray him as a victim.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-07-06"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-24-351",
+      "APF-2026-06-26-147",
+      "APF-2026-06-27-408",
+      "APF-2026-06-29-613",
+      "APF-2026-06-30-541",
+      "APF-2026-07-03-231"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-06",
+    "detection_timestamp": "2026-07-06T12:38:20.085651+00:00",
+    "last_seen": "2026-07-06",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-06",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview presents a 'carefully crafted narrative of victimhood' rather than credible information."
+    ],
+    "_review_notes": "This event highlights critical scrutiny of prominent political figures' public statements, indicating a public discourse around the credibility and intent behind such narratives. It serves as a form of counter-narrative or critical analysis.",
+    "_reviewed": "2026-07-06T12:41:58.981815+00:00"
   }
 ]
