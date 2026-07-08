@@ -37468,7 +37468,7 @@
     "detected_by": "iris_classify_2026-06-08",
     "detection_timestamp": "2026-06-08T12:59:03.456372+00:00",
     "last_seen": "2026-06-08",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-08",
@@ -37559,7 +37559,7 @@
     "detected_by": "iris_classify_2026-06-08",
     "detection_timestamp": "2026-06-08T12:59:03.456372+00:00",
     "last_seen": "2026-06-08",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-08",
@@ -37639,7 +37639,7 @@
     "detected_by": "iris_classify_2026-06-08",
     "detection_timestamp": "2026-06-08T12:59:03.456372+00:00",
     "last_seen": "2026-06-08",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-08",
@@ -41912,5 +41912,287 @@
     ],
     "_review_notes": "This event highlights critical scrutiny of prominent political figures' public statements, indicating a public discourse around the credibility and intent behind such narratives. It serves as a form of counter-narrative or critical analysis.",
     "_reviewed": "2026-07-06T12:41:58.981815+00:00"
+  },
+  {
+    "id": "APF-2026-07-08-746",
+    "date": "2026-07-08",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Obama-Bidens USAID and Soros bankrolls extremist NGOs that fuel riots, destabilize governments, and erode national",
+    "summary": "Obama-Bidens USAID and Soros bankrolls extremist NGOs that fuel riots, destabilize governments, and erode national identities.Soros funds rogue prosecutors in the U.S. who let criminals walk free while punishing law-abiding citizens. The left hates T. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@AmitofuNFSC"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AmitofuNFSC/status/2074805977329930370",
+        "date": "2026-07-08"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a",
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-04-23-676",
+      "APF-2026-04-27-242",
+      "APF-2026-04-30-393",
+      "APF-2026-07-01-420",
+      "APF-2026-07-02-853",
+      "APF-2026-07-08-074"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-08",
+    "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
+    "last_seen": "2026-07-08",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-08",
+        "url": "https://x.com/AmitofuNFSC/status/2074805977329930370",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-08-339",
+    "date": "2026-07-08",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "🙏 LASCIATE IN PACE I BAMBINI 🙏 #PRIDE #LGBTQI #PD #SOROS #PARTITODEMOCRATICO #CGIL #ANPI #ADOZIONIGAY",
+    "summary": "🙏 LASCIATE IN PACE I BAMBINI 🙏 #PRIDE #LGBTQI #PD #SOROS #PARTITODEMOCRATICO #CGIL #ANPI #ADOZIONIGAY #MATERNITÀSURROGATA #FAMIGLIEARCOBALENO. 7 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "actors": [
+      "@Eric57017912"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Eric57017912/status/2074806010032603219",
+        "date": "2026-07-08"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-05-17-149",
+      "APF-2026-06-05-837",
+      "APF-2026-06-09-042",
+      "APF-2026-06-22-411",
+      "APF-2026-07-04-342"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-08",
+    "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
+    "last_seen": "2026-07-08",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-08",
+        "url": "https://x.com/Eric57017912/status/2074806010032603219",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-08-423",
+    "date": "2026-07-08",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Macron est allé à Damas soutenir un chef islamiste Rappel : Pendant plus de cinquante ans, la Syrie sous Hafez puis",
+    "summary": "Macron est allé à Damas soutenir un chef islamiste Rappel : Pendant plus de cinquante ans, la Syrie sous Hafez puis Bachar el-Assad a été un pilier de la résistance contre Israël et sa volonté expansionniste. C’était un régime nationaliste, socialist. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "actors": [
+      "@IIFBS_",
+      "@PGannat"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PGannat/status/2074627652275630117",
+        "date": "2026-07-08"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-06-14-456",
+      "APF-2026-06-15-522",
+      "APF-2026-06-16-242",
+      "APF-2026-06-18-437",
+      "APF-2026-06-19-621",
+      "APF-2026-06-29-327"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-08",
+    "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
+    "last_seen": "2026-07-08",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-08",
+        "url": "https://x.com/PGannat/status/2074627652275630117",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-08-074",
+    "date": "2026-07-08",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-07-08"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-06-24-922",
+      "APF-2026-06-28-955",
+      "APF-2026-07-01-420",
+      "APF-2026-07-02-853",
+      "APF-2026-07-04-300",
+      "APF-2026-07-08-746"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-08",
+    "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
+    "last_seen": "2026-07-08",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-08",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
