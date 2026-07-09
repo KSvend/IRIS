@@ -37714,7 +37714,7 @@
     "detected_by": "iris_classify_2026-06-09",
     "detection_timestamp": "2026-06-09T11:54:04.886443+00:00",
     "last_seen": "2026-06-09",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-09",
@@ -37800,7 +37800,7 @@
     "detected_by": "iris_classify_2026-06-09",
     "detection_timestamp": "2026-06-09T11:54:04.886443+00:00",
     "last_seen": "2026-06-09",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-09",
@@ -42194,5 +42194,164 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-09-986",
+    "date": "2026-07-09",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-07-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-06-25-457",
+      "APF-2026-06-26-951",
+      "APF-2026-06-28-955",
+      "APF-2026-07-02-853",
+      "APF-2026-07-04-300",
+      "APF-2026-07-08-074"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-09",
+    "detection_timestamp": "2026-07-09T11:42:09.954826+00:00",
+    "last_seen": "2026-07-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-09",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-09-036",
+    "date": "2026-07-09",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "X user spreads anti-Muslim rhetoric and claims Israel acted in self-defense",
+    "summary": "An X (Twitter) user, @LoriBedford12, posted inflammatory content regarding the Israel-Palestine conflict, asserting that Israel's actions were purely self-defense and criticizing 'Muslims' for perceived threats. This event is misclassified as related to South Sudan and falls outside the platform's East Africa monitoring scope.",
+    "actors": [
+      "@LoriBedford12"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LoriBedford12/status/2075180980520776024",
+        "date": "2026-07-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-005",
+      "NAR-SS-001",
+      "NAR-SS-002"
+    ],
+    "related_events": [
+      "APF-2026-05-20-778",
+      "APF-2026-06-09-533",
+      "APF-2026-06-12-387",
+      "APF-2026-06-20-144",
+      "APF-2026-06-28-282",
+      "APF-2026-07-03-700"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-09",
+    "detection_timestamp": "2026-07-09T11:42:09.954826+00:00",
+    "last_seen": "2026-07-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-09",
+        "url": "https://x.com/LoriBedford12/status/2075180980520776024",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "You don't know what genocide is. You attacked, Israel defended itself, just like the rest of us will. You do not get to",
+    "_original_summary": "You don't know what genocide is. You attacked, Israel defended itself, just like the rest of us will. You do not get to go to countries and threaten the lives of it's people. The more Muslims do, the more we fight back. Enjoy yourselves.",
+    "extracted_claims": [
+      "Israel's actions in the conflict are purely defensive and justified, not genocidal.",
+      "Muslims are inherently aggressive and threaten lives, necessitating a 'fight back'."
+    ],
+    "_review_notes": "This event is misclassified as pertaining to South Sudan and East Africa. The content is entirely focused on the Israel-Palestine conflict and should be filtered out as out of scope for the MERLx IRIS platform.",
+    "_reviewed": "2026-07-09T11:46:13.652363+00:00"
   }
 ]
