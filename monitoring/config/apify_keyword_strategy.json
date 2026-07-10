@@ -1183,6 +1183,46 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "puntland fabricated audio",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific false claim about a minister.",
+          "date_added": "2026-07-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland doctored statement",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific false claim about the President.",
+          "date_added": "2026-07-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland troop roadblocks",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific false claim about military activity.",
+          "date_added": "2026-07-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland port false claims",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific false claim about critical infrastructure.",
+          "date_added": "2026-07-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

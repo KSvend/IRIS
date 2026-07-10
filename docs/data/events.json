@@ -42353,5 +42353,87 @@
     ],
     "_review_notes": "This event is misclassified as pertaining to South Sudan and East Africa. The content is entirely focused on the Israel-Palestine conflict and should be filtered out as out of scope for the MERLx IRIS platform.",
     "_reviewed": "2026-07-09T11:46:13.652363+00:00"
+  },
+  {
+    "id": "APF-2026-07-10-308",
+    "date": "2026-07-10",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "Disinformation campaign targets Puntland with fabricated Minister audio, doctored President statement, and false reports on troop movements and port.",
+    "summary": "Over the past two weeks, a series of false claims have been disseminated in Somalia, particularly targeting Puntland. These include fabricated audio attributed to a minister, a doctored official statement from the Puntland President, and false reports of troops establishing roadblocks. Most recently, disinformation has emerged concerning a port in Puntland. These coordinated efforts aim to sow confusion and undermine trust in regional authorities.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-07-10"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-06-26-951",
+      "APF-2026-06-28-955",
+      "APF-2026-07-01-420",
+      "APF-2026-07-04-300",
+      "APF-2026-07-08-074",
+      "APF-2026-07-09-986"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-10",
+    "detection_timestamp": "2026-07-10T11:43:29.081162+00:00",
+    "last_seen": "2026-07-10",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-10",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Fabricated audio attributed to a minister in Puntland.",
+      "A doctored official statement from the Puntland President.",
+      "False reports of troops establishing roadblocks in Puntland.",
+      "False information concerning a port in Puntland."
+    ],
+    "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting key political figures and infrastructure in Puntland, indicating a sophisticated and sustained effort to destabilize the region. The use of fabricated audio and doctored documents suggests a higher level of intent and potential impact.",
+    "_reviewed": "2026-07-10T11:47:36.543327+00:00"
   }
 ]
