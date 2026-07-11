@@ -1,0 +1,95 @@
+{
+  "date": "2026-07-11",
+  "extracted_claims": [
+    {
+      "claim": "An audio recording attributed to a Somali Minister is authentic.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "minister"
+      ]
+    },
+    {
+      "claim": "A statement from Puntland's President is authentic.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Specific false information about a port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "port",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's statements in his recent interview are credible and truthful.",
+      "country": "Regional",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin interview"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin is a victim of circumstances.",
+      "country": "Regional",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "victimhood narrative"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation."
+    },
+    {
+      "keyword": "Bosaso Port",
+      "country": "Somalia",
+      "reason": "Likely specific port targeted by disinformation in Puntland."
+    },
+    {
+      "keyword": "Fahad Yasin interview",
+      "country": "Regional",
+      "reason": "Specific event being analyzed for potential disinformation."
+    },
+    {
+      "keyword": "Liban",
+      "country": "Regional",
+      "reason": "Specific actor/perspective providing the analysis."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 1
+}
