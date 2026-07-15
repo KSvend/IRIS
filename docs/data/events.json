@@ -38551,7 +38551,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-15",
@@ -38628,7 +38628,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-15",
@@ -38705,7 +38705,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-15",
@@ -38777,7 +38777,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-15",
@@ -42901,5 +42901,156 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-15-267",
+    "date": "2026-07-15",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-07-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-07-01-420",
+      "APF-2026-07-04-300",
+      "APF-2026-07-08-074",
+      "APF-2026-07-09-986",
+      "APF-2026-07-10-308",
+      "APF-2026-07-11-301"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-15",
+    "detection_timestamp": "2026-07-15T10:35:17.827389+00:00",
+    "last_seen": "2026-07-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-15",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-15-135",
+    "date": "2026-07-15",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Fahad Yasin's interview criticized for presenting a misleading narrative of victimhood",
+    "summary": "A recent interview by prominent Somali politician Fahad Yasin, breaking years of silence, is being critically assessed as a carefully crafted narrative of victimhood rather than a credible account. The analysis suggests Yasin's statements aim to manipulate public perception, raising concerns about the spread of misleading information from a high-profile actor.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-07-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-06-17-937",
+      "APF-2026-06-21-160",
+      "APF-2026-07-03-231",
+      "APF-2026-07-06-432",
+      "APF-2026-07-11-401",
+      "APF-2026-07-13-959"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-15",
+    "detection_timestamp": "2026-07-15T10:35:17.827389+00:00",
+    "last_seen": "2026-07-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-15",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview presents a carefully crafted narrative of victimhood that lacks credibility."
+    ],
+    "_review_notes": "This event highlights attempts by a high-profile Somali political figure to shape public narrative through potentially misleading claims, underscoring the political sensitivity of disinformation in Somalia.",
+    "_reviewed": "2026-07-15T10:39:40.702712+00:00"
   }
 ]
