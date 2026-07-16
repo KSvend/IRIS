@@ -30139,7 +30139,7 @@
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
     "last_seen": "2026-04-17",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-03-23",
@@ -34003,7 +34003,7 @@
     "detected_by": "iris_classify_2026-05-22",
     "detection_timestamp": "2026-05-22T11:35:54.647680+00:00",
     "last_seen": "2026-06-16",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-22",
@@ -38855,7 +38855,7 @@
     "detected_by": "iris_classify_2026-06-16",
     "detection_timestamp": "2026-06-16T13:25:50.907136+00:00",
     "last_seen": "2026-06-16",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-16",
@@ -38927,7 +38927,7 @@
     "detected_by": "iris_classify_2026-06-16",
     "detection_timestamp": "2026-06-16T13:25:50.907136+00:00",
     "last_seen": "2026-06-16",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-16",
@@ -43052,5 +43052,77 @@
     ],
     "_review_notes": "This event highlights attempts by a high-profile Somali political figure to shape public narrative through potentially misleading claims, underscoring the political sensitivity of disinformation in Somalia.",
     "_reviewed": "2026-07-15T10:39:40.702712+00:00"
+  },
+  {
+    "id": "APF-2026-07-16-104",
+    "date": "2026-07-16",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-07-16"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-06-19-054",
+      "APF-2026-07-03-231",
+      "APF-2026-07-06-432",
+      "APF-2026-07-11-401",
+      "APF-2026-07-13-959",
+      "APF-2026-07-15-135"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-16",
+    "detection_timestamp": "2026-07-16T10:38:56.304996+00:00",
+    "last_seen": "2026-07-16",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-16",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
