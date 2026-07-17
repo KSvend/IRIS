@@ -39094,7 +39094,7 @@
     "detected_by": "iris_classify_2026-06-17",
     "detection_timestamp": "2026-06-17T12:47:59.411627+00:00",
     "last_seen": "2026-06-17",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-17",
@@ -43057,11 +43057,11 @@
     "id": "APF-2026-07-16-104",
     "date": "2026-07-16",
     "country": "Regional",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "foreign_propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
-    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "headline": "Analysis critiques Fahad Yasin's interview as a 'crafted narrative of victimhood'",
+    "summary": "An analysis by 'Liban' critically examines Fahad Yasin's recent interview, asserting that his statements constitute a 'carefully crafted narrative of victimhood' rather than a credible account. The analysis suggests Yasin's public appearance, after years of silence, aims to portray him as a victim.",
     "actors": [
       "@foritssake"
     ],
@@ -43123,6 +43123,189 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's interview presents a carefully crafted narrative of victimhood rather than a credible account."
+    ],
+    "_review_notes": "This event provides critical analysis of a prominent Somali political figure's public statements, identifying potential disinformation tactics. It's important to monitor such analyses to understand how disinformation is being challenged or exposed.",
+    "_reviewed": "2026-07-17T10:34:36.869441+00:00"
+  },
+  {
+    "id": "APF-2026-07-17-330",
+    "date": "2026-07-17",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "Coordinated campaign claims BBC incites chaos and undermines Kenya's progress with hashtags #BBCForChaos and #BloodParliament",
+    "summary": "A coordinated disinformation campaign on X (Twitter) involving 22 accounts is spreading claims that the BBC actively incites chaos and undermines Kenya's development. Posts, many near-identical, accuse the BBC of focusing solely on negative events and ignoring national progress, using hashtags such as #BBCForChaos, #BloodParliament, and #ChaosCartel. This suggests an organized effort to discredit the BBC's reporting in Kenya.",
+    "actors": [
+      "@Merc13Nyambura",
+      "@TabbyKanyungu",
+      "@OpaLoungeRongai",
+      "@iamthevillager",
+      "@_helady_",
+      "@Mastermastin_GO",
+      "@TixWithTanli",
+      "@OmarJuma001",
+      "@Yasirarafat2520",
+      "@Mista_254"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "date": "2026-07-17"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-04-28-701",
+      "APF-2026-05-22-618",
+      "APF-2026-05-30-681",
+      "MON-2026-03-16-010"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bbcforchaos, #bloodparliament. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-17",
+    "detection_timestamp": "2026-07-17T10:30:11.882379+00:00",
+    "last_seen": "2026-07-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-17",
+        "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "#BBCForChaos, #BloodParliament: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+    "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 29 near-identical posts from 22 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ChaosCartel.",
+    "extracted_claims": [
+      "BBC incites chaos and division in Kenya.",
+      "BBC ignores Kenya's progress and only focuses on negative events/suffering."
+    ],
+    "_review_notes": "This event highlights a coordinated effort to discredit a major international media outlet in Kenya, potentially aimed at controlling narratives around sensitive political or social issues. The use of specific hashtags indicates a targeted campaign.",
+    "_reviewed": "2026-07-17T10:34:36.869460+00:00"
+  },
+  {
+    "id": "APF-2026-07-17-326",
+    "date": "2026-07-17",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Analysis critiques Fahad Yasin's interview as a 'crafted narrative of victimhood'",
+    "summary": "An analysis by 'Liban' critically examines Fahad Yasin's recent interview, asserting that his statements constitute a 'carefully crafted narrative of victimhood' rather than a credible account. The analysis suggests Yasin's public appearance, after years of silence, aims to portray him as a victim.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-07-17"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-07-03-231",
+      "APF-2026-07-06-432",
+      "APF-2026-07-11-401",
+      "APF-2026-07-13-959",
+      "APF-2026-07-15-135",
+      "APF-2026-07-16-104"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-17",
+    "detection_timestamp": "2026-07-17T10:30:11.882379+00:00",
+    "last_seen": "2026-07-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-17",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's interview presents a carefully crafted narrative of victimhood rather than a credible account."
+    ],
+    "_review_notes": "This event provides critical analysis of a prominent Somali political figure's public statements, identifying potential disinformation tactics. It's important to monitor such analyses to understand how disinformation is being challenged or exposed.",
+    "_reviewed": "2026-07-17T10:34:36.869467+00:00"
   }
 ]

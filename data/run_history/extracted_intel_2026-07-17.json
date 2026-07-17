@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-17",
+  "extracted_claims": [
+    {
+      "claim": "Fahad Yasin's interview presents a carefully crafted narrative of victimhood rather than a credible account.",
+      "country": "Somalia",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "victimhood narrative"
+      ]
+    },
+    {
+      "claim": "BBC incites chaos and division in Kenya.",
+      "country": "Kenya",
+      "actors": [
+        "@Merc13Nyambura",
+        "@TabbyKanyungu",
+        "@OpaLoungeRongai",
+        "@iamthevillager",
+        "_helady_"
+      ],
+      "keywords": [
+        "BBC",
+        "chaos",
+        "incitement",
+        "Kenya"
+      ]
+    },
+    {
+      "claim": "BBC ignores Kenya's progress and only focuses on negative events/suffering.",
+      "country": "Kenya",
+      "actors": [
+        "@Merc13Nyambura",
+        "@TabbyKanyungu",
+        "@OpaLoungeRongai",
+        "@iamthevillager",
+        "_helady_"
+      ],
+      "keywords": [
+        "BBC",
+        "Kenya's progress",
+        "negative reporting"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's interview presents a carefully crafted narrative of victimhood rather than a credible account.",
+      "country": "Somalia",
+      "actors": [
+        "Fahad Yasin"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "victimhood narrative"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Fahad Yasin",
+      "country": "Somalia",
+      "reason": "Key political figure whose statements are being analyzed for disinformation."
+    },
+    {
+      "keyword": "Liban",
+      "country": "Regional",
+      "reason": "The named analyst providing the critical perspective."
+    },
+    {
+      "keyword": "victimhood narrative",
+      "country": "Regional",
+      "reason": "A specific disinformation tactic identified in the analysis."
+    },
+    {
+      "keyword": "#BBCForChaos",
+      "country": "Kenya",
+      "reason": "Specific hashtag used in the disinformation campaign."
+    },
+    {
+      "keyword": "#BloodParliament",
+      "country": "Kenya",
+      "reason": "Specific hashtag used in the disinformation campaign."
+    },
+    {
+      "keyword": "#ChaosCartel",
+      "country": "Kenya",
+      "reason": "Specific hashtag used in the disinformation campaign."
+    },
+    {
+      "keyword": "BBC Kenya",
+      "country": "Kenya",
+      "reason": "To narrow down BBC mentions to the Kenyan context."
+    },
+    {
+      "keyword": "Fahad Yasin",
+      "country": "Somalia",
+      "reason": "Key political figure whose statements are being analyzed for disinformation."
+    },
+    {
+      "keyword": "Liban",
+      "country": "Regional",
+      "reason": "The named analyst providing the critical perspective."
+    },
+    {
+      "keyword": "victimhood narrative",
+      "country": "Regional",
+      "reason": "A specific disinformation tactic identified in the analysis."
+    }
+  ],
+  "events_reviewed": 3,
+  "events_reclassified": 2
+}
