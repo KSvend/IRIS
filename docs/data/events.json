@@ -30241,7 +30241,12 @@
       "@stewiiih",
       "@hohehae_2",
       "@Itsheatherke",
-      "@britflowz"
+      "@britflowz",
+      "@VeroneJoseph3",
+      "@RadioGenKe",
+      "@timothyturunga",
+      "@SONNALIVE",
+      "@jelle_bashir"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30366,6 +30371,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/GitobuKiogora/status/2071644734007705960",
         "date": "2026-06-30"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/rtgdigital/status/2077439374166241303",
+        "date": "2026-07-18"
       }
     ],
     "spread": 5,
@@ -30409,7 +30419,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-06-30",
+    "last_seen": "2026-07-18",
     "status": "active",
     "observations": [
       {
@@ -30627,9 +30637,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-07-18",
+        "url": "https://x.com/rtgdigital/status/2077439374166241303",
+        "summary": "#43against1: Somali international referee Omar Abdulkadir Artan was warmly received in Kenya during a special event at BBS Mall in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 24,
+    "observation_count": 25,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30638,6 +30657,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -43152,7 +43172,13 @@
       "@TixWithTanli",
       "@OmarJuma001",
       "@Yasirarafat2520",
-      "@Mista_254"
+      "@Mista_254",
+      "@Magjujke",
+      "@yokuty12",
+      "@KKCommetary",
+      "@PeterKariukiKE",
+      "@BiancaNaom1",
+      "@CatalystKe1"
     ],
     "platforms": [
       "X (Twitter)"
@@ -43162,6 +43188,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
         "date": "2026-07-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/KKCommetary/status/1938190220937335072",
+        "date": "2026-07-18"
       }
     ],
     "spread": 5,
@@ -43205,7 +43236,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-07-17",
     "detection_timestamp": "2026-07-17T10:30:11.882379+00:00",
-    "last_seen": "2026-07-17",
+    "last_seen": "2026-07-18",
     "status": "active",
     "observations": [
       {
@@ -43216,9 +43247,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-07-18",
+        "url": "https://x.com/KKCommetary/status/1938190220937335072",
+        "summary": "#ChaosCartel: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_headline": "#BBCForChaos, #BloodParliament: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
     "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 29 near-identical posts from 22 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ChaosCartel.",
     "extracted_claims": [
@@ -43226,7 +43266,10 @@
       "BBC ignores Kenya's progress and only focuses on negative events/suffering."
     ],
     "_review_notes": "This event highlights a coordinated effort to discredit a major international media outlet in Kenya, potentially aimed at controlling narratives around sensitive political or social issues. The use of specific hashtags indicates a targeted campaign.",
-    "_reviewed": "2026-07-17T10:34:36.869460+00:00"
+    "_reviewed": "2026-07-17T10:34:36.869460+00:00",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-07-17-326",
