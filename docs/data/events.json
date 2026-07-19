@@ -43350,5 +43350,89 @@
     ],
     "_review_notes": "This event provides critical analysis of a prominent Somali political figure's public statements, identifying potential disinformation tactics. It's important to monitor such analyses to understand how disinformation is being challenged or exposed.",
     "_reviewed": "2026-07-17T10:34:36.869467+00:00"
+  },
+  {
+    "id": "APF-2026-07-19-900",
+    "date": "2026-07-19",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Post misrepresents Islamic teachings on tolerance by selectively quoting religious texts",
+    "summary": "An X (Twitter) account, @DsmCourrier, posted content that appears to misrepresent Islamic teachings regarding tolerance. The post quotes from 'Turan Dursun Din Bu-1: Tanrı ve Kuran' and questions whether Islam is a religion of tolerance, potentially using selective interpretations of Quranic verses. This type of content can fuel religious intolerance and division in Somalia.",
+    "actors": [
+      "@DsmCourrier"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/DsmCourrier/status/2078723243238691226",
+        "date": "2026-07-19"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-04-24-851",
+      "APF-2026-06-15-522",
+      "APF-2026-06-16-242",
+      "APF-2026-06-19-621",
+      "APF-2026-06-29-327",
+      "APF-2026-07-08-423"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-19",
+    "detection_timestamp": "2026-07-19T10:17:12.246483+00:00",
+    "last_seen": "2026-07-19",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-19",
+        "url": "https://x.com/DsmCourrier/status/2078723243238691226",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Turan Dursun Din Bu-1 : Tanrı ve Kuran Pages 201-202 L’islam est-il une religion de « tolérance » ? Si l’on se réfère à",
+    "_original_summary": "Turan Dursun Din Bu-1 : Tanrı ve Kuran Pages 201-202 L’islam est-il une religion de « tolérance » ? Si l’on se réfère à certains versets, on pourrait conclure que « l’islam est une religion de tolérance ». Parmi eux figurent le verset 6 de la sourate.",
+    "extracted_claims": [
+      "Islam is not a religion of tolerance, based on selective interpretations of religious texts."
+    ],
+    "_review_notes": "This event highlights the use of religious texts and scholarly works, potentially out of context, to spread divisive narratives about Islam's stance on tolerance. Such content can exacerbate religious tensions and undermine social cohesion.",
+    "_reviewed": "2026-07-19T10:21:24.819155+00:00"
   }
 ]

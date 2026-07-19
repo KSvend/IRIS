@@ -1,0 +1,38 @@
+{
+  "date": "2026-07-19",
+  "extracted_claims": [
+    {
+      "claim": "Islam is not a religion of tolerance, based on selective interpretations of religious texts.",
+      "country": "Somalia",
+      "actors": [
+        "@DsmCourrier"
+      ],
+      "keywords": [
+        "Islam",
+        "tolerance",
+        "Quran",
+        "religious texts",
+        "misinterpretation"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Turan Dursun",
+      "country": "Somalia",
+      "reason": "Specific author/source potentially used in religious disinformation."
+    },
+    {
+      "keyword": "Islam tolerance",
+      "country": "Somalia",
+      "reason": "Key theme of the disinformation narrative."
+    },
+    {
+      "keyword": "Quran misinterpretation",
+      "country": "Somalia",
+      "reason": "Method of disinformation used to spread false claims about religious teachings."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

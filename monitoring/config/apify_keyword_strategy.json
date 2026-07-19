@@ -1233,6 +1233,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "turan dursun",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific author/source potentially used in religious disinformation.",
+          "date_added": "2026-07-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "islam tolerance",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Key theme of the disinformation narrative.",
+          "date_added": "2026-07-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "quran misinterpretation",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Method of disinformation used to spread false claims about religious teachings.",
+          "date_added": "2026-07-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
