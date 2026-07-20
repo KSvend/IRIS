@@ -29527,7 +29527,7 @@
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
     "last_seen": "2026-04-21",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-03-23",
@@ -36256,7 +36256,7 @@
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
     "last_seen": "2026-06-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-02",
@@ -39608,7 +39608,7 @@
     "detected_by": "iris_classify_2026-06-20",
     "detection_timestamp": "2026-06-20T11:10:20.397561+00:00",
     "last_seen": "2026-06-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-20",
@@ -39687,7 +39687,7 @@
     "detected_by": "iris_classify_2026-06-20",
     "detection_timestamp": "2026-06-20T11:10:20.397561+00:00",
     "last_seen": "2026-06-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-20",
@@ -43434,5 +43434,92 @@
     ],
     "_review_notes": "This event highlights the use of religious texts and scholarly works, potentially out of context, to spread divisive narratives about Islam's stance on tolerance. Such content can exacerbate religious tensions and undermine social cohesion.",
     "_reviewed": "2026-07-19T10:21:24.819155+00:00"
+  },
+  {
+    "id": "APF-2026-07-20-299",
+    "date": "2026-07-20",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Let's all get the fact wright. The fact that Ibadan defended Oshogbo from Ilorin emirate and futher liberated Ofa, Osi",
+    "summary": "A social media post on X (Twitter) by @JosephSenaike discusses historical events in Nigeria, specifically claims about Ibadan's role in defending Oshogbo and liberating other areas from the Ilorin emirate, and its broader impact on Yorubaland. This event is misclassified as pertaining to South Sudan.",
+    "actors": [
+      "@JosephSenaike"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/JosephSenaike/status/2079166623911497773",
+        "date": "2026-07-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-002",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "APF-2026-05-20-778",
+      "APF-2026-06-04-121",
+      "APF-2026-06-20-144",
+      "APF-2026-06-28-282",
+      "APF-2026-07-03-700",
+      "APF-2026-07-09-036"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: defended, liberated. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-20",
+    "detection_timestamp": "2026-07-20T11:38:43.574500+00:00",
+    "last_seen": "2026-07-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-20",
+        "url": "https://x.com/JosephSenaike/status/2079166623911497773",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "Let's all get the fact wright. The fact that Ibadan defended Oshogbo from Ilorin emirate and futher liberated Ofa, Osi Ekiti, and all the Igbomina areas overlorded by Ilorin emirate doesn't mean that Ibadan protected the entire Yorubaland from Ilorin.",
+    "extracted_claims": [
+      "Ibadan defended Oshogbo from the Ilorin emirate.",
+      "Ibadan liberated Ofa, Osi Ekiti, and all the Igbomina areas overlorded by the Ilorin emirate.",
+      "Ibadan did not protect the entire Yorubaland from Ilorin."
+    ],
+    "_review_notes": "This event is critically misclassified by country. The content pertains entirely to Nigerian history and has no relevance to South Sudan or the East African region monitored by the platform. The threat level is marked P3 as per the original, but for East Africa, it is effectively irrelevant.",
+    "_reviewed": "2026-07-20T11:42:56.669957+00:00"
   }
 ]
