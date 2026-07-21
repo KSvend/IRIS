@@ -35469,7 +35469,7 @@
     "detected_by": "iris_classify_2026-05-30",
     "detection_timestamp": "2026-05-30T10:33:29.826489+00:00",
     "last_seen": "2026-06-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-05-30",
@@ -39759,7 +39759,7 @@
     "detected_by": "iris_classify_2026-06-21",
     "detection_timestamp": "2026-06-21T11:41:44.495733+00:00",
     "last_seen": "2026-06-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-21",
@@ -43521,5 +43521,232 @@
     ],
     "_review_notes": "This event is critically misclassified by country. The content pertains entirely to Nigerian history and has no relevance to South Sudan or the East African region monitored by the platform. The threat level is marked P3 as per the original, but for East Africa, it is effectively irrelevant.",
     "_reviewed": "2026-07-20T11:42:56.669957+00:00"
+  },
+  {
+    "id": "APF-2026-07-21-312",
+    "date": "2026-07-21",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "The leaked cyclops scene is horrendous. He eats 2 soldiers then immediately falls asleep in front of 20 armed comrades.",
+    "summary": "The leaked cyclops scene is horrendous. He eats 2 soldiers then immediately falls asleep in front of 20 armed comrades. Nolan would be better as an author of psychological novels - he’s shit at making films. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@ManZer000000"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ManZer000000/status/2079517869696495642",
+        "date": "2026-07-21"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "ANNEX-064",
+      "APF-2026-03-23-204",
+      "APF-2026-04-27-805",
+      "APF-2026-05-20-116",
+      "APF-2026-06-03-947",
+      "APF-2026-07-02-902"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (2 soldiers) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-21",
+    "detection_timestamp": "2026-07-21T10:55:31.428696+00:00",
+    "last_seen": "2026-07-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-21",
+        "url": "https://x.com/ManZer000000/status/2079517869696495642",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-21-896",
+    "date": "2026-07-21",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "actors": [
+      "@R47910409",
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-07-21"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-02-503",
+      "APF-2026-06-25-622",
+      "APF-2026-06-27-091",
+      "APF-2026-07-01-842",
+      "APF-2026-07-13-901",
+      "APF-2026-07-14-756"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-21",
+    "detection_timestamp": "2026-07-21T10:55:31.428696+00:00",
+    "last_seen": "2026-07-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-21",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-21-772",
+    "date": "2026-07-21",
+    "country": "Regional",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-07-21"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-002",
+      "NAR-FP-001"
+    ],
+    "related_events": [
+      "APF-2026-06-26-147",
+      "APF-2026-07-11-401",
+      "APF-2026-07-13-959",
+      "APF-2026-07-15-135",
+      "APF-2026-07-16-104",
+      "APF-2026-07-17-326"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-21",
+    "detection_timestamp": "2026-07-21T10:55:31.428696+00:00",
+    "last_seen": "2026-07-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-21",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
