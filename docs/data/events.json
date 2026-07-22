@@ -39824,7 +39824,7 @@
     "detected_by": "iris_classify_2026-06-22",
     "detection_timestamp": "2026-06-22T14:25:44.903538+00:00",
     "last_seen": "2026-06-22",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-22",
@@ -39896,7 +39896,7 @@
     "detected_by": "iris_classify_2026-06-22",
     "detection_timestamp": "2026-06-22T14:25:44.903538+00:00",
     "last_seen": "2026-06-22",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-22",
@@ -43740,6 +43740,164 @@
       {
         "date": "2026-07-21",
         "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-22-391",
+    "date": "2026-07-22",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
+    "summary": "As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being investigated. OSF is named. The pattern is unmistakable, and the resistance now regional. EastAfrican Coup. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "actors": [
+      "@hezwachira",
+      "@its_meek__"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "date": "2026-07-22"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-04-28-701",
+      "APF-2026-05-22-618",
+      "APF-2026-05-30-681",
+      "APF-2026-07-17-330"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #dogsofwar, foreign-funded. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-22",
+    "detection_timestamp": "2026-07-22T10:53:12.626804+00:00",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-22",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-22-724",
+    "date": "2026-07-22",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "This is an EXTREMELY important point the pro-Palestine movement in the West has either defended or doesn’t fully",
+    "summary": "This is an EXTREMELY important point the pro-Palestine movement in the West has either defended or doesn’t fully understand the extent of their moral depravity. If a Palestinian in Gaza asks  BASIC QUESTIONS pertaining to data collection and verifica.",
+    "actors": [
+      "@theafroaussie"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/theafroaussie/status/2079881132901052836",
+        "date": "2026-07-22"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-005",
+      "NAR-SS-001",
+      "NAR-SS-002"
+    ],
+    "related_events": [
+      "APF-2026-06-03-738",
+      "APF-2026-06-09-533",
+      "APF-2026-06-28-282",
+      "APF-2026-07-03-700",
+      "APF-2026-07-09-036",
+      "APF-2026-07-20-299"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-22",
+    "detection_timestamp": "2026-07-22T10:53:12.626804+00:00",
+    "last_seen": "2026-07-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-22",
+        "url": "https://x.com/theafroaussie/status/2079881132901052836",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
