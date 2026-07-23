@@ -31086,7 +31086,7 @@
     "detected_by": "iris_classify_2026-04-24",
     "detection_timestamp": "2026-04-24T08:22:19.948207+00:00",
     "last_seen": "2026-04-24",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-24",
@@ -43178,7 +43178,16 @@
       "@KKCommetary",
       "@PeterKariukiKE",
       "@BiancaNaom1",
-      "@CatalystKe1"
+      "@CatalystKe1",
+      "@TonyMkenya7",
+      "@TechTonicAi_",
+      "@RaizingKE",
+      "@EveryAcreKenya",
+      "@Crystal_Vivvy",
+      "@KenyaWeWant_",
+      "@DreamBoy254",
+      "@_ItsMkisii",
+      "@Hustleratwork"
     ],
     "platforms": [
       "X (Twitter)"
@@ -43193,6 +43202,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/KKCommetary/status/1938190220937335072",
         "date": "2026-07-18"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-07-23"
       }
     ],
     "spread": 5,
@@ -43236,7 +43250,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-07-17",
     "detection_timestamp": "2026-07-17T10:30:11.882379+00:00",
-    "last_seen": "2026-07-18",
+    "last_seen": "2026-07-23",
     "status": "active",
     "observations": [
       {
@@ -43256,9 +43270,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-07-23",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#BBCForChaos, #BloodParliament: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "_original_headline": "#BBCForChaos, #BloodParliament: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
     "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 29 near-identical posts from 22 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ChaosCartel.",
     "extracted_claims": [
@@ -43268,6 +43291,7 @@
     "_review_notes": "This event highlights a coordinated effort to discredit a major international media outlet in Kenya, potentially aimed at controlling narratives around sensitive political or social issues. The use of specific hashtags indicates a targeted campaign.",
     "_reviewed": "2026-07-17T10:34:36.869460+00:00",
     "intensity_trend": [
+      3,
       3
     ]
   },
