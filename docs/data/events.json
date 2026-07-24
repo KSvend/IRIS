@@ -30246,7 +30246,13 @@
       "@RadioGenKe",
       "@timothyturunga",
       "@SONNALIVE",
-      "@jelle_bashir"
+      "@jelle_bashir",
+      "@AfricaViewFacts",
+      "@AEDT_Interact",
+      "@Jigjigamedia",
+      "@kenyagossips",
+      "@AfricanHub_",
+      "@TsarDanielX"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30376,6 +30382,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/rtgdigital/status/2077439374166241303",
         "date": "2026-07-18"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/TsarDanielX/status/2079732040929280151",
+        "date": "2026-07-24"
       }
     ],
     "spread": 5,
@@ -30419,7 +30430,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-07-18",
+    "last_seen": "2026-07-24",
     "status": "active",
     "observations": [
       {
@@ -30646,9 +30657,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://x.com/TsarDanielX/status/2079732040929280151",
+        "summary": "Somali international referee Omar Abdulkadir Artan was warmly received in Kenya during a special event at BBS Mall in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 25,
+    "observation_count": 26,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30657,6 +30677,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -31170,7 +31191,7 @@
     "detected_by": "iris_classify_2026-04-25",
     "detection_timestamp": "2026-04-25T18:37:48.311642+00:00",
     "last_seen": "2026-04-25",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-25",
@@ -39968,7 +39989,7 @@
     "detected_by": "iris_classify_2026-06-24",
     "detection_timestamp": "2026-06-24T11:35:35.855054+00:00",
     "last_seen": "2026-06-24",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-24",
@@ -43187,7 +43208,10 @@
       "@KenyaWeWant_",
       "@DreamBoy254",
       "@_ItsMkisii",
-      "@Hustleratwork"
+      "@Hustleratwork",
+      "@LensEmpress",
+      "@mseemsima01",
+      "@its_munee_"
     ],
     "platforms": [
       "X (Twitter)"
@@ -43207,6 +43231,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
         "date": "2026-07-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-07-24"
       }
     ],
     "spread": 5,
@@ -43250,7 +43279,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-07-17",
     "detection_timestamp": "2026-07-17T10:30:11.882379+00:00",
-    "last_seen": "2026-07-23",
+    "last_seen": "2026-07-24",
     "status": "active",
     "observations": [
       {
@@ -43279,9 +43308,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 4,
     "_original_headline": "#BBCForChaos, #BloodParliament: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
     "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 29 near-identical posts from 22 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ChaosCartel.",
     "extracted_claims": [
@@ -43291,6 +43329,7 @@
     "_review_notes": "This event highlights a coordinated effort to discredit a major international media outlet in Kenya, potentially aimed at controlling narratives around sensitive political or social issues. The use of specific hashtags indicates a targeted campaign.",
     "_reviewed": "2026-07-17T10:34:36.869460+00:00",
     "intensity_trend": [
+      3,
       3,
       3
     ]
@@ -43930,5 +43969,85 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-24-086",
+    "date": "2026-07-24",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Social media analysis critiques Fahad Yasin's interview as a 'narrative of victimhood'",
+    "summary": "An X (Twitter) account, @foritssake, published an analysis from 'Liban's perspective' critiquing Fahad Yasin's recent interview. The analysis suggests Yasin's 'tell-all' interview presents a 'carefully crafted narrative of victimhood' rather than a credible account of events.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-07-24"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-07-11-401",
+      "APF-2026-07-13-959",
+      "APF-2026-07-15-135",
+      "APF-2026-07-16-104",
+      "APF-2026-07-17-326",
+      "APF-2026-07-21-772"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-24",
+    "detection_timestamp": "2026-07-24T10:45:23.645680+00:00",
+    "last_seen": "2026-07-24",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-24",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview presents a carefully crafted, non-credible narrative of victimhood."
+    ],
+    "_review_notes": "This event highlights critical analysis of public statements by political figures, which is important for understanding the broader information environment and potential counter-narratives to misleading claims.",
+    "_reviewed": "2026-07-24T10:50:09.724048+00:00"
   }
 ]
