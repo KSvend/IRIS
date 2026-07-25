@@ -31353,7 +31353,7 @@
     "detected_by": "iris_classify_2026-04-26",
     "detection_timestamp": "2026-04-26T07:56:50.197051+00:00",
     "last_seen": "2026-04-26",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-26",
@@ -31425,7 +31425,7 @@
     "detected_by": "iris_classify_2026-04-26",
     "detection_timestamp": "2026-04-26T14:49:42.830767+00:00",
     "last_seen": "2026-04-26",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-26",
@@ -31509,7 +31509,7 @@
     "detected_by": "iris_classify_2026-04-26",
     "detection_timestamp": "2026-04-26T14:49:42.830767+00:00",
     "last_seen": "2026-04-26",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-26",
@@ -40156,7 +40156,7 @@
     "detected_by": "iris_classify_2026-06-25",
     "detection_timestamp": "2026-06-25T11:26:35.841089+00:00",
     "last_seen": "2026-06-25",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-25",
@@ -40228,7 +40228,7 @@
     "detected_by": "iris_classify_2026-06-25",
     "detection_timestamp": "2026-06-25T11:26:35.841089+00:00",
     "last_seen": "2026-06-25",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-25",
@@ -44049,5 +44049,82 @@
     ],
     "_review_notes": "This event highlights critical analysis of public statements by political figures, which is important for understanding the broader information environment and potential counter-narratives to misleading claims.",
     "_reviewed": "2026-07-24T10:50:09.724048+00:00"
+  },
+  {
+    "id": "APF-2026-07-25-291",
+    "date": "2026-07-25",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-07-25"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-25-622",
+      "APF-2026-06-27-091",
+      "APF-2026-07-01-842",
+      "APF-2026-07-13-901",
+      "APF-2026-07-14-756",
+      "APF-2026-07-21-896"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-25",
+    "detection_timestamp": "2026-07-25T10:24:19.963452+00:00",
+    "last_seen": "2026-07-25",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-25",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]

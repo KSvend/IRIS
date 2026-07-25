@@ -1,0 +1,4511 @@
+[
+  {
+    "i": "apify-4eaba9a02c80",
+    "t": "@Abdidhago Anigu hargaysa u dhashay xamar ku koray 70s istunka waan tagi jirnay waa dhaqan somaliya lahjado kala duwan ciyaar dhaqamed kala duwan dhar kala duwan xita xoolo kala duwan ba jira ku xidhan region aa dagan tahay cimilada xoola dhaqato, beeralay, kalumayasato kuli waa Somali",
+    "d": "2026-07-24",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@IsmacilCaalin",
+    "l": "https://x.com/IsmacilCaalin/status/2080416712713748715",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.868
+    },
+    "exp": "The user is discussing the cultural diversity within Somalia, mentioning different dialects, traditional dances, clothing, and even livestock types across regions. They are highlighting the richness of Somali culture and traditions. This is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d92357b769f1",
+    "t": "@A_WhiteGenocide Jareer is an ancient #Somali term of racist derision for the Bantu peoples. Millions of Bantu people were hunted and sold in open slave markets in the ports of Zeila and Mogadishu for at least a thousand years by the #Somalis.\nhttps://t.co/TthGmZKpd3",
+    "d": "2026-07-24",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@MedakVetCanada",
+    "l": "https://x.com/MedakVetCanada/status/2080059862579355864",
+    "pr": "Abusive",
+    "co": 0.8475,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9824
+    },
+    "exp": "The user defines 'Jareer' as an 'ancient #Somali term of racist derision for the Bantu peoples' and describes the historical context of Bantu people being 'hunted and sold in open slave markets' by Somalis. While it describes historical racism, the post itself is informative and not directly hateful, but rather explains the racist nature of the term.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-691d75cd43ba",
+    "t": "Raiisul Wassarah somalia Hamza Abdi Bare oo ku sii jeedo Dalka Masar",
+    "d": "2026-07-24",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@SaadaqMohamed",
+    "l": "https://x.com/SaadaqMohamed/status/2080239514191110449",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9838
+    },
+    "exp": "The post states that the Prime Minister of Somalia, Hamza Abdi Bare, is traveling to Egypt. This is a factual news update and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ada925f09509",
+    "t": "We must move past the era of tribal politics in Kenya. Poverty does not care about your tribe. High fuel prices do not ask for your last name at the pump. Our challenges are common; our solutions must be unified. #OneKenya #Leadership",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@khwaka11",
+    "l": "https://x.com/khwaka11/status/2080131881580859825",
+    "pr": "Abusive",
+    "co": 0.5306,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post advocates for national unity in Kenya, urging people to move beyond tribal politics and focus on common challenges like poverty and high fuel prices. It is a positive message promoting cohesion, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-532b4eb6e9e4",
+    "t": "Tichikura tainzi kubwaira continuously unenge uchituka munhu.\u270b\ufe0f\ud83d\ude2d",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@oneal_k_",
+    "l": "https://x.com/oneal_k_/status/2080532604626022611",
+    "pr": "Normal",
+    "co": 0.9817,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is in Shona, a language primarily spoken in Zimbabwe, not Kenya. It translates to a personal anecdote about a cultural belief: 'When we were growing up, we were told that blinking continuously is like insulting someone.' It is not hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e2aab4268055",
+    "t": "@ItsMainaKageni hawayuuu \u2600\ufe0f\u2600\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f\ud83d\udc6f\u200d\u2640\ufe0f ndaneeeeeee ndaneeeeeee ndaneeeeeee ndaneeeeeee ndaneeeeeee Thika #MainaAndKingangi",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JoanShiKigwa",
+    "l": "https://x.com/JoanShiKigwa/status/2080546452250542390",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a casual, enthusiastic greeting to a Kenyan radio personality, Maina Kageni, mentioning Thika, a town in Kenya. The repeated 'ndaneeeeeee' appears to be an expression of excitement or a sound, not a known hate speech term. It is a fan interaction.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cc13dc572b94",
+    "t": "JUBA, JULY 23, 2026 \u2014 President Salva Kiir Mayardit has bid farewell to outgoing Canadian Ambassador Joanne Minns, commending the strong diplomatic and development ties between South Sudan and Canada as she concluded her tour of duty.\n\nThe meeting focused on the peace process, Ebola preparedness, an",
+    "d": "2026-07-24",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@StateHouseJ1",
+    "l": "https://x.com/StateHouseJ1/status/2080322823512359093",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 37,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This is a news report about a diplomatic event in South Sudan, detailing President Salva Kiir's farewell to the Canadian Ambassador. It is purely informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1d49a1aeb196",
+    "t": "Mr. Edmund Yakani, Executive Director of CEPO https://t.co/x4bjXjVjwM",
+    "d": "2026-07-24",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ssemtv",
+    "l": "https://x.com/ssemtv/status/2080433826468106415",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post simply identifies an individual, Mr. Edmund Yakani, and their title as Executive Director of CEPO, likely sharing a link to an article or profile. It is informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ec2e227ba202",
+    "t": "\ud83c\uddea\ud83c\uddf9\ud83c\uddf8\ud83c\uddf8 Ethiopia\u2013South Sudan Border Gets $9.3M for Solar Water Project\n\n\ud83d\udc47 Watch Sputnik Africa's video to learn more about the \"Climate-Proof Water for Food\" initiative. https://t.co/nyIODmqsp4",
+    "d": "2026-07-24",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@sputnik_africa",
+    "l": "https://x.com/sputnik_africa/status/2080388480581210362",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This is a news report about a development project (solar water) on the Ethiopia-South Sudan border. It is purely informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0f59844d5223",
+    "t": "Uganda, South Sudan Seek Faster Cooperation\nSouth Sudan Governor Anthony Emmanuel Adil has called for quick implementation of presidential directives to strengthen bilateral ties and address challenges affecting border communities.@UgandaMFA https://t.co/0pWksrpOSI",
+    "d": "2026-07-24",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@MboiraDerrick",
+    "l": "https://x.com/MboiraDerrick/status/2080251251879506204",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 19,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This is a news report about diplomatic and cooperative efforts between Uganda and South Sudan, focusing on strengthening bilateral ties and addressing border community challenges. It is informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-04c096a12070",
+    "t": "South Sudan is going to the polls this December enabling the people of South Sudan to move on and choose leaders they want. Salva Kiir has really tried to bring up a nation from zero. #CabinetReshuffle CCTV Talanta Stadium #MamlukiWanatapatapa The Ol Kalou Raila https://t.co/o7BwwckaNO",
+    "d": "2026-07-24",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@DerrickShabz",
+    "l": "https://x.com/DerrickShabz/status/2080203278093062532",
+    "pr": "Hate",
+    "co": 0.9722,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post discusses upcoming elections in South Sudan and offers a positive assessment of President Salva Kiir's efforts in nation-building. It is political commentary, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-79942cd59507",
+    "t": "A clip from President @PresidentKiir 's #JKLive interview justifying five vice presidents as essential compromises for peace under the 2018 power-sharing agreement.\n\nKiir notes logistical strains including insufficient accommodation and vehicles for the VPs, while mentioning efforts to increase oil ",
+    "d": "2026-07-24",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@KeefaCom",
+    "l": "https://x.com/KeefaCom/status/2080181795136418114",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 24,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post summarizes a statement from President Salva Kiir justifying the number of vice presidents as essential compromises for peace under a power-sharing agreement. It is a factual summary of political discourse, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-26f7bb278a27",
+    "t": "SUDAN REJECTS THE US\u2019 CHEMICAL WEAPONS ALLEGATIONS\n\nDespite a lack of evidence, the US government continue to accuse Sudan of using chemical weapons, amid the latter's battle with the UAE-backed Rapid Support Forces (RSF), a militia accused of g*nocide by the UN. \n\nIn 2025, the US imposed sanctions ",
+    "d": "2026-07-24",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@sov_media",
+    "l": "https://x.com/sov_media/status/2080307277995585939",
+    "pr": "Normal",
+    "co": 0.8301,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 75,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on Sudan's rejection of US chemical weapons allegations and mentions the Rapid Support Forces (RSF) being accused of 'g*noc*de' (genocide). While the topic is severe, the post itself is reporting on accusations and conflicts, not expressing hate speech from the poster.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b10693a67baf",
+    "t": "Au Kenya, M\u00e9decins Sans Fronti\u00e8res forme des soignants pour pouvoir les envoyer dans l'Est de la RDC, o\u00f9 l'\u00e9pid\u00e9mie d'Ebola fait des ravages. https://t.co/4fEvhXgjsC",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JTAtv5monde",
+    "l": "https://x.com/JTAtv5monde/status/2080392273322226079",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a news report in French about M\u00e9decins Sans Fronti\u00e8res training healthcare workers in Kenya to send them to the DRC for Ebola response. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c459ac591cb6",
+    "t": "Mlisema 2pm ya Ethiopia au ya kenya\nBado haijafika\n@KRACare",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@comicboy_clown",
+    "l": "https://x.com/comicboy_clown/status/2080327022371324199",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post is a query directed at @KRACare asking about a specific time (2pm Ethiopian or Kenyan time) and noting that it hasn't arrived yet. It is a neutral, administrative query.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-482c980b0d80",
+    "t": "De plus en plus le #Kenya deviens le miroir de la nouvelle technologie dans l\u2019Afrique subsaharienne, l\u2019int\u00e9gration de la technologie dans tout les secteurs devient incontournable.\nNous b\u00e9n\u00e9ficions d\u2019une formation ax\u00e9e sur les nouvelles technologies dans la gestion d\u2019assainissement, partant de la nou",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@EssentielKahite",
+    "l": "https://x.com/EssentielKahite/status/2080363091930292592",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post, written in French, praises Kenya's growing role as a hub for new technology in sub-Saharan Africa. It is a positive statement about technological advancement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-72ac61be9bcd",
+    "t": "@sylviepaloma @Lucypau43921191 @philipmathekaj @MUTEMBEI1D @WamahigaN @ObadiahKipchir3 @jennykanyiri @RChemutai @Tonnywachipo @JohnMusang7262 @YoungAmoh1 @petermutie380 @WMatamano @MaIgnatius_Nem @EltonKarisa @chrstian_Benard @CessNdiritu @raphn @kibe_tz @AAkiyao @CAkabeti @njoro78 @rozzykanyua @Ann",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kunguruu",
+    "l": "https://x.com/kunguruu/status/2080138072511885671",
+    "pr": "Abusive",
+    "co": 0.9661,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post consists solely of a list of Twitter handles, likely part of a reply or a thread. There is no textual content to analyze for hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-47bb3010e5bb",
+    "t": "DANGOTE L\u00c2CHE UNE BOMBE DE 17 MILLIARDS AU KENYA, GREENPEACE MONTE AU CR\u00c9NEAU \ud83c\uddf0\ud83c\uddea\nLe groupe Dangote a choisi Lamu pour y construire sa future m\u00e9ga-raffinerie. Un projet \u00e0 17 milliards de dollars, pr\u00e9sent\u00e9 par Nairobi comme le plus important investissement priv\u00e9 jamais r\u00e9alis\u00e9 https://t.co/r0U4v54Qn4",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@francisbotale",
+    "l": "https://x.com/francisbotale/status/2080276095199264951",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a news report in French about Dangote Group's plans to build a mega-refinery in Lamu, Kenya, and Greenpeace's reaction. It is factual news content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-acc2a4f2b618",
+    "t": "Au Kenya, des avocats manifestent contre \u00abune justice corrompue qui refuse de se r\u00e9former\u00bb\n\u27a1\ufe0f https://t.co/cy32Qnb6uD https://t.co/jcoLu2e8L9",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RFI",
+    "l": "https://x.com/RFI/status/2080230415084765445",
+    "pr": "Normal",
+    "co": 0.993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a news report in French about lawyers in Kenya protesting against a 'corrupt justice system that refuses to reform'. This is political criticism, not hate speech against a group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a8ae67e2bb56",
+    "t": "Kura za 2027 ndio watu watajua Kenya haina wakati wa ukabila ama chuki''Pres William Ruto https://t.co/nXvvRElM7D",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MutembeiTV",
+    "l": "https://x.com/MutembeiTV/status/2080315742298272059",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post quotes President William Ruto stating that in the 2027 elections, people will realize Kenya has no time for tribalism or hatred. This is counter-speech against hate and tribalism.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0b1db716b4e3",
+    "t": "Samson Cherargei: Kura nyingi ambazo Rais Ruto alipata zilitoka Mlima Kenya, ndio maana wanafikiria kwamba maendeloe zote zinafaa kuenda Mlima Kenya. Hii kelele yote ni kwa sababu Rais Ruto amejaribu kusawazisha maendeleo #SemaNaCitizen https://t.co/fqcYPUcCfb",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@citizentvkenya",
+    "l": "https://x.com/citizentvkenya/status/2080215118726766659",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post quotes Samson Cherargei discussing political dynamics, specifically the perception that development should be concentrated in Mount Kenya due to voting patterns, and President Ruto's efforts to balance development. This is political commentary, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-952cd4170ec4",
+    "t": "Gachagua Amlaumu Ruto:\n\nRigathi Gachagua ametangaza kuongeza makali ya viongozi wote kutoka mlima Kenya wanaounga mkono serikali ya Kenya Kwanza.\n\nKulingana na Gachagua, juhudi za wananchi kupiga kura kwa asilimia kubwa kwa viongozi wa DCP ni kionjo tu.\n\n#NTVJioni https://t.co/u786BbzEe6",
+    "d": "2026-07-24",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ntvkenya",
+    "l": "https://x.com/ntvkenya/status/2080341059528208422",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-24",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post reports on Rigathi Gachagua's statements blaming Ruto and discussing the political support from Mount Kenya leaders for the Kenya Kwanza government. It is a news report on political commentary.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ce5a9fe5b4ed",
+    "t": "Somaliland oo war ka soo saartay waqtiga la sii deynayo maxaabiistii lagu qabtay dagaalkii Laascaanood: Sabti, Luulyo 25, 2026 (HOL) -\u00a0Xukuumadda Somaliland ayaa sheegtay in maxaabiista ay kala haystaan Somaliland iyo maamulka Waqooyi Bari la sii deyn\u2026 https://t.co/SEh5gELH7s",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@hiiraan",
+    "l": "https://x.com/hiiraan/status/2080963416089620909",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9644
+    },
+    "exp": "This is a news report from HOL (Hiiraan Online) stating that the Somaliland government has issued a statement regarding the release of prisoners captured during the Las Anod conflict.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2f7e3087ec4f",
+    "t": "Brady Heiling and Hallie Helgeson \u2014 two teens killed by an illegal alien driving the wrong way while drunk.\n\nAmerica Thayer \u2014 beheaded by an illegal alien from Cuba.\n\nVictoria Eileen Harwell \u2014 a mother killed by an illegal alien driving drunk with no valid license.\n\nNansi Fuentes Zambrano, Dena Silc",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@ginamilan_",
+    "l": "https://x.com/ginamilan_/status/2080653115598999615",
+    "pr": "Normal",
+    "co": 0.9943,
+    "tx": "high",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 21,
+    "st": [],
+    "txd": {
+      "sev": "high",
+      "ins": "low",
+      "idt": "high",
+      "thr": "low"
+    },
+    "qc": "correct",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9093
+    },
+    "exp": "The post lists several incidents of violent crimes allegedly committed by \"illegal aliens\" in the US, seemingly to incite anti-immigrant sentiment.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ad7ef4ea662f",
+    "t": "in somaliland aDream Come True \n20 years later.",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@AhmedKooraan",
+    "l": "https://x.com/AhmedKooraan/status/2080868919250719119",
+    "pr": "Normal",
+    "co": 0.6148,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.7445
+    },
+    "exp": "This is a positive and hopeful statement about Somaliland, suggesting a dream has come true after 20 years.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fa9938616f69",
+    "t": "Wax soo saarka dalka jamhuuriyada somaliland.\n\n\ud83d\udccdCeel-daraad https://t.co/v231xddiB4",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@pilothusen",
+    "l": "https://x.com/pilothusen/status/2080677925100376480",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9837
+    },
+    "exp": "This post states \"The production of the Republic of Somaliland\" and mentions a location, Ceel-daraad, likely referring to economic output or development.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2dc47353d2e3",
+    "t": "Eegeey kumaan ahay  ?\nBeri oo sabti ah 25 July 2026 \nWaa sanad guuradii 16 ee ka soo wareegtay asaaskii barnaamijka somaliya oo dhan ka hir galay kaas oo loo garan og yahay  ( gurigaaga ku beero  ). Hambalyo &amp; sanad guuro cusub ayaanu idin leenahay https://t.co/GswIjrhO3M",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@DZelefi",
+    "l": "https://x.com/DZelefi/status/2080715704647799071",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9152
+    },
+    "exp": "This post is a celebratory message for the 16th anniversary of a program called 'Gurigaaga ku beero' (Plant in your home) in Somalia. It is a positive message and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b714e04a6a0a",
+    "t": "Beeraleyda somalia waxay qaati ka tagan yahin cidamada ka tirsan  dowlada somalia oo isbaaro u talo inta u dhexeyso Mogadishu ilaa iyo Janaale \n\nCiidamada dowlad ayay u taal 18 isbaaro  \n\nDowladda somalia wa in aya arintaas waxa ka qabtaa oo isla xisaabtan yimada",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@SaadaqMohamed",
+    "l": "https://x.com/SaadaqMohamed/status/2080785372301132028",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.5457
+    },
+    "exp": "This post criticizes the Somali government forces for setting up illegal roadblocks ('isbaaro') between Mogadishu and Janaale, extorting money from farmers. While it's a strong criticism of government corruption and misconduct, it does not target a specific group based on identity, but rather the actions of state actors.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-af3e6a7d74f3",
+    "t": "Martin Otieno believes the fight against tribal politics begins with civic education.\n\nThe third-year Geomatic Engineering student says the values children learn at home shape how they view leadership later in life. He argues that parents and society should encourage young people to judge leaders by",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GhaflaKenya",
+    "l": "https://x.com/GhaflaKenya/status/2080612456640946297",
+    "pr": "Normal",
+    "co": 0.8635,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 32,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9986
+    },
+    "exp": "This post discusses Martin Otieno's belief that civic education is key to fighting tribal politics in Kenya. It advocates for positive social change and is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9b1999c9372c",
+    "t": "The Day Sifuna Announced 25th and 26th Kesho na Kesho Kutwa.  Here\ud83d\udc47\ud83d\udc47\ud83d\udc47\n\nWe shall live never to forget that Edwin Brought Luhya Together at the Time it mattered the Most,\n\nA magnet that pulled every Kenya Together Regardless of their Tribe, age Status, religion and Everything..\n\nKaribu Nyumbani Edwin ",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@NeShienu",
+    "l": "https://x.com/NeShienu/status/2080465767640743952",
+    "pr": "Normal",
+    "co": 0.9988,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post praises Edwin Sifuna for uniting the Luhya community and Kenyans regardless of tribe, age, or status. It is a positive political commentary and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a00a89728983",
+    "t": "Tatiana Gicharu, a digital creator whose content focuses on civic and political education, argues that tribal politics remains deeply rooted in Kenya because many citizens continue to embrace negative stereotypes in their daily lives, including harmful social media narratives about different communi",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@thekenyatimes",
+    "l": "https://x.com/thekenyatimes/status/2080600751873597476",
+    "pr": "Normal",
+    "co": 0.9987,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 51,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post discusses Tatiana Gicharu's view that tribal politics persists in Kenya due to citizens embracing negative stereotypes. It is an analytical comment on a societal issue and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-12e106e6996a",
+    "t": "Wahu Tracy Wanjiku believes the future of Kenya should be shaped by merit, not tribal identity.\n\nShe says young people deserve equal opportunities based on their skills, education and ability, rather than their surname, tribe or political connections. According to Tracy, Gen Z has the power to move ",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GhaflaKenya",
+    "l": "https://x.com/GhaflaKenya/status/2080612443764457976",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 30,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post conveys Wahu Tracy Wanjiku's belief that Kenya's future should be based on merit, not tribal identity, advocating for equal opportunities for young people. It is a constructive opinion and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a4fa9f593d00",
+    "t": "\"Gen Z should vote based on competence, fairness and service delivery, not tribal identity,\" journalist Wahu Tracy Wanjiku says, urges young people to shun tribal politics. \n\n\"An all-inclusive Kenya is one where young people get opportunities based on their skills, education and merit, not their sur",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Tuko_co_ke",
+    "l": "https://x.com/Tuko_co_ke/status/2080568051921998182",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 29,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9977
+    },
+    "exp": "This post quotes journalist Wahu Tracy Wanjiku urging Gen Z to vote based on competence and service delivery, not tribal identity, promoting an inclusive Kenya. This is a call for positive civic engagement and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e59e83c55ea6",
+    "t": "Martin, a third-year Geomatic Engineering student, believes tribalism can be tackled through civic education starting from childhood.\n\n\"Parents should teach children to support leaders based on merit, ability, and what they can do for the people, not tribe or personal connections.\"\n\nAn all-inclusive",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Tuko_co_ke",
+    "l": "https://x.com/Tuko_co_ke/status/2080569650035765643",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 30,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9976
+    },
+    "exp": "This post reiterates Martin's view that tribalism can be addressed through civic education, encouraging parents to teach children to support leaders based on merit. This is a constructive suggestion for social improvement and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5458d040216c",
+    "t": "#Magazetiyaleo \n\nMwanahabari \n\nJumamosi Julai 25, 2026 https://t.co/pImfljsH3m",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2080822790060470684",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a simple news headline or reference to a newspaper ('Magazetiyaleo' means 'Today's Newspaper') from July 25, 2026. It is purely informational and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-00ba4a030fcc",
+    "t": "#Magazetiyaleo \n\nUhuru \n\nJumamosi Julai 25, 2026 https://t.co/4tXuvEC5H1",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2080822779750809804",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post appears to be a news headline or a reference to a newspaper from Kenya, mentioning 'Uhuru' (likely referring to former President Uhuru Kenyatta) and a date. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e66c97d20199",
+    "t": "#Magazetiyaleo \n\nMwananchi \n\nJumamosi Julai 25, 2026 https://t.co/wQzmFgK4Ev",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2080822765876052140",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news headline or a reference to a newspaper from Kenya, 'Mwananchi' (meaning 'citizen' in Swahili), and a date. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ff917082ff32",
+    "t": "#Magazetiyaleo \n\nWamachinga \n\nJumamosi Julai 25, 2026 https://t.co/JxvFFDP6Hc",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2080822795307454574",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news headline or a reference to a newspaper from Kenya, mentioning 'Wamachinga' (a term for hawkers or street vendors) and a date. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d087b52106d2",
+    "t": "South Sudan and Uganda have agreed to reactivate joint border security committees to strengthen border security, boost trade, and enhance cooperation on migration, health, and refugee issues following their 6th Joint Border Meeting in Arua District. The two countries also committed to re-marking the",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@cgtnafrica",
+    "l": "https://x.com/cgtnafrica/status/2080684958830461330",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 22,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9974
+    },
+    "exp": "This post reports on an agreement between South Sudan and Uganda to strengthen border security and cooperation. It is a factual news report and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-18d8c64247d4",
+    "t": "In southern China\u2019s Guangdong, this stunning glasses-free 3D giant screen brings the hustle and bustle of a century-old commercial port \u201cbreaking out of the screen\u201d.",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ChinaEmb_Juba",
+    "l": "https://x.com/ChinaEmb_Juba/status/2080539543862735207",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post describes a 3D giant screen in southern China. It is completely unrelated to East Africa and does not contain any hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b9a1c8ebbd49",
+    "t": "Too often, children are casualties of war. Sometimes, they\u2019re even forced to fight. That\u2019s the case in South Sudan, where @UNICEF and @unmissmedia work with the Government to support the release and reintegration of underage fighters. \n\n#ChildrenNotSoldiers https://t.co/5VvgE6wi7D",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@UNGeneva",
+    "l": "https://x.com/UNGeneva/status/2080548849899217213",
+    "pr": "Normal",
+    "co": 0.9986,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post discusses the issue of child soldiers in South Sudan and the efforts by UNICEF and UNMISS to support their release and reintegration. It is a humanitarian news report and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-549ec1cb46a3",
+    "t": "Sudan Founding Alliance (TASIS) announced stricter measures to tackle negative phenomena in Nyala, South Darfur.\n\nTASIS says the measures aim to improve security and public order in the city. https://t.co/iIua02pntM",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2080639309628010828",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on the Sudan Founding Alliance (TASIS) announcing measures to improve security and public order in Nyala, South Darfur. It is a factual news report and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-01d437f2f090",
+    "t": "\ud83d\udfe1 Join the Next Gathering Point for Sudan and South Sudan\n\n\ud83d\udcc5 Wednesday 29th July\n\n\ud83d\udd50 4PM East Africa | 3PM Sudan (CAT) | 2PM UK | 9AM New York\n\nJoin us for the Gathering Point on Sudan and South Sudan, featuring frontline updates from two key grassroots partners: Roots of Generation (ROG) and Charity",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@WeAreCohere_Org",
+    "l": "https://x.com/WeAreCohere_Org/status/2080636549012562372",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 65,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post is an announcement for an online gathering point to discuss updates from Sudan and South Sudan. It is an informational post and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7c80603acbcf",
+    "t": "Uganda and South Sudan Strengthen Border Cooperation at Joint Meeting in Arua\n\nARUA, Uganda \u2014 July 24, 2026 \u2014 Uganda and South Sudan have reaffirmed their commitment to strengthening economic cooperation, border security, and regional stability following the 6th Uganda\u2013South Sudan Joint Border Meeti",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ssemtv",
+    "l": "https://x.com/ssemtv/status/2080782820973363222",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 125,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on Uganda and South Sudan reaffirming their commitment to strengthening economic cooperation, border security, and regional stability. It is a factual news report and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-43487eb641fd",
+    "t": "State-Sponsored Systems: In Eritrea, the slavery is systemic and government-mandated through the national service program. \nSocial/Descent-Based Systems: In Mauritania, slavery persists due to deep-rooted social hierarchies and the failure to enforce criminal laws against slaveholders. \nConflict-Dri",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Jam3sRyanTaylor",
+    "l": "https://x.com/Jam3sRyanTaylor/status/2080641642680160738",
+    "pr": "Normal",
+    "co": 0.9976,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 32,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9986
+    },
+    "exp": "This post discusses different systems of slavery, specifically mentioning state-sponsored slavery in Eritrea and social/descent-based slavery in Mauritania. While discussing a sensitive topic, it is an informative post about human rights issues and does not contain hate speech itself.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8fcaf66b7a3d",
+    "t": "Rt. Hon. Joseph Ngere P\u00e4ciko, described the drafting of the Permanent Constitution of South Sudan as a historic and generational covenant between citizens and government during a 2-day workshop on Civic Education and Public Consultations on Constitutional Matters. https://t.co/91aQ3SxA7k",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RtSpeakerjnp",
+    "l": "https://x.com/RtSpeakerjnp/status/2080550660076941546",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.998
+    },
+    "exp": "This post is a factual news report about a workshop on civic education and public consultations regarding the drafting of the Permanent Constitution of South Sudan. It describes the event and a statement made by a political figure.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1cb0f47ae147",
+    "t": "Impressive to see but indeed it tells a story of struggle. The people of South Sudan deserve stability! I am looking forward to better times! \ud83d\ude4f",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BindIdeas971",
+    "l": "https://x.com/BindIdeas971/status/2080500341955604776",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post expresses a positive sentiment, hoping for stability and better times for the people of South Sudan. It reflects personal opinion and optimism.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-74e34337bf67",
+    "t": "Me joining the List of  legendary Tech Bros in South Sudan without a single tech skill. https://t.co/1fBtN5330j",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@eternal_baldnes",
+    "l": "https://x.com/eternal_baldnes/status/2080646062646161503",
+    "pr": "Abusive",
+    "co": 0.8814,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post is a humorous, self-deprecating comment about the user joining a list of 'legendary Tech Bros' in South Sudan despite lacking tech skills. It's a personal joke.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a5f10e92bd96",
+    "t": "Archbishop Mor Nicodemus of Mosul with Fr Joseph John from South Sudan \u2764\ufe0f https://t.co/AkuDqoruC1",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RakotiKeme",
+    "l": "https://x.com/RakotiKeme/status/2080693653761360032",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9983
+    },
+    "exp": "This post is a simple photo caption identifying two religious figures, Archbishop Mor Nicodemus of Mosul and Fr Joseph John from South Sudan. It is purely descriptive.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-633dc4ed23ed",
+    "t": "I Emmanuel Ladu Aggrey dropped USA from list of countries I want to live in, I will move back to my birth place Lainya, South Sudan as soon as i receive the copy of my USA passport. I'm also considering renouncing USA citizenship as  soon as I receive the South Sudan citizenship.",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@EngineerCQERE",
+    "l": "https://x.com/EngineerCQERE/status/2080725557948375334",
+    "pr": "Normal",
+    "co": 0.9933,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is a personal statement from the user about their decision to move back to Lainya, South Sudan, and potentially renounce their USA citizenship. It expresses individual plans.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d90120add8e7",
+    "t": "R\u00daSSIA E UCR\u00c2NIA LIDERAM O RANKING DOS PA\u00cdSES MENOS PAC\u00cdFICOS DO MUNDO\n\nGuerras, terrorismo e colapso institucional dominam a lista. R\u00fassia, Ucr\u00e2nia e Sud\u00e3o ocupam o topo, enquanto M\u00e9xico e Col\u00f4mbia tamb\u00e9m aparecem entre os 20 piores.\n\n 1. \ud83c\uddf7\ud83c\uddfa Russia \u2014 3.441\n 2. \ud83c\uddfa\ud83c\udde6 Ukraine \u2014 3.434\n 3. \ud83c\uddf8\ud83c\udde9 Sudan \u2014 3.32",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RankingMooseMo",
+    "l": "https://x.com/RankingMooseMo/status/2080755846066106851",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 23,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news report about a ranking of the world's least peaceful countries, mentioning Russia, Ukraine, and Sudan among others. It presents factual information from a report.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-39be86ce67db",
+    "t": "\ud83d\udea8 \ud83c\uddfa\ud83c\uddf8 SOUTH SUDAN TPS COURT FIGHT EXTENDS WORK RIGHTS AS DHS ATTACKS THE RULING\n\nDHS General Counsel James Percival said: \u201cAnother rogue district judge just postponed the termination of TPS for South Sudan. This is open defiance of the Supreme Court, plain and simple!\u201d USCIS confirms a Massachusetts ",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@NaeemAslam23",
+    "l": "https://x.com/NaeemAslam23/status/2080653497083535698",
+    "pr": "Normal",
+    "co": 0.9816,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 32,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on a legal development regarding the extension of work rights for South Sudan TPS (Temporary Protected Status) holders in the US, and a challenge to the ruling by DHS. It is a news update.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fa6423f62ca2",
+    "t": "The Trump Administration has no higher priority than the safety and security of Americans. To reduce the risk of Ebola importation into the United States, CDC is temporarily restricting U.S. entry for travelers who were recently in the Democratic Republic of Congo (DRC). Travelers, including America",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@txtpassportvisa",
+    "l": "https://x.com/txtpassportvisa/status/2080718469847257418",
+    "pr": "Normal",
+    "co": 0.9988,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 40,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is a news report about the Trump Administration's policy to restrict US entry for travelers from the Democratic Republic of Congo due to Ebola risk. It discusses a public health measure.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d98a4337cb7b",
+    "t": "Cross-border commerce with Uganda, Rwanda, and South Sudan will gain immense momentum. Eliminating transport delays along the corridor reinforces Kenya's standing as a prime regional trade gateway. #RironiMauSummitRd Tracking The Progress Delivering The Promise",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Muoki_1",
+    "l": "https://x.com/Muoki_1/status/2080555305771946131",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 21,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post discusses the potential for increased cross-border commerce between Kenya, Uganda, Rwanda, and South Sudan, highlighting Kenya's role as a regional trade gateway. It is an economic commentary.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b659b7a250b3",
+    "t": "Salva Kiir confirms bid in South Sudan's first-ever election set for December\n\nBy HER staff reporter\n\nSouth Sudan President Salva Kiir has officially confirmed that he will seek another term in office during \n\nhttps://t.co/ZRhxPw1Eq8 https://t.co/dH0KDCzlgz",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@HornEconomicRev",
+    "l": "https://x.com/HornEconomicRev/status/2080589963058458965",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 18,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post is a news report confirming that South Sudan President Salva Kiir will seek re-election in the country's first-ever election. It is a factual political news update.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e04a9adf169f",
+    "t": "With 'my Guys' deep  in South Sudan....Notice who the shortest guy is!!! Feature stories Loading @citizentvkenya Stay Tuned @monicakiragu_ https://t.co/PFdL0nyoXp",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@KoinangeJeff",
+    "l": "https://x.com/KoinangeJeff/status/2080523353866052051",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9985
+    },
+    "exp": "This post is a personal update from someone in South Sudan, sharing a photo and mentioning a feature story. It does not contain any hate speech or harmful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-078ec0863dfc",
+    "t": "Only Egyptians and Tanzanians can enter South Sudan without a visa; see full list\n\nThe new guidelines provide details on entry requirements for travellers from Africa and other parts of the world, highlighting which nationalities qualify for visa-free access and the charges that apply to those who r",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PulseGhana",
+    "l": "https://x.com/PulseGhana/status/2080556588671086698",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 26,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post shares news about visa requirements for entering South Sudan, specifically mentioning which nationalities can enter without a visa. It is factual reporting and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-372c09b90c14",
+    "t": "\ud83d\udccd Malakal, Upper Nile State \ud83c\uddf8\ud83c\uddf8\n\nUnder the NORAD Project, ACRA\u2019s WASH team continued household-level hygiene awareness sessions.\n\nThe sessions focused on practical hygiene practices, including handwashing with soap, safe water handling, and maintaining clean household environments. Through direct eng",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ACRA_SouthSudan",
+    "l": "https://x.com/ACRA_SouthSudan/status/2080580360883048956",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 36,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post is an update on a humanitarian project in Malakal, South Sudan, detailing hygiene awareness sessions. It is informative and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9be4e855f710",
+    "t": "IFAD and the Government of South Sudan launched the Sustainable Agriculture Development Project (SADEP), a US$41.8 million investment to strengthen food security, build resilience and improve rural livelihoods for more than 110,000 people across the country.\n\nSADEP will also support the development ",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@IFAD",
+    "l": "https://x.com/IFAD/status/2080654761011847356",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 41,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports on a development project in South Sudan aimed at strengthening food security and improving livelihoods. It is news about a positive initiative and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-064dabcddf17",
+    "t": "Representing the Republic of South Sudan, the Minister of Culture, Museums and National Heritage, Hon. Sarah Nyanath Elijah Yong, is participating in the 48th session of the @UNESCO World Heritage Committee taking place in Busan, Republic of Korea. #48WHC https://t.co/639z0DydFf",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudanGov",
+    "l": "https://x.com/SouthSudanGov/status/2080727714785321457",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is an official update about South Sudan's representation at a UNESCO World Heritage Committee session. It is factual and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-907bdd7c85de",
+    "t": "I have never seen a country with more Masculine energy than I did in south sudan. Here the men look extremely manly. The walking,the height,the protrusion of their shoulders,the confidence in the eye contact they make,the sweat dripping through their shining dark skin,the physiognomy and the confide",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@polo_kimanii",
+    "l": "https://x.com/polo_kimanii/status/2080641729598824862",
+    "pr": "Normal",
+    "co": 0.7177,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 23,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9964
+    },
+    "exp": "This post describes the physical appearance and perceived 'masculine energy' of men in South Sudan. While it generalizes and stereotypes, it is expressed as a personal observation and admiration rather than an insult or attack, making it a subjective comment on appearance.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c0ebd67e7793",
+    "t": "South Sudan is among the countries that participated in the Ordinary Session of the African Telecommunications Union (ATU) Conference of Plenipotentiaries (CPL-26) in Abuja, Nigeria. The Minister of ICT &amp; Postal Services, Hon. Ateny Wek Ateny, led the South Sudanese delegation. https://t.co/RX9T",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudanGov",
+    "l": "https://x.com/SouthSudanGov/status/2080707933134868878",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.998
+    },
+    "exp": "This post reports on South Sudan's participation in an international telecommunications conference. It is factual news and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-882c668290ad",
+    "t": "Deputy Foreign Minister Hon. Akuei Bona Malwal, together with Dr. Riek Pouk, DG for Multilateral Relations, paid a courtesy visit to the South Sudanese Embassy in Accra, Ghana, after participating in the 25th Extraordinary Session of the African Union Exec Council. #DiplomacySS https://t.co/gJMTfExe",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudanGov",
+    "l": "https://x.com/SouthSudanGov/status/2080639197124145458",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 19,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9984
+    },
+    "exp": "This post provides an update on diplomatic activities involving South Sudanese officials in Ghana. It is factual and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a0787d0674f8",
+    "t": "Over $17.6 billion was given in US government aid to these nations to artificially inflate their population. I added that stat back in by country. Notice which ones get $0 in aid from the US government. \n\nThis is by design. So when you repost this saying \u201cWow\u201d, Elon, know that your DOGE agency did n",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Narddog4747",
+    "l": "https://x.com/Narddog4747/status/2080770927323922687",
+    "pr": "Questionable",
+    "co": 0.9885,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 47,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "questionable",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post discusses US government aid to various nations, claiming it's used to 'artificially inflate their population' and suggesting a 'design' behind which countries receive aid. While it expresses a conspiratorial and potentially xenophobic view on foreign aid and population control, it does not target a specific East African group with hate speech terms, but rather criticizes US policy and its perceived global impact.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a0b5d1c00a10",
+    "t": "Spare a thought for the South Sudan guy who thought he would be an everlasting look-alike of Vini Jnr.  \ud83d\ude0c\ud83d\udc40 https://t.co/MCjfLRD2mK",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@FootballWitball",
+    "l": "https://x.com/FootballWitball/status/2080560037995671600",
+    "pr": "Normal",
+    "co": 0.8505,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post makes a lighthearted comment about a person from South Sudan resembling the footballer Vini Jnr. It is a personal observation and does not contain any hateful language or attack any group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-dd4b5ddfc02e",
+    "t": "Our aim is to leave a customer happy and satisfied.\n\nThe machine finally left our workshop en route to South Sudan.\n\nNo matter which part of the region you are in we make sure you get to receive your machine.\n\nCall us today on 0706618847 or visit us in Kariobangi https://t.co/5ML4wuzy6H",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@muharatafoodco",
+    "l": "https://x.com/muharatafoodco/status/2080525512997245269",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post is a business update, informing customers that a machine has been dispatched to South Sudan and emphasizing customer satisfaction and regional delivery. It is commercial in nature and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7d7c94c18b41",
+    "t": "In Malawi, when a man marries his wife, he automatically begins his duties as a wife, but this is not the case in South Sudan.\n\nIn the Dinka/Jieeng culture of South Sudan, although marriage is arranged, women are treated like gods. \nOnce a man marries, his wife doesn't cook or touch anything, not ev",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@WinterFairyEfeM",
+    "l": "https://x.com/WinterFairyEfeM/status/2080698579572629781",
+    "pr": "Hate",
+    "co": 0.7214,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 26,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9754
+    },
+    "exp": "This post discusses cultural differences in marriage practices, specifically contrasting Malawi with the Dinka/Jieeng culture of South Sudan, noting that in the latter, women are highly revered. It is a cultural observation and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-42de117bc8d2",
+    "t": "Five places. One painful reality.\n\nMillions of people around the world are facing severe hunger, with families in Gaza, Sudan, South Sudan, Yemen and Haiti struggling to find their next meal. https://t.co/yoHiipm3eI",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SadaqaWelfare",
+    "l": "https://x.com/SadaqaWelfare/status/2080559305913192840",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post highlights the severe global hunger crisis, mentioning South Sudan as one of the regions where millions are struggling to find food. It is a humanitarian news update and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9bd1957e956a",
+    "t": "Need to deposit cash? Withdraw money? Pay bills? You don\u2019t always have to visit a branch. Your nearest  Co-op Fi Jeran agent is right in your neighborhood giving you convenient access to everyday banking services right in your neighbourhood.\n\nVisit any Co-op Fi Jeran agent today. https://t.co/lMDR18",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@coopbankss",
+    "l": "https://x.com/coopbankss/status/2080503242279309532",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is an advertisement for banking services, promoting the convenience of Co-op Fi Jeran agents for various transactions. It is commercial and contains no hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-694c7aad41de",
+    "t": "\ud83d\udc04 Countries with the most Cows:\n\n1. \ud83c\udde7\ud83c\uddf7 Brazil \u2013 238,000,000\n2. \ud83c\uddee\ud83c\uddf3 India \u2013 195,000,000\n3. \ud83c\uddfa\ud83c\uddf8 United States \u2013 87,200,000\n4. \ud83c\uddea\ud83c\uddf9 Ethiopia \u2013 71,900,000\n5. \ud83c\udde8\ud83c\uddf3 China \u2013 70,300,000\n6. \ud83c\uddf5\ud83c\uddf0 Pakistan \u2013 57,500,000\n7. \ud83c\udde6\ud83c\uddf7 Argentina \u2013 52,800,000\n8. \ud83c\uddf9\ud83c\udde9 Chad \u2013 39,600,000\n9. \ud83c\uddf9\ud83c\uddff Tanzania \u2013 39,100,000\n10. \ud83c\uddf2\ud83c\uddfd Mexico \u2013 36,",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@stats_planet",
+    "l": "https://x.com/stats_planet/status/2080619921625526345",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 21,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9934
+    },
+    "exp": "This post provides a factual list of countries with the largest cattle populations. It is informational and contains no hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-68ef26b344f5",
+    "t": "Dividing South Sudan Is Not a Solution to Political Defeat\n\nBy Madit Majak | Political Analyst, South Sudan Eagle Media\n\nSouth Sudan\u2019s political future should never be held hostage by threats of division. Recent calls by some opposition figures suggesting that the country should be split into three ",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ssemtv",
+    "l": "https://x.com/ssemtv/status/2080498303435685995",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 121,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a political analysis arguing against the division of South Sudan as a solution to political challenges, emphasizing that the country's future should not be threatened by such calls. It is political commentary and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ef3f98da3729",
+    "t": "The African Development Bank (@AfDB_Group) has announced a US$13 million emergency response package to strengthen efforts to contain an Ebola outbreak spreading across the Democratic Republic of Congo (DRC), Uganda and South Sudan.\n\n#AfricaBusinessInsight #AbiNews https://t.co/0qpbwSb90m",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@_africabusiness",
+    "l": "https://x.com/_africabusiness/status/2080658202811580851",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 25,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on the African Development Bank's US$13 million emergency response package to help contain an Ebola outbreak affecting the DRC, Uganda, and South Sudan. It is a news update and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-061c90dbbf0f",
+    "t": "ISS Today &gt; Arms smuggling: a key threat to South Sudan\u2019s December elections\n\nSouth Sudan\u2019s fragile transition is increasingly shaped by forces beyond its borders that drive illicit arms flows into the country.\n\nhttps://t.co/bk24uaon6O",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@issafrica",
+    "l": "https://x.com/issafrica/status/2080598929901592791",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news summary highlighting arms smuggling as a significant threat to South Sudan's upcoming December elections, noting that external forces contribute to illicit arms flows. It is a geopolitical news analysis and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7c3696814527",
+    "t": "South Sudan participated in the joint session of the 9th @_AfricanUnion Specialized Technical Committee (STC) on Finance, Monetary Affairs, Economic Planning, and Integration, as well as the 5th Session of the STC on Trade, Tourism, Industry, and Minerals, held in Ivory Coast. https://t.co/pEZTTcfQ1",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudanGov",
+    "l": "https://x.com/SouthSudanGov/status/2080715781260632533",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 21,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post reports on South Sudan's participation in a joint session of the African Union's Specialized Technical Committees on Finance, Economic Planning, and Trade. It is a factual news update and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c3204db2a819",
+    "t": "South Sudan cancels 2018 peace deal, clearing way for December elections \n\nhttps://t.co/BT7ICJwybC",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@The_EastAfrican",
+    "l": "https://x.com/The_EastAfrican/status/2080706082620764408",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news headline reporting on a political development in South Sudan regarding the cancellation of a peace deal and upcoming elections. It is purely informational and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8dd98865519b",
+    "t": "President Salva Kiir commended the strong diplomatic and development ties between South Sudan and Canada while bidding farewell to outgoing Canadian Ambassador Joanne Minns upon the conclusion of her tour of duty. #DiplomacySS https://t.co/BSMSwn2M7l",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudanGov",
+    "l": "https://x.com/SouthSudanGov/status/2080699278561866023",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post is a factual report about a diplomatic event involving President Salva Kiir and the Canadian Ambassador. It contains no hateful, abusive, or dehumanizing language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-531f5ad537e3",
+    "t": "Uganda, South Sudan Seek Border Security Boost as Trade and Migration Challenges Persist.\n\n#NilePostNews\nhttps://t.co/oLS9Ine5ty",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@nilepostnews",
+    "l": "https://x.com/nilepostnews/status/2080656897565249619",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news headline reporting on cooperation between Uganda and South Sudan regarding border security, trade, and migration challenges. It is purely informational and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7dbc1c469e1e",
+    "t": "OPEN DEFIANCE: A federal judge is blocking the Trump administration from ending Temporary Protected Status for South Sudan \u2014 just days after the Supreme Court ruled that lower courts largely cannot intervene in TPS termination decisions.\n\nU.S. District Judge Patti Saris, a Clinton appointee, granted",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@foxnewspolitics",
+    "l": "https://x.com/foxnewspolitics/status/2080767719851639281",
+    "pr": "Normal",
+    "co": 0.9954,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 35,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9981
+    },
+    "exp": "This post reports on a legal development in the US concerning the Temporary Protected Status for South Sudan. It is a factual news report and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f03ee1a18c41",
+    "t": "South Sudan should be a three-shift, 24/7 powerhouse of building, farming, and industry, with everybody working productively to construct our future from scratch.\n\nWe lack everything, so we must work relentlessly with purpose and goals\n\nUnfortunately, our president is Salva Kiir. https://t.co/iMAMzi",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BadLemii",
+    "l": "https://x.com/BadLemii/status/2080634481489158625",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9975
+    },
+    "exp": "This post expresses a personal opinion or aspiration for South Sudan's development and work ethic. It is a constructive commentary on the country's situation and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-da4dc3096683",
+    "t": "Imagine this trend rans, the same cycle for decades and yet we are proudly divided along the lines of Laaandheere and Laangaab. Its just sad.\n\nThe Somali people must wake-up !!",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@AbdallaEmirates",
+    "l": "https://x.com/AbdallaEmirates/status/2080752615650992340",
+    "pr": "Abusive",
+    "co": 0.9582,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.5134
+    },
+    "exp": "This post criticizes the ongoing clan divisions in Somalia, specifically mentioning 'Laandheere' (dominant clans) and 'Laangaab' (minority clans). The author laments these divisions and calls for unity, making it a critique of clanism rather than an endorsement of hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7b0df5626d3f",
+    "t": "Sagaal Xildhibaan oo ka soo goostay Laascaanood oo ku soo waajahan Somaliland https://t.co/1ZV7cBtpg8 https://t.co/AbzfysxZy5",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@QarannewsQRN",
+    "l": "https://x.com/QarannewsQRN/status/2080650177812246582",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9801
+    },
+    "exp": "This post is a news headline in Somali, translating to 'Nine Members of Parliament who defected from Las Anod are heading towards Somaliland.' This is a factual report about political defections and does not contain any religious incitement or hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-591b885d0aa9",
+    "t": "Manchester United Oo Qarka U Saaran Saxiixa Xiddig Ay Inbadan Baadi-goob Ugu Jirtay https://t.co/54HHNKPqMF #laacib #somali #ciyaaro",
+    "d": "2026-07-25",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@LaacibTV",
+    "l": "https://x.com/LaacibTV/status/2080874958029570481",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9808
+    },
+    "exp": "This post is a sports news headline in Somali, translating to 'Manchester United is on the verge of signing a star they have been pursuing for a long time.' It is about international football and contains no hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d18615025533",
+    "t": "#creatorsearchinsights #somalitiktok",
+    "d": "2026-07-24",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@sabrina85059",
+    "l": "https://www.tiktok.com/@sabrina85059/video/7666215956829572360",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9796
+    },
+    "exp": "This post consists of neutral hashtags related to content creation and TikTok in Somalia. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-59f02cea58ea",
+    "t": "\ud83c\uddf0\ud83c\uddea Kenya urges peaceful resolution to the Middle East crisis following Houthi attacks on commercial vessels in the Red Sea: Media\n\nThreats to the Bab al-Mandab Strait jeopardize global supply chains for oil and fertilizer, Kenyan Prime Cabinet Secretary Musalia Mudavadi was quoted by media as saying",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@sputnik_africa",
+    "l": "https://x.com/sputnik_africa/status/2080954208581570861",
+    "pr": "Normal",
+    "co": 0.999,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 22,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This post is a news report about Kenya's stance on the Middle East crisis and its impact on global supply chains. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-46cc7d14652e",
+    "t": "Gachagua dares Murkomen:\n\nGachagua dares Murkomen to arrest him over Mungiki claims.\n\nGachagua: Murkomen, come and arrest me if you have any evidence.\n\nGachagua kicks off his tour of the Mt. Kenya East region.\n\n#CitizenWeekend https://t.co/H8vnosprt8",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@citizentvkenya",
+    "l": "https://x.com/citizentvkenya/status/2080960113431425452",
+    "pr": "Hate",
+    "co": 0.9556,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post reports on a political challenge where Gachagua dares Murkomen to arrest him over 'Mungiki' claims. While it mentions the Mungiki group, the post itself is a news report on a political exchange and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-293c9e7114b9",
+    "t": "Even before abducting me on 25 June 2026, the state had been following me, monitoring my movements, listening to my phone calls, and threatening me. They abducted me again on 7 July 2026, beat me, and threatened me with death. Since then, they have intensified their threats, intimidation, and survei",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mulinge_muteti_",
+    "l": "https://x.com/mulinge_muteti_/status/2080589459196715308",
+    "pr": "Normal",
+    "co": 0.9919,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 25,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post describes a personal account of alleged abduction, monitoring, and threats by the state. It is a personal testimony of human rights abuse, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-92048829d5c4",
+    "t": "Murkomen apuuza hatari ya wahuni:\n\nMurkomen asema magenge yamezidishwa na wanasiasa.\n\nHata hivyo ameagiza polisi kusaka magenge hayo.\n\nMfumo mpya wa kuwatambua wahalifu umezinduliwa.\n\n#SemaNaCitizen https://t.co/DA0jxvfsZy",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@citizentvkenya",
+    "l": "https://x.com/citizentvkenya/status/2080554102396788963",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "This post is a news report in Swahili, stating that Murkomen dismisses the danger of 'wahuni' (thugs/hooligans) and claims gangs are exaggerated by politicians, but has ordered police to hunt them. It also mentions a new system to identify criminals. This is a news report and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e3645a107e83",
+    "t": "''Hao Vijana Unaita Mungiki Ndio Watanilinda'' Gachagua Fires Back at Murkomen!!! https://t.co/5smo68WHTO",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MutembeiTV",
+    "l": "https://x.com/MutembeiTV/status/2080955768124121569",
+    "pr": "Normal",
+    "co": 0.9985,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "This post reports on Gachagua's response to Murkomen, stating in Swahili, ''Hao Vijana Unaita Mungiki Ndio Watanilinda'' which translates to 'Those youths you call Mungiki are the ones who will protect me'. This is a political statement, not hate speech, as it reports on a politician's words rather than expressing hate.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-80a4fe3f4001",
+    "t": "Is it just me,One Cs called Kikuyus Hyenas (dehumanising)and another one (Mbadi) was talking about punishing Kikuyus(with voting allegedly) and now this one is talking about mungiki. Are they just looking for an excuse at this point?",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@merfcom",
+    "l": "https://x.com/merfcom/status/2080901523672863022",
+    "pr": "Hate",
+    "co": 0.9964,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9932
+    },
+    "exp": "The user expresses concern about a pattern of politicians making statements perceived as targeting Kikuyus, citing examples like calling them 'hyenas' (dehumanizing) and talking about 'punishing' them, and mentioning the Mungiki. This is a critical observation of perceived hate speech rather than hate speech itself.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cb2fb347ac7a",
+    "t": "They are trying so hard to divide Mt. Kenya. The GEMA community seems to be viewed as a political threat by this regime. That\u2019s why you keep hearing the same hired mouthpieces pushing divisive narratives, they want to plant seeds of division so that GEMA communities begin to see each other as enemie",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MrJamesKe",
+    "l": "https://x.com/MrJamesKe/status/2080538016381059401",
+    "pr": "Hate",
+    "co": 0.9981,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9913
+    },
+    "exp": "The post claims there's an attempt to divide the Mt. Kenya region and that the GEMA community (an acronym for Gikuyu, Embu, Meru, and Akamba, often used to refer to the Kikuyu and related communities) is seen as a political threat. It suggests 'hired mouthpieces' are pushing divisive narratives. This is political commentary, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6355e2c21925",
+    "t": "PS Dr. Ouma Oluga represented Kenya at the AU Extraordinary Session in Accra, advancing Africa\u2019s health priorities on UHC, health financing, local manufacturing and resilient health systems.\n\n#Agenda2063 https://t.co/K8VGmH4OEv",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MOHMedServices",
+    "l": "https://x.com/MOHMedServices/status/2080677485251871226",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a news update about PS Dr. Ouma Oluga representing Kenya at an AU session to discuss health priorities. It is purely informative and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-724f66ba70f9",
+    "t": "At this rate Senator John Methu will be more popular in Mt Kenya than Rigathi Gachagua \ud83d\ude02\ud83d\ude02. Riggy G should be careful,  he may loose it to @methumuhia just look at Nyandarua \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25. Hapa Kasongo hana kura. https://t.co/42NQNh9RE7",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HassanMcOjwang",
+    "l": "https://x.com/HassanMcOjwang/status/2080486045951381595",
+    "pr": "Abusive",
+    "co": 0.9567,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "The post discusses the political popularity of Senator John Methu in Mt. Kenya compared to Rigathi Gachagua, suggesting Gachagua might lose support. 'Kasongo' is a common nickname for Rigathi Gachagua. This is political commentary and speculation, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-90daa8587c90",
+    "t": "\ud83c\uddf0\ud83c\uddeaPr\u00e8s de Nairobi au Kenya, M\u00e9decins sans fronti\u00e8res forme des soignants dans la lutte contre l\u2019\u00e9pid\u00e9mie d\u2019Ebola qui fait rage en RD Congo. https://t.co/uTlbckx16L",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TV5MONDEINFO",
+    "l": "https://x.com/TV5MONDEINFO/status/2080569099449414121",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9991
+    },
+    "exp": "This post is a news update in French about M\u00e9decins sans fronti\u00e8res (Doctors Without Borders) training healthcare workers near Nairobi, Kenya, to combat the Ebola epidemic in DR Congo. It is purely informative and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-43387ea75f35",
+    "t": "\ud83c\uddf0\ud83c\uddeaPr\u00e8s de Nairobi au Kenya, M\u00e9decins sans fronti\u00e8res forme des soignants dans la lutte contre l\u2019\u00e9pid\u00e9mie d\u2019Ebola qui fait rage en RD Congo. https://t.co/IbNDPapoEk",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JTAtv5monde",
+    "l": "https://x.com/JTAtv5monde/status/2080569128973176876",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post is a news update in French about M\u00e9decins sans fronti\u00e8res (Doctors Without Borders) training healthcare workers near Nairobi, Kenya, to combat the Ebola epidemic in DR Congo. It is purely informative and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-64c3831f7630",
+    "t": "MCA wa huko khwisero angetaja kuku ni ivo..angepewa kura aende nazo atajiwekea kwa ballot 2027 haha..we can hate but mt kenya resident's alwas holds their local leaders accountable behind the curtains..wanakula na bado wanakupeleka mbio ufanye kazi..",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ThriftedRidez",
+    "l": "https://x.com/ThriftedRidez/status/2080577204585468185",
+    "pr": "Normal",
+    "co": 0.9988,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "polarization",
+      "score": 0.9785
+    },
+    "exp": "The post uses a hypothetical scenario about an MCA (Member of County Assembly) from Khwisero to comment on the political accountability of Mt. Kenya residents. It suggests that while they might 'hate,' they hold their local leaders accountable, implying that leaders 'eat' (corruptly benefit) but are still pushed to work. This is a critical observation of political dynamics and voter behavior, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-34c9e894023a",
+    "t": "\u26bd\ufe0f\ud83d\udc75\ud83c\udfffDes mamies qui jouent au football, \u00e7a existe ! Au Kenya, des femmes \u00e2g\u00e9es vivent pleinement leur passion pour le ballon rond. Julia Mouketo nous explique.\ud83c\udf99\ufe0f https://t.co/Ih7ZobDBlZ",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@snewsafrica",
+    "l": "https://x.com/snewsafrica/status/2080622674535989528",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a news update in French about elderly women in Kenya playing football, highlighting their passion for the sport. It is purely informative and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-db0d1d0c4342",
+    "t": "Huyu amerudi apigiwe kura alafu arudi kwa Ruto tena. Mt Kenya be careful in 2027.",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TukoKadii",
+    "l": "https://x.com/TukoKadii/status/2080647192205783447",
+    "pr": "Hate",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "The post warns the Mt. Kenya region to be careful in the 2027 elections, suggesting a politician might return for votes only to align with Ruto again. This is political advice and speculation, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2c4335f920b1",
+    "t": "Integrity matters to God, and it matters in how we serve. Today, @WVSouthSudan launched the Biblical Reflections on Anti-Corruption series, under the theme WALKING IN INTEGRITY, an internal devotional journey designed to help staff reflect on what it means to serve with honesty, justice, and account",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@WVSouthSudan",
+    "l": "https://x.com/WVSouthSudan/status/2080614740766687525",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 42,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post is about an anti-corruption initiative by World Vision South Sudan, promoting integrity through biblical reflections. It is a neutral, informative update about a development project.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-636e6546ef58",
+    "t": "Zone V - U18 FIBA AfroBasket Qualifiers\n\nFT' Uganda \ud83c\uddfa\ud83c\uddec 52-40 South Sudan \ud83c\uddf8\ud83c\uddf8 \n\nShane Kwizera (19) and John Levi Ogiramoi (12) scoring in double digits for Daniel Najja Juuko's side\n\nBior Mayen scoring 15 points but in vain for SSD\n\nFace Kenya in their last game of the 3-team group \n\nTicket to return ",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BrianKawalya1",
+    "l": "https://x.com/BrianKawalya1/status/2080683994950058432",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post provides a sports update on a FIBA AfroBasket Qualifiers game between Uganda and South Sudan, including scores and player mentions. It is a factual report on a sporting event.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c1a639868ce7",
+    "t": "UNESCO joined @MoGEI_SSD, with support from @AfDB_Group for a workshop to validate findings from a Labour Market Assessment. The report will guide skills training to meet job market needs and boost youth employment in SSD\ud83c\uddf8\ud83c\uddf8. https://t.co/OXeKAgSl57",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@UnescoJuba",
+    "l": "https://x.com/UnescoJuba/status/2080671093434589673",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on a workshop in South Sudan, supported by UNESCO and AfDB, to validate findings from a Labour Market Assessment aimed at guiding skills training and boosting youth employment. It is an informative update on a development initiative.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-40cba48cc437",
+    "t": "Uganda\u2013South Sudan Joint Border Meeting concludes in Arua. Key takeaways:\nResumption of the Joint Border Technical Committee to expedite the re-marking of the approximately 470-kilometer shared border by 2027; reduce tariff and non-tariff barriers and streamline customs & immigration to ease movemen",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@TrillUganda",
+    "l": "https://x.com/TrillUganda/status/2080689126857158689",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 33,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post summarizes the key takeaways from a joint border meeting between Uganda and South Sudan, focusing on border re-marking and reducing trade barriers. It is a neutral, informative update on diplomatic and logistical matters.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-746edc9a436c",
+    "t": "Strengthening South Sudan Media From Japan and Mongolia Experience\n\nTokyo, Japan \u2013 Today, our media study tour continues as we explore Japan\u2019s dynamic media sector, drawing lessons to strengthen South Sudan\u2019s own landscape.\n\nThe South Sudan delegation in Japan visited the Broadcasting Ethics and Pro",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@amdissmedia",
+    "l": "https://x.com/amdissmedia/status/2080656810101375408",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 46,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post describes a media study tour in Japan aimed at strengthening South Sudan's media sector by drawing lessons from Japan's dynamic media landscape. It is a neutral, informative update on an international cooperation initiative.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9cb3cef454a3",
+    "t": "PRE-SEASON TRAINING\n\nAl Ghazala SC Wau have officially commenced their pre-season training as preparations begin for the upcoming South Sudan Premier League. https://t.co/9FlvX6H7ix",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@junub90361",
+    "l": "https://x.com/junub90361/status/2080594008712069588",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post is a sports update announcing that Al Ghazala SC Wau has commenced pre-season training for the upcoming South Sudan Premier League. It is a factual report on a local sports team's activities.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7811b22a71d7",
+    "t": "\u26a1\ufe0fPriest recounts July 22 regime drone strike on Ethiopian Orthodox Tewahedo Church monastery in Borena Woreda (\ud83d\udccdSouth Wollo Zone, Amhara Region, Ethiopia) that killed eight civilians.\n\n\ud83d\udd34 In testimony following the July 22 drone strike on Abay-Ghion-Senet-Arsema Monastery, a priest stated: \"While ou",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AmharaWarUpdate",
+    "l": "https://x.com/AmharaWarUpdate/status/2080507363056824380",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 38,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post recounts a priest's testimony about a drone strike on an Ethiopian Orthodox Tewahedo Church monastery in Ethiopia that killed eight civilians. It is a factual report about a violent incident, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-15572152c781",
+    "t": "The United Nations Mission in South Sudan (UNMISS) Force Commander, Major General Junhui Wu, today visited Rwandan peacekeepers serving with RWANBATT-3 in Durupi. \nThe Force Commander was accompanied by the Sector South Commander, Brigadier General Shishir Bharadwaj, and other UNMISS Headquarters st",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RwandaMoD",
+    "l": "https://x.com/RwandaMoD/status/2080727229919797389",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 26,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9985
+    },
+    "exp": "This post reports on the UNMISS Force Commander's visit to Rwandan peacekeepers in Durupi, South Sudan. It is a neutral, informative update about peacekeeping operations.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c8b16e58757a",
+    "t": "South Sudan: The home of trade barriers in East Africa \n\nhttps://t.co/UVQJTcwpaM",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@NationAfrica",
+    "l": "https://x.com/NationAfrica/status/2080686947648131571",
+    "pr": "Normal",
+    "co": 0.6781,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post shares a link to an article discussing South Sudan as 'the home of trade barriers in East Africa'. This is a critical but factual statement about economic challenges, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-82588264ab4b",
+    "t": "No mother should have to travel long distances to give birth safely. With support from South Sudan humanitarian fund, GOAL is strengthening maternal health services in Twic county so more women like Ajok can access skilled care closer to home.\n#SouthSudan #safemorherhood https://t.co/id2xkSwABr",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@GOAL_ssudan",
+    "l": "https://x.com/GOAL_ssudan/status/2080634257794269528",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 25,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post describes efforts by GOAL, supported by the South Sudan humanitarian fund, to strengthen maternal health services in Twic county, aiming to provide skilled care closer to home for women.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4bf01d5c3326",
+    "t": "Uganda\u2013South Sudan Joint Border Meeting concludes in Arua. Key takeaways:\nResumption of the Joint Border Technical Committee to expedite the re-marking of the approximately 470-kilometer shared border by 2027; reduce tariff and non-tariff barriers and streamline customs & immigration to ease movemen",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@UgandaMFA",
+    "l": "https://x.com/UgandaMFA/status/2080688423426216040",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 33,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports on the conclusion of the Uganda\u2013South Sudan Joint Border Meeting, highlighting key outcomes such as the resumption of the Joint Border Technical Committee to re-mark the shared border by 2027 and efforts to reduce tariff and non-tariff barriers.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6d1c0a61e019",
+    "t": "South Sudan \ud83c\uddf8\ud83c\uddf8 President Salva Kiir stated that the country's planned elections will end the power-sharing system created under the 2018 peace agreement, which includes five vice presidents and 650 members of parliament. \n\nHe said removing these positions will reduce government spending and allow mo",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AfricaViewFacts",
+    "l": "https://x.com/AfricaViewFacts/status/2080500727324029238",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 47,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports that South Sudan's President Salva Kiir stated the country's planned elections will end the power-sharing system established under the 2018 peace agreement, which includes five vice presidents and 650 members of parliament.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-830f7e923b2f",
+    "t": "U18 Afrobasket Zone V Qualifiers \n\nUganda vs South Sudan \n\n\ud83d\udcc6 Friday 24th July \n\ud83d\udd50 16:30 EAT\n\ud83c\udfdf Cairo Stadium Indoor Hall https://t.co/bYj8nSABaW",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@2bobsports",
+    "l": "https://x.com/2bobsports/status/2080609070222873044",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post provides details for the U18 Afrobasket Zone V Qualifiers match between Uganda and South Sudan, including the date, time, and venue.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7d17f0983b73",
+    "t": "Hundreds of thousands of people live with physical disabilities in #SouthSudan, mainly because of armed conflict.\nIn the first half of 2026, we provided physical rehabilitation services to more than 1\u2019700 people, along with mobility assistive devices to help them regain mobility. https://t.co/Xtu6HW",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ICRC_SSudan",
+    "l": "https://x.com/ICRC_SSudan/status/2080609098349891917",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post highlights that hundreds of thousands of people in South Sudan live with physical disabilities due to armed conflict and reports on the provision of physical rehabilitation services and mobility assistive devices to over 1,700 people in the first half of 2026.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-14614c3ac941",
+    "t": "#UNMAS destroys explosive remnants of war across South Sudan with support from the #Netherlands ...https://t.co/5IwiTIYbrD \n\n#PachodoNews #SSOX #SSOT #SouthSudan #South_Sudan #SouthSudanese #SouthSudanNews #Sudan #\u062c\u0646\u0648\u0628_\u0627\u0644\u0633\u0648\u062f\u0627\u0646\n#\u0627\u0644\u0633\u0648\u062f\u0627\u0646 https://t.co/1N8OhjmCYp",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PachodoOrg",
+    "l": "https://x.com/PachodoOrg/status/2080634720195412131",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports that the United Nations Mine Action Service (UNMAS) is destroying explosive remnants of war across South Sudan with support from the Netherlands.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ae1a512d12b0",
+    "t": "South Sudan has announced its U18 national team for U18 AfroBasket qualifiers, marking the first youth team on the international stage in the country\u2019s history.\n\nThey make their debut in Zone 5 qualifiers today. https://t.co/6zsaX3uBwD",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@5ongolo",
+    "l": "https://x.com/5ongolo/status/2080640610147393927",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post announces South Sudan's U18 national team for the U18 AfroBasket qualifiers, marking the country's first youth team on the international stage, making their debut in Zone 5 qualifiers.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3198a3a4eadc",
+    "t": "Saddam Hussein\u2019s regime had a lunatic called Comical Ali and we are slowly seeing his reincarnation in one Ronald Lamola, a man who is now synonymous with lying through is teeth. That the South African Government has allowed lawlessness, vigilantism, xenophobia and Afrophobia is a no brainer. The po",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@tapera_david",
+    "l": "https://x.com/tapera_david/status/2080759922971529272",
+    "pr": "Questionable",
+    "co": 0.9987,
+    "tx": "medium",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 21,
+    "st": [],
+    "txd": {
+      "sev": "medium",
+      "ins": "high",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "questionable",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9962
+    },
+    "exp": "This post strongly criticizes Ronald Lamola, comparing him to \"Comical Ali\" (a nickname for Iraq's former information minister known for making false claims), and accuses him of lying. It also criticizes the South African Government for allowing \"lawlessness\" and \"vigilantism.\"",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-985ec3c31385",
+    "t": "United Nations Mine Action Service (UNMAS) destroys explosive remnants of war across South Sudan with support from the Netherlands \ud83d\udd17 Read the full story by clicking below \ud83d\udc47 https://t.co/vaOHwz03Ro",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@frankulom",
+    "l": "https://x.com/frankulom/status/2080608030010335384",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports that the United Nations Mine Action Service (UNMAS) is destroying explosive remnants of war across South Sudan with support from the Netherlands.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-abbc74689571",
+    "t": "South Sudan Presidential Guard aka Tiger Division.",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ashioyajotham_",
+    "l": "https://x.com/ashioyajotham_/status/2080649931656704113",
+    "pr": "Normal",
+    "co": 0.9962,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post simply identifies a military unit in South Sudan, the Presidential Guard also known as the Tiger Division. It contains no hateful language or slurs.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3e2194212b92",
+    "t": "Arms smuggling: a key threat to South Sudan\u2019s December elections ...https://t.co/DhmfY8HnYl \n\n#PachodoNews #SSOX #SSOT #SouthSudan #South_Sudan #SouthSudanese #SouthSudanNews #Sudan #\u062c\u0646\u0648\u0628_\u0627\u0644\u0633\u0648\u062f\u0627\u0646\n#\u0627\u0644\u0633\u0648\u062f\u0627\u0646 https://t.co/OzJVgr3lL2",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PachodoOrg",
+    "l": "https://x.com/PachodoOrg/status/2080634706815484170",
+    "pr": "Hate",
+    "co": 0.5184,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post is a news headline reporting on arms smuggling as a threat to South Sudan's upcoming elections. It is factual reporting and does not contain any hate speech or slurs.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3bcd56f763e9",
+    "t": "Seyed Abbas Araghchi (@araghchi): The Islamic Republic of Iran has once again been the target of overt military aggression by the United States in recent months. Following the attacks of June 2025, the world once again witnessed renewed military aggression against Iran between February and April 202",
+    "d": "2026-07-25",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@apocalypseos",
+    "l": "https://x.com/apocalypseos/status/2080750196250808734",
+    "pr": "Normal",
+    "co": 0.9983,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 161,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post discusses geopolitical events involving Iran and the United States. It is not related to East Africa and contains no hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-574123a1cf5e",
+    "t": "#Magazetiyaleo \n\nWamachinga \n\nIjumaa Julai 24, 2026 https://t.co/QR8BMvCvQM",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2080449927679725687",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post simply mentions 'Wamachinga' (street vendors) and a date, likely referring to a news headline. 'Wamachinga' is not a hate speech term; it refers to a group of informal traders.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-57e1c63fdf3a",
+    "t": "The 3.0% decline in diaspora remittances to USD 2,442.0 mn during the first half of 2026 from USD 2,518.3 mn during the first half of 2025 highlights the growing vulnerability of one of Kenya's most reliable sources of foreign exchange to external shocks. \n\nAdditionally, the total remittances also d",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@CytonnInvest",
+    "l": "https://x.com/CytonnInvest/status/2080536083767427551",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a factual report on economic data regarding diaspora remittances in Kenya. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-392650b720d7",
+    "t": "\ud83d\udea8Hizi ndio sajili ambazo hata sisi wachambuzi hatupati tabu kuleta kilichomo kwa mchezaji\n\nKeletso kwanza katokea ligi namba moja kwa ubora baran africa\n\nLigi yetu kwa huez Sajili mchezaji kutoka comoro somalia zambia burundi Rwanda msumbiji chadi moritius halafu ukasema ni mali https://t.co/VCobyOs",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@cleansheet_1",
+    "l": "https://x.com/cleansheet_1/status/2080962127657869602",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post discusses football player transfers and league quality, mentioning players from various African countries in the context of recruitment. There is no hateful language or slurs present; it is a sports-related discussion.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7b41643be3f0",
+    "t": "The Liberals love foreigners invading Canada so much that they appointment one from Kenya to the Supreme Court\n Mahmud Jamal from Kenya,immigrated to Alberta, and appointed to Canada's higgest court in 2017\nNo foreigner should hold any positions of power !",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@bettybloodclot",
+    "l": "https://x.com/bettybloodclot/status/2080686721784557930",
+    "pr": "Abusive",
+    "co": 0.9902,
+    "tx": "medium",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "medium",
+      "ins": "low",
+      "idt": "high",
+      "thr": "low"
+    },
+    "qc": "correct",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This post expresses xenophobic sentiment, arguing that no 'foreigner' should hold positions of power, specifically criticizing the appointment of a Kenyan immigrant to Canada's Supreme Court. While it mentions Kenya, the core of the hate speech is directed at immigrants/foreigners in Canada, not a specific East African group.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-29835cdd5dc7",
+    "t": "#Magazetiyaleo \n\nMwanaspoti \n\nJumamosi Julai 25, 2026 https://t.co/J7CHzDo8Ys",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2080822765993541633",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a simple news headline sharing, specifically from the 'Mwanaspoti' newspaper, dated Saturday, July 25, 2026. It contains no hateful or abusive language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-43f514e43928",
+    "t": "#Magazetiyaleo \n\nHabari Leo \n\nJumamosi Julai 25, 2026 https://t.co/NlH8TzbWpD",
+    "d": "2026-07-25",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2080822804732129736",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-07-25",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a simple news headline sharing, specifically from the 'Habari Leo' newspaper, dated Saturday, July 25, 2026. It contains no hateful or abusive language.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
