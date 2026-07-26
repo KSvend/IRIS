@@ -31593,7 +31593,7 @@
     "detected_by": "iris_classify_2026-04-27",
     "detection_timestamp": "2026-04-27T08:43:18.969911+00:00",
     "last_seen": "2026-04-27",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-27",
@@ -31677,7 +31677,7 @@
     "detected_by": "iris_classify_2026-04-27",
     "detection_timestamp": "2026-04-27T08:43:18.969911+00:00",
     "last_seen": "2026-04-27",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-27",
@@ -31751,7 +31751,7 @@
     "detected_by": "iris_classify_2026-04-27",
     "detection_timestamp": "2026-04-27T15:54:05.003573+00:00",
     "last_seen": "2026-04-27",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-27",
@@ -31837,7 +31837,7 @@
     "detected_by": "iris_classify_2026-04-27",
     "detection_timestamp": "2026-04-27T15:54:05.003573+00:00",
     "last_seen": "2026-04-27",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-27",
@@ -31922,7 +31922,7 @@
     "detected_by": "iris_classify_2026-04-27",
     "detection_timestamp": "2026-04-27T15:54:05.003573+00:00",
     "last_seen": "2026-04-27",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-27",
@@ -40300,7 +40300,7 @@
     "detected_by": "iris_classify_2026-06-26",
     "detection_timestamp": "2026-06-26T11:36:44.281077+00:00",
     "last_seen": "2026-06-26",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-26",
@@ -40372,7 +40372,7 @@
     "detected_by": "iris_classify_2026-06-26",
     "detection_timestamp": "2026-06-26T11:36:44.281077+00:00",
     "last_seen": "2026-06-26",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-26",
@@ -44117,6 +44117,83 @@
     "observations": [
       {
         "date": "2026-07-25",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-26-139",
+    "date": "2026-07-26",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-07-26"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-27-091",
+      "APF-2026-07-01-842",
+      "APF-2026-07-13-901",
+      "APF-2026-07-14-756",
+      "APF-2026-07-21-896",
+      "APF-2026-07-25-291"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-26",
+    "detection_timestamp": "2026-07-26T10:29:51.054004+00:00",
+    "last_seen": "2026-07-26",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-26",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
         "summary": "Initial detection",
         "platforms": [
