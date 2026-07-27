@@ -32008,7 +32008,7 @@
     "detected_by": "iris_classify_2026-04-28",
     "detection_timestamp": "2026-04-28T08:42:04.191333+00:00",
     "last_seen": "2026-04-28",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-28",
@@ -32094,7 +32094,7 @@
     "detected_by": "iris_classify_2026-04-28",
     "detection_timestamp": "2026-04-28T08:42:04.191333+00:00",
     "last_seen": "2026-04-28",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-28",
@@ -32179,7 +32179,7 @@
     "detected_by": "iris_classify_2026-04-28",
     "detection_timestamp": "2026-04-28T08:42:04.191333+00:00",
     "last_seen": "2026-04-28",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-28",
@@ -40449,7 +40449,7 @@
     "detected_by": "iris_classify_2026-06-27",
     "detection_timestamp": "2026-06-27T10:43:24.582283+00:00",
     "last_seen": "2026-06-27",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-27",
@@ -40521,7 +40521,7 @@
     "detected_by": "iris_classify_2026-06-27",
     "detection_timestamp": "2026-06-27T10:43:24.582283+00:00",
     "last_seen": "2026-06-27",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-27",
@@ -44195,6 +44195,161 @@
       {
         "date": "2026-07-26",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-27-628",
+    "date": "2026-07-27",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-07-27"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-13-901",
+      "APF-2026-07-14-756",
+      "APF-2026-07-21-896",
+      "APF-2026-07-25-291",
+      "APF-2026-07-26-139",
+      "APF-2026-07-27-913"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-27",
+    "detection_timestamp": "2026-07-27T12:03:35.351399+00:00",
+    "last_seen": "2026-07-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-27",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-27-913",
+    "date": "2026-07-27",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
+    "summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127]. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "actors": [
+      "@R47910409",
+      "@AbouzgidenAli"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "date": "2026-07-27"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-02-503",
+      "APF-2026-07-13-901",
+      "APF-2026-07-21-896",
+      "APF-2026-07-25-291",
+      "APF-2026-07-26-139",
+      "APF-2026-07-27-628"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'al hijratain'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-27",
+    "detection_timestamp": "2026-07-27T12:03:35.351399+00:00",
+    "last_seen": "2026-07-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-27",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
