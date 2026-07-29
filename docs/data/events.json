@@ -32263,7 +32263,7 @@
     "detected_by": "iris_classify_2026-04-30",
     "detection_timestamp": "2026-04-30T15:51:59.947285+00:00",
     "last_seen": "2026-04-30",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-30",
@@ -32422,7 +32422,7 @@
     "detected_by": "iris_classify_2026-04-30",
     "detection_timestamp": "2026-04-30T15:51:59.947285+00:00",
     "last_seen": "2026-04-30",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-04-30",
@@ -40749,7 +40749,7 @@
     "detected_by": "iris_classify_2026-06-29",
     "detection_timestamp": "2026-06-29T13:07:44.892292+00:00",
     "last_seen": "2026-06-29",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-29",
@@ -40834,7 +40834,7 @@
     "detected_by": "iris_classify_2026-06-29",
     "detection_timestamp": "2026-06-29T13:07:44.892292+00:00",
     "last_seen": "2026-06-29",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-29",
@@ -44358,5 +44358,159 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-29-006",
+    "date": "2026-07-29",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "NISA's drone strikes are erasing Al-Shabaab finance chiefs from the map, yet Abdalle is on Twitter trying to convince",
+    "summary": "NISA's drone strikes are erasing Al-Shabaab finance chiefs from the map, yet Abdalle is on Twitter trying to convince us the Khawarij have a flourishing corporate enterprise with \"102 employees\" at Mogadishu port. 😭 Did you do their HR payroll audit .",
+    "actors": [
+      "@MaalinIrab"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MaalinIrab/status/2082188127007879405",
+        "date": "2026-07-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-05-28-931",
+      "APF-2026-06-16-242",
+      "APF-2026-06-19-621",
+      "APF-2026-06-29-327",
+      "APF-2026-07-08-423",
+      "APF-2026-07-19-900"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'al-kataib'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-29",
+    "detection_timestamp": "2026-07-29T11:18:16.529600+00:00",
+    "last_seen": "2026-07-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-29",
+        "url": "https://x.com/MaalinIrab/status/2082188127007879405",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-07-29-188",
+    "date": "2026-07-29",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P5 LOW",
+    "headline": "General discussion on deepfake technology advancements and their implications for election integrity",
+    "summary": "This event presents a general observation regarding the rapid advancement of deepfake technology, noting its capability to produce convincing AI-generated videos. It highlights the trend of countries updating election laws to address the challenges posed by synthetic political media. The summary does not detail a specific incident or disinformation claim within Somalia but rather discusses the broader technological landscape and its implications for electoral processes.",
+    "actors": [
+      "@MindVoyagerHQ"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MindVoyagerHQ/status/2082424117920432533",
+        "date": "2026-07-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-07-01-420",
+      "APF-2026-07-02-853",
+      "APF-2026-07-04-300",
+      "APF-2026-07-09-986",
+      "APF-2026-07-11-301",
+      "APF-2026-07-15-267"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: deepfake, ai-generated.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-29",
+    "detection_timestamp": "2026-07-29T11:18:16.529600+00:00",
+    "last_seen": "2026-07-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-29",
+        "url": "https://x.com/MindVoyagerHQ/status/2082424117920432533",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Deepfake technology has advanced so rapidly that even short AI-generated videos can appear convincing. That's why many",
+    "_original_summary": "Deepfake technology has advanced so rapidly that even short AI-generated videos can appear convincing. That's why many countries are updating election laws to address synthetic political media.",
+    "_review_notes": "The event's headline and summary provide a generic discussion on deepfake technology and its impact on election laws, rather than a specific disinformation incident or a report about disinformation in Somalia. The initial classification as DISINFO is therefore inaccurate based on the provided text.",
+    "_reviewed": "2026-07-29T11:23:04.417099+00:00"
   }
 ]

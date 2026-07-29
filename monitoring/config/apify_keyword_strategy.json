@@ -1263,6 +1263,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "deepfake technology",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Core topic of the event, relevant for monitoring technological threats.",
+          "date_added": "2026-07-29",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "synthetic political media",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific type of media discussed, relevant for election-related disinformation.",
+          "date_added": "2026-07-29",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "election laws",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Implication discussed, relevant for policy responses to disinformation.",
+          "date_added": "2026-07-29",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
