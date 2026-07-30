@@ -1,0 +1,611 @@
+{
+  "date": "2026-07-30",
+  "timestamp": "2026-07-30T11:13:45.434130+00:00",
+  "config": {
+    "run_sweeps": true,
+    "run_ml": true,
+    "run_reach": true
+  },
+  "results": {
+    "0_submissions": {
+      "processed": 0
+    },
+    "1a_watchlist": {
+      "sources_checked": 13,
+      "partners_checked": 7,
+      "total_findings": 0,
+      "sources_with_new_content": 0,
+      "partners_with_new_content": 0
+    },
+    "1b_disinfo_sweep": null,
+    "1c_disinfo_classify": {
+      "events_added": 1,
+      "classified_count": 559,
+      "disinfo_count": 58,
+      "hs_only_count": 3,
+      "noise_count": 498,
+      "high_confidence_count": 35,
+      "medium_confidence_count": 4,
+      "low_confidence_count": 19,
+      "coordination_groups": 16,
+      "new_claims": [
+        {
+          "source_text": "BREAKING: four #SNA soldiers killed in an #AlShabaab ambush attack Near Halgan town in Hiiraan region. Shahada Agency\n#Somalia https://t.co/IN35BdFXun",
+          "potential_claims": [
+            "attack Near Halgan town in Hiiraan region"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "AS_CASUALTY_FABRICATION",
+          "narrative_ids": [
+            "NAR-SO-001"
+          ],
+          "url": "https://x.com/AfricanReports/status/883728480881475585",
+          "author": "@AfricanReports"
+        },
+        {
+          "source_text": "Friday March 27th 2026 [Evening News Brief]\n\n\ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today.  2 very seriously wounded and 8 seriously wounded. -",
+          "potential_claims": [
+            "to be living in Florida without an ID is accused of shooting a coworker with a nail gun",
+            "Russia considers the potential reestablishment of U"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "AS_CASUALTY_FABRICATION",
+          "narrative_ids": [
+            "NAR-SO-001"
+          ],
+          "url": "https://x.com/apexguardhq/status/2037711644550164883",
+          "author": "@apexguardhq"
+        },
+        {
+          "source_text": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media\n\nWho is Umut \u00c7a\u011fr\u0131 Sar\u0131?\nA Turkish geopolitical commentator pushi",
+          "potential_claims": [
+            "the region of colluding with Israel and link local leaders to Sudans RSF and gold smuggling",
+            "the state of being a WesternZionist puppet",
+            "Bosaso hosts Israeli radar and mercenaries under Denis protection"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "ISS_PROPAGANDA",
+          "narrative_ids": [
+            "NAR-SO-004"
+          ],
+          "url": "https://x.com/CirkaNews/status/1934975949189382447",
+          "author": "@CirkaNews"
+        },
+        {
+          "source_text": "#Somalia: The past 2 weeks  #Farmaajo bots have fabricated audio of a #Puntland Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY ",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#mudug",
+            "#garacad",
+            "#farmaajo"
+          ],
+          "keyword_group": "SOMALI_DEEPFAKES_FABRICATION",
+          "narrative_ids": [
+            "NAR-SO-005",
+            "NAR-SO-009"
+          ],
+          "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+          "author": "@PuntJubNews"
+        },
+        {
+          "source_text": "Breaking News\nWhat you see on the streets is not a revolution\u2014it\u2019s a transaction. Paid goons, staged slogans, and foreign-backed media selling a lie.\nKenya is the target.\n#ChaosCartel https://t.co/R4f",
+          "potential_claims": [
+            "staged slogans and foreignbacked media selling a lie"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/mseemsima01/status/1938207819511091600",
+          "author": "@mseemsima01"
+        },
+        {
+          "source_text": "What\u2019s happening in Kitengela is not spontaneous. It\u2019s the result of a well-planned, well-funded plot to destabilize Kenya using hired chaos. These are not protestors \u2014 they are political weapons in c",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#june25th"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/TabbyKanyungu/status/1937782831733964988",
+          "author": "@TabbyKanyungu"
+        },
+        {
+          "source_text": "Kitengela is in chaos. Goons have been unleashed, and the truth is now undeniable. This isn\u2019t youth anger \u2014 it\u2019s a coordinated, financed operation led by known political actors. What we\u2019re witnessing ",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#june25th"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/BiancaNaom1/status/1937778694673572307",
+          "author": "@BiancaNaom1"
+        },
+        {
+          "source_text": "Breaking News: Kajiado Senator Seki and other political figures are accused of using public offices to sponsor unrest and anger dubbed #OccupyStatehouse2025\n#ChaosCartel\n\nNairobi CBD Keshp Wednesday i",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#june25th",
+            "#occupystatehouse2025"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/KKCommetary/status/1937777055313134033",
+          "author": "@KKCommetary"
+        },
+        {
+          "source_text": "The Chairman of BBS Mall, Mr. Abdiweli Mohamed Hassan, was awarded the prestigious Elder of the Order of the Burning Spear (EBS) by His Excellency the President of the Republic of Kenya. \n\nThe honour ",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#bbsmall"
+          ],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/bbsmallnairobi/status/2077072785172512955",
+          "author": "@bbsmallnairobi"
+        },
+        {
+          "source_text": "Somali football referee Omar Abdulkadir Artan addressed the thousands who gathered at BBS Mall in Eastleigh to welcome him, thanking the ministers and officials of the Kenyan government who attended h",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#sonna",
+            "#omarartan"
+          ],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/SONNALIVE/status/2073278723294396697",
+          "author": "@SONNALIVE"
+        },
+        {
+          "source_text": "Thousands of members of the Somali community in Nairobi joined Kenyan officials and leaders at BBS Mall in Eastleigh to welcome Somali football referee Omar Abdulkadir Artan, who arrived from Kuwait f",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#sonna",
+            "#omarartan"
+          ],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/SONNALIVE/status/2073272907254419562",
+          "author": "@SONNALIVE"
+        }
+      ],
+      "new_handles": [
+        {
+          "handle": "@KKCommetary",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/KKCommetary/status/1938190220937335072",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@SONNALIVE",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/SONNALIVE/status/2073278723294396697",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        }
+      ],
+      "timeline_events": [
+        {
+          "id": "APF-2026-07-30-868",
+          "date": "2026-07-30",
+          "country": "Somalia",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "Friday March 27th 2026 [Evening News Brief] \ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+          "summary": "Friday March 27th 2026 [Evening News Brief] \ud83d\udfe520 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today. 2 very seriously wounded and 8 seriously wounded. -  \ud83d\udfe5 TSA Executive Order: President Trump has signed . 5 near-identical posts from 5 accounts suggest coordinated amplification.",
+          "actors": [
+            "@apexguardhq",
+            "@GrawireStudio",
+            "@11Abuker",
+            "@Mahamed81443729",
+            "@AfricanReports"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/AfricanReports/status/883728480881475585",
+              "date": "2026-07-30"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-SO-001"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references 'shahada' with VE context (attack, soldiers killed); classified as VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": true,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-07-30",
+          "detection_timestamp": "2026-07-30T10:49:05.815248+00:00"
+        },
+        {
+          "id": "APF-2026-07-30-213",
+          "date": "2026-07-30",
+          "country": "South Sudan",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and",
+          "summary": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media Who is Umut \u00c7a\u011fr\u0131 Sar\u0131? A Turkish geopolitical commentator pushing narratives that portray Puntland\u2019s counterterror. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
+          "actors": [
+            "@CirkaNews",
+            "@AbouzgidenAli",
+            "@R47910409"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/CirkaNews/status/1934975949189382447",
+              "date": "2026-07-30"
+            }
+          ],
+          "spread": 3,
+          "disinfo_narratives": [
+            "NAR-SO-004"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-07-30",
+          "detection_timestamp": "2026-07-30T10:49:05.815248+00:00"
+        },
+        {
+          "id": "APF-2026-07-30-423",
+          "date": "2026-07-30",
+          "country": "Somalia",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "deepfake",
+          "threat_level": "P3 MODERATE",
+          "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+          "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !. Observed across 2 posts from 2 accounts on X (Twitter).",
+          "actors": [
+            "@PuntJubNews",
+            "@cyberpeacecorps"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+              "date": "2026-07-30"
+            }
+          ],
+          "spread": 2,
+          "disinfo_narratives": [
+            "NAR-SO-009",
+            "NAR-SO-005"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "MEDIUM",
+          "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "pattern_match",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 4,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-07-30",
+          "detection_timestamp": "2026-07-30T10:49:05.815248+00:00",
+          "last_seen": "2026-07-30",
+          "status": "active",
+          "observations": [
+            {
+              "date": "2026-07-30",
+              "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+              "summary": "Initial detection",
+              "platforms": [
+                "X (Twitter)"
+              ],
+              "reach": {}
+            }
+          ],
+          "observation_count": 1
+        },
+        {
+          "id": "APF-2026-07-30-113",
+          "date": "2026-07-30",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P2 HIGH",
+          "headline": "#ChaosCartel: In public, he called them brave. In private, he planned chaos. Gachagua\u2019s project isn\u2019t reform; it\u2019s ruin. What started",
+          "summary": "In public, he called them brave. In private, he planned chaos. Gachagua\u2019s project isn\u2019t reform; it\u2019s ruin. What started as solidarity now reeks of sabotage. Faith Demonstrations Karatina  Spiritual Citam Rongai Kikuyu ThikaCitizen TV Central Kenya. 9 near-identical posts from 8 accounts suggest coordinated amplification. Campaign hashtags: #ChaosCartel.",
+          "actors": [
+            "@Mista_254",
+            "@PeterKariukiKE",
+            "@yokuty12",
+            "@TabbyKanyungu",
+            "@KKCommetary",
+            "@BiancaNaom1",
+            "@mseemsima01",
+            "@LensEmpress"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/LensEmpress/status/1938221673205092526",
+              "date": "2026-07-30"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Coordinated campaign indicators: #chaoscartel. Matches documented troll network pattern.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Delegitimization",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-07-30",
+          "detection_timestamp": "2026-07-30T10:49:05.815248+00:00"
+        },
+        {
+          "id": "APF-2026-07-30-601",
+          "date": "2026-07-30",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "misinformation",
+          "threat_level": "P2 HIGH",
+          "headline": "Somali international referee Omar Abdulkadir Artan was warmly received in Kenya during a special event at BBS Mall in",
+          "summary": "Somali international referee Omar Abdulkadir Artan was warmly received in Kenya during a special event at BBS Mall in Eastleigh, Nairobi. Political figures and football administrators commended his significant contributions to African football. Artan. 20 near-identical posts from 19 accounts suggest coordinated amplification.",
+          "actors": [
+            "@timothyturunga",
+            "@bbsmallnairobi",
+            "@Jigjigamedia",
+            "@AfricanHub_",
+            "@MPyusufhassan",
+            "@dchoops254",
+            "@primemediakenya",
+            "@kenyagossips",
+            "@AfricaViewFacts",
+            "@VeroneJoseph3"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/TsarDanielX/status/2079732040929280151",
+              "date": "2026-07-30"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-004",
+            "NAR-KE-002"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Ethnic Incitement",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-07-30",
+          "detection_timestamp": "2026-07-30T10:49:05.815248+00:00"
+        }
+      ],
+      "items_file": "/home/runner/work/IRIS/IRIS/monitoring/apify_results/items_2026-07-30_morning.json"
+    },
+    "1d_event_lifecycle": {
+      "to_dormant": 3,
+      "to_resolved": 0,
+      "still_active": 36
+    },
+    "1f_event_enrich": {
+      "links_added": 6,
+      "threat_upgrades": 1
+    },
+    "1e_event_review": {
+      "reviewed": 1,
+      "reclassified": 0,
+      "claims_extracted": 4,
+      "keywords_proposed": 4,
+      "total_events": 599
+    },
+    "2a_hs_sweep": {
+      "groups_searched": 11,
+      "total_results": 532,
+      "total_cost_usd": 0.1594,
+      "budget_remaining_usd": 0.3406,
+      "sweep_date": "2026-07-30"
+    },
+    "2b_hs_classify": {
+      "total_items": 532,
+      "noise_filtered": 12,
+      "ea_rejected": 312,
+      "no_indicators": 3,
+      "hs_confirmed": 205,
+      "hs_high": 179,
+      "hs_medium": 15,
+      "hs_low": 11,
+      "duplicates_skipped": 53,
+      "posts_appended": 151,
+      "autolearning": {
+        "new_toxic_handles": 13,
+        "new_learned_keywords": 10,
+        "new_narrative_discoveries": 5
+      },
+      "subtype_proposals": [],
+      "subtype_distribution": {
+        "Unknown HS Type": 184,
+        "Dehumanisation": 10,
+        "Clan Targeting": 7,
+        "Religious Incitement": 3,
+        "Anti-Foreign": 1
+      },
+      "country_distribution": {
+        "South Sudan": 117,
+        "Kenya": 64,
+        "Somalia": 24
+      }
+    },
+    "2c_ml_enrich": {
+      "classified": 155,
+      "total": 10000
+    },
+    "2d_llm_qa": {
+      "explained": 180,
+      "total": 211
+    },
+    "2e_quality_gate": {
+      "removed": 150,
+      "remaining": 9850,
+      "archived_to": "/home/runner/work/IRIS/IRIS/data/run_history/misclassified_2026-07-30.json"
+    },
+    "3a_reach": {
+      "updated": 17,
+      "checked": 34
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-30",
+  "extracted_claims": [
+    {
+      "claim": "Audio of a Somali Minister has been fabricated and spread.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "@cyberpeacecorps"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "Somali Minister"
+      ]
+    },
+    {
+      "claim": "Puntland's President issued a doctored statement.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "@cyberpeacecorps"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "@cyberpeacecorps"
+      ],
+      "keywords": [
+        "troop roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "False claims are being spread about a port in Somalia.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews",
+        "@cyberpeacecorps"
+      ],
+      "keywords": [
+        "Somali port",
+        "port claims"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific official targeted by disinformation."
+    },
+    {
+      "keyword": "Somali Minister fabricated audio",
+      "country": "Somalia",
+      "reason": "Specific type of disinformation targeting a high-level official."
+    },
+    {
+      "keyword": "Puntland roadblocks",
+      "country": "Somalia",
+      "reason": "Specific false claim related to regional security."
+    },
+    {
+      "keyword": "Somali port disinformation",
+      "country": "Somalia",
+      "reason": "Specific target of false claims related to infrastructure/economy."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

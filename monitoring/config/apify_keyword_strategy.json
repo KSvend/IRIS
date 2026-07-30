@@ -1293,6 +1293,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "somali minister fabricated audio",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific type of disinformation targeting a high-level official.",
+          "date_added": "2026-07-30",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "somali port disinformation",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific target of false claims related to infrastructure/economy.",
+          "date_added": "2026-07-30",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

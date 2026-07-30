@@ -40993,7 +40993,7 @@
     "detected_by": "iris_classify_2026-06-30",
     "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
     "last_seen": "2026-06-30",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-30",
@@ -41072,7 +41072,7 @@
     "detected_by": "iris_classify_2026-06-30",
     "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
     "last_seen": "2026-06-30",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-30",
@@ -41144,7 +41144,7 @@
     "detected_by": "iris_classify_2026-06-30",
     "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
     "last_seen": "2026-06-30",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-06-30",
@@ -44442,7 +44442,7 @@
     "country": "Somalia",
     "event_type": "CONTEXT",
     "disinfo_subtype": "deepfake",
-    "threat_level": "P5 LOW",
+    "threat_level": "P3 MODERATE",
     "headline": "General discussion on deepfake technology advancements and their implications for election integrity",
     "summary": "This event presents a general observation regarding the rapid advancement of deepfake technology, noting its capability to produce convincing AI-generated videos. It highlights the trend of countries updating election laws to address the challenges posed by synthetic political media. The summary does not detail a specific incident or disinformation claim within Somalia but rather discusses the broader technological landscape and its implications for electoral processes.",
     "actors": [
@@ -44512,5 +44512,88 @@
     "_original_summary": "Deepfake technology has advanced so rapidly that even short AI-generated videos can appear convincing. That's why many countries are updating election laws to address synthetic political media.",
     "_review_notes": "The event's headline and summary provide a generic discussion on deepfake technology and its impact on election laws, rather than a specific disinformation incident or a report about disinformation in Somalia. The initial classification as DISINFO is therefore inaccurate based on the provided text.",
     "_reviewed": "2026-07-29T11:23:04.417099+00:00"
+  },
+  {
+    "id": "APF-2026-07-30-423",
+    "date": "2026-07-30",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims of fabricated audio of Somali Minister, doctored Puntland President's statement, and troop roadblocks",
+    "summary": "Over the past two weeks, a coordinated disinformation campaign on X (Twitter) has spread multiple false claims targeting Somali officials and regional stability. This includes fabricated audio attributed to a Somali Minister, a doctored statement from the Puntland President, false reports of troop roadblocks in Puntland, and recent lies concerning a port in Somalia. These efforts, observed across multiple accounts, aim to sow discord and undermine trust in governance.",
+    "actors": [
+      "@PuntJubNews",
+      "@cyberpeacecorps"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-07-30"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-07-01-420",
+      "APF-2026-07-02-853",
+      "APF-2026-07-09-986",
+      "APF-2026-07-10-308",
+      "APF-2026-07-15-267",
+      "APF-2026-07-29-188"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-07-30",
+    "detection_timestamp": "2026-07-30T10:49:05.815248+00:00",
+    "last_seen": "2026-07-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-07-30",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Audio of a Somali Minister has been fabricated and spread.",
+      "Puntland's President issued a doctored statement.",
+      "Troops are setting up roadblocks in Puntland.",
+      "False claims are being spread about a port in Somalia."
+    ],
+    "_review_notes": "This event highlights a sustained and multi-faceted disinformation campaign targeting high-level officials and critical infrastructure in Puntland, Somalia, indicating a deliberate effort to sow distrust and potentially destabilize the region.",
+    "_reviewed": "2026-07-30T10:53:59.421409+00:00"
   }
 ]
