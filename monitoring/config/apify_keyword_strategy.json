@@ -1313,6 +1313,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "turkish analysts somalia",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific actor group linked to disinformation concerning Somalia",
+          "date_added": "2026-07-31",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
