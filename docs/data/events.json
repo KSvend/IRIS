@@ -41447,7 +41447,7 @@
     "detected_by": "iris_classify_2026-07-02",
     "detection_timestamp": "2026-07-02T11:26:30.196777+00:00",
     "last_seen": "2026-07-02",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-02",
@@ -44680,5 +44680,159 @@
     ],
     "_review_notes": "This event is an analysis *about* disinformation, not the disinformation itself, hence reclassified as CONTEXT. It highlights a potentially sophisticated information operation linking pro-Turkish narratives to ISIS propaganda to undermine counter-terrorism efforts in Puntland, Somalia. The original country classification of 'South Sudan' is incorrect given the mention of 'Puntland'.",
     "_reviewed": "2026-07-31T11:23:36.181189+00:00"
+  },
+  {
+    "id": "APF-2026-08-01-415",
+    "date": "2026-08-01",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "WEST stupid leaders need to WAKE UP &amp; stop the criminal JEWS from BURNING DOWN the WEST with their crimina \"Agenda",
+    "summary": "WEST stupid leaders need to WAKE UP &amp; stop the criminal JEWS from BURNING DOWN the WEST with their crimina \"Agenda 2030 mad ideology!\" The goal of ZIONIST like George Soros is to BURN DOWN USA &amp; Europe from within &amp; use ISLAM &amp; MUSLIM. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@JacobHaralds007"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/JacobHaralds007/status/2083499130609885197",
+        "date": "2026-08-01"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-05-18-124",
+      "APF-2026-05-31-053",
+      "APF-2026-06-09-042",
+      "APF-2026-07-04-342",
+      "APF-2026-07-08-339"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-01",
+    "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
+    "last_seen": "2026-08-01",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-01",
+        "url": "https://x.com/JacobHaralds007/status/2083499130609885197",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-08-01-892",
+    "date": "2026-08-01",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+    "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today. 2 very seriously wounded and 8 seriously wounded. -  🟥 TSA Executive Order: President Trump has signed . 7 near-identical posts from 7 accounts suggest coordinated amplification.",
+    "actors": [
+      "@ahrarfalasteen",
+      "@apexguardhq",
+      "@LauraAKarim",
+      "@AfricanReports",
+      "@gmNoxPrime",
+      "@11Abuker",
+      "@Mahamed81443729"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AfricanReports/status/883728480881475585",
+        "date": "2026-08-01"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "APF-2026-03-17-841",
+      "APF-2026-03-18-987",
+      "APF-2026-03-23-204",
+      "APF-2026-05-20-116",
+      "APF-2026-07-02-902",
+      "APF-2026-07-21-312"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'shahada' with VE context (attack, soldiers killed); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-01",
+    "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
+    "last_seen": "2026-08-01",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-01",
+        "url": "https://x.com/AfricanReports/status/883728480881475585",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
