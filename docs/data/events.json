@@ -30252,7 +30252,11 @@
       "@Jigjigamedia",
       "@kenyagossips",
       "@AfricanHub_",
-      "@TsarDanielX"
+      "@TsarDanielX",
+      "@primemediakenya",
+      "@thekenyatimes",
+      "@dchoops254",
+      "@OmarArtand1"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30387,6 +30391,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/TsarDanielX/status/2079732040929280151",
         "date": "2026-07-24"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/JubileeGroupKE/status/2083279332831896023",
+        "date": "2026-08-02"
       }
     ],
     "spread": 5,
@@ -30430,7 +30439,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-07-24",
+    "last_seen": "2026-08-02",
     "status": "active",
     "observations": [
       {
@@ -30666,9 +30675,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-08-02",
+        "url": "https://x.com/JubileeGroupKE/status/2083279332831896023",
+        "summary": "#43Against1: Somali international referee Omar Abdulkadir Artan was warmly received in Kenya during a special event at BBS Mall in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 26,
+    "observation_count": 27,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30677,6 +30695,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -41536,7 +41555,7 @@
     "detected_by": "iris_classify_2026-07-03",
     "detection_timestamp": "2026-07-03T11:27:15.852332+00:00",
     "last_seen": "2026-07-03",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-03",
@@ -41615,7 +41634,7 @@
     "detected_by": "iris_classify_2026-07-03",
     "detection_timestamp": "2026-07-03T11:27:15.852332+00:00",
     "last_seen": "2026-07-03",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-03",
@@ -44688,8 +44707,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P3 MODERATE",
-    "headline": "WEST stupid leaders need to WAKE UP &amp; stop the criminal JEWS from BURNING DOWN the WEST with their crimina \"Agenda",
-    "summary": "WEST stupid leaders need to WAKE UP &amp; stop the criminal JEWS from BURNING DOWN the WEST with their crimina \"Agenda 2030 mad ideology!\" The goal of ZIONIST like George Soros is to BURN DOWN USA &amp; Europe from within &amp; use ISLAM &amp; MUSLIM. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Claims 'criminal Jews' and 'Agenda 2030' are burning down the West using Islam and Muslims",
+    "summary": "An account on X (Twitter) is spreading antisemitic conspiracy theories, claiming that 'criminal Jews' and 'Agenda 2030' are orchestrating the downfall of Western countries like the USA and Europe by exploiting Islam and Muslims. This narrative targets George Soros as a key 'Zionist' figure in this alleged plot. The content was observed across two posts.",
     "actors": [
       "@JacobHaralds007"
     ],
@@ -44744,7 +44763,16 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "WEST stupid leaders need to WAKE UP &amp; stop the criminal JEWS from BURNING DOWN the WEST with their crimina \"Agenda",
+    "_original_summary": "WEST stupid leaders need to WAKE UP &amp; stop the criminal JEWS from BURNING DOWN the WEST with their crimina \"Agenda 2030 mad ideology!\" The goal of ZIONIST like George Soros is to BURN DOWN USA &amp; Europe from within &amp; use ISLAM &amp; MUSLIM. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Criminal Jews are burning down the West (USA and Europe) using Islam and Muslims.",
+      "George Soros, as a Zionist, aims to burn down the USA and Europe from within.",
+      "Agenda 2030 is a 'mad ideology' used by 'criminal Jews' to destroy the West."
+    ],
+    "_review_notes": "This event highlights the spread of antisemitic conspiracy theories, linking 'criminal Jews' and 'Agenda 2030' to the alleged destruction of Western nations. While the content is global in nature, its amplification by an account monitored in Kenya warrants attention for potential local impact or spread.",
+    "_reviewed": "2026-08-02T10:34:58.575215+00:00"
   },
   {
     "id": "APF-2026-08-01-892",
@@ -44753,8 +44781,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
-    "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today. 2 very seriously wounded and 8 seriously wounded. -  🟥 TSA Executive Order: President Trump has signed . 7 near-identical posts from 7 accounts suggest coordinated amplification.",
+    "headline": "False claims of 20 US soldiers wounded by Iranian missiles in Saudi Arabia and a 'TSA Executive Order' by Trump",
+    "summary": "Multiple accounts on X (Twitter) are coordinating to spread false claims about a fictional 'Evening News Brief' from March 27, 2026. The fabricated news includes reports of 20 US soldiers wounded by Iranian missiles at Prince Sultan airbase in Saudi Arabia and a 'TSA Executive Order' signed by President Trump. The coordinated nature of these posts suggests an intentional disinformation campaign.",
     "actors": [
       "@ahrarfalasteen",
       "@apexguardhq",
@@ -44772,6 +44800,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/AfricanReports/status/883728480881475585",
         "date": "2026-08-01"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Mahamed81443729/status/1867443108524200399",
+        "date": "2026-08-02"
       }
     ],
     "spread": 5,
@@ -44820,7 +44853,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-08-01",
+    "last_seen": "2026-08-02",
     "status": "active",
     "observations": [
       {
@@ -44831,8 +44864,110 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-08-02",
+        "url": "https://x.com/Mahamed81443729/status/1867443108524200399",
+        "summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 2,
+    "intensity_trend": [
+      3
+    ],
+    "_original_headline": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
+    "_original_summary": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia today. 2 very seriously wounded and 8 seriously wounded. -  🟥 TSA Executive Order: President Trump has signed . 7 near-identical posts from 7 accounts suggest coordinated amplification.",
+    "extracted_claims": [
+      "20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan airbase in Saudi Arabia.",
+      "President Trump has signed a 'TSA Executive Order'."
+    ],
+    "_review_notes": "This event demonstrates a coordinated effort to spread fabricated international news, potentially aimed at sowing discord or testing the reach of disinformation. The inclusion of a future date (March 27, 2026) is unusual and could be a tactic to make the claims seem like a 'leak' or future prediction.",
+    "_reviewed": "2026-08-02T10:34:58.575232+00:00"
+  },
+  {
+    "id": "APF-2026-08-02-454",
+    "date": "2026-08-02",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Puntland news outlet reports on multiple disinformation campaigns targeting its officials and infrastructure",
+    "summary": "A news outlet, @PuntJubNews, is reporting on a series of disinformation campaigns targeting Puntland. Over the past two weeks, these campaigns have included fabricated audio of a minister, a doctored statement from Puntland's President, false claims about troops setting up roadblocks, and current lies about Bosaso Port. This event is CONTEXT as it reports on disinformation, rather than being the disinformation itself.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-08-02"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-07-08-074",
+      "APF-2026-07-09-986",
+      "APF-2026-07-10-308",
+      "APF-2026-07-15-267",
+      "APF-2026-07-29-188",
+      "APF-2026-07-30-423"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-02",
+    "detection_timestamp": "2026-08-02T10:30:24.358921+00:00",
+    "last_seen": "2026-08-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-02",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Bots have fabricated audio of a Puntland Minister.",
+      "Bots have doctored a statement from Puntland's President.",
+      "Bots have spread lies about troops setting up roadblocks in Puntland.",
+      "Bots are spreading lies about Bosaso Port in Puntland."
+    ],
+    "_review_notes": "This event is significant as it provides insight into the types of disinformation campaigns actively targeting Puntland, Somalia, as reported by a local news source. It highlights the use of various tactics, from fabricated audio to doctored statements and false claims about infrastructure and security.",
+    "_reviewed": "2026-08-02T10:34:58.575238+00:00"
   }
 ]

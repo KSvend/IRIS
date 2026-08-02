@@ -1323,6 +1323,56 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "antisemitic conspiracy",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Identifies a specific type of harmful narrative that could recur.",
+          "date_added": "2026-08-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "george soros",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific individual often targeted in conspiracy theories.",
+          "date_added": "2026-08-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "agenda 2030",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific UN initiative often targeted by conspiracy theories.",
+          "date_added": "2026-08-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "prince sultan airbase",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific location mentioned in a false claim, could be a recurring target.",
+          "date_added": "2026-08-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "iranian missiles",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific weapon/actor mentioned in a false claim, could be a recurring theme.",
+          "date_added": "2026-08-02",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
