@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-03",
+  "extracted_claims": [
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131, a Turkish geopolitical commentator, is echoing ISIS propaganda through his narratives on Puntland's counter-terrorism efforts.",
+      "country": "South Sudan",
+      "actors": [
+        "@R47910409",
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS propaganda",
+        "Puntland",
+        "counter-terrorism",
+        "Manjaniq Media"
+      ]
+    },
+    {
+      "claim": "Fahad Yasin's recent interview is not credible and is a 'carefully crafted narrative of victimhood' rather than a genuine account.",
+      "country": "Regional",
+      "actors": [
+        "@foritssake"
+      ],
+      "keywords": [
+        "Fahad Yasin",
+        "interview",
+        "victimhood narrative"
+      ]
+    },
+    {
+      "claim": "Protests in Kenya are foreign-funded and orchestrated by external actors misusing civic groups, including OSF (Open Society Foundations).",
+      "country": "Kenya",
+      "actors": [
+        "@hezwachira",
+        "@its_meek__",
+        "_ItsMkisii",
+        "@favour_ke1",
+        "@Kyson254"
+      ],
+      "keywords": [
+        "foreign-funded protests",
+        "external actors",
+        "civic groups",
+        "OSF",
+        "Kenya"
+      ]
+    },
+    {
+      "claim": "The foreign-funded protests in Kenya are part of a broader 'East African Coup' or regional destabilization effort.",
+      "country": "Regional",
+      "actors": [
+        "@hezwachira",
+        "@its_meek__",
+        "_ItsMkisii",
+        "@favour_ke1",
+        "@Kyson254"
+      ],
+      "keywords": [
+        "East African Coup",
+        "regional resistance",
+        "destabilization"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual accused of spreading propaganda."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Alleged ISIS-affiliated media outlet mentioned in the claim."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific context of the alleged propaganda."
+    },
+    {
+      "keyword": "Fahad Yasin interview",
+      "country": "Somalia",
+      "reason": "Specific event being discussed and discredited."
+    },
+    {
+      "keyword": "Liban's Perspective",
+      "country": "Regional",
+      "reason": "Named source of the critical analysis."
+    },
+    {
+      "keyword": "#DogsOfWar",
+      "country": "Kenya",
+      "reason": "Specific hashtag used in the disinformation campaign."
+    },
+    {
+      "keyword": "Open Society Foundations Kenya",
+      "country": "Kenya",
+      "reason": "Specific organization falsely accused of involvement."
+    },
+    {
+      "keyword": "East African Coup",
+      "country": "Regional",
+      "reason": "Key phrase describing the alleged regional plot."
+    }
+  ],
+  "events_reviewed": 5,
+  "events_reclassified": 2
+}

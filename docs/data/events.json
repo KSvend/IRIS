@@ -41789,7 +41789,7 @@
     "detected_by": "iris_classify_2026-07-04",
     "detection_timestamp": "2026-07-04T10:49:07.629830+00:00",
     "last_seen": "2026-07-04",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-04",
@@ -43608,11 +43608,11 @@
     "id": "APF-2026-07-21-312",
     "date": "2026-07-21",
     "country": "Somalia",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "The leaked cyclops scene is horrendous. He eats 2 soldiers then immediately falls asleep in front of 20 armed comrades.",
-    "summary": "The leaked cyclops scene is horrendous. He eats 2 soldiers then immediately falls asleep in front of 20 armed comrades. Nolan would be better as an author of psychological novels - he’s shit at making films. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Discussion of a fictional 'cyclops scene' from a movie",
+    "summary": "An X (Twitter) account, @ManZer000000, posted a critical review of a fictional 'cyclops scene' from a movie, attributing it to director Christopher Nolan. The post expresses strong negative opinions about the scene's quality and Nolan's filmmaking abilities. This appears to be a film review, not disinformation related to East Africa.",
     "actors": [
       "@ManZer000000"
     ],
@@ -43679,7 +43679,12 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "The leaked cyclops scene is horrendous. He eats 2 soldiers then immediately falls asleep in front of 20 armed comrades.",
+    "_original_summary": "The leaked cyclops scene is horrendous. He eats 2 soldiers then immediately falls asleep in front of 20 armed comrades. Nolan would be better as an author of psychological novels - he’s shit at making films. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "_review_notes": "This event is a film review and not related to disinformation in East Africa. It should be reclassified as CONTEXT or filtered out.",
+    "_reviewed": "2026-08-03T12:13:37.564483+00:00"
   },
   {
     "id": "APF-2026-07-21-896",
@@ -43688,8 +43693,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "headline": "Claims Pro-Turkish analysts echo ISIS propaganda regarding Puntland's counter-terrorism efforts",
+    "summary": "Multiple X (Twitter) accounts, including @R47910409 and @CirkaNews, are spreading claims that a Turkish geopolitical commentator, Umut Çağrı Sarı, is echoing ISIS propaganda. The posts suggest Sarı's narratives, which reportedly portray Puntland's counter-terrorism efforts, bear striking similarities to those of Manjaniq Media, an alleged ISIS-affiliated outlet. This narrative aims to discredit pro-Turkish analysis by associating it with extremist groups.",
     "actors": [
       "@R47910409",
       "@CirkaNews"
@@ -43757,7 +43762,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Umut Çağrı Sarı, a Turkish geopolitical commentator, is echoing ISIS propaganda through his narratives on Puntland's counter-terrorism efforts."
+    ],
+    "_review_notes": "This event highlights a narrative attempting to discredit specific analysts by linking them to extremist propaganda, which could impact regional perceptions of counter-terrorism efforts.",
+    "_reviewed": "2026-08-03T12:13:37.564504+00:00"
   },
   {
     "id": "APF-2026-07-21-772",
@@ -43766,8 +43778,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "foreign_propaganda",
     "threat_level": "P3 MODERATE",
-    "headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
-    "summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "headline": "Claims Fahad Yasin's interview is a 'crafted narrative of victimhood' rather than credible",
+    "summary": "The X (Twitter) account @foritssake is disseminating an analysis from 'Liban's Perspective' that critically assesses Fahad Yasin's recent interview. The posts claim that Yasin's 'tell-all' interview, breaking years of silence, is not a credible account but rather a 'carefully crafted narrative of victimhood.' This narrative aims to undermine the credibility and content of Fahad Yasin's statements.",
     "actors": [
       "@foritssake"
     ],
@@ -43829,7 +43841,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview is not credible and is a 'carefully crafted narrative of victimhood' rather than a genuine account."
+    ],
+    "_review_notes": "This event involves an attempt to discredit a prominent political figure's public statements, which could influence public opinion and political discourse in the region.",
+    "_reviewed": "2026-08-03T12:13:37.564510+00:00"
   },
   {
     "id": "APF-2026-07-22-391",
@@ -43838,11 +43857,20 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P2 HIGH",
-    "headline": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
-    "summary": "As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being investigated. OSF is named. The pattern is unmistakable, and the resistance now regional. EastAfrican Coup. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "headline": "Claims foreign-funded protests in Kenya are part of an 'East African Coup' orchestrated by external actors and civic groups",
+    "summary": "Multiple X (Twitter) accounts, including @hezwachira, @its_meek__, and others, are spreading a narrative under the hashtag #DogsOfWar, claiming that protests in Kenya are 'foreign-funded' and part of an 'East African Coup.' The posts allege that external actors are misusing civic groups, specifically naming OSF (Open Society Foundations), and that this 'resistance' pattern is now regional. This narrative aims to delegitimize protests by portraying them as externally manipulated and part of a broader destabilization effort.",
     "actors": [
       "@hezwachira",
-      "@its_meek__"
+      "@its_meek__",
+      "@_ItsMkisii",
+      "@favour_ke1",
+      "@Kyson254",
+      "@TonyMkenya7",
+      "@recreatedd16",
+      "@hosea606666",
+      "@DreamBoy254",
+      "@TechTonicAi_",
+      "@kanairofinest"
     ],
     "platforms": [
       "X (Twitter)"
@@ -43852,6 +43880,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/hezwachira/status/1925485465441882497",
         "date": "2026-07-22"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-08-03"
       }
     ],
     "spread": 2,
@@ -43895,7 +43928,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-07-22",
     "detection_timestamp": "2026-07-22T10:53:12.626804+00:00",
-    "last_seen": "2026-07-22",
+    "last_seen": "2026-08-03",
     "status": "active",
     "observations": [
       {
@@ -43906,19 +43939,39 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-08-03",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#DogsOfWar: Why would a foreign foundation fund Kenyan activists to travel to Tanzania immediately after Gen Z protests rocked",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 2,
+    "intensity_trend": [
+      3
+    ],
+    "_original_headline": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
+    "_original_summary": "As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being investigated. OSF is named. The pattern is unmistakable, and the resistance now regional. EastAfrican Coup. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "extracted_claims": [
+      "Protests in Kenya are foreign-funded and orchestrated by external actors misusing civic groups, including OSF (Open Society Foundations).",
+      "The foreign-funded protests in Kenya are part of a broader 'East African Coup' or regional destabilization effort."
+    ],
+    "_review_notes": "This is a significant disinformation campaign attempting to delegitimize civic action and sow distrust in civil society organizations by linking them to foreign interference and regional destabilization.",
+    "_reviewed": "2026-08-03T12:13:37.564514+00:00"
   },
   {
     "id": "APF-2026-07-22-724",
     "date": "2026-07-22",
     "country": "South Sudan",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "misinformation",
     "threat_level": "P3 MODERATE",
-    "headline": "This is an EXTREMELY important point the pro-Palestine movement in the West has either defended or doesn’t fully",
-    "summary": "This is an EXTREMELY important point the pro-Palestine movement in the West has either defended or doesn’t fully understand the extent of their moral depravity. If a Palestinian in Gaza asks  BASIC QUESTIONS pertaining to data collection and verifica.",
+    "headline": "Critique of the pro-Palestine movement's understanding of data collection and verification in Gaza",
+    "summary": "The X (Twitter) account @theafroaussie posted a critical commentary on the pro-Palestine movement in the West. The post suggests that the movement either defends or fails to fully understand the 'moral depravity' related to basic questions of data collection and verification concerning Palestinians in Gaza. This appears to be a critical opinion piece or analysis of a political movement, not disinformation related to East Africa.",
     "actors": [
       "@theafroaussie"
     ],
@@ -43987,7 +44040,12 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "This is an EXTREMELY important point the pro-Palestine movement in the West has either defended or doesn’t fully",
+    "_original_summary": "This is an EXTREMELY important point the pro-Palestine movement in the West has either defended or doesn’t fully understand the extent of their moral depravity. If a Palestinian in Gaza asks  BASIC QUESTIONS pertaining to data collection and verifica.",
+    "_review_notes": "This event is a critical commentary on the pro-Palestine movement and does not appear to be disinformation related to East Africa. It should be reclassified as CONTEXT or filtered out.",
+    "_reviewed": "2026-08-03T12:13:37.564519+00:00"
   },
   {
     "id": "APF-2026-07-24-086",
