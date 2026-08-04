@@ -1373,6 +1373,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "russia-ukraine war",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific conflict mentioned, relevant for foreign influence narratives.",
+          "date_added": "2026-08-04",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "middle east conflicts",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific conflict mentioned, relevant for foreign influence narratives.",
+          "date_added": "2026-08-04",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

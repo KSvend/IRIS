@@ -45027,5 +45027,248 @@
     ],
     "_review_notes": "This event is significant as it provides insight into the types of disinformation campaigns actively targeting Puntland, Somalia, as reported by a local news source. It highlights the use of various tactics, from fabricated audio to doctored statements and false claims about infrastructure and security.",
     "_reviewed": "2026-08-02T10:34:58.575238+00:00"
+  },
+  {
+    "id": "APF-2026-08-04-459",
+    "date": "2026-08-04",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Disinformation about Russia-Ukraine war and Middle East conflicts observed in Somalia",
+    "summary": "An X (Twitter) account, @burdz2013, shared content related to the Russia-Ukraine war and Middle East conflicts. While the content itself is not disinformation, its presence in Somalia's information space indicates a potential for foreign influence narratives to spread. The post provides an update on the Russia-Ukraine war, claiming it is in its 5th year and giving a 45% Russia / 55% Ukraine 'winning' breakdown.",
+    "actors": [
+      "@burdz2013"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/burdz2013/status/2084596852876300546",
+        "date": "2026-08-04"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "APF-2026-04-27-805",
+      "APF-2026-05-20-116",
+      "APF-2026-06-03-947",
+      "APF-2026-07-02-902",
+      "APF-2026-07-21-312",
+      "APF-2026-08-01-892"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (000 casualties) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-04",
+    "detection_timestamp": "2026-08-04T11:20:36.303702+00:00",
+    "last_seen": "2026-08-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-04",
+        "url": "https://x.com/burdz2013/status/2084596852876300546",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "⚔️ RUSSIA vs UKRAINE — TODAY'S UPDATE 📊 WHO'S WINNING: █████████░░░░░░░░░░░ 🇷🇺 45% 🇺🇦 55% Now in its 5th year (started",
+    "_original_summary": "⚔️ RUSSIA vs UKRAINE — TODAY'S UPDATE 📊 WHO'S WINNING: █████████░░░░░░░░░░░ 🇷🇺 45% 🇺🇦 55% Now in its 5th year (started Feb 24, 2022) — the largest European war since WWII, still grinding on alongside the Middle East conflicts. 🎯 TODAY'S FIGHTING Ukra.",
+    "extracted_claims": [
+      "The Russia-Ukraine war is in its 5th year (started Feb 24, 2022).",
+      "Russia is 'winning' the war at 45% and Ukraine at 55%."
+    ],
+    "_review_notes": "This event is CONTEXT because the headline and summary are the actual content of the post, not an analysis of a false claim. The claims themselves are factual inaccuracies or subjective assessments presented as fact, making them disinformation. The event highlights the spread of foreign conflict narratives in the region.",
+    "_reviewed": "2026-08-04T11:25:12.103959+00:00"
+  },
+  {
+    "id": "APF-2026-08-04-740",
+    "date": "2026-08-04",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims that pro-Turkish analysts are echoing ISIS propaganda regarding Puntland's counter-terrorism efforts",
+    "summary": "The X (Twitter) account @CirkaNews is spreading a narrative suggesting that pro-Turkish geopolitical commentators, specifically Umut Çağrı Sarı, are echoing ISIS propaganda. This claim is made in the context of Sarı's analysis of Puntland's counter-terrorism operations, implying a malicious connection between Turkish-aligned analysis and extremist narratives. This narrative aims to discredit specific analysts and potentially undermine perceptions of Turkish influence or counter-terrorism efforts in the region.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-08-04"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-13-901",
+      "APF-2026-07-21-896",
+      "APF-2026-07-25-291",
+      "APF-2026-07-26-139",
+      "APF-2026-07-27-628",
+      "APF-2026-07-31-848"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-04",
+    "detection_timestamp": "2026-08-04T11:20:36.303702+00:00",
+    "last_seen": "2026-08-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-04",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Pro-Turkish analysts, such as Umut Çağrı Sarı, are echoing ISIS propaganda.",
+      "There are striking similarities between Umut Çağrı Sarı's narratives and Manjaniq Media, an alleged ISIS propaganda outlet."
+    ],
+    "_review_notes": "This event correctly identifies disinformation. The headline needs to focus on the false claim being made rather than posing it as a question or describing the detection. The summary should explain the nature of the false claim and its potential impact.",
+    "_reviewed": "2026-08-04T11:25:12.103977+00:00"
+  },
+  {
+    "id": "APF-2026-08-04-819",
+    "date": "2026-08-04",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims of a 'WEF-SOROS-ROTHSCHILD 2030 plan' conspiracy orchestrated by global elites",
+    "summary": "The X (Twitter) account @KipaPasteisNata is promoting a conspiracy theory alleging a 'WEF-SOROS-ROTHSCHILD 2030 plan.' This narrative suggests that global elites, including the World Economic Forum (WEF), George Soros, and the Rothschild family, are orchestrating a secret agenda. The post uses derogatory language ('MacroFDP', 'Pauvres truffes de mougeons français') to dismiss those who doubt the conspiracy, indicating an attempt to polarize and discredit opposing viewpoints. This type of conspiracy theory often fuels distrust in institutions and promotes anti-elite sentiment.",
+    "actors": [
+      "@KipaPasteisNata"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/KipaPasteisNata/status/2084598411425112530",
+        "date": "2026-08-04"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-05-31-053",
+      "APF-2026-06-09-042",
+      "APF-2026-07-08-339",
+      "APF-2026-07-22-391",
+      "APF-2026-08-01-415"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-04",
+    "detection_timestamp": "2026-08-04T11:20:36.303702+00:00",
+    "last_seen": "2026-08-04",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-04",
+        "url": "https://x.com/KipaPasteisNata/status/2084598411425112530",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Non rien... Pour ceux qui auraient encore un doute sur le plan 🌐WEF-SOROS-ROTHSCHILD 2030 via leur sous-fifre MacroFDP",
+    "_original_summary": "Non rien... Pour ceux qui auraient encore un doute sur le plan 🌐WEF-SOROS-ROTHSCHILD 2030 via leur sous-fifre MacroFDP ! Comploplo oui bien évidemment... Pauvres truffes de mougeons français ! N'oubliez pas de payer vos impôts en septembre et taxe d'. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "There is a secret 'WEF-SOROS-ROTHSCHILD 2030 plan' orchestrated by global elites."
+    ],
+    "_review_notes": "This event correctly identifies disinformation. The headline needs to clearly state the false claim. The summary should elaborate on the nature of the conspiracy theory and its potential implications.",
+    "_reviewed": "2026-08-04T11:25:12.103983+00:00"
   }
 ]

@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-04",
+  "extracted_claims": [
+    {
+      "claim": "The Russia-Ukraine war is in its 5th year (started Feb 24, 2022).",
+      "country": "Regional",
+      "actors": [],
+      "keywords": []
+    },
+    {
+      "claim": "Russia is 'winning' the war at 45% and Ukraine at 55%.",
+      "country": "Regional",
+      "actors": [],
+      "keywords": []
+    },
+    {
+      "claim": "Pro-Turkish analysts, such as Umut \u00c7a\u011fr\u0131 Sar\u0131, are echoing ISIS propaganda.",
+      "country": "South Sudan",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS propaganda",
+        "pro-Turkish analysts"
+      ]
+    },
+    {
+      "claim": "There are striking similarities between Umut \u00c7a\u011fr\u0131 Sar\u0131's narratives and Manjaniq Media, an alleged ISIS propaganda outlet.",
+      "country": "South Sudan",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media",
+        "ISIS propaganda"
+      ]
+    },
+    {
+      "claim": "There is a secret 'WEF-SOROS-ROTHSCHILD 2030 plan' orchestrated by global elites.",
+      "country": "Kenya",
+      "actors": [
+        "@KipaPasteisNata"
+      ],
+      "keywords": [
+        "WEF",
+        "Soros",
+        "Rothschild",
+        "2030 plan",
+        "conspiracy"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Russia-Ukraine war",
+      "country": "Regional",
+      "reason": "Specific conflict mentioned, relevant for foreign influence narratives."
+    },
+    {
+      "keyword": "Middle East conflicts",
+      "country": "Regional",
+      "reason": "Specific conflict mentioned, relevant for foreign influence narratives."
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual targeted by disinformation."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific entity mentioned in the disinformation narrative."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific context of the disinformation."
+    },
+    {
+      "keyword": "WEF-SOROS-ROTHSCHILD 2030 plan",
+      "country": "Regional",
+      "reason": "Specific conspiracy theory name."
+    },
+    {
+      "keyword": "global elite conspiracy",
+      "country": "Regional",
+      "reason": "Broader term for this type of narrative."
+    }
+  ],
+  "events_reviewed": 3,
+  "events_reclassified": 1
+}
