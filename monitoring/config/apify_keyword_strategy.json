@@ -1393,6 +1393,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "ibnul qayyim",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific religious figure whose quotes are being used.",
+          "date_added": "2026-08-05",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "mogadishu port",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific location mentioned in the false claim.",
+          "date_added": "2026-08-05",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
