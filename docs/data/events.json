@@ -44886,7 +44886,9 @@
       "@AfricanReports",
       "@gmNoxPrime",
       "@11Abuker",
-      "@Mahamed81443729"
+      "@Mahamed81443729",
+      "@NexusEchoX",
+      "@thegoodexpert"
     ],
     "platforms": [
       "X (Twitter)"
@@ -44901,6 +44903,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Mahamed81443729/status/1867443108524200399",
         "date": "2026-08-02"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/NexusEchoX/status/2084204345743028302",
+        "date": "2026-08-06"
       }
     ],
     "spread": 5,
@@ -44949,7 +44956,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-08-02",
+    "last_seen": "2026-08-06",
     "status": "active",
     "observations": [
       {
@@ -44969,10 +44976,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-08-06",
+        "url": "https://x.com/NexusEchoX/status/2084204345743028302",
+        "summary": "Fall of Teedan Exposes Mogadishu Government’s Failure to Protect the People The strategic town of Teedan in eastern",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "intensity_trend": [
+      3,
       3
     ],
     "_original_headline": "Friday March 27th 2026 [Evening News Brief] 🟥20 U.S. soldiers were wounded after Iranian missiles hit Prince Sultan",
@@ -45542,5 +45559,90 @@
     ],
     "_review_notes": "This event highlights critical scrutiny of a prominent Somali political figure's public statements, suggesting that his narrative may be a form of strategic communication rather than factual disclosure. This could influence public perception of his credibility.",
     "_reviewed": "2026-08-05T11:18:28.130235+00:00"
+  },
+  {
+    "id": "APF-2026-08-06-880",
+    "date": "2026-08-06",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis highlights similarities between pro-Turkish analyst's narratives and ISIS propaganda regarding Puntland counter-terrorism",
+    "summary": "An analysis identified striking similarities between the geopolitical commentary of Turkish analyst Umut Çağrı Sarı and ISIS propaganda, particularly concerning narratives that portray Puntland’s counter-terrorism efforts. Sarı's narratives, observed across two posts on X (Twitter) by @CirkaNews, are being compared to content from Manjaniq Media, suggesting a potential alignment with extremist messaging.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-08-06"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-13-901",
+      "APF-2026-07-25-291",
+      "APF-2026-07-26-139",
+      "APF-2026-07-27-628",
+      "APF-2026-07-31-848",
+      "APF-2026-08-04-740"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-06",
+    "detection_timestamp": "2026-08-06T11:14:05.343639+00:00",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-06",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Puntland's counter-terrorism efforts are being portrayed in a manner that aligns with or echoes ISIS propaganda."
+    ],
+    "_review_notes": "This event reports on an analysis identifying potential extremist propaganda from a geopolitical commentator, raising concerns about narratives that could undermine counter-terrorism efforts in Somalia. Note the discrepancy in the event's listed country (South Sudan) versus the summary's mention of Puntland (Somalia).",
+    "_reviewed": "2026-08-06T11:18:32.541376+00:00"
   }
 ]
