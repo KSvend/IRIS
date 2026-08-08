@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-08",
+  "extracted_claims": [
+    {
+      "claim": "The US launched a covert war on Libya through 'Operation Odyssey Dawn' during the Obama presidency.",
+      "country": "Somalia",
+      "actors": [
+        "@cirnosad"
+      ],
+      "keywords": [
+        "Operation Odyssey Dawn",
+        "Libya",
+        "Obama presidency",
+        "covert war"
+      ]
+    },
+    {
+      "claim": "The 'Soros network' was used by the US in its war on Libya.",
+      "country": "Somalia",
+      "actors": [
+        "@cirnosad"
+      ],
+      "keywords": [
+        "Soros network",
+        "US war",
+        "Libya"
+      ]
+    },
+    {
+      "claim": "Benghazi was a 'bridgehead' for the destruction of Libya.",
+      "country": "Somalia",
+      "actors": [
+        "@cirnosad"
+      ],
+      "keywords": [
+        "Benghazi",
+        "destruction of Libya"
+      ]
+    },
+    {
+      "claim": "The US war on Libya led to the 'destruction of Europe'.",
+      "country": "Somalia",
+      "actors": [
+        "@cirnosad"
+      ],
+      "keywords": [
+        "US war",
+        "Libya",
+        "destruction of Europe"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Operation Odyssey Dawn",
+      "country": "Regional",
+      "reason": "Specific historical event used in anti-Western conspiracy theories."
+    },
+    {
+      "keyword": "Soros network",
+      "country": "Regional",
+      "reason": "Recurring conspiracy theory trope often linked to foreign interference narratives."
+    },
+    {
+      "keyword": "Benghazi",
+      "country": "Regional",
+      "reason": "Specific location linked to US foreign policy conspiracy theories."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

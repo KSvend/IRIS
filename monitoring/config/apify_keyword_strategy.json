@@ -1413,6 +1413,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "operation odyssey dawn",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific historical event used in anti-Western conspiracy theories.",
+          "date_added": "2026-08-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "soros network",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Recurring conspiracy theory trope often linked to foreign interference narratives.",
+          "date_added": "2026-08-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "benghazi",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific location linked to US foreign policy conspiracy theories.",
+          "date_added": "2026-08-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

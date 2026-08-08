@@ -42313,7 +42313,7 @@
     "detected_by": "iris_classify_2026-07-09",
     "detection_timestamp": "2026-07-09T11:42:09.954826+00:00",
     "last_seen": "2026-07-09",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-09",
@@ -42392,7 +42392,7 @@
     "detected_by": "iris_classify_2026-07-09",
     "detection_timestamp": "2026-07-09T11:42:09.954826+00:00",
     "last_seen": "2026-07-09",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-09",
@@ -45644,5 +45644,79 @@
     ],
     "_review_notes": "This event reports on an analysis identifying potential extremist propaganda from a geopolitical commentator, raising concerns about narratives that could undermine counter-terrorism efforts in Somalia. Note the discrepancy in the event's listed country (South Sudan) versus the summary's mention of Puntland (Somalia).",
     "_reviewed": "2026-08-06T11:18:32.541376+00:00"
+  },
+  {
+    "id": "APF-2026-08-08-884",
+    "date": "2026-08-08",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "False claims link US 'Operation Odyssey Dawn' in Libya to 'Soros network' and 'destruction of Europe'",
+    "summary": "The X (Twitter) account @cirnosad posted a conspiracy theory claiming the US launched a covert war on Libya, 'Operation Odyssey Dawn,' using the 'Soros network' and Benghazi as a 'bridgehead,' leading to the 'destruction of Europe.' This narrative, observed across two posts, propagates anti-Western sentiment and foreign interference claims, aligning with existing disinformation narratives relevant to Somalia.",
+    "actors": [
+      "@cirnosad"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/cirnosad/status/2086018930104266914",
+        "date": "2026-08-08"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SO-006",
+      "NAR-SO-003",
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "EXT-ENRICH-IR-001",
+      "SOM-2025-001",
+      "SOM-2025-002-DI",
+      "SOM-2025-044"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-08",
+    "detection_timestamp": "2026-08-08T09:24:23.363206+00:00",
+    "last_seen": "2026-08-08",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-08",
+        "url": "https://x.com/cirnosad/status/2086018930104266914",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Operation Odyssey Dawn: The End of Libya and the Destruction of Europe /📄 On February 15th, during the Obama",
+    "_original_summary": "Operation Odyssey Dawn: The End of Libya and the Destruction of Europe /📄 On February 15th, during the Obama presidency, the US launched a war on Libya through covert means. Using the Soros network and the city of Benghazi, a bridgehead for the destr. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "The US launched a covert war on Libya through 'Operation Odyssey Dawn' during the Obama presidency.",
+      "The 'Soros network' was used by the US in its war on Libya.",
+      "Benghazi was a 'bridgehead' for the destruction of Libya.",
+      "The US war on Libya led to the 'destruction of Europe'."
+    ],
+    "_review_notes": "This event highlights the spread of historical anti-Western conspiracy theories, potentially aimed at undermining trust in international actors and fueling anti-US sentiment within broader regional narratives relevant to Somalia.",
+    "_reviewed": "2026-08-08T09:28:22.043117+00:00"
   }
 ]
