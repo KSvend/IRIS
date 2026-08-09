@@ -42472,7 +42472,7 @@
     "detected_by": "iris_classify_2026-07-10",
     "detection_timestamp": "2026-07-10T11:43:29.081162+00:00",
     "last_seen": "2026-07-10",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-10",
@@ -45718,5 +45718,85 @@
     ],
     "_review_notes": "This event highlights the spread of historical anti-Western conspiracy theories, potentially aimed at undermining trust in international actors and fueling anti-US sentiment within broader regional narratives relevant to Somalia.",
     "_reviewed": "2026-08-08T09:28:22.043117+00:00"
+  },
+  {
+    "id": "APF-2026-08-09-561",
+    "date": "2026-08-09",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Social media analysis critiques Fahad Yasin's interview as a 'victimhood narrative'",
+    "summary": "A social media post by user @foritssake provides a critical analysis of Fahad Yasin's recent interview. The analysis argues that Yasin's 'tell-all' interview, his first public statement in years, presents a carefully crafted narrative of victimhood rather than credible information. This critique highlights potential attempts to manipulate public perception regarding Yasin's past actions and influence.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-08-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-07-13-959",
+      "APF-2026-07-16-104",
+      "APF-2026-07-17-326",
+      "APF-2026-07-21-772",
+      "APF-2026-07-24-086",
+      "APF-2026-08-05-601"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-09",
+    "detection_timestamp": "2026-08-09T09:30:34.010832+00:00",
+    "last_seen": "2026-08-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-09",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's recent interview contains claims that constitute a 'carefully crafted narrative of victimhood' and lack credibility."
+    ],
+    "_review_notes": "This event highlights critical scrutiny of public figures' narratives on social media, particularly when they attempt to reframe their public image or past actions. The analysis itself is context about potential disinformation rather than disinformation directly.",
+    "_reviewed": "2026-08-09T09:34:35.568045+00:00"
   }
 ]
