@@ -42554,7 +42554,7 @@
     "detected_by": "iris_classify_2026-07-11",
     "detection_timestamp": "2026-07-11T10:17:12.694301+00:00",
     "last_seen": "2026-07-11",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-11",
@@ -45798,5 +45798,77 @@
     ],
     "_review_notes": "This event highlights critical scrutiny of public figures' narratives on social media, particularly when they attempt to reframe their public image or past actions. The analysis itself is context about potential disinformation rather than disinformation directly.",
     "_reviewed": "2026-08-09T09:34:35.568045+00:00"
+  },
+  {
+    "id": "APF-2026-08-10-854",
+    "date": "2026-08-10",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "That exactly is the plan of those who want the ”new world order” F… Soros and all his friends",
+    "summary": "An X (Twitter) account, @thechecksix, posted two messages promoting the conspiracy theory that George Soros and his associates are behind a 'new world order' plan. This event highlights the spread of global anti-Semitic and anti-democratic narratives within the East African information space, potentially influencing local perceptions of international actors.",
+    "actors": [
+      "@thechecksix"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/thechecksix/status/2086756649688076793",
+        "date": "2026-08-10"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b",
+      "NAR-SO-002"
+    ],
+    "related_events": [
+      "APF-2026-05-22-618",
+      "APF-2026-07-17-330",
+      "APF-2026-07-22-391",
+      "APF-2026-08-01-415",
+      "APF-2026-08-04-819",
+      "APF-2026-08-05-745"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-10",
+    "detection_timestamp": "2026-08-10T10:13:27.712422+00:00",
+    "last_seen": "2026-08-10",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-10",
+        "url": "https://x.com/thechecksix/status/2086756649688076793",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "That exactly is the plan of those who want the ”new world order” F… Soros and all his friends. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "George Soros and his associates are orchestrating a 'new world order' plan."
+    ],
+    "_review_notes": "This event demonstrates the penetration of global conspiracy theories, particularly those targeting figures like George Soros, into East African social media discourse, which can be adapted to local political contexts.",
+    "_reviewed": "2026-08-10T10:17:41.003365+00:00"
   }
 ]

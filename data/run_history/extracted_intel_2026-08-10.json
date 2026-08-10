@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-10",
+  "extracted_claims": [
+    {
+      "claim": "George Soros and his associates are orchestrating a 'new world order' plan.",
+      "country": "Somalia",
+      "actors": [
+        "@thechecksix"
+      ],
+      "keywords": [
+        "George Soros",
+        "new world order"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "George Soros",
+      "country": "Regional",
+      "reason": "Key figure in a recurring global conspiracy theory often adapted locally."
+    },
+    {
+      "keyword": "new world order",
+      "country": "Regional",
+      "reason": "Central term for a global conspiracy theory with potential local adaptations."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

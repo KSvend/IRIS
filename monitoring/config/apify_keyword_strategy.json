@@ -1443,6 +1443,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "new world order",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Central term for a global conspiracy theory with potential local adaptations.",
+          "date_added": "2026-08-10",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
