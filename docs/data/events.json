@@ -42886,7 +42886,7 @@
     "detected_by": "iris_classify_2026-07-14",
     "detection_timestamp": "2026-07-14T10:33:45.337394+00:00",
     "last_seen": "2026-07-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-14",
@@ -42963,7 +42963,7 @@
     "detected_by": "iris_classify_2026-07-14",
     "detection_timestamp": "2026-07-14T10:33:45.337394+00:00",
     "last_seen": "2026-07-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-14",
@@ -46183,5 +46183,162 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-08-13-702",
+    "date": "2026-08-13",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "The Myth of the Naturally Good Muslim On a dark and stormy night in the dark cave of man’s mind, Shaitaan once lit a",
+    "summary": "The Myth of the Naturally Good Muslim On a dark and stormy night in the dark cave of man’s mind, Shaitaan once lit a campfire and settled down to tell a story- a myth, in fact. It went like this: Once upon a time Islam was revealed to a Prophet of ne.",
+    "actors": [
+      "@JamiatKZN"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/JamiatKZN/status/2087461177508909316",
+        "date": "2026-08-13"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-03-29-445",
+      "APF-2026-04-24-851",
+      "APF-2026-07-19-900",
+      "APF-2026-07-29-006",
+      "APF-2026-08-05-668",
+      "APF-2026-08-12-252"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-13",
+    "detection_timestamp": "2026-08-13T09:53:23.898236+00:00",
+    "last_seen": "2026-08-13",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-13",
+        "url": "https://x.com/JamiatKZN/status/2087461177508909316",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-08-13-885",
+    "date": "2026-08-13",
+    "country": "Regional",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "foreign_propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Analysis critiques Fahad Yasin's interview as 'crafted victimhood narrative'",
+    "summary": "An analysis by 'Liban' on X (Twitter) critically examines former NISA Director Fahad Yasin's recent interview, asserting that his statements present a 'carefully crafted narrative of victimhood' rather than credible information. The analysis suggests Yasin's claims, made after years of silence, are designed to elicit sympathy rather than provide factual accounts.",
+    "actors": [
+      "@foritssake"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "date": "2026-08-13"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-FP-001",
+      "NAR-FP-002"
+    ],
+    "related_events": [
+      "APF-2026-07-15-135",
+      "APF-2026-07-16-104",
+      "APF-2026-07-24-086",
+      "APF-2026-08-05-601",
+      "APF-2026-08-09-561",
+      "APF-2026-08-12-875"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "State media false framing: neo-colonialism, western interference.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Foreign Influence Operation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-13",
+    "detection_timestamp": "2026-08-13T09:53:23.898236+00:00",
+    "last_seen": "2026-08-13",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-13",
+        "url": "https://x.com/foritssake/status/2055850219040911862",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has",
+    "_original_summary": "Fahad Interview Analysis From Liban’s Perspective: A Critical Take on Fahad Yasin’s Latest Claims Fahad Yasin has broken his silence after years, but this “tell-all” interview reads more like a carefully crafted narrative of victimhood than a credibl.",
+    "extracted_claims": [
+      "Fahad Yasin's claims in a recent interview constitute a 'carefully crafted narrative of victimhood' and lack credibility."
+    ],
+    "_review_notes": "This event highlights how prominent figures' public statements can be immediately scrutinized and reframed as disingenuous narratives, indicating a sophisticated level of public discourse and counter-narrative activity.",
+    "_reviewed": "2026-08-13T09:58:09.981431+00:00"
   }
 ]
