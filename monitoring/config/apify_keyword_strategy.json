@@ -1453,6 +1453,46 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "al furqan 25:52",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific Quranic verse being referenced in a potentially extremist context.",
+          "date_added": "2026-08-14",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "extremist interpretation",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Describes the nature of the disinformation being spread.",
+          "date_added": "2026-08-14",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "zionist",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Ideological term used in the disinformation.",
+          "date_added": "2026-08-14",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "genocide",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific accusation made in the disinformation.",
+          "date_added": "2026-08-14",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

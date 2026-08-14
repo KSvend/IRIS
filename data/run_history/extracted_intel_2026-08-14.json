@@ -1,0 +1,91 @@
+{
+  "date": "2026-08-14",
+  "extracted_claims": [
+    {
+      "claim": "Quranic verse Al Furqan 25:52 commands believers not to obey disbelievers but to strive against them, interpreted as 'jihad' even before war was permissible, implying intellectual and spiritual struggle.",
+      "country": "Somalia",
+      "actors": [
+        "@Rickard1Anthony"
+      ],
+      "keywords": [
+        "jihad",
+        "Al Furqan 25:52",
+        "disbelievers",
+        "strive"
+      ]
+    },
+    {
+      "claim": "IDF are 'child killing'.",
+      "country": "Regional",
+      "actors": [
+        "@i_versai"
+      ],
+      "keywords": [
+        "IDF",
+        "child killing"
+      ]
+    },
+    {
+      "claim": "Israeli settlers are 'genocide hungry'.",
+      "country": "Regional",
+      "actors": [
+        "@i_versai"
+      ],
+      "keywords": [
+        "Israeli settlers",
+        "genocide"
+      ]
+    },
+    {
+      "claim": "IDF and Israeli settlers are 'Zionist scum'.",
+      "country": "Regional",
+      "actors": [
+        "@i_versai"
+      ],
+      "keywords": [
+        "Zionist scum",
+        "IDF",
+        "Israeli settlers"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Al Furqan 25:52",
+      "country": "Somalia",
+      "reason": "Specific Quranic verse being referenced in a potentially extremist context."
+    },
+    {
+      "keyword": "extremist interpretation",
+      "country": "Somalia",
+      "reason": "Describes the nature of the disinformation being spread."
+    },
+    {
+      "keyword": "IDF",
+      "country": "Regional",
+      "reason": "Specific entity being targeted by disinformation."
+    },
+    {
+      "keyword": "Zionist",
+      "country": "Regional",
+      "reason": "Ideological term used in the disinformation."
+    },
+    {
+      "keyword": "genocide",
+      "country": "Regional",
+      "reason": "Specific accusation made in the disinformation."
+    },
+    {
+      "keyword": "Israeli settlers",
+      "country": "Regional",
+      "reason": "Specific group being targeted by disinformation."
+    },
+    {
+      "keyword": "Israel-Palestine conflict",
+      "country": "Regional",
+      "reason": "Broader context of the disinformation, indicating it's not specific to South Sudan."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 0
+}

@@ -32541,7 +32541,7 @@
     "detected_by": "iris_classify_2026-05-16",
     "detection_timestamp": "2026-05-16T10:09:32.240098+00:00",
     "last_seen": "2026-05-16",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-16",
@@ -32618,7 +32618,7 @@
     "detected_by": "iris_classify_2026-05-16",
     "detection_timestamp": "2026-05-16T10:09:32.240098+00:00",
     "last_seen": "2026-05-16",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-16",
@@ -32700,7 +32700,7 @@
     "detected_by": "iris_classify_2026-05-16",
     "detection_timestamp": "2026-05-16T10:09:32.240098+00:00",
     "last_seen": "2026-05-16",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-16",
@@ -43035,7 +43035,7 @@
     "detected_by": "iris_classify_2026-07-15",
     "detection_timestamp": "2026-07-15T10:35:17.827389+00:00",
     "last_seen": "2026-07-15",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-15",
@@ -43107,7 +43107,7 @@
     "detected_by": "iris_classify_2026-07-15",
     "detection_timestamp": "2026-07-15T10:35:17.827389+00:00",
     "last_seen": "2026-07-15",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-15",
@@ -46340,5 +46340,177 @@
     ],
     "_review_notes": "This event highlights how prominent figures' public statements can be immediately scrutinized and reframed as disingenuous narratives, indicating a sophisticated level of public discourse and counter-narrative activity.",
     "_reviewed": "2026-08-13T09:58:09.981431+00:00"
+  },
+  {
+    "id": "APF-2026-08-14-571",
+    "date": "2026-08-14",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Spreading extremist interpretation of Quranic verse Al Furqan 25:52 to justify 'jihad' against disbelievers",
+    "summary": "An X (Twitter) user, @Rickard1Anthony, shared a post quoting Quranic verse Al Furqan 25:52, interpreting it as a command to 'strive against disbelievers' using the word 'jihad.' The post suggests this striving is an intellectual and spiritual struggle, even pre-dating the permissibility of war, but the context and use of 'jihad' can be interpreted as promoting extremist views or incitement in Somalia.",
+    "actors": [
+      "@Rickard1Anthony"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Rickard1Anthony/status/2087931042397397438",
+        "date": "2026-08-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-06-29-327",
+      "APF-2026-07-19-900",
+      "APF-2026-07-29-006",
+      "APF-2026-08-05-668",
+      "APF-2026-08-12-252",
+      "APF-2026-08-13-702"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-14",
+    "detection_timestamp": "2026-08-14T09:50:12.894398+00:00",
+    "last_seen": "2026-08-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-14",
+        "url": "https://x.com/Rickard1Anthony/status/2087931042397397438",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Again huh? What about the Meccan Sura Al Furqan 25:52 which states do not obey the disbelievers but strive against them",
+    "_original_summary": "Again huh? What about the Meccan Sura Al Furqan 25:52 which states do not obey the disbelievers but strive against them with it a great striving, the word used is jihad, and that's before war was made permissible, engaging in an intellectual, spiritu.",
+    "extracted_claims": [
+      "Quranic verse Al Furqan 25:52 commands believers not to obey disbelievers but to strive against them, interpreted as 'jihad' even before war was permissible, implying intellectual and spiritual struggle."
+    ],
+    "_review_notes": "This event highlights the spread of potentially extremist interpretations of religious texts on social media, which can be used to justify violence or promote ideological division in Somalia.",
+    "_reviewed": "2026-08-14T09:54:48.450938+00:00"
+  },
+  {
+    "id": "APF-2026-08-14-782",
+    "date": "2026-08-14",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Accusations of 'child killing' and 'genocide' against IDF and Israeli settlers, labeling them 'Zionist scum'",
+    "summary": "An X (Twitter) user, @i_versai, posted highly inflammatory content accusing the Israeli Defense Forces (IDF) of 'child killing' and Israeli settlers of being 'genocide hungry,' labeling them 'Zionist scum.' The post appears to be a strong anti-Israel/anti-Zionist statement related to the Israeli-Palestinian conflict, rather than an event specific to South Sudan.",
+    "actors": [
+      "@i_versai"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/i_versai/status/2088197526990045444",
+        "date": "2026-08-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-005",
+      "NAR-SS-001",
+      "NAR-SS-002"
+    ],
+    "related_events": [
+      "APF-2026-06-03-738",
+      "APF-2026-06-04-121",
+      "APF-2026-06-09-533",
+      "APF-2026-06-28-282",
+      "APF-2026-07-20-299",
+      "APF-2026-07-22-724"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-14",
+    "detection_timestamp": "2026-08-14T09:50:12.894398+00:00",
+    "last_seen": "2026-08-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-14",
+        "url": "https://x.com/i_versai/status/2088197526990045444",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Oh no they defended their home and threw rocks and sticks at the guys with guns, tanks, bombs and military support.",
+    "_original_summary": "Oh no they defended their home and threw rocks and sticks at the guys with guns, tanks, bombs and military support. Won't someone think about the poor child killing IDF and the innocent genocide hungry settlers? Zionist scum.",
+    "extracted_claims": [
+      "IDF are 'child killing'.",
+      "Israeli settlers are 'genocide hungry'.",
+      "IDF and Israeli settlers are 'Zionist scum'."
+    ],
+    "_review_notes": "This event highlights the spread of highly inflammatory and potentially antisemitic rhetoric related to the Israeli-Palestinian conflict. While classified under South Sudan, the content's primary focus is external, raising questions about its direct relevance or impact within South Sudan, unless these narratives are being specifically leveraged by local actors. The country classification should be reviewed.",
+    "_reviewed": "2026-08-14T09:54:48.450956+00:00"
   }
 ]

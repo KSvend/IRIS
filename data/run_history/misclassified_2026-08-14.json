@@ -1,0 +1,1164 @@
+[
+  {
+    "i": "apify-77c94e811a31",
+    "t": "Deg deg: Saaka  Cidamada Qaranka JAMUURIYADA Somaliland oo hawlgaalo ka waada duleedka magalada  lascanood \n\nRepublic of somaliland \ud83d\udd25 https://t.co/3kNOOjt7w7",
+    "d": "2026-08-14",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Republicn5",
+    "l": "https://x.com/Republicn5/status/2088178520489103612",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.8
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.7124
+    },
+    "exp": "This post is a news report in Somali, stating that Somaliland's national forces are conducting operations near Las Anod city. It is a factual report and does not contain any hate speech or target any group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-36ef8adcf92e",
+    "t": "Mustaqbalka Mac Allister Oo Go\u2019aan Cad Laga Soo Saaray https://t.co/ANIkzszSlx #laacib #somali #ciyaaro",
+    "d": "2026-08-14",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@LaacibTV",
+    "l": "https://x.com/LaacibTV/status/2088203036145643877",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9787
+    },
+    "exp": "This post is a sports news headline in Somali, discussing the future of a football player named Mac Allister. It is completely unrelated to hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0af96da76916",
+    "t": "under the designation \"\u0627\u064a\u0630\u0648\u0631\"(Iydoor/ldoor). The name \u201cIdoor\u201d was a term derived from the Somali word for trade and commerce, And historically functioned as a prominent regional and colonial exonym for the NouhIsmail, highlighting their dominant historical position as the primary merchants and trade",
+    "d": "2026-07-15",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@mustafa.mu58",
+    "l": "https://www.tiktok.com/@mustafa.mu58/video/7662581965966609665",
+    "pr": "Normal",
+    "co": 0.9987,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.6627
+    },
+    "exp": "This post provides an academic or historical explanation of the term 'Idoor,' describing its origin and historical usage as an exonym for a specific group. It is an informative, descriptive text, not an attack.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ed01280c6654",
+    "t": "#Magazetiyaleo \n\nMwananchi \n\nIjumaa Agosti 14, 2026 https://t.co/eVY2V1948Z",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088075843452928461",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a simple news update, sharing the front page of the 'Mwananchi' newspaper. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5c0599b2cef5",
+    "t": "#Magazetiyaleo \n\nMwanaspoti \n\nIjumaa Agosti 14, 2026 https://t.co/SUOJ5jRFUe",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088075846669980073",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a simple news update, sharing the front page of the 'Mwanaspoti' newspaper. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-73644c54a89c",
+    "t": "#KENYA: Magazetini Leo...          \n\nTaifa Leo, Daily Nation, The Standard, People Daily\n\nIjumaa Agosti 14, 2026 https://t.co/DPDUoxLv2e",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MwanzoTvPlus",
+    "l": "https://x.com/MwanzoTvPlus/status/2088125710078525550",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a simple news update, listing various Kenyan newspapers for the day. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-970a57c74e97",
+    "t": "Ruto na wakenya wamesumbuana kitambo sana",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@theutdcode",
+    "l": "https://x.com/theutdcode/status/2088202477485109354",
+    "pr": "Hate",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post states that 'Ruto and Kenyans have been in conflict for a long time.' It's a general political observation about a public figure and the populace, not targeting any specific group with hate.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-35227d8af944",
+    "t": "YAJAYO KWENYE HABARI ZA #RADIOGENERATION:   \n\n1. Kinara wa chama cha DCP Rigathi  Gachagua, amemkosoa vikali Rais William Ruto, akimtaka kuacha kumhusisha Rais mstaafu Uhuru Kenyatta na changamoto za kisiasa\n\n2. Rais William Ruto amehudhuria tamasha la 98 la Muziki la Kenya katika Ikulu ya Bungoma\n\n",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RadioGenKe",
+    "l": "https://x.com/RadioGenKe/status/2088202563736805804",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a news update from #RADIOGENERATION, reporting on political statements by Rigathi Gachagua criticizing President William Ruto and Ruto's attendance at a festival. It's factual news reporting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3572bf163d9d",
+    "t": "Contact @KingsResearchKE For:\n\n\u2705 Proposal Development\n\u2705 Dissertation &amp; Thesis Support\n\u2705 Statistical Analysis \n\u2705 Journal Article Writing\n\ud83d\udcde 0728-426-918\n\n#SortingNHIFBills Uhuru #SerikaliYaMamaMboga  Ask MarieStopes #JKUATPAUGrad2026 SHA Delivers Kenyan Diaspora Stories https://t.co/DU7yGsdJ3i",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Rube_Mfalme",
+    "l": "https://x.com/Rube_Mfalme/status/2088201853230039518",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is an advertisement for academic support services, listing contact information and relevant hashtags. It is purely commercial and not related to hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3ee12ce157b4",
+    "t": "Yesterday on NTV\u2019s Your World show, we highlighted the Government\u2019s preparedness and response measures as Kenya continues to monitor the Ebola situation in the region.\n\nWe clarified that Kenya has not recorded a confirmed Ebola case, while surveillance, screening at points of entry, laboratory readi",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@psmuthoni",
+    "l": "https://x.com/psmuthoni/status/2088148737012973781",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 65,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "This post provides an update on Kenya's preparedness and response to the Ebola situation, clarifying that no confirmed cases have been recorded. It is factual public health information.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4787d28dc5e9",
+    "t": "Agriculture Cabinet Secretary Mutahi Kagwe has assured Kenyans that the country will remain food secure  despite drought and increasingly unpredictable weather patterns expected to affect agricultural production\n\nhttps://t.co/YMXTkwJZlQ",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@StandardKenya",
+    "l": "https://x.com/StandardKenya/status/2088196491684802959",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post reports on a statement from the Agriculture Cabinet Secretary assuring Kenyans of food security despite drought. It is a news update about government policy.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1f372b664087",
+    "t": "Statement From student Leader Mount Kenya University Nairobi Academic Secretary, comrades from all university in Kenya let's be safe,the death of comrades is raising with high velocity,and this is a great threat to current society and the Nation at Large, let's take care for journey of comrades belo",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MunyakaV",
+    "l": "https://x.com/MunyakaV/status/2088142129323291089",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9963
+    },
+    "exp": "This post is a statement from a student leader expressing concern about the rising death rate among students in Kenya and calling for safety. It is a general public safety announcement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8524deea291c",
+    "t": "In line with the directive of senator Francis fadahunsi",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ayan_steven",
+    "l": "https://x.com/ayan_steven/status/2088202847749894456",
+    "pr": "Normal",
+    "co": 0.9981,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "The post is an incomplete sentence referencing a directive from a senator, with no discernible hate speech or East African relevance.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-935d0d71e280",
+    "t": "After more than 3 years SAF's chief in commander and chairman of TSC Lt. Gen Al Burhan officially returned to the presidential palace in Khartoum. \nhttps://t.co/ZtFvzY7aEm",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@IvaDlebeR",
+    "l": "https://x.com/IvaDlebeR/status/2088142036616491210",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on Lt. Gen Al Burhan's return to the presidential palace in Khartoum, which is a news update about Sudanese politics.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a4f3e9010969",
+    "t": "#SouthSudan and #Sudan resume security talks after years-long hiatus, agree to secure border, maintain status quo in Abyei - https://t.co/rA2leyCgJF via @SudanTribune_EN https://t.co/ZcPXRKW0GK",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ADFmagazine",
+    "l": "https://x.com/ADFmagazine/status/2088188998367818168",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on the resumption of security talks between South Sudan and Sudan, focusing on border security and the status of Abyei, which is a news update.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7a0ed6c8dd8e",
+    "t": "The Sudan Founding Alliance (TASIS) said that its forces had taken control of Kurmuk in Sudan\u2019s Blue Nile region following clashes with the army and allied forces.\n\nhttps://t.co/npXkd5UQjv",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2088053147830788237",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports on the Sudan Founding Alliance (TASIS) claiming control of Kurmuk in Sudan's Blue Nile region after clashes, which is a news update on conflict.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1c11f43bf849",
+    "t": "Sudan and South Sudan have agreed to strengthen security cooperation and border controls during a visit by Sudanese Defence Minister F. Hassan Daoud Kabroun to Juba.\n\nThe two sides agreed to prevent armed infiltration, avoid hosting armed groups, and activate a previous security agreement. They also",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Africa_lix",
+    "l": "https://x.com/Africa_lix/status/2088160442593992727",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 36,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post reports on an agreement between Sudan and South Sudan to enhance security cooperation and border controls, including preventing armed infiltration, which is a news update.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bcb04c9b8d1a",
+    "t": "Sudan Founding Alliance (TASIS) authorities have detained three civilian administrators in Darfur\n\nhttps://t.co/TWlUSrm1IS",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2088143701667185038",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports that Sudan Founding Alliance (TASIS) authorities have detained three civilian administrators in Darfur, which is a news update.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a5c405a4c3ea",
+    "t": "OPHK PARTNERS WITH UN OCHA TO STRENGTHEN CIVILIAN PROTECTION IN THE NORTH-EAST \ud83d\udd4a\ufe0f\ud83c\uddf3\ud83c\uddec\n\nOn Thursday, 13 August 2026, Operation HADIN KAI (OPHK) hosted a Humanitarian/Civil-Military Coordination Roundtable in partnership with the UN Office for the Coordination of Humanitarian Affairs (UN OCHA). The foru",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Pressman2040",
+    "l": "https://x.com/Pressman2040/status/2088192463861092383",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 92,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on a partnership between OPHK and UN OCHA to strengthen civilian protection in North-East Nigeria, which is a news update about humanitarian efforts.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f91165fc7f8e",
+    "t": "Somaliland under economic embargo 2026\n\nAt the Nairobi gathering, President Irro was seen crying while addressing ambassadors from the international community. These ambassadors are responsible for managing key funding and diplomatic relations with Somalia and are based in Nairobi.\n\nMeanwhile, Somal",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Saed_Moumin",
+    "l": "https://x.com/Saed_Moumin/status/2088196493408657501",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 80,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post discusses Somaliland facing an economic embargo and mentions President Irro's emotional address to ambassadors in Nairobi, which is political commentary.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0f4490560b2a",
+    "t": "Sudan Founding Alliance (TASIS) government has moved to fill two senior oversight and judicial posts.\n\nhttps://t.co/gapVs58OxR",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2088120993571049626",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports that the Sudan Founding Alliance (TASIS) government has filled two senior oversight and judicial posts, which is a news update.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4024a35af8bf",
+    "t": "Sudan\u2019s RSF carried out a second consecutive day of drone operations against areas controlled by SAF.\n\nhttps://t.co/kKeeCPsEDS",
+    "d": "2026-08-14",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2088068179327119582",
+    "pr": "Normal",
+    "co": 0.9933,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post is a news report about military operations between the RSF and SAF in Sudan. It is a factual account of conflict, not hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d5be125af2ec",
+    "t": "Our experts have also contributed to the formulation of Kenya's National Artificial Intelligence Strategy, which provides a framework for the responsible use of\nartificial intelligence in national development. This contribution of expertise is further reflected in Prof. Joseph Muliaro Wafula\u2019s servi",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@DiscoverJKUAT",
+    "l": "https://x.com/DiscoverJKUAT/status/2088168737618678176",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 19,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post discusses the contribution of experts to Kenya's National Artificial Intelligence Strategy. It is a neutral, informative post about national development.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-07ad5f0ebe28",
+    "t": "Senior Muigai\u2019s story shows how creativity and purpose can become powerful tools for healing and connection. His journey through art highlights the role of culture in strengthening communities abroad. Kenyan Diaspora Stories #Wiyathi. https://t.co/V2L1hS3Sh2",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Mwiki_",
+    "l": "https://x.com/Mwiki_/status/2088193303132934341",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post highlights a story about creativity, healing, and the role of culture in strengthening Kenyan diaspora communities. It is a positive and informative post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5216b923b146",
+    "t": "Four different journeys, one powerful message: Kenyan immigrants continue building businesses, careers, communities and second chances abroad while carrying resilience, culture and purpose forward. Kenyan Diaspora Stories #Wiyathi",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Shawtywishi",
+    "l": "https://x.com/Shawtywishi/status/2088166264678109606",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post celebrates the resilience and achievements of Kenyan immigrants abroad. It is a positive and informative post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d4fbd8699d6c",
+    "t": "Take your career overseas! \ud83c\udf0d Mathenge TTI &amp; Seagull Int'l bring you FREE Middle East job opportunities!\n\ud83d\udcc5 Interview: 18th Aug 2026\n\ud83d\udccd Venue: Mathenge TTI\n\ud83d\udcde 0795038032\n\ud83d\udd17 Register via link in bio\n#MathengeTTI #TVETKenya #MiddleEastJobs https://t.co/DdrZ2Q9fQA",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mathengetti",
+    "l": "https://x.com/mathengetti/status/2088171994218938654",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is an advertisement for job opportunities in the Middle East for Kenyans. It is a neutral, commercial post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-25be9cbd5001",
+    "t": "Whether through business, career guidance, wellness initiatives, or recovery advocacy, these Kenyans are building a thriving diaspora. Their stories prove that we are not just surviving abroad\u2014we are creating legacies &amp; winning together. KenyanDiasporaStories #Wiyathi",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@shannieclara",
+    "l": "https://x.com/shannieclara/status/2088155974448136645",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post celebrates the success and contributions of Kenyans in the diaspora. It is a positive and informative post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5c9837ad0d5c",
+    "t": "MAJOR BOOST FOR KENYA\u2013NAMIBIA TRADE &amp; TOURISM\nPrivileged to pay a courtesy call on Hon Lee Kinyanjui, Cabinet Secretary (Minister) for Investments, Trade &amp; Industry accompanied by Namibia\u2019s Honorary Consul in Kenya, Said Ali, to brief &amp; request him to lead the 6\u201312 Sept Mission https://t",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@elvis_mboya1",
+    "l": "https://x.com/elvis_mboya1/status/2088157413329269155",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post reports on a diplomatic meeting aimed at boosting trade and tourism between Kenya and Namibia. It is a neutral, informative post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0ca78f47bcc4",
+    "t": "\ud83c\udd95 NEW JOB ALERT \u2014 GoKazini\n\nField Plumbing Consultant\n\n\ud83d\udccd Kitengela, Kenya\n\ud83d\udcb0 KES 25,000/mo\n\ud83c\udfe2 On-site\n\ud83d\udcc2 Engineering & Construction\n\ud83d\uddd3\ufe0f Posted: 14 August 2026\n\u23f0 Apply by: 31 August 2026\n\nLooking for a role in Engineering & Construction?\n\nThis one is now live on GoKazini.\n\n\ud83d\udd17 Apply here:\nhttps://t.co/weIR",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GoKazini",
+    "l": "https://x.com/GoKazini/status/2088201027925266568",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a job advertisement for a Field Plumbing Consultant in Kitengela, Kenya. It is a neutral, commercial post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f3ec78ebf715",
+    "t": "A number of Kenyans are working tirelessly hard for Kenyans to know how living as a REFUGEE in other people's countries tastes like.",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MuthisyaMwalimu",
+    "l": "https://x.com/MuthisyaMwalimu/status/2088144410714284384",
+    "pr": "Abusive",
+    "co": 0.7664,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9337
+    },
+    "exp": "This post expresses a critical political sentiment, suggesting that the actions of some Kenyans might lead to others becoming refugees. It serves as a warning or criticism rather than direct hate speech against a specific group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fcbe2604375b",
+    "t": "Viwango vya kubadilisha fedha za kigeni Agosti 14, 2026.\n\n@BankOfTanzania https://t.co/LfHimYySZ2",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088163756534534393",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post provides information about foreign exchange rates ('Viwango vya kubadilisha fedha za kigeni') on a specific date, referencing the Bank of Tanzania. It is purely informational and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ec2789cdc764",
+    "t": "\ud83c\udd95 NEW JOB ALERT \u2014 GoKazini\n\nIndividual Consultant Health Economist - Development of Midwifery Investment Case\n\n\ud83d\udccd Nairobi, Kenya\n\ud83d\udcb0 Est. KES 400,000 \u2013 700,000/mo\n\ud83c\udfe2 Remote\n\ud83d\udcc2 NGO, UN & Development\n\ud83d\uddd3\ufe0f Posted: 14 August 2026\n\u23f0 Apply by: 19 August 2026\n\nLooking for a role in NGO, UN & Development?\n\nThis on",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GoKazini",
+    "l": "https://x.com/GoKazini/status/2088152772537397378",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a job advertisement for an Individual Consultant Health Economist based in Nairobi, Kenya, detailing the salary, location, and application deadline. It is purely informational and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
