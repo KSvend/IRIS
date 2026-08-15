@@ -1,0 +1,2342 @@
+[
+  {
+    "i": "apify-6c02cc15d655",
+    "t": "Mimi Afcon ntaenda kuangalizia Kwa majirani kenya",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Mbaade_tz",
+    "l": "https://x.com/Mbaade_tz/status/2088178535101870161",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a casual statement in Swahili, meaning 'I will go watch Afcon at the neighbors' place, Kenya.' It expresses an intention to watch a football tournament and is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c50f0e62c0e2",
+    "t": "Musitu letee ujinga a South Africa huku mukitafuta content",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kulahepi",
+    "l": "https://x.com/kulahepi/status/2088144937749495939",
+    "pr": "Hate",
+    "co": 0.9884,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post translates to 'Don't bring South African foolishness here while you're looking for content.' It's a dismissive comment about content or behavior, but it does not target a protected group with hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cbe23bcec0c0",
+    "t": "@jairus_nyakagwa @DebrahNjogu @Annmitchel5 @JamesVungo @kisiranisumbufu @CessNdiritu @jennykanyiri @philipmathekaj @KabuaJulius @WamahigaN @BarrackFerguson @_WangechiKabiu @RChemutai @sylviepaloma @kunguruu @Tonnywachipo @WMatamano @HeleniqueYuniq @Lucypau43921191 @mwixzip @CAkabeti @kimathi_ri86058",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@moses_kaigi",
+    "l": "https://x.com/moses_kaigi/status/2088119401258025120",
+    "pr": "Abusive",
+    "co": 0.6292,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post consists solely of a long list of Twitter mentions (user handles). There is no textual content to analyze for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7c2f876e85c8",
+    "t": "Kieha kugumira aikari a ituura ria Kenyatta farm kuria kwoikaine tene ta Kihiu Mwiri thutha wa mutumia umwe mukuru gukorwo oragitwo na njira ya unyamu. kurekuirwo mutumia ucio agerirwo ngero iyo kurumirira ngucanio cia migunda. #MohoromaInooroFm #MariaMareyumiria https://t.co/XvZNXqYRM2",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@inooroke",
+    "l": "https://x.com/inooroke/status/2088200587263271333",
+    "pr": "Normal",
+    "co": 0.9841,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post reports a tragic news event in Kikuyu, stating 'Sadness has gripped residents of Kenyatta farm village, formerly known as Kihiu Mwiri, after an elderly woman was brutally murdered. It is reported that the woman suffered this ordeal following land disputes.' While the content is grim, it is news reporting and does not contain hate speech or target any group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-412ec7d55e5a",
+    "t": "Wewe Kasongo wachana na Rais Uhuru Kenyatta. Rais uhuru Kenyatta hapigani na wewe. Mpinzani wako mkuu atakaye kufukuza uende nyumbani ni Riggy G mwenyewe - Rigathi Gachagua. https://t.co/6ix4rSKSZk",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Nairobi_Leo",
+    "l": "https://x.com/Nairobi_Leo/status/2088203149605531829",
+    "pr": "Hate",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post, attributed to Rigathi Gachagua, is political rhetoric directed at an opponent referred to as 'Kasongo,' stating 'Your main opponent who will chase you home is Riggy G himself.' While aggressive, it is political rivalry and not hate speech targeting a protected group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c3b3c309dc6c",
+    "t": "''Wewe Kasongo wachana na Rais Uhuru Kenyatta. Shida ni wewe umejiletea mwenyewe. Rais uhuru Kenyatta hapigani na wewe. Mpinzani wako mkuu atakaye kufukuza uende nyumbani ni Riggy G mwenyewe.''-Rigathi Gachagua\n#MeruFmNews https://t.co/T2Bk4zDL3j",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MeruFmOfficial",
+    "l": "https://x.com/MeruFmOfficial/status/2088193266965532757",
+    "pr": "Hate",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "Similar to the previous post, this is political rhetoric attributed to Rigathi Gachagua, telling an opponent 'Kasongo' that 'Your main opponent who will chase you home is Riggy G himself.' It's aggressive political speech, not hate speech against a protected group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9f49a52cf653",
+    "t": "Hii kura ya 2027 ndio kura ya kumaliza ukabila na ubaguzi - President Ruto. https://t.co/ziFjnKr0Cz",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Nairobi_Leo",
+    "l": "https://x.com/Nairobi_Leo/status/2088105832244510744",
+    "pr": "Normal",
+    "co": 0.9532,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post quotes President Ruto saying, 'This 2027 vote is the vote to end tribalism and discrimination.' This is a statement advocating against tribalism and discrimination, making it counter-speech rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4701847fd32c",
+    "t": "Ruto alikuwa analilia watu wa Eldoret wachukue kura na watakuja kuchukua kura wakutoe - Methu. https://t.co/1178lt7hrW",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HourlyNewsWave",
+    "l": "https://x.com/HourlyNewsWave/status/2088202779936608300",
+    "pr": "Hate",
+    "co": 0.9974,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post states, 'Ruto was pleading with the people of Eldoret to register to vote, and they will come to vote you out - Methu.' This is political commentary about voter mobilization and electoral strategy, not hate speech targeting a protected group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-20ce4b12c982",
+    "t": "Contact @KingsResearchKE For:\n\n\u2705 Research Proposal Support\n\u2705  Dissertation Writing\n\u2705 Data Analysis\n\u2705  Manuscript Development\n\ud83d\udcde 0728-426-918\n\nSenior Mungai Uhuru Kenyan Diaspora Stories #SortingNHIFBills #JKUATPAUGrad2026 SHA Delivers #RutoVisionFor2060 Charles Owino Homabay https://t.co/MLzWCu2TcM",
+    "d": "2026-08-14",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Rube_Mfalme",
+    "l": "https://x.com/Rube_Mfalme/status/2088186987622678877",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-14",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is an advertisement for research services, followed by a list of trending hashtags. It contains no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8c1e135e441e",
+    "t": "\ud83d\udc99\ud83d\udc99\ud83d\udc99\ud83e\udd0d\ud83e\udd0d\ud83e\udd0d\ud83d\udc9a\ud83d\udc9a\ud83d\udc9a\n\nGalmudug a Gear to Greatness!",
+    "d": "2026-08-15",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@somaligeezer",
+    "l": "https://x.com/somaligeezer/status/2088528988046066155",
+    "pr": "Normal",
+    "co": 0.9986,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9819
+    },
+    "exp": "This post is a positive and celebratory message about Galmudug, a state in Somalia, using emojis and an encouraging phrase. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-16e59170c68b",
+    "t": "MAULID YA MASJID MUZDALIFA | HOROHORO KENYA - TANZANIA BORDER | 1448/2026 https://t.co/sgkhcdz0Ge",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@AlihsaanTv",
+    "l": "https://x.com/AlihsaanTv/status/2088523226905551210",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a factual announcement about a religious event, 'Maulid' (celebration of Prophet Muhammad's birth), at a 'Masjid' (Mosque) in Horohoro, near the Kenya-Tanzania border. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4478d733a1dc",
+    "t": "MAULID YA MASJID MUZDALIFA | HOROHORO KENYA - TANZANIA BORDER | 1448/2026 https://t.co/Wdt9gpCrum",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@AlihsaanTv",
+    "l": "https://x.com/AlihsaanTv/status/2088549441515221469",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a factual announcement about a religious event, 'Maulid' (celebration of Prophet Muhammad's birth), at a 'Masjid' (Mosque) in Horohoro, near the Kenya-Tanzania border. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-421aea40c760",
+    "t": "MAULID YA MASJID MUZDALIFA | HOROHORO KENYA - TANZANIA BORDER | 1448/2026 https://t.co/10IIdPh6T1",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@AlihsaanTv",
+    "l": "https://x.com/AlihsaanTv/status/2088552272523641243",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a factual announcement about a religious event, 'Maulid' (celebration of Prophet Muhammad's birth), at a 'Masjid' (Mosque) in Horohoro, near the Kenya-Tanzania border. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e0fdb3ba20b9",
+    "t": "South Sudan: refugees face extreme hunger as funds run out \u2014 via WFP/UNHCR https://t.co/YEL7reLQYk",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@epmani",
+    "l": "https://x.com/epmani/status/2088443314941145404",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post is a news report about refugees facing extreme hunger in South Sudan due to a lack of funds. It is informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fc1fa948a7ec",
+    "t": "Today in the Anglican Cycle of Prayer, we pray for the Diocese of Ayod in the Province of the Episcopal Church of South Sudan. https://t.co/gktCkvPLTg",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AnglicanWorld",
+    "l": "https://x.com/AnglicanWorld/status/2088536246234550647",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is a religious message about praying for a specific diocese in the Episcopal Church of South Sudan. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-02b2f8d3a407",
+    "t": "Sudan\u2019s RSF has said in a statement that they have made significant gains after fierce clashes in the Blue Nile region.\n\nhttps://t.co/2Dlqjn2OWG",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2088498471695200611",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news report about military clashes in Sudan's Blue Nile region. It is factual news and contains no hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bc01a93b63c7",
+    "t": "240,000 of the most vulnerable refugees in South Sudan could lose food assistance as soon as the end of September due to funding cuts.\n\nAs millions across the country face severe hunger, refugees are being pushed to the brink.\n\nUrgent support is needed. https://t.co/0xmklmStRT",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Refugees",
+    "l": "https://x.com/Refugees/status/2088521320954839061",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on the dire situation of 240,000 vulnerable refugees in South Sudan who face losing food assistance due to funding cuts, highlighting a humanitarian crisis.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-71e3a379738b",
+    "t": "\ud83c\uddf8\ud83c\udde9\ud83d\udea8 Heavy fighting erupts southwest of El Obeid\nHeavy fighting and artillery fire reportedly erupted southwest of El Obeid in North Kordofan as the Sudanese army and the paramilitary RSF clashed in the area. The escalation follows recent battles along the vital Exports Road corridor.\n#Sudan #ElObeid",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PnPPolitics",
+    "l": "https://x.com/PnPPolitics/status/2088533719334162568",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 21,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post reports on heavy fighting and artillery fire between the Sudanese army and the paramilitary RSF southwest of El Obeid in North Kordofan, detailing an escalation of conflict in Sudan.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2b3343433ffc",
+    "t": "Surge of casualties in South Sudan as conflict intensifies: \u2018It\u2019s heartbreaking\u2019 https://t.co/W5EgRPrcsv https://t.co/HcdFIMUX8p",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Independent",
+    "l": "https://x.com/Independent/status/2088537127696957496",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on a surge of casualties in South Sudan due to intensifying conflict, expressing the heartbreaking nature of the situation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-657b4ab81cd2",
+    "t": "The Greater Yei Chiefs are calling on President Salva Kiir to urgently intervene in the ongoing border tensions between South Sudan and Uganda, after the community leaders visiting Kajo-Keji reported dire conditions among the displaced civilians. #ssox https://t.co/DLqutXGTpR",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@EyeRadioJuba",
+    "l": "https://x.com/EyeRadioJuba/status/2088551363223404936",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 28,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports that the Greater Yei Chiefs are urging President Salva Kiir to intervene in ongoing border tensions between South Sudan and Uganda, following reports of dire conditions among displaced civilians.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-af7a191e97b2",
+    "t": "Vulnerable refugees in South Sudan could lose lifesaving food and nutrition assistance by the end of September due to critical funding shortages.\n\n#SouthSudan #Refugees #UNHCR  #FoodSecurity #Sudan #HumanitarianAid\n\n@UNHCRSouthSudan @WFP_SouthSudan @Refugees @RefugeesAfrica",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SilvaAlkebeh",
+    "l": "https://x.com/SilvaAlkebeh/status/2088551748541542447",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post highlights that vulnerable refugees in South Sudan are at risk of losing lifesaving food and nutrition assistance by the end of September due to critical funding shortages.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d42dfadac84a",
+    "t": "More than 650,000 refugees and asylum seekers in South Sudan risk losing further access to lifesaving food, nutrition and other assistance due to critical funding shortfalls, leaving families who fled war and hunger with nowhere else to turn.\n\nhttps://t.co/weA0PRpPg3 https://t.co/cPKXNZejoq",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Richard01173388",
+    "l": "https://x.com/Richard01173388/status/2088513281040519361",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports that over 650,000 refugees and asylum seekers in South Sudan face losing access to critical food, nutrition, and other assistance due to severe funding shortfalls, leaving them in a desperate situation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-673c9e03119d",
+    "t": "650,000 Refugees in South Sudan Risk Losing All Food Aid as UN Funding Gap Widens.\nhttps://t.co/RzUFYOawQH https://t.co/wHSDy9zsOl",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AtlDigest",
+    "l": "https://x.com/AtlDigest/status/2088507554288611456",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports that 650,000 refugees in South Sudan are at risk of losing all food aid due to a widening UN funding gap, emphasizing a critical humanitarian crisis.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-abab7c80e445",
+    "t": "#SouthSudan #book #Amazon \nStrategic Plans For South Sudan https://t.co/LJoJvbwNFd",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AkolMiyenKuol",
+    "l": "https://x.com/AkolMiyenKuol/status/2088487740044107954",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post promotes a book titled \"Strategic Plans For South Sudan\" available on Amazon, using relevant hashtags.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4add71e8e3ca",
+    "t": "More than 650,000 refugees in South Sudan risk losing critical food assistance. Urgent global support is needed now.\nRead more \ud83d\udc49 https://t.co/fVNAJVR7MB",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RefugeesAfrica",
+    "l": "https://x.com/RefugeesAfrica/status/2088484378112356514",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post highlights that over 650,000 refugees in South Sudan are at risk of losing critical food assistance and calls for urgent global support to address the humanitarian crisis.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-dcdf192c6b92",
+    "t": "Surge of casualties in South Sudan as conflict intensifies: \u2018It\u2019s heartbreaking\u2019 https://t.co/xrWYZnvhwF",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BradPorcellato",
+    "l": "https://x.com/BradPorcellato/status/2088534720724209890",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on a surge of casualties in South Sudan as conflict intensifies, describing the situation as 'heartbreaking'.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cce54ed3359a",
+    "t": "UN food lifeline to end for 240,000 South Sudan refugees\nhttps://t.co/dhcR3SoG7M",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@editionmv",
+    "l": "https://x.com/editionmv/status/2088551683106148532",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news headline reporting on the UN ending food aid for 240,000 South Sudanese refugees. It is purely informational and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b3e85bb5492e",
+    "t": "Hanbalyo Reer Galmudug!!  sanad guurada Galmudug 14 August !! Guulaysta https://t.co/Y3iKNYpB1v",
+    "d": "2026-08-15",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@awduula",
+    "l": "https://x.com/awduula/status/2088494108784431318",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9868
+    },
+    "exp": "This post is a celebratory message, saying 'Congratulations Reer Galmudug!! Galmudug anniversary 14 August!! Succeed.' 'Reer' is a clan prefix, here used to refer to the people of the Galmudug state. It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2cdc10e12645",
+    "t": "#Magazetiyaleo \n\nMwanaspoti \n\nJumamosi Agosti 15, 2026 https://t.co/dtwwA7lHDN",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088453091813122227",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a neutral news headline 'Magazetiyaleo' (Today's Newspapers) followed by 'Mwanaspoti' (a sports newspaper name) and a date. It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-381b607a33ae",
+    "t": "Utapata tu  mtu mzima hajai  Tembea Kenya yote",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MagohaF",
+    "l": "https://x.com/MagohaF/status/2088539151213977611",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post, in Swahili, translates to 'You will find an adult who has never traveled all over Kenya.' This is a general observation or comment, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c41b763cd5ba",
+    "t": "#Magazetiyaleo \n\nWamachinga \n\nJumamosi Agosti 15, 2026 https://t.co/GX7KUBfr1j",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088453085580444099",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a neutral news headline 'Magazetiyaleo' (Today's Newspapers) followed by 'Wamachinga' (a term for hawkers/street vendors) and a date. It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-613b70310597",
+    "t": "Galmudug the State of Devotion , Public Spirit and Growth! \ud83d\udc99\ud83e\udd0d\ud83d\udc9a https://t.co/LTL3KCpLOR",
+    "d": "2026-08-15",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@somaligeezer",
+    "l": "https://x.com/somaligeezer/status/2088527767717478798",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9645
+    },
+    "exp": "This post expresses positive sentiment and pride for Galmudug, a federal member state in Somalia. It does not contain any hate speech or negative remarks towards any group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-223e26bafaf7",
+    "t": "Happy 20th Anniversary to our patriotic citizens from Galmudug across the globe wherever you are!\n\nWe all rejoice in seeing the peace , prosperity and unity of Galmudug!\n\nNorth East State will always support your continuous growth and progress! \n\n\ud83d\udc99\ud83d\udc99\ud83e\udd0d\ud83e\udd0d\ud83d\udc9a\ud83d\udc9a\ud83d\udc9a\n\n#Galmudug https://t.co/y8WaMDxr0f",
+    "d": "2026-08-15",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@somaligeezer",
+    "l": "https://x.com/somaligeezer/status/2088527017843007521",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 18,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.6737
+    },
+    "exp": "This post celebrates the 20th anniversary of Galmudug, expressing positive wishes for peace, prosperity, and unity, and mentions support from the 'North East State' (likely Puntland). It is a message of regional pride and well-wishing.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f7d3bd5d196b",
+    "t": "President Mohamud Says Galmudug\u2019s Progress Shows Somalia Is Emerging From Decades of Crisis\nhttps://t.co/QS5fCPrfua https://t.co/pDDzkgsN22",
+    "d": "2026-08-15",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@GoobjoogMedia",
+    "l": "https://x.com/GoobjoogMedia/status/2088522493954752658",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9462
+    },
+    "exp": "This post reports a statement from President Mohamud, highlighting Galmudug's progress as a sign of Somalia's recovery. It is a news report and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0495be39be95",
+    "t": "Uhuru anatuma hawa vijana na hawapatii pesa - Ruto https://t.co/IpTq7AVAzu",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@_NairobiDaily",
+    "l": "https://x.com/_NairobiDaily/status/2088538424001106059",
+    "pr": "Hate",
+    "co": 0.9768,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This Swahili post translates to 'Uhuru anatuma hawa vijana na hawapatii pesa - Ruto' meaning 'Uhuru sends these youths and doesn't give them money - Ruto.' This is a political statement attributed to Ruto, criticizing former President Uhuru Kenyatta regarding his alleged treatment of youth.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-21f8950d26d8",
+    "t": "I SALUTE YOU\n\nPresident Ruto: Huyu Mwengi Mutuse ni Mwanaume, kazi amenifanyia haiwezi kufanywa na Wanaume wote. https://t.co/1YD09VGKJ7",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@PeterKariukiKE",
+    "l": "https://x.com/PeterKariukiKE/status/2088542183745851768",
+    "pr": "Hate",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This Swahili post translates to 'President Ruto: Huyu Mwengi Mutuse ni Mwanaume, kazi amenifanyia haiwezi kufanywa na Wanaume wote' meaning 'President Ruto: This Mwengi Mutuse is a man, the work he has done for me cannot be done by all men.' This is a statement of praise for an individual, using an idiom to emphasize his exceptional capability, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d56bd1e23d49",
+    "t": "Pesa ya Ruto nayo tutakula lakini Kura NG'o",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ErkyaloErick",
+    "l": "https://x.com/ErkyaloErick/status/2088552116738457822",
+    "pr": "Hate",
+    "co": 0.6947,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This Swahili post translates to 'Pesa ya Ruto nayo tutakula lakini Kura NG'o' meaning 'We will take Ruto's money, but no vote.' This expresses a cynical political sentiment common in Kenya, indicating an intention to accept campaign handouts but not vote for the candidate.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-57ae832d5a63",
+    "t": "SWALI: Je ni kipi kitakachoamua kura yako katika uchaguzi mkuu ujao; Chama, Kiongozi au Sera? Kwa nini? #NTVMashinani @bugufatuma https://t.co/5NTtLDrAui",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ntvkenya",
+    "l": "https://x.com/ntvkenya/status/2088247335243374615",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This Swahili post translates to 'QUESTION: What will determine your vote in the next general election; Party, Leader or Policies? Why?' This is a neutral question from a news outlet (NTV) soliciting public opinion on voting factors.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5adb11fcdd6b",
+    "t": "Kula Kwa Ruto, Kura Kwa Sifuna....... Mambo Ni namna hiyo.",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ReyEmali",
+    "l": "https://x.com/ReyEmali/status/2088553158695944406",
+    "pr": "Hate",
+    "co": 0.9429,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This Swahili post translates to 'Kula Kwa Ruto, Kura Kwa Sifuna....... Mambo Ni namna hiyo' meaning 'Eat from Ruto, Vote for Sifuna....... That's how things are.' Similar to other posts, this expresses a cynical political strategy of accepting benefits from one politician while voting for another.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-36663e491d53",
+    "t": "BREAKING \n\nDP Prof Kithure Kindiki declared as the DEFACTO Kingpin of Mt Kenya at Manyatta in Embu. https://t.co/sC7sDMboDo",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@abuga_makori",
+    "l": "https://x.com/abuga_makori/status/2088546624595194175",
+    "pr": "Abusive",
+    "co": 0.9675,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post reports a political declaration about DP Kithure Kindiki being named the \"defacto Kingpin\" of the Mt Kenya region. It is a factual report of a political event and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-365aff648900",
+    "t": "Manyatta MP Gitonga Mukunji has raised concerns over a meeting being held in the area today by Deputy President Kithure Kindiki, alleging that the gathering is part of efforts to divide the Mt Kenya region politically. https://t.co/X6PmsPF64Q",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@eagle_feed",
+    "l": "https://x.com/eagle_feed/status/2088548462359130414",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post reports on Manyatta MP Gitonga Mukunji's concerns that a meeting by DP Kithure Kindiki is an attempt to politically divide the Mt Kenya region. This is political commentary and criticism, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2d0b75923dd0",
+    "t": "Hello @KenyaPower_Care. We\u2019ve been having power issues from yesterday here in Mwiki. Lights were dim and now they\u2019ve off since morning. Kindly assist. Mtr No 37187264157",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kevinduiga",
+    "l": "https://x.com/kevinduiga/status/2088546846910144965",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "This post is a customer service complaint to Kenya Power about an outage in Mwiki. It is a personal complaint and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-26eb86e6f6e4",
+    "t": "Manyatta MP Gitonga Mukunji has raised concerns over a meeting being held in the area today by Deputy President Kithure Kindiki, alleging that the gathering is part of efforts to divide the Mt Kenya region politically. https://t.co/ltkkv53lpn",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@nairobieyeKE",
+    "l": "https://x.com/nairobieyeKE/status/2088548654911197252",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post reports on Manyatta MP Gitonga Mukunji's concerns that a meeting by DP Kithure Kindiki is an attempt to politically divide the Mt Kenya region. This is political commentary and criticism, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bf592d407b6e",
+    "t": "To the determination of the people and leaders of south Sudan to forge a better future. https://t.co/YKRCqTITeI",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ibrahimarbab106",
+    "l": "https://x.com/ibrahimarbab106/status/2088489495851130898",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post expresses a positive sentiment about the determination of the people and leaders of South Sudan to build a better future. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cdc7b5753ee4",
+    "t": "#Sudan | Sovereign Council Chairman and Armed Forces Commander-in-Chief General Abdel Fattah al-Burhan said military operations would continue until the #RSF militia is defeated, stressing that Sudan would not accept a partial peace deal that returns the militia or its supporters to power.\n\nSpeaking",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Sudan_tweet",
+    "l": "https://x.com/Sudan_tweet/status/2088501231006191929",
+    "pr": "Normal",
+    "co": 0.9982,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 67,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on General Abdel Fattah al-Burhan's statement that military operations in Sudan will continue until the RSF militia is defeated and that a partial peace deal is unacceptable. This is a news report about ongoing conflict, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6d8021441da5",
+    "t": "UN agencies: 650,000 refugees in South Sudan could lose food aid within weeks due to funding squeeze https://t.co/cp9qLtSzaH via @cgtnofficial",
+    "d": "2026-08-15",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@chinghizmONE",
+    "l": "https://x.com/chinghizmONE/status/2088553294482563447",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on UN agencies' warning that 650,000 refugees in South Sudan are at risk of losing food aid due to a funding shortage. This is a news report about a humanitarian issue, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-acbb7c52d55f",
+    "t": "Average spend climbing to KSh204,298 means every visitor leaves more value behind, amplifying the impact of the 2.76 million international arrivals recorded this year. Tembea Kenya Tracking The Progress #TourismUnderRuto https://t.co/mOhgvV8dKS",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@bonsoul_ke",
+    "l": "https://x.com/bonsoul_ke/status/2088542962741571976",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post reports on Kenya's tourism statistics, noting an increase in average visitor spending and international arrivals, promoting tourism under the current administration. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-390aa068dca4",
+    "t": "The world is choosing Kenya as international arrivals climbed from 1.21 million to 2.76 million. Continuous efforts are expanding the country\u2019s global tourism appeal. #TourismUnderRuto Tembea Kenya Tracking The Progress https://t.co/4hknYUkPkA",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@NaiBlogger",
+    "l": "https://x.com/NaiBlogger/status/2088531815694766418",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post highlights Kenya's increasing popularity as a global tourism destination, citing a significant rise in international arrivals and ongoing efforts to boost its appeal. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-364fe4a591ff",
+    "t": "International arrivals have climbed from 1.21M to 2.76M, a strong indication that more travellers are choosing Kenya for unforgettable experiences. Tembea Kenya. Tracking The Progress. #TourismUnderRuto https://t.co/cxK7J82kbb",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Bellah_Christah",
+    "l": "https://x.com/Bellah_Christah/status/2088534912726974623",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post indicates a strong increase in international arrivals to Kenya, suggesting that more travelers are choosing the country for their experiences. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f40d7e1ad669",
+    "t": "International arrivals rising from 1.21 million to 2.76 million represent a major increase, reinforcing Kenya\u2019s visibility and attractiveness within the global tourism market. today #TourismUnderRuto Tembea Kenya Tracking The Progress. https://t.co/21v8pfS0Qp",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JebetKe_",
+    "l": "https://x.com/JebetKe_/status/2088542168713503096",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post emphasizes a significant increase in international arrivals to Kenya, which reinforces the country's visibility and attractiveness in the global tourism market. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7ef4c2c7a469",
+    "t": "International visitors to Kenya increased from 1.21M to 2.76M. That is more than double. More people from around the world are choosing Kenya for our wildlife, beaches, culture and beautiful destinations. #TourismUnderRuto Tembea Kenya Tracking The Progress https://t.co/y4oZXL6npP",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JosphOmuya",
+    "l": "https://x.com/JosphOmuya/status/2088532397251834362",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post highlights a more than doubling of international visitors to Kenya, attributing the increase to the country's wildlife, beaches, culture, and beautiful destinations. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-18dff87c67da",
+    "t": "The rise from 1.21 million to 2.76 million international arrivals demonstrates Kenya\u2019s growing appeal in the global tourism market and the strength of the country\u2019s tourism potential.Tembea Kenya, Tracking The Progress\n#TourismUnderRuto. https://t.co/q2o2T81Udv",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@_iam_dan_",
+    "l": "https://x.com/_iam_dan_/status/2088531102176580019",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post showcases Kenya's growing appeal in the global tourism market, evidenced by a significant rise in international arrivals, and highlights the country's strong tourism potential. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9d75c86aabe6",
+    "t": "#Magazetiyaleo \n\nMwananchi \n\nJumamosi Agosti 15, 2026 https://t.co/ySOByH8YwO",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088453055318528213",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news update, sharing the headline \"Today's Newspapers\" (Magazetiyaleo) for the Mwananchi newspaper on Saturday, August 15, 2026. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ccb3df4861a4",
+    "t": "#Magazetiyaleo \n\nHabari Leo \n\nJumamosi Agosti 15, 2026 https://t.co/wjAf7CI63c",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088453092643684755",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news update, sharing the headline \"Today's Newspapers\" (Magazetiyaleo) for the Habari Leo newspaper on Saturday, August 15, 2026. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ffc54015db56",
+    "t": "Umurondeli wumwamishi  Prof. Kindiki na waziri Ruku vaveeye olovega lwa Nembure mukaunti ya Embu mumukungano mutakatifu gwa vasakuru vi ivugwe wikigulu cha Kenya. #VuukaNews #embueast https://t.co/YRO4bkDdoO",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@VuukaFM",
+    "l": "https://x.com/VuukaFM/status/2088549898442477921",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post, written in Kiembu, reports that Professor Kindiki and Minister Ruku visited Nembure in Embu County for a meeting with elders from the Kenya mountain region. It appears to be a neutral news report and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d156b936b6b7",
+    "t": "#Magazetiyaleo \n\nMwanahabari \n\nJumamosi Agosti 15, 2026 https://t.co/iFxbcMlrDr",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088453075128259041",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news update, sharing the headline \"Today's Newspapers\" (Magazetiyaleo) for \"Mwanahabari\" (Journalist/Reporter) on Saturday, August 15, 2026. It appears to be a generic news reference and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-dfbd2996adb0",
+    "t": "Short time chronicles \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02 Eti time iki kwisha uwezi ongeza juu kuna bikisha \ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kulahepi",
+    "l": "https://x.com/kulahepi/status/2088528674437972359",
+    "pr": "Abusive",
+    "co": 0.9139,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post uses Sheng (Kenyan slang) and appears to be a humorous or playful comment about time running out, possibly in a game or a specific situation. The term \"bikisha\" is not a known hate speech term and the context is lighthearted.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-22034833a2e4",
+    "t": "#Magazetiyaleo \n\nNipashe \n\nJumamosi Agosti 15, 2026 https://t.co/FLbLqsHHUt",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2088453092635242923",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post shares a news headline, \"Magazeti ya leo\" (Today's newspapers), from the \"Nipashe\" newspaper, dated Saturday, August 15, 2026. It is a factual news reference and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6940d9b3b0ac",
+    "t": "International visitor arrivals have climbed from 1.21 million to 2.76 million, highlighting Kenya\u2019s growing global appeal and stronger position as a preferred tourism destination. #TourismUnderRuto Tembea Kenya Tracking The Progress. https://t.co/KqmEs2Dvx2",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JebetKe_",
+    "l": "https://x.com/JebetKe_/status/2088532791164047816",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post discusses positive tourism statistics for Kenya, noting an increase in international visitor arrivals and promoting Kenya as a preferred tourism destination under the \"TourismUnderRuto\" initiative. It is promotional content, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f0b1db2e1f43",
+    "t": "International arrivals increased from 1.21M to 2.76M, reflecting Kenya\u2019s growing appeal to global travellers. Tembea Kenya, Tracking The Progress and experience destinations attracting visitors from around the world today. #TourismUnderRuto https://t.co/A1kZvFxiKe",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@BrianKevinKe_",
+    "l": "https://x.com/BrianKevinKe_/status/2088532841839702062",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post highlights the increase in international arrivals to Kenya, attributing it to the country's growing appeal to global travelers and promoting \"Tembea Kenya\" (Visit Kenya) under the \"TourismUnderRuto\" initiative. It is promotional content, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-42c85d9720eb",
+    "t": "The number of international visitors has risen by about 128%. That means Kenya is attracting more people from outside the country, and every visitor creates demand for goods and services. #TourismUnderRuto Tembea Kenya Tracking The Progress https://t.co/4Ju1ITZKAu",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JosphOmuya",
+    "l": "https://x.com/JosphOmuya/status/2088540249752211947",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 19,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post reports a significant increase in international visitors to Kenya, emphasizing the economic benefits of tourism, and promotes the \"TourismUnderRuto\" initiative. It is positive news and promotional content, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f50d63c67b59",
+    "t": "International arrivals have risen from 1.21 million in 2021/22 to 2.76 million in 2025/26, confirming Kenya's growing appeal among global travellers. across the country Tracking The Progress #TourismUnderRuto Tembea Kenya. https://t.co/x37sNwnwZR",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TweetsByKui",
+    "l": "https://x.com/TweetsByKui/status/2088533399795630553",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post provides statistics on the rise of international arrivals to Kenya between 2021/22 and 2025/26, affirming the country's increasing appeal to global travelers and promoting \"Tembea Kenya\" under the \"TourismUnderRuto\" initiative. It is promotional content, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4b496e51877a",
+    "t": "Tourism continues to open economic opportunities. \n\nInternational arrivals have reached 2.76 million. \n\nRevenue has grown to KSh 564 billion. \n\nKenya\u2019s tourism potential is translating into results. \n\nTembea Kenya #TourismUnderRuto Tracking The Progress https://t.co/q1y4PJlpj5",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@_zoey_y",
+    "l": "https://x.com/_zoey_y/status/2088545382154260991",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post highlights the economic benefits of tourism in Kenya, citing increased international arrivals and revenue, and promotes \"Tembea Kenya\" under the \"TourismUnderRuto\" initiative. It is positive news and promotional content, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a9bcb14ddaf0",
+    "t": "With international arrivals reaching 2.76 million, Kenya is strengthening its position as a leading global destination for memorable travel experiences.\n\n#TourismUnderRuto | Tembea Kenya\n                  Tracking The Progress https://t.co/TMZzmNZ42u",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Ruto_nated",
+    "l": "https://x.com/Ruto_nated/status/2088538861857026379",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post emphasizes Kenya's strengthened position as a leading global travel destination due to increased international arrivals, promoting \"Tembea Kenya\" under the \"TourismUnderRuto\" initiative. It is promotional content, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-27028ee175bb",
+    "t": "Kenya is attracting more international visitors. \n\nArrivals have risen to 2.76 million. \n\nMore visitors are spending within the country.\n\n Tourism is contributing more to the economy.\n\n Tembea Kenya #TourismUnderRuto Tracking The Progress https://t.co/0TePOyCVoc",
+    "d": "2026-08-15",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@_zoey_y",
+    "l": "https://x.com/_zoey_y/status/2088536642587935098",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-08-15",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post reiterates that Kenya is attracting more international visitors, leading to increased spending and greater economic contribution from tourism, promoting \"Tembea Kenya\" under the \"TourismUnderRuto\" initiative. It is positive news and promotional content, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
