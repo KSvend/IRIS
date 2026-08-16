@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-16",
+  "extracted_claims": [
+    {
+      "claim": "Khaled Qaddoumi, Hamas\u2019 representative in Iran, gave an interview to Shabestan News Agency on 14 August 2026.",
+      "country": "Somalia",
+      "actors": [
+        "@MujammaHaraket",
+        "Khaled Qaddoumi"
+      ],
+      "keywords": [
+        "Hamas",
+        "Iran",
+        "Shabestan News",
+        "Khaled Qaddoumi",
+        "Seyyed Khameini",
+        "fabricated interview"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Khaled Qaddoumi",
+      "country": "Somalia",
+      "reason": "Specific individual falsely attributed in the disinformation."
+    },
+    {
+      "keyword": "Shabestan News",
+      "country": "Somalia",
+      "reason": "Specific news agency falsely cited in the disinformation."
+    },
+    {
+      "keyword": "Mujamma Haraket",
+      "country": "Somalia",
+      "reason": "Specific actor/account spreading the disinformation."
+    },
+    {
+      "keyword": "Seyyed Khameini",
+      "country": "Somalia",
+      "reason": "Specific figure mentioned in the fabricated interview's topic."
+    },
+    {
+      "keyword": "Hamas Iran",
+      "country": "Somalia",
+      "reason": "Combination of key entities central to the disinformation narrative."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

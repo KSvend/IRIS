@@ -1493,6 +1493,56 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "khaled qaddoumi",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific individual falsely attributed in the disinformation.",
+          "date_added": "2026-08-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "shabestan news",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific news agency falsely cited in the disinformation.",
+          "date_added": "2026-08-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "mujamma haraket",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific actor/account spreading the disinformation.",
+          "date_added": "2026-08-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "seyyed khameini",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific figure mentioned in the fabricated interview's topic.",
+          "date_added": "2026-08-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "hamas iran",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Combination of key entities central to the disinformation narrative.",
+          "date_added": "2026-08-16",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

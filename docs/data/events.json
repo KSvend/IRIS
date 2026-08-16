@@ -32994,7 +32994,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-18",
@@ -33081,7 +33081,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-18",
@@ -33166,7 +33166,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-18",
@@ -33252,7 +33252,7 @@
     "detected_by": "iris_classify_2026-05-18",
     "detection_timestamp": "2026-05-18T12:13:02.615419+00:00",
     "last_seen": "2026-05-18",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-18",
@@ -46512,5 +46512,87 @@
     ],
     "_review_notes": "This event highlights the spread of highly inflammatory and potentially antisemitic rhetoric related to the Israeli-Palestinian conflict. While classified under South Sudan, the content's primary focus is external, raising questions about its direct relevance or impact within South Sudan, unless these narratives are being specifically leveraged by local actors. The country classification should be reviewed.",
     "_reviewed": "2026-08-14T09:54:48.450956+00:00"
+  },
+  {
+    "id": "APF-2026-08-16-772",
+    "date": "2026-08-16",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Khaled Qaddoumi, Hamas’ representative in Iran, gave a new interview (conducted on 14 August 2026) with Shabestan News",
+    "summary": "Khaled Qaddoumi, Hamas’ representative in Iran, gave a new interview (conducted on 14 August 2026) with Shabestan News Agency concerning the role of the late shahīd Seyyed Khameini. In it, he first conveyed that “The shahīd Leader of the Revolution’s.",
+    "actors": [
+      "@MujammaHaraket"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MujammaHaraket/status/2088895970494833056",
+        "date": "2026-08-16"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-07-19-900",
+      "APF-2026-07-29-006",
+      "APF-2026-08-05-668",
+      "APF-2026-08-12-252",
+      "APF-2026-08-13-702",
+      "APF-2026-08-14-571"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (mujahideen); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-16",
+    "detection_timestamp": "2026-08-16T09:10:31.624887+00:00",
+    "last_seen": "2026-08-16",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-16",
+        "url": "https://x.com/MujammaHaraket/status/2088895970494833056",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "extracted_claims": [
+      "Khaled Qaddoumi, Hamas’ representative in Iran, gave an interview to Shabestan News Agency on 14 August 2026."
+    ],
+    "_review_notes": "This event describes the fabrication of an interview with a future date, involving a Hamas representative and a deceased religious leader. The future date is a clear indicator of disinformation, likely intended to spread specific narratives or influence perceptions within the region where it is circulating.",
+    "_reviewed": "2026-08-16T09:14:50.696791+00:00"
   }
 ]
