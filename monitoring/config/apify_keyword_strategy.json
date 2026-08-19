@@ -1543,6 +1543,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "barbie soros",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific individual/figure named in a conspiracy theory.",
+          "date_added": "2026-08-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "naziglobalista",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific pejorative term used in the disinformation narrative.",
+          "date_added": "2026-08-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

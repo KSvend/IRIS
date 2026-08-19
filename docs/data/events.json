@@ -33883,7 +33883,7 @@
     "detected_by": "iris_classify_2026-05-21",
     "detection_timestamp": "2026-05-21T12:00:40.341320+00:00",
     "last_seen": "2026-05-21",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-21",
@@ -33960,7 +33960,7 @@
     "detected_by": "iris_classify_2026-05-21",
     "detection_timestamp": "2026-05-21T12:00:40.341320+00:00",
     "last_seen": "2026-05-21",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-21",
@@ -43597,7 +43597,7 @@
     "detected_by": "iris_classify_2026-07-20",
     "detection_timestamp": "2026-07-20T11:38:43.574500+00:00",
     "last_seen": "2026-07-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-20",
@@ -46599,11 +46599,11 @@
     "id": "APF-2026-08-17-843",
     "date": "2026-08-17",
     "country": "Somalia",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P3 MODERATE",
-    "headline": "Day number 577 of President Trump in Office. He Promised us at every single Rally, when running for Office, that he was",
-    "summary": "Day number 577 of President Trump in Office. He Promised us at every single Rally, when running for Office, that he was going to drain the Corrupt Government Deep State, AKA the Swamp, and got the biggest Applause when he said it. Every single day Fo. 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "headline": "Detection of US-centric 'Deep State' and 'Trump in Office' claims in Somalia",
+    "summary": "An account on X (Twitter) was observed spreading claims related to former US President Trump, specifically referencing his 'drain the swamp' rhetoric and suggesting he is still in office. While the content is US-centric, its appearance in Somalia-related monitoring suggests potential for misdirection or engagement farming, or a broader narrative being tested.",
     "actors": [
       "@stevenwiza"
     ],
@@ -46658,7 +46658,16 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Day number 577 of President Trump in Office. He Promised us at every single Rally, when running for Office, that he was",
+    "_original_summary": "Day number 577 of President Trump in Office. He Promised us at every single Rally, when running for Office, that he was going to drain the Corrupt Government Deep State, AKA the Swamp, and got the biggest Applause when he said it. Every single day Fo. 3 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "extracted_claims": [
+      "Donald Trump is still the President of the United States.",
+      "The US government is corrupt and controlled by a 'Deep State' or 'Swamp'."
+    ],
+    "_review_notes": "This event appears to be a false positive for Somalia-specific disinformation, as the content is entirely US-centric. It might indicate an account that occasionally posts about Somalia but primarily focuses on other topics, or a broader narrative being tested for engagement.",
+    "_reviewed": "2026-08-19T09:25:26.101612+00:00"
   },
   {
     "id": "APF-2026-08-17-543",
@@ -46667,8 +46676,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Claims of pro-Turkish analysts echoing ISIS propaganda regarding Puntland's counterterrorism efforts",
+    "summary": "An account on X (Twitter) is spreading claims that pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda. The narrative suggests that Sarı's commentary, which portrays Puntland's counterterrorism efforts negatively, aligns with messaging from Manjaniq Media, an alleged ISIS-affiliated outlet. This aims to discredit specific analysts and potentially undermine counterterrorism narratives in Puntland.",
     "actors": [
       "@CirkaNews"
     ],
@@ -46735,6 +46744,87 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Pro-Turkish analysts, such as Umut Çağrı Sarı, are echoing ISIS propaganda.",
+      "Umut Çağrı Sarı's geopolitical commentary on Puntland's counterterrorism efforts aligns with ISIS messaging."
+    ],
+    "_review_notes": "This event highlights a complex disinformation tactic attempting to discredit individuals and narratives by associating them with extremist groups, specifically targeting discussions around counterterrorism in Puntland.",
+    "_reviewed": "2026-08-19T09:25:26.101632+00:00"
+  },
+  {
+    "id": "APF-2026-08-19-661",
+    "date": "2026-08-19",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims associating 'Barbie Soros' with globalist, Nazi, and terrorist groups like Hamas, targeting specific individuals and groups",
+    "summary": "An account on X (Twitter) is spreading highly inflammatory and conspiratorial claims, labeling 'Barbie Soros' as a 'naziglobalista' linked to George Soros, Mohamed VI, Hamas, and 'ayatolas'. The narrative suggests these entities are united in their 'racist hatred' against Spanish, European, and Jewish people. This appears to be a broad, xenophobic, and antisemitic conspiracy theory, potentially originating from outside East Africa but observed within Kenya-related monitoring.",
+    "actors": [
+      "@GlobalistasNO"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/GlobalistasNO/status/2090004333144179022",
+        "date": "2026-08-19"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-05-17-149",
+      "APF-2026-05-18-124",
+      "APF-2026-08-01-415",
+      "APF-2026-08-04-819",
+      "APF-2026-08-05-745"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-19",
+    "detection_timestamp": "2026-08-19T09:20:56.407654+00:00",
+    "last_seen": "2026-08-19",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-19",
+        "url": "https://x.com/GlobalistasNO/status/2090004333144179022",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Yo no soporto a terroristas como Barbie Soros, una naziglobalista de Soros, Mohamed VI, Hamas y ayatolas que odian",
+    "_original_summary": "Yo no soporto a terroristas como Barbie Soros, una naziglobalista de Soros, Mohamed VI, Hamas y ayatolas que odian racistamente a muerte a españoles, europeos y a judíos. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "'Barbie Soros' is a 'naziglobalista' linked to George Soros, Mohamed VI, Hamas, and 'ayatolas'.",
+      "These groups (Soros, Mohamed VI, Hamas, ayatolas) are united in their 'racist hatred' against Spanish, European, and Jewish people."
+    ],
+    "_review_notes": "This event represents a highly inflammatory and conspiratorial narrative, likely originating from broader global far-right or antisemitic circles, but detected within the Kenya monitoring scope. Its relevance to East Africa may be indirect, but it indicates the spread of such narratives within the region's online spaces.",
+    "_reviewed": "2026-08-19T09:25:26.101638+00:00"
   }
 ]

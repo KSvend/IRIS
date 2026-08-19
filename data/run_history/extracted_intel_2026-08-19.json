@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-19",
+  "extracted_claims": [
+    {
+      "claim": "Donald Trump is still the President of the United States.",
+      "country": "Regional",
+      "actors": [
+        "@stevenwiza"
+      ],
+      "keywords": [
+        "Trump",
+        "Deep State",
+        "drain the swamp"
+      ]
+    },
+    {
+      "claim": "The US government is corrupt and controlled by a 'Deep State' or 'Swamp'.",
+      "country": "Regional",
+      "actors": [
+        "@stevenwiza"
+      ],
+      "keywords": [
+        "Trump",
+        "Deep State",
+        "drain the swamp"
+      ]
+    },
+    {
+      "claim": "Pro-Turkish analysts, such as Umut \u00c7a\u011fr\u0131 Sar\u0131, are echoing ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS",
+        "Manjaniq Media",
+        "Puntland",
+        "Turkey"
+      ]
+    },
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131's geopolitical commentary on Puntland's counterterrorism efforts aligns with ISIS messaging.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS",
+        "Manjaniq Media",
+        "Puntland",
+        "Turkey"
+      ]
+    },
+    {
+      "claim": "'Barbie Soros' is a 'naziglobalista' linked to George Soros, Mohamed VI, Hamas, and 'ayatolas'.",
+      "country": "Regional",
+      "actors": [
+        "@GlobalistasNO"
+      ],
+      "keywords": [
+        "Barbie Soros",
+        "George Soros",
+        "Mohamed VI",
+        "Hamas",
+        "ayatolas",
+        "naziglobalista"
+      ]
+    },
+    {
+      "claim": "These groups (Soros, Mohamed VI, Hamas, ayatolas) are united in their 'racist hatred' against Spanish, European, and Jewish people.",
+      "country": "Regional",
+      "actors": [
+        "@GlobalistasNO"
+      ],
+      "keywords": [
+        "Barbie Soros",
+        "George Soros",
+        "Mohamed VI",
+        "Hamas",
+        "ayatolas",
+        "naziglobalista",
+        "antisemitism",
+        "xenophobia"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific individual named as an actor in a disinformation narrative."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "Specific media outlet named as a source of alleged ISIS propaganda."
+    },
+    {
+      "keyword": "Puntland counterterrorism",
+      "country": "Somalia",
+      "reason": "Specific topic of the disinformation narrative."
+    },
+    {
+      "keyword": "Barbie Soros",
+      "country": "Regional",
+      "reason": "Specific individual/figure named in a conspiracy theory."
+    },
+    {
+      "keyword": "naziglobalista",
+      "country": "Regional",
+      "reason": "Specific pejorative term used in the disinformation narrative."
+    }
+  ],
+  "events_reviewed": 3,
+  "events_reclassified": 1
+}
