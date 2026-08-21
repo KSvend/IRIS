@@ -46826,5 +46826,243 @@
     ],
     "_review_notes": "This event represents a highly inflammatory and conspiratorial narrative, likely originating from broader global far-right or antisemitic circles, but detected within the Kenya monitoring scope. Its relevance to East Africa may be indirect, but it indicates the spread of such narratives within the region's online spaces.",
     "_reviewed": "2026-08-19T09:25:26.101638+00:00"
+  },
+  {
+    "id": "APF-2026-08-21-055",
+    "date": "2026-08-21",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims Spain is full of 'mentally ill' or 'traitors' for voting for PSOE.",
+    "summary": "Content in Spanish from @GlobalistasNO on X (Twitter) criticizes Spanish voters, labeling them as 'mentally ill' or 'traitors' for supporting the PSOE party. This event is entirely focused on Spanish domestic politics and is irrelevant to Kenya or East Africa.",
+    "actors": [
+      "@GlobalistasNO"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/GlobalistasNO/status/2090728045124464674",
+        "date": "2026-08-21"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-04-26-495",
+      "APF-2026-07-08-339",
+      "APF-2026-08-01-415",
+      "APF-2026-08-04-819",
+      "APF-2026-08-05-745",
+      "APF-2026-08-19-661"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-21",
+    "detection_timestamp": "2026-08-21T09:20:58.292183+00:00",
+    "last_seen": "2026-08-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-21",
+        "url": "https://x.com/GlobalistasNO/status/2090728045124464674",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Eso no es lo que sorprende ni lo que me preocupa. España está llena de enfermos mentales, hay millones que o son",
+    "_original_summary": "Eso no es lo que sorprende ni lo que me preocupa. España está llena de enfermos mentales, hay millones que o son subnormales perdidos o traidores. ¿Votan al Psoe un partido qué defiende qué los propios españoles por nuestro origen y color de piel no . Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Spain is full of mentally ill people, millions are either utterly subnormal or traitors.",
+      "The PSOE party defends that Spaniards, because of their origin and skin color, are not..."
+    ],
+    "_review_notes": "This event is a severe misclassification; the content is entirely about Spanish domestic politics and has no relevance to Kenya or East Africa. It should be filtered out or re-routed.",
+    "_reviewed": "2026-08-21T09:25:53.255028+00:00"
+  },
+  {
+    "id": "APF-2026-08-21-380",
+    "date": "2026-08-21",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims pro-Turkish analysts, including Umut Çağrı Sarı, echo ISIS propaganda regarding Puntland's counterterrorism.",
+    "summary": "The X (Twitter) account @CirkaNews is spreading claims that pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda. The content draws parallels between Sarı's narratives and Manjaniq Media, suggesting they negatively portray Puntland’s counterterrorism efforts. This event is misclassified by country; Puntland is a region in Somalia, not South Sudan.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-08-21"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-26-139",
+      "APF-2026-07-31-848",
+      "APF-2026-08-04-740",
+      "APF-2026-08-06-880",
+      "APF-2026-08-11-786",
+      "APF-2026-08-17-543"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-21",
+    "detection_timestamp": "2026-08-21T09:20:58.292183+00:00",
+    "last_seen": "2026-08-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-21",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Pro-Turkish analysts, specifically Umut Çağrı Sarı, are echoing ISIS propaganda.",
+      "There are striking similarities between Umut Çağrı Sarı's narratives and Manjaniq Media.",
+      "Umut Çağrı Sarı is a Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterrorism efforts negatively or in a manner aligned with ISIS."
+    ],
+    "_review_notes": "This event is misclassified by country; Puntland is in Somalia, not South Sudan. The claims are significant, linking a Turkish commentator to ISIS propaganda in the context of Somali counter-terrorism efforts.",
+    "_reviewed": "2026-08-21T09:25:53.255070+00:00"
+  },
+  {
+    "id": "APF-2026-08-21-446",
+    "date": "2026-08-21",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims national debt interest payments will consume over 50% of individual income tax collections by 2036.",
+    "summary": "Content from @WilliamN5342 on X (Twitter) discusses projections that interest payments on national debt will consume more than 50% of all individual income tax collections by fiscal year 2036. This content appears to be related to the fiscal policy of a developed economy (likely the US), not Somalia, and is irrelevant to East Africa monitoring.",
+    "actors": [
+      "@WilliamN5342"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/WilliamN5342/status/2090729365784953020",
+        "date": "2026-08-21"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-07-08-074",
+      "APF-2026-07-29-188",
+      "APF-2026-07-30-423",
+      "APF-2026-08-02-454",
+      "APF-2026-08-11-057",
+      "APF-2026-08-17-843"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: ai-generated.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-21",
+    "detection_timestamp": "2026-08-21T09:20:58.292183+00:00",
+    "last_seen": "2026-08-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-21",
+        "url": "https://x.com/WilliamN5342/status/2090729365784953020",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Contrary to the total revenue figure, interest payments on the national debt are projected to consume more than 50% of",
+    "_original_summary": "Contrary to the total revenue figure, interest payments on the national debt are projected to consume more than 50% of all individual income tax collections by fiscal year 2036. By 2036, every dollar collected from individual income taxes will effect.",
+    "extracted_claims": [
+      "Interest payments on the national debt are projected to consume more than 50% of all individual income tax collections by fiscal year 2036."
+    ],
+    "_review_notes": "This event is a severe misclassification; the content is entirely about national debt and tax projections for a developed economy and has no relevance to Somalia or East Africa. It should be filtered out or re-routed.",
+    "_reviewed": "2026-08-21T09:25:53.255077+00:00"
   }
 ]

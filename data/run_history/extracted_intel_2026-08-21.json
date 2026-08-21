@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-21",
+  "extracted_claims": [
+    {
+      "claim": "Spain is full of mentally ill people, millions are either utterly subnormal or traitors.",
+      "country": "Regional",
+      "actors": [
+        "@GlobalistasNO"
+      ],
+      "keywords": [
+        "Spain",
+        "PSOE",
+        "mentally ill",
+        "traitors"
+      ]
+    },
+    {
+      "claim": "The PSOE party defends that Spaniards, because of their origin and skin color, are not...",
+      "country": "Regional",
+      "actors": [
+        "@GlobalistasNO"
+      ],
+      "keywords": [
+        "Spain",
+        "PSOE",
+        "origin",
+        "skin color"
+      ]
+    },
+    {
+      "claim": "Pro-Turkish analysts, specifically Umut \u00c7a\u011fr\u0131 Sar\u0131, are echoing ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "ISIS propaganda",
+        "pro-Turkish analysts",
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131"
+      ]
+    },
+    {
+      "claim": "There are striking similarities between Umut \u00c7a\u011fr\u0131 Sar\u0131's narratives and Manjaniq Media.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media"
+      ]
+    },
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131 is a Turkish geopolitical commentator pushing narratives that portray Puntland\u2019s counterterrorism efforts negatively or in a manner aligned with ISIS.",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Puntland",
+        "counterterrorism"
+      ]
+    },
+    {
+      "claim": "Interest payments on the national debt are projected to consume more than 50% of all individual income tax collections by fiscal year 2036.",
+      "country": "Regional",
+      "actors": [
+        "@WilliamN5342"
+      ],
+      "keywords": [
+        "national debt",
+        "interest payments",
+        "income tax",
+        "fiscal year 2036"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific individual accused of spreading propaganda related to Somalia."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "Specific entity mentioned in comparison to propaganda."
+    },
+    {
+      "keyword": "Puntland counterterrorism",
+      "country": "Somalia",
+      "reason": "Specific context of the disinformation."
+    },
+    {
+      "keyword": "Pro-Turkish analysts",
+      "country": "Regional",
+      "reason": "Actor group identified in the disinformation narrative."
+    }
+  ],
+  "events_reviewed": 3,
+  "events_reclassified": 0
+}
