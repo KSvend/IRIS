@@ -34359,7 +34359,7 @@
     "detected_by": "iris_classify_2026-05-24",
     "detection_timestamp": "2026-05-24T10:29:48.972314+00:00",
     "last_seen": "2026-05-24",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-24",
@@ -34436,7 +34436,7 @@
     "detected_by": "iris_classify_2026-05-24",
     "detection_timestamp": "2026-05-24T10:29:48.972314+00:00",
     "last_seen": "2026-05-24",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-24",
@@ -44408,7 +44408,8 @@
     "summary": "Two accounts on X (Twitter) shared a religious quote from Al Imam Ibnul Qayyim rahimahullahu Ta'ala, stating 'Indeed Allah knows every thought that crosses the heart (no matter how subtle it is)'. While the quote itself is not disinformation, its context within the 'NAR-SO-004' narrative suggests it may be used to subtly promote or justify specific viewpoints related to that narrative. Without further context, the direct false claim is unclear.",
     "actors": [
       "@R47910409",
-      "@AbouzgidenAli"
+      "@AbouzgidenAli",
+      "@CirkaNews"
     ],
     "platforms": [
       "X (Twitter)"
@@ -44418,6 +44419,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/R47910409/status/1988439586213855487",
         "date": "2026-07-27"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-08-22"
       }
     ],
     "spread": 2,
@@ -44460,7 +44466,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-07-27",
     "detection_timestamp": "2026-07-27T12:03:35.351399+00:00",
-    "last_seen": "2026-07-27",
+    "last_seen": "2026-08-22",
     "status": "active",
     "observations": [
       {
@@ -44471,16 +44477,28 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-08-22",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_headline": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
     "_original_summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127]. Observed across 2 posts from 2 accounts on X (Twitter).",
     "extracted_claims": [
       "Religious quotes are being used to subtly promote or justify narratives related to NAR-SO-004, potentially implying divine justification for specific actions or beliefs."
     ],
     "_review_notes": "The headline and summary are too generic. The event describes the sharing of a religious quote, but the actual disinformation or false claim isn't explicit from the provided text. The connection to 'NAR-SO-004' is key, suggesting a subtle use of religious text to support a broader narrative. The threat level is P3 as the direct false claim is not evident, making its impact less immediately critical without more context.",
-    "_reviewed": "2026-08-05T11:18:19.495169+00:00"
+    "_reviewed": "2026-08-05T11:18:19.495169+00:00",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-07-29-006",
