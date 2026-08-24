@@ -44921,7 +44921,9 @@
       "@11Abuker",
       "@Mahamed81443729",
       "@NexusEchoX",
-      "@thegoodexpert"
+      "@thegoodexpert",
+      "@bahdoonmire",
+      "@goldenhelmet01"
     ],
     "platforms": [
       "X (Twitter)"
@@ -44941,6 +44943,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/NexusEchoX/status/2084204345743028302",
         "date": "2026-08-06"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/bahdoonmire/status/2091596314568241460",
+        "date": "2026-08-24"
       }
     ],
     "spread": 5,
@@ -44989,7 +44996,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-08-06",
+    "last_seen": "2026-08-24",
     "status": "active",
     "observations": [
       {
@@ -45018,10 +45025,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-08-24",
+        "url": "https://x.com/bahdoonmire/status/2091596314568241460",
+        "summary": "Here's the list....it'll take an hour to read so make yourself a drink or two. 1970s–1980s 1972 — Munich Olympics",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 4,
     "intensity_trend": [
+      3,
       3,
       3
     ],
