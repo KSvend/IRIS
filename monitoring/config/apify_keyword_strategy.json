@@ -1573,6 +1573,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "puntland minister",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific official type targeted by disinformation.",
+          "date_added": "2026-08-26",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
