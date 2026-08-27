@@ -35256,7 +35256,7 @@
     "detected_by": "iris_classify_2026-05-29",
     "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
     "last_seen": "2026-05-29",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-29",
@@ -35333,7 +35333,7 @@
     "detected_by": "iris_classify_2026-05-29",
     "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
     "last_seen": "2026-05-29",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-29",
@@ -35405,7 +35405,7 @@
     "detected_by": "iris_classify_2026-05-29",
     "detection_timestamp": "2026-05-29T11:59:46.518099+00:00",
     "last_seen": "2026-05-29",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-29",
@@ -47181,5 +47181,235 @@
     ],
     "_review_notes": "This event highlights a sustained, multi-pronged disinformation effort targeting key political figures and infrastructure in Puntland, indicating a deliberate attempt to destabilize the region or undermine public confidence.",
     "_reviewed": "2026-08-26T09:38:56.102686+00:00"
+  },
+  {
+    "id": "APF-2026-08-27-725",
+    "date": "2026-08-27",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Trump admin set to target George Soros nonprofit, Southern Poverty Law Center and CAIR in major tax crackdown: sources",
+    "summary": "Trump admin set to target George Soros nonprofit, Southern Poverty Law Center and CAIR in major tax crackdown: sources. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "actors": [
+      "@nypostbiz",
+      "@nypost"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/nypostbiz/status/2093055850927501699",
+        "date": "2026-08-27"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-08-01-415",
+      "APF-2026-08-04-819",
+      "APF-2026-08-05-745",
+      "APF-2026-08-19-661",
+      "APF-2026-08-21-055",
+      "APF-2026-08-27-124"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-27",
+    "detection_timestamp": "2026-08-27T19:23:28.823737+00:00",
+    "last_seen": "2026-08-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-27",
+        "url": "https://x.com/nypostbiz/status/2093055850927501699",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-08-27-712",
+    "date": "2026-08-27",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Quran affirms the bible and the Torah (Al Furqan) Ur a r*tarded jihadi 😂 it didn’t mention anything about it being",
+    "summary": "Quran affirms the bible and the Torah (Al Furqan) Ur a r*tarded jihadi 😂 it didn’t mention anything about it being corrupted u r*tard. Ur prophet was upset bcs the Jews and Christians didn’t acknowledge him. They didn’t know who tf he was 🤣.",
+    "actors": [
+      "@covingtonconor"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/covingtonconor/status/2092897878415192541",
+        "date": "2026-08-27"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-07-29-006",
+      "APF-2026-08-05-668",
+      "APF-2026-08-12-252",
+      "APF-2026-08-13-702",
+      "APF-2026-08-14-571",
+      "APF-2026-08-16-772"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-27",
+    "detection_timestamp": "2026-08-27T19:23:28.823737+00:00",
+    "last_seen": "2026-08-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-27",
+        "url": "https://x.com/covingtonconor/status/2092897878415192541",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-08-27-124",
+    "date": "2026-08-27",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+    "summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 20 near-identical posts from 10 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+    "actors": [
+      "@Hustleratwork",
+      "@Yasirarafat2520",
+      "@RaizingKE",
+      "@KenyaWeWant_",
+      "@OmarJuma001",
+      "@modi_juma",
+      "@AminaTisha94086",
+      "@Mastermastin_GO",
+      "@iamthevillager",
+      "@Merc13Nyambura"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "date": "2026-08-27"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-05-22-618",
+      "APF-2026-07-17-330",
+      "APF-2026-07-22-391",
+      "APF-2026-08-27-725"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bbcforchaos, #bloodparliament. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-27",
+    "detection_timestamp": "2026-08-27T19:23:28.823737+00:00",
+    "last_seen": "2026-08-27",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-27",
+        "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
