@@ -35961,7 +35961,7 @@
     "detected_by": "iris_classify_2026-06-01",
     "detection_timestamp": "2026-06-01T14:54:04.162659+00:00",
     "last_seen": "2026-06-01",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-01",
@@ -36045,7 +36045,7 @@
     "detected_by": "iris_classify_2026-06-01",
     "detection_timestamp": "2026-06-01T14:54:04.162659+00:00",
     "last_seen": "2026-06-01",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-01",
@@ -47475,6 +47475,83 @@
       {
         "date": "2026-08-28",
         "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-08-30-441",
+    "date": "2026-08-30",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Modi is2 hyped.this he did it himself . He thought he is above god.He and his IAS LOBBY DID NOTHING IN VILLAGES AND 4",
+    "summary": "Modi is2 hyped.this he did it himself . He thought he is above god.He and his IAS LOBBY DID NOTHING IN VILLAGES AND 4 SOLDIERS/ FARMERS. HE RUINED EVERY GOVT INSTITUTION.POLICE TREATS PEOPLE AS SERVANTS.THESE R SIGNS OF CIVIL WAR IN INDIA. NOTHING ON.",
+    "actors": [
+      "@AnilTewatia2709"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AnilTewatia2709/status/2094061827571519802",
+        "date": "2026-08-30"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-001"
+    ],
+    "related_events": [
+      "APF-2026-04-27-805",
+      "APF-2026-05-20-116",
+      "APF-2026-06-03-947",
+      "APF-2026-07-21-312",
+      "APF-2026-08-01-892",
+      "APF-2026-08-04-459"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Specific casualty claim (4 soldiers) in VE-associated context. Requires cross-reference against verified reports.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Attack Claim",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-30",
+    "detection_timestamp": "2026-08-30T14:08:28.894297+00:00",
+    "last_seen": "2026-08-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-30",
+        "url": "https://x.com/AnilTewatia2709/status/2094061827571519802",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
