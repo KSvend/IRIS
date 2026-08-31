@@ -1583,6 +1583,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "scott bessent",
+          "country": "South Sudan",
+          "source": "event_review_extraction",
+          "reason": "Specific individual targeted in disinformation within South Sudan.",
+          "date_added": "2026-08-31",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "british pound crash",
+          "country": "South Sudan",
+          "source": "event_review_extraction",
+          "reason": "Specific historical event referenced in disinformation within South Sudan.",
+          "date_added": "2026-08-31",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

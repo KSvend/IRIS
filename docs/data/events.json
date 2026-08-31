@@ -36130,7 +36130,7 @@
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
     "last_seen": "2026-06-02",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-02",
@@ -36214,7 +36214,7 @@
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
     "last_seen": "2026-06-02",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-02",
@@ -44880,7 +44880,7 @@
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
     "last_seen": "2026-08-01",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-01",
@@ -47560,5 +47560,81 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-08-31-776",
+    "date": "2026-08-31",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Scott Bessent isn't an economist, he's a troll. He exaggerated his role with George Soros in crashing the British",
+    "summary": "An X (Twitter) account, @PatrickDowns, has spread claims discrediting Scott Bessent, alleging he is not a legitimate economist, exaggerated his role in the 1992 British pound crash with George Soros, and had a mediocre fund management record. These posts characterize Bessent as deceitful and arrogant. While the direct relevance of these claims to South Sudan is not detailed, they represent a targeted character assassination being disseminated within the monitored region.",
+    "actors": [
+      "@PatrickDowns"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PatrickDowns/status/2094460198920548860",
+        "date": "2026-08-31"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-005",
+      "NAR-SS-001"
+    ],
+    "related_events": [
+      "APF-2026-05-25-725",
+      "APF-2026-06-03-738",
+      "APF-2026-06-12-387",
+      "APF-2026-06-20-144",
+      "APF-2026-07-22-724",
+      "APF-2026-08-14-782"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-08-31",
+    "detection_timestamp": "2026-08-31T16:33:28.215818+00:00",
+    "last_seen": "2026-08-31",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-08-31",
+        "url": "https://x.com/PatrickDowns/status/2094460198920548860",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "Scott Bessent isn't an economist, he's a troll. He exaggerated his role with George Soros in crashing the British pound, and he had a mediocre record as a fund manager, though he enriched HIMSELF. He's a deceitful, arrogant turd. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Scott Bessent is not a legitimate economist but a troll.",
+      "Scott Bessent exaggerated his role with George Soros in crashing the British pound.",
+      "Scott Bessent had a mediocre record as a fund manager.",
+      "Scott Bessent enriched himself through deceit.",
+      "Scott Bessent is a deceitful and arrogant individual."
+    ],
+    "_review_notes": "This event describes a targeted character assassination against Scott Bessent. The summary lacks specific context explaining Bessent's relevance to South Sudan or the broader regional impact of these claims, which would be crucial for a comprehensive threat assessment.",
+    "_reviewed": "2026-08-31T16:38:31.981786+00:00"
   }
 ]
