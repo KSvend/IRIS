@@ -36416,7 +36416,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-03",
@@ -36502,7 +36502,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-03",
@@ -36593,7 +36593,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-03",
@@ -36679,7 +36679,7 @@
     "detected_by": "iris_classify_2026-06-03",
     "detection_timestamp": "2026-06-03T13:08:42.182226+00:00",
     "last_seen": "2026-06-03",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-03",
@@ -45109,7 +45109,7 @@
     "detected_by": "iris_classify_2026-08-02",
     "detection_timestamp": "2026-08-02T10:30:24.358921+00:00",
     "last_seen": "2026-08-02",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-02",
@@ -47636,5 +47636,87 @@
     ],
     "_review_notes": "This event describes a targeted character assassination against Scott Bessent. The summary lacks specific context explaining Bessent's relevance to South Sudan or the broader regional impact of these claims, which would be crucial for a comprehensive threat assessment.",
     "_reviewed": "2026-08-31T16:38:31.981786+00:00"
+  },
+  {
+    "id": "APF-2026-09-01-109",
+    "date": "2026-09-01",
+    "country": "South Sudan",
+    "event_type": null,
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "False positive: Irrelevant religious quote detected on X (Twitter)",
+    "summary": "An X (Twitter) account posted a religious quote. This content does not appear to be disinformation or a false claim relevant to the monitoring scope of the platform.",
+    "actors": [
+      "@R47910409"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "date": "2026-09-01"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-02-503",
+      "APF-2026-07-21-896",
+      "APF-2026-07-27-913",
+      "APF-2026-08-06-880",
+      "APF-2026-08-17-543",
+      "APF-2026-08-21-380"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'al hijratain'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-01",
+    "detection_timestamp": "2026-09-01T13:45:43.425739+00:00",
+    "last_seen": "2026-09-01",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-01",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
+    "_original_summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127].",
+    "_review_notes": "This event appears to be a false positive, as the content is a religious quote and does not contain any discernible false claims or disinformation narratives relevant to the platform's mandate. It should be excluded from disinformation monitoring.",
+    "_reviewed": "2026-09-01T13:50:39.878237+00:00"
   }
 ]
