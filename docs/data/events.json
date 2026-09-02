@@ -36762,7 +36762,7 @@
     "detected_by": "iris_classify_2026-06-04",
     "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
     "last_seen": "2026-06-04",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-04",
@@ -36841,7 +36841,7 @@
     "detected_by": "iris_classify_2026-06-04",
     "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
     "last_seen": "2026-06-04",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-04",
@@ -36913,7 +36913,7 @@
     "detected_by": "iris_classify_2026-06-04",
     "detection_timestamp": "2026-06-04T11:45:20.253481+00:00",
     "last_seen": "2026-06-04",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-04",
@@ -43944,7 +43944,7 @@
     "detected_by": "iris_classify_2026-07-22",
     "detection_timestamp": "2026-07-22T10:53:12.626804+00:00",
     "last_seen": "2026-08-03",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-07-22",
@@ -47718,5 +47718,159 @@
     "_original_summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127].",
     "_review_notes": "This event appears to be a false positive, as the content is a religious quote and does not contain any discernible false claims or disinformation narratives relevant to the platform's mandate. It should be excluded from disinformation monitoring.",
     "_reviewed": "2026-09-01T13:50:39.878237+00:00"
+  },
+  {
+    "id": "APF-2026-09-02-465",
+    "date": "2026-09-02",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims Archbishop Viganò accused global elites of infiltrating Western governments to impose Agenda 2030",
+    "summary": "Multiple X accounts, including @WikiLeaksQ, @DrCharlieWard47, and @John_F_kJr, are amplifying claims attributed to Archbishop Viganò, alleging that global elites are infiltrating Western governments to implement Agenda 2030. This conspiracy theory, while not directly targeting South Sudan, is being spread by accounts with reach in the region and could contribute to broader anti-globalist or anti-UN sentiments.",
+    "actors": [
+      "@WikiLeaksQ",
+      "@DrCharlieWard47",
+      "@John_F_kJr"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/DrCharlieWard47/status/2095132941923848628",
+        "date": "2026-09-02"
+      }
+    ],
+    "spread": 3,
+    "disinfo_narratives": [
+      "NAR-SS-003"
+    ],
+    "related_events": [
+      "SSD-2025-006",
+      "SSD-2025-007",
+      "SSD-2025-020",
+      "SSD-2025-025",
+      "SSD-2026-019",
+      "SSD-ENRICH-001"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-02",
+    "detection_timestamp": "2026-09-02T13:07:15.335442+00:00",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-02",
+        "url": "https://x.com/DrCharlieWard47/status/2095132941923848628",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "🚨 ARCHBISHOP VIGANÒ JUST DROPPED A NUCLEAR TRUTH BOMB When a senior Catholic Archbishop — a former Apostolic Nuncio to",
+    "_original_summary": "🚨 ARCHBISHOP VIGANÒ JUST DROPPED A NUCLEAR TRUTH BOMB When a senior Catholic Archbishop — a former Apostolic Nuncio to the United States — openly accuses global elites of infiltrating Western governments to impose Agenda 2030… the world should stop a. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
+    "extracted_claims": [
+      "Global elites are infiltrating Western governments to impose Agenda 2030."
+    ],
+    "_review_notes": "This event highlights the spread of general global conspiracy theories (Agenda 2030, global elites) within the monitoring scope, even if not directly targeting South Sudan. It suggests a need to monitor how such narratives are localized or used to frame regional issues.",
+    "_reviewed": "2026-09-02T13:12:27.864408+00:00"
+  },
+  {
+    "id": "APF-2026-09-02-165",
+    "date": "2026-09-02",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": "The X account @PuntJubNews reports a sustained campaign of disinformation over the past two weeks targeting Puntland. This campaign includes fabricated audio of a minister, a doctored statement from Puntland's President, false claims about troops setting up roadblocks, and new lies concerning a port in the region. This coordinated effort by 'bots' aims to sow distrust and instability within Puntland's administration and security.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-09-02"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-06-28-955",
+      "APF-2026-07-02-853",
+      "APF-2026-08-11-057",
+      "APF-2026-08-21-446",
+      "APF-2026-08-26-424",
+      "APF-2026-08-28-077"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-02",
+    "detection_timestamp": "2026-09-02T13:07:15.335442+00:00",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-02",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Fabricated audio of a Minister in Puntland.",
+      "Doctored statement from Puntland's President.",
+      "Troops are setting up roadblocks in Puntland.",
+      "Lies are being spread about a port in Puntland."
+    ],
+    "_review_notes": "This event highlights a multi-faceted and potentially coordinated disinformation campaign targeting key political and security figures and infrastructure in Puntland, Somalia. The use of 'bots' suggests a sophisticated effort to manipulate public perception and could exacerbate regional tensions.",
+    "_reviewed": "2026-09-02T13:12:27.864426+00:00"
   }
 ]

@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-02",
+  "extracted_claims": [
+    {
+      "claim": "Global elites are infiltrating Western governments to impose Agenda 2030.",
+      "country": "South Sudan",
+      "actors": [
+        "Archbishop Vigan\u00f2",
+        "@WikiLeaksQ",
+        "@DrCharlieWard47",
+        "@John_F_kJr"
+      ],
+      "keywords": [
+        "global elites",
+        "Agenda 2030",
+        "Western governments",
+        "infiltration"
+      ]
+    },
+    {
+      "claim": "Fabricated audio of a Minister in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "Minister",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Doctored statement from Puntland's President.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Lies are being spread about a port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "bots",
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "port",
+        "Puntland"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland Minister fabricated audio",
+      "country": "Somalia",
+      "reason": "Specific false claim"
+    },
+    {
+      "keyword": "Puntland President doctored statement",
+      "country": "Somalia",
+      "reason": "Specific false claim"
+    },
+    {
+      "keyword": "Puntland roadblocks troops",
+      "country": "Somalia",
+      "reason": "Specific false claim"
+    },
+    {
+      "keyword": "Puntland port lies",
+      "country": "Somalia",
+      "reason": "Specific false claim"
+    },
+    {
+      "keyword": "PuntJubNews",
+      "country": "Somalia",
+      "reason": "Key actor spreading/reporting on these claims"
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 0
+}
