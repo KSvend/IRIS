@@ -36978,7 +36978,7 @@
     "detected_by": "iris_classify_2026-06-05",
     "detection_timestamp": "2026-06-05T12:02:05.701711+00:00",
     "last_seen": "2026-06-05",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-05",
@@ -37056,7 +37056,7 @@
     "detected_by": "iris_classify_2026-06-05",
     "detection_timestamp": "2026-06-05T12:02:05.701711+00:00",
     "last_seen": "2026-06-05",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-05",
@@ -45282,7 +45282,7 @@
     "detected_by": "iris_classify_2026-08-04",
     "detection_timestamp": "2026-08-04T11:20:36.303702+00:00",
     "last_seen": "2026-08-04",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-04",
@@ -45355,7 +45355,7 @@
     "detected_by": "iris_classify_2026-08-04",
     "detection_timestamp": "2026-08-04T11:20:36.303702+00:00",
     "last_seen": "2026-08-04",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-04",
@@ -47189,8 +47189,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P3 MODERATE",
-    "headline": "Trump admin set to target George Soros nonprofit, Southern Poverty Law Center and CAIR in major tax crackdown: sources",
-    "summary": "Trump admin set to target George Soros nonprofit, Southern Poverty Law Center and CAIR in major tax crackdown: sources. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "headline": "Claims Trump administration will target George Soros' nonprofit and other organizations",
+    "summary": "Posts on X (Twitter) are spreading claims that the Trump administration is planning a major tax crackdown on George Soros' nonprofit, the Southern Poverty Law Center, and CAIR. This narrative, originating from a 2017 New York Post article, is being recirculated.",
     "actors": [
       "@nypostbiz",
       "@nypost"
@@ -47246,7 +47246,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Trump admin set to target George Soros nonprofit, Southern Poverty Law Center and CAIR in major tax crackdown: sources",
+    "_original_summary": "Trump admin set to target George Soros nonprofit, Southern Poverty Law Center and CAIR in major tax crackdown: sources. Observed across 2 posts from 2 accounts on X (Twitter).",
+    "extracted_claims": [
+      "The Trump administration is set to target George Soros' nonprofit, the Southern Poverty Law Center, and CAIR in a major tax crackdown."
+    ],
+    "_review_notes": "This event is a recirculation of an older news article, presented as current information. While the article itself is from 2017, its re-sharing now could be considered disinformation if presented without context or as a current event.",
+    "_reviewed": "2026-09-03T13:10:52.391381+00:00"
   },
   {
     "id": "APF-2026-08-27-712",
@@ -47255,8 +47262,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "Quran affirms the bible and the Torah (Al Furqan) Ur a r*tarded jihadi 😂 it didn’t mention anything about it being",
-    "summary": "Quran affirms the bible and the Torah (Al Furqan) Ur a r*tarded jihadi 😂 it didn’t mention anything about it being corrupted u r*tard. Ur prophet was upset bcs the Jews and Christians didn’t acknowledge him. They didn’t know who tf he was 🤣.",
+    "headline": "Claims the Quran affirms the Bible and Torah, and that Prophet Muhammad was upset by Jews and Christians not acknowledging him",
+    "summary": "A post on X (Twitter) makes several false claims regarding Islamic theology, asserting that the Quran affirms the Bible and Torah without mentioning corruption, and that Prophet Muhammad's upset stemmed from Jews and Christians not acknowledging him. These claims misrepresent core Islamic beliefs and historical context.",
     "actors": [
       "@covingtonconor"
     ],
@@ -47323,7 +47330,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Quran affirms the bible and the Torah (Al Furqan) Ur a r*tarded jihadi 😂 it didn’t mention anything about it being",
+    "_original_summary": "Quran affirms the bible and the Torah (Al Furqan) Ur a r*tarded jihadi 😂 it didn’t mention anything about it being corrupted u r*tard. Ur prophet was upset bcs the Jews and Christians didn’t acknowledge him. They didn’t know who tf he was 🤣.",
+    "extracted_claims": [
+      "The Quran affirms the Bible and the Torah (Al Furqan) and does not mention them being corrupted.",
+      "Prophet Muhammad was upset because Jews and Christians did not acknowledge him."
+    ],
+    "_review_notes": "This event contains direct religious disinformation, potentially aimed at inciting religious discord or misrepresenting Islamic teachings.",
+    "_reviewed": "2026-09-03T13:10:52.391397+00:00"
   },
   {
     "id": "APF-2026-08-27-124",
@@ -47332,8 +47347,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P2 HIGH",
-    "headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
-    "summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 20 near-identical posts from 10 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+    "headline": "Claims BBC Africa 'salivates' when Kenyans suffer and 'stirs chaos'",
+    "summary": "A coordinated campaign on X (Twitter) involving multiple accounts is spreading claims that BBC Africa intentionally focuses on negative events in Kenya, 'salivates when Kenyans suffer,' and 'stirs chaos.' This narrative suggests the BBC ignores positive developments and actively promotes instability, using hashtags like #BBCForChaos, #BloodParliament, and #ToxicActivists.",
     "actors": [
       "@Hustleratwork",
       "@Yasirarafat2520",
@@ -47344,7 +47359,16 @@
       "@AminaTisha94086",
       "@Mastermastin_GO",
       "@iamthevillager",
-      "@Merc13Nyambura"
+      "@Merc13Nyambura",
+      "@recreatedd16",
+      "@its_meek__",
+      "@TonyMkenya7",
+      "@hosea606666",
+      "@Kyson254",
+      "@DreamBoy254",
+      "@EveryAcreKenya",
+      "@Amazingmasai_",
+      "@kanairofinest"
     ],
     "platforms": [
       "X (Twitter)"
@@ -47354,6 +47378,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
         "date": "2026-08-27"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-09-03"
       }
     ],
     "spread": 5,
@@ -47397,7 +47426,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-27",
     "detection_timestamp": "2026-08-27T19:23:28.823737+00:00",
-    "last_seen": "2026-08-27",
+    "last_seen": "2026-09-03",
     "status": "active",
     "observations": [
       {
@@ -47408,9 +47437,29 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-03",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#BBCForChaos, #BloodParliament: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 2,
+    "intensity_trend": [
+      3
+    ],
+    "_original_headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+    "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 20 near-identical posts from 10 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+    "extracted_claims": [
+      "BBC Africa looks away when Kenya builds and rises.",
+      "BBC Cameras salivate when Kenyans suffer and they stir chaos."
+    ],
+    "_review_notes": "This is a significant coordinated attack on media credibility, specifically targeting BBC Africa, which is a common tactic to undermine reporting on sensitive issues.",
+    "_reviewed": "2026-09-03T13:10:52.391403+00:00"
   },
   {
     "id": "APF-2026-08-28-077",
@@ -47419,8 +47468,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "deepfake",
     "threat_level": "P3 MODERATE",
-    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
-    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "headline": "Claims bots fabricated audio of a Minister, doctored a statement from Puntland's President, and spread lies about troops and a port in Puntland",
+    "summary": "A post on X (Twitter) from @PuntJubNews highlights a series of recent disinformation incidents in Puntland, Somalia. These include claims of bots fabricating audio of a Minister, doctoring a statement from Puntland's President, spreading false information about troops setting up roadblocks, and circulating lies about a port in Puntland. This indicates a multi-faceted disinformation campaign targeting the region.",
     "actors": [
       "@PuntJubNews"
     ],
@@ -47482,7 +47531,17 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Bots have fabricated audio of a Minister in Puntland.",
+      "Bots have doctored a statement from Puntland's President.",
+      "Bots are spreading lies about troops setting up roadblocks in Puntland.",
+      "Bots are spreading lies about a port in Puntland."
+    ],
+    "_review_notes": "This event describes multiple distinct disinformation tactics (fabricated audio, doctored statements, false claims about troops and infrastructure) targeting a specific region, Puntland. This indicates a sophisticated and multi-pronged disinformation effort.",
+    "_reviewed": "2026-09-03T13:10:52.391407+00:00"
   },
   {
     "id": "APF-2026-08-30-441",
@@ -47490,9 +47549,9 @@
     "country": "Somalia",
     "event_type": "DISINFO",
     "disinfo_subtype": "propaganda",
-    "threat_level": "P3 MODERATE",
-    "headline": "Modi is2 hyped.this he did it himself . He thought he is above god.He and his IAS LOBBY DID NOTHING IN VILLAGES AND 4",
-    "summary": "Modi is2 hyped.this he did it himself . He thought he is above god.He and his IAS LOBBY DID NOTHING IN VILLAGES AND 4 SOLDIERS/ FARMERS. HE RUINED EVERY GOVT INSTITUTION.POLICE TREATS PEOPLE AS SERVANTS.THESE R SIGNS OF CIVIL WAR IN INDIA. NOTHING ON.",
+    "threat_level": "P1 CRITICAL",
+    "headline": "Claims Modi is 'too hyped' and 'ruined every govt institution', leading to signs of civil war in India",
+    "summary": "A post on X (Twitter) from @AnilTewatia2709 contains strong criticisms and unsubstantiated claims against Indian Prime Minister Modi and his administration. The post asserts that Modi is 'too hyped,' 'ruined every govt institution,' and that his actions are leading to 'signs of civil war in India.' While critical, these claims are not directly related to East Africa and appear to be domestic Indian political commentary.",
     "actors": [
       "@AnilTewatia2709"
     ],
@@ -47559,7 +47618,18 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Modi is2 hyped.this he did it himself . He thought he is above god.He and his IAS LOBBY DID NOTHING IN VILLAGES AND 4",
+    "_original_summary": "Modi is2 hyped.this he did it himself . He thought he is above god.He and his IAS LOBBY DID NOTHING IN VILLAGES AND 4 SOLDIERS/ FARMERS. HE RUINED EVERY GOVT INSTITUTION.POLICE TREATS PEOPLE AS SERVANTS.THESE R SIGNS OF CIVIL WAR IN INDIA. NOTHING ON.",
+    "extracted_claims": [
+      "Modi is too hyped and thought he was above god.",
+      "Modi and his IAS lobby did nothing in villages and for soldiers/farmers.",
+      "Modi ruined every government institution.",
+      "Police treat people as servants.",
+      "These are signs of civil war in India."
+    ],
+    "_review_notes": "This event is misclassified as relevant to Somalia. The content is entirely focused on Indian domestic politics and has no apparent connection to East Africa. It should be filtered out or re-routed to a different monitoring scope if applicable.",
+    "_reviewed": "2026-09-03T13:10:52.391412+00:00"
   },
   {
     "id": "APF-2026-08-31-776",
@@ -47872,5 +47942,338 @@
     ],
     "_review_notes": "This event highlights a multi-faceted and potentially coordinated disinformation campaign targeting key political and security figures and infrastructure in Puntland, Somalia. The use of 'bots' suggests a sophisticated effort to manipulate public perception and could exacerbate regional tensions.",
     "_reviewed": "2026-09-02T13:12:27.864426+00:00"
+  },
+  {
+    "id": "APF-2026-09-03-562",
+    "date": "2026-09-03",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Clarification on the number of Tent Partnership companies",
+    "summary": "This event clarifies that the Tent Partnership for Refugees, launched in 2016, now includes over 500 member companies globally, not an exact figure of 60. The closest published list mentioning '60+' refers to the 2024 launch of a specific initiative. This information corrects potential misinterpretations about the organization's scale.",
+    "actors": [
+      "@pr0650"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/pr0650/status/2095497799328563470",
+        "date": "2026-09-03"
+      }
+    ],
+    "spread": 4,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-SO-004",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-08-05-745",
+      "APF-2026-08-21-055",
+      "APF-2026-08-27-124",
+      "APF-2026-08-27-725",
+      "APF-2026-09-01-109",
+      "APF-2026-09-03-231"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-03",
+    "detection_timestamp": "2026-09-03T13:06:05.720810+00:00",
+    "last_seen": "2026-09-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-03",
+        "url": "https://x.com/pr0650/status/2095497799328563470",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "There is no single official public roster of *exactly* 60 Tent Partnership companies. The network launched in 2016 with",
+    "_original_summary": "There is no single official public roster of *exactly* 60 Tent Partnership companies. The network launched in 2016 with a small inaugural group and now lists **more than 500** member companies globally. The closest published “60+” list is the 2024 la. 4 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "extracted_claims": [
+      "The Tent Partnership for Refugees has exactly 60 member companies."
+    ],
+    "_review_notes": "This event appears to be a factual correction or clarification about an organization, rather than a piece of disinformation itself. It's important to distinguish between false claims and factual corrections.",
+    "_reviewed": "2026-09-03T13:11:00.841873+00:00"
+  },
+  {
+    "id": "APF-2026-09-03-231",
+    "date": "2026-09-03",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "Claims foreign-funded protests are rocking Kenya, with external actors misusing civic groups",
+    "summary": "Social media posts are spreading claims that foreign-funded protests are destabilizing Kenya, with external actors allegedly misusing civic groups. The Open Society Foundations (OSF) is specifically named as an implicated entity. This narrative suggests a regional pattern of resistance and hints at an 'East African Coup,' amplified using the hashtag #DogsOfWar.",
+    "actors": [
+      "@hezwachira",
+      "@its_meek__"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "date": "2026-09-03"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-05-30-681",
+      "APF-2026-07-22-391",
+      "APF-2026-08-27-124",
+      "APF-2026-09-03-562"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #dogsofwar, foreign-funded. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-03",
+    "detection_timestamp": "2026-09-03T13:06:05.720810+00:00",
+    "last_seen": "2026-09-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-03",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
+    "_original_summary": "As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being investigated. OSF is named. The pattern is unmistakable, and the resistance now regional. EastAfrican Coup. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "extracted_claims": [
+      "Foreign-funded protests are destabilizing Kenya.",
+      "External actors are misusing civic groups in Kenya.",
+      "The Open Society Foundations (OSF) is involved in destabilizing Kenya.",
+      "There is a regional pattern of resistance leading to an 'East African Coup'."
+    ],
+    "_review_notes": "This event highlights a significant disinformation campaign attempting to delegitimize protests in Kenya by framing them as foreign-funded and part of a broader destabilization effort, potentially impacting regional stability.",
+    "_reviewed": "2026-09-03T13:11:00.841891+00:00"
+  },
+  {
+    "id": "APF-2026-09-03-400",
+    "date": "2026-09-03",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Irrelevant financial market update detected",
+    "summary": "This event consists of a generic financial market update, detailing stock market performance, cryptocurrency values, and oil prices. It appears to be an irrelevant post that was incorrectly flagged as disinformation related to South Sudan, as it contains no specific claims or narratives pertaining to the region.",
+    "actors": [
+      "@MixinMessenger"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MixinMessenger/status/2095497203053740098",
+        "date": "2026-09-03"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-005",
+      "NAR-SS-001"
+    ],
+    "related_events": [
+      "APF-2026-05-25-725",
+      "APF-2026-06-09-533",
+      "APF-2026-06-12-387",
+      "APF-2026-06-20-144",
+      "APF-2026-08-14-782",
+      "APF-2026-08-31-776"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: rescued, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-03",
+    "detection_timestamp": "2026-09-03T13:06:05.720810+00:00",
+    "last_seen": "2026-09-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-03",
+        "url": "https://x.com/MixinMessenger/status/2095497203053740098",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "The rest of today's signal in 30 seconds: • Equities snapped a 3-day slide — S&P +0.46%, Nasdaq +0.45% — as the 10Y",
+    "_original_summary": "The rest of today's signal in 30 seconds: • Equities snapped a 3-day slide — S&P +0.46%, Nasdaq +0.45% — as the 10Y eased off its 4.816% intraday high to 4.783%; BTC held ~$77.3K, oil steady near $95 Brent. • Privacy-social got real backing: Vitalik'.",
+    "_review_notes": "This event is clearly a false positive. The content is a generic financial market update and has no relevance to disinformation in South Sudan or any other East African country. It should be excluded from future monitoring.",
+    "_reviewed": "2026-09-03T13:11:00.841902+00:00"
+  },
+  {
+    "id": "APF-2026-09-03-354",
+    "date": "2026-09-03",
+    "country": "Kenya",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Commercial advertisement for FAW CA1041 truck at BBS Mall",
+    "summary": "This event consists of a commercial advertisement for a FAW CA1041 truck, providing details such as its location at BBS Mall, capacity, fuel efficiency, and contact information. The posts, though near-identical and amplified by multiple accounts, are purely promotional and do not contain any false claims or disinformation narratives relevant to Kenya.",
+    "actors": [
+      "@yelele19",
+      "@nyvries",
+      "@BuyRentKenya",
+      "@TAM_EnterRd"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/BuyRentKenya/status/2095030212907942163",
+        "date": "2026-09-03"
+      }
+    ],
+    "spread": 4,
+    "disinfo_narratives": [
+      "NAR-KE-002",
+      "NAR-KE-004"
+    ],
+    "related_events": [
+      "APF-2026-03-23-308",
+      "APF-2026-05-16-132",
+      "APF-2026-05-24-355",
+      "APF-2026-05-31-170",
+      "APF-2026-06-01-827",
+      "APF-2026-06-30-590"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-03",
+    "detection_timestamp": "2026-09-03T13:06:05.720810+00:00",
+    "last_seen": "2026-09-03",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-03",
+        "url": "https://x.com/BuyRentKenya/status/2095030212907942163",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "FAW CA1041 At BBS MALL,1st Floor together with Equity Bank Kenya Eastleigh Branch. 🚛 2.5Ton Capacity ⛽ Up to 9KM/L ☎️",
+    "_original_summary": "FAW CA1041 At BBS MALL,1st Floor together with Equity Bank Kenya Eastleigh Branch. 🚛 2.5Ton Capacity ⛽ Up to 9KM/L ☎️ 0720 777 777 🌐 📍 FAW Showroom, ENTERPRISE ROAD-Nairobi 🛠️ Genuine FAW Spare parts - 0717 281581. 4 near-identical posts from 4 accounts suggest coordinated amplification.",
+    "_review_notes": "This event is a false positive, identifying a commercial advertisement as disinformation. The content is promotional material for a truck and does not contain any false claims or narratives relevant to disinformation monitoring in Kenya.",
+    "_reviewed": "2026-09-03T13:11:00.841907+00:00"
   }
 ]

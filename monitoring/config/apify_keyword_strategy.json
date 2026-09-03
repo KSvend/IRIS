@@ -1613,6 +1613,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "al furqan",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific religious text mentioned in the false claim.",
+          "date_added": "2026-09-03",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "#toxicactivists",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific hashtag used in a coordinated disinformation campaign.",
+          "date_added": "2026-09-03",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
