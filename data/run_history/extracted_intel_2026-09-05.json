@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-05",
+  "extracted_claims": [
+    {
+      "claim": "Puntland's counter-terrorism operations are illegitimate, ineffective, or harmful.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS"
+      ],
+      "keywords": [
+        "Puntland",
+        "counter-terrorism",
+        "ISIS"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific commentator identified in analysis"
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific propaganda source identified"
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific topic of disinformation"
+    },
+    {
+      "keyword": "ISIS propaganda",
+      "country": "Regional",
+      "reason": "Specific type of propaganda"
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}

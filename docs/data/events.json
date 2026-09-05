@@ -37381,7 +37381,7 @@
     "detected_by": "iris_classify_2026-06-07",
     "detection_timestamp": "2026-06-07T10:50:55.510306+00:00",
     "last_seen": "2026-06-07",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-07",
@@ -48275,5 +48275,90 @@
     "_original_summary": "FAW CA1041 At BBS MALL,1st Floor together with Equity Bank Kenya Eastleigh Branch. 🚛 2.5Ton Capacity ⛽ Up to 9KM/L ☎️ 0720 777 777 🌐 📍 FAW Showroom, ENTERPRISE ROAD-Nairobi 🛠️ Genuine FAW Spare parts - 0717 281581. 4 near-identical posts from 4 accounts suggest coordinated amplification.",
     "_review_notes": "This event is a false positive, identifying a commercial advertisement as disinformation. The content is promotional material for a truck and does not contain any false claims or narratives relevant to disinformation monitoring in Kenya.",
     "_reviewed": "2026-09-03T13:11:00.841907+00:00"
+  },
+  {
+    "id": "APF-2026-09-05-979",
+    "date": "2026-09-05",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis identifies pro-Turkish commentator Umut Çağrı Sarı echoing ISIS propaganda narratives",
+    "summary": "An analysis by @CirkaNews on X (Twitter) highlights striking similarities between narratives promoted by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda, specifically referencing Manjaniq Media. The analysis suggests Sarı is pushing narratives that critically portray Puntland's counter-terrorism efforts, aligning with extremist messaging. This event is significant as it identifies a potential foreign influence actor echoing extremist narratives relevant to regional security.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-09-05"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-27-913",
+      "APF-2026-08-06-880",
+      "APF-2026-08-11-786",
+      "APF-2026-08-17-543",
+      "APF-2026-08-21-380",
+      "APF-2026-09-01-109"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-05",
+    "detection_timestamp": "2026-09-05T12:07:57.588379+00:00",
+    "last_seen": "2026-09-05",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-05",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Puntland's counter-terrorism operations are illegitimate, ineffective, or harmful."
+    ],
+    "_review_notes": "The event's country tag 'South Sudan' appears incorrect, as the content explicitly refers to 'Puntland' which is in Somalia. The summary is incomplete and largely duplicates the headline, making precise claim extraction challenging. This event highlights the detection of an analysis identifying potential foreign influence (Turkish commentator) echoing extremist narratives (ISIS propaganda) concerning regional counter-terrorism efforts.",
+    "_reviewed": "2026-09-05T12:12:35.799083+00:00"
   }
 ]
