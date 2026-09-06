@@ -37543,7 +37543,7 @@
     "detected_by": "iris_classify_2026-06-08",
     "detection_timestamp": "2026-06-08T12:59:03.456372+00:00",
     "last_seen": "2026-06-08",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-08",
@@ -37634,7 +37634,7 @@
     "detected_by": "iris_classify_2026-06-08",
     "detection_timestamp": "2026-06-08T12:59:03.456372+00:00",
     "last_seen": "2026-06-08",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-08",
@@ -37714,7 +37714,7 @@
     "detected_by": "iris_classify_2026-06-08",
     "detection_timestamp": "2026-06-08T12:59:03.456372+00:00",
     "last_seen": "2026-06-08",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-08",
@@ -47368,7 +47368,14 @@
       "@DreamBoy254",
       "@EveryAcreKenya",
       "@Amazingmasai_",
-      "@kanairofinest"
+      "@kanairofinest",
+      "@its_munee_",
+      "@mseemsima01",
+      "@KKCommetary",
+      "@TabbyKanyungu",
+      "@tixwithsato",
+      "@Mista_254",
+      "@_helady_"
     ],
     "platforms": [
       "X (Twitter)"
@@ -47383,6 +47390,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
         "date": "2026-09-03"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-09-06"
       }
     ],
     "spread": 5,
@@ -47426,7 +47438,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-27",
     "detection_timestamp": "2026-08-27T19:23:28.823737+00:00",
-    "last_seen": "2026-09-03",
+    "last_seen": "2026-09-06",
     "status": "active",
     "observations": [
       {
@@ -47446,10 +47458,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-06",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel, #DogsOfWar: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "intensity_trend": [
+      3,
       3
     ],
     "_original_headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
@@ -48360,5 +48382,88 @@
     ],
     "_review_notes": "The event's country tag 'South Sudan' appears incorrect, as the content explicitly refers to 'Puntland' which is in Somalia. The summary is incomplete and largely duplicates the headline, making precise claim extraction challenging. This event highlights the detection of an analysis identifying potential foreign influence (Turkish commentator) echoing extremist narratives (ISIS propaganda) concerning regional counter-terrorism efforts.",
     "_reviewed": "2026-09-05T12:12:35.799083+00:00"
+  },
+  {
+    "id": "APF-2026-09-06-248",
+    "date": "2026-09-06",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P5 NONE",
+    "headline": "Event content is irrelevant; appears malformed.",
+    "summary": "The provided headline and summary text are unrelated to South Sudan or disinformation, discussing Radio Moscow and Vladimir Pozner. This event appears to be malformed, with irrelevant content replacing the expected disinformation details.",
+    "actors": [
+      "@SamjLondon"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SamjLondon/status/2096573297609843090",
+        "date": "2026-09-06"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-001",
+      "NAR-SS-005",
+      "NAR-SS-002"
+    ],
+    "related_events": [
+      "APF-2026-03-30-195",
+      "APF-2026-05-25-725",
+      "APF-2026-07-20-299",
+      "APF-2026-08-14-782",
+      "APF-2026-08-31-776",
+      "APF-2026-09-03-400"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-06",
+    "detection_timestamp": "2026-09-06T12:25:52.998735+00:00",
+    "last_seen": "2026-09-06",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-06",
+        "url": "https://x.com/SamjLondon/status/2096573297609843090",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Back in the USSR On the other side of the shortwave dial was Radio Moscow, and among the more distinctive",
+    "_original_summary": "Back in the USSR On the other side of the shortwave dial was Radio Moscow, and among the more distinctive English-speaking voices that emerged from the static was Vladimir Pozner. He explained, defended, and occasionally attempted to make sense of th.",
+    "_review_notes": "This event record contains placeholder or corrupted text unrelated to East African disinformation. It requires investigation to determine the actual content or if it's a system error.",
+    "_reviewed": "2026-09-06T12:30:20.522918+00:00"
   }
 ]
