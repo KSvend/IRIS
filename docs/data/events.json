@@ -30260,7 +30260,9 @@
       "@TAM_EnterRd",
       "@dennismwangi22",
       "@KenyaWeWant_",
-      "@TECNOMobile254"
+      "@TECNOMobile254",
+      "@AbsaKenya",
+      "@jamocaesar"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30410,6 +30412,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/BuyRentKenya/status/2095030212907942163",
         "date": "2026-09-07"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/TAM_EnterRd/status/2093309672031690873",
+        "date": "2026-09-11"
       }
     ],
     "spread": 5,
@@ -30453,7 +30460,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-09-07",
+    "last_seen": "2026-09-11",
     "status": "active",
     "observations": [
       {
@@ -30716,9 +30723,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-11",
+        "url": "https://x.com/TAM_EnterRd/status/2093309672031690873",
+        "summary": "#43Against1: Somali international referee Omar Abdulkadir Artan was warmly received in Kenya during a special event at BBS Mall in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 29,
+    "observation_count": 30,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30727,6 +30743,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -46152,7 +46169,7 @@
     "detected_by": "iris_classify_2026-08-12",
     "detection_timestamp": "2026-08-12T09:50:27.217556+00:00",
     "last_seen": "2026-08-12",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-12",
@@ -46224,7 +46241,7 @@
     "detected_by": "iris_classify_2026-08-12",
     "detection_timestamp": "2026-08-12T09:50:27.217556+00:00",
     "last_seen": "2026-08-12",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-12",
