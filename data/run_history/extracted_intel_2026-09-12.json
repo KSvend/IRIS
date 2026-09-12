@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-12",
+  "extracted_claims": [
+    {
+      "claim": "Audio of a Puntland Minister has been fabricated.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "Puntland Minister"
+      ]
+    },
+    {
+      "claim": "A statement from Puntland's President has been doctored.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "False claims are being spread about a Port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland Port",
+        "lies"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland Minister fabricated audio",
+      "country": "Somalia",
+      "reason": "Specific false claim target"
+    },
+    {
+      "keyword": "Puntland President doctored statement",
+      "country": "Somalia",
+      "reason": "Specific false claim target"
+    },
+    {
+      "keyword": "Puntland roadblocks disinformation",
+      "country": "Somalia",
+      "reason": "Specific false claim target"
+    },
+    {
+      "keyword": "Puntland Port false claims",
+      "country": "Somalia",
+      "reason": "Specific false claim target"
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

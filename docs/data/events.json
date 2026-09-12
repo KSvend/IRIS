@@ -38575,7 +38575,7 @@
     "detected_by": "iris_classify_2026-06-14",
     "detection_timestamp": "2026-06-14T11:24:11.928888+00:00",
     "last_seen": "2026-06-14",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-14",
@@ -46318,7 +46318,7 @@
     "detected_by": "iris_classify_2026-08-13",
     "detection_timestamp": "2026-08-13T09:53:23.898236+00:00",
     "last_seen": "2026-08-13",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-13",
@@ -48694,5 +48694,86 @@
     ],
     "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting key government figures and critical infrastructure in Puntland, indicating a deliberate effort to destabilize the region.",
     "_reviewed": "2026-09-09T13:22:45.304220+00:00"
+  },
+  {
+    "id": "APF-2026-09-12-084",
+    "date": "2026-09-12",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": "Over the past two weeks, the X (Twitter) account @PuntJubNews has engaged in a sustained campaign of disinformation targeting Puntland. This includes fabricating audio of a minister, doctoring a statement from the Puntland President, spreading false claims about troops setting up roadblocks, and disseminating lies concerning a Puntland port. This coordinated effort aims to sow confusion and undermine trust in regional authorities and security.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-09-12"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-06-26-951",
+      "APF-2026-07-01-420",
+      "APF-2026-08-26-424",
+      "APF-2026-08-28-077",
+      "APF-2026-09-02-165",
+      "APF-2026-09-09-440"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-12",
+    "detection_timestamp": "2026-09-12T12:27:26.623704+00:00",
+    "last_seen": "2026-09-12",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-12",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio of a Puntland Minister has been fabricated.",
+      "A statement from Puntland's President has been doctored.",
+      "Troops are setting up roadblocks in Puntland.",
+      "False claims are being spread about a Port in Puntland."
+    ],
+    "_review_notes": "This event highlights a sustained, multi-faceted disinformation campaign targeting key political figures, security forces, and critical infrastructure in Puntland, indicating a deliberate effort to destabilize the region.",
+    "_reviewed": "2026-09-12T12:31:49.084285+00:00"
   }
 ]
