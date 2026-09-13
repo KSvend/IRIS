@@ -38662,7 +38662,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-15",
@@ -38739,7 +38739,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-15",
@@ -38816,7 +38816,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-15",
@@ -38888,7 +38888,7 @@
     "detected_by": "iris_classify_2026-06-15",
     "detection_timestamp": "2026-06-15T14:50:34.606782+00:00",
     "last_seen": "2026-06-15",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-15",
@@ -46475,7 +46475,7 @@
     "detected_by": "iris_classify_2026-08-14",
     "detection_timestamp": "2026-08-14T09:50:12.894398+00:00",
     "last_seen": "2026-08-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-14",
@@ -46561,7 +46561,7 @@
     "detected_by": "iris_classify_2026-08-14",
     "detection_timestamp": "2026-08-14T09:50:12.894398+00:00",
     "last_seen": "2026-08-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-14",
@@ -48095,7 +48095,13 @@
       "@Amazingmasai_",
       "@DreamBoy254",
       "@hosea606666",
-      "@TechTonicAi_"
+      "@TechTonicAi_",
+      "@CatalystKe1",
+      "@KKCommetary",
+      "@its_munee_",
+      "@EveryAcreKenya",
+      "@mseemsima01",
+      "@TonyMkenya7"
     ],
     "platforms": [
       "X (Twitter)"
@@ -48110,6 +48116,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
         "date": "2026-09-08"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-09-13"
       }
     ],
     "spread": 2,
@@ -48153,7 +48164,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-09-03",
     "detection_timestamp": "2026-09-03T13:06:05.720810+00:00",
-    "last_seen": "2026-09-08",
+    "last_seen": "2026-09-13",
     "status": "active",
     "observations": [
       {
@@ -48173,9 +48184,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-13",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel, #DogsOfWar: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "_original_headline": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
     "_original_summary": "As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being investigated. OSF is named. The pattern is unmistakable, and the resistance now regional. EastAfrican Coup. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
     "extracted_claims": [
@@ -48187,6 +48207,7 @@
     "_review_notes": "This event highlights a significant disinformation campaign attempting to delegitimize protests in Kenya by framing them as foreign-funded and part of a broader destabilization effort, potentially impacting regional stability.",
     "_reviewed": "2026-09-03T13:11:00.841891+00:00",
     "intensity_trend": [
+      3,
       3
     ]
   },
