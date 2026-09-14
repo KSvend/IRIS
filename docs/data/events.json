@@ -34114,7 +34114,7 @@
     "detected_by": "iris_classify_2026-05-22",
     "detection_timestamp": "2026-05-22T11:35:54.647680+00:00",
     "last_seen": "2026-06-16",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-05-22",
@@ -38966,7 +38966,7 @@
     "detected_by": "iris_classify_2026-06-16",
     "detection_timestamp": "2026-06-16T13:25:50.907136+00:00",
     "last_seen": "2026-06-16",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-16",
@@ -39038,7 +39038,7 @@
     "detected_by": "iris_classify_2026-06-16",
     "detection_timestamp": "2026-06-16T13:25:50.907136+00:00",
     "last_seen": "2026-06-16",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-16",
@@ -48796,5 +48796,298 @@
     ],
     "_review_notes": "This event highlights a sustained, multi-faceted disinformation campaign targeting key political figures, security forces, and critical infrastructure in Puntland, indicating a deliberate effort to destabilize the region.",
     "_reviewed": "2026-09-12T12:31:49.084285+00:00"
+  },
+  {
+    "id": "APF-2026-09-14-131",
+    "date": "2026-09-14",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "US Tech leaders who have asked to slow AI development, are asked to say so by Global Sponsors of Left Liberals like",
+    "summary": "US Tech leaders who have asked to slow AI development, are asked to say so by Global Sponsors of Left Liberals like Soros and Sanders. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@Nbrook77"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Nbrook77/status/2099518014278529379",
+        "date": "2026-09-14"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-06-09-042",
+      "APF-2026-08-01-415",
+      "APF-2026-08-19-661",
+      "APF-2026-08-21-055",
+      "APF-2026-08-27-725",
+      "APF-2026-09-03-231"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-14",
+    "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
+    "last_seen": "2026-09-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-14",
+        "url": "https://x.com/Nbrook77/status/2099518014278529379",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-14-458",
+    "date": "2026-09-14",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-09-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-12-173",
+      "APF-2026-07-27-913",
+      "APF-2026-08-17-543",
+      "APF-2026-08-21-380",
+      "APF-2026-09-05-979",
+      "APF-2026-09-07-008"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-14",
+    "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
+    "last_seen": "2026-09-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-14",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-14-867",
+    "date": "2026-09-14",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-09-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-06-14-290",
+      "APF-2026-08-26-424",
+      "APF-2026-08-28-077",
+      "APF-2026-09-02-165",
+      "APF-2026-09-09-440",
+      "APF-2026-09-12-084"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-14",
+    "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
+    "last_seen": "2026-09-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-14",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-14-298",
+    "date": "2026-09-14",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "-Happy Monday Everyone!, I still lowkey, want the iPhone Duo. (The color, night sky). Nancy Guthrie is still missing &",
+    "summary": "-Happy Monday Everyone!, I still lowkey, want the iPhone Duo. (The color, night sky). Nancy Guthrie is still missing & becoming a cold case. From lack of incompetence & wrongdoings like what we saw w/Rex Heuermann. (2010 to 2023.) Nick Reiner is due .",
+    "actors": [
+      "@LittleLeighXoxo"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LittleLeighXoxo/status/2099517872443683231",
+        "date": "2026-09-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-001",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "APF-2026-03-30-195",
+      "APF-2026-05-20-778",
+      "APF-2026-06-20-144",
+      "APF-2026-08-31-776",
+      "APF-2026-09-03-400",
+      "APF-2026-09-06-248"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: fabricated, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-14",
+    "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
+    "last_seen": "2026-09-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-14",
+        "url": "https://x.com/LittleLeighXoxo/status/2099517872443683231",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
