@@ -39205,7 +39205,7 @@
     "detected_by": "iris_classify_2026-06-17",
     "detection_timestamp": "2026-06-17T12:47:59.411627+00:00",
     "last_seen": "2026-06-17",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-17",
@@ -44959,7 +44959,8 @@
       "@NexusEchoX",
       "@thegoodexpert",
       "@bahdoonmire",
-      "@goldenhelmet01"
+      "@goldenhelmet01",
+      "@kabutaroo"
     ],
     "platforms": [
       "X (Twitter)"
@@ -44984,6 +44985,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/bahdoonmire/status/2091596314568241460",
         "date": "2026-08-24"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/goldenhelmet01/status/2086434744913306090",
+        "date": "2026-09-15"
       }
     ],
     "spread": 5,
@@ -45032,7 +45038,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-08-24",
+    "last_seen": "2026-09-15",
     "status": "active",
     "observations": [
       {
@@ -45070,10 +45076,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-15",
+        "url": "https://x.com/goldenhelmet01/status/2086434744913306090",
+        "summary": "Here's the list....it'll take an hour to read so make yourself a drink or two. 1970s–1980s 1972 — Munich Olympics",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 4,
+    "observation_count": 5,
     "intensity_trend": [
+      3,
       3,
       3,
       3
@@ -46647,7 +46663,7 @@
     "detected_by": "iris_classify_2026-08-16",
     "detection_timestamp": "2026-08-16T09:10:31.624887+00:00",
     "last_seen": "2026-08-16",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-16",
