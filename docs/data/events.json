@@ -44960,7 +44960,8 @@
       "@thegoodexpert",
       "@bahdoonmire",
       "@goldenhelmet01",
-      "@kabutaroo"
+      "@kabutaroo",
+      "@ShreksJohnson"
     ],
     "platforms": [
       "X (Twitter)"
@@ -44990,6 +44991,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/goldenhelmet01/status/2086434744913306090",
         "date": "2026-09-15"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ShreksJohnson/status/2100582424669237299",
+        "date": "2026-09-17"
       }
     ],
     "spread": 5,
@@ -45038,7 +45044,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-09-15",
+    "last_seen": "2026-09-17",
     "status": "active",
     "observations": [
       {
@@ -45085,10 +45091,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-17",
+        "url": "https://x.com/ShreksJohnson/status/2100582424669237299",
+        "summary": "Here's the list....it'll take an hour to read so make yourself a drink or two. 1970s–1980s 1972 — Munich Olympics",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 5,
+    "observation_count": 6,
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -49097,6 +49113,83 @@
       {
         "date": "2026-09-14",
         "url": "https://x.com/LittleLeighXoxo/status/2099517872443683231",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-17-551",
+    "date": "2026-09-17",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-09-17"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-27-913",
+      "APF-2026-08-06-880",
+      "APF-2026-08-21-380",
+      "APF-2026-09-05-979",
+      "APF-2026-09-07-008",
+      "APF-2026-09-14-458"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-17",
+    "detection_timestamp": "2026-09-17T13:58:24.308986+00:00",
+    "last_seen": "2026-09-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-17",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
