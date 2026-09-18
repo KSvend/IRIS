@@ -36347,7 +36347,7 @@
     "detected_by": "iris_classify_2026-06-02",
     "detection_timestamp": "2026-06-02T12:37:16.475480+00:00",
     "last_seen": "2026-06-20",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-02",
@@ -39699,7 +39699,7 @@
     "detected_by": "iris_classify_2026-06-20",
     "detection_timestamp": "2026-06-20T11:10:20.397561+00:00",
     "last_seen": "2026-06-20",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-20",
@@ -39778,7 +39778,7 @@
     "detected_by": "iris_classify_2026-06-20",
     "detection_timestamp": "2026-06-20T11:10:20.397561+00:00",
     "last_seen": "2026-06-20",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-20",
@@ -46908,7 +46908,7 @@
     "detected_by": "iris_classify_2026-08-19",
     "detection_timestamp": "2026-08-19T09:20:56.407654+00:00",
     "last_seen": "2026-08-19",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-19",
@@ -49198,5 +49198,90 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-18-457",
+    "date": "2026-09-18",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis highlights similarities between pro-Turkish analysts' narratives and ISIS propaganda concerning Puntland counter-terrorism.",
+    "summary": "An analysis by @CirkaNews on X (Twitter) highlights striking similarities between narratives promoted by pro-Turkish geopolitical commentator Umut Çağrı Sarı and those from ISIS propaganda outlet Manjaniq Media. The analysis suggests that Sarı's messaging, which concerns Puntland's counter-terrorism efforts, echoes themes typically found in ISIS propaganda, raising concerns about the spread of narratives that could undermine regional security.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-09-18"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-27-913",
+      "APF-2026-08-21-380",
+      "APF-2026-09-05-979",
+      "APF-2026-09-07-008",
+      "APF-2026-09-14-458",
+      "APF-2026-09-17-551"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-18",
+    "detection_timestamp": "2026-09-18T13:19:19.861701+00:00",
+    "last_seen": "2026-09-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-18",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Narratives portraying Puntland's counter-terrorism efforts in a manner consistent with ISIS propaganda."
+    ],
+    "_review_notes": "This event highlights a concerning potential convergence of narratives between pro-Turkish analysts and ISIS propaganda regarding counter-terrorism in Puntland, Somalia. There is a discrepancy in the event's stated country (South Sudan) versus the content (Puntland, Somalia).",
+    "_reviewed": "2026-09-18T13:24:17.196115+00:00"
   }
 ]
