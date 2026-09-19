@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-19",
+  "extracted_claims": [
+    {
+      "claim": "Puntland's counter-terrorism efforts are portrayed negatively by certain analysts.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131"
+      ],
+      "keywords": [
+        "Puntland",
+        "counter-terrorism"
+      ]
+    },
+    {
+      "claim": "Narratives from pro-Turkish analysts, specifically Umut \u00c7a\u011fr\u0131 Sar\u0131, show striking similarities to ISIS propaganda from Manjaniq Media.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media",
+        "ISIS"
+      ],
+      "keywords": [
+        "Turkish analysts",
+        "ISIS propaganda",
+        "Manjaniq Media"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual identified as spreading narratives."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific ISIS propaganda outlet."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific topic of disinformation."
+    },
+    {
+      "keyword": "Turkish analysts",
+      "country": "Regional",
+      "reason": "Specific actor group identified."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}
