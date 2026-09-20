@@ -39915,7 +39915,7 @@
     "detected_by": "iris_classify_2026-06-22",
     "detection_timestamp": "2026-06-22T14:25:44.903538+00:00",
     "last_seen": "2026-06-22",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-22",
@@ -39987,7 +39987,7 @@
     "detected_by": "iris_classify_2026-06-22",
     "detection_timestamp": "2026-06-22T14:25:44.903538+00:00",
     "last_seen": "2026-06-22",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-22",
@@ -44961,7 +44961,10 @@
       "@bahdoonmire",
       "@goldenhelmet01",
       "@kabutaroo",
-      "@ShreksJohnson"
+      "@ShreksJohnson",
+      "@flinkston22433",
+      "@JD71723577",
+      "@Mikatj3"
     ],
     "platforms": [
       "X (Twitter)"
@@ -44996,6 +44999,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/ShreksJohnson/status/2100582424669237299",
         "date": "2026-09-17"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Mikatj3/status/2101661394659578000",
+        "date": "2026-09-20"
       }
     ],
     "spread": 5,
@@ -45044,7 +45052,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-09-17",
+    "last_seen": "2026-09-20",
     "status": "active",
     "observations": [
       {
@@ -45100,10 +45108,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-20",
+        "url": "https://x.com/Mikatj3/status/2101661394659578000",
+        "summary": "Here's the list....it'll take an hour to read so make yourself a drink or two. 1970s–1980s 1972 — Munich Olympics",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 6,
+    "observation_count": 7,
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -46981,7 +46999,7 @@
     "detected_by": "iris_classify_2026-08-21",
     "detection_timestamp": "2026-08-21T09:20:58.292183+00:00",
     "last_seen": "2026-08-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-21",
@@ -47066,7 +47084,7 @@
     "detected_by": "iris_classify_2026-08-21",
     "detection_timestamp": "2026-08-21T09:20:58.292183+00:00",
     "last_seen": "2026-08-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-21",
@@ -47147,7 +47165,7 @@
     "detected_by": "iris_classify_2026-08-21",
     "detection_timestamp": "2026-08-21T09:20:58.292183+00:00",
     "last_seen": "2026-08-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-21",
@@ -49369,5 +49387,158 @@
     ],
     "_review_notes": "This event is an analysis *about* disinformation, not the disinformation itself, hence the suggested type change to CONTEXT. The original country classification (South Sudan) is incorrect, as the content clearly refers to Puntland (Somalia). This highlights a concerning convergence of narratives between geopolitical commentators and extremist groups, potentially undermining counter-terrorism efforts.",
     "_reviewed": "2026-09-19T12:57:12.566431+00:00"
+  },
+  {
+    "id": "APF-2026-09-20-909",
+    "date": "2026-09-20",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "The FAKE NEW MEDIA not allowed to print the TRUTH about the AUTOPEN BIDEN-OBAMA CABAL food costs compared to today's",
+    "summary": "An X (Twitter) account, @Day1Barbara, spread claims alleging that mainstream media suppresses information about food costs under the 'Biden-Obama cabal' and that former President Trump's actions against the media are justified due to their 'fake' and 'lying' nature. While the content is US-centric, its propagation in Kenya highlights the spread of foreign political disinformation narratives within the region, potentially eroding trust in media.",
+    "actors": [
+      "@Day1Barbara"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Day1Barbara/status/2101662370510553506",
+        "date": "2026-09-20"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b"
+    ],
+    "related_events": [
+      "APF-2026-05-31-053",
+      "APF-2026-08-01-415",
+      "APF-2026-08-21-055",
+      "APF-2026-08-27-725",
+      "APF-2026-09-03-231",
+      "APF-2026-09-14-131"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-20",
+    "detection_timestamp": "2026-09-20T13:23:09.143030+00:00",
+    "last_seen": "2026-09-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-20",
+        "url": "https://x.com/Day1Barbara/status/2101662370510553506",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_summary": "The FAKE NEW MEDIA not allowed to print the TRUTH about the AUTOPEN BIDEN-OBAMA CABAL food costs compared to today's prices! No wonder President Tump wants to keep the LYING FACE NEWS MEDIA out White House Press Conferences because FAKE NEWS MEDIA is. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "Mainstream media (referred to as 'FAKE NEW MEDIA') is suppressing the truth about food costs under the Biden-Obama administration.",
+      "The Biden-Obama administration is an 'AUTOPEN BIDEN-OBAMA CABAL'.",
+      "President Trump's actions to exclude media from White House Press Conferences are justified because the media is 'lying' and 'fake'."
+    ],
+    "_review_notes": "This event highlights the cross-border propagation of US-centric political disinformation narratives within Kenya, even if the direct impact on Kenya is low. It's important to monitor how such narratives are adopted or amplified locally.",
+    "_reviewed": "2026-09-20T13:27:52.223723+00:00"
+  },
+  {
+    "id": "APF-2026-09-20-412",
+    "date": "2024-05-30",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Report highlights false deepfake accusations against UK Labour MP Rachel Maskell",
+    "summary": "A report by @tortoisemedia on TikTok highlighted an instance where a blurry, out-of-sync video of UK MP Rachel Maskell from 2015 went viral, leading to widespread but false accusations that the Labour party was using deepfakes in their election campaign. The incident serves as a case study on how quickly deepfake accusations can spread, even when the content is authentic, underscoring the challenges of distinguishing real from manipulated media in political contexts. While this specific event is UK-based, it offers valuable insights into the dynamics of deepfake allegations that could be relevant to East African elections and political discourse.",
+    "actors": [
+      "@tortoisemedia"
+    ],
+    "platforms": [
+      "TikTok"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://www.tiktok.com/@tortoisemedia/video/7374709986745797921",
+        "date": "2026-09-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-04-23-320",
+      "APF-2026-06-25-457",
+      "APF-2026-07-01-420",
+      "APF-2026-07-04-300",
+      "APF-2026-07-15-267",
+      "APF-2026-08-26-424"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: deepfake.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-20",
+    "detection_timestamp": "2026-09-20T13:23:09.143030+00:00",
+    "last_seen": "2024-05-30",
+    "status": "resolved",
+    "observations": [
+      {
+        "date": "2024-05-30",
+        "url": "https://www.tiktok.com/@tortoisemedia/video/7374709986745797921",
+        "summary": "Initial detection",
+        "platforms": [
+          "TikTok"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "People were quick to accuse Labour of using deepfakes in their election campaign when a blurry, out-of-sync video of MP",
+    "_original_summary": "People were quick to accuse Labour of using deepfakes in their election campaign when a blurry, out-of-sync video of MP Rachel Maskell went viral. But the clip, from 2015, was very much real. The whole moment served as an unsettling example of how qu.",
+    "extracted_claims": [
+      "A 2015 video of UK MP Rachel Maskell was a deepfake used by the Labour party in their election campaign."
+    ],
+    "_review_notes": "This event, though UK-centric, provides a valuable case study on the rapid spread of deepfake accusations and the challenges of media authentication. It's important for East African contexts to understand these dynamics, especially with upcoming elections and increasing digital media use.",
+    "_reviewed": "2026-09-20T13:27:52.223750+00:00"
   }
 ]

@@ -1653,6 +1653,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "deepfake",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Emerging technology used in disinformation, relevant across East Africa.",
+          "date_added": "2026-09-20",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
