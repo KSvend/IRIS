@@ -1,0 +1,14 @@
+id,name,category,platform,url,check_method,confidence_floor,status
+W-VE-001,Shahada News,ve_propaganda_producers,Multiple,,search_web,HIGH,active
+W-VE-002,Al-Kataib Media,ve_propaganda_producers,Multiple,,search_web,HIGH,active
+W-VE-003,Manjaniq Media,ve_propaganda_producers,Multiple,,search_web,HIGH,active
+W-VE-004,Somalimemo,ve_propaganda_producers,Web,https://somalimemo.info,fetch_url,HIGH,active
+W-VE-005,Calamada,ve_propaganda_producers,Web,,search_web,HIGH,active
+W-VE-006,Radio Andalus,ve_propaganda_producers,Multiple,,search_web,HIGH,active
+W-VE-007,Voice of Munasir,ve_propaganda_producers,Multiple,,search_web,HIGH,active
+W-VE-008,Al Hijratain Media,ve_propaganda_producers,Multiple,,search_web,HIGH,active
+W-VE-009,Voice of Khorasan,ve_propaganda_producers,Multiple,,search_web,HIGH,active
+W-HS-001,Lich Broadcast,hs_disinfo_producers,Facebook,,search_web,MEDIUM,active
+W-HS-002,SSEM TV,hs_disinfo_producers,Facebook,,search_web,MEDIUM,active
+W-HS-003,Dahir Alasow / Waagacusub,hs_disinfo_producers,X,https://x.com/waaboraal,search_web,MEDIUM,active
+W-HS-004,UmmaSoldiers,hs_disinfo_producers,X,https://x.com/UmmaSoldiers,search_web,MEDIUM,active
