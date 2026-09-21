@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-21",
+  "extracted_claims": [
+    {
+      "claim": "Audio of a Minister has been fabricated by bots.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "minister",
+        "bots"
+      ]
+    },
+    {
+      "claim": "A statement from Puntland's President has been doctored by bots.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President",
+        "bots"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "troops",
+        "roadblocks",
+        "Puntland",
+        "bots"
+      ]
+    },
+    {
+      "claim": "False information is being spread about a Port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Port",
+        "Puntland",
+        "bots",
+        "Bosaso Port"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific high-level official targeted by disinformation."
+    },
+    {
+      "keyword": "Bosaso Port",
+      "country": "Somalia",
+      "reason": "Specific critical infrastructure targeted by disinformation."
+    },
+    {
+      "keyword": "fabricated audio",
+      "country": "Somalia",
+      "reason": "Specific method of disinformation used."
+    },
+    {
+      "keyword": "doctored statement",
+      "country": "Somalia",
+      "reason": "Specific method of disinformation used."
+    },
+    {
+      "keyword": "Puntland roadblocks",
+      "country": "Somalia",
+      "reason": "Specific false event being spread."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}
