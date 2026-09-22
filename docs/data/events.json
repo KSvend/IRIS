@@ -40059,7 +40059,7 @@
     "detected_by": "iris_classify_2026-06-24",
     "detection_timestamp": "2026-06-24T11:35:35.855054+00:00",
     "last_seen": "2026-06-24",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-24",
@@ -49622,5 +49622,290 @@
     ],
     "_review_notes": "This event highlights a sophisticated and sustained disinformation campaign using multiple tactics (audio, documents, false reports) to target high-level officials and critical infrastructure in Puntland, suggesting a deliberate effort to sow discord or undermine governance.",
     "_reviewed": "2026-09-21T15:34:52.422436+00:00"
+  },
+  {
+    "id": "APF-2026-09-22-176",
+    "date": "2026-09-22",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "GOVERNOR ABBOTT TELL TALARICO TO TAKE A ROYAL HIKE. 🔥🔥🔥 Right now, the U.S. Senate race in Texas is too close to call.",
+    "summary": "GOVERNOR ABBOTT TELL TALARICO TO TAKE A ROYAL HIKE. 🔥🔥🔥 Right now, the U.S. Senate race in Texas is too close to call. Recent polling shows James Talarico leading. It’s important to understand how we got here. The Democrats FLOODED Texas with cash. T. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@MariaCarmi1"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MariaCarmi1/status/2102393764555673914",
+        "date": "2026-09-22"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a",
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-03-562",
+      "APF-2026-09-14-131",
+      "APF-2026-09-17-551",
+      "APF-2026-09-20-909",
+      "APF-2026-09-22-251",
+      "APF-2026-09-22-360"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-22",
+    "detection_timestamp": "2026-09-22T13:52:55.417902+00:00",
+    "last_seen": "2026-09-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-22",
+        "url": "https://x.com/MariaCarmi1/status/2102393764555673914",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-22-360",
+    "date": "2026-09-22",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "TREASON! And, CRIMES AGAINST HUMANITY!!!! 🔥It's all 💯connected. Epstein was all about blackmail. IMO everything leads",
+    "summary": "TREASON! And, CRIMES AGAINST HUMANITY!!!! 🔥It's all 💯connected. Epstein was all about blackmail. IMO everything leads back to Barry Soetoro. We are dealing with a Marxist movement that began in the US over 100 years ago. 🙏🙏 Please save this country, . Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@Trufe93112"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Trufe93112/status/2102394869092065373",
+        "date": "2026-09-22"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-05-18-124",
+      "APF-2026-08-01-415",
+      "APF-2026-08-27-725",
+      "APF-2026-09-14-131",
+      "APF-2026-09-20-909",
+      "APF-2026-09-22-176"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-22",
+    "detection_timestamp": "2026-09-22T13:52:55.417902+00:00",
+    "last_seen": "2026-09-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-22",
+        "url": "https://x.com/Trufe93112/status/2102394869092065373",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-22-272",
+    "date": "2026-09-22",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "📣 Somalia: inteligencia anuncia neutralización de líder de \"Al-Shabaab\" 🏥 La operación de seguridad tuvo como objetivo",
+    "summary": "📣 Somalia: inteligencia anuncia neutralización de líder de \"Al-Shabaab\" 🏥 La operación de seguridad tuvo como objetivo a miembros y líderes del grupo \"Al-Shabaab\" en las zonas de \"Golane\" y \"Al-Furqan\", en Somalia. 🗞️ Detalles en la nota:.",
+    "actors": [
+      "@almayadeen_es"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/almayadeen_es/status/2102118163492016462",
+        "date": "2026-09-22"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-04-24-851",
+      "APF-2026-05-28-931",
+      "APF-2026-06-19-621",
+      "APF-2026-08-12-252",
+      "APF-2026-08-13-702",
+      "APF-2026-08-27-712"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (al-shabaab); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-22",
+    "detection_timestamp": "2026-09-22T13:52:55.417902+00:00",
+    "last_seen": "2026-09-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-22",
+        "url": "https://x.com/almayadeen_es/status/2102118163492016462",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-09-22-251",
+    "date": "2026-09-22",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-09-22"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-05-979",
+      "APF-2026-09-14-458",
+      "APF-2026-09-17-551",
+      "APF-2026-09-18-457",
+      "APF-2026-09-19-894",
+      "APF-2026-09-22-176"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-22",
+    "detection_timestamp": "2026-09-22T13:52:55.417902+00:00",
+    "last_seen": "2026-09-22",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-22",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
