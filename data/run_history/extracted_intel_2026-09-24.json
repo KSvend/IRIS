@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-24",
+  "extracted_claims": [
+    {
+      "claim": "False claims of fabricated audio attributed to a Minister in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland Minister",
+        "fabricated audio"
+      ]
+    },
+    {
+      "claim": "False claims of a doctored statement from Puntland's President.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland President",
+        "doctored statement"
+      ]
+    },
+    {
+      "claim": "False claims about troops setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland troops",
+        "roadblocks"
+      ]
+    },
+    {
+      "claim": "False claims regarding a port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland Port",
+        "Bosaso Port"
+      ]
+    },
+    {
+      "claim": "False claims downplaying Israeli casualties in the Israel-Hamas conflict, stating 'only some hundreds' were killed.",
+      "country": "Regional",
+      "actors": [
+        "@rfcwwide"
+      ],
+      "keywords": [
+        "Israeli casualties",
+        "Israel-Hamas"
+      ]
+    },
+    {
+      "claim": "False claims asserting Israeli actions were solely in defense against a 'failed Hamas genocide intent'.",
+      "country": "Regional",
+      "actors": [
+        "@rfcwwide"
+      ],
+      "keywords": [
+        "Israel defense",
+        "Hamas genocide intent"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland Minister",
+      "country": "Somalia",
+      "reason": "Specific official targeted by disinformation."
+    },
+    {
+      "keyword": "Puntland President statement",
+      "country": "Somalia",
+      "reason": "Specific official and type of document targeted."
+    },
+    {
+      "keyword": "Puntland roadblocks",
+      "country": "Somalia",
+      "reason": "Specific event/action falsely claimed in Puntland."
+    },
+    {
+      "keyword": "Puntland Port",
+      "country": "Somalia",
+      "reason": "Specific infrastructure targeted by disinformation."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 0
+}
