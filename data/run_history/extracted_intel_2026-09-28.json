@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-28",
+  "extracted_claims": [
+    {
+      "claim": "Umut \u00c7a\u011fr\u0131 Sar\u0131, a pro-Turkish geopolitical commentator, is disseminating narratives that align with ISIS propaganda concerning Puntland's counter-terrorism operations.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS"
+      ],
+      "keywords": [
+        "Puntland",
+        "counter-terrorism",
+        "ISIS propaganda",
+        "Turkish influence"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific actor identified as potentially spreading propaganda."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "Specific media outlet/entity mentioned in relation to propaganda."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific topic of the disinformation."
+    },
+    {
+      "keyword": "Turkish geopolitical commentator",
+      "country": "Somalia",
+      "reason": "Descriptor for the actor involved in the disinformation."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}

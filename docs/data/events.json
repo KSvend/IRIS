@@ -30262,7 +30262,9 @@
       "@KenyaWeWant_",
       "@TECNOMobile254",
       "@AbsaKenya",
-      "@jamocaesar"
+      "@jamocaesar",
+      "@joseratemo704",
+      "@TheHiveLimited"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30417,6 +30419,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/TAM_EnterRd/status/2093309672031690873",
         "date": "2026-09-11"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/NairobiInk_/status/2103835545646645633",
+        "date": "2026-09-28"
       }
     ],
     "spread": 5,
@@ -30460,7 +30467,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-09-11",
+    "last_seen": "2026-09-28",
     "status": "active",
     "observations": [
       {
@@ -30732,9 +30739,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-28",
+        "url": "https://x.com/NairobiInk_/status/2103835545646645633",
+        "summary": "#43against1: There is a version of Abdiweli Mohamed Hassan’s story that Kenya has been told many times this year, and it is a story",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 30,
+    "observation_count": 31,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30743,6 +30759,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -41063,7 +41080,7 @@
     "detected_by": "iris_classify_2026-06-30",
     "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
     "last_seen": "2026-06-30",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-30",
@@ -41142,7 +41159,7 @@
     "detected_by": "iris_classify_2026-06-30",
     "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
     "last_seen": "2026-06-30",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-30",
@@ -41214,7 +41231,7 @@
     "detected_by": "iris_classify_2026-06-30",
     "detection_timestamp": "2026-06-30T11:40:49.616589+00:00",
     "last_seen": "2026-06-30",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-30",
@@ -50155,5 +50172,90 @@
     ],
     "_review_notes": "This event represents a misclassification by the automated system, as the disinformation content pertains to the Israel-Hamas conflict rather than South Sudan. While the actor might be based in or targeting East Africa, the claim itself is not regionally specific, requiring manual review for accurate context.",
     "_reviewed": "2026-09-24T13:59:14.728494+00:00"
+  },
+  {
+    "id": "APF-2026-09-28-608",
+    "date": "2026-09-28",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis identifies pro-Turkish analyst Umut Çağrı Sarı echoing ISIS propaganda on Puntland counter-terrorism efforts",
+    "summary": "An analysis by MERLx Social Media Monitoring identified striking similarities between narratives pushed by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda. These narratives specifically concern the portrayal of Puntland's counter-terrorism efforts, suggesting a potential echo of extremist messaging by pro-Turkish analysts.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-09-28"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-14-458",
+      "APF-2026-09-17-551",
+      "APF-2026-09-18-457",
+      "APF-2026-09-19-894",
+      "APF-2026-09-22-251",
+      "APF-2026-09-23-865"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-28",
+    "detection_timestamp": "2026-09-28T17:11:34.962480+00:00",
+    "last_seen": "2026-09-28",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-28",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Umut Çağrı Sarı, a pro-Turkish geopolitical commentator, is disseminating narratives that align with ISIS propaganda concerning Puntland's counter-terrorism operations."
+    ],
+    "_review_notes": "This event highlights a concerning convergence of foreign geopolitical commentary and extremist propaganda targeting critical security issues in Somalia's Puntland region. The event's listed country (South Sudan) is inconsistent with the content (Puntland, Somalia) and should be corrected in the metadata.",
+    "_reviewed": "2026-09-28T17:16:53.766842+00:00"
   }
 ]

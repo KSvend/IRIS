@@ -1,0 +1,860 @@
+[
+  {
+    "i": "apify-4ffaa4dfdf8b",
+    "t": "Ki \u00f1\u00ebpp bokk te ma g\u00ebn len ko b\u00ebgg\u2764\ufe0f\ud83d\ude2d\nCheikh Muhammadul Murtada g\u00f3or Y\u00e0lla j\u00e0ambari l'islam dji awma sagoo ci moom wallahi\ud83e\udd0d https://t.co/PdCr716nJJ",
+    "d": "2026-09-26",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Murtada_M_Taawu",
+    "l": "https://x.com/Murtada_M_Taawu/status/2103806757243953367",
+    "pr": "Normal",
+    "co": 0.872,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-26",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.6882
+    },
+    "exp": "This post is in Wolof, not a language from the specified East African countries (Somalia, South Sudan, Kenya). It praises a religious figure, 'Cheikh Muhammadul Murtada', and expresses deep admiration for him as a 'man of God' and 'hero of Islam'. It does not contain hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f75fa3803dda",
+    "t": "Soomaaliya oo guuldarro kala kulantay Gambia bilowga isreeb-reebka AFCON 2027: Sabti, September 26, 2026 (HOL) -\u00a0Xulka qaranka Soomaaliya ayaa guuldarro 2-1 ah kala kulmay Gambia, kulankii ugu horreeyay ee isreeb-reebka Koobka Qaramada Afrika ee AFCON\u2026 https://t.co/enIRMRV9xN",
+    "d": "2026-09-26",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@hiiraan",
+    "l": "https://x.com/hiiraan/status/2103735796692111667",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-26",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9684
+    },
+    "exp": "This post is a news report in Somali about Somalia's national football team losing to Gambia in an AFCON 2027 qualifier. It is factual reporting and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-90621fe8e736",
+    "t": "Migori residents seek intervention as hyenas attack livestock https://t.co/iMLwsdUaiI",
+    "d": "2026-09-26",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@citizentvkenya",
+    "l": "https://x.com/citizentvkenya/status/2103754792464207939",
+    "pr": "Normal",
+    "co": 0.9944,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-26",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9984
+    },
+    "exp": "This post is a news report about hyenas attacking livestock in Migori, Kenya. It is factual reporting and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d1f87771f821",
+    "t": "Mumias East residents raise alarm over rising number of bodies found in local rivers. \n\nVideo by Benard Lusigi https://t.co/FklzH8f7aT",
+    "d": "2026-09-26",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@StandardKenya",
+    "l": "https://x.com/StandardKenya/status/2103823989638324632",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-26",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "This post is a news report about residents in Mumias East, Kenya, raising alarm over an increasing number of bodies found in local rivers. It is factual reporting and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d7a2153d7dc8",
+    "t": "#baraarushintabulshad #somali #somalia #somalilandtiktok\ud83d\udc9a\ud83e\udd0d\u2764\ufe0f #muqdisho",
+    "d": "2026-09-24",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@baraarushintabulshada",
+    "l": "https://www.tiktok.com/@baraarushintabulshada/video/7689091578203507990",
+    "pr": "Normal",
+    "co": 0.9983,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9758
+    },
+    "exp": "This post uses hashtags related to Somalia and Somaliland, including `#baraarushintabulshad` which means 'awakening of the community'. It appears to be a general post about Somali identity or awareness, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a06a6b4b8a88",
+    "t": "@karoba_john Mungiki mentality will not prevent Kenya from moving forward.",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@DavisDavis25415",
+    "l": "https://x.com/DavisDavis25415/status/2104240687336042988",
+    "pr": "Hate",
+    "co": 0.9807,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9989
+    },
+    "exp": "This post criticizes 'Mungiki mentality,' referring to the Mungiki, a proscribed Kikuyu militia group in Kenya. It is a political criticism of a specific group's ideology, not an attack on the Kikuyu ethnic group as a whole.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-54161529f34b",
+    "t": "\ud83d\uded1 UJUMBE MUHIMU KUTOKA KWA SHUJAA WAKILI DKT MIGUNA MIGUNA! \ud83d\uded1\n\n\"I HAVE MADE MY CONTRIBUTION; \nNOW, LIBERATE YOURSELF\n\nI was detained incommunicado without trial, tortured at Nyayo Torture Chambers, and expelled from the University of Nairobi in 1987 for resisting the KANU-Moi dictatorship and organi",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mukoya_aywah",
+    "l": "https://x.com/mukoya_aywah/status/2104611500170060076",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 91,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9986
+    },
+    "exp": "This post shares a message from Miguna Miguna, a prominent Kenyan lawyer and political activist, detailing his past experiences of detention and torture. It is a political statement about personal struggle and liberation, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b6b64c8c1244",
+    "t": "#Magazetiyaleo \n\nHabari Leo \n\nJumatatu Septemba 28, 2026 https://t.co/LKos7sa3e7",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2104404514975465764",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post appears to be a news update, using hashtags like `#Magazetiyaleo` (Today's Newspapers) and `Habari Leo` (News Today), with a date and a link. It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8c714c934ccb",
+    "t": "@acidnegroe But Somalis hate Oromos and call us Gaal regularly so I\u2019m sure every Somali leader would have refused the alliance with the exception of the Dervishes.",
+    "d": "2026-09-28",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@grazalt1",
+    "l": "https://x.com/grazalt1/status/2104311494695686251",
+    "pr": "Hate",
+    "co": 0.7789,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9865
+    },
+    "exp": "This post claims that Somalis hate Oromos and regularly call them 'Gaal,' which means 'infidel' in Somali. The post itself is describing or reporting alleged hate speech and religious incitement, not perpetrating it.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2f78830e15e7",
+    "t": "Some Arabic scripts and Somali Ajami manuscripts were most likely destroyed in the civil war. The manuscript discussing a sheikhs refutation of Sayids Muhammad Takfir of groups of Somalis sounds interesting.",
+    "d": "2026-09-28",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@zeilapodcast",
+    "l": "https://x.com/zeilapodcast/status/2104271626351308943",
+    "pr": "Normal",
+    "co": 0.9728,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9604
+    },
+    "exp": "This post discusses the destruction of historical manuscripts and mentions a manuscript that refutes 'Sayids Muhammad Takfir of groups of Somalis.' 'Takfir' is the act of declaring a Muslim an apostate or infidel. The post itself is an academic or historical discussion about this phenomenon, not an act of takfir or hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c098a79f26d3",
+    "t": "Oromo groups expanded toward southern Somali areas in the mid-17th century while Ajuran held power; Ajuran's Gaal Madow campaigns reversed those advances. Ajuran's late-17th decline came mainly from internal Somali clan revolts and heavy taxes. 19th-century Jubba records (Lewis) show temporary Darod",
+    "d": "2026-09-28",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2104034668391620662",
+    "pr": "Abusive",
+    "co": 0.6311,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 27,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9879
+    },
+    "exp": "This post discusses historical events, specifically 'Ajuran's Gaal Madow campaigns.' 'Gaal Madow' translates to 'Black Infidels' in Somali, a term historically used by some Somali groups to refer to non-Muslim or animist groups in a derogatory way. The post is a historical account mentioning the use of a derogatory term, not perpetrating hate speech itself.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-08a426160ea3",
+    "t": "Maamulka Koonfur Galbeed oo sheegay in xaaladda Baydhabo ay degan tahay: Isniin, September 28, 2026 (HOL) -\u00a0Afhayeenka Dowlad Goboleedka Koonfur Galbeed Xaayow ayaa sheegay in xaaladda magaalada Baydhabo ay hadda degan tahay, kaddib weerar ay saaka\u2026 https://t.co/p2mxzoEngP",
+    "d": "2026-09-28",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@hiiraan",
+    "l": "https://x.com/hiiraan/status/2104490602549432755",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "hate_speech",
+      "score": 0.9985
+    },
+    "exp": "This post is a news report in Somali from Hiiraan Online (HOL) stating that the South West Administration announced the situation in Baidoa is calm following an attack. It is purely informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2426c3acc6bd",
+    "t": "\ud83d\udcfaUmuthi, tabariraini ya HUMUKA:  WENDIA WA MAHUA ,  ukireherwo ni Robert Njoroge, na mutabania wendete, Wahu Wa Kariithi.\n\n\ud83d\uddd3Wa mwambiririo, 28th September \n\ud83d\udd556PM - 7PM\n#Humuka #KamemeTv https://t.co/QznFE7oImc",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KamemeTvKenya",
+    "l": "https://x.com/KamemeTvKenya/status/2104572480069194159",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is an announcement in Kikuyu for a TV program called 'WENDIA WA MAHUA' on Kameme TV, featuring Robert Njoroge and Wahu Wa Kariithi. It is a program schedule and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f368f9d9010a",
+    "t": "#Magazetiyaleo \n\nMwanahabari \n\nJumatatu Septemba 28, 2026 https://t.co/Tjf1xo39Zo",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2104404633821081808",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a simple Swahili update, likely related to news, mentioning 'Newspapers Today' and 'Journalist' with a date. It is informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-077e789f51ca",
+    "t": "Watu wanaapply Greencard lini juu wueh kenya \ud83c\uddf0\ud83c\uddea hatutoboi na level ya kusota iko huku",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@AustinMulla",
+    "l": "https://x.com/AustinMulla/status/2104573076960669931",
+    "pr": "Normal",
+    "co": 0.9977,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post expresses personal frustration in Swahili/Sheng about economic hardship in Kenya ('we can't make it with the level of poverty here') and a desire to apply for a Green Card. It is a personal sentiment of despair, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-800e8f22649c",
+    "t": "Wacha niende Ethiopia naskia wako 2019 nirudie hizo miaka wasted   huku Kenya.",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WSlumz",
+    "l": "https://x.com/WSlumz/status/2104597361947283622",
+    "pr": "Hate",
+    "co": 0.846,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a humorous or frustrated comment in Swahili/Sheng, wishing to go to Ethiopia because they use a different calendar (implying a desire to go back in time to undo 'wasted years' in Kenya). It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7383b48dbdbb",
+    "t": "\ud83c\udd95 NEW JOB ALERT \u2014 GoKazini\n\nSafeguarding Specialist\n\n\ud83d\udccd Nairobi, Kenya\n\ud83d\udcb0 USD 27,145/yr\n\ud83c\udfe2 Hybrid\n\ud83d\udcc2 NGO, UN & Development\n\ud83d\uddd3\ufe0f Posted: 28 September 2026\n\u23f0 Apply by: 8 October 2026\n\nLooking for a role in NGO, UN & Development?\n\nThis one is now live on GoKazini.\n\n\ud83d\udd17 Apply here:\nhttps://t.co/C6DMKEaLxg\n\nGo F",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GoKazini",
+    "l": "https://x.com/GoKazini/status/2104617178607607812",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a job advertisement for a 'Safeguarding Specialist' in Nairobi, Kenya. It is purely informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ec2423d7f316",
+    "t": "@Josephkihiu12 @MwangangiNelly @RChemutai @sylviepaloma @SimonCh07105232 @PatrickRudiger2 @jennykanyiri @MaIgnatius_Nem @Leonard1262285 @CessNdiritu @ciiramaina @BonnieMejja @AAkiyao @EltonKarisa @BarrackFerguson @itsjohnndaiga @Itsryckieh @Janetmw25 @Annmitchel5 @philipmathekaj @YoungAmoh1 @MUTEMBE",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@bevbirir",
+    "l": "https://x.com/bevbirir/status/2104416848540225769",
+    "pr": "Normal",
+    "co": 0.9937,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post consists solely of multiple Twitter mentions. Without any accompanying text, it is impossible to determine its context or if it contains hate speech. As presented, it is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3b4207f467e9",
+    "t": "\ud83c\udd95 NEW JOB ALERT \u2014 GoKazini\n\nBatch Processing Operator\n\n\ud83d\udccd Nairobi, Kenya\n\ud83d\udcb0 Est. KES 35,000 \u2013 60,000/mo\n\ud83c\udfe2 On-site\n\ud83d\udcc2 Skilled Trades & General Services\n\ud83d\uddd3\ufe0f Posted: 28 September 2026\n\u23f0 Apply by: 2 October 2026\n\nLooking for a role in Skilled Trades & General Services?\n\nThis one is now live on GoKazini.\n\n\ud83d\udd17 ",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GoKazini",
+    "l": "https://x.com/GoKazini/status/2104614877155205527",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 21,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a job advertisement for a 'Batch Processing Operator' in Nairobi, Kenya. It is purely informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-baf2e2bac6c4",
+    "t": "Maxkamadda Sare ee Kenya oo amartay in loo celiyo baasaboorkiisa xildhibaan Soomaaliya ku matala baarlamaanka Bariga Afrika: Isniin, September 28, 2026 (HOL) -\u00a0Maxkamadda Sare ee Kenya ayaa amartay in hay\u2019adaha socdaalka ay sii daayaan oo ay dib ugu\u2026 https://t.co/8oiNMGVukT",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@hiiraan",
+    "l": "https://x.com/hiiraan/status/2104616318607745351",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news report in Somali from Hiiraan Online (HOL) stating that Kenya's High Court ordered the return of a passport to a Somali MP representing Somalia in the East African Parliament. It is purely informational and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-758a52ef1439",
+    "t": "*Vijana walivyogeuza taka kuwa fursa, wapata mkopo wa Sh35 milioni* https://t.co/3wsrF2r6Tr",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MwananchiNews",
+    "l": "https://x.com/MwananchiNews/status/2104617679122493943",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a news headline in Swahili, reporting on youths who turned waste into an opportunity and received a loan. It is a positive news story and contains no hate speech or offensive language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d263bd690ba3",
+    "t": "IEBC oo beenisay sheegashada ah in ajaanib loo diiwaangelinayo sida codbixiyeyaal Kenyaan ah https://t.co/gFOP2V2d6g",
+    "d": "2026-09-28",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RadioStar__FM",
+    "l": "https://x.com/RadioStar__FM/status/2104478329219031413",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a news report in Somali, stating that the IEBC (Independent Electoral and Boundaries Commission) denies claims of foreigners ('ajaanib') being registered as Kenyan voters. It is factual reporting and does not express xenophobic sentiment itself.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e789ea121cf0",
+    "t": "Somalia dowlad kama jirto ilaah ha u gargaaro \ud83d\ude22\ud83d\ude22\ud83d\ude22",
+    "d": "2026-09-28",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@sahra64681005",
+    "l": "https://x.com/sahra64681005/status/2104503057136406805",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_GENDER_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-28",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.8852
+    },
+    "exp": "This post expresses a lament about the political situation in Somalia, stating 'There is no government in Somalia, may God help them.' It conveys sadness and frustration, not hate speech or an attack on any group.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
