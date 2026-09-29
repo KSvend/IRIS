@@ -29867,7 +29867,7 @@
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
     "last_seen": "2026-07-01",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-03-23",
@@ -41308,7 +41308,7 @@
     "detected_by": "iris_classify_2026-07-01",
     "detection_timestamp": "2026-07-01T11:52:57.432240+00:00",
     "last_seen": "2026-07-01",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-01",
@@ -41380,7 +41380,7 @@
     "detected_by": "iris_classify_2026-07-01",
     "detection_timestamp": "2026-07-01T11:52:57.432240+00:00",
     "last_seen": "2026-07-01",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-01",
@@ -47731,7 +47731,7 @@
     "detected_by": "iris_classify_2026-08-30",
     "detection_timestamp": "2026-08-30T14:08:28.894297+00:00",
     "last_seen": "2026-08-30",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-30",
@@ -50257,5 +50257,80 @@
     ],
     "_review_notes": "This event highlights a concerning convergence of foreign geopolitical commentary and extremist propaganda targeting critical security issues in Somalia's Puntland region. The event's listed country (South Sudan) is inconsistent with the content (Puntland, Somalia) and should be corrected in the metadata.",
     "_reviewed": "2026-09-28T17:16:53.766842+00:00"
+  },
+  {
+    "id": "APF-2026-09-29-077",
+    "date": "2026-09-29",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims George Soros is attempting to destroy India's democracy",
+    "summary": "An account on X (Twitter) spread claims that George Soros is attempting to destroy India's democracy and that a 'Leader of Propaganda' is more dangerous than Kasab due to ties with Soros. This event is misclassified as it pertains to India, not Somalia or the East Africa region.",
+    "actors": [
+      "@allyaalok"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/allyaalok/status/2104951732782698726",
+        "date": "2026-09-29"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003a",
+      "NAR-KE-003b",
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-04-23-676",
+      "APF-2026-04-27-242",
+      "APF-2026-04-30-393",
+      "APF-2026-07-08-746",
+      "APF-2026-09-21-043",
+      "APF-2026-09-24-050"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-29",
+    "detection_timestamp": "2026-09-29T15:11:53.570156+00:00",
+    "last_seen": "2026-09-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-29",
+        "url": "https://x.com/allyaalok/status/2104951732782698726",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "This Ashish Joshi is absolutely correct in describing ranks. But he is utterly failed in assessing Leader of Propaganda",
+    "_original_summary": "This Ashish Joshi is absolutely correct in describing ranks. But he is utterly failed in assessing Leader of Propaganda (LoP)  as he is far more dangerous than Kasab because he is the pet of a person named Soros who wants to destroy India's democracy. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "George Soros wants to destroy India's democracy",
+      "A 'Leader of Propaganda' is more dangerous than Kasab and is a pet of George Soros"
+    ],
+    "_review_notes": "This event is entirely out of scope for East Africa monitoring, as it discusses Indian politics and figures. The assigned threat level and country classification are incorrect for this platform.",
+    "_reviewed": "2026-09-29T15:17:09.660329+00:00"
   }
 ]
