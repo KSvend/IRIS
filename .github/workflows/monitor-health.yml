@@ -41,3 +41,21 @@ jobs:
           fi
 
           echo "Pipeline health: OK ($SUCCESS/$TOTAL successful)"
+      - name: Report to Healthchecks.io
+        # ops-monitor heartbeat (KSvend/ops-monitor). Runs even when an earlier
+        # step failed, so failures and missed runs both reach Healthchecks.io;
+        # it never fails the job itself.
+        if: always()
+        env:
+          HC_PING_KEY: ${{ secrets.HC_PING_KEY }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          if [ -z "$HC_PING_KEY" ]; then
+            echo "::warning::HC_PING_KEY is not set; no heartbeat sent"
+            exit 0
+          fi
+          code=1
+          if [ "$JOB_STATUS" = "success" ]; then code=0; fi
+          curl -fsS -m 10 --retry 5 -o /dev/null \
+            "https://hc-ping.com/${HC_PING_KEY}/iris-monitor-health/${code}" \
+            || echo "::warning::heartbeat to Healthchecks.io was not delivered"
