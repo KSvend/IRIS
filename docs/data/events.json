@@ -30264,7 +30264,10 @@
       "@AbsaKenya",
       "@jamocaesar",
       "@joseratemo704",
-      "@TheHiveLimited"
+      "@TheHiveLimited",
+      "@Kusema1000X",
+      "@NairobiInk_",
+      "@MayerGideon"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30424,6 +30427,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/NairobiInk_/status/2103835545646645633",
         "date": "2026-09-28"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MayerGideon/status/2105496683215740946",
+        "date": "2026-10-01"
       }
     ],
     "spread": 5,
@@ -30467,7 +30475,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-09-28",
+    "last_seen": "2026-10-01",
     "status": "active",
     "observations": [
       {
@@ -30748,9 +30756,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-01",
+        "url": "https://x.com/MayerGideon/status/2105496683215740946",
+        "summary": "1/10 Kenya just gave one of its highest civilian honours to a businessman under fire on three fronts at once. President",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 31,
+    "observation_count": 32,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -41623,7 +41640,7 @@
     "detected_by": "iris_classify_2026-07-03",
     "detection_timestamp": "2026-07-03T11:27:15.852332+00:00",
     "last_seen": "2026-07-03",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-03",
@@ -41702,7 +41719,7 @@
     "detected_by": "iris_classify_2026-07-03",
     "detection_timestamp": "2026-07-03T11:27:15.852332+00:00",
     "last_seen": "2026-07-03",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-03",
@@ -49947,6 +49964,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/CirkaNews/status/1934975949189382447",
         "date": "2026-09-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "date": "2026-10-01"
       }
     ],
     "spread": 3,
@@ -49989,7 +50011,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-09-23",
     "detection_timestamp": "2026-09-23T14:01:36.643579+00:00",
-    "last_seen": "2026-09-23",
+    "last_seen": "2026-10-01",
     "status": "active",
     "observations": [
       {
@@ -50000,9 +50022,21 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-01",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 2,
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-09-24-050",
