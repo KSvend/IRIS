@@ -41874,7 +41874,7 @@
     "detected_by": "iris_classify_2026-07-04",
     "detection_timestamp": "2026-07-04T10:49:07.629830+00:00",
     "last_seen": "2026-07-04",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-04",
@@ -44998,7 +44998,9 @@
       "@ShreksJohnson",
       "@flinkston22433",
       "@JD71723577",
-      "@Mikatj3"
+      "@Mikatj3",
+      "@ssrevanthu",
+      "@RosieKayK2CO"
     ],
     "platforms": [
       "X (Twitter)"
@@ -45038,6 +45040,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Mikatj3/status/2101661394659578000",
         "date": "2026-09-20"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RosieKayK2CO/status/2106036599532429405",
+        "date": "2026-10-02"
       }
     ],
     "spread": 5,
@@ -45086,7 +45093,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-09-20",
+    "last_seen": "2026-10-02",
     "status": "active",
     "observations": [
       {
@@ -45151,10 +45158,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-02",
+        "url": "https://x.com/RosieKayK2CO/status/2106036599532429405",
+        "summary": "Here's the list....it'll take an hour to read so make yourself a drink or two. 1970s–1980s 1972 — Munich Olympics",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 7,
+    "observation_count": 8,
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -47983,7 +48000,7 @@
     "detected_by": "iris_classify_2026-09-02",
     "detection_timestamp": "2026-09-02T13:07:15.335442+00:00",
     "last_seen": "2026-09-02",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-02",
@@ -48062,7 +48079,7 @@
     "detected_by": "iris_classify_2026-09-02",
     "detection_timestamp": "2026-09-02T13:07:15.335442+00:00",
     "last_seen": "2026-09-02",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-02",
