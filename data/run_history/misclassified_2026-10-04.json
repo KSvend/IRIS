@@ -1,0 +1,2516 @@
+[
+  {
+    "i": "apify-1ac0472cb16b",
+    "t": "Kajamaa kamewaka juu kuna deals Chivayo ameenda nazo ahera \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+    "d": "2026-10-01",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JoeMuhahami",
+    "l": "https://x.com/JoeMuhahami/status/2105681251449311640",
+    "pr": "Normal",
+    "co": 0.9935,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post uses Swahili slang 'Kajamaa kamewaka juu' meaning 'The guy is in trouble' and 'Chivayo ameenda nazo ahera' meaning 'Chivayo has gone with them to the afterlife'. It's a sarcastic comment implying someone named Chivayo died with some deals, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-635c6b4e4d36",
+    "t": "GILAAAAAA ANJIR, BENERAN ADA PC MATZ DI ANNIV 8 ATEEZ\nMAU SUNGKEM SAMA MATZ KARENA UDAH MENIKAH\ud83d\uded0\ud83d\uded0\ud83d\uded0\nMANA SEONGHWA CANTIK, CENTIL, MENAL MENUL BANGET BJIR\nHONGJOONG GANTENG\nMANIFESTING NANTI MAMI PAPI PULANG MANDIRI\ud83d\uded0\ud83d\uded0\ud83d\uded0\ud83d\uded0\n\nMATZ BANGSA BESAR https://t.co/Ik3lGEQ9P1",
+    "d": "2026-10-01",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@butterflightsky",
+    "l": "https://x.com/butterflightsky/status/2105520358224957694",
+    "pr": "Normal",
+    "co": 0.8303,
+    "tx": "low",
+    "gt": "HS_ETHNIC_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post is in Indonesian and discusses K-pop group ATEEZ, using fan terminology and Indonesian slang. It has no connection to East Africa or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2746e680a20d",
+    "t": "@davewst @princeofthesix6 You're kinda implying that people that prioritise Somali name are signaling being a gaal?",
+    "d": "2026-10-01",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@yoongirune",
+    "l": "https://x.com/yoongirune/status/2105260604042985509",
+    "pr": "Abusive",
+    "co": 0.823,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9828
+    },
+    "exp": "The user is asking a clarifying question about whether prioritizing a Somali name implies being a 'gaal', which means 'infidel' in Somali. The user is not using the term to incite hatred but rather inquiring about its implication.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-239bbf86eb4a",
+    "t": "Congratulations to President @Mustafe_M_Omer on his return for a new five-year term as President of the Somali Regional State. As the region's longest serving leader, he has formed a new government may his leadership keep peace and stability at the heart of progress. \ud83d\udd4a\ufe0f https://t.co/bly2cgYwWT",
+    "d": "2026-10-01",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Cabdulwdd",
+    "l": "https://x.com/Cabdulwdd/status/2105624557256077703",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 23,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9822
+    },
+    "exp": "This is a congratulatory message to President Mustafe M. Omer of the Somali Regional State for his new term. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c8a3785f038a",
+    "t": "\ud83c\uddf8\ud83c\uddf4 CONGRATULATIONS \u2022 CONGRATULATIONS \u2022 CONGRATULATIONS \ud83c\uddf8\ud83c\uddf4\n\ud83c\udf1f CONGRATULATIONS TO THE PRESIDENT OF THE SOMALI REGIONAL STATE \ud83c\udf1f\n\nI extend my heartfelt congratulations and appreciation to the President of the Somali Regional State, \n\nH.E. Mustafe Mohammed Omer, on his re-election today for a third term t",
+    "d": "2026-10-01",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@AhmedSafi99",
+    "l": "https://x.com/AhmedSafi99/status/2105592202395091187",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 34,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9785
+    },
+    "exp": "This post is a congratulatory message to the President of the Somali Regional State, H.E. Mustafe Mohammed. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cd186dac6e2e",
+    "t": "laba ma gudbayal ah \ud83e\udd23\ud83e\udd23\ud83e\udd23\n#viral #tiktok #naago #dagaal #somalitiktok @Ibrahim_qalbi @axmad xasan @Haykal Mohamed muse\u2764\ufe0f",
+    "d": "2025-10-15",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@jezzyamiin",
+    "l": "https://www.tiktok.com/@jezzyamiin/video/7561489713626975500",
+    "pr": "Abusive",
+    "co": 0.6299,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9826
+    },
+    "exp": "The phrase 'laba ma gudbayal ah' means 'Two are not passing/crossing' and 'naago' means 'women'. 'Dagaal' means 'war' or 'fight'. The post seems to be a lighthearted or sarcastic comment, possibly about two women, and the hashtag 'dagaal' is likely used colloquially for an argument or minor conflict, not incitement to war.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-21a9737b6d09",
+    "t": "There is Caln in Somalia call GAAL JECEL \" camel lovers\" \ud83d\udc2b \n#speaking_english #english_learning #english_listening \n#English #learning",
+    "d": "2025-08-07",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@warsame447",
+    "l": "https://www.tiktok.com/@warsame447/video/7535782957781404934",
+    "pr": "Abusive",
+    "co": 0.6755,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9741
+    },
+    "exp": "The user states a factual (though slightly confused) observation about a Somali clan named 'Gaal Jecel', which means 'infidel lover'. While the clan name contains the derogatory term 'gaal', the post itself is not using it to incite hatred but rather as an informational statement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-73396b1c1464",
+    "t": "#fyp #foryoupage #somalitiktok #viralvideo",
+    "d": "2026-09-29",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@hamdaxd",
+    "l": "https://www.tiktok.com/@hamdaxd/video/7690827130623626526",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9784
+    },
+    "exp": "This post consists solely of generic hashtags for social media visibility and contains no discernible content or hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e507753e204a",
+    "t": "#\u0627\u0643\u0633\u0628\u0644\u0648\u0631 #fyp #fypage #explore #fyp\u30b7 #abgaalgirl\ud83c\udd8e #abgaal #abgaaley\ud83d\ude00 #\ud83c\udd8e #abgaal\ud83c\udd8e #\ud83c\udd8e\ud83c\udd8e #somalia\ud83c\uddf8\ud83c\uddf4 #somali #somaligirl",
+    "d": "2025-02-20",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@imsouadh",
+    "l": "https://www.tiktok.com/@imsouadh/video/7473532952870276370",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-01",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9801
+    },
+    "exp": "The post uses hashtags related to the 'Abgaal' clan, such as 'abgaalgirl' and 'abgaaley'. This is an expression of clan identity and pride, which is common and not inherently hate speech unless accompanied by derogatory remarks about other groups or incitement to violence, which is not present here.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c498fab9bb7e",
+    "t": "Shuruucda noocaan\nWaa lama aqbalaan\n\nQofkii deen lagu lahaado\n\nCiqaab waxaa ugu filan xariga\n\nXarig iyo gudis lacageed waa dulmi xun weyn\n#Somalia \n\n@MojSomalia @HassanSMohamud @HamzaAbdiBarre @OCJSomalia @TheVillaSomalia @GMstatehouse https://t.co/AXztV54wFj",
+    "d": "2026-10-03",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@xoogagga",
+    "l": "https://x.com/xoogagga/status/2106341529186947355",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-03",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.7458
+    },
+    "exp": "The post is a political criticism in Somali, stating that laws imposing both imprisonment and financial compensation for debt are unacceptable and a great injustice.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f4c28f729780",
+    "t": "Mudane birmade yaan wax lagu yeerin Qabkii somalia \ud83c\uddf8\ud83c\uddf4  \u2026. https://t.co/F8OmoPwscC",
+    "d": "2026-10-03",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@dunia_work",
+    "l": "https://x.com/dunia_work/status/2106353380084035867",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-03",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.5846
+    },
+    "exp": "The post is a patriotic statement in Somali, urging \"Mr. Birmade\" not to allow anything to undermine the dignity or honor of Somalia.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2338512af0cd",
+    "t": "\u0631\u0633\u0627\u0644\u0629 \u0625\u0644\u0649 \u0627\u0644\u0631\u0626\u064a\u0633 \u0627\u0644\u0635\u0648\u0645\u0627\u0644\u064a \u0627\u0644\u0633\u0627\u0628\u0642 \u062d\u0633\u0646: \u0644\u0627 \u062a\u0632\u0627\u0644 \u0639\u0644\u0627\u0642\u0627\u062a\u0646\u0627 \u0645\u0639 \u0625\u062b\u064a\u0648\u0628\u064a\u0627 \u0645\u062a\u0648\u062a\u0631\u0629\u061b \u0641\u0627\u0644\u0635\u0648\u0645\u0627\u0644 \u064a\u0631\u0641\u0636 \u0631\u0641\u0636\u0627\u064b \u0642\u0627\u0637\u0639\u0627\u064b \u0623\u064a \u062a\u0631\u062a\u064a\u0628 \u064a\u0633\u0645\u062d \u0644\u0625\u062b\u064a\u0648\u0628\u064a\u0627 \u0628\u0627\u0644\u062d\u0635\u0648\u0644 \u0639\u0644\u0649 \u0645\u0646\u0641\u0630 \u0628\u062d\u0631\u064a \u0639\u0628\u0631 \u0627\u0644\u0623\u0631\u0627\u0636\u064a \u0627\u0644\u0635\u0648\u0645\u0627\u0644\u064a\u0629\u060c\u0643\u0645\u0627 \u064a\u0639\u0627\u0631\u0636 \u0627\u0644\u0634\u0639\u0628 \u0627\u0644\u0635\u0648\u0645\u0627\u0644\u064a \u0628\u0634\u062f\u0629 \u0645\u062b\u0644 \u0647\u0630\u0627 \u0627\u0644\u062a\u0631\u062a\u064a\u0628.\n\nA message to former Somali President HSM..",
+    "d": "2026-10-03",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@kingofSomaliaa",
+    "l": "https://x.com/kingofSomaliaa/status/2106379722330435659",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-03",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9217
+    },
+    "exp": "The post is a political message, written in both Arabic and English, addressing the former Somali President and stating that Somalia's relations with Ethiopia remain tense, with a strong rejection of any arrangement granting Ethiopia sea access through Somali territory.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5f2f793330e3",
+    "t": "\"Xeeladda Ugu Weyn ee Wax-soosaarku Waa Inaad Tidhaahdo\u2026! #Somalijobs\nHalkan kasii akhri: https://t.co/J9htbev3Dr\"",
+    "d": "2026-10-03",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Somalijobs",
+    "l": "https://x.com/Somalijobs/status/2106240254911099342",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-03",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9853
+    },
+    "exp": "The post is a motivational statement in Somali about productivity, encouraging readers to click a link for more information, likely related to jobs or self-improvement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-458b8e5aff75",
+    "t": "Somaalai fadralisamka waxee ka faaidey in shacabka la dhibaateeyo. Hogaamiye kooxeed xafad iska xirto ayagoo Dadkii somaliyed oo kale si  fudud adeegii u helaayan Rer putlan herida iska qadaa waa gonimo waxaa  2026. https://t.co/pJ6xaojJ8D",
+    "d": "2026-10-03",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@sudanii123451",
+    "l": "https://x.com/sudanii123451/status/2106370567515373936",
+    "pr": "Normal",
+    "co": 0.9969,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-03",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9244
+    },
+    "exp": "The post criticizes Somali federalism for oppressing the people and benefiting warlords, contrasting it with other Somalis easily accessing services, and calls for Puntland to \"remove the fence\" for independence by 2026.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ffdb988caa77",
+    "t": "Degdeg. Laascaanood \n\nHogaamiyaha ugu shacbiyada vadan dalka somaliya. \nOo ku soo wajahan caasimadda midnimada somaaliyed.  Ee Somaliya \n\n#Dowladnimo_taageer #islaamka_garabsii https://t.co/gtFIRyYeML",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@ACeegaag",
+    "l": "https://x.com/ACeegaag/status/2106725251421987235",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9238
+    },
+    "exp": "This post is a news update stating that a popular leader is heading to Las Anod, the capital of Somali unity, with hashtags supporting statehood and Islam. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cd3712b8ca87",
+    "t": "Degdeg.  Laascaanood \n\nWaxaa maanta soo gaadhay caasimada Dowlad goboledka Waqooyi Bari somaliya. \nMw. Firdhiye oo uu wehliyo \n\nTaliyaha Q26aad  G/dhexe Abdirahmaan Cawed Baalcadde.  Iyo saraakiil kale oo magacaaban.  \n\n#Dowladnimo_taageer #islaamka_garabsii https://t.co/IIer0bwdG7",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@ACeegaag",
+    "l": "https://x.com/ACeegaag/status/2106743192016310416",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9786
+    },
+    "exp": "This post is a news update reporting the arrival of Mw. Firdhiye, the Commander of Q26, Colonel Abdirahmaan Cawed Baalcadde, and other officers in Las Anod, the capital of the North East Somalia regional state. It does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3124f3433ff2",
+    "t": "Xafadda Buulo Axmed Cabdalle oo banaanbax saaka ka dhigay mogadishu , dadkan waxa dhulkoodi si aan sharci ahayn u du dumiyay dowladda somalia https://t.co/iZ7TBotGoC",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@SaadaqMohamed",
+    "l": "https://x.com/SaadaqMohamed/status/2106698670640939316",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.5043
+    },
+    "exp": "This post reports on a protest in Mogadishu by residents of Buulo Ahmed Abdalle neighborhood, whose land was allegedly illegally demolished by the Somali government. This is political criticism, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fbce2f9d3cca",
+    "t": "Part:01||\ud83d\udc10 BOORSADII HALKEE JIRTAA?! \ud83d\ude02 | Sheeko cartoon, Xayawaan Soomaali #somalitiktok #somalilandtiktok\ud83d\udc9a\ud83e\udd0d\u2764 #sheeko #foryoupage #foryou",
+    "d": "2026-07-18",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@maax_14",
+    "l": "https://www.tiktok.com/@maax_14/video/7663919229577465101",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9819
+    },
+    "exp": "This post describes a cartoon story titled 'Where is the bag?!' featuring 'Somali Animals' (Xayawaan Soomaali). Although 'xayawaan' can be a dehumanizing term, in this context, it refers literally to animals in a cartoon, not a human group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f0c3f644145b",
+    "t": "Good morning NAIROBI KENYA  FROM KWEKWE ZIMBABWE",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@taumlambo14",
+    "l": "https://x.com/taumlambo14/status/2106247881904517169",
+    "pr": "Hate",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This is a simple greeting from Kwekwe, Zimbabwe, to Nairobi, Kenya. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7531bc73682d",
+    "t": "Huku Kenya mnakuanga na creativity ingine Kali\ud83d\udd25",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@callmekimsey",
+    "l": "https://x.com/callmekimsey/status/2106748631776698654",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a compliment, stating that Kenyans have 'fierce creativity.' It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-68200ff03f6c",
+    "t": "Don't worry my Kenyan brothers and sisters.\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\n\nZimbabweans will be in solidarity with you during the campaign.\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\n\nWe owe you one for the indefatigable work you have been doing since 30 September 2026.\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\n\nIshe komborera Africa, God bless Africa.\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\ud83e\udd0c\ud83c\udfff\n\n\ud83c\uddff\ud83c\uddfc \ud83e\udd1d\ud83c\udfff \ud83c\uddf0\ud83c\uddea \n\ud83d\ude42\ud83d\ude42\ud83d\ude42 https://t.co/9UwD1S3Z7",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JShepherdBaT007",
+    "l": "https://x.com/JShepherdBaT007/status/2106708032017027086",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post expresses solidarity from Zimbabweans to Kenyans, thanking them for their work and offering support during a campaign. It is a positive message and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a9d90f7a80ec",
+    "t": "#Mada: Ulipromise ex wako nini hiyo?\nAti sitawahi kuacha\ud83d\ude2d\ud83d\ude2d\ud83d\ude02\n\n#MidundoYaKikenya #KituoChaWakenya https://t.co/FHfbUopTYs",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RadioJamboKenya",
+    "l": "https://x.com/RadioJamboKenya/status/2106734055194870019",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a humorous and lighthearted question asking what promises someone made to their ex, with an example of 'I'll never leave you.' It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e0c8f15364ed",
+    "t": "Diaspora Times Global Oct 3 - Oct 9, 2026\nhttps://t.co/bLZfipe9vd https://t.co/7pRlr5Dqdd",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@themtkenyatimes",
+    "l": "https://x.com/themtkenyatimes/status/2106587865580818549",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post shares a link to 'Diaspora Times Global' for a specific date range. It is a news or publication link and does not contain hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ae7c21940195",
+    "t": "The mandate-expired government of #Somalia has appointed a new commander for a unit it designated as the 26th Division of the Somalian National Army.\n\nThis newly designated division is reported to operate in areas north of Galkayo, specifically within the Sool and Sanaag regions, which constitute so",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@tvsaab",
+    "l": "https://x.com/tvsaab/status/2106653183607251050",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 41,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.6542
+    },
+    "exp": "This post reports on the appointment of a new commander for a military unit in Somalia, specifically mentioning its operation in areas north of Galkayo. This is a factual news report about military developments and does not contain any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-40f41c6815fa",
+    "t": "Hanbalyo taliska qaybta 26 aad oo la dhamaystiray waa  guul somaliyed \n\n#Dowladnimo_taageer #islaamka_garabsii https://t.co/KzG59eloMq",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@ACeegaag",
+    "l": "https://x.com/ACeegaag/status/2106726646422401067",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9608
+    },
+    "exp": "The post says 'Hanbalyo taliska qaybta 26 aad oo la dhamaystiray waa guul somaliyed' which translates to 'Congratulations to the command of the 26th division, which has been completed, it is a Somali victory.' It also includes hashtags #Dowladnimo_taageer (Support statehood) and #islaamka_garabsii (Support Islam). This is a celebratory message about a military development and national/religious support, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2591c714c694",
+    "t": "Somalia  ciidan kaladuwan oo awoodleh ayaa  usoo baxay thanks \ud83d\ude4f our brother turkey \ud83c\uddf9\ud83c\uddf7 \ud83d\ude4f\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f\n@trpresidency",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@jaaamaa422",
+    "l": "https://x.com/jaaamaa422/status/2106725804512092597",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.805
+    },
+    "exp": "The post states 'Somalia ciidan kaladuwan oo awoodleh ayaa usoo baxay thanks our brother turkey' which translates to 'Somalia has a diverse and powerful army thanks to our brother Turkey.' This is an expression of gratitude and national pride regarding military strength, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9619b4553dd3",
+    "t": "Khariiddada dhabta ahee Soomaali galbeed.\n\nSoomaaligaan sokeeyihiisa aqoon,\nSoomaaligaan soohdintiisa aqoon,\nSoomaaligaan soyaalkiisa aqoon,\nSiriq gumeysi baa u soohaan.\n\n@Mustafe_M_Omer\n@HassanSMohamud\n@MoDSomaliya\n@AliOmarMP\n@AbdisalamDhaay\n@AhmedMoFiqi\n@MOFASomalia https://t.co/lJFw936aEG",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@BiledayeMaxamed",
+    "l": "https://x.com/BiledayeMaxamed/status/2106737585033031685",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.958
+    },
+    "exp": "The post discusses the 'true map of Somali Galbeed' (Western Somalia) and includes a poem emphasizing the importance for Somalis to know their kin, borders, and history, warning that 'the trap of colonialism will ensnare them' if they don't. This is a nationalistic and irredentist sentiment concerning historical Somali territories, not hate speech against a group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-520b25ceec09",
+    "t": "#somalitiktok #somali #somalia #somalitiktok12",
+    "d": "2026-09-30",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@hassanyool",
+    "l": "https://www.tiktok.com/@hassanyool/video/7691185825974963469",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.977
+    },
+    "exp": "This post consists solely of hashtags related to Somalia and Somali TikTok. It does not contain any textual content that could be interpreted as hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8ab8e3782c41",
+    "t": "Hapa Kenya unahuburiwa kutoka Nairobi mpaka Uthiru ukienda nyumbani\ud83d\ude02\ud83d\ude02\ud83d\ude02 https://t.co/8BpjZ2jtCL",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kisumo_ja",
+    "l": "https://x.com/kisumo_ja/status/2106705157119447410",
+    "pr": "Normal",
+    "co": 0.8511,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post, in Sheng (Kenyan slang), says 'Here in Kenya, you are preached to from Nairobi to Uthiru when you go home,' followed by laughing emojis. It appears to be a sarcastic comment about the prevalence of religious or political messaging, or perhaps a commentary on the difficulty of escaping certain narratives, but it does not target any specific group with hate.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f542f91e8135",
+    "t": "Day 68 of #RemindThem \n\nThis is where Peter Muteti was abducted by William Ruto's killer militia for speaking against bad governance.\n\n#RutoMustGo https://t.co/LsZHe8kzJt",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@_James041",
+    "l": "https://x.com/_James041/status/2106591989143662686",
+    "pr": "Normal",
+    "co": 0.8328,
+    "tx": "high",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "high",
+      "ins": "medium",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9989
+    },
+    "exp": "The post claims that Peter Muteti was abducted by 'William Ruto's killer militia' for speaking against bad governance. This is a severe accusation of political violence and a direct attack on a political figure and his alleged supporters, but it is political criticism and accusation rather than hate speech against a protected group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-09eeddde2774",
+    "t": "\ud83d\udea8 PUBLIC THREAT \u2014 CIA &amp; MOSSAD DEATH WARNING! \ud83d\udea8\nKenya\u2019s @Onesmus_Musyoki sends me this message: Mnangagwa will unleash CIA &amp; Mossad to CRUSH  and KILL me!\nThis is an open threat \u2014 sent publicly! I will NOT be silenced. I will NOT be intimidated. \u26a0\ufe0f https://t.co/QdapLisQd4",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@noto2030",
+    "l": "https://x.com/noto2030/status/2106677663217938936",
+    "pr": "Hate",
+    "co": 0.9469,
+    "tx": "medium",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "medium",
+      "ins": "low",
+      "idt": "low",
+      "thr": "high"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9952
+    },
+    "exp": "The post describes a 'PUBLIC THREAT' where a Kenyan individual allegedly sent a message stating that 'Mnangagwa will unleash CIA & Mossad to CRUSH and KILL me!' The post itself is reporting a perceived threat against the author, not issuing hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-31aad8345e60",
+    "t": "GOOD MORNING, RESIDENTS.\n\nKINDLY BE INFORMED THAT POLICE ARE HOLDING AN UNIDENTIFIED MALE PERSON WHO IS SUSPECTED TO BE EXPERIENCING A MENTAL HEALTH CONDITION AND HAS BEEN UNABLE OR UNWILLING TO PROVIDE HIS IDENTITY.\n\nTHE PERSON GAINED FORCIBLE ENTRY INTO THE METHODIST PREMISES ALONG OLOITOKTOK ROAD",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@NyakundiReport",
+    "l": "https://x.com/NyakundiReport/status/2106596680279720445",
+    "pr": "Normal",
+    "co": 0.9802,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 32,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a public service announcement from the police, informing residents about an unidentified male person suspected of having a mental health condition who gained forcible entry. It is a factual report and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-602c5017c598",
+    "t": "Moses Kuria alipotea mazishi kama haijaisha.",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kilundeezy",
+    "l": "https://x.com/kilundeezy/status/2106622881769705782",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post, in Swahili, says 'Moses Kuria alipotea mazishi kama haijaisha,' which translates to 'Moses Kuria disappeared from the funeral before it was over.' This is a political observation or criticism about a public figure's conduct, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-92c9464fe58a",
+    "t": "Wetang\u2019ula ameanguka,  design Ruto ataanguka kwa kura 2027.",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Nairobi_Nomad",
+    "l": "https://x.com/Nairobi_Nomad/status/2106757266141512048",
+    "pr": "Hate",
+    "co": 0.9892,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post, in Swahili, says 'Wetang\u2019ula ameanguka, design Ruto ataanguka kwa kura 2027,' which translates to 'Wetang\u2019ula has fallen, the way Ruto will fall in the 2027 election.' This is a political prediction or wish for a political figure's defeat, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b9b9add900f7",
+    "t": "Good Afternoon Nyakundi\n\nHivi ndivyo Hali iliko lolgorian ward Narok county government inataka kupeana minning site kwa investor ( KWA WATU LTD)\n\nWananchi walipewa notice ya 42 days watoke kwa hii mgodi jana askari walitumwa kutoa watu hapo wakashika watu kadhaa wananchi wakaanza Maandamano watu waw",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@NyakundiReport",
+    "l": "https://x.com/NyakundiReport/status/2106709099463180324",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "The post describes a situation in Lolgorian ward, Narok county, where the government intends to give a mining site to an investor ('KWA WATU LTD'). It states that residents were given 42 days' notice to vacate the mine, and yesterday police were sent to remove people and arrested some. This is a report about a land dispute and alleged police action, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-71c4bcbe496a",
+    "t": "El Nino preparations:\n\nHealth PS warns of waterborne diseases\n\nPS Muthoni urges families to take precautions\n\n220 high-risk areas in Nairobi mapped\n\n#CitizenWeekend https://t.co/et3utOstoC",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@citizentvkenya",
+    "l": "https://x.com/citizentvkenya/status/2106691542253494323",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post is a news update from Kenya about El Nino preparations, specifically focusing on health warnings regarding waterborne diseases and mapping high-risk areas in Nairobi. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-05901f8b7a0b",
+    "t": "Taliyaha Taliska Qaybta 26\"aad Ee #Waqooyi Bari Soomaaliya\ud83c\uddf8\ud83c\uddf4 GL.Abdirahmaan Baalcadde\ud83c\udff7\ufe0f\ud83c\udf96\ufe0f\n\nkasoojeeda Gobolka Sanaag\ud83e\udee1\ud83e\udd81 https://t.co/lcGtJe3XkG",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@OmarSalah7b",
+    "l": "https://x.com/OmarSalah7b/status/2106730332233826468",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9377
+    },
+    "exp": "This post is in Somali and translates to 'Commander of the 26th Division Command in Northeast Somalia, General Abdirahmaan Baalcadde, from Sanaag region.' It is a celebratory post about a military commander and his origin, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b9b433da9b3f",
+    "t": "Honoured to have His Excellency Amir Abdel Rahman Al Sadiq stand firm in representing and upholding the values of the Umma.\n\nThe Umma does not belong to TASIS. It belongs to us, the people of Sudan. Anyone who dares challenge our historic authority over our own movement, I challenge them directly.\n\n",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@manofsudan_",
+    "l": "https://x.com/manofsudan_/status/2106599892269580765",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 18,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post expresses support for Amir Abdel Rahman Al Sadiq and criticizes 'TASIS,' stating that 'The Umma does not belong to TASIS. It belongs to us, the people of Sudan.' This is political rhetoric about national identity and leadership, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-81e20e8a5f00",
+    "t": "Dear Mr @KagutaMuseveni.\nYou came to power in 1986 when am just a month old. The very first gift you gave my family was taking away my father, TWAHA MAYEGA KAYANJA, commonly known as \"poultry\" because of his large farm in Kyanja by the time. He was a soldier who fought alongside you and help to secu",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BekarSebat51443",
+    "l": "https://x.com/BekarSebat51443/status/2106747585771761682",
+    "pr": "Hate",
+    "co": 0.9885,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 48,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9907
+    },
+    "exp": "This post is a personal grievance directed at President Museveni, recounting a personal story of loss and injustice related to his father's disappearance. It is a personal complaint, not hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1b897477e7f9",
+    "t": "*25 people killed in paramilitary RSF attack in #Sudan\u2019s North Kordofan state\n*Tigrayan forces retreat from regional capital Mekelle in northern #Ethiopia\n*WADA president visits Kenya to boost anti-doping efforts https://t.co/ORd8SrDUFn",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@cgtnafrica",
+    "l": "https://x.com/cgtnafrica/status/2106685960263975213",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 22,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a news summary reporting on various events: an attack by RSF (Rapid Support Forces) in Sudan, Tigrayan forces retreating in Ethiopia, and WADA's visit to Kenya. It is factual news reporting and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6fcf564be908",
+    "t": "Another wave of defection from Tasis forces to the Sudanese Armed Forces.",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@IvaDlebeR",
+    "l": "https://x.com/IvaDlebeR/status/2106654285807120676",
+    "pr": "Normal",
+    "co": 0.9987,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on 'defection from Tasis forces to the Sudanese Armed Forces.' This is a factual report about military movements and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-125dcd5028b9",
+    "t": "\u2795 Sudan\u2019da 124 Ki\u015filik Grup HDK\u2019den Ayr\u0131larak Orduya Kat\u0131ld\u0131\n\n\ud83d\udd87\ufe0f Tahir Hacer liderli\u011findeki Sudan Kurtulu\u015f G\u00fc\u00e7leri \u0130ttifak\u0131\u2019na ba\u011fl\u0131 106 sava\u015f\u00e7\u0131 ve 18 subay, Kuzey Darfur\u2019da Sudan ordusuna kat\u0131ld\u0131. \n\n\ud83d\udd87\ufe0f Grup, asker\u00ee te\u00e7hizat ve sava\u015f ara\u00e7lar\u0131yla birlikte ordu saflar\u0131na ge\u00e7ti. \n\n\ud83d\udd87\ufe0f Grubun komutan\u0131 Mu",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@fokusplusafrika",
+    "l": "https://x.com/fokusplusafrika/status/2106663502886645771",
+    "pr": "Normal",
+    "co": 0.999,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9811
+    },
+    "exp": "This post, written in Turkish, reports that a group of 124 people, including 106 fighters and 18 officers from the Sudan Liberation Forces Alliance led by Tahir Hacer, defected from HDK (Rapid Support Forces) and joined the Sudanese army in North Darfur. This is a news report about military defections and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-506c08cf893a",
+    "t": "Today's quick update [Oct 3]:\n\n- RSF drone strike on Dilling, South Kordofan; 4 civilians reported killed &amp; others injured. \n\n- Clashes between SAF &amp; RSF reported in Blue Nile State near the Ethiopian border.\n\n#KeepEyesOnSudan https://t.co/Emj5ci42Qd",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BSonblast",
+    "l": "https://x.com/BSonblast/status/2106577983586934848",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 27,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post provides a news update on recent events in Sudan, reporting on an RSF drone strike and clashes between SAF and RSF. It is factual news reporting and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-55938bf2d9a8",
+    "t": "South Sudan \ud83c\uddf8\ud83c\uddf8 President Salva Kiir Makes Surprise Cabinet Changes\n\nSouth Sudan\u2019s President Salva Kiir has removed caretaker Health Minister John Gai Yoh from office just three days after appointing him. \n\nHe has been replaced by Dak Duop Bichiok as part of a wider government reshuffle that also inc",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@beyondB_DAG",
+    "l": "https://x.com/beyondB_DAG/status/2106742303050133930",
+    "pr": "Normal",
+    "co": 0.9902,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 37,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post is a neutral news report from South Sudan, detailing President Salva Kiir's cabinet changes, specifically the removal and replacement of the caretaker Health Minister.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9900e915d62f",
+    "t": "Sudan\u2019s military leadership has turned down a US-backed proposal for a 90-day ceasefire, and is instead demanding that the Rapid Support Forces pull out of towns and cities under international monitoring. The split has raised fears that more fighting could harden the country\u2019s territorial split and ",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AfricanHub_",
+    "l": "https://x.com/AfricanHub_/status/2106740344125599767",
+    "pr": "Normal",
+    "co": 0.9928,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 31,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "This post is a neutral news report about Sudan's military leadership rejecting a US-backed ceasefire proposal and demanding the Rapid Support Forces withdraw from cities.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-137faad51313",
+    "t": "In Bilinyang village, #SouthSudan, families lived alongside explosive hazards for years.\n\nBy March 2026, @UNMAS &amp; @UNOPSSouthSudan cleared over 850,000 m\u00b2 of land \u2012 allowing displaced families to safely return home and resume farming \ud83c\udf3e\n\nhttps://t.co/nQnh5kUfID https://t.co/suyCCItM6d",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@UNOPS",
+    "l": "https://x.com/UNOPS/status/2106724816623378568",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 25,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post is a positive news update about humanitarian efforts in Bilinyang village, South Sudan, where UNMAS and UNOPS cleared land of explosive hazards, allowing displaced families to return.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1a1736795e30",
+    "t": "Laascaanood: Taliyaha Qaybta 26-aad ee Ciidanka Xoogga Dalka oo la magacaabay\nhttps://t.co/qcKKvQCNoK https://t.co/cpa9gYmXkG",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@puntlandpost",
+    "l": "https://x.com/puntlandpost/status/2106651551360016844",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "hate_speech",
+      "score": 0.9976
+    },
+    "exp": "This post is a neutral news report in Somali, translating to 'Las Anod: Commander of the 26th Division of the National Army appointed.' It reports a military appointment without any hateful language or sentiment.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b8b8f06ad35d",
+    "t": "South Sudan Prez Salva Kiir travels to Nairobi for talks with Prez William Ruto over various bilateral matters including the planned December election.\n\nIn August 2025 Kiir's govt declared the collapse of the Nairobi-led Tumaini Peace Initiative that would have helped on polls.",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SamuelKisika",
+    "l": "https://x.com/SamuelKisika/status/2106736723594010804",
+    "pr": "Normal",
+    "co": 0.9797,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post is a neutral news report about South Sudan President Salva Kiir traveling to Nairobi for bilateral talks with Kenyan President William Ruto.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-aee4d3bd96a3",
+    "t": "\ud83c\uddf3\ud83c\uddec OPERATIONAL BRIEF: OP UDOKA SWEEPS MBAISE AXIS AS DHQ RELEASES Q3 BREAKTHROUGHS! \ud83e\ude96\n\nThe Defence Headquarters and Joint Task Forces are not resting. And the numbers prove it.\n\nKEY OPERATIONAL FOCUS AREAS:\n\n\ud83d\uded1 Op UDOKA SEARCH & RESCUE: Joint military, Police, and DSS forces supported by NAF air asse",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Pressman2040",
+    "l": "https://x.com/Pressman2040/status/2106676365135147234",
+    "pr": "Hate",
+    "co": 0.9976,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 55,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post is a military operational brief about 'OP UDOKA' in Nigeria, detailing search and rescue operations and breakthroughs. It is not relevant to East Africa.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2f918c4dd3b5",
+    "t": "This guy doesn't know propaganda iliisha when William Ruto, maimed, killed and abducted Kenyans,\n\nRuto seized to be president immediately the parliament was breached,\n\nKasongo's government is illegitimate from 25th June 2024",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@TTeejey",
+    "l": "https://x.com/TTeejey/status/2106748662814589283",
+    "pr": "Hate",
+    "co": 0.9822,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9985
+    },
+    "exp": "This post expresses strong political criticism and accusations against Kenyan President William Ruto, alleging he 'maimed, killed and abducted Kenyans' and stating his government is illegitimate. While harsh, it targets a political leader and his government, not an identity group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4830bb65caf3",
+    "t": "South Sudan\u2019s president, Salva Kiir, removed caretaker health minister John Gai Yoh on Thursday, only three days after appointing him. \n\nKiir replaced him with Dak Duop Bichiok as part of a wider reshuffle that also changed the leadership of the National Security Service.",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Global_Folder",
+    "l": "https://x.com/Global_Folder/status/2106741356525977922",
+    "pr": "Normal",
+    "co": 0.9976,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 28,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9958
+    },
+    "exp": "This post is a neutral news report from South Sudan, detailing President Salva Kiir's cabinet reshuffle, including the removal and replacement of the caretaker health minister.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8684260eb247",
+    "t": "#Chad | October 1st, 2026\n1 - The inter-Sudanese conflict, which has been ongoing since April 2023, continues to have repercussions beyond the country\u2019s borders. https://t.co/JIYj2ywq3P",
+    "d": "2026-10-04",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@MSF_WestAfrica",
+    "l": "https://x.com/MSF_WestAfrica/status/2106670846484119594",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a neutral news report about the ongoing inter-Sudanese conflict and its repercussions beyond Sudan's borders.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ed7adc53221d",
+    "t": "Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timely and encouragi",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106744223290499147",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post is a positive message of appreciation addressed to 'Riggy G' (a nickname for Rigathi Gachagua, the Deputy President of Kenya), commending his commitment to including the Kenyan Diaspora in government formation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a22fd3d05f35",
+    "t": "@NjiruAdv Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timely and",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106745481338478768",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9981
+    },
+    "exp": "The post expresses appreciation for Kenya's Deputy President, Rigathi Gachagua (referred to as Riggy G), for his commitment to including the Kenyan Diaspora in future government formation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6ae6953f60c7",
+    "t": "No Foreigner Will Vote in Kenya in 2027 \u2013 Gachagua\nhttps://t.co/zRoMgjh87u",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Nairobi_Leo",
+    "l": "https://x.com/Nairobi_Leo/status/2106615574659002748",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "The post shares a news headline quoting Deputy President Gachagua stating that no foreigner will be allowed to vote in Kenya in 2027, referring to standard electoral laws that restrict voting to citizens.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2122fdb10c6b",
+    "t": "@KarungoThangwa Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both time",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106746727424204902",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9967
+    },
+    "exp": "The post expresses appreciation for Kenya's Deputy President, Rigathi Gachagua (referred to as Riggy G), for his commitment to including the Kenyan Diaspora in future government formation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d6d32299510b",
+    "t": "Kenyans abroad are sending billions home \u2014 but are they getting a bigger seat at the table?\nhttps://t.co/2syODoL50D https://t.co/WKnh8Yu7LP",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@themtkenyatimes",
+    "l": "https://x.com/themtkenyatimes/status/2106554927023813098",
+    "pr": "Normal",
+    "co": 0.9877,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "The post shares a news article discussing the economic contributions of Kenyans living abroad and questioning their level of political representation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-877f35253b2b",
+    "t": "@orengo_james Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timely",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106745571142733961",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 103,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9984
+    },
+    "exp": "The post expresses appreciation for Kenya's Deputy President, Rigathi Gachagua (referred to as Riggy G), for his commitment to including the Kenyan Diaspora in future government formation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ee862af301b8",
+    "t": "Thank you for your attention Kenyans.\ud83c\uddf0\ud83c\uddea",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Bobo_UX",
+    "l": "https://x.com/Bobo_UX/status/2106643530798002437",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9999
+    },
+    "exp": "The post is a simple, polite closing statement thanking Kenyans for their attention.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bc4dcad39cb4",
+    "t": "@KenyanSays Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timely a",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106748522703798350",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 103,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9977
+    },
+    "exp": "The post expresses appreciation for Kenya's Deputy President, Rigathi Gachagua (referred to as Riggy G), for his commitment to including the Kenyan Diaspora in future government formation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a4c5d688d58c",
+    "t": "@TonyGachok15769 Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both tim",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106747283781939413",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9958
+    },
+    "exp": "The post expresses appreciation for Kenya's Deputy President, Rigathi Gachagua (referred to as Riggy G), for his commitment to including the Kenyan Diaspora in future government formation.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b613ea888772",
+    "t": "The 6th President WaKenya \u270a \ud83c\uddf0\ud83c\uddea\nThe Equitable Party \u2705 https://t.co/QbSpZjfFll",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Chipukizii",
+    "l": "https://x.com/Chipukizii/status/2106738456600711362",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post appears to be a political endorsement or statement of support, possibly for a future presidential candidate, referring to them as \"The 6th President of Kenyans\" and mentioning \"The Equitable Party\".",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-407433e15822",
+    "t": "@_HEBabuOwino_ Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timel",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106744828860010863",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9967
+    },
+    "exp": "This post expresses appreciation to \"Riggy G\" (Rigathi Gachagua, Kenya's Deputy President) for his commitment to including the Kenyan Diaspora in future government formation. It is a positive political statement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-20d4020ad4a9",
+    "t": "@WanguiNgirici Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timel",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106747437213696374",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9961
+    },
+    "exp": "This post expresses appreciation to \"Riggy G\" (Rigathi Gachagua, Kenya's Deputy President) for his commitment to including the Kenyan Diaspora in future government formation. It is a positive political statement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-eca4bb2ee530",
+    "t": "@EugeneLWamalwa Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both time",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106745390510866832",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9954
+    },
+    "exp": "This post expresses appreciation to \"Riggy G\" (Rigathi Gachagua, Kenya's Deputy President) for his commitment to including the Kenyan Diaspora in future government formation. It is a positive political statement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a5ea38b2a08b",
+    "t": "\u23f0 CLOSING SOON \u2014 GoKazini\n\nTechnical Assistant\n\n\ud83d\udccd Kiserian, Kenya\n\ud83d\udcb0 Est. KES 60,000 \u2013 90,000/mo\n\ud83c\udfe2 On-site\n\ud83d\udcc2 Engineering & Construction\n\ud83d\uddd3\ufe0f Posted: 8 September 2026\n\u23f0 Apply by: 5 October 2026\n\nLooking for a role in Engineering & Construction?\n\nApplications are still open, but the deadline is approachi",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GoKazini",
+    "l": "https://x.com/GoKazini/status/2106753978167922810",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a job advertisement for a Technical Assistant position in Kiserian, Kenya, detailing salary, location, and application deadline. It is an informational post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1079464c8f2f",
+    "t": "@otienowill Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timely a",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106746514890539015",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9964
+    },
+    "exp": "This post expresses appreciation to \"Riggy G\" (Rigathi Gachagua, Kenya's Deputy President) for his commitment to including the Kenyan Diaspora in future government formation. It is a positive political statement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ca5589203ff4",
+    "t": "@CaroliOmondi Dear Riggy G,\n\nI would like to express my sincere appreciation for your commitment to ensuring that the Kenyan Diaspora is included and represented in the formation of a future government. Your recognition of the Diaspora as a strategic stakeholder in Kenya's development is both timely",
+    "d": "2026-10-04",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonWamother2027",
+    "l": "https://x.com/HonWamother2027/status/2106747518637736289",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 102,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This post expresses appreciation to \"Riggy G\" (Rigathi Gachagua, Kenya's Deputy President) for his commitment to including the Kenyan Diaspora in future government formation. It is a positive political statement.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a82f83d0e3a0",
+    "t": "Somali Heshiis ah Dunida na Heshiis la ah",
+    "d": "2026-10-04",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@QasimNur1",
+    "l": "https://x.com/QasimNur1/status/2106591938241794230",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_GENDER_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-04",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9812
+    },
+    "exp": "This Somali post translates to \"Somali is peaceful and at peace with the world.\" It is a positive statement promoting peace and national identity.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
