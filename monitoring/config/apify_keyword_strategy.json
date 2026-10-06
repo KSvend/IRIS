@@ -1673,6 +1673,36 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "ai-generated content",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Emerging form of disinformation mentioned in the context of debunking.",
+          "date_added": "2026-10-06",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "fabricated videos",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific type of false content mentioned in the context of debunking.",
+          "date_added": "2026-10-06",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "deepfakes",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Related term for AI-generated media, relevant for monitoring.",
+          "date_added": "2026-10-06",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

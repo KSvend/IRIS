@@ -42111,7 +42111,7 @@
     "detected_by": "iris_classify_2026-07-08",
     "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
     "last_seen": "2026-07-08",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-08",
@@ -42176,7 +42176,7 @@
     "detected_by": "iris_classify_2026-07-08",
     "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
     "last_seen": "2026-07-08",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-08",
@@ -42254,7 +42254,7 @@
     "detected_by": "iris_classify_2026-07-08",
     "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
     "last_seen": "2026-07-08",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-08",
@@ -42326,7 +42326,7 @@
     "detected_by": "iris_classify_2026-07-08",
     "detection_timestamp": "2026-07-08T10:43:26.937479+00:00",
     "last_seen": "2026-07-08",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-08",
@@ -47576,7 +47576,7 @@
     "detected_by": "iris_classify_2026-08-27",
     "detection_timestamp": "2026-08-27T19:23:28.823737+00:00",
     "last_seen": "2026-09-06",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-27",
@@ -48632,7 +48632,7 @@
     "detected_by": "iris_classify_2026-09-06",
     "detection_timestamp": "2026-09-06T12:25:52.998735+00:00",
     "last_seen": "2026-09-06",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-06",
@@ -50383,5 +50383,166 @@
     ],
     "_review_notes": "This event is entirely out of scope for East Africa monitoring, as it discusses Indian politics and figures. The assigned threat level and country classification are incorrect for this platform.",
     "_reviewed": "2026-09-29T15:17:09.660329+00:00"
+  },
+  {
+    "id": "APF-2026-10-06-308",
+    "date": "2026-10-06",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "Irrelevant religious quote posted on X (Twitter)",
+    "summary": "An X (Twitter) post by @R47910409 contains a religious quote in Indonesian/Arabic. This content appears to be irrelevant to disinformation narratives concerning South Sudan or the East African region.",
+    "actors": [
+      "@R47910409"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "date": "2026-10-06"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-06-02-503",
+      "APF-2026-07-21-896",
+      "APF-2026-09-01-109",
+      "APF-2026-09-22-251",
+      "APF-2026-09-23-865",
+      "APF-2026-09-28-608"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'al hijratain'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-06",
+    "detection_timestamp": "2026-10-06T15:33:04.995361+00:00",
+    "last_seen": "2026-10-06",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-06",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
+    "_original_summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127].",
+    "_review_notes": "This event appears to be a misclassification. The content is a religious quote and does not seem to be related to disinformation or any specific narrative concerning South Sudan or the broader East African region. It should ideally be filtered out as irrelevant.",
+    "_reviewed": "2026-10-06T15:38:30.204691+00:00"
+  },
+  {
+    "id": "APF-2026-10-06-642",
+    "date": "2026-10-06",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Social media user warns against AI-generated fabricated images/videos related to Trump",
+    "summary": "An X (Twitter) user, @_mide_mike, posted a warning against believing AI-generated images and videos, specifically mentioning fabricated content related to Donald Trump. The user highlights the unreliability of such media and urges others not to trust it.",
+    "actors": [
+      "@_mide_mike"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/_mide_mike/status/2107493885920587895",
+        "date": "2026-10-06"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-07-04-300",
+      "APF-2026-09-09-440",
+      "APF-2026-09-12-084",
+      "APF-2026-09-14-867",
+      "APF-2026-09-21-043",
+      "APF-2026-09-24-050"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: fabricated video.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-06",
+    "detection_timestamp": "2026-10-06T15:33:04.995361+00:00",
+    "last_seen": "2026-10-06",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-06",
+        "url": "https://x.com/_mide_mike/status/2107493885920587895",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "What amazes means these idiots think that we should believe this AI crap. But if Trump was actually involved in these",
+    "_original_summary": "What amazes means these idiots think that we should believe this AI crap. But if Trump was actually involved in these pictures then why wasn’t Trump 25 years younger. Oh I know these are all fabricated videos and pictures. Don’t believe any of this. .",
+    "extracted_claims": [
+      "AI-generated images and videos depicting Donald Trump are authentic."
+    ],
+    "_review_notes": "This event represents a user actively debunking and warning against AI-generated disinformation, rather than spreading it. It's an example of counter-disinformation activity on social media, making it CONTEXT rather than DISINFO.",
+    "_reviewed": "2026-10-06T15:38:30.204719+00:00"
   }
 ]

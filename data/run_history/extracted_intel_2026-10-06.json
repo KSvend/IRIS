@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-06",
+  "extracted_claims": [
+    {
+      "claim": "AI-generated images and videos depicting Donald Trump are authentic.",
+      "country": "Somalia",
+      "actors": [
+        "unspecified"
+      ],
+      "keywords": [
+        "AI-generated content",
+        "fabricated media",
+        "deepfakes",
+        "Donald Trump"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "AI-generated content",
+      "country": "Regional",
+      "reason": "Emerging form of disinformation mentioned in the context of debunking."
+    },
+    {
+      "keyword": "fabricated videos",
+      "country": "Regional",
+      "reason": "Specific type of false content mentioned in the context of debunking."
+    },
+    {
+      "keyword": "deepfakes",
+      "country": "Regional",
+      "reason": "Related term for AI-generated media, relevant for monitoring."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 1
+}
