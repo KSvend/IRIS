@@ -42398,7 +42398,7 @@
     "detected_by": "iris_classify_2026-07-09",
     "detection_timestamp": "2026-07-09T11:42:09.954826+00:00",
     "last_seen": "2026-07-09",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-09",
@@ -42477,7 +42477,7 @@
     "detected_by": "iris_classify_2026-07-09",
     "detection_timestamp": "2026-07-09T11:42:09.954826+00:00",
     "last_seen": "2026-07-09",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-09",
@@ -50544,5 +50544,135 @@
     ],
     "_review_notes": "This event represents a user actively debunking and warning against AI-generated disinformation, rather than spreading it. It's an example of counter-disinformation activity on social media, making it CONTEXT rather than DISINFO.",
     "_reviewed": "2026-10-06T15:38:30.204719+00:00"
+  },
+  {
+    "id": "APF-2026-10-07-364",
+    "date": "2026-10-07",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "What's happening  ! ? Your  has joined regime change operations of DS,in india? You hated DS, Soros?",
+    "summary": "What's happening  ! ? Your  has joined regime change operations of DS,in india? You hated DS, Soros?. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@Hindu108"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/Hindu108/status/2107861911673147777",
+        "date": "2026-10-07"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-05-17-149",
+      "APF-2026-08-19-661",
+      "APF-2026-09-14-131",
+      "APF-2026-09-20-909",
+      "APF-2026-09-22-360",
+      "APF-2026-10-07-733"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-07",
+    "detection_timestamp": "2026-10-07T15:55:40.918187+00:00",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-07",
+        "url": "https://x.com/Hindu108/status/2107861911673147777",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-07-733",
+    "date": "2026-10-07",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Just shoot about ten of those Soros-funded agitators in the kneecaps, and it’ll all be over in no time—believe me. But",
+    "summary": "Just shoot about ten of those Soros-funded agitators in the kneecaps, and it’ll all be over in no time—believe me. But this is all being done deliberately with as little resistance as possible, because they have to show that they’re in favor of it. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@MJ6402965574217"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MJ6402965574217/status/2107861656202277047",
+        "date": "2026-10-07"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-05-17-149",
+      "APF-2026-08-19-661",
+      "APF-2026-09-14-131",
+      "APF-2026-09-20-909",
+      "APF-2026-09-22-360",
+      "APF-2026-10-07-364"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-07",
+    "detection_timestamp": "2026-10-07T15:55:40.918187+00:00",
+    "last_seen": "2026-10-07",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-07",
+        "url": "https://x.com/MJ6402965574217/status/2107861656202277047",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
