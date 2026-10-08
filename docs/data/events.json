@@ -42557,7 +42557,7 @@
     "detected_by": "iris_classify_2026-07-10",
     "detection_timestamp": "2026-07-10T11:43:29.081162+00:00",
     "last_seen": "2026-07-10",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-10",
@@ -50552,8 +50552,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P3 MODERATE",
-    "headline": "What's happening  ! ? Your  has joined regime change operations of DS,in india? You hated DS, Soros?",
-    "summary": "What's happening  ! ? Your  has joined regime change operations of DS,in india? You hated DS, Soros?. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "headline": "Claims BBC Africa Eye is involved in 'regime change operations' funded by George Soros",
+    "summary": "An X (Twitter) account, @Hindu108, is spreading claims that BBC Africa Eye is participating in 'regime change operations' in India, allegedly funded by George Soros. This narrative attempts to discredit BBC Africa Eye by associating it with foreign interference and controversial figures.",
     "actors": [
       "@Hindu108"
     ],
@@ -50608,7 +50608,15 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "What's happening  ! ? Your  has joined regime change operations of DS,in india? You hated DS, Soros?",
+    "_original_summary": "What's happening  ! ? Your  has joined regime change operations of DS,in india? You hated DS, Soros?. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "BBC Africa Eye is involved in 'regime change operations' in India.",
+      "George Soros is funding 'regime change operations' involving BBC Africa Eye."
+    ],
+    "_review_notes": "This event highlights a common disinformation tactic of discrediting media organizations by linking them to foreign interference and controversial figures like George Soros.",
+    "_reviewed": "2026-10-08T16:04:45.007579+00:00"
   },
   {
     "id": "APF-2026-10-07-733",
@@ -50616,9 +50624,9 @@
     "country": "Kenya",
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
-    "threat_level": "P3 MODERATE",
-    "headline": "Just shoot about ten of those Soros-funded agitators in the kneecaps, and it’ll all be over in no time—believe me. But",
-    "summary": "Just shoot about ten of those Soros-funded agitators in the kneecaps, and it’ll all be over in no time—believe me. But this is all being done deliberately with as little resistance as possible, because they have to show that they’re in favor of it. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "threat_level": "P2 HIGH",
+    "headline": "Calls for violence against 'Soros-funded agitators' in Kenya",
+    "summary": "An X (Twitter) account, @MJ6402965574217, posted content advocating for violence against 'Soros-funded agitators,' suggesting they should be shot in the kneecaps. The post implies that current resistance is minimal due to deliberate actions by authorities. This narrative promotes violence and conspiracy theories against perceived opposition.",
     "actors": [
       "@MJ6402965574217"
     ],
@@ -50673,6 +50681,183 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "Just shoot about ten of those Soros-funded agitators in the kneecaps, and it’ll all be over in no time—believe me. But",
+    "_original_summary": "Just shoot about ten of those Soros-funded agitators in the kneecaps, and it’ll all be over in no time—believe me. But this is all being done deliberately with as little resistance as possible, because they have to show that they’re in favor of it. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "extracted_claims": [
+      "There are 'Soros-funded agitators' in Kenya.",
+      "Authorities are deliberately allowing 'Soros-funded agitators' to operate with minimal resistance."
+    ],
+    "_review_notes": "This event is concerning due to its explicit call for violence against a specific group, even if vaguely defined. The P3 rating seems too low given the direct incitement.",
+    "_reviewed": "2026-10-08T16:04:45.007601+00:00"
+  },
+  {
+    "id": "APF-2026-10-08-048",
+    "date": "2026-10-08",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Claims of fabricated audio, doctored statements, and false reports targeting Puntland officials and infrastructure",
+    "summary": "The X (Twitter) account @PuntJubNews reported a surge in disinformation over the past two weeks, including fabricated audio of a minister, a doctored statement from Puntland's President, false claims about troops setting up roadblocks in Puntland, and recent lies about Bosaso Port. This indicates a coordinated effort to spread false information targeting Puntland's government and key infrastructure.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-10-08"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-09-09-440",
+      "APF-2026-09-12-084",
+      "APF-2026-09-14-867",
+      "APF-2026-09-21-043",
+      "APF-2026-09-24-050",
+      "APF-2026-10-06-642"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-08",
+    "detection_timestamp": "2026-10-08T15:59:24.493356+00:00",
+    "last_seen": "2026-10-08",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-08",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio of a minister has been fabricated.",
+      "A statement from Puntland's President has been doctored.",
+      "False claims are being spread about troops setting up roadblocks in Puntland.",
+      "Lies are being spread about Bosaso Port."
+    ],
+    "_review_notes": "This event describes multiple distinct disinformation claims targeting a specific region and its leadership, indicating a potentially coordinated campaign to destabilize or discredit local authorities.",
+    "_reviewed": "2026-10-08T16:04:45.007607+00:00"
+  },
+  {
+    "id": "APF-2026-10-08-624",
+    "date": "2026-10-08",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "False claims regarding the status of the UK Consulate General in 'occupied' South Sudan",
+    "summary": "An X (Twitter) account, @ProfMKM, shared a statement by Makram Khoury-Machool making claims about the status of the UK Consulate General in 'occupied' South Sudan. While the statement distinguishes without asserting a Ramallah relocation as fact, it implies an unusual or problematic status for the consulate, potentially fueling conspiracy theories or misinterpretations about diplomatic presence.",
+    "actors": [
+      "@ProfMKM"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ProfMKM/status/2108224966617448658",
+        "date": "2026-10-08"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-005",
+      "NAR-SS-002",
+      "NAR-SS-001"
+    ],
+    "related_events": [
+      "APF-2026-06-04-121",
+      "APF-2026-06-20-144",
+      "APF-2026-07-20-299",
+      "APF-2026-07-22-724",
+      "APF-2026-09-14-298",
+      "APF-2026-09-24-557"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-08",
+    "detection_timestamp": "2026-10-08T15:59:24.493356+00:00",
+    "last_seen": "2026-10-08",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-08",
+        "url": "https://x.com/ProfMKM/status/2108224966617448658",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": "Statement by: Makram Khoury-Machool About the status of the UK Consulate General in occupied    This statement makes",
+    "_original_summary": "Statement by: Makram Khoury-Machool About the status of the UK Consulate General in occupied    This statement makes the distinction without asserting a Ramallah relocation as established fact. Public reporting confirms Jonathan Powell’s quiet trip a.",
+    "extracted_claims": [
+      "The UK Consulate General in South Sudan is in 'occupied' territory.",
+      "There are unconfirmed or problematic changes to the status or location of the UK Consulate General in South Sudan, possibly involving Ramallah."
+    ],
+    "_review_notes": "This event involves a potentially misleading statement about a diplomatic entity, which could sow confusion or distrust regarding international relations and sovereignty in South Sudan.",
+    "_reviewed": "2026-10-08T16:04:45.007610+00:00"
   }
 ]

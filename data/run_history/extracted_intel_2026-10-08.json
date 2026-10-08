@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-08",
+  "extracted_claims": [
+    {
+      "claim": "BBC Africa Eye is involved in 'regime change operations' in India.",
+      "country": "Kenya",
+      "actors": [
+        "@Hindu108"
+      ],
+      "keywords": [
+        "BBC Africa Eye",
+        "regime change",
+        "India"
+      ]
+    },
+    {
+      "claim": "George Soros is funding 'regime change operations' involving BBC Africa Eye.",
+      "country": "Kenya",
+      "actors": [
+        "@Hindu108"
+      ],
+      "keywords": [
+        "George Soros",
+        "funding",
+        "regime change",
+        "BBC Africa Eye"
+      ]
+    },
+    {
+      "claim": "There are 'Soros-funded agitators' in Kenya.",
+      "country": "Kenya",
+      "actors": [
+        "@MJ6402965574217"
+      ],
+      "keywords": [
+        "Soros-funded",
+        "agitators"
+      ]
+    },
+    {
+      "claim": "Authorities are deliberately allowing 'Soros-funded agitators' to operate with minimal resistance.",
+      "country": "Kenya",
+      "actors": [
+        "@MJ6402965574217"
+      ],
+      "keywords": [
+        "authorities",
+        "Soros-funded agitators",
+        "deliberate inaction"
+      ]
+    },
+    {
+      "claim": "Audio of a minister has been fabricated.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "fabricated audio",
+        "minister"
+      ]
+    },
+    {
+      "claim": "A statement from Puntland's President has been doctored.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "doctored statement",
+        "Puntland President"
+      ]
+    },
+    {
+      "claim": "False claims are being spread about troops setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "roadblocks",
+        "Puntland",
+        "troops"
+      ]
+    },
+    {
+      "claim": "Lies are being spread about Bosaso Port.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Bosaso Port",
+        "lies"
+      ]
+    },
+    {
+      "claim": "The UK Consulate General in South Sudan is in 'occupied' territory.",
+      "country": "South Sudan",
+      "actors": [
+        "@ProfMKM"
+      ],
+      "keywords": [
+        "UK Consulate General",
+        "occupied territory",
+        "South Sudan"
+      ]
+    },
+    {
+      "claim": "There are unconfirmed or problematic changes to the status or location of the UK Consulate General in South Sudan, possibly involving Ramallah.",
+      "country": "South Sudan",
+      "actors": [
+        "@ProfMKM"
+      ],
+      "keywords": [
+        "UK Consulate General",
+        "Ramallah relocation",
+        "status change"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "BBC Africa Eye",
+      "country": "Regional",
+      "reason": "Specific entity being targeted by disinformation."
+    },
+    {
+      "keyword": "regime change operations",
+      "country": "Regional",
+      "reason": "Key phrase in the disinformation narrative."
+    },
+    {
+      "keyword": "Soros-funded agitators",
+      "country": "Kenya",
+      "reason": "Specific term used to label perceived opposition."
+    },
+    {
+      "keyword": "violence incitement",
+      "country": "Kenya",
+      "reason": "Nature of the content."
+    },
+    {
+      "keyword": "Puntland",
+      "country": "Somalia",
+      "reason": "Specific region targeted by disinformation."
+    },
+    {
+      "keyword": "Bosaso Port",
+      "country": "Somalia",
+      "reason": "Specific infrastructure targeted by disinformation."
+    },
+    {
+      "keyword": "fabricated audio",
+      "country": "Somalia",
+      "reason": "Specific disinformation tactic."
+    },
+    {
+      "keyword": "doctored statement",
+      "country": "Somalia",
+      "reason": "Specific disinformation tactic."
+    },
+    {
+      "keyword": "UK Consulate General",
+      "country": "South Sudan",
+      "reason": "Specific diplomatic entity targeted by disinformation."
+    },
+    {
+      "keyword": "occupied South Sudan",
+      "country": "South Sudan",
+      "reason": "Key phrase used in the disinformation narrative."
+    },
+    {
+      "keyword": "Ramallah relocation",
+      "country": "South Sudan",
+      "reason": "Specific detail mentioned in the disinformation."
+    }
+  ],
+  "events_reviewed": 4,
+  "events_reclassified": 0
+}

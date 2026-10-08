@@ -1703,6 +1703,56 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "bbc africa eye",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific entity being targeted by disinformation.",
+          "date_added": "2026-10-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "regime change operations",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Key phrase in the disinformation narrative.",
+          "date_added": "2026-10-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "soros-funded agitators",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific term used to label perceived opposition.",
+          "date_added": "2026-10-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "violence incitement",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Nature of the content.",
+          "date_added": "2026-10-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "puntland",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific region targeted by disinformation.",
+          "date_added": "2026-10-08",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
