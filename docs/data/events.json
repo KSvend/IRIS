@@ -42639,7 +42639,7 @@
     "detected_by": "iris_classify_2026-07-11",
     "detection_timestamp": "2026-07-11T10:17:12.694301+00:00",
     "last_seen": "2026-07-11",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-11",
@@ -45861,6 +45861,7 @@
       "NAR-SO-004"
     ],
     "related_events": [
+      "APF-2026-10-09-256",
       "EXT-ENRICH-IR-001",
       "SOM-2025-001",
       "SOM-2025-002-DI",
@@ -48793,7 +48794,7 @@
     "detected_by": "iris_classify_2026-09-09",
     "detection_timestamp": "2026-09-09T13:18:05.046929+00:00",
     "last_seen": "2026-09-09",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-09",
@@ -50859,5 +50860,231 @@
     ],
     "_review_notes": "This event involves a potentially misleading statement about a diplomatic entity, which could sow confusion or distrust regarding international relations and sovereignty in South Sudan.",
     "_reviewed": "2026-10-08T16:04:45.007610+00:00"
+  },
+  {
+    "id": "APF-2026-10-09-256",
+    "date": "2026-10-02",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "young children in jail proclaiming the shahada despite their situation🇵🇸❤️",
+    "summary": "young children in jail proclaiming the shahada despite their situation🇵🇸❤️.",
+    "actors": [
+      "@mstirii01"
+    ],
+    "platforms": [
+      "TikTok"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://www.tiktok.com/@mstirii01/video/7691966741546568978",
+        "date": "2026-10-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-003",
+      "NAR-SO-006"
+    ],
+    "related_events": [
+      "APF-2026-08-01-892",
+      "APF-2026-08-08-884",
+      "EXT-ENRICH-IR-001"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'shahada' with VE context (claim); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-09",
+    "detection_timestamp": "2026-10-09T15:44:24.415898+00:00",
+    "last_seen": "2026-10-02",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-02",
+        "url": "https://www.tiktok.com/@mstirii01/video/7691966741546568978",
+        "summary": "Initial detection",
+        "platforms": [
+          "TikTok"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-09-135",
+    "date": "2026-10-09",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "No clear evidence shows this specific video is AI-generated. It matches the style of real, low-resolution security and",
+    "summary": "No clear evidence shows this specific video is AI-generated. It matches the style of real, low-resolution security and phone footage compilations of Detroit ballot drop boxes that have circulated since 2020. The clips show grainy outdoor and indoor s.",
+    "actors": [
+      "@MarkBresson"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/MarkBresson/status/2108582779034521807",
+        "date": "2026-10-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-09-09-440",
+      "APF-2026-09-12-084",
+      "APF-2026-09-14-867",
+      "APF-2026-09-24-050",
+      "APF-2026-10-06-642",
+      "APF-2026-10-08-048"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: ai-generated.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-09",
+    "detection_timestamp": "2026-10-09T15:44:24.415898+00:00",
+    "last_seen": "2026-10-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-09",
+        "url": "https://x.com/MarkBresson/status/2108582779034521807",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-09-629",
+    "date": "2026-10-09",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "Per Nobel’s Committee: Promoting Peace and International Law Still Matter News analysis by World Affairs 21C Substack",
+    "summary": "Per Nobel’s Committee: Promoting Peace and International Law Still Matter News analysis by World Affairs 21C Substack channel - Oct. 9, 2026 Congratulations to this year’s Nobel Peace Prize winner. “Navanethem ‘Navi’ Pillay, 85, was awarded the 2026 .",
+    "actors": [
+      "@OmSamad"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/OmSamad/status/2108583381290369453",
+        "date": "2026-10-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-005",
+      "NAR-SS-001"
+    ],
+    "related_events": [
+      "APF-2026-05-20-778",
+      "APF-2026-06-12-387",
+      "APF-2026-08-14-782",
+      "APF-2026-09-14-298",
+      "APF-2026-09-24-557",
+      "APF-2026-10-08-624"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-09",
+    "detection_timestamp": "2026-10-09T15:44:24.415898+00:00",
+    "last_seen": "2026-10-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-09",
+        "url": "https://x.com/OmSamad/status/2108583381290369453",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
