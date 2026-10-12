@@ -1753,6 +1753,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "bbc kenya chaos",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Specific target and accusation of the disinformation campaign.",
+          "date_added": "2026-10-12",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-12",
+  "extracted_claims": [
+    {
+      "claim": "Fabricated audio of a Somali Minister has been spread.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Somali Minister",
+        "fabricated audio"
+      ]
+    },
+    {
+      "claim": "A statement from Puntland's President has been doctored and spread.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland President",
+        "doctored statement"
+      ]
+    },
+    {
+      "claim": "False information about troops setting up roadblocks in Puntland has been spread.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland",
+        "troops",
+        "roadblocks"
+      ]
+    },
+    {
+      "claim": "False information about a port in Puntland has been spread.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland",
+        "port"
+      ]
+    },
+    {
+      "claim": "BBC ignores Kenya's progress and development.",
+      "country": "Kenya",
+      "actors": [
+        "@Mastermastin_GO",
+        "@OmarJuma001",
+        "@RaizingKE",
+        "@Merc13Nyambura",
+        "@modi_juma"
+      ],
+      "keywords": [
+        "BBC",
+        "Kenya development"
+      ]
+    },
+    {
+      "claim": "BBC exploits Kenyan suffering and incites chaos.",
+      "country": "Kenya",
+      "actors": [
+        "@Mastermastin_GO",
+        "@OmarJuma001",
+        "@RaizingKE",
+        "@Merc13Nyambura",
+        "@modi_juma"
+      ],
+      "keywords": [
+        "BBC",
+        "Kenyan suffering",
+        "stir chaos",
+        "#BBCForChaos",
+        "#BloodParliament",
+        "#ToxicActivists"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland President statement",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation."
+    },
+    {
+      "keyword": "Somali Minister audio",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation."
+    },
+    {
+      "keyword": "Puntland roadblocks",
+      "country": "Somalia",
+      "reason": "Specific event/location mentioned in disinformation."
+    },
+    {
+      "keyword": "Puntland Port",
+      "country": "Somalia",
+      "reason": "Specific location/asset mentioned in disinformation."
+    },
+    {
+      "keyword": "BBC Kenya chaos",
+      "country": "Kenya",
+      "reason": "Specific target and accusation of the disinformation campaign."
+    },
+    {
+      "keyword": "Toxic Activists Kenya",
+      "country": "Kenya",
+      "reason": "Specific term/hashtag used in the disinformation campaign."
+    },
+    {
+      "keyword": "Blood Parliament",
+      "country": "Kenya",
+      "reason": "Specific term/hashtag used in the disinformation campaign."
+    },
+    {
+      "keyword": "Gachagua disinformation",
+      "country": "Kenya",
+      "reason": "Mentioned in the context of the disinformation, indicating potential relevance."
+    },
+    {
+      "keyword": "Atwoli disinformation",
+      "country": "Kenya",
+      "reason": "Mentioned in the context of the disinformation, indicating potential relevance."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 0
+}

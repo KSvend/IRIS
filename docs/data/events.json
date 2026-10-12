@@ -42973,7 +42973,7 @@
     "detected_by": "iris_classify_2026-07-14",
     "detection_timestamp": "2026-07-14T10:33:45.337394+00:00",
     "last_seen": "2026-07-14",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-14",
@@ -43050,7 +43050,7 @@
     "detected_by": "iris_classify_2026-07-14",
     "detection_timestamp": "2026-07-14T10:33:45.337394+00:00",
     "last_seen": "2026-07-14",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-14",
@@ -48893,7 +48893,7 @@
     "detected_by": "iris_classify_2026-09-12",
     "detection_timestamp": "2026-09-12T12:27:26.623704+00:00",
     "last_seen": "2026-09-12",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-12",
@@ -51271,9 +51271,9 @@
     "country": "Somalia",
     "event_type": "DISINFO",
     "disinfo_subtype": "deepfake",
-    "threat_level": "P3 MODERATE",
-    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
-    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims of fabricated audio of a Somali Minister, doctored Puntland President statement, and troop roadblocks",
+    "summary": "Over the past two weeks, accounts, including @PuntJubNews, have disseminated multiple false claims targeting Somali institutions and security. These include fabricated audio attributed to a Somali Minister, a doctored statement from the Puntland President, and false reports of troops setting up roadblocks in Puntland. More recently, new disinformation has emerged regarding a port in Puntland, indicating a sustained campaign to sow distrust and confusion.",
     "actors": [
       "@PuntJubNews"
     ],
@@ -51335,7 +51335,17 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Fabricated audio of a Somali Minister has been spread.",
+      "A statement from Puntland's President has been doctored and spread.",
+      "False information about troops setting up roadblocks in Puntland has been spread.",
+      "False information about a port in Puntland has been spread."
+    ],
+    "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting high-level officials and critical infrastructure in Puntland, potentially aimed at destabilizing the region and undermining public trust.",
+    "_reviewed": "2026-10-12T18:27:40.213223+00:00"
   },
   {
     "id": "APF-2026-10-10-161",
@@ -51344,8 +51354,8 @@
     "event_type": "DISINFO",
     "disinfo_subtype": "coordinated_campaign",
     "threat_level": "P2 HIGH",
-    "headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
-    "summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 20 near-identical posts from 10 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+    "headline": "Coordinated campaign accuses BBC of stirring chaos and exploiting Kenyan suffering",
+    "summary": "A coordinated disinformation campaign on X (Twitter) is targeting the BBC, accusing the media outlet of deliberately ignoring Kenya's development and actively inciting chaos by exploiting national suffering. The campaign, amplified by at least 10 accounts using hashtags like #BBCForChaos and #ToxicActivists, appears to be an attempt to discredit independent media reporting and potentially deflect from internal issues by blaming external actors.",
     "actors": [
       "@Mastermastin_GO",
       "@OmarJuma001",
@@ -51422,6 +51432,14 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+    "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 20 near-identical posts from 10 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+    "extracted_claims": [
+      "BBC ignores Kenya's progress and development.",
+      "BBC exploits Kenyan suffering and incites chaos."
+    ],
+    "_review_notes": "This event demonstrates a coordinated effort to undermine trust in international media, a common tactic to control narratives and suppress critical reporting, particularly concerning sensitive political or social issues in Kenya.",
+    "_reviewed": "2026-10-12T18:27:40.213261+00:00"
   }
 ]
