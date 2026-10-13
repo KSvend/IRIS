@@ -43122,7 +43122,7 @@
     "detected_by": "iris_classify_2026-07-15",
     "detection_timestamp": "2026-07-15T10:35:17.827389+00:00",
     "last_seen": "2026-07-15",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-15",
@@ -43194,7 +43194,7 @@
     "detected_by": "iris_classify_2026-07-15",
     "detection_timestamp": "2026-07-15T10:35:17.827389+00:00",
     "last_seen": "2026-07-15",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-15",
@@ -48284,7 +48284,7 @@
     "detected_by": "iris_classify_2026-09-03",
     "detection_timestamp": "2026-09-03T13:06:05.720810+00:00",
     "last_seen": "2026-09-13",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-03",
@@ -51441,5 +51441,160 @@
     ],
     "_review_notes": "This event demonstrates a coordinated effort to undermine trust in international media, a common tactic to control narratives and suppress critical reporting, particularly concerning sensitive political or social issues in Kenya.",
     "_reviewed": "2026-10-12T18:27:40.213261+00:00"
+  },
+  {
+    "id": "APF-2026-10-13-518",
+    "date": "2025-07-21",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !. 3 near-identical posts from 3 accounts suggest coordinated amplification.",
+    "actors": [
+      "@PuntJubNews",
+      "@metrouk",
+      "@abcnewsaus"
+    ],
+    "platforms": [
+      "X (Twitter)",
+      "TikTok"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://www.tiktok.com/@metrouk/video/7529449294085098774",
+        "date": "2026-10-13"
+      }
+    ],
+    "spread": 3,
+    "disinfo_narratives": [
+      "NAR-SO-005",
+      "NAR-SO-009"
+    ],
+    "related_events": [
+      "APF-2026-06-17-338",
+      "APF-2026-06-20-544",
+      "APF-2026-07-02-853",
+      "APF-2026-07-09-986",
+      "APF-2026-09-21-043",
+      "APF-2026-09-24-050"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: deepfake.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-13",
+    "detection_timestamp": "2026-10-13T16:29:11.880554+00:00",
+    "last_seen": "2025-07-21",
+    "status": "resolved",
+    "observations": [
+      {
+        "date": "2025-07-21",
+        "url": "https://www.tiktok.com/@metrouk/video/7529449294085098774",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)",
+          "TikTok"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-13-935",
+    "date": "2026-10-13",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P3 MODERATE",
+    "headline": "They actively defended Israel from Iran while Israel was committing genocide.",
+    "summary": "They actively defended Israel from Iran while Israel was committing genocide.",
+    "actors": [
+      "@TheKiranHill"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/TheKiranHill/status/2110044848531386438",
+        "date": "2026-10-13"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-001",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "APF-2026-05-20-778",
+      "APF-2026-07-22-724",
+      "APF-2026-09-14-298",
+      "APF-2026-09-24-557",
+      "APF-2026-10-08-624",
+      "APF-2026-10-09-629"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-13",
+    "detection_timestamp": "2026-10-13T16:29:11.880554+00:00",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-13",
+        "url": "https://x.com/TheKiranHill/status/2110044848531386438",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
