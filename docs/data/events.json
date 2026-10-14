@@ -48967,7 +48967,7 @@
     "detected_by": "iris_classify_2026-09-14",
     "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
     "last_seen": "2026-09-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-14",
@@ -49044,7 +49044,7 @@
     "detected_by": "iris_classify_2026-09-14",
     "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
     "last_seen": "2026-09-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-14",
@@ -49116,7 +49116,7 @@
     "detected_by": "iris_classify_2026-09-14",
     "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
     "last_seen": "2026-09-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-14",
@@ -49195,7 +49195,7 @@
     "detected_by": "iris_classify_2026-09-14",
     "detection_timestamp": "2026-09-14T15:20:33.665036+00:00",
     "last_seen": "2026-09-14",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-14",
@@ -51588,6 +51588,400 @@
       {
         "date": "2026-10-13",
         "url": "https://x.com/TheKiranHill/status/2110044848531386438",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-14-050",
+    "date": "2026-10-14",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P3 MODERATE",
+    "headline": "Yes. No one should be allowed to be so smart, driven and…….republican No do George Soros. Roy Neville, Reid Hoffman……",
+    "summary": "Yes. No one should be allowed to be so smart, driven and…….republican No do George Soros. Roy Neville, Reid Hoffman……. Observed across 2 posts from 1 accounts on X (Twitter).",
+    "actors": [
+      "@AlwaysTrumpers"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AlwaysTrumpers/status/2110371478235410576",
+        "date": "2026-10-14"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-09-14-131",
+      "APF-2026-09-20-909",
+      "APF-2026-09-22-360",
+      "APF-2026-10-07-364",
+      "APF-2026-10-07-733",
+      "APF-2026-10-10-161"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-14",
+    "detection_timestamp": "2026-10-14T14:07:37.612536+00:00",
+    "last_seen": "2026-10-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-14",
+        "url": "https://x.com/AlwaysTrumpers/status/2110371478235410576",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-14-018",
+    "date": "2026-10-14",
+    "country": "Kenya",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "coordinated_campaign",
+    "threat_level": "P2 HIGH",
+    "headline": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
+    "summary": "As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being investigated. OSF is named. The pattern is unmistakable, and the resistance now regional. EastAfrican Coup. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
+    "actors": [
+      "@hezwachira",
+      "@its_meek__",
+      "@recreatedd16",
+      "@EveryAcreKenya",
+      "@DreamBoy254",
+      "@TechTonicAi_",
+      "@TonyMkenya7",
+      "@kanairofinest",
+      "@hosea606666"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "date": "2026-10-14"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-10-14"
+      }
+    ],
+    "spread": 2,
+    "disinfo_narratives": [
+      "NAR-KE-003b",
+      "NAR-KE-003a"
+    ],
+    "related_events": [
+      "APF-2026-03-17-153",
+      "APF-2026-03-23-310",
+      "APF-2026-05-22-618",
+      "APF-2026-05-30-681",
+      "APF-2026-08-27-124",
+      "APF-2026-09-03-231"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Coordinated campaign indicators: #dogsofwar, foreign-funded. Matches documented troll network pattern.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Delegitimization",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-14",
+    "detection_timestamp": "2026-10-14T14:07:37.612536+00:00",
+    "last_seen": "2026-10-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-14",
+        "url": "https://x.com/hezwachira/status/1925485465441882497",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-10-14",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#DogsOfWar: Why would a foreign foundation fund Kenyan activists to travel to Tanzania immediately after Gen Z protests rocked",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 2,
+    "intensity_trend": [
+      3
+    ]
+  },
+  {
+    "id": "APF-2026-10-14-801",
+    "date": "2026-10-14",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Over the last six days, the IDF has continued heavily attacking the Gaza Strip, carrying out numerous targeted",
+    "summary": "Over the last six days, the IDF has continued heavily attacking the Gaza Strip, carrying out numerous targeted assassination strikes against alleged Hamas and Palestinian Islamic Jihad targets. According the IDF claims, the following have been target.",
+    "actors": [
+      "@AMK_Mapping_"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AMK_Mapping_/status/2110269215353504226",
+        "date": "2026-10-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-03-29-445",
+      "APF-2026-06-15-522",
+      "APF-2026-06-16-242",
+      "APF-2026-07-29-006",
+      "APF-2026-09-22-272",
+      "APF-2026-10-10-684"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-14",
+    "detection_timestamp": "2026-10-14T14:07:37.612536+00:00",
+    "last_seen": "2026-10-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-14",
+        "url": "https://x.com/AMK_Mapping_/status/2110269215353504226",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-14-149",
+    "date": "2026-10-14",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-10-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-14-458",
+      "APF-2026-09-17-551",
+      "APF-2026-09-18-457",
+      "APF-2026-09-19-894",
+      "APF-2026-09-23-865",
+      "APF-2026-10-10-710"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-14",
+    "detection_timestamp": "2026-10-14T14:07:37.612536+00:00",
+    "last_seen": "2026-10-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-14",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-14-248",
+    "date": "2026-10-14",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-10-14"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-09-14-867",
+      "APF-2026-09-21-043",
+      "APF-2026-09-24-050",
+      "APF-2026-10-08-048",
+      "APF-2026-10-09-135",
+      "APF-2026-10-10-477"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-14",
+    "detection_timestamp": "2026-10-14T14:07:37.612536+00:00",
+    "last_seen": "2026-10-14",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-14",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
         "summary": "Initial detection",
         "platforms": [
           "X (Twitter)"
