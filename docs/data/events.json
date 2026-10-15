@@ -45062,6 +45062,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/RosieKayK2CO/status/2106036599532429405",
         "date": "2026-10-02"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/apexguardhq/status/2108378739134316862",
+        "date": "2026-10-15"
       }
     ],
     "spread": 5,
@@ -45110,7 +45115,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-08-01",
     "detection_timestamp": "2026-08-01T10:26:01.307727+00:00",
-    "last_seen": "2026-10-02",
+    "last_seen": "2026-10-15",
     "status": "active",
     "observations": [
       {
@@ -45184,10 +45189,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-15",
+        "url": "https://x.com/apexguardhq/status/2108378739134316862",
+        "summary": "Here's the list....it'll take an hour to read so make yourself a drink or two. 1970s–1980s 1972 — Munich Olympics",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 8,
+    "observation_count": 9,
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -50908,6 +50923,7 @@
     "related_events": [
       "APF-2026-08-01-892",
       "APF-2026-08-08-884",
+      "APF-2026-10-15-497",
       "EXT-ENRICH-IR-001"
     ],
     "disinfo_confidence": "HIGH",
@@ -51990,5 +52006,320 @@
       }
     ],
     "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-15-497",
+    "date": "2026-10-15",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "The distinction between the \"Islam of Mecca\" and the \"Islam of Medina\" refers to the two foundational periods of early",
+    "summary": "The distinction between the \"Islam of Mecca\" and the \"Islam of Medina\" refers to the two foundational periods of early Islam during the life of the Prophet Muhammad: the Meccan period (610–622 CE) and the Medinan period (622–632 CE). [1, 2] The Mecca. 5 near-identical posts from 1 accounts suggest coordinated amplification.",
+    "actors": [
+      "@RickDelmonico"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RickDelmonico/status/2110728368006004966",
+        "date": "2026-10-15"
+      }
+    ],
+    "spread": 5,
+    "disinfo_narratives": [
+      "NAR-SO-006",
+      "NAR-SO-003",
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-09-22-272",
+      "APF-2026-10-09-256",
+      "APF-2026-10-10-684",
+      "APF-2026-10-14-801",
+      "APF-2026-10-15-729",
+      "SOM-2025-050"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-15",
+    "detection_timestamp": "2026-10-15T13:47:30.213132+00:00",
+    "last_seen": "2026-10-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-15",
+        "url": "https://x.com/RickDelmonico/status/2110728368006004966",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-15-729",
+    "date": "2026-10-15",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "THE BALUCH CLAIM 3 CLASHES WITH IRGC & FATIMIYOUN IN SISTAN-BALUCHISTAN Jebhe-ye Mobarezin-e Mardomi (JMM, aka People’s",
+    "summary": "THE BALUCH CLAIM 3 CLASHES WITH IRGC & FATIMIYOUN IN SISTAN-BALUCHISTAN Jebhe-ye Mobarezin-e Mardomi (JMM, aka People’s Fighters Front (PFF)), the Iranian Baluch coalition, released Statement No. 22 on Oct 13 claiming 3 engagements in the prior 24 ho.",
+    "actors": [
+      "@urgentintel"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/urgentintel/status/2110507619483832427",
+        "date": "2026-10-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-07-08-423",
+      "APF-2026-07-29-006",
+      "APF-2026-09-22-272",
+      "APF-2026-10-10-684",
+      "APF-2026-10-14-801",
+      "APF-2026-10-15-497"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-15",
+    "detection_timestamp": "2026-10-15T13:47:30.213132+00:00",
+    "last_seen": "2026-10-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-15",
+        "url": "https://x.com/urgentintel/status/2110507619483832427",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-15-139",
+    "date": "2026-10-15",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-10-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-18-457",
+      "APF-2026-09-22-251",
+      "APF-2026-09-23-865",
+      "APF-2026-09-28-608",
+      "APF-2026-10-10-710",
+      "APF-2026-10-14-149"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-15",
+    "detection_timestamp": "2026-10-15T13:47:30.213132+00:00",
+    "last_seen": "2026-10-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-15",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-15-352",
+    "date": "2026-10-15",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "Fabricated audio of a Minister, doctored statement from Puntland's President, and false claims about troops and a port spread in Puntland",
+    "summary": "Over the past two weeks, accounts, including @PuntJubNews, have actively spread multiple false claims targeting Puntland. These include fabricated audio attributed to a Somali Minister, a doctored statement falsely attributed to Puntland's President, and false reports of troops setting up roadblocks. Most recently, these actors have disseminated misinformation regarding a port in Puntland. These coordinated efforts aim to sow confusion and undermine trust in regional authorities.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-10-15"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-09-21-043",
+      "APF-2026-09-24-050",
+      "APF-2026-10-08-048",
+      "APF-2026-10-09-135",
+      "APF-2026-10-10-477",
+      "APF-2026-10-14-248"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-15",
+    "detection_timestamp": "2026-10-15T13:47:30.213132+00:00",
+    "last_seen": "2026-10-15",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-15",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio attributed to a Somali Minister has been fabricated and spread.",
+      "Puntland's President issued a doctored statement.",
+      "Troops are setting up roadblocks in Puntland.",
+      "False information is being spread about a port in Puntland."
+    ],
+    "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting high-level officials and critical infrastructure in Puntland, indicating a sophisticated and sustained effort to destabilize the region.",
+    "_reviewed": "2026-10-15T13:53:42.987490+00:00"
   }
 ]
