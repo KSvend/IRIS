@@ -51696,7 +51696,11 @@
       "@TechTonicAi_",
       "@TonyMkenya7",
       "@kanairofinest",
-      "@hosea606666"
+      "@hosea606666",
+      "@mseemsima01",
+      "@TabbyKanyungu",
+      "@CatalystKe1",
+      "@BiancaNaom1"
     ],
     "platforms": [
       "X (Twitter)"
@@ -51711,6 +51715,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
         "date": "2026-10-14"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-10-16"
       }
     ],
     "spread": 2,
@@ -51754,7 +51763,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-10-14",
     "detection_timestamp": "2026-10-14T14:07:37.612536+00:00",
-    "last_seen": "2026-10-14",
+    "last_seen": "2026-10-16",
     "status": "active",
     "observations": [
       {
@@ -51774,10 +51783,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-16",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#ChaosCartel, #DogsOfWar: In public, he called them brave. In private, he planned chaos. Gachagua’s project isn’t reform; it’s ruin. What started",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "intensity_trend": [
+      3,
       3
     ]
   },
