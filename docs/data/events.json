@@ -30440,6 +30440,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Thabo1186/status/2106929676006445388",
         "date": "2026-10-10"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/NaekuMercy/status/1882026623681323304",
+        "date": "2026-10-17"
       }
     ],
     "spread": 5,
@@ -30483,7 +30488,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-10-10",
+    "last_seen": "2026-10-17",
     "status": "active",
     "observations": [
       {
@@ -30782,9 +30787,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-17",
+        "url": "https://x.com/NaekuMercy/status/1882026623681323304",
+        "summary": "#43against1: There is a version of Abdiweli Mohamed Hassan’s story that Kenya has been told many times this year, and it is a story",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 33,
+    "observation_count": 34,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -43598,7 +43612,7 @@
     "detected_by": "iris_classify_2026-07-19",
     "detection_timestamp": "2026-07-19T10:17:12.246483+00:00",
     "last_seen": "2026-07-19",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-19",
@@ -49287,7 +49301,7 @@
     "detected_by": "iris_classify_2026-09-17",
     "detection_timestamp": "2026-09-17T13:58:24.308986+00:00",
     "last_seen": "2026-09-17",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-17",
@@ -52340,5 +52354,90 @@
     ],
     "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting high-level officials and critical infrastructure in Puntland, indicating a sophisticated and sustained effort to destabilize the region.",
     "_reviewed": "2026-10-15T13:53:42.987490+00:00"
+  },
+  {
+    "id": "APF-2026-10-17-102",
+    "date": "2026-10-17",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis Alleges Pro-Turkish Analysts Echo ISIS Propaganda Regarding Puntland Counterterrorism Efforts",
+    "summary": "An analysis by @CirkaNews on X (Twitter) highlights alleged similarities between narratives pushed by pro-Turkish geopolitical commentators, specifically Umut Çağrı Sarı and Manjaniq Media, and ISIS propaganda. The analysis focuses on how these actors portray Puntland’s counter-terrorism efforts, suggesting a concerning alignment of narratives that could undermine regional security.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-10-17"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-17-551",
+      "APF-2026-09-18-457",
+      "APF-2026-09-22-251",
+      "APF-2026-10-10-710",
+      "APF-2026-10-14-149",
+      "APF-2026-10-15-139"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-17",
+    "detection_timestamp": "2026-10-17T12:29:10.488593+00:00",
+    "last_seen": "2026-10-17",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-17",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Pro-Turkish analysts, including Umut Çağrı Sarı and Manjaniq Media, are spreading narratives that misrepresent Puntland's counter-terrorism efforts, aligning with ISIS propaganda."
+    ],
+    "_review_notes": "This event describes an analysis of disinformation, not the disinformation itself, hence the suggested type change to CONTEXT. The country field (South Sudan) is incorrect; the content explicitly refers to Puntland, which is in Somalia.",
+    "_reviewed": "2026-10-17T12:35:21.350449+00:00"
   }
 ]

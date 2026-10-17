@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-17",
+  "extracted_claims": [
+    {
+      "claim": "Pro-Turkish analysts, including Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media, are spreading narratives that misrepresent Puntland's counter-terrorism efforts, aligning with ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media",
+        "Pro-Turkish Analysts"
+      ],
+      "keywords": [
+        "Puntland",
+        "counterterrorism",
+        "ISIS propaganda",
+        "Turkish analysts"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific actor identified in the analysis."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific actor identified in the analysis."
+    },
+    {
+      "keyword": "Puntland counterterrorism",
+      "country": "Somalia",
+      "reason": "Specific topic of disinformation."
+    },
+    {
+      "keyword": "Turkish analysts",
+      "country": "Regional",
+      "reason": "Specific actor group identified."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}

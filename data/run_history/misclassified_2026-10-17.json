@@ -1,0 +1,1272 @@
+[
+  {
+    "i": "apify-36bb57630a03",
+    "t": "#ciyaalxamar2023\ud83d\udd25\u2728 #somaliticktok2023 #foryoupage\u2764\ufe0f\u2764\ufe0f #somaligermany\ud83c\udde9\ud83c\uddea\ud83c\uddf8\ud83c\uddf4 #fy aniga xoolo dhaqto ahay",
+    "d": "2026-10-06",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@geeljire784",
+    "l": "https://www.tiktok.com/@geeljire784/video/7693512169996045601",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9858
+    },
+    "exp": "The user states \"aniga xoolo dhaqto ahay\" which translates to \"I am a livestock herder.\" This is a statement about one's profession and does not contain any hate speech or dehumanizing language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ed99f9a366ca",
+    "t": "Lamadagaan boqorkiisii ayaa muuqda maanta \ud83d\udc51#Geel\n#Xoolo\n#DhaqanSomali\n#Lamadagaan\n#Somalia",
+    "d": "2026-01-27",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@pathmakerlife0ne",
+    "l": "https://www.tiktok.com/@pathmakerlife0ne/video/7599928404477054215",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9823
+    },
+    "exp": "The post translates to \"The king of Lamadagaan is visible today,\" referring to a nomadic or pastoralist lifestyle and celebrating Somali culture, specifically mentioning camels and livestock. This is a cultural expression and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-82139898d040",
+    "t": "the SIXTH President of the People's Republic of Kenya",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Steebie_K",
+    "l": "https://x.com/Steebie_K/status/2111276006489350407",
+    "pr": "Normal",
+    "co": 0.9988,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a factual statement identifying the President of Kenya. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1d8cfee89745",
+    "t": "Mt Kenya Times ePAPER October 17-18, 2026\nhttps://t.co/WzG5iQAH6W https://t.co/3ZlmWsE0ap",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@themtkenyatimes",
+    "l": "https://x.com/themtkenyatimes/status/2111286600894222558",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post shares a link to the \"Mt Kenya Times ePAPER\" for a specific date. It is news content and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c11c13f78dc9",
+    "t": "#Magazetiyaleo \n\nWamachinga \n\nJumamosi Oktoba 17, 2026 https://t.co/hwH0OnkeM8",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2111285029871436161",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post shares a newspaper link, with \"Wamachinga\" (street hawkers/informal traders) as a keyword, likely indicating a news story about this group. Without further context or the actual content of the newspaper, it appears to be a neutral news share.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3f20bc40c826",
+    "t": "#Magazetiyaleo \n\nMwanaspoti \n\nJumamosi Oktoba 17, 2026 https://t.co/DXMBQhVK93",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2111285005498335361",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post shares a link to the \"Mwanaspoti\" newspaper for a specific date. It is news content and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-85d8b85f5f5f",
+    "t": "#MillardAyoMagazeti Tz &amp; Kenya October 17, 2026\n\nhttps://t.co/2mlttwHcc5 https://t.co/duQnOCH2nv",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@millardayo",
+    "l": "https://x.com/millardayo/status/2111293425836245320",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post shares a link to \"MillardAyoMagazeti,\" a news aggregator for Tanzania and Kenya. It is news content and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d6354b4d70b4",
+    "t": "#Magazetiyaleo \n\nMwananchi \n\nJumamosi Oktoba 17, 2026 https://t.co/aq6BFUWqfB",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2111285006370832494",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post shares a link to the \"Mwananchi\" newspaper for a specific date. It is news content and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f6a0d06b6fe9",
+    "t": "#Magazetiyaleo \n\nHabari Leo \n\nJumamosi Oktoba 17, 2026 https://t.co/3NP6yJW4J7",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2111285031960195079",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post shares a link to the \"Habari Leo\" newspaper for a specific date. It is news content and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-efadd49d2d34",
+    "t": "Somaliland and the Competing Powers: In The Horn of Africa and Red Sea Regions https://t.co/ouEp65MBq3",
+    "d": "2026-10-17",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@jamalamore",
+    "l": "https://x.com/jamalamore/status/2111256390153195810",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9542
+    },
+    "exp": "This is a neutral title for an article or book discussing Somaliland and geopolitical powers in the Horn of Africa and Red Sea regions.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-505df47a889f",
+    "t": "#Hassandahiraweys #Siadbarre #Somalia",
+    "d": "2026-08-13",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@samaale.h",
+    "l": "https://www.tiktok.com/@samaale.h/video/7673511364605824278",
+    "pr": "Abusive",
+    "co": 0.8138,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9786
+    },
+    "exp": "These are hashtags referring to historical or political figures and the country of Somalia, with no hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6abf09c508aa",
+    "t": "#KENYA: ONYO KALI YA RUTO DHIDI YA VIONGOZI WASIOKUWA NA AJENDA\nTazama ZAIDI: https://t.co/liGBbiUWLS",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MwanzoTv",
+    "l": "https://x.com/MwanzoTv/status/2111360563775430993",
+    "pr": "Normal",
+    "co": 0.9982,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This is a news headline in Swahili, reporting on a 'strong warning' by Ruto against leaders without an agenda. It is a neutral news report.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e0dbbb62e0ed",
+    "t": "Watu 108 karantini Kenya ikipokea vifaa vya Sh61 milioni https://t.co/yIMr5a6qAh https://t.co/DkCMTS6eiB",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Taifa_Leo",
+    "l": "https://x.com/Taifa_Leo/status/2111336418274644292",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This is a news report in Swahili stating that 108 people are in quarantine in Kenya as the country receives Sh61 million worth of equipment. It is a factual report.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d02d65ceabfa",
+    "t": "Kenya recorded 11.12 billion cyber threats in the year to June 2026, up 29%. \n\nAttacks that overwhelm websites rose 114% to 72 million. \n\nMalware hit 230 million. \n\nThe CA blames poor patching, low awareness and AI-powered criminal tools.",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Mike_Kutola",
+    "l": "https://x.com/Mike_Kutola/status/2111309185564512616",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post provides a factual report on cyber threats recorded in Kenya, including statistics on attacks and malware, and attributes the causes. It is an informative post.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8dc8c1333f2c",
+    "t": "Activist Mulinge Muteti has revealed that he is still unable to walk, 23 days after he was abducted, tortured for four days and abandoned in a forest along the Nairobi\u2013Mombasa Highway.\n\nIn a statement issued on Saturday, October 17, 2026 seeking solidarity and financial support, Muteti said he was s",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@BernardKavuli",
+    "l": "https://x.com/BernardKavuli/status/2111400530106888592",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 51,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This is a news report detailing an activist's abduction and torture in Kenya. While describing a violent event, the post itself is a neutral report and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ae7f6a36cf1e",
+    "t": "Maasai women stormed a muguka-selling base in their community and destroyed the stock, accusing the stimulant of negatively affecting their children and men. https://t.co/3wSotI3CMi",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TheNairobiTimez",
+    "l": "https://x.com/TheNairobiTimez/status/2111370525901521032",
+    "pr": "Normal",
+    "co": 0.9746,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9991
+    },
+    "exp": "This post reports on Maasai women destroying muguka (a stimulant) stock, accusing it of negatively affecting their community. It is a factual report of community action, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-77f6cfe50886",
+    "t": "Kwenye  hifadhi marehemu angeweka wanyama haya yangesipo tokea ilaaa Wacha watu watafune nchi \ud83d\ude4c\ud83d\ude4c\ud83d\ude4c\ud83d\ude4c https://t.co/x0yCkS3j9d",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@munyamambogo",
+    "l": "https://x.com/munyamambogo/status/2111335995538919534",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "The post expresses frustration and criticism, stating that if a deceased person were in charge, problems wouldn't occur, and then uses the Swahili idiom 'Wacha watu watafune nchi' (let people 'eat the country'), which means to loot or corrupt national resources. This is political criticism, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1a219304fc21",
+    "t": "WHO increased surveillance on this and they said there's no outbreak so looks like kenya is trying hard to prove otherwise hehe",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TechFabrizoo",
+    "l": "https://x.com/TechFabrizoo/status/2111381779193929757",
+    "pr": "Normal",
+    "co": 0.9935,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9698
+    },
+    "exp": "This post makes a sarcastic comment about Kenya's efforts to 'prove' an outbreak despite the WHO stating there is none. It is critical and sarcastic, but not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a4f7831f778c",
+    "t": "No fucking way\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02uyu dame ni mkisii bila ata kuuliza\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83d\ude02\ud83e\udd23\ud83e\udd23\ud83e\udd23wtf aaaaaahhh\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MillanMchoko",
+    "l": "https://x.com/MillanMchoko/status/2111359091708711254",
+    "pr": "Hate",
+    "co": 0.9773,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post uses Sheng (Kenyan slang) to say, 'No fucking way, this lady is Kisii without even asking.' It's a casual, possibly stereotypical, observation about a person's ethnicity, but it does not express hatred or incite violence against the Kisii community.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-558e75104159",
+    "t": "Mr. President we trusted you but you didn't achieve this goal, we lost business, life became hard, prices spiked far out of our reach, everything became expensive and still you never got enough. Your taxes are crushing us, we can't even enjoy a simple meal at a restaurant without confirming with the",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@kyko_ken",
+    "l": "https://x.com/kyko_ken/status/2111431242717470738",
+    "pr": "Normal",
+    "co": 0.5679,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 61,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post expresses strong criticism and frustration towards the President of South Sudan regarding economic hardship, high prices, and heavy taxes, stating that the government has failed to meet expectations.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1f9f536548d9",
+    "t": "How will South Sudan manage elections in disputed territories?\nPresident Salva Kiir has introduced interim arrangements for constituencies involving Abyei, Warrap, Ruweng and Unity states, designating Abiemnom as Constituency No. 7 and Abyei Town as No. 1. #SSD #Elections2026 https://t.co/yTLbhSI7PB",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PonnieSheila",
+    "l": "https://x.com/PonnieSheila/status/2111338636159729855",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post discusses a political and administrative issue in South Sudan, specifically how elections will be managed in disputed territories and the interim arrangements introduced by President Salva Kiir.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1694e22f9536",
+    "t": "TROOPS RESCUE 27 KIDNAP VICTIMS, NEUTRALISE TERRORISTS IN NORTH-WEST REGION\n\nTroops of Operation FANSAN YANMA have rescued 27 kidnap victims, including a six-month-old baby, in Katsina State and neutralised terrorists in separate operations in Sokoto State.\n\nIn Katsina, troops of the 17 Brigade resc",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@EleluAyoola",
+    "l": "https://x.com/EleluAyoola/status/2111339868085268813",
+    "pr": "Hate",
+    "co": 0.7625,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 33,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on a military operation in Nigeria where troops rescued kidnap victims and 'neutralised terrorists.' The term 'terrorists' is used in a news reporting context to describe an enemy combatant group, not as a slur against an identity group.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f74e6ea7d645",
+    "t": "Wasiirka Wasaaradda Amniga Gudaha Dowladda Koonfur Galbeed, Mudane Issack Mohamed Issack (Korsaar), ayaa shacabka ku dhaqan guud ahaan deegaannada Koonfur Galbeed u xaqiijiyey in dowladdu waddo dadaallo lagu doonayo in dib gacanteeda loogu celiyo gacanta maamulka koonfurgalbeed https://t.co/koTyD726",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AbdulkadirANur",
+    "l": "https://x.com/AbdulkadirANur/status/2111407170952552732",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "hate_speech",
+      "score": 0.9989
+    },
+    "exp": "The post, written in Somali, reports that the Minister of Internal Security of the South West State government, Issack Mohamed Issack (Korsaar), assured the public of ongoing government efforts to regain control of territories. This is a factual news report.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1b82317983e8",
+    "t": "President Salva Kiir received a detailed report from the caretaker Minister of Petroleum, Eng. Awou Daniel Chuang, on the performance of the Ministry of Petroleum and ongoing activities in the oil sector. https://t.co/kD3gsz1o8s  #SouthSudan https://t.co/d3LvOPocd7",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudanGov",
+    "l": "https://x.com/SouthSudanGov/status/2111360060341326180",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports that President Salva Kiir received a detailed report from the caretaker Minister of Petroleum regarding the performance and activities of the oil sector in South Sudan. It is a factual update on government activities.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1c278a562022",
+    "t": "Kiir Ally Explodes: Ex VP Bol Mel Plotted Coup That Nearly Dragged South Sudan Back into Bloodshed. - https://t.co/kQ8AVYSj4o",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@InsideKeOnline",
+    "l": "https://x.com/InsideKeOnline/status/2111412748135596069",
+    "pr": "Hate",
+    "co": 0.989,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports on an accusation made by an ally of President Kiir, claiming that former VP Bol Mel plotted a coup that nearly led South Sudan back into conflict. It is a news headline about political allegations.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d516e7867a53",
+    "t": "\ud83d\udea8\ud83c\uddf3\ud83c\uddec 27 KIDNAP VICTIMS FREED, INCLUDING A 6-MONTH-OLD BABY! TROOPS STRIKE BACK HARD AGAINST TERRORISTS! \ud83e\ude96\ud83d\udd25\n\nIn a major security breakthrough, troops of Operation FANSAN YANMA have rescued 27 kidnap victims in Katsina State and neutralised terrorists in separate operations in Sokoto State.\n\n\ud83d\udc4f\ud83c\udffd In Kats",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Sistaliano",
+    "l": "https://x.com/Sistaliano/status/2111249662552199399",
+    "pr": "Hate",
+    "co": 0.5978,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 48,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on a military operation in Nigeria where kidnap victims were rescued and 'terrorists' were neutralized. The term 'terrorists' is used in a news reporting context to describe an enemy combatant group, not as a slur against an identity group.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-21465834bb87",
+    "t": "UPDATE: Ethiopian forces accused of handing over towns in South West State to al-Shabab militants. https://t.co/B9q42c8k70",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ShabelleMedia",
+    "l": "https://x.com/ShabelleMedia/status/2111429709791887821",
+    "pr": "Normal",
+    "co": 0.7139,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on an accusation that Ethiopian forces handed over towns in Somalia's South West State to al-Shabab militants. It is a news update about military actions and militant groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5a07e3bd5fcb",
+    "t": "The health minister of Sudan\u2019s TASIS-led transitional government, Alaa al-Din Naqd, has accused the Port Sudan authorities and allied Islamist groups of spreading disinformation to divert public attention from the country\u2019s worsening humanitarian crisis and growing famine threat.\n\nThe health ministe",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2111383013464371364",
+    "pr": "Normal",
+    "co": 0.9786,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 28,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on an accusation made by Sudan's health minister against Port Sudan authorities and allied Islamist groups for allegedly spreading disinformation to divert attention from the country's humanitarian crisis. It is a news report about political accusations.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-99dc63879b32",
+    "t": "REPUBLIC OF THE SUDAN\nTRANSITIONAL PEACE GOVERNMENT\nMINISTRY OF HEALTH\n\nCONDEMNATION STATEMENT\n\nMore Than 100 Innocent Sudanese Civilians Killed in Less Than One Week\n\nNyala, South Darfur  Saturday, 17 October 2026\n\nThe Ministry of Health of the Transitional Peace Government strongly condemns the re",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Dali_NEWSDN",
+    "l": "https://x.com/Dali_NEWSDN/status/2111366890886950926",
+    "pr": "Normal",
+    "co": 0.9926,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 167,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a condemnation statement from the Ministry of Health of the Transitional Peace Government of the Republic of Sudan, reporting that over 100 innocent Sudanese civilians were killed in Nyala, South Darfur. It is a news report/official statement, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-823864172167",
+    "t": "KATSINA SECURITY UPDATE\n\n27 Kidnap Victims Rescued as Troops Repel Bandits in Sabuwa\n\nSecurity operatives in Katsina State have rescued 27 residents abducted during a bandit attack on Gamji Village in Sabuwa Local Government Area, following a swift military response.\n\nThe attack occurred in the earl",
+    "d": "2026-10-17",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@muazu_nass",
+    "l": "https://x.com/muazu_nass/status/2111421179533705692",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 86,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a security update reporting that 27 kidnap victims were rescued and troops repelled bandits in Sabuwa, Katsina State, Nigeria. It is a news report, not hate speech, and is not relevant to East Africa.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f3de8944e27d",
+    "t": "The Kenyan shilling has maintained relative stability against the US dollar despite a decline in diaspora remittances, which fell from USD 451.8 million in August to USD 438.5 million in September 2026, according to Central Bank of Kenya data.\n\nFull story:\nhttps://t.co/sO76kSB4SX",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KeDailyOnline",
+    "l": "https://x.com/KeDailyOnline/status/2111432969764421882",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post reports on the Kenyan shilling's stability against the US dollar, noting a slight decline in diaspora remittances according to Central Bank of Kenya data. It is a financial news update, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2c1ed52766d1",
+    "t": "Jamaican artist hupenda kenya juu nayo kulipwa wanalipwa vizuri",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@no_sle3pted",
+    "l": "https://x.com/no_sle3pted/status/2111355025087778894",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post states, \"Jamaican artist hupenda kenya juu nayo kulipwa wanalipwa vizuri,\" which translates to \"Jamaican artists love Kenya because they are paid well.\" This is a neutral observation about artists and their compensation, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2da2c73ba473",
+    "t": "Kenya\u2019s import cover expanded from 2.3 months up to 5.9 months, while forex reserves hit a high of US$14.7 billion in October 2026. Financial stability is restored. #RutoDelivers Man On A Mission https://t.co/B4PObxbKBb",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@bazenga_mkuru",
+    "l": "https://x.com/bazenga_mkuru/status/2111395151906066489",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post reports on Kenya's improved import cover and forex reserves, attributing the restored financial stability to President Ruto with the hashtags \"#RutoDelivers Man On A Mission.\" This is a positive political statement and news update, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4c2e2ff23f11",
+    "t": "Vijana wa outlier , you shall rise again \ud83d\udc4c",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@onjolo_kenya",
+    "l": "https://x.com/onjolo_kenya/status/2111408344409702857",
+    "pr": "Hate",
+    "co": 0.6473,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post states, \"Vijana wa outlier , you shall rise again \ud83d\udc4c,\" which translates to \"Youth of outlier, you shall rise again.\" This is an encouraging and positive message directed at a group of youth, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-874cc59e8029",
+    "t": "Kenyan Shilling Holds Steady, Despite Dip in September 2026 Remittances\nhttps://t.co/Eut1sWjild",
+    "d": "2026-10-17",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Kenyans",
+    "l": "https://x.com/Kenyans/status/2111378996294537222",
+    "pr": "Normal",
+    "co": 0.9666,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-10-17",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news headline stating that the Kenyan Shilling holds steady despite a dip in September 2026 remittances, accompanied by a link. It is a news report, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
