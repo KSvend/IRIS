@@ -43698,7 +43698,7 @@
     "detected_by": "iris_classify_2026-07-20",
     "detection_timestamp": "2026-07-20T11:38:43.574500+00:00",
     "last_seen": "2026-07-20",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-20",
@@ -51396,7 +51396,12 @@
       "@AminaTisha94086",
       "@iamthevillager",
       "@Yasirarafat2520",
-      "@KenyaWeWant_"
+      "@KenyaWeWant_",
+      "@EveryAcreKenya",
+      "@LensEmpress",
+      "@its_meek__",
+      "@mseemsima01",
+      "@hosea606666"
     ],
     "platforms": [
       "X (Twitter)"
@@ -51406,6 +51411,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
         "date": "2026-10-10"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-10-18"
       }
     ],
     "spread": 5,
@@ -51449,7 +51459,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-10-10",
     "detection_timestamp": "2026-10-10T14:48:51.379845+00:00",
-    "last_seen": "2026-10-10",
+    "last_seen": "2026-10-18",
     "status": "active",
     "observations": [
       {
@@ -51460,9 +51470,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-18",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
     "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 20 near-identical posts from 10 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
     "extracted_claims": [
@@ -51470,7 +51489,10 @@
       "BBC exploits Kenyan suffering and incites chaos."
     ],
     "_review_notes": "This event demonstrates a coordinated effort to undermine trust in international media, a common tactic to control narratives and suppress critical reporting, particularly concerning sensitive political or social issues in Kenya.",
-    "_reviewed": "2026-10-12T18:27:40.213261+00:00"
+    "_reviewed": "2026-10-12T18:27:40.213261+00:00",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-10-13-518",
@@ -52439,5 +52461,82 @@
     ],
     "_review_notes": "This event describes an analysis of disinformation, not the disinformation itself, hence the suggested type change to CONTEXT. The country field (South Sudan) is incorrect; the content explicitly refers to Puntland, which is in Somalia.",
     "_reviewed": "2026-10-17T12:35:21.350449+00:00"
+  },
+  {
+    "id": "APF-2026-10-18-054",
+    "date": "2026-10-18",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-10-18"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-19-894",
+      "APF-2026-09-22-251",
+      "APF-2026-09-23-865",
+      "APF-2026-10-14-149",
+      "APF-2026-10-15-139",
+      "APF-2026-10-17-102"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-18",
+    "detection_timestamp": "2026-10-18T12:55:03.974883+00:00",
+    "last_seen": "2026-10-18",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-18",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
