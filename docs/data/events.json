@@ -43866,7 +43866,7 @@
     "detected_by": "iris_classify_2026-07-21",
     "detection_timestamp": "2026-07-21T10:55:31.428696+00:00",
     "last_seen": "2026-07-21",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-21",
@@ -43945,7 +43945,7 @@
     "detected_by": "iris_classify_2026-07-21",
     "detection_timestamp": "2026-07-21T10:55:31.428696+00:00",
     "last_seen": "2026-07-21",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-07-21",
@@ -52466,11 +52466,11 @@
     "id": "APF-2026-10-18-054",
     "date": "2026-10-18",
     "country": "South Sudan",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
-    "headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
-    "summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "headline": "Analysis by @CirkaNews explores similarities between pro-Turkish analysts' narratives and ISIS propaganda regarding Puntland's counter-terrorism efforts.",
+    "summary": "An analysis by @CirkaNews highlights striking similarities between narratives promoted by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda, particularly concerning the portrayal of Puntland's counter-terrorism operations. The report suggests Sarı's narratives align with those of Manjaniq Media, raising concerns about the potential echo of extremist messaging.",
     "actors": [
       "@CirkaNews"
     ],
@@ -52537,6 +52537,181 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Puntland's counter-terrorism efforts are portrayed in narratives that echo ISIS propaganda."
+    ],
+    "_review_notes": "This event, despite being misclassified as DISINFO and mis-country-tagged (South Sudan instead of Somalia), points to a significant analysis of potential foreign influence and extremist propaganda concerning counter-terrorism efforts in Somalia. The country tag needs correction.",
+    "_reviewed": "2026-10-19T16:05:59.340682+00:00"
+  },
+  {
+    "id": "APF-2026-10-19-703",
+    "date": "2026-10-19",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis by @CirkaNews explores similarities between pro-Turkish analysts' narratives and ISIS propaganda regarding Puntland's counter-terrorism efforts.",
+    "summary": "An analysis by @CirkaNews highlights striking similarities between narratives promoted by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda, particularly concerning the portrayal of Puntland's counter-terrorism operations. The report suggests Sarı's narratives align with those of Manjaniq Media, raising concerns about the potential echo of extremist messaging.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-10-19"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-19-894",
+      "APF-2026-09-28-608",
+      "APF-2026-10-14-149",
+      "APF-2026-10-15-139",
+      "APF-2026-10-17-102",
+      "APF-2026-10-18-054"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-19",
+    "detection_timestamp": "2026-10-19T15:59:19.218889+00:00",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-19",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Puntland's counter-terrorism efforts are portrayed in narratives that echo ISIS propaganda."
+    ],
+    "_review_notes": "This event is a duplicate of Event 0. It is misclassified as DISINFO and mis-country-tagged (South Sudan instead of Somalia), but provides important CONTEXT on potential foreign influence and extremist propaganda in Somalia.",
+    "_reviewed": "2026-10-19T16:05:59.340703+00:00"
+  },
+  {
+    "id": "APF-2026-10-19-690",
+    "date": "2026-10-19",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P3 MODERATE",
+    "headline": "Report details Israeli government and company-funded social media operations using fake accounts to promote pro-Israel messaging.",
+    "summary": "A post by @ShaneLRHJ references documented cases detailing how Israeli government entities and companies have funded and operated social media campaigns. These operations reportedly utilized fake accounts, often posing as Americans, to disseminate pro-Israel messaging and influence public opinion globally.",
+    "actors": [
+      "@ShaneLRHJ"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ShaneLRHJ/status/2112211322729357612",
+        "date": "2026-10-19"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-10-06-642",
+      "APF-2026-10-08-048",
+      "APF-2026-10-09-135",
+      "APF-2026-10-10-477",
+      "APF-2026-10-14-248",
+      "APF-2026-10-15-352"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: ai-generated.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-19",
+    "detection_timestamp": "2026-10-19T15:59:19.218889+00:00",
+    "last_seen": "2026-10-19",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-19",
+        "url": "https://x.com/ShaneLRHJ/status/2112211322729357612",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Documented cases show Israeli government entities and Israeli companies have run or funded social media operations that",
+    "_original_summary": "Documented cases show Israeli government entities and Israeli companies have run or funded social media operations that used fake accounts posing as other people (often Americans) to promote pro-Israel messaging and influence opinion, particularly ar.",
+    "extracted_claims": [
+      "Israeli government entities and companies have run or funded social media operations.",
+      "These operations used fake accounts posing as other people (often Americans).",
+      "The purpose of these operations was to promote pro-Israel messaging and influence opinion."
+    ],
+    "_review_notes": "This event highlights a report about foreign influence operations, which is important CONTEXT for understanding the broader disinformation landscape. While tagged for Somalia, the claims discussed appear to be global in nature, suggesting the need for careful country tagging for such reports.",
+    "_reviewed": "2026-10-19T16:05:59.340708+00:00"
   }
 ]

@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-19",
+  "extracted_claims": [
+    {
+      "claim": "Puntland's counter-terrorism efforts are portrayed in narratives that echo ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media"
+      ],
+      "keywords": [
+        "Puntland counter-terrorism",
+        "ISIS propaganda",
+        "pro-Turkish analysts"
+      ]
+    },
+    {
+      "claim": "Puntland's counter-terrorism efforts are portrayed in narratives that echo ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media"
+      ],
+      "keywords": [
+        "Puntland counter-terrorism",
+        "ISIS propaganda",
+        "pro-Turkish analysts"
+      ]
+    },
+    {
+      "claim": "Israeli government entities and companies have run or funded social media operations.",
+      "country": "Regional",
+      "actors": [
+        "Israeli government entities",
+        "Israeli companies"
+      ],
+      "keywords": [
+        "Israeli influence operations",
+        "social media operations"
+      ]
+    },
+    {
+      "claim": "These operations used fake accounts posing as other people (often Americans).",
+      "country": "Regional",
+      "actors": [
+        "Israeli government entities",
+        "Israeli companies"
+      ],
+      "keywords": [
+        "fake accounts",
+        "social media manipulation"
+      ]
+    },
+    {
+      "claim": "The purpose of these operations was to promote pro-Israel messaging and influence opinion.",
+      "country": "Regional",
+      "actors": [
+        "Israeli government entities",
+        "Israeli companies"
+      ],
+      "keywords": [
+        "pro-Israel messaging",
+        "influence operations"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific regional counter-terrorism efforts mentioned."
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific actor identified as spreading narratives."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "Specific media outlet identified for comparison."
+    },
+    {
+      "keyword": "Turkish geopolitical commentator",
+      "country": "Somalia",
+      "reason": "Describes a type of actor involved in regional narratives."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific regional counter-terrorism efforts mentioned."
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific actor identified as spreading narratives."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "Specific media outlet identified for comparison."
+    },
+    {
+      "keyword": "Turkish geopolitical commentator",
+      "country": "Somalia",
+      "reason": "Describes a type of actor involved in regional narratives."
+    },
+    {
+      "keyword": "Israeli influence operations",
+      "country": "Regional",
+      "reason": "Relevant to foreign influence campaigns that could impact East Africa."
+    },
+    {
+      "keyword": "pro-Israel messaging",
+      "country": "Regional",
+      "reason": "Specific content of the influence operations."
+    },
+    {
+      "keyword": "fake accounts",
+      "country": "Regional",
+      "reason": "Common disinformation tactic used in these operations."
+    },
+    {
+      "keyword": "social media manipulation",
+      "country": "Regional",
+      "reason": "General tactic described in the report."
+    }
+  ],
+  "events_reviewed": 3,
+  "events_reclassified": 3
+}
