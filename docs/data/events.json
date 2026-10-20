@@ -49537,7 +49537,7 @@
     "detected_by": "iris_classify_2026-09-20",
     "detection_timestamp": "2026-09-20T13:23:09.143030+00:00",
     "last_seen": "2026-09-20",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-20",
@@ -52713,5 +52713,87 @@
     ],
     "_review_notes": "This event highlights a report about foreign influence operations, which is important CONTEXT for understanding the broader disinformation landscape. While tagged for Somalia, the claims discussed appear to be global in nature, suggesting the need for careful country tagging for such reports.",
     "_reviewed": "2026-10-19T16:05:59.340708+00:00"
+  },
+  {
+    "id": "APF-2026-10-20-345",
+    "date": "2026-10-20",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "Fabricated audio, doctored statements, and false reports target Puntland officials and infrastructure",
+    "summary": "Over the past two weeks, the actor @PuntJubNews has engaged in a sustained disinformation campaign targeting Puntland. This includes fabricating audio of a Minister, doctoring a statement from the President, spreading false reports about troops setting up roadblocks, and most recently, disseminating lies about a Puntland port. This coordinated effort aims to undermine trust in Puntland's leadership and security.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-10-20"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-09-21-043",
+      "APF-2026-09-24-050",
+      "APF-2026-10-08-048",
+      "APF-2026-10-10-477",
+      "APF-2026-10-14-248",
+      "APF-2026-10-15-352"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-20",
+    "detection_timestamp": "2026-10-20T13:57:30.363752+00:00",
+    "last_seen": "2026-10-20",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-20",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio of a Puntland Minister has been fabricated.",
+      "A statement from Puntland's President has been doctored.",
+      "Puntland troops are setting up roadblocks.",
+      "False information is being spread about a port in Puntland."
+    ],
+    "_review_notes": "This event highlights a multi-faceted and persistent disinformation campaign against key government figures and critical infrastructure in Puntland, indicating a deliberate attempt to destabilize the region.",
+    "_reviewed": "2026-10-20T14:03:56.323317+00:00"
   }
 ]
