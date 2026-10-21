@@ -4,7 +4,7 @@
 **Prepared for**: UNDP East Africa
 **Coverage**: Somalia, South Sudan, Kenya
 **Monitoring period**: January 2025 — March 2026
-**Dashboard**: https://ksvend.github.io/iris/
+**Dashboard**: https://merlx-org.github.io/IRIS/
 
 ---
 
@@ -298,6 +298,6 @@ CONTEXT events (partner reports, news articles about disinformation) are automat
 
 ## 10. Reproducibility
 
-The complete pipeline code, configuration files, classification rules, and indicator dictionaries are version-controlled in the GitHub repository (`KSvend/iris`). The automated pipeline can be triggered manually from the GitHub Actions interface, and all data transformations are logged in `data/run_history/`.
+The complete pipeline code, configuration files, classification rules, and indicator dictionaries are version-controlled in the GitHub repository (`merlx-org/IRIS`). The automated pipeline can be triggered manually from the GitHub Actions interface, and all data transformations are logged in `data/run_history/`.
 
 Raw CSV exports of all datasets are available in the `outputs/` directory for independent analysis.

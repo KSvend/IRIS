@@ -2277,7 +2277,7 @@
     const stepUrl = document.getElementById('step-url');
     const stepSuccess = document.getElementById('step-success');
 
-    const GH_REPO = 'KSvend/iris';
+    const GH_REPO = 'merlx-org/IRIS';
     const SUBMISSIONS_PATH = 'docs/data/submissions.json';
 
     async function persistSubmission(submission) {

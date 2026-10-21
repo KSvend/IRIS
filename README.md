@@ -119,7 +119,7 @@ Social media data is collected via [Phoenix](https://console.phoenix.howtobuildu
 
 ## Related Repository
 
-- [conflict-ewds](https://github.com/KSvend/conflict-ewds) — Conflict Early Warning and Decision Support System architecture and documentation
+- [conflict-ewds](https://github.com/slipstrom/conflict-ewds) — Conflict Early Warning and Decision Support System architecture and documentation
 
 ## License
 
