@@ -31,7 +31,7 @@ from fastapi.responses import JSONResponse
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ksvend.github.io"],
+    allow_origins=["https://merlx-org.github.io"],
     allow_methods=["*"],
     allow_headers=["*"],
 )

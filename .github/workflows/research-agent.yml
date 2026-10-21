@@ -28,7 +28,7 @@ jobs:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python -m backend.agents.research_agent
       - name: Report to Healthchecks.io
-        # ops-monitor heartbeat (KSvend/ops-monitor). Runs even when an earlier
+        # ops-monitor heartbeat (slipstrom/ops-monitor). Runs even when an earlier
         # step failed, so failures and missed runs both reach Healthchecks.io;
         # it never fails the job itself.
         if: always()
