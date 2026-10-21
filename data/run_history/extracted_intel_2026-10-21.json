@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-21",
+  "extracted_claims": [
+    {
+      "claim": "Audio of a Puntland Minister has been fabricated.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland Minister",
+        "fabricated audio"
+      ]
+    },
+    {
+      "claim": "Puntland's President issued a doctored statement.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland President",
+        "doctored statement"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland",
+        "troops",
+        "roadblocks"
+      ]
+    },
+    {
+      "claim": "False information is being spread about a port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland port"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland Minister",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation."
+    },
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation."
+    },
+    {
+      "keyword": "Puntland roadblocks",
+      "country": "Somalia",
+      "reason": "Specific false event being reported."
+    },
+    {
+      "keyword": "Puntland port",
+      "country": "Somalia",
+      "reason": "Specific infrastructure targeted by disinformation."
+    },
+    {
+      "keyword": "PuntJubNews",
+      "country": "Somalia",
+      "reason": "Specific actor spreading disinformation."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

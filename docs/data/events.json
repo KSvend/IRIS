@@ -49697,7 +49697,7 @@
     "detected_by": "iris_classify_2026-09-21",
     "detection_timestamp": "2026-09-21T15:29:52.233556+00:00",
     "last_seen": "2026-09-21",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-21",
@@ -51401,7 +51401,12 @@
       "@LensEmpress",
       "@its_meek__",
       "@mseemsima01",
-      "@hosea606666"
+      "@hosea606666",
+      "@KKCommetary",
+      "@DreamBoy254",
+      "@BiancaNaom1",
+      "@TabbyKanyungu",
+      "@TonyMkenya7"
     ],
     "platforms": [
       "X (Twitter)"
@@ -51416,6 +51421,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/LensEmpress/status/1938221673205092526",
         "date": "2026-10-18"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-10-21"
       }
     ],
     "spread": 5,
@@ -51459,7 +51469,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-10-10",
     "detection_timestamp": "2026-10-10T14:48:51.379845+00:00",
-    "last_seen": "2026-10-18",
+    "last_seen": "2026-10-21",
     "status": "active",
     "observations": [
       {
@@ -51479,9 +51489,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-10-21",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "_original_headline": "#toxicactivists: Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when",
     "_original_summary": "Hii  na hii timing? Very suspicious I must say! When Kenya Builds and rises,BBC looks away. BBC Cameras salivate when Kenyans suffer and they stir chaos!   John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 20 near-identical posts from 10 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
     "extracted_claims": [
@@ -51491,6 +51510,7 @@
     "_review_notes": "This event demonstrates a coordinated effort to undermine trust in international media, a common tactic to control narratives and suppress critical reporting, particularly concerning sensitive political or social issues in Kenya.",
     "_reviewed": "2026-10-12T18:27:40.213261+00:00",
     "intensity_trend": [
+      3,
       3
     ]
   },
@@ -52795,5 +52815,87 @@
     ],
     "_review_notes": "This event highlights a multi-faceted and persistent disinformation campaign against key government figures and critical infrastructure in Puntland, indicating a deliberate attempt to destabilize the region.",
     "_reviewed": "2026-10-20T14:03:56.323317+00:00"
+  },
+  {
+    "id": "APF-2026-10-21-672",
+    "date": "2026-10-21",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims target Puntland officials and infrastructure, including fabricated audio of a Minister, doctored presidential statement, and lies about troop roadblocks and a port.",
+    "summary": "Over the past two weeks, the X account @PuntJubNews has disseminated a series of false claims aimed at destabilizing Puntland. These include fabricated audio attributed to a Puntland Minister, a doctored statement from the Puntland President, and false reports of troops establishing roadblocks. The campaign has recently extended to spreading disinformation about a port in Puntland, highlighting a concerted effort to sow distrust and undermine regional governance.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-10-21"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-10-08-048",
+      "APF-2026-10-10-477",
+      "APF-2026-10-14-248",
+      "APF-2026-10-15-352",
+      "APF-2026-10-19-690",
+      "APF-2026-10-20-345"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-21",
+    "detection_timestamp": "2026-10-21T14:13:03.704578+00:00",
+    "last_seen": "2026-10-21",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-21",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Audio of a Puntland Minister has been fabricated.",
+      "Puntland's President issued a doctored statement.",
+      "Troops are setting up roadblocks in Puntland.",
+      "False information is being spread about a port in Puntland."
+    ],
+    "_review_notes": "This event highlights a sustained and multi-faceted disinformation campaign targeting high-level officials and critical infrastructure in Puntland, indicating a significant threat to regional stability and governance.",
+    "_reviewed": "2026-10-21T14:19:17.695005+00:00"
   }
 ]
