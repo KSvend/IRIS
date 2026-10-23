@@ -52996,5 +52996,159 @@
     ],
     "_review_notes": "This event highlights a sophisticated and sustained disinformation campaign employing advanced tactics like fabricated audio and doctored documents to undermine governance and security in Puntland. The breadth of targets, from high-level officials to critical infrastructure, indicates a significant intent to destabilize the region.",
     "_reviewed": "2026-10-22T14:16:40.803024+00:00"
+  },
+  {
+    "id": "APF-2026-10-23-210",
+    "date": "2026-10-23",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "In the Quran, Islam tells its followers over and over again to perpetrate violence on the Kafir (non-believers): 2:191",
+    "summary": "In the Quran, Islam tells its followers over and over again to perpetrate violence on the Kafir (non-believers): 2:191 \"And kill them wherever you overtake them and expel them from wherever they have expelled you, and fitnah [persecution] is worse th.",
+    "actors": [
+      "@mjgranger1"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/mjgranger1/status/2113318438798017008",
+        "date": "2026-10-23"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "APF-2026-08-12-252",
+      "APF-2026-08-13-702",
+      "APF-2026-08-27-712",
+      "APF-2026-10-10-684",
+      "APF-2026-10-14-801",
+      "APF-2026-10-15-729"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-23",
+    "detection_timestamp": "2026-10-23T13:53:13.004989+00:00",
+    "last_seen": "2026-10-23",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-23",
+        "url": "https://x.com/mjgranger1/status/2113318438798017008",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
+  },
+  {
+    "id": "APF-2026-10-23-696",
+    "date": "2026-10-23",
+    "country": "South Sudan",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
+    "summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127].",
+    "actors": [
+      "@R47910409"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "date": "2026-10-23"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-09-23-865",
+      "APF-2026-10-06-308",
+      "APF-2026-10-14-149",
+      "APF-2026-10-17-102",
+      "APF-2026-10-18-054",
+      "APF-2026-10-19-703"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'al hijratain'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-10-23",
+    "detection_timestamp": "2026-10-23T13:53:13.004989+00:00",
+    "last_seen": "2026-10-23",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-10-23",
+        "url": "https://x.com/R47910409/status/1988439586213855487",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1
   }
 ]
