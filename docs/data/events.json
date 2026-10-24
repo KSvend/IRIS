@@ -50177,7 +50177,7 @@
     "detected_by": "iris_classify_2026-09-24",
     "detection_timestamp": "2026-09-24T13:53:50.833176+00:00",
     "last_seen": "2026-09-24",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-24",
@@ -50266,7 +50266,7 @@
     "detected_by": "iris_classify_2026-09-24",
     "detection_timestamp": "2026-09-24T13:53:50.833176+00:00",
     "last_seen": "2026-09-24",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-09-24",
@@ -53005,7 +53005,7 @@
     "disinfo_subtype": "propaganda",
     "threat_level": "P2 HIGH",
     "headline": "In the Quran, Islam tells its followers over and over again to perpetrate violence on the Kafir (non-believers): 2:191",
-    "summary": "In the Quran, Islam tells its followers over and over again to perpetrate violence on the Kafir (non-believers): 2:191 \"And kill them wherever you overtake them and expel them from wherever they have expelled you, and fitnah [persecution] is worse th.",
+    "summary": "A social media post on X (Twitter) by @mjgranger1 falsely claims that the Quran repeatedly instructs Muslims to perpetrate violence against non-believers (Kafir), specifically citing verse 2:191. This misinterpretation of religious text promotes religious hatred and contributes to Islamophobic narratives, which could fuel inter-religious tensions.",
     "actors": [
       "@mjgranger1"
     ],
@@ -53072,17 +53072,23 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_original_summary": "In the Quran, Islam tells its followers over and over again to perpetrate violence on the Kafir (non-believers): 2:191 \"And kill them wherever you overtake them and expel them from wherever they have expelled you, and fitnah [persecution] is worse th.",
+    "extracted_claims": [
+      "The Quran repeatedly instructs its followers to perpetrate violence against non-believers (Kafir), citing verse 2:191 as evidence."
+    ],
+    "_review_notes": "This event highlights the spread of religious misinterpretations used to demonize Islam and its followers, which can fuel inter-religious tensions and Islamophobia in the region.",
+    "_reviewed": "2026-10-24T13:08:49.249900+00:00"
   },
   {
     "id": "APF-2026-10-23-696",
     "date": "2026-10-23",
     "country": "South Sudan",
-    "event_type": "DISINFO",
+    "event_type": "CONTEXT",
     "disinfo_subtype": "propaganda",
-    "threat_level": "P2 HIGH",
-    "headline": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
-    "summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127].",
+    "threat_level": "P3 MODERATE",
+    "headline": "Religious quote from Al Imam Ibnul Qayyim about Allah's knowledge",
+    "summary": "A social media post on X (Twitter) by @R47910409 contains a religious quote from Al Imam Ibnul Qayyim about Allah's knowledge. This content appears to be a genuine religious teaching and does not constitute disinformation or a false claim. It seems to be a false positive detection by the monitoring system.",
     "actors": [
       "@R47910409"
     ],
@@ -53149,6 +53155,11 @@
         "reach": {}
       }
     ],
-    "observation_count": 1
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui",
+    "_original_summary": "ALLAH MAHA MENGETAHUI SEGALA SESUATU Al Imam Ibnul Qayyim rahimahullahu Ta'ala berkata: \"Sesungguhnya Allah mengetahui setiap lintasan yang terbetik didalam kalbu (sesamar apapun ia)\" [Thariq al hijratain, 127].",
+    "_review_notes": "This event is a false positive. The content is a religious quote and does not spread false claims or disinformation. It should be excluded from disinformation monitoring.",
+    "_reviewed": "2026-10-24T13:08:49.249925+00:00"
   }
 ]

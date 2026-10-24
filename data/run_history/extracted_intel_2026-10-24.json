@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-24",
+  "extracted_claims": [
+    {
+      "claim": "The Quran repeatedly instructs its followers to perpetrate violence against non-believers (Kafir), citing verse 2:191 as evidence.",
+      "country": "Regional",
+      "actors": [
+        "@mjgranger1"
+      ],
+      "keywords": [
+        "Quran",
+        "violence",
+        "Kafir",
+        "non-believers",
+        "Islam"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Quran violence",
+      "country": "Regional",
+      "reason": "Specific phrase used in the false claim linking Quran to violence."
+    },
+    {
+      "keyword": "Kafir violence",
+      "country": "Regional",
+      "reason": "Specific term used in the false claim to refer to non-believers and associated with violence."
+    },
+    {
+      "keyword": "Islamophobia",
+      "country": "Regional",
+      "reason": "The claim promotes Islamophobia by misrepresenting Islamic teachings."
+    }
+  ],
+  "events_reviewed": 2,
+  "events_reclassified": 1
+}

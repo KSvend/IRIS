@@ -1773,6 +1773,26 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "quran violence",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific phrase used in the false claim linking Quran to violence.",
+          "date_added": "2026-10-24",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "kafir violence",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Specific term used in the false claim to refer to non-believers and associated with violence.",
+          "date_added": "2026-10-24",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
